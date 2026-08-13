@@ -1,0 +1,1412 @@
+{
+  "v": 1,
+  "date": "2026-08-13",
+  "works": [
+    {
+      "id": "met-435809",
+      "source": "met",
+      "sourceId": "435809",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Harvesters",
+      "title_zh": "收割者",
+      "artist_en": "Pieter Bruegel the Elder",
+      "artist_zh": "老彼得·勃鲁盖尔",
+      "artist_id": "pieter-bruegel-the-elder",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1525–1569",
+      "date_display": "1565",
+      "year": 1565,
+      "medium_zh": "橡木板油画",
+      "dimensions": "Overall, including added strips at top, bottom, and right, 46 7/8 x 63 3/4 in. (119 x 162 cm); original painted surface 45 7/8 x 62 7/8 in. (116.5 x 159.5 cm)",
+      "movement_zh": "尼德兰文艺复兴",
+      "tags": [
+        "风俗画",
+        "16世纪",
+        "尼德兰",
+        "风景",
+        "构图",
+        "季节"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+        "ratio": 0.737
+      },
+      "palette": [
+        "#614726",
+        "#b0926a"
+      ],
+      "essay": [
+        "老彼得·勃鲁盖尔是尼德兰文艺复兴的巨匠，首位将农民生活作为独立宏大题材的画家。这幅作于 1565 年的《收割者》是其著名的“季节系列”之一，描绘了夏末秋初的丰收景象。不同于当时流行的宗教画或贵族肖像，勃鲁盖尔将视角彻底下沉，用史诗般的构图记录了普通劳动者的生存状态，确立了风俗画在艺术史中的崇高地位。",
+        "画面右侧前景的大树是构图的锚点，划分了劳作与休憩的两个世界。请看树荫下那位仰面酣睡的农夫——他四肢舒展，姿态毫无修饰，甚至显得有些粗鲁。勃鲁盖尔用极其写实的笔触捕捉了这种极度疲惫后的松弛，与左侧挥汗如雨的收割者形成强烈张力。这种对肢体语言的精准把控，让几百年前的疲惫感穿透画面，直击观者。",
+        "尽管勃鲁盖尔被誉为“农民画家”，但他笔下的田园牧歌并非完全的现实主义。画面中的农民虽然衣着朴素、动作粗犷，但整个场景被笼罩在一种金黄色的和谐光晕中，苦难被审美化了。远处的风景如地图般展开，过于理想化的透视与近处真实的汗水并存。这种矛盾恰恰是勃鲁盖尔的高明之处：他既没有美化劳动的艰辛，也没有陷入对贫穷的廉价同情，而是呈现了一种庄严的生存秩序。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.78,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-438821",
+      "source": "met",
+      "sourceId": "438821",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438821",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Ia Orana Maria (Hail Mary)",
+      "title_zh": "万福玛利亚",
+      "artist_en": "Paul Gauguin",
+      "artist_zh": "保罗·高更",
+      "artist_id": "paul-gauguin",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1848–1903",
+      "date_display": "1891",
+      "year": 1891,
+      "medium_zh": "布面油画",
+      "dimensions": "44 3/4 x 34 1/2 in. (113.7 x 87.6 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "宗教",
+        "塔希提",
+        "19世纪",
+        "色彩",
+        "原始主义"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1025.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
+        "ratio": 1.271
+      },
+      "palette": [
+        "#888469",
+        "#5d5f4c"
+      ],
+      "essay": [
+        "这是高更初抵塔希提后的首幅巨作，标志着他从巴黎的文明世界彻底转向南太平洋的原始幻想。他试图在此构建一种新的宗教图像学，将天主教圣母题材与波利尼西亚土著生活强行嫁接，以此对抗欧洲学院派的陈腐。",
+        "画面右侧的母子形象占据了视觉重心，母亲肩扛婴儿的姿态既像当地习俗，又隐喻着背负十字架的沉重。前景中熟透的芒果与香蕉色彩浓烈，高更用平涂的色块压低了空间深度，让热带植物像装饰图案一样贴在人物身后，强化了画面的平面感与神秘氛围。",
+        "这种文化挪用显得相当生硬：塔希提妇女被描绘成拥有古典雕塑般轮廓的圣女，她们双手合十的姿势显然来自基督教礼仪，而非本土信仰。高更为了营造‘伊甸园’的幻象，刻意抹去了殖民现实的粗砺，把活生生的人变成了他个人神话中的符号。",
+        "尽管存在这种人为的矫饰，画中那种静谧、庄严的秩序感依然具有强大的感染力。高更用色彩构建了一个远离工业喧嚣的避难所，即便这个避难所很大程度上只存在于他的想象之中。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-39901",
+      "source": "met",
+      "sourceId": "39901",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39901",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Night-Shining White",
+      "title_zh": "照夜白",
+      "artist_en": "Han Gan",
+      "artist_zh": "韩干",
+      "artist_id": "han-gan",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详",
+      "date_display": "ca. 750",
+      "year": null,
+      "medium_zh": "纸本水墨手卷",
+      "dimensions": "Image: 12 1/8 x 13 3/8 in. (30.8 x 34 cm)\r\nOverall with mounting: 14 in. x 37 ft. 5 1/8 in. (35.4 cm x 11.4 m)",
+      "movement_zh": "唐代宫廷绘画",
+      "tags": [
+        "动物",
+        "马",
+        "8世纪",
+        "中国",
+        "唐代",
+        "水墨"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP153705.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP153705.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP153705.jpg",
+        "ratio": 0.75
+      },
+      "palette": [
+        "#a48566",
+        "#916f54"
+      ],
+      "essay": [
+        "韩干是盛唐时期宫廷画师，以画马著称。这幅《照夜白》描绘的是唐玄宗李隆基的坐骑，也是现存极少数能确认为唐代原作的纸本水墨画之一。韩干在画马方面独树一帜，其作品展现了马的形态，同时传达了马的精神气质。",
+        "画面中，马匹被系于木桩之上，身体紧绷，四蹄腾跃，仿佛随时要挣脱束缚。韩干用极简的线条勾勒出马的肌肉与动态，尤其是马颈与背部的弧线，充满张力。马的眼神锐利，透露出一种不屈的意志，这种细节处理使得整幅画作充满了生命力。",
+        "尽管此作被历代收藏家珍视，但画面中大量后世题跋与印章已严重干扰了原作的视觉完整性。这些附加物虽然增加了作品的历史价值，却在一定程度上削弱了韩干笔下那匹桀骜不驯的骏马本来的气势。若剥离这些附加物，或许更能体会原作的纯粹与力量。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437654",
+      "source": "met",
+      "sourceId": "437654",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437654",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Circus Sideshow (Parade de cirque)",
+      "title_zh": "马戏团的旁侧",
+      "artist_en": "Georges Seurat",
+      "artist_zh": "乔治·修拉",
+      "artist_id": "georges-seurat",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1859–1891",
+      "date_display": "1887–88",
+      "year": 1887,
+      "medium_zh": "布面油画",
+      "dimensions": "39 1/4 x 59 in. (99.7 x 149.9 cm)",
+      "movement_zh": "新印象派",
+      "tags": [
+        "风俗画",
+        "夜景",
+        "19世纪",
+        "法国",
+        "点彩"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+        "ratio": 0.668
+      },
+      "palette": [
+        "#60524e",
+        "#3c343b"
+      ],
+      "essay": [
+        "作为新印象派的理论奠基人，修拉试图用科学的光学原理重塑绘画。这幅作于 1887 至 1888 年的《马戏团的旁侧》，是他少有的夜景题材，也是点彩技法在低照度环境下的极限实验。不同于《大碗岛的星期天下午》那种午后的明亮秩序，这里展现的是巴黎街头夜晚的迷离与疏离。",
+        "画面最精彩之处在于对人造光源的处理。请注意长号手身后的煤气灯，修拉没有使用传统的晕染，而是用高饱和度的橙黄与冷调的蓝紫并置，通过视网膜混合产生颤动的辉光。这种严谨到近乎偏执的色点排列，让原本喧闹的马戏团招徕现场，呈现出一种奇异的静止感。",
+        "然而，这种极致的理性也带来了代价。为了维持色调的绝对和谐，画中人物的面部表情被简化为面具般的模糊，乐手与观众仿佛失去了体温，沦为构图的零件。修拉用科学消解了烟火气，让这幅风俗画看起来更像是一场发生在真空中的无声默剧。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-436105",
+      "source": "met",
+      "sourceId": "436105",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Death of Socrates",
+      "title_zh": "苏格拉底之死",
+      "artist_en": "Jacques Louis David",
+      "artist_zh": "雅克-路易·大卫",
+      "artist_id": "jacques-louis-david",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1748–1825",
+      "date_display": "1787",
+      "year": 1787,
+      "medium_zh": "布面油画",
+      "dimensions": "51 x 77 1/4 in. (129.5 x 196.2 cm)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "历史画",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "戏剧性",
+        "哲学"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+        "ratio": 0.666
+      },
+      "palette": [
+        "#1d1711",
+        "#413222"
+      ],
+      "essay": [
+        "作为新古典主义的奠基之作，这幅画确立了大卫在法国大革命前夕的画坛领袖地位。他借古喻今，将苏格拉底从容赴死塑造为理性与道德的终极象征。这是画家个人风格的成熟宣言，也是一份向旧制度宣战的政治檄文，试图用古典的严谨秩序唤醒当时的公民精神。",
+        "画面最震撼之处在于光线对苏格拉底躯体的塑造——冷峻的侧光如雕塑刀般刻画出他紧致的肌肉与苍老的皮肤，与周围弟子瘫软、扭曲的肢体形成强烈反差。注意他那只指向天空的手指，姿态坚定有力，与即将接过毒酒的手形成张力，这种几何般的构图秩序，强行压制了死亡现场本该有的混乱与悲恸。",
+        "然而，这种极度的理性克制也暴露了画家的局限。为了追求古典美的理想化，苏格拉底被描绘成拥有健美体魄的运动员，完全抹去了历史上他其貌不扬甚至丑陋的真实面貌。这种为了道德说教而牺牲历史真实的处理，让这位哲人看起来更像是一位摆好姿势的希腊神祇，少了几分凡人的血肉感。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.48,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435876",
+      "source": "met",
+      "sourceId": "435876",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435876",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
+      "title_zh": "穿红裙的塞尚夫人",
+      "artist_en": "Paul Cézanne",
+      "artist_zh": "保罗·塞尚",
+      "artist_id": "paul-cezanne",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1839–1906",
+      "date_display": "1888–90",
+      "year": 1888,
+      "medium_zh": "布面油画",
+      "dimensions": "45 7/8 × 35 1/4 in. (116.5 × 89.5 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "色彩",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP320128.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+        "ratio": 1.303
+      },
+      "palette": [
+        "#403836",
+        "#585b52"
+      ],
+      "essay": [
+        "作为后印象派的奠基人，塞尚致力于用色彩构建体积与空间。这幅作于 1888 至 1890 年间的肖像，是他为妻子奥尔唐斯绘制的二十余幅作品之一。不同于早期阴郁的色调，此时他已确立起通过冷暖色块并置来塑造形体的成熟语汇。",
+        "画面最耐看的是人物面部的处理——塞尚放弃了传统的明暗晕染，改用细碎的笔触堆叠出结构。注意看颧骨与鼻梁处，冷峻的蓝绿阴影与暖红的受光面直接碰撞，这种看似生硬的拼接，实则是为了在二维平面上模拟出雕塑般的坚实感。",
+        "尽管塞尚追求形式的永恒，但这幅画却暴露了他对模特的复杂情感。奥尔唐斯坐姿僵硬，神情冷漠疏离，仿佛只是静物般的存在。这种缺乏温情的描绘，或许正是画家在艺术理性与家庭现实之间难以调和的矛盾投射。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.32,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436658",
+      "source": "met",
+      "sourceId": "436658",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436658",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Hermann von Wedigh III (died 1560)",
+      "title_zh": "赫尔曼·冯·韦迪希三世肖像",
+      "artist_en": "Hans Holbein the Younger",
+      "artist_zh": "汉斯·荷尔拜因",
+      "artist_id": "hans-holbein-the-younger",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1497–1543",
+      "date_display": "1532",
+      "year": 1532,
+      "medium_zh": "橡木板油画与金箔",
+      "dimensions": "16 5/8 x 12 3/4 in. (42.2 x 32.4 cm), with added strip of 1/2 in. (1.3 cm) at bottom",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "商人"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP164836.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
+        "ratio": 1.302
+      },
+      "palette": [
+        "#1b1b1a",
+        "#324c4d"
+      ],
+      "essay": [
+        "作为北方文艺复兴的巅峰人物，荷尔拜因在 1532 年重返伦敦后，迅速成为当地富商与权贵的首选画师。这幅作于其风格成熟期的肖像，记录了韦迪希家族成员的容貌，确立了当时新兴资产阶级通过艺术确立社会地位的视觉范式。",
+        "画面最耐看之处在于对物质质感的极致还原。请看那件黑色天鹅绒外套——荷尔拜因没有使用简单的平涂，而是用极细的笔触堆叠出织物受光后的微妙起伏。这种深沉的黑色与背景纯净的群青形成强烈反差，迫使观者将视线聚焦于人物冷峻而精确的面部轮廓。",
+        "然而，这种极度的写实背后隐藏着一种刻意的疏离。画中人手握账本与戒指，意在炫耀财富与诚信，但那双眼睛虽然直视观众，却缺乏情感交流，仿佛是一尊完美的蜡像。荷尔拜因为了追求客观的‘真’，往往牺牲了人物内在的‘热’，让观者在赞叹技法时感到一丝寒意。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-39668",
+      "source": "met",
+      "sourceId": "39668",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39668",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Old Trees, Level Distance",
+      "title_zh": "树色平远图",
+      "artist_en": "Guo Xi",
+      "artist_zh": "郭熙",
+      "artist_id": "guo-xi",
+      "artist_nationality_zh": "中国",
+      "artist_years": "约 1000–约 1090",
+      "date_display": "ca. 1080",
+      "year": 1080,
+      "medium_zh": "绢本水墨设色手卷",
+      "dimensions": "Image: 14 × 41 1/8 in. (35.6 × 104.4 cm)\r\nOverall with mounting: 14 3/4 in. × 28 ft. 1/8 in. (37.5 × 853.8 cm)",
+      "movement_zh": "北宋山水画",
+      "tags": [
+        "风景",
+        "11世纪",
+        "中国",
+        "水墨",
+        "宋代",
+        "手卷"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP167812_CRD.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP167812_CRD.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP167812_CRD.jpg",
+        "ratio": 0.533
+      },
+      "palette": [
+        "#7c6650",
+        "#a98963"
+      ],
+      "essay": [
+        "郭熙是北宋山水画的集大成者，其理论著作《林泉高致》奠定了中国山水画的美学基石。此作虽无年款，但被公认为其晚年风格的典范，展现了从早期险峻奇峭向晚年平淡天真的转变。",
+        "画卷起首处，几株老树盘根错节，枝干如蟹爪般向四周伸展，这是郭熙标志性的笔法。树后隐约可见一座楼阁，与前景的岩石形成虚实对比。墨色在绢本上层层晕染，营造出深秋萧瑟而深远的空气感。",
+        "这种极致的‘平远’构图，刻意压低了视平线，让观者仿佛置身于河岸低处仰望。虽然意境高远，但画面中人物与建筑的比例略显微小，几乎成为点缀，这种对‘无人之境’的过度追求，某种程度上削弱了山水与人互动的叙事性。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-437056",
+      "source": "met",
+      "sourceId": "437056",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437056",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456)",
+      "title_zh": "托马索·迪·福尔科·波提纳里与玛丽亚·波提纳里肖像",
+      "artist_en": "Hans Memling",
+      "artist_zh": "汉斯·梅姆林",
+      "artist_id": "hans-memling",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1430–1494",
+      "date_display": "ca. 1470",
+      "year": 1470,
+      "medium_zh": "橡木板油画",
+      "dimensions": "(.626, Tommaso) overall 17 3/8 x 13 1/4 in. (44.1 x 33.7 cm), painted surface 16 5/8 x 12 1/2 in. (42.2 x 31.8 cm); (.627, Maria) overall 17 3/8 x 13 3/8 in. (44.1 x 34 cm); painted surface 16 5/8 x 12 5/8 in. (42.2 x 32.1 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "尼德兰",
+        "文艺复兴",
+        "双联画",
+        "佛兰德斯"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44362-005.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-44362-005.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44362-005.jpg",
+        "ratio": 0.654
+      },
+      "palette": [
+        "#0f0c0b",
+        "#564535"
+      ],
+      "essay": [
+        "汉斯·梅姆林是 15 世纪佛兰德斯画派的代表人物，以细腻的心理刻画和静谧的构图著称。这组双联画创作于 1470 年左右，描绘了意大利银行家托马索·波提纳里及其妻子玛丽亚。作为当时布鲁日最显赫的外国侨民，波提纳里夫妇委托梅姆林绘制肖像，既是对个人身份的彰显，也是对北方绘画精湛技艺的认可。",
+        "画面中，托马索双手合十，神情庄重，黑色长袍衬托出他沉稳的性格；玛丽亚则佩戴着精致的珠宝项链，头纱轻柔地垂落，展现出贵族女性的优雅与端庄。梅姆林对细节的处理极为考究，尤其是玛丽亚颈部的珠宝和头纱的质感，通过细腻的笔触和光影变化，呈现出近乎真实的触感。",
+        "然而，这种理想化的表现也带来了一定的矛盾。玛丽亚的面容过于完美，缺乏真实生活中的瑕疵，仿佛是一位被美化了的贵族女性，而非真实的个体。这种理想化与现实之间的张力，正是梅姆林作品中的一大特点，既展现了他对美的追求，也反映了当时社会对贵族形象的期待。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.45,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-436282",
+      "source": "met",
+      "sourceId": "436282",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436282",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Crucifixion; The Last Judgment",
+      "title_zh": "受难与最后的审判",
+      "artist_en": "Jan van Eyck",
+      "artist_zh": "扬·凡·艾克",
+      "artist_id": "jan-van-eyck",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1390–1441",
+      "date_display": "ca. 1436–38",
+      "year": 1436,
+      "medium_zh": "木板油画（后转绘于画布）",
+      "dimensions": "Each 22 1/4 x 7 2/3 in. (56.5 x 19.7 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "双联画",
+        "光影"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/LC-33_92ab-Primary_Temp.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+        "ratio": 1.197
+      },
+      "palette": [
+        "#483027",
+        "#755646"
+      ],
+      "essay": [
+        "扬·凡·艾克是早期尼德兰画派的奠基人，以精细入微的写实技法著称。这幅双联画创作于 1436-1438 年，是其晚期代表作之一，展现了他在宗教题材上的深厚造诣。",
+        "画面左侧描绘了耶稣受难的场景，右侧则是最后的审判。左侧的细节尤为精彩，尤其是前景中人物的服饰和表情，细腻入微。右侧上方的天使群像和下方的地狱景象形成了鲜明的对比，光影处理极为出色。",
+        "尽管凡·艾克的技法令人赞叹，但画面中的人物形象略显理想化，尤其是受难场景中的耶稣，其面容过于平静，缺乏痛苦的表现。这种理想化的处理方式，反映了当时宗教艺术的一种普遍倾向。",
+        "总体而言，这幅作品不仅是凡·艾克技法的展示，也是他对宗教主题的深刻思考。通过细腻的笔触和光影的运用，凡·艾克成功地将宗教故事呈现得栩栩如生，使观者仿佛置身于那个神圣的时刻。"
+      ],
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-435851",
+      "source": "met",
+      "sourceId": "435851",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435851",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Meditation on the Passion",
+      "title_zh": "受难沉思",
+      "artist_en": "Vittore Carpaccio",
+      "artist_zh": "维托雷·卡尔帕乔",
+      "artist_id": "vittore-carpaccio",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1465–1526",
+      "date_display": "ca. 1490",
+      "year": 1490,
+      "medium_zh": "木板油画与蛋彩",
+      "dimensions": "Overall 27 3/4 x 34 1/8in. (70.5 x 86.7cm); painted surface 26 3/16 × 33 1/4 in. (66.5 × 84.5 cm)",
+      "movement_zh": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "威尼斯",
+        "叙事",
+        "圣经故事"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP296427.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
+        "ratio": 0.815
+      },
+      "palette": [
+        "#392e25",
+        "#5f5749"
+      ],
+      "essay": [
+        "维托雷·卡尔帕乔是威尼斯画派叙事传统的集大成者，以宏大的场景描绘和戏剧性的光影处理著称。这幅《受难沉思》创作于 1490 年左右，处于他艺术生涯的早期阶段，展现了他在处理复杂宗教题材时的独特视角。",
+        "画面中央的基督形象尤为引人注目，他坐在石座上，身体微微前倾，表情凝重而深沉。左侧的老者身着蓝袍，右手轻抚胸口，似乎在沉思或祈祷；右侧的老者则手持骷髅，象征着死亡与救赎的主题。背景中的废墟和远处的山峦，通过细腻的笔触和层次分明的色彩，营造出一种荒凉而神秘的氛围。",
+        "尽管卡尔帕乔在构图和细节处理上表现出色，但人物的表情略显僵硬，缺乏情感的深度。这种理想化的表现手法，虽然符合当时宗教绘画的传统，却使得画面在情感传达上稍显不足。然而，这种矛盾也反映了艺术家在追求形式美与情感表达之间的平衡尝试。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.4,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-36131",
+      "source": "met",
+      "sourceId": "36131",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/36131",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Landscapes with poems",
+      "title_zh": "山水册页",
+      "artist_en": "Gong Xian",
+      "artist_zh": "龚贤",
+      "artist_id": "gong-xian",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1618–1689",
+      "date_display": "1688",
+      "year": 1688,
+      "medium_zh": "纸本水墨",
+      "dimensions": "10 3/4 x 16 1/8 in. (27.3 x 41 cm)",
+      "movement_zh": "金陵八家",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "清代",
+        "金陵"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/1981_4_1a.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/1981_4_1a.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/1981_4_1a.jpg",
+        "ratio": 0.692
+      },
+      "palette": [
+        "#ddc7ab",
+        "#826f60"
+      ],
+      "essay": [
+        "龚贤是清初“金陵八家”之首，以独创的“积墨法”著称。此作出自其晚年册页，代表了他在山水画上的最高成就。不同于当时主流的“四王”摹古风气，龚贤主张师法自然，将江南实景与个人心境结合，开创了沉郁苍润的独特面貌。",
+        "画面最精彩处在于左侧山石的墨色处理——龚贤不厌其烦地层层积染，使岩石呈现出如铁铸般的厚重质感与体积感。这种“黑龚”风格在局部放大后尤为明显：墨色虽黑却透气，笔触在反复叠加中保留了呼吸的缝隙，营造出雨后山林湿润深邃的氛围。",
+        "这种极致的墨法追求也带来了视觉上的压迫感。整幅画面黑白对比强烈，大面积的浓墨占据了主导地位，留白仅用于表现云雾与屋舍。这种处理方式虽强化了画面的戏剧性，却也牺牲了传统文人画所推崇的空灵与疏朗，显得过于沉重。",
+        "尽管如此，龚贤对光影与质感的探索在当时极具前瞻性。他笔下的山水不再是概念的堆砌，而是可居可游的真实空间。这种对自然观察的诚实态度，使他在清初画坛独树一帜。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-438815",
+      "source": "met",
+      "sourceId": "438815",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438815",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Madame Georges Charpentier (Marguerite-Louise Lemonnier, 1848–1904) and Her Children, Georgette-Berthe (1872–1945) and Paul-Emile-Charles (1875–1895)",
+      "title_zh": "夏庞蒂埃夫人和她的孩子们",
+      "artist_en": "Auguste Renoir",
+      "artist_zh": "皮埃尔-奥古斯特·雷诺阿",
+      "artist_id": "auguste-renoir",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1841–1919",
+      "date_display": "1878",
+      "year": 1878,
+      "medium_zh": "布面油画",
+      "dimensions": "60 1/2 x 74 7/8 in. (153.7 x 190.2 cm)",
+      "movement_zh": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "家庭"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-35674-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+        "ratio": 0.813
+      },
+      "palette": [
+        "#7a745f",
+        "#2a2723"
+      ],
+      "essay": [
+        "这是雷诺阿职业生涯的转折点。1878 年，他刚结束意大利之行，正试图在印象派的松散笔触与沙龙认可的严谨构图之间寻找平衡。这幅受巴黎出版商夏庞蒂埃夫人委托的巨幅肖像，确立了他在上流社会的地位，标志着他从纯粹的户外光影实验，转向对室内复杂光线与人物心理的深层探索。",
+        "画面最精彩之处在于对黑色丝绒的处理。请看夏庞蒂埃夫人的裙摆——雷诺阿没有使用死黑，而是用深蓝、深紫甚至墨绿的碎笔触堆叠出织物的厚度与光泽。这种画法既保留了印象派笔触的呼吸感，又精准地表现了高级定制礼服的垂坠质感，与孩子们身上轻盈的蓝白棉布形成强烈的材质对比。",
+        "但这幅画也暴露了雷诺阿当时的妥协。为了讨好沙龙评委，他刻意收敛了笔触的狂放，背景中那些原本可能更抽象的装饰细节被处理得相对具象。那只趴在地上的纽芬兰犬虽然画得生动，却略显刻意地充当了连接母亲与孩子的构图工具，少了几分他在纯粹风景画中那种无拘无束的灵气。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-145422",
+      "source": "cma",
+      "sourceId": "145422",
+      "sourceUrl": "https://clevelandart.org/art/1970.71.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Puppies, Sparrows, and Chrysanthemums",
+      "title_zh": "菊丛雀犬图",
+      "artist_en": "Nagasawa Rosetsu (Japanese, 1754–1799)",
+      "artist_zh": "长泽芦雪",
+      "artist_id": "nagasawa-rosetsu-japanese-1754-1799",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1754–1799",
+      "date_display": "c. 1792–94",
+      "year": 1792,
+      "medium_zh": "纸本水墨淡彩（原为袄绘，后改装为挂轴）",
+      "dimensions": "Overall: 211.4 x 94 cm (83 1/4 x 37 in.); Painted surface: 167.6 x 91.5 cm (66 x 36 in.)",
+      "movement_zh": "圆山四条派",
+      "tags": [
+        "动物",
+        "花鸟",
+        "18世纪",
+        "日本",
+        "水墨",
+        "写生"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1970.71.2/1970.71.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1970.71.2/1970.71.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1970.71.2/1970.71.2_web.jpg",
+        "ratio": 1.826
+      },
+      "palette": [
+        "#d3c4b1",
+        "#bead99"
+      ],
+      "essay": [
+        "长泽芦雪是圆山应举的高徒，也是四条派写实风格的奠基人之一。这幅作于 1790 年代中期的作品，典型地体现了他「写生」的艺术主张。不同于当时占据主流的狩野派程式化画法，芦雪坚持对自然物象进行直接观察与描绘，将原本用于装饰建筑的袄绘题材，提升为具有独立审美价值的挂轴画作。",
+        "画面右下角的两只幼犬是绝对的视觉重心。芦雪用没骨法（不勾勒轮廓线）直接以墨块晕染出狗的身体，仅用极细的笔触点出眼神与鼻头。这种处理让皮毛呈现出蓬松柔软的质感，尤其是那只回首张望的小狗，眼神中透出的警觉与好奇，被捕捉得惟妙惟肖。",
+        "然而，若以严格的透视法审视，画面左侧的菊花枝条与麻雀的分布略显拥挤，空间纵深感让位于平面装饰性。这或许是受限于原本作为拉门（袄）的装饰功能，必须照顾远观的视觉效果而牺牲了部分写实逻辑。但这并不妨碍它成为江户时代花鸟画的杰作。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.78,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-436607",
+      "source": "met",
+      "sourceId": "436607",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436607",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "An Allegory",
+      "title_zh": "寓言",
+      "artist_en": "Domenico Guidobono",
+      "artist_zh": "多梅尼科·吉多博诺",
+      "artist_id": "domenico-guidobono",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1668–1746",
+      "date_display": "1710–20",
+      "year": 1710,
+      "medium_zh": "布面油画",
+      "dimensions": "56 3/4 x 92 1/4 in. (144.1 x 234.3 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "寓言",
+        "神话",
+        "18世纪",
+        "意大利",
+        "热那亚画派"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/EP542.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/EP542.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/EP542.jpg",
+        "ratio": 0.627
+      },
+      "palette": [
+        "#393233",
+        "#8e7e75"
+      ],
+      "essay": [
+        "多梅尼科·吉多博诺是热那亚画派晚期巴洛克的重要人物，以装饰性壁画和神话题材闻名。这幅作于 1710 至 1720 年间的巨幅油画，展示了他将神话叙事与静物细节结合的典型手法。画面中的女性形象并非具体的历史人物，而是某种抽象概念的拟人化，这种寓言形式在当时的贵族厅堂装饰中极受欢迎。",
+        "画面最耐看的是右侧女子手中的书本与羽毛笔——这是典型的「智慧」或「缪斯」符号。吉多博诺处理红袍褶皱的笔触相当松弛，与左侧女孩僵硬的面部表情形成反差。注意看女子裸露的肩头与手臂，那种如瓷器般光滑的质感，是当时热那亚画家模仿鲁本斯风格的痕迹，但少了一份肉体的重量感。",
+        "这幅画在构图上略显拥挤：左侧的女孩、狗、猫与右侧的女子、书本、猎物挤在同一个平面，缺乏明确的空间纵深。吉多博诺似乎更在意堆砌象征符号（鹰、蛇、骷髅、猎物），而非营造真实的场景逻辑。这种「符号清单」式的画法，让作品更像一本图解手册，而非有机的视觉叙事。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.42,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437925",
+      "source": "met",
+      "sourceId": "437925",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437925",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The French Comedians",
+      "title_zh": "法国喜剧演员",
+      "artist_en": "Antoine Watteau",
+      "artist_zh": "安托万·华托",
+      "artist_id": "antoine-watteau",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1684–1721",
+      "date_display": "ca. 1720",
+      "year": 1720,
+      "medium_zh": "布面油画",
+      "dimensions": "22 1/2 x 28 3/4 in. (57.2 x 73 cm)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "戏剧",
+        "群像",
+        "18世纪",
+        "法国",
+        "喜剧"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120381.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP120381.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120381.jpg",
+        "ratio": 0.795
+      },
+      "palette": [
+        "#4f4337",
+        "#7d746d"
+      ],
+      "essay": [
+        "华托是洛可可风格的先驱，以描绘贵族游乐的“雅宴画”闻名。这幅作于他生命最后阶段的作品，将视线从田园牧歌转向了舞台后台。它不仅是戏剧场景的记录，更被视为画家对自己艺术生涯的某种隐喻——人生如戏，演员在幕间休息时的状态往往比表演本身更耐人寻味。",
+        "画面中央的丑角（Pierrot）是视觉焦点，他身着标志性的宽大白衣，神情却显出一种罕见的落寞与疏离。请注意他衣褶的处理：华托用极薄的油彩层层罩染，营造出丝绸般轻盈且带有微光的质感。这种“华托式”的笔触让衣物仿佛随着呼吸起伏，与周围人物僵硬的姿态形成微妙对比。",
+        "尽管华托擅长捕捉欢愉，但这幅画却透着一股挥之不去的忧郁。右侧人物面容模糊，仿佛正在消融于背景之中，暗示了喜剧面具下的虚无。这种对“热闹中的孤独”的刻画，或许源于画家当时日益恶化的健康状况，让原本轻浮的洛可可题材多了一层沉重的心理深度。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-437878",
+      "source": "met",
+      "sourceId": "437878",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437878",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "A Maid Asleep",
+      "title_zh": "沉睡的女仆",
+      "artist_en": "Johannes Vermeer",
+      "artist_zh": "约翰内斯·维米尔",
+      "artist_id": "johannes-vermeer",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1632–1675",
+      "date_display": "ca. 1656–57",
+      "year": 1656,
+      "medium_zh": "布面油画",
+      "dimensions": "34 1/2 x 30 1/8 in. (87.6 x 76.5 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "荷兰",
+        "光影",
+        "室内",
+        "静物"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP355525.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+        "ratio": 1.147
+      },
+      "palette": [
+        "#19120f",
+        "#493529"
+      ],
+      "essay": [
+        "这是维米尔早期风俗画的代表作，标志着他从历史题材向室内日常场景的转型。此时他尚未完全掌握后期那种如珍珠般温润的漫射光，但已显露出对静谧时刻的敏锐捕捉力。",
+        "画面左侧的光源处理得相当克制，光线在女仆前额与白领巾上形成柔和的高光。前景那块繁复的东方地毯是视觉重心，其红蓝交织的纹样与粗糙的织物肌理，在暗部中依然层次分明。",
+        "这种构图略显拥挤，前景的静物堆叠有些刻意，似乎是为了展示画家的写实技巧而强行入画。女仆的姿态虽自然，但面部表情略显呆板，缺乏后期作品中人物那种微妙的心理深度。",
+        "尽管如此，画中那种让时间凝固的静谧感，已初具维米尔式的魔力。这种对日常瞬间的提炼，预示了他未来在《倒牛奶的女仆》等杰作中达到的巅峰，即在最平凡的角落发现永恒的秩序。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-39895",
+      "source": "met",
+      "sourceId": "39895",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39895",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Classic of Filial Piety",
+      "title_zh": "孝经图",
+      "artist_en": "Li Gonglin",
+      "artist_zh": "李公麟",
+      "artist_id": "li-gonglin",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1049–1106",
+      "date_display": "ca. 1085",
+      "year": 1085,
+      "medium_zh": "绢本设色手卷",
+      "dimensions": "Overall (a, painting): 8 5/8 x 187 1/4 in. (21.9 x 475.6 cm)\r\nOverall (b, colophons): 10 3/8 x 208 5/8 in. (26.4 x 529.9 cm)\r\nOverall (c, modern copy preserving seventeenth century silk restorations): 9 1/8 x 196 in. (23.2 x 497.8 cm)",
+      "movement_zh": "文人画",
+      "tags": [
+        "人物",
+        "儒家",
+        "宋代",
+        "叙事画",
+        "白描"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP151528.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP151528.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP151528.jpg",
+        "ratio": 1.224
+      },
+      "palette": [
+        "#74583d",
+        "#8c704f"
+      ],
+      "essay": [
+        "李公麟是北宋文人画的标杆，他将“白描”从草稿提升为独立画科。此作《孝经图》虽未必全出其亲笔，但精准呈现了他确立的“不施丹青而光彩动人”的审美标准。在宋代画院追求富丽精工的风气下，这种以线造型、重意轻色的尝试，标志着士大夫阶层对绘画话语权的掌控。",
+        "画面采用高古游丝描，线条细劲连绵，如春蚕吐丝。请看局部中侍者衣纹的转折，笔锋在丝绸纹理上运行，既交代了肢体结构，又保持了线条本身的书法韵律。这种处理让衣物显得轻薄透气，人物姿态在静止中暗含流动感，是典型的“吴带当风”遗韵。",
+        "作为教化题材，画中人物神情过于端庄克制，缺乏生活气息。尤其是高台上的长者，面容程式化，更像是一个道德符号而非有血肉的祖父。这种为了维持“古意”而牺牲个性表情的做法，是早期文人叙事画难以回避的短板，让观者在敬重之余难生亲近。",
+        "尽管有说教之嫌，但李公麟成功地将儒家经典视觉化，让文字伦理变成了可观看的空间秩序。这种图式后来成为历代描绘圣贤故事的范本，其影响力远超技法本身。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.38,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436283",
+      "source": "met",
+      "sourceId": "436283",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436283",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Virgin and Child in a Niche",
+      "title_zh": "壁龛中的圣母与圣子",
+      "artist_en": "Jan van Eyck",
+      "artist_zh": "扬·凡·艾克",
+      "artist_id": "jan-van-eyck",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1390–1441",
+      "date_display": "ca. 1440–50",
+      "year": 1440,
+      "medium_zh": "木板油画",
+      "dimensions": "23 x 12 1/8 in. (58.4 x 30.8 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "圣母像",
+        "哥特式"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1484.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1484.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1484.jpg",
+        "ratio": 1.863
+      },
+      "palette": [
+        "#522c18",
+        "#88765a"
+      ],
+      "essay": [
+        "扬·凡·艾克是早期尼德兰画派的奠基人，也是油画技法的革新者。这幅《壁龛中的圣母与圣子》创作于其晚年，虽尺幅不大，却浓缩了画家对空间与质感的极致追求。在艺术史上，它代表了北方文艺复兴从国际哥特式向写实主义过渡的关键节点。",
+        "画面最精彩之处在于对物质世界的微观再现。请看圣母红袍的褶皱处理——画家利用多层罩染，让红色呈现出从深红到朱红的微妙过渡，厚重织物的垂坠感触手可及。这种对光影与材质的精准捕捉，正是凡·艾克区别于同时代意大利画家的核心特质。",
+        "然而，这幅画也暴露了当时宗教题材的某种局限。圣母的面容过于理想化，皮肤光洁如玉，完全抹去了凡人的肌理与瑕疵；她身处华丽的哥特式壁龛中，却缺乏真实的空间进深感，更像是一个被精心摆放的圣像，而非有血有肉的母亲。",
+        "尽管如此，凡·艾克对细节的执着仍令人叹服。他让神圣题材落地为可触摸的现实，这种‘以真显圣’的手法，深刻影响了后世北方绘画的发展路径。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.6,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-53439",
+      "source": "met",
+      "sourceId": "53439",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/53439",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Women on a Bridge Tossing Fans into a River",
+      "title_zh": "桥上抛扇图屏风",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "日本",
+      "artist_years": "不详",
+      "date_display": "early 17th century",
+      "year": null,
+      "medium_zh": "纸本金地设色六曲屏风",
+      "dimensions": "Image: 60 1/4 in. × 11 ft. 7 13/16 in. (153 × 355.2 cm)\r\nOverall: 66 3/4 in. × 12 ft. 2 1/8 in. (169.5 × 371.2 cm)",
+      "movement_zh": "琳派",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "日本",
+        "金地屏风",
+        "游女",
+        "吉原"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP704960.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP704960.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP704960.jpg",
+        "ratio": 0.467
+      },
+      "palette": [
+        "#5a4d44",
+        "#a68355"
+      ],
+      "essay": [
+        "这幅屏风出自江户初期，虽无署名，但其构图与装饰趣味带有鲜明的琳派风格。它并非单纯的风景记录，而是对当时吉原游廓（红灯区）风俗的戏剧化呈现。画面将现实中的游女与虚构的贵族生活并置，反映了江户市民阶层对奢华与享乐的向往。",
+        "最精彩之处在于对金箔的大胆运用与空间切割。深蓝色的河水如墨染般厚重，与大面积的金地形成强烈反差。请看画面中央，游女们站在桥上，将折扇抛入水中——这一动作被处理得极具仪式感。扇面散落在深色水面上，如同漂浮的金色岛屿，既打破了水面的沉闷，又暗示了金钱如流水般挥霍的隐喻。",
+        "然而，这种极尽奢华的描绘也暴露了画家的局限。人物面部几乎千篇一律，缺乏个性刻画，仿佛只是穿着华服的符号。这种“千人一面”的处理，虽符合当时装饰画的审美习惯，却牺牲了叙事深度。画家更在意画面的平面构成与装饰效果，而非人物的真实情感，这使得作品在视觉上华丽，却在情感上略显空洞。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436529",
+      "source": "met",
+      "sourceId": "436529",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436529",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "L'Arlésienne: Madame Joseph-Michel Ginoux (Marie Julien, 1848–1911)",
+      "title_zh": "阿尔勒女子：约瑟夫 - 米歇尔·吉努夫人",
+      "artist_en": "Vincent van Gogh",
+      "artist_zh": "文森特·梵高",
+      "artist_id": "vincent-van-gogh",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1853–1890",
+      "date_display": "1888–89",
+      "year": 1888,
+      "medium_zh": "布面油画",
+      "dimensions": "36 × 29 in. (91.4 × 73.7 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "阿尔勒",
+        "女性",
+        "书籍"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1396.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1396.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1396.jpg",
+        "ratio": 1.258
+      },
+      "palette": [
+        "#d0bb54",
+        "#524d33"
+      ],
+      "essay": [
+        "这是梵高在阿尔勒时期的重要肖像习作，描绘了当地咖啡馆老板娘吉努夫人。他在短短几个月内为同一对象创作了多幅变体，试图通过反复描绘来捕捉人物的神韵，这反映了他对人物画深度的执着追求。",
+        "画面最引人注目的是那片几乎要溢出来的柠檬黄背景，梵高用短促、密集的笔触堆叠出一种震颤的质感。这种高饱和度的色彩并非写实，而是为了衬托人物深蓝色的衣着与苍白的面容，制造出强烈的视觉张力。",
+        "尽管色彩极具表现力，人物的面部刻画却显得有些僵硬和面具化。吉努夫人低垂的眼帘和托腮的姿态流露出一种疲惫甚至忧郁，但这或许更多是画家内心孤独的投射，而非模特真实的性格写照。",
+        "桌上的书本暗示了对象的文化修养，也平衡了画面的构图。这幅作品是对外貌的记录，也是梵高试图在南方烈日下寻找色彩秩序的一次实验。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-337497",
+      "source": "met",
+      "sourceId": "337497",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/337497",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso)",
+      "title_zh": "利比亚女先知习作（正面）；利比亚女先知习作及坐姿人物小稿（背面）",
+      "artist_en": "Michelangelo Buonarroti",
+      "artist_zh": "米开朗基罗·博纳罗蒂",
+      "artist_id": "michelangelo-buonarroti",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1475–1564",
+      "date_display": "ca. 1510–11",
+      "year": 1510,
+      "medium_zh": "红粉笔，辅以白粉笔点缀",
+      "dimensions": "Sheet: 11 3/8 × 8 7/16 in. (28.9 × 21.4 cm)\r\nFramed: 21 × 16 in. (53.3 × 40.6 cm)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "素描",
+        "人体",
+        "16世纪",
+        "意大利",
+        "西斯廷天顶画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826907.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP826907.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826907.jpg",
+        "ratio": 1.357
+      },
+      "palette": [
+        "#d7bc99",
+        "#c79c7a"
+      ],
+      "essay": [
+        "这是米开朗基罗为西斯廷礼拜堂天顶画《利比亚女先知》所作的预备习作。作为文艺复兴盛期的巅峰人物，米开朗基罗将素描视为雕塑与绘画的基石。此作处于他创作力最旺盛的阶段，展示了他在动笔绘制湿壁画前，如何通过纸面推敲人体结构与动态张力。",
+        "画面核心是一个呈剧烈扭转姿态的裸体男性模特。米开朗基罗利用红粉笔的侧锋，在背部与手臂塑造出如大理石般坚硬的肌肉体积。右肩胛骨处的排线顺着肌肉走向层层叠加，既交代了骨骼起伏，又赋予了皮肤下血液流动的温热感。",
+        "然而，这种对解剖学的极致追求也带来了某种僵化感。模特的肌肉被刻意夸张，仿佛每一块都在用力紧绷，缺乏真实人体在松弛状态下的自然呼吸。这种“过度完美”的肌肉展示，是米开朗基罗风格化倾向的典型体现，虽震撼却略显刻意。",
+        "左下角的侧面头像习作则展现了另一种敏锐。寥寥数笔勾勒出鼻梁与下巴的轮廓，线条果断且肯定。这种在宏大构图间隙中流露出的速写式灵动，反而比主体人物更接近画家手脑合一的真实瞬间。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.38,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-337500",
+      "source": "met",
+      "sourceId": "337500",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/337500",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Lady Lilith",
+      "title_zh": "莉莉丝夫人",
+      "artist_en": "Dante Gabriel Rossetti",
+      "artist_zh": "但丁·加百利·罗塞蒂",
+      "artist_id": "dante-gabriel-rossetti",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1828–1882",
+      "date_display": "1867",
+      "year": 1867,
+      "medium_zh": "纸上水彩与水粉",
+      "dimensions": "20 3/16 X 17 5/16 in. (51.3 x 44 cm)",
+      "movement_zh": "拉斐尔前派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "拉斐尔前派",
+        "象征",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP289717.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP289717.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP289717.jpg",
+        "ratio": 1.168
+      },
+      "palette": [
+        "#bdaf9c",
+        "#635347"
+      ],
+      "essay": [
+        "罗塞蒂是拉斐尔前派的核心人物，这幅《莉莉丝夫人》确立了他晚期“致命女性”的视觉范式。画中模特芬妮·康福斯是他的缪斯，也是他心中危险美学的具象化。这一形象标志着画家从早期宗教叙事，彻底转向了对纯粹感官与装饰美学的沉迷。",
+        "画面最精彩之处在于对发丝的处理。罗塞蒂用极细的笔触层层叠加，让红发如流动的岩浆般倾泻，占据了视觉主导。这种对头发质感的痴迷，在局部放大后尤为明显：每一缕卷发都仿佛有生命，与手中黑色的梳子形成强烈的质感对比，暗示着梳理这一动作本身的诱惑力。",
+        "然而，这种美是高度程式化的。莉莉丝的眼神空洞而疏离，与其说是神话中的魔女，不如说是一个被画家摆弄的精致玩偶。背景中繁复的白玫瑰与前景的红色罂粟虽然色彩对比强烈，却显得刻意堆砌，削弱了画面的空间真实感。罗塞蒂为了追求装饰性的华丽，牺牲了人物内在的心理深度。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-438816",
+      "source": "met",
+      "sourceId": "438816",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438816",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Forest in Winter at Sunset",
+      "title_zh": "冬日森林的日落",
+      "artist_en": "Théodore Rousseau",
+      "artist_zh": "泰奥多尔·卢梭",
+      "artist_id": "theodore-rousseau",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1812–1867",
+      "date_display": "ca. 1846–67",
+      "year": 1846,
+      "medium_zh": "布面油画",
+      "dimensions": "64 x 102 3/8 in. (162.6 x 260 cm)",
+      "movement_zh": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "氛围",
+        "森林"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31520-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-31520-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31520-001.jpg",
+        "ratio": 0.626
+      },
+      "palette": [
+        "#261b10",
+        "#402c16"
+      ],
+      "essay": [
+        "泰奥多尔·卢梭是巴比松画派的核心人物，他拒绝学院派的理想化风景，坚持在枫丹白露森林实地写生。这幅《冬日森林的日落》创作跨度长达二十年，记录了他对同一母题的反复推敲。在摄影术兴起的年代，他试图用画笔捕捉比相机更持久的自然情绪。",
+        "画面最精彩处在于枯枝的纠缠与光线的突围。注意右侧树干的肌理，卢梭用厚涂法堆叠出树皮的粗糙质感，与远处朦胧的夕阳形成强烈对比。前景的积水倒映着微弱的天光，这种对暗部细节的执着处理，让阴郁的森林拥有了呼吸感。",
+        "但这幅画也暴露了卢梭的局限：为了追求沉郁的氛围，他牺牲了色彩的丰富性，整幅画几乎被棕褐色调统治。这种单色调处理虽然统一了情绪，却也让画面显得有些沉闷，缺乏印象派后来那种光影的灵动跳跃。",
+        "卢梭对自然真实状态的尊重，为后来的户外写生传统奠定了基础。他不再将风景视为背景，而是作为独立的情感载体。这种观念转变影响了整整一代画家，包括莫奈等印象派大师，使风景画从附属地位走向艺术史的中心。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.45,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435702",
+      "source": "met",
+      "sourceId": "435702",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435702",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Horse Fair",
+      "title_zh": "马市",
+      "artist_en": "Rosa Bonheur",
+      "artist_zh": "罗莎·博纳尔",
+      "artist_id": "rosa-bonheur",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1822–1899",
+      "date_display": "1852–55",
+      "year": 1852,
+      "medium_zh": "布面油画",
+      "dimensions": "96 1/4 x 199 1/2 in. (244.5 x 506.7 cm)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "动物",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "动态",
+        "全景"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-23550-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+        "ratio": 0.511
+      },
+      "palette": [
+        "#393125",
+        "#79684c"
+      ],
+      "essay": [
+        "罗莎·博纳尔是 19 世纪法国现实主义画坛的异数，以描绘动物闻名。这幅《马市》是她 30 岁时的成名作，也是她艺术生涯的巅峰。作品尺幅巨大，长达五米，这种宏大的叙事规模通常只属于历史画，博纳尔却将其用于表现市井中的马匹交易，挑战了当时的学院派等级观念。",
+        "画面最精彩之处在于对马匹动态的精准捕捉。请看画面中央那匹受惊腾跃的白马，肌肉紧绷，鬃毛飞扬，前蹄悬空，充满了爆发力。博纳尔为了画好这幅画，曾女扮男装混入巴黎马市写生，甚至去屠宰场研究马的解剖结构。这种对真实的执着，让每一匹马的骨骼与肌肉都显得可信且充满生命力。",
+        "然而，这幅画并非纯粹的自然主义记录。为了追求构图的完美与戏剧性，博纳尔对场景进行了理想化的重组。现实中嘈杂混乱的马市，在这里被处理得如同一场古典浮雕般的盛大游行。马匹的姿态虽然生动，却略显舞台化，缺乏真正野性的粗砺感。这种‘经过修饰的真实’，是博纳尔为了迎合当时沙龙审美所做的妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437261",
+      "source": "met",
+      "sourceId": "437261",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437261",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Penitence of Saint Jerome",
+      "title_zh": "圣杰罗姆的忏悔",
+      "artist_en": "Joachim Patinir",
+      "artist_zh": "约阿希姆·帕蒂尼尔",
+      "artist_id": "joachim-patinir",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "约 1480–1524",
+      "date_display": "ca. 1515",
+      "year": 1515,
+      "medium_zh": "木板油画",
+      "dimensions": "Shaped top: central panel, overall, with engaged frame, 46 1/4 x 32 in. (117.5 x 81.3 cm); each wing, overall, with engaged frame, 47 1/2 x 14 in. (120.7 x 35.6 cm)",
+      "movement_zh": "尼德兰文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "风景",
+        "世界景观",
+        "三联画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+        "ratio": 0.74
+      },
+      "palette": [
+        "#262019",
+        "#6e6955"
+      ],
+      "essay": [
+        "帕蒂尼尔是尼德兰画派中“世界景观”风格的奠基人。在这幅三联画中，宗教叙事退居其次，广袤的山水成为绝对主角。这种将圣徒置于宏大自然背景中的做法，标志着风景画开始从宗教画的附庸中独立出来，确立了他在艺术史上作为独立风景画先驱的地位。",
+        "画面中央的圣杰罗姆跪在嶙峋的岩石前，姿态极具张力。注意他深蓝色的长袍与周围黄绿色草地的色彩对比，这种高饱和度的处理让前景人物从复杂的背景中跳脱出来。岩石的肌理刻画得如地质标本般精确，展现了尼德兰画家对物质世界的痴迷观察。",
+        "尽管风景壮丽，但人物与环境的比例略显失调。圣徒在巨大的山川面前显得过于渺小，仿佛只是点缀风景的道具，削弱了忏悔主题应有的情感冲击力。这种为了展示全景而牺牲叙事重心的做法，是早期风景画探索阶段难以避免的妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435881",
+      "source": "met",
+      "sourceId": "435881",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435881",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Still Life with a Ginger Jar and Eggplants",
+      "title_zh": "姜罐与茄子静物",
+      "artist_en": "Paul Cézanne",
+      "artist_zh": "保罗·塞尚",
+      "artist_id": "paul-cezanne",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1839–1906",
+      "date_display": "1893–94",
+      "year": 1893,
+      "medium_zh": "布面油画",
+      "dimensions": "28 1/2 x 36 in. (72.4 x 91.4 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "质感",
+        "色彩构成"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-20100-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
+        "ratio": 0.795
+      },
+      "palette": [
+        "#2c3c33",
+        "#5d7360"
+      ],
+      "essay": [
+        "作为后印象派的奠基人，塞尚在这幅 1893 年的作品中，将静物画从单纯的装饰功能提升到了结构研究的层面。他不再追求对物体表象的逼真复刻，而是试图通过色彩与笔触的秩序，重建画面的永恒性。这是其成熟期风格的典型代表，也是现代主义绘画逻辑的预演。",
+        "画面最精彩之处在于那些看似随意实则严谨的色块堆叠。请看左侧蓝布褶皱的处理——塞尚用冷暖交替的短促笔触，构建出织物厚重的体积感与光影的颤动。这种‘构造性笔触’让原本柔软的布料呈现出如岩石般的坚实质地，与右侧光滑的瓷瓶形成强烈的触觉反差。",
+        "然而，这种对形式的极致追求也带来了某种疏离感。桌上的水果与器皿虽然色彩饱满，却缺乏传统静物画那种诱人的‘食欲’。它们更像是被放置在实验室里的几何模型，冷静而克制。这种‘去生活化’的处理，正是塞尚为了探索视觉真理而做出的牺牲，让画面少了几分烟火气，却多了几分理性的冷峻。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-436098",
+      "source": "met",
+      "sourceId": "436098",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436098",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Crucifixion",
+      "title_zh": "受难图",
+      "artist_en": "Gerard David",
+      "artist_zh": "赫拉德·大卫",
+      "artist_id": "gerard-david",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1460–1523",
+      "date_display": "ca. 1495",
+      "year": 1495,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall 21 x 15 in. (53.3 x 38.1 cm); painted surface 20 5/8 x 14 3/4 in. (52.5 x 37.5 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "受难",
+        "祭坛画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17230-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-17230-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17230-001.jpg",
+        "ratio": 1.311
+      },
+      "palette": [
+        "#2a1e19",
+        "#5a5542"
+      ],
+      "essay": [
+        "赫拉德·大卫是布鲁日画派的最后一位大师，也是早期尼德兰绘画向文艺复兴过渡的关键人物。这幅作于 1495 年前后的《受难图》属于其成熟期作品，体现了他在扬·凡·艾克之后对北方写实传统的坚守。不同于意大利同行对透视与人体解剖的狂热，大卫更专注于通过静谧的构图传达宗教的肃穆感。",
+        "画面最耐看的是基督躯干的描绘——画家没有刻意渲染受难的惨烈，而是用近乎冷峻的笔触勾勒出肋骨与肌肉的起伏。请注意基督腹部的光影处理，那种苍白而坚硬的质感，仿佛大理石雕塑般永恒。这种克制反而比夸张的表情更具悲剧力量，让观者感受到一种凝固的痛楚。",
+        "然而，这幅画在情感表达上略显拘谨。四位圣徒（圣母、圣约翰、圣哲罗姆与抹大拉的玛丽亚）虽然姿态各异，但面部表情趋于程式化，缺乏个体性格的张力。尤其是右侧手持十字架的圣哲罗姆，神情过于平静，仿佛只是旁观一场仪式，削弱了现场应有的悲怆氛围。",
+        "尽管如此，背景中微缩的耶路撒冷城景与吃草的驴子展现了大卫对细节的执着。这种将神圣叙事置于日常风景中的做法，是尼德兰画派的典型特征，让神性在凡俗中落地。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-437173",
+      "source": "met",
+      "sourceId": "437173",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437173",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Don Andrés de Andrade y la Cal",
+      "title_zh": "安德烈斯·德·安德拉德·伊·拉·卡尔肖像",
+      "artist_en": "Bartolomé Estebán Murillo",
+      "artist_zh": "巴托洛梅·埃斯特万·牟利罗",
+      "artist_id": "bartolome-esteban-murillo",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1617–1682",
+      "date_display": "ca. 1665–72",
+      "year": 1665,
+      "medium_zh": "布面油画",
+      "dimensions": "79 × 47 in. (200.7 × 119.4 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "贵族",
+        "猎犬"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16333-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-16333-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16333-001.jpg",
+        "ratio": 1.628
+      },
+      "palette": [
+        "#1e1913",
+        "#534b39"
+      ],
+      "essay": [
+        "牟利罗是塞维利亚画派的灵魂人物，以宗教题材和风俗画闻名，但这幅全身肖像展示了他驾驭贵族题材的深厚功力。作于其艺术成熟期，画中人是塞维利亚的显贵安德烈斯·德·安德拉德。不同于委拉斯开兹那种冷峻的宫廷记录，牟利罗在这里注入了一种更为柔和、甚至带有某种温情的巴洛克气质。",
+        "画面最耐看的是人与犬的互动。画家没有让猎犬仅仅充当背景道具，而是赋予了它鲜活的性格——它仰头望向主人，眼神温顺而警觉。牟利罗处理狗毛的笔触松散而灵动，与主人那身质感厚重、几乎吸光的黑色天鹅绒外套形成了极佳的肌理对比。这种对动物皮毛质感的精准捕捉，是西班牙黄金时代画家的拿手好戏。",
+        "但这幅画并非没有妥协。为了迎合赞助人的审美，牟利罗对安德拉德的面部进行了明显的理想化处理。尽管画家试图通过深邃的眼神和紧抿的嘴唇来塑造威严感，但那过于光洁的额头和缺乏岁月痕迹的皮肤，让这位中年贵族看起来比实际年龄年轻了许多。这种‘美化’虽然悦目，却削弱了肖像画应有的那种直击灵魂的深刻性。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.62,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-74601",
+      "source": "cma",
+      "sourceId": "74601",
+      "sourceUrl": "https://clevelandart.org/art/2021.108",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Two Boats at the Harbor of Dieppe",
+      "title_zh": "迪耶普港口的两艘船",
+      "artist_en": "Eugène Delacroix (French, 1798–1863)",
+      "artist_zh": "欧仁·德拉克洛瓦",
+      "artist_id": "eugene-delacroix-french-1798-1863",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1798–1863",
+      "date_display": "1854",
+      "year": 1854,
+      "medium_zh": "纸本水彩与铅笔",
+      "dimensions": "Image: 22.5 x 34.6 cm (8 7/8 x 13 5/8 in.); Sheet: 22.5 x 34.6 cm (8 7/8 x 13 5/8 in.); Mounted: 24 x 36 cm (9 7/16 x 14 3/16 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "速写",
+        "水彩"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2021.108/2021.108_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2021.108/2021.108_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2021.108/2021.108_web.jpg",
+        "ratio": 0.67
+      },
+      "palette": [
+        "#d5ccb7",
+        "#c1b69f"
+      ],
+      "essay": [
+        "作为浪漫主义画派的旗手，德拉克洛瓦通常以宏大的历史题材和激烈的色彩冲突示人。但这幅 1854 年的迪耶普写生，展示了他作为观察者的另一面。此时画家已步入晚年，不再执着于戏剧性的叙事，转而用轻快的笔触捕捉诺曼底海岸的日常瞬间。",
+        "画面最精彩处在于对‘风’的暗示。请看右侧船只的桅杆与缆绳，画家仅用几根看似随意的铅笔线条，就勾勒出绳索在风中紧绷的张力。水彩的晕染极薄，几乎透出纸底，这种‘未完成感’恰恰保留了海风拂过时的空气流动。",
+        "必须承认，这并非德拉克洛瓦最雄心勃勃的杰作。与他在卢浮宫那些精心构图的巨制相比，此作在透视上略显松散，船体结构也经不起严谨的推敲。但这正是速写的价值所在：它牺牲了准确性，换取了现场那种稍纵即逝的生动。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    }
+  ]
+}

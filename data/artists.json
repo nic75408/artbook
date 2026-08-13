@@ -1,0 +1,201 @@
+{
+  "v": 1,
+  "artists": {
+    "pieter-bruegel-the-elder": {
+      "name_zh": "老彼得·勃鲁盖尔",
+      "name_en": "Pieter Bruegel the Elder",
+      "years": "1525–1569",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "尼德兰文艺复兴巨匠，首位将农民生活作为独立宏大题材的画家，以宏大的风景与风俗画著称。"
+    },
+    "paul-gauguin": {
+      "name_zh": "保罗·高更",
+      "name_en": "Paul Gauguin",
+      "years": "1848–1903",
+      "nationality_zh": "法国",
+      "bio_zh": "法国后印象派大师，放弃股票经纪人生涯投身艺术，以塔希提题材和综合主义风格闻名，追求原始与神秘。"
+    },
+    "han-gan": {
+      "name_zh": "韩干",
+      "name_en": "Han Gan",
+      "years": "不详",
+      "nationality_zh": "中国",
+      "bio_zh": "唐代宫廷画师，以画马闻名，笔法简练而富有动感。"
+    },
+    "georges-seurat": {
+      "name_zh": "乔治·修拉",
+      "name_en": "Georges Seurat",
+      "years": "1859–1891",
+      "nationality_zh": "法国",
+      "bio_zh": "新印象派创始人，以科学光学理论入画，创立点彩技法，追求极致的理性秩序。"
+    },
+    "jacques-louis-david": {
+      "name_zh": "雅克-路易·大卫",
+      "name_en": "Jacques Louis David",
+      "years": "1748–1825",
+      "nationality_zh": "法国",
+      "bio_zh": "法国新古典主义画派奠基人，以严谨的素描和宏大的历史题材著称，是大革命时期的官方画家。"
+    },
+    "paul-cezanne": {
+      "name_zh": "保罗·塞尚",
+      "name_en": "Paul Cézanne",
+      "years": "1839–1906",
+      "nationality_zh": "法国",
+      "bio_zh": "法国后印象派画家，被誉为“现代艺术之父”，以几何结构重构自然，深刻影响了立体主义的发展。"
+    },
+    "hans-holbein-the-younger": {
+      "name_zh": "汉斯·荷尔拜因",
+      "name_en": "Hans Holbein the Younger",
+      "years": "1497–1543",
+      "nationality_zh": "德国",
+      "bio_zh": "德国画家，北方文艺复兴巨匠，以冷静客观的肖像画著称，曾任英王亨利八世宫廷画师。"
+    },
+    "guo-xi": {
+      "name_zh": "郭熙",
+      "name_en": "Guo Xi",
+      "years": "约 1000–约 1090",
+      "nationality_zh": "中国",
+      "bio_zh": "北宋山水画大师，提出“三远法”构图理论，以“蟹爪枝”和“卷云皴”著称。"
+    },
+    "hans-memling": {
+      "name_zh": "汉斯·梅姆林",
+      "name_en": "Hans Memling",
+      "years": "1430–1494",
+      "nationality_zh": "德国",
+      "bio_zh": "汉斯·梅姆林是 15 世纪佛兰德斯画派的重要画家，以其细腻的心理刻画和静谧的构图闻名。"
+    },
+    "jan-van-eyck": {
+      "name_zh": "扬·凡·艾克",
+      "name_en": "Jan van Eyck",
+      "years": "1390–1441",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "扬·凡·艾克，早期尼德兰画派代表人物，以精细写实技法闻名。"
+    },
+    "vittore-carpaccio": {
+      "name_zh": "维托雷·卡尔帕乔",
+      "name_en": "Vittore Carpaccio",
+      "years": "1465–1526",
+      "nationality_zh": "意大利",
+      "bio_zh": "维托雷·卡尔帕乔是意大利威尼斯画派的重要画家，以其宏大的叙事场景和戏剧性的光影处理闻名。"
+    },
+    "gong-xian": {
+      "name_zh": "龚贤",
+      "name_en": "Gong Xian",
+      "years": "1618–1689",
+      "nationality_zh": "中国",
+      "bio_zh": "清初画家，金陵八家之首，以积墨法著称，开创沉郁苍润的山水风格。"
+    },
+    "auguste-renoir": {
+      "name_zh": "皮埃尔-奥古斯特·雷诺阿",
+      "name_en": "Auguste Renoir",
+      "years": "1841–1919",
+      "nationality_zh": "法国",
+      "bio_zh": "法国印象派核心人物，早期以光影斑驳的户外场景著称，晚年转向古典主义，追求丰满人体与和谐色彩。"
+    },
+    "nagasawa-rosetsu-japanese-1754-1799": {
+      "name_zh": "长泽芦雪",
+      "name_en": "Nagasawa Rosetsu (Japanese, 1754–1799)",
+      "years": "1754–1799",
+      "nationality_zh": "日本",
+      "bio_zh": "圆山应举高徒，日本四条派奠基人，以打破传统的写生风格与幽默感著称。"
+    },
+    "domenico-guidobono": {
+      "name_zh": "多梅尼科·吉多博诺",
+      "name_en": "Domenico Guidobono",
+      "years": "1668–1746",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利巴洛克画家，热那亚画派代表，以神话题材与装饰壁画著称，风格受鲁本斯影响。"
+    },
+    "antoine-watteau": {
+      "name_zh": "安托万·华托",
+      "name_en": "Antoine Watteau",
+      "years": "1684–1721",
+      "nationality_zh": "法国",
+      "bio_zh": "法国洛可可绘画奠基人，以描绘贵族游乐场景的“雅宴画”著称，笔触轻盈且充满诗意。"
+    },
+    "johannes-vermeer": {
+      "name_zh": "约翰内斯·维米尔",
+      "name_en": "Johannes Vermeer",
+      "years": "1632–1675",
+      "nationality_zh": "荷兰",
+      "bio_zh": "17 世纪荷兰黄金时代画家，以描绘宁静的室内风俗画及卓越的光影处理闻名。"
+    },
+    "li-gonglin": {
+      "name_zh": "李公麟",
+      "name_en": "Li Gonglin",
+      "years": "1049–1106",
+      "nationality_zh": "中国",
+      "bio_zh": "北宋文人画代表，以白描技法著称，将线条艺术推向独立审美高度。"
+    },
+    "unknown": {
+      "name_zh": "佚名",
+      "name_en": "Unknown",
+      "years": "不详",
+      "nationality_zh": "日本",
+      "bio_zh": "江户初期活跃的日本画家，擅长金地屏风与风俗题材，风格受琳派影响，注重装饰性与平面构成。"
+    },
+    "vincent-van-gogh": {
+      "name_zh": "文森特·梵高",
+      "name_en": "Vincent van Gogh",
+      "years": "1853–1890",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰后印象派画家，以浓烈色彩和表现性笔触著称，生前寂寥，死后成为现代艺术巨匠。"
+    },
+    "michelangelo-buonarroti": {
+      "name_zh": "米开朗基罗·博纳罗蒂",
+      "name_en": "Michelangelo Buonarroti",
+      "years": "1475–1564",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴三杰之一，集雕塑家、画家、建筑师于一身，以雄强的人体表现与宏伟的构图著称。"
+    },
+    "dante-gabriel-rossetti": {
+      "name_zh": "但丁·加百利·罗塞蒂",
+      "name_en": "Dante Gabriel Rossetti",
+      "years": "1828–1882",
+      "nationality_zh": "英国",
+      "bio_zh": "英国拉斐尔前派创始人之一，以描绘红发女性与中世纪题材闻名，风格华丽且充满象征意味。"
+    },
+    "theodore-rousseau": {
+      "name_zh": "泰奥多尔·卢梭",
+      "name_en": "Théodore Rousseau",
+      "years": "1812–1867",
+      "nationality_zh": "法国",
+      "bio_zh": "法国巴比松画派领袖，坚持户外写生，以描绘枫丹白露森林闻名。"
+    },
+    "rosa-bonheur": {
+      "name_zh": "罗莎·博纳尔",
+      "name_en": "Rosa Bonheur",
+      "years": "1822–1899",
+      "nationality_zh": "法国",
+      "bio_zh": "19 世纪法国现实主义画家，以描绘动物著称，曾女扮男装深入马市写生，打破当时女性画家的局限。"
+    },
+    "joachim-patinir": {
+      "name_zh": "约阿希姆·帕蒂尼尔",
+      "name_en": "Joachim Patinir",
+      "years": "约 1480–1524",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "尼德兰文艺复兴画家，以开创宏大的“世界景观”风格著称，将风景提升为独立绘画题材。"
+    },
+    "gerard-david": {
+      "name_zh": "赫拉德·大卫",
+      "name_en": "Gerard David",
+      "years": "1460–1523",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "尼德兰画家，布鲁日画派最后一位大师，以冷静的构图与细腻的风景背景著称。"
+    },
+    "bartolome-esteban-murillo": {
+      "name_zh": "巴托洛梅·埃斯特万·牟利罗",
+      "name_en": "Bartolomé Estebán Murillo",
+      "years": "1617–1682",
+      "nationality_zh": "西班牙",
+      "bio_zh": "西班牙巴洛克大师，塞维利亚画派代表，以宗教画与风俗画著称，笔触柔和充满温情。"
+    },
+    "eugene-delacroix-french-1798-1863": {
+      "name_zh": "欧仁·德拉克洛瓦",
+      "name_en": "Eugène Delacroix (French, 1798–1863)",
+      "years": "1798–1863",
+      "nationality_zh": "法国",
+      "bio_zh": "法国浪漫主义画派代表人物，以充满动感的构图和对色彩的解放著称，代表作《自由引导人民》。"
+    }
+  }
+}

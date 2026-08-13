@@ -1,0 +1,561 @@
+{
+  "v": 1,
+  "works": [
+    {
+      "id": "met-435809",
+      "issue": "2026-08-13",
+      "t": "收割者",
+      "a": "老彼得·勃鲁盖尔",
+      "aid": "pieter-bruegel-the-elder",
+      "y": 1565,
+      "mv": "尼德兰文艺复兴",
+      "tags": [
+        "风俗画",
+        "16世纪",
+        "尼德兰",
+        "风景",
+        "构图",
+        "季节"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+      "ratio": 0.737
+    },
+    {
+      "id": "met-438821",
+      "issue": "2026-08-13",
+      "t": "万福玛利亚",
+      "a": "保罗·高更",
+      "aid": "paul-gauguin",
+      "y": 1891,
+      "mv": "后印象派",
+      "tags": [
+        "宗教",
+        "塔希提",
+        "19世纪",
+        "色彩",
+        "原始主义"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
+      "ratio": 1.271
+    },
+    {
+      "id": "met-39901",
+      "issue": "2026-08-13",
+      "t": "照夜白",
+      "a": "韩干",
+      "aid": "han-gan",
+      "y": null,
+      "mv": "唐代宫廷绘画",
+      "tags": [
+        "动物",
+        "马",
+        "8世纪",
+        "中国",
+        "唐代",
+        "水墨"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP153705.jpg",
+      "ratio": 0.75
+    },
+    {
+      "id": "met-437654",
+      "issue": "2026-08-13",
+      "t": "马戏团的旁侧",
+      "a": "乔治·修拉",
+      "aid": "georges-seurat",
+      "y": 1887,
+      "mv": "新印象派",
+      "tags": [
+        "风俗画",
+        "夜景",
+        "19世纪",
+        "法国",
+        "点彩"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+      "ratio": 0.668
+    },
+    {
+      "id": "met-436105",
+      "issue": "2026-08-13",
+      "t": "苏格拉底之死",
+      "a": "雅克-路易·大卫",
+      "aid": "jacques-louis-david",
+      "y": 1787,
+      "mv": "新古典主义",
+      "tags": [
+        "历史画",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "戏剧性",
+        "哲学"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+      "ratio": 0.666
+    },
+    {
+      "id": "met-435876",
+      "issue": "2026-08-13",
+      "t": "穿红裙的塞尚夫人",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1888,
+      "mv": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "色彩",
+        "室内"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+      "ratio": 1.303
+    },
+    {
+      "id": "met-436658",
+      "issue": "2026-08-13",
+      "t": "赫尔曼·冯·韦迪希三世肖像",
+      "a": "汉斯·荷尔拜因",
+      "aid": "hans-holbein-the-younger",
+      "y": 1532,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "商人"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
+      "ratio": 1.302
+    },
+    {
+      "id": "met-39668",
+      "issue": "2026-08-13",
+      "t": "树色平远图",
+      "a": "郭熙",
+      "aid": "guo-xi",
+      "y": 1080,
+      "mv": "北宋山水画",
+      "tags": [
+        "风景",
+        "11世纪",
+        "中国",
+        "水墨",
+        "宋代",
+        "手卷"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP167812_CRD.jpg",
+      "ratio": 0.533
+    },
+    {
+      "id": "met-437056",
+      "issue": "2026-08-13",
+      "t": "托马索·迪·福尔科·波提纳里与玛丽亚·波提纳里肖像",
+      "a": "汉斯·梅姆林",
+      "aid": "hans-memling",
+      "y": 1470,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "尼德兰",
+        "文艺复兴",
+        "双联画",
+        "佛兰德斯"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44362-005.jpg",
+      "ratio": 0.654
+    },
+    {
+      "id": "met-436282",
+      "issue": "2026-08-13",
+      "t": "受难与最后的审判",
+      "a": "扬·凡·艾克",
+      "aid": "jan-van-eyck",
+      "y": 1436,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "双联画",
+        "光影"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+      "ratio": 1.197
+    },
+    {
+      "id": "met-435851",
+      "issue": "2026-08-13",
+      "t": "受难沉思",
+      "a": "维托雷·卡尔帕乔",
+      "aid": "vittore-carpaccio",
+      "y": 1490,
+      "mv": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "威尼斯",
+        "叙事",
+        "圣经故事"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
+      "ratio": 0.815
+    },
+    {
+      "id": "met-36131",
+      "issue": "2026-08-13",
+      "t": "山水册页",
+      "a": "龚贤",
+      "aid": "gong-xian",
+      "y": 1688,
+      "mv": "金陵八家",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "清代",
+        "金陵"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/1981_4_1a.jpg",
+      "ratio": 0.692
+    },
+    {
+      "id": "met-438815",
+      "issue": "2026-08-13",
+      "t": "夏庞蒂埃夫人和她的孩子们",
+      "a": "皮埃尔-奥古斯特·雷诺阿",
+      "aid": "auguste-renoir",
+      "y": 1878,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "家庭"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+      "ratio": 0.813
+    },
+    {
+      "id": "cma-145422",
+      "issue": "2026-08-13",
+      "t": "菊丛雀犬图",
+      "a": "长泽芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1792,
+      "mv": "圆山四条派",
+      "tags": [
+        "动物",
+        "花鸟",
+        "18世纪",
+        "日本",
+        "水墨",
+        "写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.71.2/1970.71.2_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "met-436607",
+      "issue": "2026-08-13",
+      "t": "寓言",
+      "a": "多梅尼科·吉多博诺",
+      "aid": "domenico-guidobono",
+      "y": 1710,
+      "mv": "巴洛克",
+      "tags": [
+        "寓言",
+        "神话",
+        "18世纪",
+        "意大利",
+        "热那亚画派"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/EP542.jpg",
+      "ratio": 0.627
+    },
+    {
+      "id": "met-437925",
+      "issue": "2026-08-13",
+      "t": "法国喜剧演员",
+      "a": "安托万·华托",
+      "aid": "antoine-watteau",
+      "y": 1720,
+      "mv": "洛可可",
+      "tags": [
+        "戏剧",
+        "群像",
+        "18世纪",
+        "法国",
+        "喜剧"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120381.jpg",
+      "ratio": 0.795
+    },
+    {
+      "id": "met-437878",
+      "issue": "2026-08-13",
+      "t": "沉睡的女仆",
+      "a": "约翰内斯·维米尔",
+      "aid": "johannes-vermeer",
+      "y": 1656,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "荷兰",
+        "光影",
+        "室内",
+        "静物"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+      "ratio": 1.147
+    },
+    {
+      "id": "met-39895",
+      "issue": "2026-08-13",
+      "t": "孝经图",
+      "a": "李公麟",
+      "aid": "li-gonglin",
+      "y": 1085,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "儒家",
+        "宋代",
+        "叙事画",
+        "白描"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP151528.jpg",
+      "ratio": 1.224
+    },
+    {
+      "id": "met-436283",
+      "issue": "2026-08-13",
+      "t": "壁龛中的圣母与圣子",
+      "a": "扬·凡·艾克",
+      "aid": "jan-van-eyck",
+      "y": 1440,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "圣母像",
+        "哥特式"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1484.jpg",
+      "ratio": 1.863
+    },
+    {
+      "id": "met-53439",
+      "issue": "2026-08-13",
+      "t": "桥上抛扇图屏风",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": null,
+      "mv": "琳派",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "日本",
+        "金地屏风",
+        "游女",
+        "吉原"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP704960.jpg",
+      "ratio": 0.467
+    },
+    {
+      "id": "met-436529",
+      "issue": "2026-08-13",
+      "t": "阿尔勒女子：约瑟夫 - 米歇尔·吉努夫人",
+      "a": "文森特·梵高",
+      "aid": "vincent-van-gogh",
+      "y": 1888,
+      "mv": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "阿尔勒",
+        "女性",
+        "书籍"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1396.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "met-337497",
+      "issue": "2026-08-13",
+      "t": "利比亚女先知习作（正面）；利比亚女先知习作及坐姿人物小稿（背面）",
+      "a": "米开朗基罗·博纳罗蒂",
+      "aid": "michelangelo-buonarroti",
+      "y": 1510,
+      "mv": "文艺复兴",
+      "tags": [
+        "素描",
+        "人体",
+        "16世纪",
+        "意大利",
+        "西斯廷天顶画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826907.jpg",
+      "ratio": 1.357
+    },
+    {
+      "id": "met-337500",
+      "issue": "2026-08-13",
+      "t": "莉莉丝夫人",
+      "a": "但丁·加百利·罗塞蒂",
+      "aid": "dante-gabriel-rossetti",
+      "y": 1867,
+      "mv": "拉斐尔前派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "拉斐尔前派",
+        "象征",
+        "女性"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP289717.jpg",
+      "ratio": 1.168
+    },
+    {
+      "id": "met-438816",
+      "issue": "2026-08-13",
+      "t": "冬日森林的日落",
+      "a": "泰奥多尔·卢梭",
+      "aid": "theodore-rousseau",
+      "y": 1846,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "氛围",
+        "森林"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31520-001.jpg",
+      "ratio": 0.626
+    },
+    {
+      "id": "met-435702",
+      "issue": "2026-08-13",
+      "t": "马市",
+      "a": "罗莎·博纳尔",
+      "aid": "rosa-bonheur",
+      "y": 1852,
+      "mv": "现实主义",
+      "tags": [
+        "动物",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "动态",
+        "全景"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+      "ratio": 0.511
+    },
+    {
+      "id": "met-437261",
+      "issue": "2026-08-13",
+      "t": "圣杰罗姆的忏悔",
+      "a": "约阿希姆·帕蒂尼尔",
+      "aid": "joachim-patinir",
+      "y": 1515,
+      "mv": "尼德兰文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "风景",
+        "世界景观",
+        "三联画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+      "ratio": 0.74
+    },
+    {
+      "id": "met-435881",
+      "issue": "2026-08-13",
+      "t": "姜罐与茄子静物",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1893,
+      "mv": "后印象派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "质感",
+        "色彩构成"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
+      "ratio": 0.795
+    },
+    {
+      "id": "met-436098",
+      "issue": "2026-08-13",
+      "t": "受难图",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1495,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "受难",
+        "祭坛画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17230-001.jpg",
+      "ratio": 1.311
+    },
+    {
+      "id": "met-437173",
+      "issue": "2026-08-13",
+      "t": "安德烈斯·德·安德拉德·伊·拉·卡尔肖像",
+      "a": "巴托洛梅·埃斯特万·牟利罗",
+      "aid": "bartolome-esteban-murillo",
+      "y": 1665,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "贵族",
+        "猎犬"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16333-001.jpg",
+      "ratio": 1.628
+    },
+    {
+      "id": "cma-74601",
+      "issue": "2026-08-13",
+      "t": "迪耶普港口的两艘船",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix-french-1798-1863",
+      "y": 1854,
+      "mv": "浪漫主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "速写",
+        "水彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.108/2021.108_web.jpg",
+      "ratio": 0.67
+    }
+  ]
+}
