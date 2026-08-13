@@ -1,0 +1,54 @@
+name: daily
+
+# 艺术手册每日发布（SPE §6.4）
+# cron "0 21 * * *" = UTC 21:00 = 北京时间次日 05:00
+# 注意事项（勿删）：
+#   1) GitHub 会在仓库 60 天无 commit 后自动停用 schedule；本项目每日一次
+#      commit 天然规避。长时间停更后手动跑一次 workflow_dispatch 即恢复。
+#   2) cron 实际触发可能延迟 15-30 分钟，可接受。
+#   3) 失败即工作流失败，GitHub 默认邮件通知仓库 owner，无需额外报警。
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "生成哪一期的内容（YYYY-MM-DD，留空=今天 Asia/Shanghai）"
+        required: false
+        default: ""
+      force:
+        description: "force（true 覆盖已有期文件）"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - name: Install deps
+        run: pip install -r pipeline/requirements.txt
+      - name: Run pipeline (内部完成 commit + push)
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          RIJKS_API_KEY: ${{ secrets.RIJKS_API_KEY }}
+        run: |
+          ARGS=()
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS+=(--date "${{ github.event.inputs.date }}")
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS+=(--force)
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python pipeline/generate.py "${ARGS[@]}"
