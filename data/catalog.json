@@ -556,6 +556,549 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2021.108/2021.108_web.jpg",
       "ratio": 0.67
+    },
+    {
+      "id": "met-435844",
+      "issue": "2026-08-14",
+      "t": "音乐家",
+      "a": "卡拉瓦乔",
+      "aid": "caravaggio-michelangelo-merisi",
+      "y": 1597,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "光影",
+        "音乐"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+      "ratio": 0.776
+    },
+    {
+      "id": "met-40057",
+      "issue": "2026-08-14",
+      "t": "西塞渔社图",
+      "a": "李结",
+      "aid": "li-jie",
+      "y": 1170,
+      "mv": "宋代院体",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "渔隐",
+        "青绿"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15820-005_crd.jpg",
+      "ratio": 0.618
+    },
+    {
+      "id": "met-435897",
+      "issue": "2026-08-14",
+      "t": "基督头像（Ecce Homo）",
+      "a": "佩特鲁斯·克里斯图斯",
+      "aid": "petrus-christus",
+      "y": 1445,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教题材",
+        "15世纪",
+        "尼德兰",
+        "肖像",
+        "受难"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229079.jpg",
+      "ratio": 1.357
+    },
+    {
+      "id": "met-848137",
+      "issue": "2026-08-14",
+      "t": "裸体男子习作",
+      "a": "古斯塔夫·库尔贝",
+      "aid": "gustave-courbet",
+      "y": 1840,
+      "mv": "现实主义",
+      "tags": [
+        "人体习作",
+        "19世纪",
+        "法国",
+        "男性裸体",
+        "学院派"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25035-001.jpg",
+      "ratio": 0.872
+    },
+    {
+      "id": "cma-104412",
+      "issue": "2026-08-14",
+      "t": "战争的恐怖：结局都一样",
+      "a": "弗朗西斯科·戈雅",
+      "aid": "francisco-de-goya-spanish-1746-1828",
+      "y": 1810,
+      "mv": "浪漫主义",
+      "tags": [
+        "战争",
+        "版画",
+        "19世纪",
+        "西班牙",
+        "死亡"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.537/1922.537_web.jpg",
+      "ratio": 0.77
+    },
+    {
+      "id": "met-435728",
+      "issue": "2026-08-14",
+      "t": "圣杰罗姆的最后圣餐",
+      "a": "桑德罗·波提切利",
+      "aid": "botticelli-alessandro-di-mariano-filipepi",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "15世纪",
+        "意大利",
+        "蛋彩画",
+        "圣徒"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24049-001.jpg",
+      "ratio": 1.325
+    },
+    {
+      "id": "met-435899",
+      "issue": "2026-08-14",
+      "t": "天使报喜",
+      "a": "佩特鲁斯·克里斯图斯",
+      "aid": "petrus-christus",
+      "y": 1445,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "天使报喜",
+        "哥特式"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1479.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "met-44759",
+      "issue": "2026-08-14",
+      "t": "山水、人物与花卉册（十二开）",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou",
+      "y": 1618,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "明代",
+        "文人画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/1985_121_A_sf.jpg",
+      "ratio": 0.925
+    },
+    {
+      "id": "met-53660",
+      "issue": "2026-08-14",
+      "t": "十牛图颂",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1278,
+      "mv": "禅画",
+      "tags": [
+        "禅宗",
+        "佛教",
+        "手卷",
+        "13世纪",
+        "中国"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_10_Burke_website.jpg",
+      "ratio": 0.623
+    },
+    {
+      "id": "met-435621",
+      "issue": "2026-08-14",
+      "t": "圣女贞德",
+      "a": "朱尔·巴斯蒂安-勒帕热",
+      "aid": "jules-bastien-lepage",
+      "y": 1879,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "现实主义",
+        "19世纪",
+        "法国",
+        "历史题材",
+        "宗教"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+      "ratio": 0.905
+    },
+    {
+      "id": "met-437384",
+      "issue": "2026-08-14",
+      "t": "莎乐美",
+      "a": "亨利·雷尼奥",
+      "aid": "henri-regnault",
+      "y": 1870,
+      "mv": "学院派",
+      "tags": [
+        "圣经题材",
+        "东方主义",
+        "19世纪",
+        "法国",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/ep16.95.R.jpg",
+      "ratio": 1.6
+    },
+    {
+      "id": "met-435848",
+      "issue": "2026-08-14",
+      "t": "圣母诞生",
+      "a": "弗拉·卡内瓦莱",
+      "aid": "fra-carnevale-bartolomeo-di-giovanni-corradini",
+      "y": 1467,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教画",
+        "建筑",
+        "15世纪",
+        "意大利",
+        "乌尔比诺"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP109484.jpg",
+      "ratio": 1.489
+    },
+    {
+      "id": "cma-101027",
+      "issue": "2026-08-14",
+      "t": "藏书票：伊丽莎白·M·利特",
+      "a": "威廉·乔丹",
+      "aid": "unknown",
+      "y": 1898,
+      "mv": "工艺美术运动",
+      "tags": [
+        "藏书票",
+        "版画",
+        "19世纪",
+        "英国",
+        "装饰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1369/1920.1369_web.jpg",
+      "ratio": 0.747
+    },
+    {
+      "id": "cma-104126",
+      "issue": "2026-08-14",
+      "t": "圣母生平：约阿希姆与安娜在金门相拥",
+      "a": "阿尔布雷希特·丢勒",
+      "aid": "albrecht-durer-german-1471-1528",
+      "y": 1504,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "版画",
+        "16世纪",
+        "德国",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.287/1922.287_web.jpg",
+      "ratio": 1.409
+    },
+    {
+      "id": "cma-101029",
+      "issue": "2026-08-14",
+      "t": "藏书票：约翰·W·洛",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1901,
+      "mv": "新艺术运动",
+      "tags": [
+        "藏书票",
+        "肖像",
+        "1901",
+        "装饰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1370/1920.1370_web.jpg",
+      "ratio": 1.194
+    },
+    {
+      "id": "met-53238",
+      "issue": "2026-08-14",
+      "t": "郑黄牛与渔山主",
+      "a": "狩野内膳",
+      "aid": "kano-naizen",
+      "y": null,
+      "mv": "狩野派",
+      "tags": [
+        "人物",
+        "动物",
+        "17世纪",
+        "日本",
+        "水墨",
+        "狩野派"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP361158.jpg",
+      "ratio": 1.997
+    },
+    {
+      "id": "cma-101036",
+      "issue": "2026-08-14",
+      "t": "藏书票：埃尔米·P·米尔斯",
+      "a": "查尔斯·塞缪尔·基恩",
+      "aid": "charles-samuel-keene-british-1823-1891",
+      "y": null,
+      "mv": "工艺美术运动",
+      "tags": [
+        "藏书票",
+        "字母组合",
+        "19世纪",
+        "英国",
+        "黑白版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1377/1920.1377_web.jpg",
+      "ratio": 1.084
+    },
+    {
+      "id": "cma-101074",
+      "issue": "2026-08-14",
+      "t": "藏书票：玛格丽特·施特劳斯",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1902,
+      "mv": "新艺术运动",
+      "tags": [
+        "藏书票",
+        "风景",
+        "1902",
+        "版画",
+        "新艺术风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1410/1920.1410_web.jpg",
+      "ratio": 2.267
+    },
+    {
+      "id": "cma-101857",
+      "issue": "2026-08-14",
+      "t": "参拜神社的女子与少女",
+      "a": "胜川春章",
+      "aid": "katsukawa-shuncho-japanese",
+      "y": 1790,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗画",
+        "女性群像",
+        "江户时代",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.519/1920.519_web.jpg",
+      "ratio": 1.463
+    },
+    {
+      "id": "cma-102690",
+      "issue": "2026-08-14",
+      "t": "黎明",
+      "a": "奥古斯特·勒佩尔",
+      "aid": "auguste-louis-lepere-french-1849-1918",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "巴黎",
+        "塞纳河",
+        "埃菲尔铁塔",
+        "19世纪",
+        "城市景观"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.1347/1921.1347_web.jpg",
+      "ratio": 0.841
+    },
+    {
+      "id": "met-436965",
+      "issue": "2026-08-14",
+      "t": "阿让特伊花园中的莫奈一家",
+      "a": "爱德华·马奈",
+      "aid": "edouard-manet",
+      "y": 1874,
+      "mv": "印象派",
+      "tags": [
+        "人物",
+        "印象派",
+        "19世纪",
+        "法国",
+        "光影",
+        "户外"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25465-001.jpg",
+      "ratio": 0.629
+    },
+    {
+      "id": "cma-102691",
+      "issue": "2026-08-14",
+      "t": "圣马丁运河水闸",
+      "a": "奥古斯特·勒佩尔",
+      "aid": "auguste-louis-lepere-french-1849-1918",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "城市景观",
+        "工业",
+        "巴黎",
+        "19世纪",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.1348/1921.1348_web.jpg",
+      "ratio": 0.856
+    },
+    {
+      "id": "cma-102697",
+      "issue": "2026-08-14",
+      "t": "维莱特港",
+      "a": "奥古斯特·勒佩尔",
+      "aid": "auguste-louis-lepere-french-1849-1918",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "港口",
+        "19世纪",
+        "巴黎",
+        "工业"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.1353/1921.1353_web.jpg",
+      "ratio": 0.825
+    },
+    {
+      "id": "cma-102659",
+      "issue": "2026-08-14",
+      "t": "巴尔街",
+      "a": "奥古斯特·勒佩尔",
+      "aid": "auguste-louis-lepere-french-1849-1918",
+      "y": 1886,
+      "mv": "印象派",
+      "tags": [
+        "城市景观",
+        "雪景",
+        "19世纪",
+        "巴黎",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.1319/1921.1319_web.jpg",
+      "ratio": 1.508
+    },
+    {
+      "id": "cma-102826",
+      "issue": "2026-08-14",
+      "t": "风笛手",
+      "a": "夏尔-埃米尔·雅克",
+      "aid": "charles-emile-jacque-french-1813-1894",
+      "y": 1864,
+      "mv": "巴比松画派",
+      "tags": [
+        "风俗画",
+        "街头艺人",
+        "19世纪",
+        "法国",
+        "蚀刻版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.1462/1921.1462_web.jpg",
+      "ratio": 1.447
+    },
+    {
+      "id": "met-435874",
+      "issue": "2026-08-14",
+      "t": "有裂缝的房子",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1892,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "建筑",
+        "19世纪",
+        "法国",
+        "几何"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg",
+      "ratio": 1.25
+    },
+    {
+      "id": "cma-103626",
+      "issue": "2026-08-14",
+      "t": "布兰奇王后故居，圣希波利特街",
+      "a": "阿尔弗雷德·亚历山大·德洛内",
+      "aid": "alfred-alexandre-delauney-french-1830-1894",
+      "y": 1870,
+      "mv": "学院派",
+      "tags": [
+        "建筑",
+        "街景",
+        "19世纪",
+        "法国",
+        "蚀刻版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.572/1921.572_web.jpg",
+      "ratio": 1.478
+    },
+    {
+      "id": "cma-104009",
+      "issue": "2026-08-14",
+      "t": "瓦伦西亚的罗拉",
+      "a": "爱德华·马奈",
+      "aid": "edouard-manet-french-1832-1883",
+      "y": 1862,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "舞蹈",
+        "19世纪",
+        "西班牙风情",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.182/1922.182_web.jpg",
+      "ratio": 1.393
+    },
+    {
+      "id": "cma-104128",
+      "issue": "2026-08-14",
+      "t": "圣母生平：圣母献堂",
+      "a": "阿尔布雷希特·丢勒",
+      "aid": "albrecht-durer-german-1471-1528",
+      "y": 1504,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教题材",
+        "16世纪",
+        "德国",
+        "版画",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.289/1922.289_web.jpg",
+      "ratio": 1.395
+    },
+    {
+      "id": "cma-104435",
+      "issue": "2026-08-14",
+      "t": "战争的灾难：这也是",
+      "a": "弗朗西斯科·戈雅",
+      "aid": "francisco-de-goya-spanish-1746-1828",
+      "y": 1836,
+      "mv": "浪漫主义",
+      "tags": [
+        "战争",
+        "蚀刻版画",
+        "19世纪",
+        "西班牙",
+        "社会批判"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.559/1922.559_web.jpg",
+      "ratio": 0.763
     }
   ]
 }

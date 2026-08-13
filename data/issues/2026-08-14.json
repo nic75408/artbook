@@ -1,0 +1,1395 @@
+{
+  "v": 1,
+  "date": "2026-08-14",
+  "works": [
+    {
+      "id": "met-435844",
+      "source": "met",
+      "sourceId": "435844",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435844",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Musicians",
+      "title_zh": "音乐家",
+      "artist_en": "Caravaggio (Michelangelo Merisi)",
+      "artist_zh": "卡拉瓦乔",
+      "artist_id": "caravaggio-michelangelo-merisi",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1571–1610",
+      "date_display": "1597",
+      "year": 1597,
+      "medium_zh": "布面油画",
+      "dimensions": "36 1/4 x 46 5/8 in. (92.1 x 118.4 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "光影",
+        "音乐"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+        "ratio": 0.776
+      },
+      "palette": [
+        "#2d1a0d",
+        "#6a5843"
+      ],
+      "essay": [
+        "这是卡拉瓦乔早期在罗马红衣主教德尔蒙特庇护下的作品，标志着他从静物写生向复杂人物叙事的跨越。画作虽仍带有学院派理想化的痕迹，但那种对真实质感的执着追求，已预示了后来彻底改变西方绘画史的“自然主义”风暴。",
+        "画面左侧少年调试鲁特琴的手指是整幅画的视觉锚点。卡拉瓦乔用厚涂法堆叠出琴弦的张力与指尖按压的凹陷感，这种对触觉真实的还原，比面部表情更具说服力。光线并非均匀铺陈，而是像聚光灯般打在乐器与乐谱上，强化了物质的存在感。",
+        "必须指出，这并非一场真实的排练。少年们身着古典长袍，面容却有着卡拉瓦乔标志性的市井气——那是他在罗马街头找来的模特。这种将神圣题材世俗化、让神祗拥有凡人瑕疵的处理，在当时既冒犯了保守派，也成就了其独特的戏剧张力。",
+        "尽管构图略显拥挤，右侧背影的处理也稍显生硬，但那种空气中仿佛能听到的走调试音与少年间的低语，让这幅画超越了静止的图像，成为巴洛克早期最生动的感官记录。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-40057",
+      "source": "met",
+      "sourceId": "40057",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/40057",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Fisherman's Lodge At Mount Xisai",
+      "title_zh": "西塞渔社图",
+      "artist_en": "Li Jie",
+      "artist_zh": "李结",
+      "artist_id": "li-jie",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详",
+      "date_display": "ca. 1170",
+      "year": 1170,
+      "medium_zh": "绢本设色手卷",
+      "dimensions": "Image (a): 16 × 53 3/4 in. (40.6 × 136.5 cm)\r\nOverall with mounting (a): 16 3/8 in. × 26 ft. 1/8 in. (41.6 × 792.8 cm)\r\nOverall with mounting (b): 16 3/8 in. × 27 ft. 9 5/16 in. (41.6 × 846.6 cm)",
+      "movement_zh": "宋代院体",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "渔隐",
+        "青绿"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15820-005_crd.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP-15820-005_crd.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15820-005_crd.jpg",
+        "ratio": 0.618
+      },
+      "palette": [
+        "#71614b",
+        "#645745"
+      ],
+      "essay": [
+        "李结在南宋画史中并非显赫巨匠，但这幅《西塞渔社图》却是存世极少的南宋青绿山水真迹。它承接了北宋王希孟《千里江山图》的宏大遗韵，却将视角从庙堂江山收束至文人向往的江湖渔隐。作为手卷，它是南宋士大夫阶层精神避世的视觉档案，记录了那个时代对归隐生活的集体想象。",
+        "画面最耐看处在于水面的处理。前景大片留白并非空无一物，而是用极淡的墨色晕染出浩渺烟波，其间点缀细碎的青绿苔点，暗示水草丰茂。这种“计白当黑”的手法，让观者在展开画卷时，仿佛能感受到江南湿润的空气与缓缓流动的水势，静谧中暗藏生机。",
+        "必须指出，画中的“渔隐”生活带有强烈的理想化滤镜。茅舍整洁、山石奇秀，完全过滤了真实渔家生活的艰辛与粗砺。这是典型的文人画套路：借渔夫之壳，浇心中块垒。画家画的不是渔民，而是渴望归隐的自己；这种对现实的美化虽失之真实，却精准击中了当时文人的审美痛点。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.75,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-435897",
+      "source": "met",
+      "sourceId": "435897",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435897",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Head of Christ (Ecce Homo)",
+      "title_zh": "基督头像（Ecce Homo）",
+      "artist_en": "Petrus Christus",
+      "artist_zh": "佩特鲁斯·克里斯图斯",
+      "artist_id": "petrus-christus",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "约 1410–1475",
+      "date_display": "ca. 1445",
+      "year": 1445,
+      "medium_zh": "羊皮纸油画，贴于木板",
+      "dimensions": "Overall 5 7/8 x 4 1/4 in. (14.9 x 10.8 cm); parchment 5 3/4 x 4 1/8 in. (14.6 x 10.5 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教题材",
+        "15世纪",
+        "尼德兰",
+        "肖像",
+        "受难"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229079.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT229079.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229079.jpg",
+        "ratio": 1.357
+      },
+      "palette": [
+        "#242228",
+        "#8f745b"
+      ],
+      "essay": [
+        "佩特鲁斯·克里斯图斯是扬·凡·艾克之后早期尼德兰画派的关键人物，他继承了凡·艾克对光影与细节的极致追求，同时发展出更为静谧、内省的风格。此作《基督头像》创作于约 1445 年，属于其成熟期作品，体现了当时北方文艺复兴对宗教题材的深刻反思与人性化表达。",
+        "画面中，基督的面容被细致描绘，荆棘冠冕下的血迹清晰可见，尤其是额头上的血滴，通过精细的笔触表现出液体的质感与光泽。背景深蓝色调与金色装饰形成强烈对比，增强了神圣感。基督的眼神直视观者，传达出一种超越时空的悲悯与沉思。",
+        "尽管作品在技术上无可挑剔，但基督的形象略显理想化，缺乏真实受难者的痛苦表情。这种处理方式反映了当时艺术家在宗教题材上的矛盾：既要表现神圣性，又要避免过于残酷的现实。然而，正是这种克制的情感表达，使得作品更具内敛的力量。",
+        "总体而言，《基督头像》不仅是佩特鲁斯·克里斯图斯个人风格的典范，也是早期尼德兰画派宗教绘画的重要代表。它通过细腻的技法与深邃的情感，成功地将观者带入一个静谧而庄严的精神世界。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-848137",
+      "source": "met",
+      "sourceId": "848137",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/848137",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Study of a Nude Man",
+      "title_zh": "裸体男子习作",
+      "artist_en": "Gustave Courbet",
+      "artist_zh": "古斯塔夫·库尔贝",
+      "artist_id": "gustave-courbet",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1819–1877",
+      "date_display": "early 1840s",
+      "year": 1840,
+      "medium_zh": "布面油画",
+      "dimensions": "29 × 33 1/8 in. (73.7 × 84.1 cm)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "人体习作",
+        "19世纪",
+        "法国",
+        "男性裸体",
+        "学院派"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25035-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-25035-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25035-001.jpg",
+        "ratio": 0.872
+      },
+      "palette": [
+        "#26150c",
+        "#5c3e29"
+      ],
+      "essay": [
+        "这是库尔贝早年求学时期的学院派习作，彼时他尚未举起现实主义的大旗。画面遵循了当时美术学院对男性人体写生的严苛标准：强调解剖结构的准确性与肌肉的体积感。这类作品通常不对外公开展出，仅供画家磨练技艺，却意外保留了这位反叛者在成名前扎实的传统功底。",
+        "光线从左上方切入，在背部脊柱沟壑与紧绷的臀大肌上形成强烈的高光，塑造出雕塑般的坚实质感。注意看支撑身体的右手——指节因用力而发白，手背青筋暴起，这种对受力状态的精准捕捉，比光滑的皮肤更具说服力。暗部并非死黑，而是透着暖褐色的空气感。",
+        "尽管技法娴熟，但这幅画仍带有明显的‘摆拍’痕迹。模特的姿态是为了展示肌肉而刻意扭曲的，缺乏自然状态下的人体松弛感。这种为了考试或练习而存在的‘完美人体’，恰恰是库尔贝日后在《奥尔南的葬礼》中极力摒弃的——他后来更爱画粗糙的手和真实的疲惫，而非这种理想化的健美。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-104412",
+      "source": "cma",
+      "sourceId": "104412",
+      "sourceUrl": "https://clevelandart.org/art/1922.537",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Horrors of War:  It Will  Be the Same",
+      "title_zh": "战争的恐怖：结局都一样",
+      "artist_en": "Francisco de Goya (Spanish, 1746–1828)",
+      "artist_zh": "弗朗西斯科·戈雅",
+      "artist_id": "francisco-de-goya-spanish-1746-1828",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1746–1828",
+      "date_display": "c. 1810–20",
+      "year": 1810,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "战争",
+        "版画",
+        "19世纪",
+        "西班牙",
+        "死亡"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.537/1922.537_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.537/1922.537_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.537/1922.537_web.jpg",
+        "ratio": 0.77
+      },
+      "palette": [
+        "#d8d5ca",
+        "#908c81"
+      ],
+      "essay": [
+        "戈雅晚年创作的《战争的灾难》系列，彻底撕碎了古典主义对战争英雄化的滤镜。这幅作于半岛战争期间的蚀刻版画，不再歌颂胜利，而是将目光死死钉在暴力的荒谬与无差别上。它标志着艺术史从宏大叙事向个体苦难的残酷转向。",
+        "画面右侧，两名士兵正合力将一具尸体抛向尸堆，动作熟练得像在搬运货物。这种机械性的冷漠比血腥本身更令人胆寒。戈雅利用蚀刻针法在暗部制造出粗粝的噪点，让背景如同吞噬一切的深渊，前景中横陈的肢体在强光下显得惨白而僵硬。",
+        "标题“结局都一样”透着彻底的虚无——无论生前立场如何，死后都沦为待处理的肉块。戈雅没有给观者留下任何道德高地或情感宣泄口，这种拒绝和解的冷酷，恰恰是这幅作品最有力量的地方。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.42,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-435728",
+      "source": "met",
+      "sourceId": "435728",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435728",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Last Communion of Saint Jerome",
+      "title_zh": "圣杰罗姆的最后圣餐",
+      "artist_en": "Botticelli (Alessandro di Mariano Filipepi)",
+      "artist_zh": "桑德罗·波提切利",
+      "artist_id": "botticelli-alessandro-di-mariano-filipepi",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1445–1510",
+      "date_display": "early 1490s",
+      "year": 1490,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "13 1/2 x 10 in. (34.3 x 25.4 cm)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "15世纪",
+        "意大利",
+        "蛋彩画",
+        "圣徒"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24049-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-24049-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24049-001.jpg",
+        "ratio": 1.325
+      },
+      "palette": [
+        "#31271b",
+        "#79674e"
+      ],
+      "essay": [
+        "波提切利晚年风格转向深沉内省，这幅《圣杰罗姆的最后圣餐》正是其宗教情感浓烈时期的代表作。不同于早期神话画的轻盈飘逸，此作构图紧凑，人物神情肃穆，反映了画家在萨沃纳罗拉布道影响下对信仰的严肃思考。",
+        "画面最动人处在于圣杰罗姆跪地领受圣餐的瞬间——他双手颤抖，眼神虔诚，衣褶如流水般垂落，显示出波提切利对线条的极致掌控。detailCrop 所选局部聚焦于神父俯身递送圣体的手势与圣杰罗姆仰望的面容，二者之间形成一种神圣而脆弱的连接，金箔背景更强化了这一时刻的超验性。",
+        "然而，波提切利对人物表情的刻画略显程式化，几位侍立修士的面容缺乏个性，仿佛只是宗教仪式的符号而非真实个体。这种“去人性化”的处理，虽强化了神圣氛围，却也削弱了叙事的情感张力，反映出晚期波提切利在信仰与艺术表现之间的挣扎。",
+        "尽管如此，这幅小尺幅作品仍以其凝练的构图与深沉的灵性，成为理解波提切利晚年精神世界的关键钥匙。它提醒我们，伟大的艺术家并非总是完美无缺，而是在矛盾中探索人性的深度。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.58,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-435899",
+      "source": "met",
+      "sourceId": "435899",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435899",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Annunciation",
+      "title_zh": "天使报喜",
+      "artist_en": "Petrus Christus",
+      "artist_zh": "佩特鲁斯·克里斯图斯",
+      "artist_id": "petrus-christus",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1410/1420–1475/1476",
+      "date_display": "ca. 1445",
+      "year": 1445,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall 31 x 25 7/8 in. (78.7 x 65.7 cm); painted surface 30 1/2 x 25 1/4 in. (77.5 x 64.1 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "天使报喜",
+        "哥特式"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1479.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1479.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1479.jpg",
+        "ratio": 1.202
+      },
+      "palette": [
+        "#362b1a",
+        "#765d32"
+      ],
+      "essay": [
+        "佩特鲁斯·克里斯图斯是扬·凡·艾克之后，布鲁日画派的关键继承者。这幅《天使报喜》创作于 1445 年左右，处于早期尼德兰绘画的巅峰期。不同于意大利文艺复兴对宏大透视的迷恋，克里斯图斯在此展现了北方画家对微观物质世界的极致关注，将神圣时刻锚定在具体的砖石与织物之中。",
+        "画面最耐看的是左侧天使加百列的翅膀——那是整幅画色彩最饱和、肌理最繁复的区域。画家没有使用平涂，而是用细密的笔触堆叠出羽毛的层次感，金红与深蓝的交织如同镶嵌工艺。这种对材质质感的痴迷，甚至超过了人物表情的刻画，是凡·艾克传统的典型延续。",
+        "然而，这种对细节的过度执着也带来了叙事的割裂感。天使与圣母被厚重的哥特式门框强行分隔在两个空间，虽然符合建筑逻辑，却削弱了神迹降临时的戏剧张力。圣母的姿态略显僵硬，仿佛是为了配合画家展示衣褶画法而摆出的模特，少了几分人性化的惊惶或虔诚。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.52,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-44759",
+      "source": "met",
+      "sourceId": "44759",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/44759",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Landscapes, Figures, and Flowers",
+      "title_zh": "山水、人物与花卉册（十二开）",
+      "artist_en": "Chen Hongshou",
+      "artist_zh": "陈洪绶",
+      "artist_id": "chen-hongshou",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1598–1652",
+      "date_display": "dated 1618–22",
+      "year": 1618,
+      "medium_zh": "纸本设色册页",
+      "dimensions": "Image: 8 3/4 × 3 5/8 in. (22.2 × 9.2 cm)\r\nInscription: 8 3/4 × 3 5/8 in. (22.2 × 9.2 cm)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "明代",
+        "文人画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/1985_121_A_sf.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/1985_121_A_sf.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/1985_121_A_sf.jpg",
+        "ratio": 0.925
+      },
+      "palette": [
+        "#c9c9c2",
+        "#b2a896"
+      ],
+      "essay": [
+        "陈洪是明末清初极具个性的画家，以人物画的高古奇骇著称，但其山水册页同样展现了深厚的笔墨功底。此作创作于 1618 至 1622 年间，正值画家青年时期，虽未完全形成后期那种夸张变形的风格，但已显露出对古意的独特追求与对笔墨情趣的敏锐把控。",
+        "画面右侧的枯树与山石处理得极为老辣。树干线条方折有力，如屈铁盘丝，这种“高古游丝描”的变体赋予了树木一种金石般的质感。山石法简练，不求体积的厚重，而重轮廓的奇崛。左侧书法笔势连贯，与右侧画意形成虚实呼应，是典型的文人册页布局。",
+        "作为一本综合题材的册页，其山水部分略显拘谨，不如他的人物画那般放逸狂怪。这种克制或许源于对宋元古法的致敬，但也让画面少了几分陈洪标志性的戏剧张力。不过，正是这种收敛，体现了他在确立个人风格前，对传统笔墨秩序的梳理与沉淀。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-53660",
+      "source": "met",
+      "sourceId": "53660",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/53660",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Ten Verses on Oxherding",
+      "title_zh": "十牛图颂",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详",
+      "date_display": "1278",
+      "year": 1278,
+      "medium_zh": "纸本设色手卷",
+      "dimensions": "Image: 12 1/4 in. × 20 ft. 6 in. (31.1 × 624.8 cm)",
+      "movement_zh": "禅画",
+      "tags": [
+        "禅宗",
+        "佛教",
+        "手卷",
+        "13世纪",
+        "中国"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_10_Burke_website.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/2015_300_10_Burke_website.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_10_Burke_website.jpg",
+        "ratio": 0.623
+      },
+      "palette": [
+        "#cdbd9f",
+        "#b3a386"
+      ],
+      "essay": [
+        "这幅《十牛图颂》是现存最早的禅宗牧牛图卷之一，作于南宋末年。它并非单纯的叙事插图，而是将禅宗修行的十个阶段转化为可视的图像寓言。在艺术史上，这类作品标志着禅画从抽象的泼墨减笔向更具叙事性和教化功能的图文结合形式转变。",
+        "画面采用典型的「左图右文」手卷制式，左侧圆形开光内绘牧童持杖伫立，右侧配以楷书颂文。最值得玩味的是牧童的衣纹处理：朱红长袍以劲健的铁线描勾勒，转折处顿挫有力，与背景中淡墨渲染的疏林远山形成鲜明对比。这种工致的人物画法，保留了宋代院体画的遗韵，却服务于禅宗的出世主题。",
+        "必须指出，此作在视觉张力上略显克制。相比于后世那些笔墨狂放、甚至以「无牛」喻「空性」的极简禅画，这幅早期作品显得过于「完整」和「安稳」。牧童神态从容，山水布局平稳，缺乏修行过程中那种焦灼与顿悟的剧烈冲突感，更像是一份工整的修行指南，而非直指人心的棒喝。"
+      ],
+      "detailCrop": {
+        "cx": 0.26,
+        "cy": 0.62,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435621",
+      "source": "met",
+      "sourceId": "435621",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Joan of Arc",
+      "title_zh": "圣女贞德",
+      "artist_en": "Jules Bastien-Lepage",
+      "artist_zh": "朱尔·巴斯蒂安-勒帕热",
+      "artist_id": "jules-bastien-lepage",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1848–1884",
+      "date_display": "1879",
+      "year": 1879,
+      "medium_zh": "布面油画",
+      "dimensions": "100 x 110 in. (254 x 279.4 cm)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "肖像",
+        "现实主义",
+        "19世纪",
+        "法国",
+        "历史题材",
+        "宗教"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-049.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+        "ratio": 0.905
+      },
+      "palette": [
+        "#2c2b23",
+        "#504937"
+      ],
+      "essay": [
+        "朱尔·巴斯蒂安-勒帕热是 19 世纪法国现实主义向自然主义过渡的关键人物。这幅作于 1879 年的《圣女贞德》是他职业生涯的巅峰之作，也是他试图调和学院派历史画传统与户外写生（En plein air）新风的野心实验。",
+        "画面最耐人寻味的是贞德身后的幻象处理。画家没有使用传统的金色光环或戏剧性布光，而是让天使以半透明的幽灵形态悬浮在树丛间，仿佛只是光线折射的错觉。这种处理让神迹看起来像是一种心理投射，而非超自然现象。",
+        "然而，这种极度的写实主义也带来了尴尬的割裂感。贞德脚下的泥土、粗糙的农舍和真实的植被质感无可挑剔，但她那身过于整洁、甚至带有舞台感的服装，与周围真实的农家环境显得格格不入。画家在追求‘真实’的同时，依然未能摆脱对英雄人物的理想化修饰，这种矛盾削弱了画面的整体说服力。",
+        "尽管如此，贞德仰望时那种恍惚而坚定的神情，成功捕捉到了人物内心信仰与现实的冲突，使这幅画超越了普通的历史场景再现，成为 19 世纪法国绘画中极具心理深度的作品之一。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.35,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-437384",
+      "source": "met",
+      "sourceId": "437384",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437384",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Salome",
+      "title_zh": "莎乐美",
+      "artist_en": "Henri Regnault",
+      "artist_zh": "亨利·雷尼奥",
+      "artist_id": "henri-regnault",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1843–1871",
+      "date_display": "1870",
+      "year": 1870,
+      "medium_zh": "布面油画",
+      "dimensions": "63 x 40 1/2 in. (160 x 102.9 cm)",
+      "movement_zh": "学院派",
+      "tags": [
+        "圣经题材",
+        "东方主义",
+        "19世纪",
+        "法国",
+        "肖像"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/ep16.95.R.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/ep16.95.R.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep16.95.R.jpg",
+        "ratio": 1.6
+      },
+      "palette": [
+        "#c7a558",
+        "#5d4428"
+      ],
+      "essay": [
+        "亨利·雷尼奥是法兰西第二帝国时期学院派的宠儿，以惊人的色彩天赋和流畅笔触著称。这幅《莎乐美》创作于 1870 年，即他英年早逝的前一年，代表了他在东方主义题材上的最高成就。不同于后来莫罗笔下那种阴郁神秘的象征主义莎乐美，雷尼奥呈现的是一位充满世俗生命力、甚至带着几分俏皮的女性。",
+        "画面最精彩之处在于对金色质感的极致铺陈。请看莎乐美手中的铜盘与身后的金箔背景——画家利用厚涂法堆叠出金属的厚重感，又用极薄的罩染表现丝绸的通透。莎乐美嘴角那一抹似有若无的笑意，配合她赤足踩在豹纹地毯上的姿态，消解了斩首故事的恐怖，转而营造出一种慵懒的感官享乐氛围。",
+        "然而，这种对物质奢华的过度迷恋也构成了作品的局限。雷尼奥显然更沉醉于描绘织锦、金属与肌肤的光泽，而非挖掘人物内心的戏剧张力。莎乐美手中的刀更像是一个精致的道具，而非行凶的凶器。这种将血腥题材“装饰化”的处理，虽展示了高超技法，却也让画面停留在悦目的表层，少了一份直击人心的力量。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.58,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-435848",
+      "source": "met",
+      "sourceId": "435848",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435848",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Birth of the Virgin",
+      "title_zh": "圣母诞生",
+      "artist_en": "Fra Carnevale (Bartolomeo di Giovanni Corradini)",
+      "artist_zh": "弗拉·卡内瓦莱",
+      "artist_id": "fra-carnevale-bartolomeo-di-giovanni-corradini",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1420–1484",
+      "date_display": "1467",
+      "year": 1467,
+      "medium_zh": "木板蛋彩与油画",
+      "dimensions": "57 x 37 7/8 in. (144.8 x 96.2 cm)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "宗教画",
+        "建筑",
+        "15世纪",
+        "意大利",
+        "乌尔比诺"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP109484.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP109484.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP109484.jpg",
+        "ratio": 1.489
+      },
+      "palette": [
+        "#b2a7a1",
+        "#726b70"
+      ],
+      "essay": [
+        "弗拉·卡内瓦莱是 15 世纪乌尔比诺画派的关键人物，也是透视法的大师。这幅作于 1467 年的《圣母诞生》并非传统的宗教圣像，而是一座展示其建筑学养与空间构建能力的舞台。他在画中构建的宏伟柱廊，精准地实践了阿尔伯蒂的理论，将神圣叙事置于理性的几何秩序之中。",
+        "画面最精彩之处在于那座占据主导地位的白色大理石建筑。请看前景左侧的圆柱与拱券，画家利用线性透视将视线强行引向深处的产房。这种冷峻、清晰的灰白色调与人物身上鲜艳的蓝红长袍形成强烈反差，建筑本身的体积感甚至压过了宗教故事的主角，喧宾夺主得令人印象深刻。",
+        "然而，这种对建筑秩序的过度痴迷也带来了代价。前景中那些衣着华丽的贵妇与侍女，姿态僵硬如木偶，彼此间缺乏真实的情感交流，仿佛只是为了填充建筑空隙而存在的装饰元素。神圣的诞生场景被处理得像是一场冷静的宫廷仪式，少了几分人性的温度，多了几分数学的冰冷。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.55,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-101027",
+      "source": "cma",
+      "sourceId": "101027",
+      "sourceUrl": "https://clevelandart.org/art/1920.1369",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Bookplate: Elizabeth M. Leete",
+      "title_zh": "藏书票：伊丽莎白·M·利特",
+      "artist_en": "Unknown",
+      "artist_zh": "威廉·乔丹",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "英国",
+      "artist_years": "不详",
+      "date_display": "1898",
+      "year": 1898,
+      "medium_zh": "纸上版画",
+      "dimensions": "Overall: 3.8 x 5.2 cm (1 1/2 x 2 1/16 in.)",
+      "movement_zh": "工艺美术运动",
+      "tags": [
+        "藏书票",
+        "版画",
+        "19世纪",
+        "英国",
+        "装饰艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.1369/1920.1369_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.1369/1920.1369_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.1369/1920.1369_web.jpg",
+        "ratio": 0.747
+      },
+      "palette": [
+        "#d4cfbb",
+        "#9c9788"
+      ],
+      "essay": [
+        "这件作品是典型的工艺美术运动时期的藏书票，由英国艺术家威廉·乔丹设计。这类作品在19世纪末的英国非常流行，旨在通过精美的装饰艺术提升书籍的收藏价值。",
+        "画面中央的“ELIZABETH M LEETE HER BOOK”字样被两只对称的鸟形图案环绕，线条流畅而富有韵律感。底部的盾牌和年份“MDCCCXCVIII”（1898年）增加了作品的历史感和庄重感。",
+        "尽管设计精美，但这种高度程式化的装饰风格有时显得过于刻板，缺乏个性化的表达。然而，正是这种严谨的对称性和细腻的线条处理，使得这件作品在当时广受欢迎。",
+        "总体而言，这件藏书票不仅展示了工艺美术运动的美学理念，也反映了当时人们对书籍装饰艺术的追求。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-104126",
+      "source": "cma",
+      "sourceId": "104126",
+      "sourceUrl": "https://clevelandart.org/art/1922.287",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Life of the Virgin:  Joachim and Anna Embracing under the Golden Gate",
+      "title_zh": "圣母生平：约阿希姆与安娜在金门相拥",
+      "artist_en": "Albrecht Dürer (German, 1471–1528)",
+      "artist_zh": "阿尔布雷希特·丢勒",
+      "artist_id": "albrecht-durer-german-1471-1528",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1471–1528",
+      "date_display": "1504–1505",
+      "year": 1504,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "版画",
+        "16世纪",
+        "德国",
+        "叙事"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.287/1922.287_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.287/1922.287_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.287/1922.287_web.jpg",
+        "ratio": 1.409
+      },
+      "palette": [
+        "#8d8b80",
+        "#c6c3b6"
+      ],
+      "essay": [
+        "这是丢勒《圣母生平》系列木刻版画中的关键一幕，创作于他第二次游历威尼斯归来后。此时的丢勒已不满足于中世纪刻板的宗教图解，而是试图用北方日耳曼的严谨观察力，去重构意大利式的宏大叙事。这幅作品标志着他在版画领域对空间与体积的掌控达到了新的高度。",
+        "画面最精彩之处在于前景人物的衣褶处理——请看局部放大的拥抱瞬间。丢勒利用极其细密的排线，在安娜厚重的长袍上营造出了惊人的体积感与垂坠感。这种通过线条疏密来模拟光影的手法，让平面的木板拥有了雕塑般的厚重质地，衣纹的转折甚至暗示了底下肢体的动作。",
+        "然而，这种对现实质感的过度追求，有时也削弱了神圣题材应有的超脱感。背景中那座过于写实的纽伦堡式城堡，以及路人脸上近乎市井的世俗表情，让这幕圣经故事看起来更像是一场发生在德国街头的家庭重逢。这种“神圣的世俗化”，既是丢勒的突破，也是某种程度上的消解。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.63,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-101029",
+      "source": "cma",
+      "sourceId": "101029",
+      "sourceUrl": "https://clevelandart.org/art/1920.1370",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Bookplate: John W. Lowe",
+      "title_zh": "藏书票：约翰·W·洛",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "不详",
+      "artist_years": "不详",
+      "date_display": "1901",
+      "year": 1901,
+      "medium_zh": "版画",
+      "dimensions": "Overall: 8 x 6.4 cm (3 1/8 x 2 1/2 in.)",
+      "movement_zh": "新艺术运动",
+      "tags": [
+        "藏书票",
+        "肖像",
+        "1901",
+        "装饰艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.1370/1920.1370_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.1370/1920.1370_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.1370/1920.1370_web.jpg",
+        "ratio": 1.194
+      },
+      "palette": [
+        "#ddd4c0",
+        "#969085"
+      ],
+      "essay": [
+        "这件作品是 20 世纪初典型的藏书票，属于新艺术运动时期的装饰艺术范畴。由于作者未署名，我们只能从风格上将其归入当时流行的商业插画或版画传统。这类作品通常由委托方定制，用于标记书籍归属，兼具实用功能与审美趣味。",
+        "画面中心是一位身着 19 世纪服饰的绅士，手持书卷端坐于扶手椅中。最精彩之处在于背景的点状肌理处理——通过密集的墨点营造出深邃的空间感，与前景清晰的线条形成强烈对比。这种技法既节省成本，又赋予画面独特的视觉节奏。",
+        "尽管构图工整，但人物形象略显刻板：僵硬的姿态、程式化的面部表情，都暴露出批量生产的局限。底部的装饰纹样虽精致，却与上方人物缺乏有机联系，像是为了填满空间而强行添加。这种割裂感正是商业定制作品的常见遗憾。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.25
+      }
+    },
+    {
+      "id": "met-53238",
+      "source": "met",
+      "sourceId": "53238",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/53238",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Zheng Huangniu and Yushanzhu",
+      "title_zh": "郑黄牛与渔山主",
+      "artist_en": "Kano Naizen",
+      "artist_zh": "狩野内膳",
+      "artist_id": "kano-naizen",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1570–1616",
+      "date_display": "early 17th century",
+      "year": null,
+      "medium_zh": "纸本水墨",
+      "dimensions": "Image (a): 44 in. × 18 11/16 in. (111.7 × 47.4 cm)\r\nOverall with mounting (a): 78 11/16 × 24 5/8 in. (199.8 × 62.6 cm)\r\nOverall with knobs (a): 78 11/16 × 26 9/16 in. (199.8 × 67.5 cm)\r\nImage (b): 44 1/16 × 18 11/16 in. (111.9 × 47.4 cm)\r\nOverall with mounting (b): 78 15/16 × 24 1/2 in. (200.5 × 62.3 cm)\r\nOverall with knobs (b): 78 15/16 × 26 9/16 in. (200.5 × 67.4 cm)",
+      "movement_zh": "狩野派",
+      "tags": [
+        "人物",
+        "动物",
+        "17世纪",
+        "日本",
+        "水墨",
+        "狩野派"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP361158.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP361158.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP361158.jpg",
+        "ratio": 1.997
+      },
+      "palette": [
+        "#cab49b",
+        "#a58b6a"
+      ],
+      "essay": [
+        "狩野内膳是安土桃山至江户初期狩野派的重要画师，以融合汉画传统与日本装饰趣味著称。此作《郑黄牛与渔山主》虽题材源自中国典故，却呈现出典型的日式水墨简练风格，反映了当时日本画坛对汉文化的吸收与重构。作为狩野派的重要作品，它在艺术史上具有独特的地位，展示了该流派在跨文化交流中的创新与适应。",
+        "画面下方，人物骑驴缓行，衣纹线条流畅而有力，驴的形态生动，墨色浓淡变化丰富。右上角的题诗书法与画面形成呼应，整体构图留白大胆，营造出空灵的意境。细节处，驴的毛发通过细腻的笔触表现得栩栩如生，人物的服饰纹理也清晰可见，展现了画家高超的技艺。",
+        "尽管技法娴熟，但人物面部表情略显程式化，缺乏深层的情感表达。这种处理方式在狩野派作品中较为常见，反映了当时对形式美的追求胜过对个体情感的刻画。然而，这种程式化并非全然负面，它在一定程度上强化了作品的象征意义，使观者更专注于整体的意境而非个体的情感。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.75,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-101036",
+      "source": "cma",
+      "sourceId": "101036",
+      "sourceUrl": "https://clevelandart.org/art/1920.1377",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Bookplate: Elmi P. Mills",
+      "title_zh": "藏书票：埃尔米·P·米尔斯",
+      "artist_en": "Charles Samuel Keene (British, 1823–1891)",
+      "artist_zh": "查尔斯·塞缪尔·基恩",
+      "artist_id": "charles-samuel-keene-british-1823-1891",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1823–1891",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "木刻版画",
+      "dimensions": "Overall: 4.6 x 3.9 cm (1 13/16 x 1 9/16 in.)",
+      "movement_zh": "工艺美术运动",
+      "tags": [
+        "藏书票",
+        "字母组合",
+        "19世纪",
+        "英国",
+        "黑白版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.1377/1920.1377_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.1377/1920.1377_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.1377/1920.1377_web.jpg",
+        "ratio": 1.084
+      },
+      "palette": [
+        "#4a463e",
+        "#c4b8a0"
+      ],
+      "essay": [
+        "查尔斯·塞缪尔·基恩是维多利亚时代英国著名的插画家，以在《笨拙》杂志上的幽默素描闻名。这件藏书票虽非其主流代表作，却展示了他在装饰艺术领域的尝试。作品带有明显的工艺美术运动特征，强调手工艺与设计的结合，反映了当时知识分子对书籍文化的推崇。",
+        "画面核心是交织的字母组合，线条粗犷有力，具有强烈的黑白对比。请注意字母边缘的锯齿状处理与背景的点状肌理——这是木刻刀法留下的痕迹，而非印刷瑕疵。两侧对称的花卉纹样平衡了构图的严肃感，赋予这枚功能性标签以装饰趣味。",
+        "作为一张私人藏书票，其设计略显拘谨。字母组合虽具辨识度，但缺乏基恩漫画中那种灵动的叙事性；上下两行拉丁文与英文的字体风格也不尽统一。这种功能性与艺术性之间的妥协，正是实用版画常见的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.25
+      }
+    },
+    {
+      "id": "cma-101074",
+      "source": "cma",
+      "sourceId": "101074",
+      "sourceUrl": "https://clevelandart.org/art/1920.1410",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Bookplate: Margarethe Strauss",
+      "title_zh": "藏书票：玛格丽特·施特劳斯",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "不详",
+      "artist_years": "不详",
+      "date_display": "1902",
+      "year": 1902,
+      "medium_zh": "木刻版画",
+      "dimensions": "Overall: 7.8 x 3 cm (3 1/16 x 1 3/16 in.)",
+      "movement_zh": "新艺术运动",
+      "tags": [
+        "藏书票",
+        "风景",
+        "1902",
+        "版画",
+        "新艺术风格"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.1410/1920.1410_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.1410/1920.1410_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.1410/1920.1410_web.jpg",
+        "ratio": 2.267
+      },
+      "palette": [
+        "#dad2ba",
+        "#7c766a"
+      ],
+      "essay": [
+        "这件 1902 年的藏书票出自一位未留名的艺术家之手，属于新艺术运动时期的典型设计。作为书籍所有权的标记，它不仅是实用物件，更是当时装饰艺术风潮的缩影。在狭长的竖构图中，艺术家试图将自然意象与文字排版融合，展现了那个时代对线条美学的极致追求。",
+        "画面最精彩之处在于云层的处理。艺术家利用密集的排线，刻画出云团翻涌的体积感与流动感，这种繁复的肌理与下方大面积留白的天空形成强烈对比。底部的树木剪影采用近乎全黑的色块，稳住了画面的重心，也衬托出上方云层的轻盈与躁动。",
+        "尽管线条技法娴熟，但这幅作品在构图上略显局促。上方云层的动态虽然强烈，却与下方静止的树木缺乏内在的逻辑联系，显得有些割裂。底部的哥特字体虽然典雅，但在如此狭窄的空间里显得过于拥挤，削弱了画面的呼吸感，这是当时许多装饰性版画通有的毛病。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.25
+      }
+    },
+    {
+      "id": "cma-101857",
+      "source": "cma",
+      "sourceId": "101857",
+      "sourceUrl": "https://clevelandart.org/art/1920.519",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Women Accompanying a Girl to a Shrine",
+      "title_zh": "参拜神社的女子与少女",
+      "artist_en": "Katsukawa Shunchō (Japanese)",
+      "artist_zh": "胜川春章",
+      "artist_id": "katsukawa-shuncho-japanese",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1726–1792",
+      "date_display": "early 1790s",
+      "year": 1790,
+      "medium_zh": "彩色木刻版画",
+      "dimensions": "Sheet: 39.1 x 26.1 cm (15 3/8 x 10 1/4 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "风俗画",
+        "女性群像",
+        "江户时代",
+        "日本"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.519/1920.519_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.519/1920.519_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.519/1920.519_web.jpg",
+        "ratio": 1.463
+      },
+      "palette": [
+        "#c9b593",
+        "#aa9374"
+      ],
+      "essay": [
+        "胜川春章是江户时代浮世绘的巨匠，以确立“役者绘”（歌舞伎演员肖像）的写实风格闻名。这幅作于其晚年的作品，罕见地脱离了剧场题材，转而描绘市井风俗。它展示了画家在生命最后阶段，试图在美人画领域探索更为自然、生活化场景的努力。",
+        "画面最耐看的是人物衣纹的处理。春章用极其洗练的墨线勾勒出和服的褶皱，尤其是前景女子灰绿色外褂下摆的垂坠感，线条流畅且极具分量。这种对布料质感的精准捕捉，配合淡雅的晕染，让静态的画面产生了微风拂过的动态错觉。",
+        "不过，若以严格的写实标准审视，画中人物的面部表情显得过于雷同与木然。除了中间回头的少女略显生动外，其余几位女性的神情仿佛复制粘贴，缺乏个体性格的区分。这种“千人一面”是当时浮世绘量产模式下的通病，削弱了群像画应有的叙事张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-102690",
+      "source": "cma",
+      "sourceId": "102690",
+      "sourceUrl": "https://clevelandart.org/art/1921.1347",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Le Point-du-Jour",
+      "title_zh": "黎明",
+      "artist_en": "Auguste Louis Lepère (French, 1849–1918)",
+      "artist_zh": "奥古斯特·勒佩尔",
+      "artist_id": "auguste-louis-lepere-french-1849-1918",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1849–1918",
+      "date_display": "1890",
+      "year": 1890,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "印象派",
+      "tags": [
+        "巴黎",
+        "塞纳河",
+        "埃菲尔铁塔",
+        "19世纪",
+        "城市景观"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.1347/1921.1347_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.1347/1921.1347_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.1347/1921.1347_web.jpg",
+        "ratio": 0.841
+      },
+      "palette": [
+        "#e0ded2",
+        "#959389"
+      ],
+      "essay": [
+        "奥古斯特·勒佩尔是 19 世纪末法国版画复兴的关键人物，以木刻记录巴黎的城市变迁。这幅《黎明》创作于 1890 年，正值埃菲尔铁塔落成次年，属于他「巴黎全景」系列中极具文献价值的作品。",
+        "画面采用高视点俯瞰塞纳河，前景的栏杆与左侧深色树丛构成了稳固的画框。最值得玩味的是中景的处理：勒佩尔利用木刻刀法的疏密变化，在河面与驳船上营造出空气透视感，远处铁塔的轮廓在烟雾中若隐若现，精准捕捉了工业时代巴黎特有的朦胧氛围。",
+        "尽管勒佩尔试图捕捉瞬间的光影，但木刻媒介的局限性让画面显得略微生硬。前景人物的动态略显僵板，缺乏素描稿中的灵动；且为了突出铁塔这一新地标，透视关系被刻意拉长，牺牲了部分空间的真实感。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.35,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436965",
+      "source": "met",
+      "sourceId": "436965",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436965",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Monet Family in Their Garden at Argenteuil",
+      "title_zh": "阿让特伊花园中的莫奈一家",
+      "artist_en": "Edouard Manet",
+      "artist_zh": "爱德华·马奈",
+      "artist_id": "edouard-manet",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "1874",
+      "year": 1874,
+      "medium_zh": "布面油画",
+      "dimensions": "24 x 39 1/4 in. (61 x 99.7 cm)",
+      "movement_zh": "印象派",
+      "tags": [
+        "人物",
+        "印象派",
+        "19世纪",
+        "法国",
+        "光影",
+        "户外"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25465-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-25465-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25465-001.jpg",
+        "ratio": 0.629
+      },
+      "palette": [
+        "#353e2e",
+        "#5c6e58"
+      ],
+      "essay": [
+        "作为印象派运动的先驱，马奈虽未完全投身于该流派，却以其独特的视角和技法影响了整个时代。这幅《阿让特伊花园中的莫奈一家》创作于 1874 年，正值印象派首次展览之际，展现了马奈对光影与色彩的敏锐捕捉。",
+        "画面中，莫奈的妻子卡米尔身着白色长裙，坐在草地上，身旁是他们的孩子。马奈巧妙地运用了光影效果，使人物与背景融为一体。左侧的莫奈正在浇花，动作自然，仿佛瞬间定格。",
+        "尽管马奈试图捕捉日常生活的瞬间，但画中人物的姿态略显僵硬，尤其是卡米尔的表情，似乎缺乏生动感。这种理想化与现实之间的矛盾，反映了马奈在追求光影效果时对人物情感表达的某种妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.46,
+        "cy": 0.22,
+        "r": 0.16
+      }
+    },
+    {
+      "id": "cma-102691",
+      "source": "cma",
+      "sourceId": "102691",
+      "sourceUrl": "https://clevelandart.org/art/1921.1348",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "L'Ecluse du Canal St. Martin",
+      "title_zh": "圣马丁运河水闸",
+      "artist_en": "Auguste Louis Lepère (French, 1849–1918)",
+      "artist_zh": "奥古斯特·勒佩尔",
+      "artist_id": "auguste-louis-lepere-french-1849-1918",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1849–1918",
+      "date_display": "1890",
+      "year": 1890,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "印象派",
+      "tags": [
+        "城市景观",
+        "工业",
+        "巴黎",
+        "19世纪",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.1348/1921.1348_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.1348/1921.1348_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.1348/1921.1348_web.jpg",
+        "ratio": 0.856
+      },
+      "palette": [
+        "#716f69",
+        "#ddd8ce"
+      ],
+      "essay": [
+        "勒佩尔是 19 世纪末巴黎版画复兴的关键人物，他将木刻从单纯的插图复制提升为独立的艺术表达。这幅作于 1890 年的作品，记录了奥斯曼改造后巴黎的工业一角。不同于当时画家对优雅林荫大道的迷恋，他将目光投向了运河边的劳工与机械，确立了其作为城市现实主义记录者的地位。",
+        "画面最精彩处在于对水与光的处理。请看前景中倾泻而下的水流，艺术家利用木刻刀法的疏密变化，在黑白二色间营造出了惊人的流动感与透明度。这种对瞬间动态的捕捉，明显带有印象派绘画的影响，但他用坚硬的木板和刻刀，实现了比画笔更锐利的视觉冲击。",
+        "然而，这种对工业场景的浪漫化处理也值得商榷。背景中烟囱林立的工厂被描绘得如同风景画般朦胧，削弱了工业化带来的真实压迫感。前景的工人姿态虽充满张力，却更像是在配合构图摆拍，缺乏真正劳作时的疲惫与粗砺。这是一种经过审美过滤的工业现实。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.68,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-102697",
+      "source": "cma",
+      "sourceId": "102697",
+      "sourceUrl": "https://clevelandart.org/art/1921.1353",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Le Bassin de la Villette",
+      "title_zh": "维莱特港",
+      "artist_en": "Auguste Louis Lepère (French, 1849–1918)",
+      "artist_zh": "奥古斯特·勒佩尔",
+      "artist_id": "auguste-louis-lepere-french-1849-1918",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1849–1918",
+      "date_display": "1890",
+      "year": 1890,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "印象派",
+      "tags": [
+        "风景",
+        "港口",
+        "19世纪",
+        "巴黎",
+        "工业"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.1353/1921.1353_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.1353/1921.1353_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.1353/1921.1353_web.jpg",
+        "ratio": 0.825
+      },
+      "palette": [
+        "#d0cdbf",
+        "#7b7a70"
+      ],
+      "essay": [
+        "勒佩尔是 19 世纪末法国版画复兴的关键人物，他拒绝将木刻视为单纯的复制手段，而是将其提升为独立的艺术表达。这幅 1890 年的《维莱特港》处于他创作成熟期，记录了巴黎工业化进程中运河码头的繁忙景象。不同于当时学院派对宏大历史题材的偏爱，他将目光投向了充满煤烟与喧嚣的现代都市边缘。",
+        "画面最精彩之处在于对光影与质感的处理。请看前景驳船甲板上那盏提灯与缆绳的细节：勒佩尔利用极其细密的平行排线（hatching）与交叉排线，在极小的空间内营造出了金属的冷硬反光与粗糙麻绳的纹理。这种对微观质感的执着，让原本平面的黑白版画拥有了令人信服的体积感与空气湿度。",
+        "然而，这种对“氛围”的过度追求也带来了构图上的妥协。为了表现雾气弥漫的工业感，背景中的桥梁与建筑被处理得过于模糊，导致画面纵深感在远处突然塌陷，显得有些平面化。此外，右侧船头那组人物虽然生动，但姿态略显刻意摆拍，像是为了平衡画面而强行加入的叙事元素，少了一份抓拍的自然。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-102659",
+      "source": "cma",
+      "sourceId": "102659",
+      "sourceUrl": "https://clevelandart.org/art/1921.1319",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "La Rue des Barres",
+      "title_zh": "巴尔街",
+      "artist_en": "Auguste Louis Lepère (French, 1849–1918)",
+      "artist_zh": "奥古斯特·勒佩尔",
+      "artist_id": "auguste-louis-lepere-french-1849-1918",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1849–1918",
+      "date_display": "1886",
+      "year": 1886,
+      "medium_zh": "木刻版画",
+      "dimensions": "Platemark: 24.1 x 16.2 cm (9 1/2 x 6 3/8 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "城市景观",
+        "雪景",
+        "19世纪",
+        "巴黎",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.1319/1921.1319_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.1319/1921.1319_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.1319/1921.1319_web.jpg",
+        "ratio": 1.508
+      },
+      "palette": [
+        "#7c796f",
+        "#d9d3c4"
+      ],
+      "essay": [
+        "奥古斯特·勒佩尔是 19 世纪末法国版画复兴的关键人物，以木刻技艺重现巴黎街景的瞬息万变。这幅《巴尔街》作于 1886 年，正值印象派运动高潮，但他选择用黑白线条而非色彩来捕捉光影。",
+        "画面最精彩处在于对雪的处理——前景中行人脚下的积雪并非平涂的白，而是通过疏密不一的排线表现出松软与泥泞的质感。右侧路灯与左侧教堂尖顶形成对角呼应，马车在风雪中模糊成团，强化了寒冷与匆忙的氛围。",
+        "勒佩尔对建筑细节的执着有时显得过于工整，教堂的飞扶壁与窗刻画得近乎建筑图纸，削弱了风雪应有的混沌感。这种对结构的迷恋，让画面在生动之余，少了几分印象派应有的随意与即兴。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.75,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-102826",
+      "source": "cma",
+      "sourceId": "102826",
+      "sourceUrl": "https://clevelandart.org/art/1921.1462",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Pifferaris",
+      "title_zh": "风笛手",
+      "artist_en": "Charles-Émile Jacque (French, 1813–1894)",
+      "artist_zh": "夏尔-埃米尔·雅克",
+      "artist_id": "charles-emile-jacque-french-1813-1894",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1813–1894",
+      "date_display": "1864",
+      "year": 1864,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "巴比松画派",
+      "tags": [
+        "风俗画",
+        "街头艺人",
+        "19世纪",
+        "法国",
+        "蚀刻版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.1462/1921.1462_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.1462/1921.1462_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.1462/1921.1462_web.jpg",
+        "ratio": 1.447
+      },
+      "palette": [
+        "#c6c7bf",
+        "#878780"
+      ],
+      "essay": [
+        "夏尔-埃米尔·雅克是巴比松画派的核心成员，但他对乡村生活的记录不仅限于油画，其版画作品同样具有极高的文献价值。这幅作于 1864 年的《风笛手》展示了他对市井题材的敏锐捕捉，将原本属于田园牧歌的视角转向了城市街头的流浪艺人。",
+        "画面最精彩之处在于对衣物肌理的刻画。注意中间那位乐手肩部的羊皮袄，雅克利用蚀刻针法的疏密变化，完美模拟了羊毛粗糙且厚重的质感。这种对物质性的强调，让观者仿佛能触摸到画中人物身上那件并不合身、甚至带着污渍的旧衣。",
+        "尽管雅克以写实著称，但这幅画仍带有某种浪漫化的滤镜。三位少年的面容被处理得过于清秀洁净，与其流浪艺人的身份略显不符。这种美化削弱了底层生活的残酷感，更像是为了满足当时中产阶级收藏家对“异域风情”的猎奇心理。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.55,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435874",
+      "source": "met",
+      "sourceId": "435874",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435874",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The House with the Cracked Walls",
+      "title_zh": "有裂缝的房子",
+      "artist_en": "Paul Cézanne",
+      "artist_zh": "保罗·塞尚",
+      "artist_id": "paul-cezanne",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1839–1906",
+      "date_display": "1892–94",
+      "year": 1892,
+      "medium_zh": "布面油画",
+      "dimensions": "31 1/2 x 25 1/4 in. (80 x 64.1 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "风景",
+        "建筑",
+        "19世纪",
+        "法国",
+        "几何"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1943.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg",
+        "ratio": 1.25
+      },
+      "palette": [
+        "#8f8c73",
+        "#49565a"
+      ],
+      "essay": [
+        "作为后印象派的奠基人，塞尚在这幅 1890 年代的作品中，不再满足于印象派对光影的捕捉，转而追求物体在空间中的永恒结构。这座位于普罗旺斯的废弃建筑，是他反复描绘的母题之一，标志着他从再现自然向重构自然的转变。",
+        "画面最精彩之处在于建筑与环境的融合方式。请看塔楼顶部那道贯穿的裂缝，塞尚并未将其处理为单纯的破坏，而是用厚重的赭石色笔触将其强化为一种几何分割线。这种处理让裂缝成为了连接天空与墙体的视觉通道，打破了建筑的封闭感。",
+        "然而，这种对结构的执着也带来了某种生硬感。为了迁就画面的几何秩序，前景的岩石与植被被简化为色块的堆叠，缺乏空气透视的流动感。这种为了形式而牺牲部分自然生气的做法，正是塞尚探索期特有的矛盾与代价。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.28,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-103626",
+      "source": "cma",
+      "sourceId": "103626",
+      "sourceUrl": "https://clevelandart.org/art/1921.572",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Maison dite de la Reine Blanche, Rue St. Hippolyte",
+      "title_zh": "布兰奇王后故居，圣希波利特街",
+      "artist_en": "Alfred Alexandre Delauney (French, 1830–1894)",
+      "artist_zh": "阿尔弗雷德·亚历山大·德洛内",
+      "artist_id": "alfred-alexandre-delauney-french-1830-1894",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1830–1894",
+      "date_display": "c. 1870–94",
+      "year": 1870,
+      "medium_zh": "蚀刻与干针版画",
+      "dimensions": "",
+      "movement_zh": "学院派",
+      "tags": [
+        "建筑",
+        "街景",
+        "19世纪",
+        "法国",
+        "蚀刻版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.572/1921.572_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.572/1921.572_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.572/1921.572_web.jpg",
+        "ratio": 1.478
+      },
+      "palette": [
+        "#63625a",
+        "#bfbaae"
+      ],
+      "essay": [
+        "德洛内是 19 世纪法国学院派版画的代表人物，以精细入微的建筑描绘著称。这幅作品创作于其艺术生涯成熟期，展现了他对历史建筑与日常场景结合的独特视角。",
+        "画面中，古老的石阶与繁茂的植物形成鲜明对比，门廊下的女子与孩童为静谧的场景增添了生活气息。右侧的狗与左侧的植物细节处理尤为精妙，展现了德洛内对光影与质感的掌控。",
+        "尽管画面整体和谐，但建筑的宏伟与人物的渺小形成了一种微妙的反差，似乎在暗示历史的厚重与个体的短暂。这种对比虽不突兀，却引人深思。",
+        "德洛内通过细腻的线条与层次丰富的阴影，成功地将观者带入一个充满历史感的空间，让人不禁想象这里曾经发生的故事。这种技法不仅展示了他的技艺，也反映了他对历史与现实的深刻理解。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.75,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-104009",
+      "source": "cma",
+      "sourceId": "104009",
+      "sourceUrl": "https://clevelandart.org/art/1922.182",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Lola de Valence",
+      "title_zh": "瓦伦西亚的罗拉",
+      "artist_en": "Édouard Manet (French, 1832–1883)",
+      "artist_zh": "爱德华·马奈",
+      "artist_id": "edouard-manet-french-1832-1883",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "1862",
+      "year": 1862,
+      "medium_zh": "蚀刻与飞尘铜版画",
+      "dimensions": "",
+      "movement_zh": "印象派",
+      "tags": [
+        "肖像",
+        "舞蹈",
+        "19世纪",
+        "西班牙风情",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.182/1922.182_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.182/1922.182_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.182/1922.182_web.jpg",
+        "ratio": 1.393
+      },
+      "palette": [
+        "#d4cbbd",
+        "#59524a"
+      ],
+      "essay": [
+        "作为现代主义绘画的先驱，马奈在 1862 年创作这幅版画时，正热衷于捕捉巴黎舞台上异域风情的瞬间。画中人罗拉·德·瓦伦西亚是当时著名的西班牙舞者，马奈曾为她绘制多幅肖像。这幅作品不仅是对其舞台形象的记录，更是马奈探索黑白灰阶与线条表现力的重要实验，预示了他后来在油画中对平面感的追求。",
+        "马奈利用飞尘技法制造出大面积的颗粒状黑色背景，将人物从虚空中强力托出。请看舞者裙摆的处理：密集的排线与留白交织，既表现了蕾丝的繁复质感，又暗示了舞步的动态。这种对“未完成感”的刻意保留，打破了学院派版画追求光洁完美的传统，让画面充满了呼吸感。",
+        "尽管马奈试图捕捉舞者的神韵，但这幅肖像仍带有某种冷峻的疏离感。波德莱尔题写的诗句称赞她拥有“玫瑰与黑”的迷人魅力，但画面中的罗拉神情淡漠，甚至略显疲惫，毫无取悦观众的媚态。这种去理想化的诚实，恰恰是马奈区别于同时代浪漫主义画家的关键——他画的不是幻想中的吉普赛女郎，而是一个具体的、有血有肉的职业演员。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.58,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-104128",
+      "source": "cma",
+      "sourceId": "104128",
+      "sourceUrl": "https://clevelandart.org/art/1922.289",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Life of the Virgin:  Presentation of the Young Virgin in the Temple",
+      "title_zh": "圣母生平：圣母献堂",
+      "artist_en": "Albrecht Dürer (German, 1471–1528)",
+      "artist_zh": "阿尔布雷希特·丢勒",
+      "artist_id": "albrecht-durer-german-1471-1528",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1471–1528",
+      "date_display": "1504–1505",
+      "year": 1504,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教题材",
+        "16世纪",
+        "德国",
+        "版画",
+        "建筑"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.289/1922.289_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.289/1922.289_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.289/1922.289_web.jpg",
+        "ratio": 1.395
+      },
+      "palette": [
+        "#c8c5b6",
+        "#8c8a7e"
+      ],
+      "essay": [
+        "这是丢勒《圣母生平》系列中最具建筑野心的作品之一。作为北方文艺复兴的巨匠，他在此作中展示了将意大利透视法与日耳曼繁复线条结合的能力。画面不再局限于单一场景，而是试图在一个严谨的几何空间内，容纳从市井交易到神圣仪式的宏大叙事。",
+        "视线沿左侧台阶向上，大祭司与圣母的互动被处理得极具戏剧张力。丢勒利用密集的排线塑造出石柱的体积感与织物的垂坠感，尤其是前景左下角的市集摊位，那只蜷缩的绵羊与杂乱的货篮，其毛皮质感与编织纹理清晰可辨，展现了木刻刀法的极致控制力。",
+        "然而，这种对建筑透视的过度迷恋也带来了代价。为了展示复杂的拱门与回廊结构，画面右侧的人群显得过于拥挤，部分人物的比例在透视压缩下略显失真。这种为了炫技而牺牲部分叙事流畅性的做法，是丢勒早期版画中常见的特征。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.82,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-104435",
+      "source": "cma",
+      "sourceId": "104435",
+      "sourceUrl": "https://clevelandart.org/art/1922.559",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Horrors of War:  This Too",
+      "title_zh": "战争的灾难：这也是",
+      "artist_en": "Francisco de Goya (Spanish, 1746–1828)",
+      "artist_zh": "弗朗西斯科·戈雅",
+      "artist_id": "francisco-de-goya-spanish-1746-1828",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1746–1828",
+      "date_display": "1810–20, published 1863",
+      "year": 1836,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "战争",
+        "蚀刻版画",
+        "19世纪",
+        "西班牙",
+        "社会批判"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.559/1922.559_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.559/1922.559_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.559/1922.559_web.jpg",
+        "ratio": 0.763
+      },
+      "palette": [
+        "#d7d2c7",
+        "#b4ada3"
+      ],
+      "essay": [
+        "戈雅是西班牙浪漫主义画派的代表人物，其晚年创作的《战争的灾难》系列版画，被视为现代战争摄影的先声。此作创作于半岛战争期间，却因政治原因迟至死后才出版。它标志着戈雅个人风格的转折，也是艺术史上首次以平民视角赤裸裸地记录战争暴行。",
+        "画面前景中，一名修士张开双臂，似乎在绝望地呼喊或阻挡，其身后是倒地的平民与惊恐的人群。戈雅利用粗砺的蚀刻线条，在修士厚重的黑袍上制造出强烈的明暗对比，这种近乎剪影的处理强化了人物的戏剧性张力，让观者的视线无法从这绝望的姿态上移开。",
+        "尽管戈雅意图揭露真相，但构图仍带有明显的舞台化痕迹——人物的姿态过于夸张，仿佛在向看不见的观众表演痛苦。这种戏剧性削弱了部分真实感，让苦难显得像是一场精心编排的悲剧。然而，正是这种强烈的表现力，让这幅作品超越了单纯的记录，成为对人性深渊的永恒质问。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    }
+  ]
+}
