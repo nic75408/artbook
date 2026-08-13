@@ -1,15 +1,20 @@
 name: daily
 
 # 艺术手册每日发布（SPE §6.4）
-# cron "0 21 * * *" = UTC 21:00 = 北京时间次日 05:00
-# 注意事项（勿删）：
+#
+# 状态（2026-08-13 M1c 实测）：lboneapi 网关仅内网可达，GitHub Actions
+# 托管 runner 被 403（来源层拒绝），此 workflow 在托管 runner 上跑不通。
+# 按 SPE §11 预案，日常 pipeline 已切到本地 launchd（com.artbook.pipeline，
+# 每天 05:00 本地生成 + commit + push）。本 workflow 仅保留 workflow_dispatch
+# 作为手动兜底；若未来 lboneapi 开放公网访问，恢复 schedule 即可。
+#
+# 历史 cron（勿删，恢复时用）：
+#   schedule: "0 21 * * *" = UTC 21:00 = 北京时间次日 05:00
 #   1) GitHub 会在仓库 60 天无 commit 后自动停用 schedule；本项目每日一次
 #      commit 天然规避。长时间停更后手动跑一次 workflow_dispatch 即恢复。
 #   2) cron 实际触发可能延迟 15-30 分钟，可接受。
 #   3) 失败即工作流失败，GitHub 默认邮件通知仓库 owner，无需额外报警。
 on:
-  schedule:
-    - cron: "0 21 * * *"
   workflow_dispatch:
     inputs:
       date:

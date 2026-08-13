@@ -256,18 +256,22 @@ def generate_work(c, tags_hint, need_bio):
     base_msgs = [{"role": "system", "content": system}, msg]
     obj, raw = llm.chat(base_msgs, json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
     if obj and obj.get("essay"):
-        v = essay_violations(obj["essay"])
-        if v:
-            log(f"[rewrite] 赏析违规（{'；'.join(v)}），重问一轮")
-            obj2, _ = llm.chat(
+        for attempt in range(3):
+            v = essay_violations(obj["essay"])
+            if not v:
+                break
+            log(f"[rewrite] 赏析违规（{'；'.join(v)}），重写第 {attempt + 1} 轮")
+            obj2, raw2 = llm.chat(
                 base_msgs + [
                     {"role": "assistant", "content": raw},
                     {"role": "user", "content":
-                     f"你的赏析违反硬约束：{'；'.join(v)}。请重写 essay（其余字段保持），严格遵循写作规范。"},
+                     f"你的赏析仍违反硬约束：{'；'.join(v)}。请逐条对照写作规范第 1、3 条重写 essay（其余字段保持），这次必须完全合规。"},
                 ],
                 json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
             if obj2 and obj2.get("essay"):
-                obj = obj2
+                obj, raw = obj2, raw2
+        else:
+            log(f"[warn] 3 轮重写后赏析仍违规（{'；'.join(essay_violations(obj['essay']))}），保留待修")
     return obj
 
 
