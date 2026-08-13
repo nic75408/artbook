@@ -1,0 +1,39 @@
+name: smoke
+
+# M1 冒烟测试：验证 lboneapi 网关从 GitHub Actions 公网环境的可达性、
+# 鉴权、文本与图像输入；以及三个博物馆 API 的公网可达性。
+# 通过后 pipeline 可跑在托管 runner；失败则按 SPE §11 切换本地方案。
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lboneapi text chat
+        run: |
+          echo "== lboneapi /v1/chat/completions (text) =="
+          curl -m 120 -sS -X POST https://lboneapi.longbridge-inc.com/v1/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.LLM_API_KEY }}" \
+            -d '{"model":"qwen3.5-plus","messages":[{"role":"user","content":"用一句话回答：1+1等于几"}]}' \
+            | head -c 500
+          echo
+      - name: lboneapi vision via image URL
+        run: |
+          echo "== lboneapi vision (image_url) =="
+          curl -m 180 -sS -X POST https://lboneapi.longbridge-inc.com/v1/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.LLM_API_KEY }}" \
+            -d '{"model":"qwen3.5-plus","messages":[{"role":"user","content":[{"type":"text","text":"这张图里画的是什么？用不超过40字描述画面内容。"},{"type":"image_url","image_url":{"url":"https://images.metmuseum.org/CRDImages/ad/original/DP215410.jpg"}}]}]}' \
+            | head -c 800
+          echo
+      - name: museum APIs reachability
+        run: |
+          for u in \
+            "https://collectionapi.metmuseum.org/public/collection/v1/objects/11417" \
+            "https://api.artic.edu/api/v1/artworks/search?q=monet&limit=1" \
+            "https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&type=Painting&limit=1"; do
+            code=$(curl -m 30 -sS -o /dev/null -w "%{http_code}" "$u")
+            echo "$u -> $code"
+          done
