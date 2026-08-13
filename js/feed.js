@@ -89,27 +89,27 @@ function buildSlides() {
     }
   }
   scroller.querySelectorAll(".slide").forEach((s, i) => {
-    const w = slideWorkAt(i);
-    s.dataset.issue = w.issue;
+    const sw = slideWorkAt(i);
+    s.dataset.issue = sw.issue;
     s.querySelector(".frame").addEventListener("click", () => {
       savePos();
-      navigate(`#/work/${w.id}`);
+      navigate(`#/work/${sw.work.id}`);
     });
     s.querySelector(".learn-btn").addEventListener("click", (ev) => {
       ev.stopPropagation();
       savePos();
-      navigate(`#/work/${w.id}`);
+      navigate(`#/work/${sw.work.id}`);
     });
     s.querySelector(".fav-btn").addEventListener("click", (ev) => {
       ev.stopPropagation();
-      const { ok, on } = toggleFav(w.id);
+      const { ok, on } = toggleFav(sw.work.id);
       if (!ok) {
         toast("当前浏览器环境无法保存收藏");
         return;
       }
       s.querySelector(".fav-btn").classList.toggle("on", on);
     });
-    if (isFav(w.id)) s.querySelector(".fav-btn").classList.add("on");
+    if (isFav(sw.work.id)) s.querySelector(".fav-btn").classList.add("on");
   });
 }
 
@@ -272,5 +272,3 @@ function savePos() {
     /* 隐私模式，忽略 */
   }
 }
-
-export { savePos as _savePos };

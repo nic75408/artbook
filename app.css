@@ -355,6 +355,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   transition: opacity 300ms ease;
 }
 .rel-card .th img.loaded { opacity: 1; }
+.rel-card .a, .rel-card .t, .card .a, .card .t { display: block; }
 .rel-card .a {
   font-size: 13px;
   color: var(--ink-2);

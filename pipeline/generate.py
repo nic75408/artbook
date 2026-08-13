@@ -10,10 +10,12 @@ CLI:
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -370,6 +372,76 @@ def merge_seen(works, date):
     path.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+# ---------------------------------------------------------------- 逐幅生成
+
+def generate_works(sel, by_id, tags_hint, artists):
+    """并行逐幅生成（PIPELINE_THREADS 可调，默认 3）+ 失败递补。
+
+    返回 (works, artists, fail_n)；works 顺序 = sel 顺序（递补占原位置）。
+    """
+    artists_new = dict(artists)
+    backup_pool = [i for i in by_id if i not in sel]
+    works = []
+    fails = 0
+
+    def gen_one(idx_i):
+        idx, i = idx_i
+        c = by_id[i]
+        try:
+            g = generate_work(c, tags_hint.get(i), slugify(c.artist_en) not in artists_new)
+        except Exception as e:
+            log(f"[fail] {i} 生成异常: {e}")
+            g = None
+        return idx, i, g
+
+    results = {}
+    workers = max(1, int(os.environ.get("PIPELINE_THREADS", "3")))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futures = {ex.submit(gen_one, (idx, i)): idx for idx, i in enumerate(sel)}
+        for fut in as_completed(futures):
+            idx, i, g = fut.result()
+            results[idx] = (i, g)
+            done = sum(1 for v in results.values() if v[1] and v[1].get("essay"))
+            log(f"  进度 {done}/{len(sel)}")
+
+    for idx, i in enumerate(sel):
+        i, g = results.get(idx, (i, None))
+        c = by_id[i]
+        if not g or not g.get("essay"):
+            # 递补：从选品未中的候选按序替补
+            replaced = False
+            for j in list(backup_pool):
+                if j in sel:
+                    continue
+                c2 = by_id[j]
+                g2 = generate_work(c2, tags_hint.get(j), slugify(c2.artist_en) not in artists_new)
+                if g2 and g2.get("essay"):
+                    backup_pool.remove(j)
+                    c, g, i = c2, g2, j
+                    replaced = True
+                    log(f"[replace] 第{idx + 1}幅递补 {j}")
+                    break
+            if not replaced:
+                fails += 1
+                log(f"[fail] {i} 生成失败且无可用递补，跳过")
+                continue
+        try:
+            ratio, palette = extract_palette(c.image_feed)
+        except Exception as e:
+            ratio, palette = 1.0, None
+            log(f"[palette] {i} 异常: {e}")
+        w, bio = build_work(c, g, ratio, palette)
+        if bio:
+            artists_new[slugify(c.artist_en)] = {
+                "name_zh": w["artist_zh"], "name_en": c.artist_en,
+                "years": w["artist_years"], "nationality_zh": w["artist_nationality_zh"],
+                "bio_zh": bio,
+            }
+        works.append(w)
+        log(f"  {len(works)}/{len(sel)} {w['id']} {w['title_zh']}")
+    return works, artists_new, fails
+
+
 # ---------------------------------------------------------------- 主流程
 
 def main():
@@ -406,44 +478,10 @@ def main():
     sel, tags_hint = finalize_selection(curated, by_id)
     log(f"选中 {len(sel)} 幅（绘画类 {sum(1 for i in sel if is_painting(by_id[i].classification))}）")
 
-    log("3/8 逐幅生成（带图调用，耗时较长）")
-    artists_new = dict(artists)
-    backup_pool = [i for i in by_id if i not in sel]
-    works = []
-    for idx, i in enumerate(sel, 1):
-        c = by_id[i]
-        g = generate_work(c, tags_hint.get(i), slugify(c.artist_en) not in artists_new)
-        if not g or not g.get("essay"):
-            # 递补：从选品未中的候选按序替补
-            replaced = False
-            for j in list(backup_pool):
-                if j in sel:
-                    continue
-                c2 = by_id[j]
-                g2 = generate_work(c2, tags_hint.get(j), slugify(c2.artist_en) not in artists_new)
-                if g2 and g2.get("essay"):
-                    backup_pool.remove(j)
-                    c, g, i = c2, g2, j
-                    replaced = True
-                    log(f"[replace] {idx} 幅递补 {j}")
-                    break
-            if not replaced:
-                log(f"[fail] {i} 生成失败且无可用递补，跳过")
-                continue
-        try:
-            ratio, palette = extract_palette(c.image_feed)
-        except Exception as e:
-            ratio, palette = 1.0, None
-            log(f"[palette] {i} 异常: {e}")
-        w, bio = build_work(c, g, ratio, palette)
-        if bio:
-            artists_new[slugify(c.artist_en)] = {
-                "name_zh": w["artist_zh"], "name_en": c.artist_en,
-                "years": w["artist_years"], "nationality_zh": w["artist_nationality_zh"],
-                "bio_zh": bio,
-            }
-        works.append(w)
-        log(f"  {len(works)}/{len(sel)} {w['id']} {w['title_zh']}")
+    log("3/8 逐幅生成（带图调用，并行，耗时较长）")
+    works, artists_new, fail_n = generate_works(sel, by_id, tags_hint, artists)
+    if fail_n:
+        log(f"[fail] {fail_n} 幅无可用递补被跳过")
 
     log("4/8 发布闸门校验")
     valid = []
