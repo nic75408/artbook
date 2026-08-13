@@ -209,6 +209,33 @@ def finalize_selection(curated, by_id):
 
 # ---------------------------------------------------------------- 逐幅生成
 
+# 赏析硬约束自动检查（SPE §6.3-4）：违规 → 带错误重问一轮
+VIOLATION_PAIRS = (("不仅", "更"),)
+VIOLATION_WORDS = ("叹为观止", "无与伦比", "淋漓尽致", "值得一提的是",
+                   "见证了", "让我们", "细细品味")
+
+
+def essay_violations(essay):
+    v = []
+    total = 0
+    for i, p in enumerate(essay, 1):
+        n = len(p)
+        total += n
+        if not (60 <= n <= 150):
+            v.append(f"第{i}段字数{n}（要求60-150）")
+        if p.count("——") > 1:
+            v.append(f"第{i}段破折号{p.count('——')}处")
+        for a, b in VIOLATION_PAIRS:
+            if a in p and b in p:
+                v.append(f"第{i}段含禁用句式「{a}…{b}…」")
+        for w_ in VIOLATION_WORDS:
+            if w_ in p:
+                v.append(f"第{i}段含禁用词「{w_}」")
+    if not (250 <= total <= 450):
+        v.append(f"总长{total}（要求250-450）")
+    return v
+
+
 def generate_work(c, tags_hint, need_bio):
     system = (config.PIPELINE_DIR / "prompts" / "essay.md").read_text(encoding="utf-8")
     meta = {
@@ -226,16 +253,31 @@ def generate_work(c, tags_hint, need_bio):
         if need_bio else
         "该画家已有档案，bio_zh 请输出空字符串。")
     msg = llm.vision_msg(user, c.image_feed)
-    obj, _ = llm.chat([{"role": "system", "content": system}, msg],
-                      json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
+    base_msgs = [{"role": "system", "content": system}, msg]
+    obj, raw = llm.chat(base_msgs, json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
+    if obj and obj.get("essay"):
+        v = essay_violations(obj["essay"])
+        if v:
+            log(f"[rewrite] 赏析违规（{'；'.join(v)}），重问一轮")
+            obj2, _ = llm.chat(
+                base_msgs + [
+                    {"role": "assistant", "content": raw},
+                    {"role": "user", "content":
+                     f"你的赏析违反硬约束：{'；'.join(v)}。请重写 essay（其余字段保持），严格遵循写作规范。"},
+                ],
+                json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
+            if obj2 and obj2.get("essay"):
+                obj = obj2
     return obj
 
 
 def clean_tags(tags, year=None):
     out = []
     for t in (tags or []):
-        if isinstance(t, str) and t.strip() and t.strip() not in out:
-            out.append(t.strip())
+        if isinstance(t, str):
+            t = re.sub(r"\s+", "", t).strip()   # 归一化（如 "19 世纪" → "19世纪"）
+            if t and t not in out:
+                out.append(t)
     if len(out) < 2 and year:
         out.append(f"{year // 100}世纪")
     return out[:6] or ["名作"]
@@ -291,8 +333,7 @@ def validate_work(w):
     """返回错误列表；空列表 = 通过（SPE §6.3-6 闸门）。"""
     errs = []
     need_str = ["id", "source", "sourceId", "sourceUrl", "credit", "title_en", "title_zh",
-                "artist_en", "artist_zh", "artist_id", "date_display", "medium_zh",
-                "movement_zh"]
+                "artist_en", "artist_zh", "artist_id", "medium_zh", "movement_zh"]
     for k in need_str:
         if not w.get(k):
             errs.append(f"缺字段 {k}")

@@ -45,7 +45,7 @@ function render(el, w) {
         <div class="meta-row"><span class="k">作品名</span>
           <span class="v">${esc(w.title_zh)}<span class="artist-en" style="display:block;font-family:var(--serif-en);font-size:14px;color:var(--ink-2)">${esc(w.title_en)}</span></span></div>
         <div class="meta-row"><span class="k">创作者</span><span class="v">${artistLine}</span></div>
-        <div class="meta-row"><span class="k">创作年代</span><span class="v">${esc(w.date_display)}</span></div>
+        <div class="meta-row"><span class="k">创作年代</span><span class="v">${esc(w.date_display || "不详")}</span></div>
         <div class="meta-row"><span class="k">作品材质</span><span class="v">${esc(w.medium_zh)}</span></div>
         ${w.dimensions ? `<div class="meta-row"><span class="k">实际尺寸</span><span class="v">${esc(w.dimensions)}</span></div>` : ""}
       </div>
