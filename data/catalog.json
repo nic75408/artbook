@@ -1641,6 +1641,558 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1989.85.1/1989.85.1_web.jpg",
       "ratio": 0.701
+    },
+    {
+      "id": "met-436535",
+      "issue": "2026-08-15",
+      "t": "麦田与丝柏",
+      "a": "文森特·梵高",
+      "aid": "vincent-van-gogh",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "油彩",
+        "笔触",
+        "圣雷米"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+      "ratio": 0.796
+    },
+    {
+      "id": "met-436851",
+      "issue": "2026-08-15",
+      "t": "伊丽莎白·法伦（后来的德比伯爵夫人）",
+      "a": "托马斯·劳伦斯",
+      "aid": "sir-thomas-lawrence",
+      "y": 1790,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "全身像",
+        "光影",
+        "贵族"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169218.jpg",
+      "ratio": 1.629
+    },
+    {
+      "id": "met-39569",
+      "issue": "2026-08-15",
+      "t": "胡笳十八拍：文姬归汉图",
+      "a": "佚名",
+      "aid": "unidentified-artist",
+      "y": null,
+      "mv": "院体画",
+      "tags": [
+        "历史故事",
+        "叙事画",
+        "明代",
+        "中国",
+        "手卷"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP213003_CRD.jpg",
+      "ratio": 0.482
+    },
+    {
+      "id": "met-888663",
+      "issue": "2026-08-15",
+      "t": "男色十景图卷",
+      "a": "宫川长春",
+      "aid": "miyagawa-choshun",
+      "y": null,
+      "mv": "浮世绘",
+      "tags": [
+        "男色",
+        "江户时代",
+        "风俗画",
+        "手卷",
+        "18世纪"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24890-002.jpg",
+      "ratio": 0.672
+    },
+    {
+      "id": "cma-153727",
+      "issue": "2026-08-15",
+      "t": "桃园结义",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1780,
+      "mv": "四条派",
+      "tags": [
+        "叙事",
+        "日本画",
+        "18世纪",
+        "历史题材",
+        "线条",
+        "中国题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.35/1987.35_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "met-436643",
+      "issue": "2026-08-15",
+      "t": "圣马太的召唤",
+      "a": "扬·桑德斯·范·赫梅森",
+      "aid": "jan-sanders-van-hemessen",
+      "y": null,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "16世纪",
+        "尼德兰",
+        "风俗画",
+        "群像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT201070.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "met-435759",
+      "issue": "2026-08-15",
+      "t": "施洗者圣约翰的头颅",
+      "a": "阿尔伯特·鲍茨",
+      "aid": "aelbert-bouts",
+      "y": 1500,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教题材",
+        "15世纪",
+        "尼德兰",
+        "肖像",
+        "圆形构图"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP345354.jpg",
+      "ratio": 1.015
+    },
+    {
+      "id": "cma-125951",
+      "issue": "2026-08-15",
+      "t": "女子肖像",
+      "a": "让-马克·纳蒂耶",
+      "aid": "jean-marc-nattier-french-1685-1766",
+      "y": 1748,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "洛可可",
+        "18世纪",
+        "法国",
+        "宫廷",
+        "优雅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.183/1948.183_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "met-436793",
+      "issue": "2026-08-15",
+      "t": "圣家族",
+      "a": "约斯·范·克利夫",
+      "aid": "joos-van-cleve",
+      "y": 1512,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "16世纪",
+        "尼德兰",
+        "静物",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25890-001.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "cma-135262",
+      "issue": "2026-08-15",
+      "t": "赛前",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas-french-1834-1917",
+      "y": 1887,
+      "mv": "印象派",
+      "tags": [
+        "赛马",
+        "印象派",
+        "19世纪",
+        "法国",
+        "动态",
+        "粉彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.27/1958.27_web.jpg",
+      "ratio": 0.863
+    },
+    {
+      "id": "met-440209",
+      "issue": "2026-08-15",
+      "t": "施洗者圣约翰的殉难",
+      "a": "贝尔纳·凡·奥利",
+      "aid": "bernard-van-orley",
+      "y": 1514,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "16世纪",
+        "尼德兰",
+        "宫廷风格",
+        "叙事画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24468-001.jpg",
+      "ratio": 0.855
+    },
+    {
+      "id": "met-435762",
+      "issue": "2026-08-15",
+      "t": "圣母与圣子",
+      "a": "迪里克·鲍茨",
+      "aid": "dieric-bouts",
+      "y": 1455,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "肖像",
+        "圣母"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20589-001.jpg",
+      "ratio": 1.322
+    },
+    {
+      "id": "cma-144732",
+      "issue": "2026-08-15",
+      "t": "山间风暴",
+      "a": "弗雷德里克·埃德温·丘奇",
+      "aid": "frederic-edwin-church-american-1826-1900",
+      "y": 1847,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "浪漫主义",
+        "19世纪",
+        "美国",
+        "戏剧性",
+        "哈德逊河派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.52/1969.52_web.jpg",
+      "ratio": 1.204
+    },
+    {
+      "id": "cma-111691",
+      "issue": "2026-08-15",
+      "t": "犹太会堂内部",
+      "a": "亚历山德罗·马尼亚斯科",
+      "aid": "alessandro-magnasco-italian-1667-1749",
+      "y": 1725,
+      "mv": "巴洛克",
+      "tags": [
+        "室内",
+        "宗教",
+        "18世纪",
+        "意大利",
+        "笔触",
+        "动态"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1930.22/1930.22_web.jpg",
+      "ratio": 0.817
+    },
+    {
+      "id": "met-436099",
+      "issue": "2026-08-15",
+      "t": "圣母子与捐赠者及圣杰罗姆、圣伦纳德",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1510,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "三联画",
+        "16世纪",
+        "尼德兰",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1476.jpg",
+      "ratio": 0.615
+    },
+    {
+      "id": "met-437028",
+      "issue": "2026-08-15",
+      "t": "圣芭芭拉传奇大师三联画（局部）",
+      "a": "圣芭芭拉传奇大师",
+      "aid": "master-of-the-saint-barbara-legend",
+      "y": 1480,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "三联画",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/SF DT1049.jpg",
+      "ratio": 1.017
+    },
+    {
+      "id": "met-436987",
+      "issue": "2026-08-15",
+      "t": "逃往埃及途中的休息",
+      "a": "扬·马西斯",
+      "aid": "jan-massys",
+      "y": 1537,
+      "mv": "尼德兰文艺复兴",
+      "tags": [
+        "宗教",
+        "风景",
+        "16世纪",
+        "尼德兰",
+        "叙事"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13614-001.jpg",
+      "ratio": 1.233
+    },
+    {
+      "id": "cma-135480",
+      "issue": "2026-08-15",
+      "t": "卖苹果的女人",
+      "a": "皮埃尔 - 奥古斯特·雷诺阿",
+      "aid": "pierre-auguste-renoir-french-1841-1919",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "人物",
+        "户外",
+        "19世纪",
+        "法国",
+        "儿童"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.47/1958.47_web.jpg",
+      "ratio": 1.216
+    },
+    {
+      "id": "cma-95265",
+      "issue": "2026-08-15",
+      "t": "唐豪瑟",
+      "a": "亨利·方丹 - 拉图尔",
+      "aid": "henri-fantin-latour-french-1836-1904",
+      "y": 1886,
+      "mv": "象征主义",
+      "tags": [
+        "神话",
+        "音乐题材",
+        "19世纪",
+        "法国",
+        "象征主义",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1038/1916.1038_web.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "cma-135407",
+      "issue": "2026-08-15",
+      "t": "圣塞巴斯蒂安",
+      "a": "佩鲁吉诺",
+      "aid": "perugino-italian-c-1450-55-1523",
+      "y": 1493,
+      "mv": "文艺复兴",
+      "tags": [
+        "素描",
+        "宗教题材",
+        "男性裸体",
+        "15世纪",
+        "意大利"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.411/1958.411_web.jpg",
+      "ratio": 1.741
+    },
+    {
+      "id": "met-436638",
+      "issue": "2026-08-15",
+      "t": "雅各布·威廉斯佐恩·范·费恩（1456–1535），画家之父",
+      "a": "马尔滕·范·海姆斯凯克",
+      "aid": "maarten-van-heemskerck",
+      "y": 1532,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "尼德兰",
+        "写实",
+        "老年",
+        "家族"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38857-001.jpg",
+      "ratio": 1.458
+    },
+    {
+      "id": "cma-142384",
+      "issue": "2026-08-15",
+      "t": "祭坛画底座画板：圣凯瑟琳受多明我会会衣",
+      "a": "乔瓦尼·迪·保罗",
+      "aid": "giovanni-di-paolo-italian-c-1403-1482",
+      "y": 1460,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "意大利",
+        "圣徒传",
+        "哥特式晚期"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.2/1966.2_web.jpg",
+      "ratio": 1.267
+    },
+    {
+      "id": "cma-124076",
+      "issue": "2026-08-15",
+      "t": "圣母加冕",
+      "a": "弗拉·安杰利科",
+      "aid": "fra-angelico-italian-1400-1455",
+      "y": 1420,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "早期文艺复兴",
+        "15世纪",
+        "意大利",
+        "金底",
+        "圣母"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.79/1944.79_web.jpg",
+      "ratio": 0.72
+    },
+    {
+      "id": "cma-115067",
+      "issue": "2026-08-15",
+      "t": "花瓶中的花",
+      "a": "奥迪隆·雷东",
+      "aid": "odilon-redon-french-1840-1916",
+      "y": 1905,
+      "mv": "象征主义",
+      "tags": [
+        "静物",
+        "花卉",
+        "20世纪初",
+        "法国",
+        "象征主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1935.233/1935.233_web.jpg",
+      "ratio": 1.359
+    },
+    {
+      "id": "cma-155871",
+      "issue": "2026-08-15",
+      "t": "太监的梦",
+      "a": "让·勒孔特·迪·努伊",
+      "aid": "jean-lecomte-du-nouy-french-1842-1923",
+      "y": 1874,
+      "mv": "学院派",
+      "tags": [
+        "东方主义",
+        "学院派",
+        "19世纪",
+        "法国",
+        "光影",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.173/1991.173_web.jpg",
+      "ratio": 0.599
+    },
+    {
+      "id": "cma-171078",
+      "issue": "2026-08-15",
+      "t": "酒神与阿里阿德涅",
+      "a": "亨利·博恩",
+      "aid": "henry-bone-british-1755-1834",
+      "y": 1808,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "酒神",
+        "19世纪",
+        "英国",
+        "珐琅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.51/2013.51_web.jpg",
+      "ratio": 0.89
+    },
+    {
+      "id": "met-436102",
+      "issue": "2026-08-15",
+      "t": "四天使环绕的圣母与圣子",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1510,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "圣母像",
+        "祭坛画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1410-001.jpg",
+      "ratio": 1.607
+    },
+    {
+      "id": "cma-100489",
+      "issue": "2026-08-15",
+      "t": "菲茨吉本男爵像",
+      "a": "吉尔伯特·斯图尔特",
+      "aid": "gilbert-stuart-american-born-the-thirteen-colonies-1755-1828",
+      "y": 1789,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "贵族",
+        "政治人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.910/1919.910_web.jpg",
+      "ratio": 1.615
+    },
+    {
+      "id": "cma-136609",
+      "issue": "2026-08-15",
+      "t": "赫拉克勒斯在十字路口",
+      "a": "阿尔布雷希特·丢勒",
+      "aid": "albrecht-durer-german-1471-1528",
+      "y": 1498,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "神话",
+        "寓言",
+        "15世纪",
+        "德国",
+        "铜版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.170/1961.170_web.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "cma-172894",
+      "issue": "2026-08-15",
+      "t": "朱顶红",
+      "a": "查尔斯·德穆斯",
+      "aid": "charles-demuth-american-1883-1935",
+      "y": 1923,
+      "mv": "精准主义",
+      "tags": [
+        "静物",
+        "花卉",
+        "20世纪",
+        "美国",
+        "精准主义",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1923.2490/1923.2490_web.jpg",
+      "ratio": 1.474
     }
   ]
 }
