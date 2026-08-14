@@ -329,6 +329,132 @@
       "years": "1832–1883",
       "nationality_zh": "法国",
       "bio_zh": "法国现代主义绘画先驱，印象派奠基人之一，以挑战学院派传统和描绘现代生活著称。"
+    },
+    "georges-de-la-tour": {
+      "name_zh": "乔治·德·拉·图尔",
+      "name_en": "Georges de La Tour",
+      "years": "1593–1652",
+      "nationality_zh": "法国",
+      "bio_zh": "法国巴洛克画家，以烛光夜景和几何构图闻名，作品充满道德寓意与静谧力量。"
+    },
+    "jean-auguste-dominique-ingres": {
+      "name_zh": "让·奥古斯特·多米尼克·安格尔",
+      "name_en": "Jean Auguste Dominique Ingres",
+      "years": "1780–1867",
+      "nationality_zh": "法国",
+      "bio_zh": "法国新古典主义大师，以严谨的线条和理想化的人体美著称，代表作有《泉》《大宫女》。"
+    },
+    "north-netherlandish-bruges-painter": {
+      "name_zh": "北尼德兰（布鲁日）画家",
+      "name_en": "North Netherlandish (Bruges) Painter",
+      "years": "不详",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "15 世纪末活跃于布鲁日的匿名画家，承袭凡·艾克传统，擅长在宗教画中描绘精细的城市景观与服饰细节。"
+    },
+    "liu-du-chinese-active-c-1628-after-1653": {
+      "name_zh": "刘度",
+      "name_en": "Liu Du (Chinese, active c. 1628-after 1653)",
+      "years": "活跃于 1628–1653 年后",
+      "nationality_zh": "中国",
+      "bio_zh": "明末清初杭州职业画家，以摹古山水闻名，笔法细腻，尤擅仿巨然风格。"
+    },
+    "netherlandish-brussels-painter": {
+      "name_zh": "尼德兰（布鲁塞尔）画家",
+      "name_en": "Netherlandish (Brussels) Painter",
+      "years": "不详",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "活跃于16世纪初布鲁塞尔的无名画家，擅长以精细笔触绘制宗教叙事组画，风格深受当时尼德兰虔诚运动影响。"
+    },
+    "dai-benxiao": {
+      "name_zh": "戴本孝",
+      "name_en": "Dai Benxiao",
+      "years": "1621–1693",
+      "nationality_zh": "中国",
+      "bio_zh": "清初遗民画家，安徽休宁人，以枯笔淡墨描绘荒寒山水著称，风格孤绝。"
+    },
+    "master-of-the-view-of-saint-gudula": {
+      "name_zh": "圣古杜拉景大师",
+      "name_en": "Master of the View of Saint Gudula",
+      "years": "不详",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "15 世纪晚期活跃于布鲁塞尔的匿名画家，因擅长描绘圣古杜拉教堂内部空间而得名。"
+    },
+    "totoya-hokkei-japanese-1780-1850": {
+      "name_zh": "鸟居北溪",
+      "name_en": "Totoya Hokkei (Japanese, 1780–1850)",
+      "years": "1780–1850",
+      "nationality_zh": "日本",
+      "bio_zh": "葛饰北斋弟子，鸟居派画师，擅长风景与人物结合的宏大叙事场景。"
+    },
+    "dieric-bouts": {
+      "name_zh": "迪里克·鲍茨",
+      "name_en": "Dieric Bouts",
+      "years": "1415–1475",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "早期尼德兰画派代表，以冷静客观的写实风格与空间探索著称，曾任鲁汶官方画家。"
+    },
+    "juan-bautista-martinez-del-mazo": {
+      "name_zh": "胡安·巴蒂斯塔·马丁内斯·德尔·马佐",
+      "name_en": "Juan Bautista Martínez del Mazo",
+      "years": "1612–1667",
+      "nationality_zh": "西班牙",
+      "bio_zh": "西班牙巴洛克画家，委拉斯开兹的女婿与助手，以模仿大师风格及风景画见长。"
+    },
+    "kenyon-cox-american-1856-1919": {
+      "name_zh": "凯尼恩·考克斯",
+      "name_en": "Kenyon Cox (American, 1856–1919)",
+      "years": "1856–1919",
+      "nationality_zh": "美国",
+      "bio_zh": "美国学院派画家与评论家，以捍卫古典传统和精湛的素描技艺著称。"
+    },
+    "honore-daumier-french-1808-1879": {
+      "name_zh": "奥诺雷·杜米埃",
+      "name_en": "Honoré Daumier (French, 1808–1879)",
+      "years": "1808–1879",
+      "nationality_zh": "法国",
+      "bio_zh": "19 世纪法国现实主义大师，以辛辣的社会讽刺版画与雕塑闻名，被誉为「漫画界的米开朗基罗」。"
+    },
+    "kyuseki-tomonobu-japanese-1653-1721": {
+      "name_zh": "久石友信",
+      "name_en": "Kyūseki Tomonobu (Japanese, 1653–1721)",
+      "years": "1653–1721",
+      "nationality_zh": "日本",
+      "bio_zh": "江户时代中期画家，狩野派末期代表，擅长宗教题材与人物画。"
+    },
+    "jean-duvet-french-1485-1561": {
+      "name_zh": "让·杜韦",
+      "name_en": "Jean Duvet (French, 1485–1561)",
+      "years": "1485–1561",
+      "nationality_zh": "法国",
+      "bio_zh": "让·杜韦是法国文艺复兴时期最重要的版画家，以《启示录》系列闻名。"
+    },
+    "gustave-dore-french-1832-1883": {
+      "name_zh": "古斯塔夫·多雷",
+      "name_en": "Gustave Doré (French, 1832–1883)",
+      "years": "1832–1883",
+      "nationality_zh": "法国",
+      "bio_zh": "19 世纪法国插画家、版画家，以宏大的圣经与文学插图闻名，风格兼具浪漫主义的戏剧性与现实主义的细节。"
+    },
+    "claude-lorrain-french-1604-1682": {
+      "name_zh": "克洛德·洛兰",
+      "name_en": "Claude Lorrain (French, 1604–1682)",
+      "years": "1604–1682",
+      "nationality_zh": "法国",
+      "bio_zh": "17 世纪法国巴洛克画家，以理想化风景画著称，对后世印象派影响深远。"
+    },
+    "zhai-dakun-chinese-d-1804": {
+      "name_zh": "翟大坤",
+      "name_en": "Zhai Dakun (Chinese, d. 1804)",
+      "years": "不详–1804",
+      "nationality_zh": "中国",
+      "bio_zh": "清代乾隆时期画家，浙江嘉兴人，工诗善画，尤精于摹古山水与花鸟，笔致秀润。"
+    },
+    "kamisaka-sekka-japanese-1866-1942": {
+      "name_zh": "神坂雪佳",
+      "name_en": "Kamisaka Sekka (Japanese, 1866–1942)",
+      "years": "1866–1942",
+      "nationality_zh": "日本",
+      "bio_zh": "日本近代画家，琳派复兴代表人物，以融合传统装饰技法与现代设计感著称。"
     }
   }
 }

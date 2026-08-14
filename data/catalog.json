@@ -1099,6 +1099,548 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1922.559/1922.559_web.jpg",
       "ratio": 0.763
+    },
+    {
+      "id": "met-436838",
+      "issue": "2026-08-12",
+      "t": "算命者",
+      "a": "乔治·德·拉·图尔",
+      "aid": "georges-de-la-tour",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "巴洛克",
+        "17世纪",
+        "法国",
+        "光影",
+        "骗局"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+      "ratio": 0.827
+    },
+    {
+      "id": "met-436703",
+      "issue": "2026-08-12",
+      "t": "雅克 - 路易·勒布朗夫人",
+      "a": "让·奥古斯特·多米尼克·安格尔",
+      "aid": "jean-auguste-dominique-ingres",
+      "y": 1823,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "女性",
+        "服饰"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
+      "ratio": 1.276
+    },
+    {
+      "id": "met-437202",
+      "issue": "2026-08-12",
+      "t": "背负十字架的基督",
+      "a": "北尼德兰（布鲁日）画家",
+      "aid": "north-netherlandish-bruges-painter",
+      "y": null,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "叙事性",
+        "城市景观"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20751-001.jpg",
+      "ratio": 1.3
+    },
+    {
+      "id": "cma-95087",
+      "issue": "2026-08-12",
+      "t": "仿巨然山水图",
+      "a": "刘度",
+      "aid": "liu-du-chinese-active-c-1628-after-1653",
+      "y": 1506,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "文人画",
+        "仿巨然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.621/1915.621_web.jpg",
+      "ratio": 1.744
+    },
+    {
+      "id": "met-435868",
+      "issue": "2026-08-12",
+      "t": "玩牌者",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1890,
+      "mv": "后印象派",
+      "tags": [
+        "风俗画",
+        "后印象派",
+        "19世纪",
+        "法国",
+        "构图",
+        "静物"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+      "ratio": 0.796
+    },
+    {
+      "id": "met-439327",
+      "issue": "2026-08-12",
+      "t": "基督赐福",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1502,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "半身像",
+        "16世纪",
+        "尼德兰",
+        "微型画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP218061.jpg",
+      "ratio": 1.387
+    },
+    {
+      "id": "met-437216",
+      "issue": "2026-08-12",
+      "t": "十五端奥迹与玫瑰圣母",
+      "a": "尼德兰（布鲁塞尔）画家",
+      "aid": "netherlandish-brussels-painter",
+      "y": 1515,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "玫瑰经",
+        "16世纪",
+        "尼德兰",
+        "叙事组画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5754.jpg",
+      "ratio": 1.16
+    },
+    {
+      "id": "met-39931",
+      "issue": "2026-08-12",
+      "t": "山水册页",
+      "a": "戴本孝",
+      "aid": "dai-benxiao",
+      "y": null,
+      "mv": "清初遗民画派",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "遗民艺术",
+        "枯笔"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP160517.jpg",
+      "ratio": 1.276
+    },
+    {
+      "id": "met-437030",
+      "issue": "2026-08-12",
+      "t": "持书的年轻男子",
+      "a": "圣古杜拉景大师",
+      "aid": "master-of-the-view-of-saint-gudula",
+      "y": 1480,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "书籍"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP282434.jpg",
+      "ratio": 1.612
+    },
+    {
+      "id": "met-435875",
+      "issue": "2026-08-12",
+      "t": "温室里的塞尚夫人",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1891,
+      "mv": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "室内"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
+      "ratio": 1.256
+    },
+    {
+      "id": "cma-120230",
+      "issue": "2026-08-12",
+      "t": "春之洞门",
+      "a": "鸟居北溪",
+      "aid": "totoya-hokkei-japanese-1780-1850",
+      "y": 1825,
+      "mv": "浮世绘",
+      "tags": [
+        "风景",
+        "浮世绘",
+        "19世纪",
+        "日本",
+        "版画",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1940.990/1940.990_web.jpg",
+      "ratio": 0.224
+    },
+    {
+      "id": "met-436284",
+      "issue": "2026-08-12",
+      "t": "圣徒引荐的捐赠者",
+      "a": "迪里克·鲍茨",
+      "aid": "dieric-bouts",
+      "y": 1460,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "宗教",
+        "15世纪",
+        "尼德兰"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26282-001.jpg",
+      "ratio": 1.226
+    },
+    {
+      "id": "met-437868",
+      "issue": "2026-08-12",
+      "t": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
+      "a": "胡安·巴蒂斯塔·马丁内斯·德尔·马佐",
+      "aid": "juan-bautista-martinez-del-mazo",
+      "y": 1636,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "骑马像",
+        "17世纪",
+        "西班牙",
+        "宫廷"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-011.jpg",
+      "ratio": 1.214
+    },
+    {
+      "id": "cma-95306",
+      "issue": "2026-08-12",
+      "t": "素描习作",
+      "a": "凯尼恩·考克斯",
+      "aid": "kenyon-cox-american-1856-1919",
+      "y": 1912,
+      "mv": "学院派",
+      "tags": [
+        "素描",
+        "古典主义",
+        "女性",
+        "1910年代",
+        "美国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1077/1916.1077_web.jpg",
+      "ratio": 1.082
+    },
+    {
+      "id": "cma-95308",
+      "issue": "2026-08-12",
+      "t": "习作",
+      "a": "凯尼恩·考克斯",
+      "aid": "kenyon-cox-american-1856-1919",
+      "y": 1912,
+      "mv": "学院派",
+      "tags": [
+        "素描",
+        "人体",
+        "古典主义",
+        "20世纪",
+        "美国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1079/1916.1079_web.jpg",
+      "ratio": 1.54
+    },
+    {
+      "id": "cma-107035",
+      "issue": "2026-08-12",
+      "t": "阿里阿德涅的遗弃",
+      "a": "奥诺雷·杜米埃",
+      "aid": "honore-daumier-french-1808-1879",
+      "y": 1842,
+      "mv": "现实主义",
+      "tags": [
+        "神话",
+        "版画",
+        "19世纪",
+        "法国",
+        "讽刺"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.1032/1925.1032_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-101974",
+      "issue": "2026-08-12",
+      "t": "凡尔赛门防御工事",
+      "a": "奥古斯特·勒佩尔",
+      "aid": "auguste-louis-lepere-french-1849-1918",
+      "y": 1898,
+      "mv": "印象派",
+      "tags": [
+        "城市景观",
+        "巴黎",
+        "19世纪",
+        "蚀刻版画",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.635/1920.635_web.jpg",
+      "ratio": 0.678
+    },
+    {
+      "id": "cma-107448",
+      "issue": "2026-08-12",
+      "t": "相信我！挽着我的胳膊……",
+      "a": "奥诺雷·杜米埃",
+      "aid": "honore-daumier-french-1808-1879",
+      "y": 1866,
+      "mv": "现实主义",
+      "tags": [
+        "政治讽刺",
+        "19世纪",
+        "石版画",
+        "意大利统一",
+        "时事漫画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.15/1925.15_web.jpg",
+      "ratio": 1.384
+    },
+    {
+      "id": "cma-108831",
+      "issue": "2026-08-12",
+      "t": "奥尔良主教让 - 雅克·法耶",
+      "a": "奥诺雷·杜米埃",
+      "aid": "honore-daumier-french-1808-1879",
+      "y": 1849,
+      "mv": "现实主义",
+      "tags": [
+        "讽刺漫画",
+        "宗教人物",
+        "19世纪",
+        "法国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.506/1926.506_web.jpg",
+      "ratio": 1.287
+    },
+    {
+      "id": "cma-113031",
+      "issue": "2026-08-12",
+      "t": "大雄沐浴图（出自《劫波经》第 31 页）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "那教",
+        "宗教插图",
+        "15世纪",
+        "印度",
+        "手抄本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.31.a/1932.119.31.a_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-155064",
+      "issue": "2026-08-12",
+      "t": "布袋和尚与道教仙人",
+      "a": "久石友信",
+      "aid": "kyuseki-tomonobu-japanese-1653-1721",
+      "y": 1650,
+      "mv": "江户绘画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "宗教",
+        "水墨",
+        "道教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.8/1989.8_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-113035",
+      "issue": "2026-08-12",
+      "t": "《劫经》第 37 页（正面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教手稿",
+        "耆那教",
+        "15世纪",
+        "印度",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.37.a/1932.119.37.a_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-121140",
+      "issue": "2026-08-12",
+      "t": "火车上：一位愉快的旅伴",
+      "a": "奥诺雷·杜米埃",
+      "aid": "honore-daumier-french-1808-1879",
+      "y": 1862,
+      "mv": "现实主义",
+      "tags": [
+        "风俗画",
+        "19世纪",
+        "法国",
+        "交通工具",
+        "社会讽刺"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.1021/1942.1021_web.jpg",
+      "ratio": 0.805
+    },
+    {
+      "id": "cma-130464",
+      "issue": "2026-08-12",
+      "t": "启示录：第七印的开启",
+      "a": "让·杜韦",
+      "aid": "jean-duvet-french-1485-1561",
+      "y": 1551,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教题材",
+        "启示录",
+        "16世纪",
+        "法国",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.213.14/1953.213.14_web.jpg",
+      "ratio": 1.438
+    },
+    {
+      "id": "cma-133763",
+      "issue": "2026-08-12",
+      "t": "《狼变牧羊人》草图（正面）",
+      "a": "古斯塔夫·多雷",
+      "aid": "gustave-dore-french-1832-1883",
+      "y": 1868,
+      "mv": "浪漫主义",
+      "tags": [
+        "寓言",
+        "草图",
+        "19世纪",
+        "法国",
+        "拉封丹寓言"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1956.37.a/1956.37.a_web.jpg",
+      "ratio": 1.353
+    },
+    {
+      "id": "cma-109496",
+      "issue": "2026-08-12",
+      "t": "大卫与歌利亚（背面）",
+      "a": "克洛德·洛兰",
+      "aid": "claude-lorrain-french-1604-1682",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "素描",
+        "17世纪",
+        "法国",
+        "构图研究"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.15.b/1928.15.b_web.jpg",
+      "ratio": 0.657
+    },
+    {
+      "id": "cma-136862",
+      "issue": "2026-08-12",
+      "t": "便携式三联圣像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1600,
+      "mv": "东正教圣像画",
+      "tags": [
+        "宗教",
+        "三联画",
+        "17世纪",
+        "俄罗斯",
+        "便携"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.35/1961.35_web.jpg",
+      "ratio": 0.395
+    },
+    {
+      "id": "cma-153349",
+      "issue": "2026-08-12",
+      "t": "霜柯竹篠图",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "清代",
+        "仿古",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.12/1986.49.12_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "cma-153627",
+      "issue": "2026-08-12",
+      "t": "书法与花鸟纹饰边框（出自《沙贾汗晚期画册》背面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1653,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "书法",
+        "装饰画",
+        "17世纪",
+        "印度",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.153.b/1987.153.b_web.jpg",
+      "ratio": 1.36
+    },
+    {
+      "id": "cma-155074",
+      "issue": "2026-08-12",
+      "t": "百花草：雷神",
+      "a": "神坂雪佳",
+      "aid": "kamisaka-sekka-japanese-1866-1942",
+      "y": 1909,
+      "mv": "琳派",
+      "tags": [
+        "神怪",
+        "琳派",
+        "20世纪",
+        "日本",
+        "装饰画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.85.1/1989.85.1_web.jpg",
+      "ratio": 0.701
     }
   ]
 }

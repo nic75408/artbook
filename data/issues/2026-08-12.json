@@ -1,0 +1,1392 @@
+{
+  "v": 1,
+  "date": "2026-08-12",
+  "works": [
+    {
+      "id": "met-436838",
+      "source": "met",
+      "sourceId": "436838",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436838",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Fortune-Teller",
+      "title_zh": "算命者",
+      "artist_en": "Georges de La Tour",
+      "artist_zh": "乔治·德·拉·图尔",
+      "artist_id": "georges-de-la-tour",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1593–1652",
+      "date_display": "probably 1630s",
+      "year": 1630,
+      "medium_zh": "布面油画",
+      "dimensions": "40 1/8 x 48 5/8 in. (101.9 x 123.5 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风俗画",
+        "巴洛克",
+        "17世纪",
+        "法国",
+        "光影",
+        "骗局"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-015.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+        "ratio": 0.827
+      },
+      "palette": [
+        "#4d2d1a",
+        "#745a3e"
+      ],
+      "essay": [
+        "乔治·德·拉·图尔是 17 世纪法国巴洛克绘画的异类，以极简的几何构图和戏剧性的烛光效果著称。这幅《算命者》创作于 1630 年代，属于他早期的风俗画系列。不同于他后期那些静谧的宗教题材，此作充满了市井的喧嚣与道德警示，展现了画家对人性弱点的敏锐观察。",
+        "画面最精彩之处在于右侧老妇人的手部动作与神态。她正一边假意看手相，一边熟练地剪断年轻人钱袋的系绳。拉·图尔用粗砺的笔触刻画了她饱经风霜的面容和粗糙的手指，与左侧年轻人光滑的脸庞形成强烈对比。这种质感的差异，暗示了经验与天真、狡诈与轻信的对立。",
+        "尽管构图精妙，但这幅画的人物排列略显刻意，仿佛是为了展示骗局的每一个步骤而摆出的舞台造型。尤其是中间两位女性，她们的表情过于平静，缺乏对正在发生的盗窃应有的紧张感。这种为了叙事清晰而牺牲自然动态的处理，是拉·图尔早期作品常见的局限。",
+        "然而，正是这种近乎寓言式的直白，让《算命者》成为道德训诫画的经典。它提醒观者：贪婪与轻信往往相伴而生，而生活的真相常隐藏在看似平常的互动背后。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436703",
+      "source": "met",
+      "sourceId": "436703",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436703",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Madame Jacques-Louis Leblanc (Françoise Poncelle, 1788–1839)",
+      "title_zh": "雅克 - 路易·勒布朗夫人",
+      "artist_en": "Jean Auguste Dominique Ingres",
+      "artist_zh": "让·奥古斯特·多米尼克·安格尔",
+      "artist_id": "jean-auguste-dominique-ingres",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1780–1867",
+      "date_display": "1823",
+      "year": 1823,
+      "medium_zh": "布面油画",
+      "dimensions": "47 x 36 1/2 in. (119.4 x 92.7 cm)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "女性",
+        "服饰"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1926.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
+        "ratio": 1.276
+      },
+      "palette": [
+        "#251b19",
+        "#664e39"
+      ],
+      "essay": [
+        "安格尔是新古典主义的守门人，以线条的纯净与构图的秩序著称。这幅作于 1823 年的肖像，处于他风格最成熟的时期。画中人是巴黎一位银行家的妻子，安格尔用近乎冷酷的理性，将一位资产阶级女性定格为永恒的古典偶像。",
+        "视线落在她颈间的金链与黑色天鹅绒长裙的交界处——那是整幅画最精彩的质感博弈。安格尔用极细的笔触勾勒金链的冷硬光泽，与裙身吸光的深沉绒面形成强烈反差。这种对物质属性的精准区分，比面部表情更能揭示画家的功力。",
+        "尽管安格尔标榜忠于自然，但这张脸显然经过高度提纯。皮肤光滑得没有一丝毛孔，五官比例完美却略显僵硬，缺乏真实血肉的温热感。这是新古典主义的通病：为了追求理想美，往往牺牲了人物的个性与生机，让活人看起来像精致的瓷偶。",
+        "不过，裙摆上那条色彩斑斓的克什米尔披肩是个意外。它繁复的东方纹样打破了画面的肃穆，暗示了当时法国上流社会对异域风情的迷恋，也为这幅严谨的肖像增添了一抹生动的世俗气息。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.42,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-437202",
+      "source": "met",
+      "sourceId": "437202",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437202",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Christ Bearing the Cross",
+      "title_zh": "背负十字架的基督",
+      "artist_en": "North Netherlandish (Bruges) Painter",
+      "artist_zh": "北尼德兰（布鲁日）画家",
+      "artist_id": "north-netherlandish-bruges-painter",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "不详",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "木板油画",
+      "dimensions": "42 3/8 x 32 3/8 in. (107.6 x 82.2 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "叙事性",
+        "城市景观"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20751-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-20751-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20751-001.jpg",
+        "ratio": 1.3
+      },
+      "palette": [
+        "#423121",
+        "#776648"
+      ],
+      "essay": [
+        "这幅作品出自一位活跃于 15 世纪末布鲁日的匿名画家之手，属于早期尼德兰画派的典型风格。此时，扬·凡·艾克确立的精细写实传统已深入人心，画家们热衷于在宗教叙事中植入对现实世界的精确观察。此作虽非出自大师手笔，却完整保留了该流派将神圣事件置于当代城市背景下的叙事习惯。",
+        "画面最耐看之处在于背景中那座宏伟的城市景观，画家以近乎地图测绘的耐心描绘了每一座塔楼与红瓦屋顶。视线移至前景，基督蓝袍的褶皱处理得厚重而僵硬，缺乏人体支撑的真实感；相比之下，右侧骑兵铠甲上的高光与马匹饰带的金属质感却刻画得熠熠生辉，这种对物质细节的痴迷远超对人物解剖结构的关注。",
+        "构图显得拥挤且缺乏焦点，人群像积木般堆叠在狭长的空间里，透视关系经不起推敲。画家似乎急于填满画布的每一个角落，导致前景的悲剧性与背景的繁华市井产生了某种割裂感。这种“全景式”的贪多求全，虽展示了画工的细致，却也暴露了早期叙事画在组织复杂场面时的力不从心。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.35,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-95087",
+      "source": "cma",
+      "sourceId": "95087",
+      "sourceUrl": "https://clevelandart.org/art/1915.621",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscape in the Style of Juran",
+      "title_zh": "仿巨然山水图",
+      "artist_en": "Liu Du (Chinese, active c. 1628-after 1653)",
+      "artist_zh": "刘度",
+      "artist_id": "liu-du-chinese-active-c-1628-after-1653",
+      "artist_nationality_zh": "中国",
+      "artist_years": "活跃于 1628–1653 年后",
+      "date_display": "1368–1644",
+      "year": 1506,
+      "medium_zh": "绢本设色立轴",
+      "dimensions": "Overall: 169.5 x 105.1 cm (66 3/4 x 41 3/8 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "文人画",
+        "仿巨然"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1915.621/1915.621_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1915.621/1915.621_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1915.621/1915.621_web.jpg",
+        "ratio": 1.744
+      },
+      "palette": [
+        "#524332",
+        "#6b563c"
+      ],
+      "essay": [
+        "刘度是明末清初活跃于杭州的职业画家，以摹古功力深厚著称。此作题为“仿巨然”，意在致敬五代南唐山水大师巨然的风格。在明末董其昌“南北宗论”盛行的背景下，刘度这类职业画家通过精准复刻古人笔意，既展示技艺，也迎合了当时文人对“古意”的推崇。",
+        "画面最精彩处在于山石的皴法——刘度用细密而柔和的披麻皴，层层叠加出山体的浑厚质感。尤其注意中景主峰右侧的坡陀处理：墨色由浓渐淡，笔触松而不散，仿佛巨然真迹中的“淡墨轻岚”再现。这种对古人技法的精准把握，正是刘度在当时画坛立足的根本。",
+        "然而，此作也暴露了摹古的局限：山势虽雄浑，却少了几分巨然原作中的野逸之气；亭台楼阁的界画工整得近乎刻板，与山水的自然意趣稍显割裂。刘度的“仿”终究是职业画家的精致复刻，而非文人画家的即兴抒怀——这或许也是董其昌将其归为“北宗”的原因。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-435868",
+      "source": "met",
+      "sourceId": "435868",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435868",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Card Players",
+      "title_zh": "玩牌者",
+      "artist_en": "Paul Cézanne",
+      "artist_zh": "保罗·塞尚",
+      "artist_id": "paul-cezanne",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1839–1906",
+      "date_display": "1890–92",
+      "year": 1890,
+      "medium_zh": "布面油画",
+      "dimensions": "25 3/4 x 32 1/4 in. (65.4 x 81.9 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "风俗画",
+        "后印象派",
+        "19世纪",
+        "法国",
+        "构图",
+        "静物"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+        "ratio": 0.796
+      },
+      "palette": [
+        "#3c3a3a",
+        "#757771"
+      ],
+      "essay": [
+        "作为后印象派的奠基人，塞尚在这幅作中展现了他对形式与结构的独特理解。《玩牌者》是他晚期的重要作品之一，标志着他在探索人物与空间关系上的成熟。",
+        "画面中，四位男子围坐在桌旁，专注地玩着纸牌。塞尚通过厚重的笔触和色块的堆叠，赋予了人物和物体一种雕塑般的质感。桌上的纸牌和烟斗等细节，被精心安排在构图中，形成了一种平衡而稳定的视觉效果。",
+        "尽管塞尚追求形式的完美，但人物的表情和姿态略显僵硬，缺乏生动的情感交流。这种处理方式或许是为了强调画面的整体结构，但也使得人物显得有些冷漠和疏离。",
+        "然而，正是这种对形式的极致追求，使得《玩牌者》成为塞尚艺术生涯中的经典之作，展现了他对现代艺术的深远影响。塞尚通过这幅作品，不仅展示了他对传统绘画技法的突破，也为后来的立体主义等现代艺术流派奠定了基础。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.6,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-439327",
+      "source": "met",
+      "sourceId": "439327",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/439327",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Christ Blessing",
+      "title_zh": "基督赐福",
+      "artist_en": "Gerard David",
+      "artist_zh": "赫拉德·大卫",
+      "artist_id": "gerard-david",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1460–1523",
+      "date_display": "ca. 1500–1505",
+      "year": 1502,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall, including engaged frame, 4 3/4 x 3 1/2 in. (12.1 x 8.9 cm); painted surface 3 5/8 x 2 3/8 in. (9.2 x 6 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "半身像",
+        "16世纪",
+        "尼德兰",
+        "微型画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP218061.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP218061.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP218061.jpg",
+        "ratio": 1.387
+      },
+      "palette": [
+        "#372a26",
+        "#8d694d"
+      ],
+      "essay": [
+        "赫拉德·大卫是布鲁日画派的最后一位大师，也是早期尼德兰绘画向文艺复兴过渡的关键人物。这幅微型画创作于其风格成熟期，体现了当时尼德兰地区对宗教图像私人化、精致化的需求。作品虽尺幅极小，却承载了宏大的神学叙事，是当时信徒随身携带祈祷的圣物。",
+        "画面最精彩之处在于基督的手势与眼神的微妙配合。右手食指竖起，象征赐福与神性权威，指尖的受光处理极其细腻，与深红衣袖形成冷暖对比。左手轻搭边缘，仿佛刚刚掀开帷幕现身，这种“画中画”的错觉增加了在场感。",
+        "尽管面部刻画力求庄严，但大卫笔下的基督面容略显程式化，缺乏扬·凡·艾克那种直击灵魂的个性深度。这种温和的甜美感是布鲁日画派晚期的通病，为了迎合赞助人的审美，神性的威严往往让位于装饰性的悦目。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.62,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-437216",
+      "source": "met",
+      "sourceId": "437216",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437216",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Fifteen Mysteries and the Virgin of the Rosary",
+      "title_zh": "十五端奥迹与玫瑰圣母",
+      "artist_en": "Netherlandish (Brussels) Painter",
+      "artist_zh": "尼德兰（布鲁塞尔）画家",
+      "artist_id": "netherlandish-brussels-painter",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "不详",
+      "date_display": "ca. 1515–20",
+      "year": 1515,
+      "medium_zh": "木板油画",
+      "dimensions": "(a) 9 7/8 x 21 in. (25.1 x 53.3 cm); (b–p) each 5 x 4 1/8 in. (12.7 x 10.5 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教画",
+        "玫瑰经",
+        "16世纪",
+        "尼德兰",
+        "叙事组画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5754.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT5754.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5754.jpg",
+        "ratio": 1.16
+      },
+      "palette": [
+        "#a58f71",
+        "#625343"
+      ],
+      "essay": [
+        "这件作品是北方文艺复兴时期典型的宗教叙事组画，出自一位活跃于布鲁塞尔的无名大师之手。它将十五端玫瑰经奥迹以微型画形式排列，下方辅以宏大的圣母献珠场景，这种将私人灵修与公共崇拜结合的形制，反映了当时尼德兰地区深厚的虔诚传统。",
+        "画面上方十五个方格如同精致的袖珍剧场，每一格都浓缩了一个圣经故事。最值得玩味的是下方主图中圣母手中的念珠——画家以极细的笔触描绘了每一颗圆润的珍珠，它们构成了连接上方十五个神迹的视觉线索，将分散的叙事统摄于圣母的慈爱之下。",
+        "尽管构图宏大，但人物造型略显僵硬，尤其是两侧跪拜的捐赠人，其比例与动态明显逊于中央神圣家族的自然生动。这种技法上的参差揭示了当时作坊生产的常态：核心宗教形象由大师亲笔，而次要人物往往交由学徒处理，导致画面在神圣与世俗间存在微妙的割裂感。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.78,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-39931",
+      "source": "met",
+      "sourceId": "39931",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39931",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Landscapes",
+      "title_zh": "山水册页",
+      "artist_en": "Dai Benxiao",
+      "artist_zh": "戴本孝",
+      "artist_id": "dai-benxiao",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1621–1693",
+      "date_display": "late 17th century",
+      "year": null,
+      "medium_zh": "纸本水墨册页",
+      "dimensions": "Each: 8 7/16 × 6 9/16 in. (21.4 × 16.7 cm)",
+      "movement_zh": "清初遗民画派",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "遗民艺术",
+        "枯笔"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP160517.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP160517.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP160517.jpg",
+        "ratio": 1.276
+      },
+      "palette": [
+        "#d9c6b7",
+        "#bead9f"
+      ],
+      "essay": [
+        "戴本孝是清初画坛的异数，作为明遗民，他拒绝仕清，将家国之痛化作笔下的荒寒山水。此作出自其十二开册页，虽题为“山水”，却无宋元人的宏大叙事，只有断崖残树与无尽的虚空。他在当时以“枯笔”著称，这种极简的技法在当时崇尚繁复的“四王”正统之外，开辟了一条通往内心孤绝的路径。",
+        "画面最耐看处在于右侧山体的处理——画家几乎放弃了传统的皴法，仅用干涩的侧锋在纸面上反复擦扫。这种“枯笔”留下的飞白，让岩石呈现出一种风化剥蚀的粗糙质感，仿佛时间本身在纸上流淌。左侧几株枯树以焦墨勾勒，枝干如铁，与大面积的留白形成强烈对比，营造出一种近乎窒息的寂静感。",
+        "这种极度的“简”是一把双刃剑。戴本孝试图通过剥离色彩与繁复构图来逼近精神的纯粹，但有时也导致画面显得过于单薄，缺乏传统山水可游可居的丰富层次。这或许正是遗民画家的宿命：为了坚守内心的孤高，不得不牺牲视觉上的愉悦，让观者在一片苍茫中独自面对那份沉重的历史虚无。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437030",
+      "source": "met",
+      "sourceId": "437030",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437030",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Young Man Holding a Book",
+      "title_zh": "持书的年轻男子",
+      "artist_en": "Master of the View of Saint Gudula",
+      "artist_zh": "圣古杜拉景大师",
+      "artist_id": "master-of-the-view-of-saint-gudula",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "不详",
+      "date_display": "ca. 1480",
+      "year": 1480,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall, with arched top, 8 1/4 x 5 1/8 in. (21 x 13 cm); painted surface 8 1/8 x 5 in. (20.6 x 12.6 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "书籍"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP282434.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP282434.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP282434.jpg",
+        "ratio": 1.612
+      },
+      "palette": [
+        "#2a231e",
+        "#76695c"
+      ],
+      "essay": [
+        "圣古杜拉景大师是 15 世纪晚期布鲁塞尔画派的关键人物，以描绘圣古杜拉教堂内部景观闻名。这幅作于 1480 年前后的肖像，展示了当时尼德兰地区肖像画从宗教附属向独立题材过渡的趋势。",
+        "画面最耐看的是人物手部的处理——手指关节的起伏与书页的翻折感被刻画得极具实体感。背景中教堂内部的透视虽显生硬，但光线从左侧高窗射入，在人物面部形成柔和的明暗过渡，这种布光方式预示了后来北方文艺复兴对自然光的迷恋。",
+        "男子手中的乐谱书暗示其音乐家或神职人员身份，但他那过于平滑、缺乏毛孔的皮肤质感，暴露了当时画家在解剖学认知上的局限。这种将人物理想化为“无瑕疵面具”的处理，是早期尼德兰肖像画尚未完全摆脱中世纪程式化影响的铁证。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.78,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-435875",
+      "source": "met",
+      "sourceId": "435875",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435875",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
+      "title_zh": "温室里的塞尚夫人",
+      "artist_en": "Paul Cézanne",
+      "artist_zh": "保罗·塞尚",
+      "artist_id": "paul-cezanne",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1839–1906",
+      "date_display": "1891",
+      "year": 1891,
+      "medium_zh": "布面油画",
+      "dimensions": "36 1/4 x 28 3/4 in. (92.1 x 73 cm)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP317780.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
+        "ratio": 1.256
+      },
+      "palette": [
+        "#414642",
+        "#8a7956"
+      ],
+      "essay": [
+        "作为后印象派的奠基人，塞尚在这幅 1891 年的肖像中，将妻子奥尔唐斯置于温室这一半室内半自然的场景中。这并非传统意义上的温情记录，而是他探索形式结构与色彩关系的实验场。",
+        "画面最精彩之处在于人物与背景的博弈。请看面部与衣领的交界处——塞尚用冷峻的蓝绿色块塑造深色裙装，却用暖赭石色勾勒脸颊，这种冷暖并置让形体在平面上‘浮’了起来。背景中植物的笔触粗犷而概括，与人物严谨的坐姿形成张力。",
+        "不得不承认，塞尚笔下的妻子常显冷漠甚至僵硬。奥尔唐斯双手交叠，神情木然，仿佛只是画家用来研究体积的静物模特，而非有血有肉的伴侣。这种情感上的疏离感，恰恰是塞尚为了追求画面永恒性而牺牲叙事性的结果。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.28,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-120230",
+      "source": "cma",
+      "sourceId": "120230",
+      "sourceUrl": "https://clevelandart.org/art/1940.990",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Cave Door of Spring",
+      "title_zh": "春之洞门",
+      "artist_en": "Totoya Hokkei (Japanese, 1780–1850)",
+      "artist_zh": "鸟居北溪",
+      "artist_id": "totoya-hokkei-japanese-1780-1850",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1780–1850",
+      "date_display": "1825",
+      "year": 1825,
+      "medium_zh": "五联木刻版画",
+      "dimensions": "Each: 18.8 x 21.4 cm (7 3/8 x 8 7/16 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "风景",
+        "浮世绘",
+        "19世纪",
+        "日本",
+        "版画",
+        "神话"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1940.990/1940.990_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1940.990/1940.990_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1940.990/1940.990_web.jpg",
+        "ratio": 0.224
+      },
+      "palette": [
+        "#726a5a",
+        "#8f8b7a"
+      ],
+      "essay": [
+        "鸟居北溪是葛饰北斋的弟子，也是鸟居派画师，但他并未被流派束缚。这幅作于 1825 年的五联画，展示了他在风景与人物结合上的野心。不同于当时流行的单一美人图或役者绘，他试图用宏大的叙事场景来构建画面，这在当时的浮世绘中并不多见。",
+        "画面最精彩之处在于对岩石肌理的处理。请看左侧第二幅中老者身后的岩壁——北溪没有使用传统的平涂色块，而是用细碎的皴擦笔触模拟岩石的粗糙质感，这种技法明显受到北斋《富岳三十六景》的影响，但北溪将其运用得更加装饰化，与人物衣纹的流畅线条形成强烈对比。",
+        "但这幅作品并非完美无缺。五联画的构图略显松散，人物之间的互动缺乏内在逻辑，更像是为了填满画面而拼凑的场景。右侧持环人物与左侧老者的比例失调，显示出北溪在处理复杂多人物场景时的力不从心。这种叙事上的断裂，是许多浮世绘画家在尝试宏大题材时常犯的错误。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.45,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-436284",
+      "source": "met",
+      "sourceId": "436284",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436284",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "A Donor Presented by a Saint",
+      "title_zh": "圣徒引荐的捐赠者",
+      "artist_en": "Dieric Bouts",
+      "artist_zh": "迪里克·鲍茨",
+      "artist_id": "dieric-bouts",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1415–1475",
+      "date_display": "ca. 1460–65",
+      "year": 1460,
+      "medium_zh": "木板油画",
+      "dimensions": "8 3/4 x 7 in. (22.2 x 17.8 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "宗教",
+        "15世纪",
+        "尼德兰"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26282-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-26282-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26282-001.jpg",
+        "ratio": 1.226
+      },
+      "palette": [
+        "#160f0f",
+        "#483736"
+      ],
+      "essay": [
+        "迪里克·鲍茨是早期尼德兰画派的关键人物，活跃于鲁汶。这幅小尺幅作品约作于 1460 年代，属于典型的祭坛画侧翼残片。鲍茨擅长将神圣叙事与世俗肖像并置，这种“捐赠者肖像”既是虔诚的体现，也是当时新兴资产阶级确立社会地位的视觉契约。",
+        "画面最耐看的是那只搭在肩头的手——它属于画框之外的圣徒，却构成了构图的核心张力。这只手并未真正接触肉体，而是悬停在衣领上方，这种微妙的距离感暗示了神性介入的克制。鲍茨用极细的笔触描绘了紫红帷幔的厚重垂坠，与人物面部受光面的平滑质感形成鲜明对比。",
+        "这位捐赠者的面容被刻画得过于冷静甚至木讷，缺乏同时代凡·艾克笔下人物那种深邃的心理活动。这种“呆板”或许并非技法局限，而是刻意为之：在宗教语境下，捐赠者需表现出谦卑与顺从，过度的个性张扬反而不合时宜。这种克制让画面显得庄重，却也牺牲了部分生动性。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.35,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-437868",
+      "source": "met",
+      "sourceId": "437868",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437868",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Don Gaspar de Guzmán (1587–1645), Count-Duke of Olivares",
+      "title_zh": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
+      "artist_en": "Juan Bautista Martínez del Mazo",
+      "artist_zh": "胡安·巴蒂斯塔·马丁内斯·德尔·马佐",
+      "artist_id": "juan-bautista-martinez-del-mazo",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1612–1667",
+      "date_display": "ca. 1636 or later",
+      "year": 1636,
+      "medium_zh": "布面油画",
+      "dimensions": "50 1/4 x 41 in. (127.6 x 104.1 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "骑马像",
+        "17世纪",
+        "西班牙",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-011.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-011.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-011.jpg",
+        "ratio": 1.214
+      },
+      "palette": [
+        "#302719",
+        "#5f583f"
+      ],
+      "essay": [
+        "马佐是委拉斯开兹的女婿与助手，这幅画长期被误认为是大师手笔。作为西班牙宫廷画家，他擅长模仿委拉斯开兹的笔触与构图，此作便是对权臣奥利瓦雷斯公爵的致敬，虽非委拉斯开兹亲绘，却精准捕捉了那个时代权力的视觉修辞。",
+        "画面最精彩处在于白马的肌肉处理——马佐用灰白与淡蓝的短促笔触堆叠出马匹紧绷的胸肌与腿部线条，马鬃与尾毛的飞动感极强。这种对动物动态的敏锐观察，明显承袭自委拉斯开兹，但笔触略显琐碎，少了一份举重若轻的概括力。",
+        "公爵的面容被理想化处理：尽管他是实际掌权者，画中却未显露其晚年失势后的颓唐，反而是一副意气风发的统帅模样。这种美化是宫廷肖像的通病，马佐在此未能突破题材的局限，让画面停留在体面却缺乏深度的层面。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.68,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-95306",
+      "source": "cma",
+      "sourceId": "95306",
+      "sourceUrl": "https://clevelandart.org/art/1916.1077",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sketch",
+      "title_zh": "素描习作",
+      "artist_en": "Kenyon Cox (American, 1856–1919)",
+      "artist_zh": "凯尼恩·考克斯",
+      "artist_id": "kenyon-cox-american-1856-1919",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1856–1919",
+      "date_display": "1912",
+      "year": 1912,
+      "medium_zh": "纸上石墨",
+      "dimensions": "Sheet: 39.2 x 36.9 cm (15 7/16 x 14 1/2 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "素描",
+        "古典主义",
+        "女性",
+        "1910年代",
+        "美国"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.1077/1916.1077_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.1077/1916.1077_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.1077/1916.1077_web.jpg",
+        "ratio": 1.082
+      },
+      "palette": [
+        "#eed097",
+        "#ccb284"
+      ],
+      "essay": [
+        "凯尼恩·考克斯是美国学院派绘画的坚定捍卫者，在印象派与现代主义兴起的年代，他仍执着于古典传统的严谨与和谐。这幅作于 1912 年的石墨素描，虽题为“习作”，却展现了画家深厚的造型功底，是其晚年对古典人体美学的一次纯粹回顾。",
+        "画面最精彩处在于衣褶的处理——考克斯用极其细腻的排线，构建出织物厚重的垂坠感与光影体积。请注意左臂护腕处的纹样与下方果篮的刻画，线条繁复却秩序井然，这种对装饰细节的耐心，是当时学院训练的典型特征。",
+        "然而，这种对完美的过度追求也带来了僵化。人物面部被刻意回避，只留下一个模糊的侧影，仿佛画家只在乎躯体的理想化比例，而忽略了个体的神情。这种“去人格化”的处理，让作品显得高贵却缺乏温度，是学院派晚期常见的通病。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-95308",
+      "source": "cma",
+      "sourceId": "95308",
+      "sourceUrl": "https://clevelandart.org/art/1916.1079",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sketch",
+      "title_zh": "习作",
+      "artist_en": "Kenyon Cox (American, 1856–1919)",
+      "artist_zh": "凯尼恩·考克斯",
+      "artist_id": "kenyon-cox-american-1856-1919",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1856–1919",
+      "date_display": "1912",
+      "year": 1912,
+      "medium_zh": "纸上石墨",
+      "dimensions": "Sheet: 46 x 30.1 cm (18 1/8 x 11 7/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "素描",
+        "人体",
+        "古典主义",
+        "20世纪",
+        "美国"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.1079/1916.1079_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.1079/1916.1079_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.1079/1916.1079_web.jpg",
+        "ratio": 1.54
+      },
+      "palette": [
+        "#edd098",
+        "#d2b88a"
+      ],
+      "essay": [
+        "凯尼恩·考克斯是美国学院派绘画的坚定捍卫者，在抽象主义兴起的 20 世纪初，他仍坚持古典写实传统。这幅作于 1912 年的素描习作，展示了他作为教师与画家的基本功：对解剖结构的精准掌握，以及对理想化人体美的执着追求。",
+        "画面中人物背负重物的姿态极具张力。考克斯用细腻的排线塑造了背部肌肉的起伏，尤其是肩胛骨与手臂连接处的转折，处理得十分肯定。衣褶的走向顺应肢体动作，线条流畅而富有节奏感，显示出深厚的造型功底。",
+        "这种对古典完美的追求有时显得过于刻意。人物面部轮廓过于光洁，缺乏劳作者应有的粗砺感；背负沉重柴捆的姿态虽优美，却少了几分真实的沉重与挣扎。这是学院派常见的通病：为了形式的和谐，牺牲了生活的真实质感。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-107035",
+      "source": "cma",
+      "sourceId": "107035",
+      "sourceUrl": "https://clevelandart.org/art/1925.1032",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Abandonment of Ariadne",
+      "title_zh": "阿里阿德涅的遗弃",
+      "artist_en": "Honoré Daumier (French, 1808–1879)",
+      "artist_zh": "奥诺雷·杜米埃",
+      "artist_id": "honore-daumier-french-1808-1879",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1808–1879",
+      "date_display": "1842",
+      "year": 1842,
+      "medium_zh": "石版画",
+      "dimensions": "Sheet: 34.3 x 26.7 cm (13 1/2 x 10 1/2 in.); Image: 23.9 x 20 cm (9 7/16 x 7 7/8 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "神话",
+        "版画",
+        "19世纪",
+        "法国",
+        "讽刺"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1925.1032/1925.1032_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1925.1032/1925.1032_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1925.1032/1925.1032_web.jpg",
+        "ratio": 1.335
+      },
+      "palette": [
+        "#d8d8d3",
+        "#afafab"
+      ],
+      "essay": [
+        "杜米埃是 19 世纪法国现实主义与讽刺艺术的巨擘，以犀利的社会观察著称。这幅作于 1842 年的石版画，出自其《古代史》系列。他并未将神话人物神圣化，而是借古典题材的外壳，行现代讽刺之实，将高高在上的神话拉回充满烟火气的人间。",
+        "画面最精彩处在于阿里阿德涅的姿态与神情。她并非古典雕塑中那种优雅的哀愁，而是像个被负心汉抛弃的市井女子，毫无仪态地坐在礁石上，甚至露出了鞋底。远处忒修斯的船已扬帆远去，她张大的嘴和凌乱的长发，将那种气急败坏的绝望刻画得入木三分。",
+        "这种处理消解了神话的崇高感，却赋予了人物真实的生命力。杜米埃故意让这位神话公主显得狼狈不堪，甚至带点滑稽。这种对经典叙事的解构，既是对当时矫饰艺术风气的嘲弄，也暗示了在杜米埃眼中，无论神与人，在情感背叛面前都一样狼狈。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-101974",
+      "source": "cma",
+      "sourceId": "101974",
+      "sourceUrl": "https://clevelandart.org/art/1920.635",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "At the Fortifications, Porte de Versailles",
+      "title_zh": "凡尔赛门防御工事",
+      "artist_en": "Auguste Louis Lepère (French, 1849–1918)",
+      "artist_zh": "奥古斯特·勒佩尔",
+      "artist_id": "auguste-louis-lepere-french-1849-1918",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1849–1918",
+      "date_display": "1898",
+      "year": 1898,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Image: 11.9 x 23.4 cm (4 11/16 x 9 3/16 in.); Plate: 15 x 25.9 cm (5 7/8 x 10 3/16 in.); Sheet: 19 x 28.8 cm (7 1/2 x 11 5/16 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "城市景观",
+        "巴黎",
+        "19世纪",
+        "蚀刻版画",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.635/1920.635_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.635/1920.635_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.635/1920.635_web.jpg",
+        "ratio": 0.678
+      },
+      "palette": [
+        "#c1b7a2",
+        "#837969"
+      ],
+      "essay": [
+        "勒佩尔是 19 世纪末法国蚀刻版画复兴的关键人物，他拒绝学院派的精细修饰，转而捕捉巴黎边缘地带的粗粝现实。这幅 1898 年的作品描绘了凡尔赛门外的防御工事，正值巴黎城市扩张与旧防御体系并存的过渡期。",
+        "画面右侧前景的妇人背影是视觉重心，勒佩尔用密集的交叉排线堆叠出厚重的衣物质感，与左侧稀疏的篱笆形成疏密对比。远处工厂烟囱的轻淡线条暗示了工业烟尘，这种空气透视处理得相当老练。",
+        "构图虽显开阔，但人物姿态略显僵硬，缺乏叙事上的互动感——妇人似乎在摆拍而非自然行走。这种为了构图平衡而牺牲人物生动性的做法，是当时许多版画家在追求“如画”效果时的通病。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.55,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-107448",
+      "source": "cma",
+      "sourceId": "107448",
+      "sourceUrl": "https://clevelandart.org/art/1925.15",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Trust me! Take my arm...",
+      "title_zh": "相信我！挽着我的胳膊……",
+      "artist_en": "Honoré Daumier (French, 1808–1879)",
+      "artist_zh": "奥诺雷·杜米埃",
+      "artist_id": "honore-daumier-french-1808-1879",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1808–1879",
+      "date_display": "1866",
+      "year": 1866,
+      "medium_zh": "石版画",
+      "dimensions": "Sheet: 31.2 x 25.4 cm (12 5/16 x 10 in.); Image: 26 x 21.4 cm (10 1/4 x 8 7/16 in.); Secondary Support: 33.6 x 28 cm (13 1/4 x 11 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "政治讽刺",
+        "19世纪",
+        "石版画",
+        "意大利统一",
+        "时事漫画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1925.15/1925.15_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1925.15/1925.15_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1925.15/1925.15_web.jpg",
+        "ratio": 1.384
+      },
+      "palette": [
+        "#cbc9be",
+        "#8f8d84"
+      ],
+      "essay": [
+        "杜米埃是 19 世纪法国最犀利的政治漫画家，也是现实主义绘画的先锋。这幅作于 1866 年的石版画，将目光投向了刚刚完成统一的意大利。画面中，拟人化的“威尼斯”与“意大利”并肩而立，前者手持长矛，神情肃穆，后者则是一副典型的杜米埃式夸张形象，充满了市井的狡黠与活力。",
+        "请看右侧“意大利”的腿部细节——那是杜米埃线条功力的极致体现。他仅用几笔粗犷而肯定的排线，就勾勒出了肌肉紧绷的小腿和破旧的裤管。这种看似潦草的速写笔触，实则精准地捕捉了人物动态的重心，让那个前倾、急切想要拉拢同伴的姿态跃然纸上，充满了戏剧张力。",
+        "然而，这幅画的讽刺意味恰恰藏在标题的温情之下。意大利伸出的手看似热情邀请，实则是一种政治上的裹挟。威尼斯那僵硬、被动的站姿，与意大利那过于用力的拉扯形成了鲜明对比。杜米埃敏锐地指出了统一进程中的不对等关系：这并非平等的拥抱，而是一场充满算计的政治联姻。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.68,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-108831",
+      "source": "cma",
+      "sourceId": "108831",
+      "sourceUrl": "https://clevelandart.org/art/1926.506",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Jean Jacques Fayet, Bishop of Orléans",
+      "title_zh": "奥尔良主教让 - 雅克·法耶",
+      "artist_en": "Honoré Daumier (French, 1808–1879)",
+      "artist_zh": "奥诺雷·杜米埃",
+      "artist_id": "honore-daumier-french-1808-1879",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1808–1879",
+      "date_display": "1849",
+      "year": 1849,
+      "medium_zh": "石版画",
+      "dimensions": "Image: 24.9 x 19 cm (9 13/16 x 7 1/2 in.); Sheet: 36 x 27.7 cm (14 3/16 x 10 7/8 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "讽刺漫画",
+        "宗教人物",
+        "19世纪",
+        "法国"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1926.506/1926.506_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1926.506/1926.506_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1926.506/1926.506_web.jpg",
+        "ratio": 1.287
+      },
+      "palette": [
+        "#c7c7c1",
+        "#7b7b76"
+      ],
+      "essay": [
+        "杜米埃是 19 世纪法国最犀利的社会观察者，他的石版画既是新闻插图，也是政治武器。这幅 1849 年的作品处于他创作力最旺盛的时期，彼时他正通过《喧声》等刊物，对第二共和国的政要与神职人员进行无情的解剖。",
+        "画面最精彩处在于对主教面部的处理：杜米埃利用石版特有的颗粒感，堆叠出皮肤松弛的质感与额头的深刻皱纹。注意他那只高举的手，手指僵硬地捏着某种小物件，这种肢体语言将人物内心的紧张与做作暴露无遗。",
+        "虽然杜米埃以夸张变形著称，但这幅画在解剖结构上略显刻意——为了突出头部的硕大，躯干被压缩得过于短小，牺牲了部分动态的自然感。这种为了讽刺效果而牺牲写实准确性的做法，是杜米埃漫画的一贯策略，但也让画面少了几分生动。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.25,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-113031",
+      "source": "cma",
+      "sourceId": "113031",
+      "sourceUrl": "https://clevelandart.org/art/1932.119.31.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Ritual Bath of Mahavira, Folio 31 (recto), from a Kalpa-sutra",
+      "title_zh": "大雄沐浴图（出自《劫波经》第 31 页）",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1475–1500",
+      "year": 1487,
+      "medium_zh": "纸本树胶蛋彩、墨与金",
+      "dimensions": "Overall: 12.5 x 25.7 cm (4 15/16 x 10 1/8 in.)",
+      "movement_zh": "印度细密画",
+      "tags": [
+        "那教",
+        "宗教插图",
+        "15世纪",
+        "印度",
+        "手抄本"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1932.119.31.a/1932.119.31.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1932.119.31.a/1932.119.31.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1932.119.31.a/1932.119.31.a_web.jpg",
+        "ratio": 0.446
+      },
+      "palette": [
+        "#8c735f",
+        "#b8aa94"
+      ],
+      "essay": [
+        "这幅作品出自 15 世纪末西印度古吉拉特地区的《劫波经》手抄本，是耆那教艺术中极具代表性的细密画。作为记录祖师生平与戒律的圣典插图，它确立了当时印度西部画派严谨、装饰性强的风格范式，在宗教文本的视觉化表达上具有里程碑意义。",
+        "画面右侧的大雄（Mahavira）端坐于莲花座上，通体施以厚重的金粉，在深红与群青的底色衬托下显得庄严辉煌。请注意其头光与衣饰的描金线条——画师用极细的笔触勾勒出繁复的珠宝纹样，这种对平面装饰感的极致追求，完全压倒了对于人体解剖结构的写实描绘。",
+        "尽管金碧辉煌，但这幅画在空间处理上显得相当“原始”。人物与背景缺乏真实的景深关系，仿佛悬浮于红色的平面之上；左侧密集的经文占据了近半篇幅，图像更像是文字的附属品而非独立的叙事场景。这种图文并置的版式虽符合经卷功能，却限制了画面的戏剧张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-155064",
+      "source": "cma",
+      "sourceId": "155064",
+      "sourceUrl": "https://clevelandart.org/art/1989.8",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Hotei with Daoist Immortals",
+      "title_zh": "布袋和尚与道教仙人",
+      "artist_en": "Kyūseki Tomonobu (Japanese, 1653–1721)",
+      "artist_zh": "久石友信",
+      "artist_id": "kyuseki-tomonobu-japanese-1653-1721",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1653–1721",
+      "date_display": "late 1600s–early 1700s",
+      "year": 1650,
+      "medium_zh": "纸本水墨三联挂轴",
+      "dimensions": "Overall: 210.2 x 68.6 cm (82 3/4 x 27 in.)",
+      "movement_zh": "江户绘画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "宗教",
+        "水墨",
+        "道教"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1989.8/1989.8_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1989.8/1989.8_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1989.8/1989.8_web.jpg",
+        "ratio": 0.746
+      },
+      "palette": [
+        "#83715c",
+        "#9c8a75"
+      ],
+      "essay": [
+        "久石友信活跃于江户时代中期，是狩野派末期的代表人物之一。这幅三联作展示了当时日本画坛对道教题材的浓厚兴趣，将布袋和尚与道教仙人并置，体现了神道教、佛教与道教在日本民间信仰中的融合。",
+        "画面中央的布袋和尚笑容可掬，手持折扇，身旁围绕着嬉戏的孩童。左侧仙人高举葫芦，右侧仙人骑乘鲤鱼，这些细节都充满了生动的动感。水墨的浓淡变化处理得相当精妙，特别是鲤鱼鳞片的描绘，展现了画家扎实的写实功底。",
+        "虽然人物表情生动，但整体构图略显松散，三联之间的呼应不够紧密。布袋和尚的形象过于程式化，缺乏个性特征，这是当时宗教题材绘画的通病。不过，孩童的天真神态为作品增添了几分生活气息，使画面不至于完全陷入宗教符号的堆砌。",
+        "作为江户时代的宗教题材作品，此画反映了当时日本社会对幸福与长寿的向往，也展现了水墨画在民间信仰表达中的独特魅力。尽管存在构图上的不足，但其生动的细节处理仍使其成为研究江户宗教绘画的重要样本。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.6,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-113035",
+      "source": "cma",
+      "sourceId": "113035",
+      "sourceUrl": "https://clevelandart.org/art/1932.119.37.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Text, Folio 37 (recto), from a Kalpa-sutra",
+      "title_zh": "《劫经》第 37 页（正面）",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1475–1500",
+      "year": 1487,
+      "medium_zh": "纸本树胶蛋彩、墨与金",
+      "dimensions": "Overall: 12.5 x 25.7 cm (4 15/16 x 10 1/8 in.)",
+      "movement_zh": "印度细密画",
+      "tags": [
+        "宗教手稿",
+        "耆那教",
+        "15世纪",
+        "印度",
+        "书法"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1932.119.37.a/1932.119.37.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1932.119.37.a/1932.119.37.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1932.119.37.a/1932.119.37.a_web.jpg",
+        "ratio": 0.446
+      },
+      "palette": [
+        "#897461",
+        "#b7ab97"
+      ],
+      "essay": [
+        "这是 15 世纪末印度西部古吉拉特地区流传的耆那教手稿残页。彼时，印度细密画尚未完全脱离书法装饰的范畴，图像往往作为经文的附庸存在。这类《劫经》抄本在当时的富商与信徒中极受推崇，书写与装饰本身被视为一种积累功德的宗教行为。",
+        "画面最引人注目的是中央那枚朱砂红圆点，它作为视觉轴心，将两侧紧密排列的梵文经行稳稳压住。请留意左侧边缘的装饰带：在红色边框内，金色的藤蔓纹样在灰底上蜿蜒。这种金与红的搭配是当时古吉拉特画派的典型特征，即便历经五个世纪，金箔的质感依然赋予了页面一种神圣的辉煌感。",
+        "作为现代观者，我们很难从纯粹的视觉角度获得如欣赏油画般的愉悦。严格的横向经行限制了画家的构图自由，文字本身的装饰性压倒了图像叙事。这种高度程式化的布局，虽然保证了经文的庄严与易读，却也牺牲了画面的生动气韵，显得略微拘谨与单调。"
+      ],
+      "detailCrop": {
+        "cx": 0.18,
+        "cy": 0.55,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-121140",
+      "source": "cma",
+      "sourceId": "121140",
+      "sourceUrl": "https://clevelandart.org/art/1942.1021",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "On the Train:  A Pleasant Companion",
+      "title_zh": "火车上：一位愉快的旅伴",
+      "artist_en": "Honoré Daumier (French, 1808–1879)",
+      "artist_zh": "奥诺雷·杜米埃",
+      "artist_id": "honore-daumier-french-1808-1879",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1808–1879",
+      "date_display": "1862",
+      "year": 1862,
+      "medium_zh": "石版画",
+      "dimensions": "Sheet: 31.2 x 44.1 cm (12 5/16 x 17 3/8 in.); Image: 19.6 x 24.3 cm (7 11/16 x 9 9/16 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "风俗画",
+        "19世纪",
+        "法国",
+        "交通工具",
+        "社会讽刺"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.1021/1942.1021_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.1021/1942.1021_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.1021/1942.1021_web.jpg",
+        "ratio": 0.805
+      },
+      "palette": [
+        "#474846",
+        "#8d8d89"
+      ],
+      "essay": [
+        "杜米埃是19世纪法国现实主义的大师，也是石版画领域的巨匠。这幅作于1862年的作品，将目光投向了当时新兴的公共空间——火车车厢。不同于他那些激烈的政治讽刺漫画，这类风俗画更侧重于捕捉现代生活中微妙的人际张力与心理状态。",
+        "画面最精彩之处在于对烟雾的处理。杜米埃利用石版特有的颗粒感，让浓重的烟云在两人之间翻腾，既充当了背景，又构成了物理与心理上的双重屏障。左侧绅士那顶高礼帽与紧闭的双臂，在烟雾的烘托下显得格外顽固与封闭。",
+        "标题中的“愉快”显然是一句反讽。右侧女士惊恐的眼神与僵硬的身姿，与绅士吞云吐雾的自得形成了尖锐对立。这种尴尬并非个例，而是工业化初期公共礼仪缺失的缩影。杜米埃没有美化这种不适，而是诚实地记录了文明进程中的粗粝瞬间。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-130464",
+      "source": "cma",
+      "sourceId": "130464",
+      "sourceUrl": "https://clevelandart.org/art/1953.213.14",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Apocalypse:  The Opening of the Seventh Seal",
+      "title_zh": "启示录：第七印的开启",
+      "artist_en": "Jean Duvet (French, 1485–1561)",
+      "artist_zh": "让·杜韦",
+      "artist_id": "jean-duvet-french-1485-1561",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1485–1561",
+      "date_display": "1546–1556",
+      "year": 1551,
+      "medium_zh": "铜版画",
+      "dimensions": "",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教题材",
+        "启示录",
+        "16世纪",
+        "法国",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1953.213.14/1953.213.14_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1953.213.14/1953.213.14_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1953.213.14/1953.213.14_web.jpg",
+        "ratio": 1.438
+      },
+      "palette": [
+        "#67645b",
+        "#9a9489"
+      ],
+      "essay": [
+        "让·杜韦是法国文艺复兴时期最重要的版画家之一，其《启示录》系列被视为北方文艺复兴版画的高峰。此作创作于1546至1556年间，处于他艺术生涯的成熟期，展现了他对宗教题材的深刻理解和精湛的雕刻技艺。",
+        "画面中央上帝端坐于宝座之上，周围天使环绕，构图繁复而有序。杜韦运用细腻的线条刻画出人物的衣褶和表情，尤其是天使吹号的动态，充满了戏剧张力。左下角的城市景观与右下角的灾难场景形成鲜明对比，增强了画面的叙事性。",
+        "尽管杜韦的技法精湛，但画面中人物形象略显僵硬，缺乏达·芬奇或米开朗基罗那样的自然流畅感。这种风格上的局限，反映了当时法国艺术在吸收意大利文艺复兴影响时的过渡状态。然而，这并不妨碍作品在宗教情感和视觉冲击力上的成功。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.3,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-133763",
+      "source": "cma",
+      "sourceId": "133763",
+      "sourceUrl": "https://clevelandart.org/art/1956.37.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sketch for \"The Wolf Turned Shepherd\" (recto)",
+      "title_zh": "《狼变牧羊人》草图（正面）",
+      "artist_en": "Gustave Doré (French, 1832–1883)",
+      "artist_zh": "古斯塔夫·多雷",
+      "artist_id": "gustave-dore-french-1832-1883",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "c. 1868",
+      "year": 1868,
+      "medium_zh": "纸上石墨",
+      "dimensions": "Sheet: 30.1 x 22.2 cm (11 7/8 x 8 3/4 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "寓言",
+        "草图",
+        "19世纪",
+        "法国",
+        "拉封丹寓言"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1956.37.a/1956.37.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1956.37.a/1956.37.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1956.37.a/1956.37.a_web.jpg",
+        "ratio": 1.353
+      },
+      "palette": [
+        "#d0c4b5",
+        "#cabba9"
+      ],
+      "essay": [
+        "多雷是 19 世纪法国最成功的插画家，以宏大的圣经与文学插图闻名。这幅草图创作于 1868 年左右，是为拉封丹寓言《狼变牧羊人》所做的构图研究。它展示了多雷在正式创作前，如何通过速写捕捉角色的动态与神态，而非仅仅依赖最终的精细版画。",
+        "画面焦点在于狼拟人化的瞬间——它披着牧羊人的斗篷，手持牧杖，却难掩野兽的本性。最值得玩味的是狼的面部：多雷用极轻的笔触勾勒出它狡黠的眼神和微张的嘴，仿佛正在酝酿谎言。这种在松散线条中精准捕捉神态的能力，是多雷草图的魅力所在。",
+        "作为寓言插图，多雷的处理略显直白。狼的伪装在视觉上过于明显，缺乏文本中那种‘欺骗性’的张力——观众一眼就能看穿它的真面目，削弱了寓言原本的讽刺力度。但这或许正是草图的功能：先确立形象，再将戏剧性留给最终的构图。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-109496",
+      "source": "cma",
+      "sourceId": "109496",
+      "sourceUrl": "https://clevelandart.org/art/1928.15.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "David and Goliath (verso)",
+      "title_zh": "大卫与歌利亚（背面）",
+      "artist_en": "Claude Lorrain (French, 1604–1682)",
+      "artist_zh": "克洛德·洛兰",
+      "artist_id": "claude-lorrain-french-1604-1682",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1604–1682",
+      "date_display": "c. 1645",
+      "year": 1645,
+      "medium_zh": "纸上黑粉笔",
+      "dimensions": "Sheet: 26 x 40.5 cm (10 1/4 x 15 15/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "素描",
+        "17世纪",
+        "法国",
+        "构图研究"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1928.15.b/1928.15.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1928.15.b/1928.15.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1928.15.b/1928.15.b_web.jpg",
+        "ratio": 0.657
+      },
+      "palette": [
+        "#cfc0a7",
+        "#c1ad90"
+      ],
+      "essay": [
+        "克洛德·洛兰是 17 世纪法国巴洛克绘画的巨，以理想化的风景画确立了古典主义范式。这幅约作于 1645 年的黑粉笔素描，并非其标志性的宏大风景，而是一张人物动态的构图草稿。它揭示了这位风景大师在构建叙事场景时，对人物姿态与空间关系的严谨推敲。",
+        "画面捕捉了大卫投石与歌利亚挥矛的瞬间，线条极其洗练。最值得玩味的是右侧歌利亚的腿部处理——寥寥数笔便勾勒出肌肉紧绷的张力与重心的不稳。这种速写式的笔触，剥离了光影修饰，赤裸地展现了画家对解剖结构和运动规律的精准掌控。",
+        "作为一张习作，它难免显得粗糙且未完成。人物比例略显夸张，背景完全留白，缺乏洛兰成熟画作中那种空气透视的深邃感。但这恰恰是草图的价值所在：它记录了灵感迸发时的原始冲动，而非经过修饰的完美假象。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-136862",
+      "source": "cma",
+      "sourceId": "136862",
+      "sourceUrl": "https://clevelandart.org/art/1961.35",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portable Triptych Icon",
+      "title_zh": "便携式三联圣像",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "不详",
+      "artist_years": "不详",
+      "date_display": "1600s",
+      "year": 1600,
+      "medium_zh": "木板蛋彩画，配珐琅铜框",
+      "dimensions": "Unframed: 6.5 x 6 x 0.2 cm (2 9/16 x 2 3/8 x 1/16 in.); Closed: 7.3 x 6.9 x 3.4 cm (2 7/8 x 2 11/16 x 1 5/16 in.); Open and extended: 7 x 19.1 cm (2 3/4 x 7 1/2 in.)",
+      "movement_zh": "东正教圣像画",
+      "tags": [
+        "宗教",
+        "三联画",
+        "17世纪",
+        "俄罗斯",
+        "便携"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1961.35/1961.35_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1961.35/1961.35_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1961.35/1961.35_web.jpg",
+        "ratio": 0.395
+      },
+      "palette": [
+        "#6e5e4d",
+        "#413932"
+      ],
+      "essay": [
+        "这件 17 世纪的小型三联画是典型的东正教私人礼拜用具。它并非为了教堂祭坛而作，而是供信徒随身携带或置于家中角落祈祷。在宗教改革与动荡频发的年代，这种可折叠的微型圣像让信仰变得私密且流动，成为连接个人与神性的物理媒介。",
+        "画面虽受限于极小的尺幅，却容纳了受难、复活与圣徒群像等宏大叙事。请看中间画板——基督从地狱边缘拉起亚当的手，周围拥挤着旧约先知与天使。画家在方寸之间运用高视点构图，将不同时空的场景压缩在同一平面，金色的背景剥离了现实景深，强行将观者拉入神圣的永恒时间。",
+        "必须承认，这类作坊制品在人物面部刻画上往往陷入程式化。受限于蛋彩颜料的干燥速度与固定图样，圣徒们的表情大多肃穆而雷同，缺乏个体性格的流露。然而，正是这种去个性化的冷峻，配合外框精细的珐琅卷草纹，营造出一种拒绝世俗情感介入的庄严秩序。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-153349",
+      "source": "cma",
+      "sourceId": "153349",
+      "sourceUrl": "https://clevelandart.org/art/1986.49.12",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Frosted Branches and Dwarf Bamboo, in the Style of Su Shi",
+      "title_zh": "霜柯竹篠图",
+      "artist_en": "Zhai Dakun (Chinese, d. 1804)",
+      "artist_zh": "翟大坤",
+      "artist_id": "zhai-dakun-chinese-d-1804",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详–1804",
+      "date_display": "1775",
+      "year": 1775,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 41.2 x 31.5 cm (16 1/4 x 12 3/8 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "花鸟",
+        "清代",
+        "仿古",
+        "册页"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1986.49.12/1986.49.12_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1986.49.12/1986.49.12_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1986.49.12/1986.49.12_web.jpg",
+        "ratio": 1.333
+      },
+      "palette": [
+        "#8a6b4a",
+        "#ac8b67"
+      ],
+      "essay": [
+        "翟大坤是清代乾隆年间活跃于江南的画家，以摹古见长。这幅作于 1775 年的册页，明确题款「仿东坡居士」，意在追摹苏轼枯木竹石的文人意趣。在清代画坛普遍推崇「四王」正统的背景下，这种跨越宋元、直追北宋文人画祖师的尝试，显示了画家不囿于时风的审美眼光。",
+        "画面最耐看的是古树枝干的质感处理。画家并未使用传统的勾勒填色，而是用湿润的墨点层层积染，模拟树皮上的苔藓与岁月侵蚀的斑驳感。这种「米点皴」的变体用法，让枯木在萧瑟中显出一种温润的生机，与左侧劲挺的双钩竹叶形成枯润、疏密的鲜明对比。",
+        "虽题为仿苏轼，但这幅画在构图上显得过于工整圆满，少了几分苏轼原作中那种信手涂抹的荒寒与孤傲。石头被描绘得过于圆润光滑，像是一块精心打磨的园林奇石，而非荒野中的自然之物。这种「雅致的俗气」，恰恰暴露了清代职业画家在模仿文人写意时，难以摆脱的匠气与修饰欲。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-153627",
+      "source": "cma",
+      "sourceId": "153627",
+      "sourceUrl": "https://clevelandart.org/art/1987.153.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Calligraphy framed by an ornamental border with poppies and pairs of birds, from the Late Shah Jahan Album  (verso)",
+      "title_zh": "书法与花鸟纹饰边框（出自《沙贾汗晚期画册》背面）",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1653",
+      "year": 1653,
+      "medium_zh": "纸本树胶蛋彩、墨水与金",
+      "dimensions": "Overall: 37.8 x 27.3 cm (14 7/8 x 10 3/4 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "书法",
+        "装饰画",
+        "17世纪",
+        "印度",
+        "宫廷艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1987.153.b/1987.153.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1987.153.b/1987.153.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1987.153.b/1987.153.b_web.jpg",
+        "ratio": 1.36
+      },
+      "palette": [
+        "#d0a670",
+        "#b68e61"
+      ],
+      "essay": [
+        "这幅作品出自莫卧儿帝国沙贾汗时期的宫廷画册，代表了 17 世纪印度细密画装饰艺术的巅峰。作为画册背面的衬页，它并非为了叙事，而是纯粹展示书法与纹饰的和谐之美。这种将书法置于繁复边框中的形制，是当时皇室收藏与鉴赏的重要载体。",
+        "画面的核心在于中央那几行流畅的波斯体书法，墨色浓黑，笔锋锐利。最值得玩味的是外围的边框：在金色的底子上，画家用极细的笔触勾勒出成对的鸟儿与罂粟花。这些花鸟并非随意点缀，而是严格遵循几何网格分布，每一只鸟的姿态都经过精心设计，既独立又呼应。",
+        "这种极致的秩序感虽然带来了视觉上的愉悦，却也牺牲了自然的野趣。画中的鸟儿更像是一种装饰符号，而非有血有肉的生灵；花朵虽色彩艳丽，却缺乏生长的姿态。这是宫廷艺术的通病——为了追求完美的图案化，将自然万物驯化为僵硬的几何元素。"
+      ],
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.35,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-155074",
+      "source": "cma",
+      "sourceId": "155074",
+      "sourceUrl": "https://clevelandart.org/art/1989.85.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Flowers of a Hundred Worlds (Momoyogusa): God of Thunder (Raijin)",
+      "title_zh": "百花草：雷神",
+      "artist_en": "Kamisaka Sekka (Japanese, 1866–1942)",
+      "artist_zh": "神坂雪佳",
+      "artist_id": "kamisaka-sekka-japanese-1866-1942",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1866–1942",
+      "date_display": "1909",
+      "year": 1909,
+      "medium_zh": "纸本设色",
+      "dimensions": "Overall: 27.3 x 39.4 cm (10 3/4 x 15 1/2 in.)",
+      "movement_zh": "琳派",
+      "tags": [
+        "神怪",
+        "琳派",
+        "20世纪",
+        "日本",
+        "装饰画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1989.85.1/1989.85.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1989.85.1/1989.85.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1989.85.1/1989.85.1_web.jpg",
+        "ratio": 0.701
+      },
+      "palette": [
+        "#8d8a5c",
+        "#f1d89a"
+      ],
+      "essay": [
+        "神坂雪佳是明治至昭和初期琳派复兴的关键人物。这幅《百花草》中的雷神，创作于 1909 年，正值他在巴黎万国博览会大获成功之后。作品虽取材于传统神怪题材，却完全脱离了江户时代俵屋宗达或尾形光琳的古典范式，转而探索一种更具现代平面感的装饰风格。",
+        "画面最精彩处在于线条的韵律感。请看雷神身后那一大片如发丝般炸开的墨线，既表现雷声轰鸣的震动，又构成了极具张力的背景纹理。这种将具象动态抽象为纯粹线条的处理，是雪佳对琳派「たらしこみ」（垂染）技法的现代转译。",
+        "不过，这种极致的装饰性也牺牲了神性的威严。雪佳笔下的雷神绿肤獠牙，表情却近乎卡通化的滑稽，手中的雷鼓更像玩具而非神器。这种「去神圣化」的处理，让传统神怪变成了可供把玩的时尚图案，虽讨喜，却少了几分令人敬畏的压迫感。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    }
+  ]
+}
