@@ -2193,6 +2193,495 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1923.2490/1923.2490_web.jpg",
       "ratio": 1.474
+    },
+    {
+      "id": "met-437873",
+      "issue": "2026-08-16",
+      "t": "腓力四世",
+      "a": "迭戈·委拉斯开兹",
+      "aid": "velazquez-diego-rodriguez-de-silva-y-velazquez",
+      "y": 1624,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "皇室",
+        "油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP239023.jpg",
+      "ratio": 1.938
+    },
+    {
+      "id": "met-347906",
+      "issue": "2026-08-16",
+      "t": "天真之歌：小黑男孩",
+      "a": "威廉·布莱克",
+      "aid": "william-blake",
+      "y": 1807,
+      "mv": "浪漫主义",
+      "tags": [
+        "诗歌插图",
+        "宗教寓言",
+        "18世纪",
+        "英国",
+        "手工上色版画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816582.jpg",
+      "ratio": 1.122
+    },
+    {
+      "id": "met-436100",
+      "issue": "2026-08-16",
+      "t": "耶稣降生",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1480,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "耶稣降生",
+        "废墟"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26498-001.jpg",
+      "ratio": 1.297
+    },
+    {
+      "id": "cma-137598",
+      "issue": "2026-08-16",
+      "t": "拉蒂夫杀兄后诬陷胡尔希德（《鹦鹉故事》第三十二夜）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "16世纪",
+        "印度",
+        "细密画",
+        "莫卧儿",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.211.a/1962.279.211.a_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "met-437936",
+      "issue": "2026-08-16",
+      "t": "阿里阿德涅",
+      "a": "乔治·弗雷德里克·沃茨",
+      "aid": "george-frederic-watts",
+      "y": 1894,
+      "mv": "象征主义",
+      "tags": [
+        "神话",
+        "肖像",
+        "19世纪",
+        "英国",
+        "女性"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169627.jpg",
+      "ratio": 1.212
+    },
+    {
+      "id": "cma-137789",
+      "issue": "2026-08-16",
+      "t": "第四人挖掘落壳之处，期待珠宝却仅得铁块",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "16世纪",
+        "印度",
+        "寓言",
+        "手抄本插图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.302.b/1962.279.302.b_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-162857",
+      "issue": "2026-08-16",
+      "t": "克里希纳与牧牛女",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1660,
+      "mv": "拉贾斯坦细密画",
+      "tags": [
+        "印度教神话",
+        "克里希纳",
+        "17世纪",
+        "拉贾斯坦",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.343/2003.343_web.jpg",
+      "ratio": 1.278
+    },
+    {
+      "id": "cma-74625",
+      "issue": "2026-08-16",
+      "t": "巴黎十一区市政厅宴会厅装饰草图",
+      "a": "维克多·埃米尔·普鲁韦",
+      "aid": "victor-emile-prouve-french-1858-1943",
+      "y": 1897,
+      "mv": "新艺术运动",
+      "tags": [
+        "草图",
+        "人物",
+        "19世纪",
+        "法国",
+        "装饰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.453/2015.453_web.jpg",
+      "ratio": 0.7
+    },
+    {
+      "id": "cma-84858",
+      "issue": "2026-08-16",
+      "t": "桑丘·潘沙",
+      "a": "古斯塔夫·多雷",
+      "aid": "gustave-dore-french-1832-1883",
+      "y": 1863,
+      "mv": "学院派",
+      "tags": [
+        "文学插图",
+        "人物速写",
+        "19世纪",
+        "法国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.1066/2018.1066_web.jpg",
+      "ratio": 1.417
+    },
+    {
+      "id": "cma-314450",
+      "issue": "2026-08-16",
+      "t": "梅瓦尔的桑格拉姆·辛格二世在萨德里猎野猪与虎",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1720,
+      "mv": "拉杰普特细密画",
+      "tags": [
+        "狩猎",
+        "宫廷",
+        "18世纪",
+        "印度",
+        "拉杰普特"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.145/2018.145_web.jpg",
+      "ratio": 0.889
+    },
+    {
+      "id": "cma-314454",
+      "issue": "2026-08-16",
+      "t": "梅瓦尔的贾万·辛格大君持猎鹰像",
+      "a": "加西",
+      "aid": "ghasi-indian-active-c-1820-36",
+      "y": 1835,
+      "mv": "拉杰普特绘画",
+      "tags": [
+        "肖像",
+        "宫廷艺术",
+        "19世纪",
+        "印度",
+        "拉杰普特",
+        "狩猎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.149/2018.149_web.jpg",
+      "ratio": 1.278
+    },
+    {
+      "id": "cma-329339",
+      "issue": "2026-08-16",
+      "t": "卖鸟人",
+      "a": "威廉·范·米里斯",
+      "aid": "willem-van-mieris-dutch-1662-1747",
+      "y": 1705,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "市井生活",
+        "18世纪",
+        "荷兰",
+        "素描"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.10/2019.10_web.jpg",
+      "ratio": 1.164
+    },
+    {
+      "id": "cma-329347",
+      "issue": "2026-08-16",
+      "t": "伫立土丘上的马",
+      "a": "科内利斯·萨夫特莱文",
+      "aid": "cornelis-saftleven-dutch-1607-1681",
+      "y": 1655,
+      "mv": "巴洛克",
+      "tags": [
+        "动物画",
+        "素描",
+        "17世纪",
+        "荷兰黄金时代",
+        "写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.12/2019.12_web.jpg",
+      "ratio": 0.843
+    },
+    {
+      "id": "cma-302194",
+      "issue": "2026-08-16",
+      "t": "持怀表的男子肖像",
+      "a": "皮特·科内利兹·范·斯林格兰特",
+      "aid": "pieter-cornelisz-van-slingelandt-dutch",
+      "y": 1665,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "油画",
+        "黄金时代",
+        "怀表"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2017.105/2017.105_web.jpg",
+      "ratio": 1.282
+    },
+    {
+      "id": "cma-84852",
+      "issue": "2026-08-16",
+      "t": "修女",
+      "a": "佚名",
+      "aid": "anonymous",
+      "y": 1800,
+      "mv": "学院派",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "素描",
+        "群像",
+        "烛光"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.60/2019.60_web.jpg",
+      "ratio": 0.822
+    },
+    {
+      "id": "cma-74651",
+      "issue": "2026-08-16",
+      "t": "瓦朗斯年轻女子",
+      "a": "古斯塔夫·多雷",
+      "aid": "gustave-dore-french-1832-1883",
+      "y": 1862,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "素描",
+        "19世纪",
+        "法国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.64/2019.64_web.jpg",
+      "ratio": 1.38
+    },
+    {
+      "id": "met-435711",
+      "issue": "2026-08-16",
+      "t": "埃及农妇与她的孩子",
+      "a": "莱昂·博纳",
+      "aid": "leon-bonnat",
+      "y": 1869,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "东方主义",
+        "写实"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
+      "ratio": 1.838
+    },
+    {
+      "id": "cma-380076",
+      "issue": "2026-08-16",
+      "t": "里斯本葡萄牙王宫景观",
+      "a": "乔治·巴尔塔扎·普罗布斯特",
+      "aid": "george-balthazar-probst-german-1732-1801",
+      "y": 1783,
+      "mv": "洛可可",
+      "tags": [
+        "城市景观",
+        "建筑",
+        "18世纪",
+        "葡萄牙",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.161/2020.161_web.jpg",
+      "ratio": 0.673
+    },
+    {
+      "id": "cma-441213",
+      "issue": "2026-08-16",
+      "t": "男子侧面像",
+      "a": "西蒙·武埃",
+      "aid": "simon-vouet-french-1590-1649",
+      "y": 1632,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "法国",
+        "素描"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.133/2021.133_web.jpg",
+      "ratio": 1.271
+    },
+    {
+      "id": "cma-536434",
+      "issue": "2026-08-16",
+      "t": "珀尔修斯与安德洛墨达",
+      "a": "尼古拉-弗朗索瓦·希夫拉尔",
+      "aid": "nicolas-francois-chifflart-french-1825-1901",
+      "y": 1865,
+      "mv": "学院派",
+      "tags": [
+        "神话",
+        "蚀刻版画",
+        "19世纪",
+        "法国",
+        "英雄主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.18.10/2023.18.10_web.jpg",
+      "ratio": 1.531
+    },
+    {
+      "id": "cma-536428",
+      "issue": "2026-08-16",
+      "t": "正义、复仇与真理",
+      "a": "尼古拉-弗朗索瓦·希夫拉尔",
+      "aid": "nicolas-francois-chifflart-french-1825-1901",
+      "y": 1865,
+      "mv": "学院派",
+      "tags": [
+        "寓言",
+        "神话",
+        "19世纪",
+        "法国",
+        "蚀刻"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.18.4/2023.18.4_web.jpg",
+      "ratio": 0.653
+    },
+    {
+      "id": "cma-162745",
+      "issue": "2026-08-16",
+      "t": "小摩西·西摩",
+      "a": "拉尔夫·厄尔",
+      "aid": "ralph-earl-american-1751-1801",
+      "y": 1789,
+      "mv": "美国早期肖像",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "油画",
+        "殖民时期"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.285/2003.285_web.jpg",
+      "ratio": 1.355
+    },
+    {
+      "id": "met-437457",
+      "issue": "2026-08-16",
+      "t": "基督受洗",
+      "a": "塞巴斯蒂亚诺·里奇",
+      "aid": "sebastiano-ricci",
+      "y": 1713,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "油画",
+        "巴洛克",
+        "圣经故事"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9354.jpg",
+      "ratio": 0.65
+    },
+    {
+      "id": "cma-536431",
+      "issue": "2026-08-16",
+      "t": "沉思",
+      "a": "尼古拉-弗朗索瓦·希夫拉尔",
+      "aid": "nicolas-francois-chifflart-french-1825-1901",
+      "y": 1865,
+      "mv": "学院派",
+      "tags": [
+        "蚀刻版画",
+        "19世纪",
+        "法国",
+        "寓言",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.18.7/2023.18.7_web.jpg",
+      "ratio": 1.531
+    },
+    {
+      "id": "cma-681928",
+      "issue": "2026-08-16",
+      "t": "以萨迦",
+      "a": "雅各布·德·盖恩二世",
+      "aid": "jacob-de-gheyn-ii-netherlandish-1565-1629",
+      "y": 1589,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "圣经题材",
+        "铜版画",
+        "16世纪",
+        "尼德兰",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2024.145.5/2024.145.5_web.jpg",
+      "ratio": 1.389
+    },
+    {
+      "id": "met-436794",
+      "issue": "2026-08-16",
+      "t": "最后的审判",
+      "a": "约斯·范·克利夫",
+      "aid": "joos-van-cleve",
+      "y": 1525,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "荷兰",
+        "油画",
+        "北方文艺复兴",
+        "最后的审判"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26502-001.jpg",
+      "ratio": 1.292
+    },
+    {
+      "id": "cma-168979",
+      "issue": "2026-08-16",
+      "t": "伊索尔德",
+      "a": "奥布里·比亚兹莱",
+      "aid": "aubrey-beardsley-british-1872-1898",
+      "y": 1895,
+      "mv": "新艺术运动",
+      "tags": [
+        "版画",
+        "人物",
+        "19世纪",
+        "英国",
+        "插画",
+        "新艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.651/2010.651_web.jpg",
+      "ratio": 1.578
     }
   ]
 }

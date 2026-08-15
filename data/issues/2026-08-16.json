@@ -1,0 +1,1256 @@
+{
+  "v": 1,
+  "date": "2026-08-16",
+  "works": [
+    {
+      "id": "met-437873",
+      "source": "met",
+      "sourceId": "437873",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437873",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Philip IV (1605–1665), King of Spain",
+      "title_zh": "腓力四世",
+      "artist_en": "Velázquez (Diego Rodríguez de Silva y Velázquez)",
+      "artist_zh": "迭戈·委拉斯开兹",
+      "artist_id": "velazquez-diego-rodriguez-de-silva-y-velazquez",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1599–1660",
+      "date_display": "probably 1624",
+      "year": 1624,
+      "medium_zh": "布面油画",
+      "dimensions": "78 3/4 x 40 1/2 in. (200 x 102.9 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "皇室",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP239023.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP239023.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP239023.jpg",
+        "ratio": 1.938
+      },
+      "palette": [
+        "#1b1815",
+        "#382f24"
+      ],
+      "essay": [
+        "这是委拉斯开兹为腓力四世绘制的第一幅全身像，标志着这位宫廷画师与君主长达三十六年合作的开端。此时的画家年仅二十五岁，刚从塞维利亚来到马德里，试图在宫廷中站稳脚跟。这幅作品不仅确立了国王的官方形象，也展示了委拉斯开兹超越当时宫廷画匠的写实天赋。",
+        "画面最精彩之处在于对黑色的处理——国王通身黑衣，但委拉斯开兹利用光线的微妙变化，让天鹅绒、丝绸与金属呈现出截然不同的质感。请看领口与袖口的白色蕾丝，笔触轻盈松动，与厚重的大衣形成鲜明对比，这种虚实处理是画家成熟期技法的早期预演。",
+        "尽管力求写实，这幅画仍带有明显的理想化痕迹：二十五岁的腓力四世被描绘得比实际更为挺拔，面部轮廓经过修饰，掩盖了他著名的哈布斯堡下巴。这种'美化'是宫廷肖像的潜规则，委拉斯开兹在此后的创作中逐渐摆脱这种束缚，走向更冷峻的真实。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.18,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-347906",
+      "source": "met",
+      "sourceId": "347906",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/347906",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Songs of Innocence: The Little Black Boy",
+      "title_zh": "天真之歌：小黑男孩",
+      "artist_en": "William Blake",
+      "artist_zh": "威廉·布莱克",
+      "artist_id": "william-blake",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1757–1827",
+      "date_display": "[1789] printed ca. 1825",
+      "year": 1807,
+      "medium_zh": "凹版腐蚀制版法，橙棕色油墨印刷，水彩与贝壳金手绘上色",
+      "dimensions": "sheet: 6 3/16 x 5 9/16 in. (15.7 x 14.1 cm)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "诗歌插图",
+        "宗教寓言",
+        "18世纪",
+        "英国",
+        "手工上色版画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816582.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP816582.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816582.jpg",
+        "ratio": 1.122
+      },
+      "palette": [
+        "#e7dcc7",
+        "#c1af8f"
+      ],
+      "essay": [
+        "威廉·布莱克是英国浪漫主义先驱，也是艺术史上罕见的“诗画双修”者。他发明了独特的“凹版腐蚀制版法”，将诗歌文本与插图刻在同一块铜板上，使图文互为注脚。此作出自其代表作《天真之歌》，在他晚年重印并手绘上色，体现了他对灵性世界一贯的执着。",
+        "画面被一分为二：上方是叙事性插图，下方是装饰性文本。最值得玩味的是上方的场景——黑人母亲与孩子坐在树下，背景是初升的太阳。布莱克用极细的笔触勾勒树叶的脉络，并用贝壳金点缀阳光，这种材质在光线下会产生微弱的闪烁感，隐喻着神性的光辉。",
+        "然而，布莱克的视觉语言有时过于依赖文学性。若不看下方的诗句，单看上方插图，人物动态略显僵硬，像是一出舞台剧的定格，缺乏现实生活的呼吸感。这种“图解式”的构图虽服务于他的神秘主义哲学，却也牺牲了部分绘画的独立表现力。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.32,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-436100",
+      "source": "met",
+      "sourceId": "436100",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436100",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Nativity",
+      "title_zh": "耶稣降生",
+      "artist_en": "Gerard David",
+      "artist_zh": "赫拉德·大卫",
+      "artist_id": "gerard-david",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1460–1523",
+      "date_display": "early 1480s",
+      "year": 1480,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall 18 3/4 x 13 1/2 in. (47.6 x 34.3 cm), painted surface 18 1/2 x 13 3/8 in. (47 x 34 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "尼德兰",
+        "耶稣降生",
+        "废墟"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26498-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-26498-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26498-001.jpg",
+        "ratio": 1.297
+      },
+      "palette": [
+        "#726146",
+        "#2d2114"
+      ],
+      "essay": [
+        "赫拉德·大卫是布鲁日画派的最后一位大师，也是早期尼德兰绘画向文艺复兴过渡的关键人物。这幅作于 1480 年代早期的《耶稣降生》，是他职业生涯早期的代表作。此时的大卫深受扬·凡·艾克与罗吉尔·凡·德·韦登的影响，作品呈现出典型的北方哥特式风格：对细节的极致迷恋与对神圣氛围的冷静克制。",
+        "画面最耐人寻味的是背景中那座宏伟的古典废墟。透过残破的拱门，可以看到精细描绘的田园风光与远处的城市轮廓。这种将神圣事件置于古代遗迹之中的构图，是当时流行的神学隐喻——象征旧约律法的终结与新约时代的开启。废墟的石质肌理与远处柔和的空气透视，展示了画家卓越的空间构建能力。",
+        "然而，人物的情感表达略显僵硬。圣母与约瑟的姿态端庄得近乎刻板，缺乏后来文艺复兴绘画中那种自然流露的亲情互动。尤其是约瑟手中的蜡烛，火焰笔直向上，仿佛凝固在时间中，这种对物理真实的忽视，暴露了中世纪晚期绘画在追求象征意义时对自然观察的妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137598",
+      "source": "cma",
+      "sourceId": "137598",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.211.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Latif, who has murdered his brother, falsely accuses Khurshid of the deed, from a Tuti-nama (Tales of a Parrot): Thirty-second Night",
+      "title_zh": "拉蒂夫杀兄后诬陷胡尔希德（《鹦鹉故事》第三十二夜）",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 12.5 x 10.1 cm (4 15/16 x 4 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "16世纪",
+        "印度",
+        "细密画",
+        "莫卧儿",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.211.a/1962.279.211.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.211.a/1962.279.211.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.211.a/1962.279.211.a_web.jpg",
+        "ratio": 1.541
+      },
+      "palette": [
+        "#bfaf97",
+        "#9d8077"
+      ],
+      "essay": [
+        "这幅作品出自 16 世纪莫卧儿帝国早期的《鹦鹉故事》手抄本，代表了波斯细密画传统与印度本土审美融合的关键阶段。作为宫廷叙事画，它不追求宏大的历史场面，而是聚焦于充满戏剧张力的私密时刻，展现了当时画师在处理复杂人物关系与心理活动上的高超技艺。",
+        "画面采用典型的「剖视法」构图，将建筑切开以展示内部情节。最值得玩味的是右侧站立的男子（拉蒂夫），他一手抚须，姿态看似沉稳，眼神却游离于画面之外，这种肢体语言精准地外化了其内心的虚伪与算计。相比之下，屋内女子的惊恐与床上死者的静止形成了强烈的动静对比。",
+        "尽管叙事意图明确，但画师在空间透视的处理上仍显稚嫩。建筑屋顶的装饰纹样过于繁复，金箔的大量使用虽然彰显了宫廷的奢华，却在一定程度上削弱了谋杀现场应有的阴郁氛围。这种装饰性与叙事性的博弈，正是早期莫卧儿绘画尚未完全成熟的特征。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.55,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "met-437936",
+      "source": "met",
+      "sourceId": "437936",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437936",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Ariadne",
+      "title_zh": "阿里阿德涅",
+      "artist_en": "George Frederic Watts",
+      "artist_zh": "乔治·弗雷德里克·沃茨",
+      "artist_id": "george-frederic-watts",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1817–1904",
+      "date_display": "1894",
+      "year": 1894,
+      "medium_zh": "布面油画",
+      "dimensions": "24 x 20 in. (61 x 50.8 cm)",
+      "movement_zh": "象征主义",
+      "tags": [
+        "神话",
+        "肖像",
+        "19世纪",
+        "英国",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169627.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP169627.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169627.jpg",
+        "ratio": 1.212
+      },
+      "palette": [
+        "#462f1a",
+        "#6e522e"
+      ],
+      "essay": [
+        "沃茨是维多利亚时代英国象征主义绘画的核心人物，以宏大的寓言题材著称。这幅《阿里阿德涅》创作于他晚年，虽取材希腊神话，却剥离了叙事性，转而聚焦人物内心的孤独与等待，体现了画家从叙事向心理描写的转变。",
+        "画面最耐看的是衣褶的处理——尤其是那团厚重的赭红色长裙，笔触粗犷且充满雕塑感，与上半身细腻柔和的肌肤形成强烈质感对比。这种对物质重量的强调，让神话人物有了落地的实感，而非飘在空中的仙女。",
+        "但这幅画在情感传达上略显暧昧：阿里阿德涅被遗弃后的绝望，被处理成一种忧郁的沉思，缺乏戏剧张力。背景的山峦与前景的静物虽烘托了氛围，却未能真正推动情绪，使得整幅作品更像是一幅精美的装饰画，而非深刻的心理肖像。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137789",
+      "source": "cma",
+      "sourceId": "137789",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.302.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The fourth man digs at the spot where he dropped the shell, expecting jewels, but discovering mere iron, from a Tuti-nama (Tales of a Parrot): Forty-seventh Night",
+      "title_zh": "第四人挖掘落壳之处，期待珠宝却仅得铁块",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 9.6 x 10 cm (3 3/4 x 3 15/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "16世纪",
+        "印度",
+        "寓言",
+        "手抄本插图"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.302.b/1962.279.302.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.302.b/1962.279.302.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.302.b/1962.279.302.b_web.jpg",
+        "ratio": 1.538
+      },
+      "palette": [
+        "#c4af8f",
+        "#8f7b6d"
+      ],
+      "essay": [
+        "这幅作品出自 16 世纪莫卧儿宫廷的《鹦鹉故事七十则》（Tuti-nama）手抄本。作为阿克巴大帝早期的宫廷画作，它处于波斯细密画传统与印度本土审美在德里平原上的融合初期。此时画师尚未完全掌握后来那种极致的写实主义，画面仍保留着浓厚的装饰趣味与平面感，是研究莫卧儿绘画风格演变的关键样本。",
+        "画面最精彩处在于对岩石质感的处理。画师用层层晕染的紫色与石色堆叠出起伏的山峦，并在受光面点染细碎的金粉与白点，模拟矿石在阳光下的闪烁。这种非写实的肌理表现，配合前景中那株造型奇特的枯树，构建出一个既奇幻又充满童话色彩的寓言空间，而非真实的地理环境。",
+        "尽管色彩华丽，人物动态却略显僵硬。挥镐男子的肢体语言缺乏解剖学上的张力，仿佛只是被摆放在了风景之前，而非真正融入其中。这种「人景分离」是早期莫卧儿绘画的通病——画师精于描绘静止的物件与纹样，却尚未学会捕捉人体在剧烈运动中的重心变化与肌肉起伏。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-162857",
+      "source": "cma",
+      "sourceId": "162857",
+      "sourceUrl": "https://clevelandart.org/art/2003.343",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Krishna and Gopis",
+      "title_zh": "克里希纳与牧牛女",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1660",
+      "year": 1660,
+      "medium_zh": "纸本树胶蛋彩、墨水与金箔",
+      "dimensions": "with borders: 25 x 19.5 cm (9 13/16 x 7 11/16 in.); Painting only: 23.5 x 17.5 cm (9 1/4 x 6 7/8 in.)",
+      "movement_zh": "拉贾斯坦细密画",
+      "tags": [
+        "印度教神话",
+        "克里希纳",
+        "17世纪",
+        "拉贾斯坦",
+        "细密画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2003.343/2003.343_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2003.343/2003.343_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2003.343/2003.343_web.jpg",
+        "ratio": 1.278
+      },
+      "palette": [
+        "#c0ad7d",
+        "#927459"
+      ],
+      "essay": [
+        "这幅作品出自17世纪印度拉贾斯坦地区的细密画传统，描绘了印度教神祇克里希纳与牧牛女（Gopis）在自然中嬉戏的场景。这类画作通常作为宗教虔诚的视觉辅助，将神话叙事转化为色彩斑斓的宫廷审美。",
+        "画面采用典型的平面化构图，前景与背景通过色彩区块而非透视区分。最值得玩味的是右下角的局部：克里希纳与一位牧牛女在树洞中私密相会，画师用深红背景衬托人物，金箔点缀的树叶与衣饰在幽暗中闪烁，营造出一种既神圣又世俗的暧昧氛围。",
+        "尽管题材充满灵性，但人物的姿态与表情略显程式化，缺乏个体情感的深度刻画。这种重复的优雅姿态是拉贾斯坦画派的通病——为了追求装饰性的完美，往往牺牲了叙事的张力与真实感。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.78,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-74625",
+      "source": "cma",
+      "sourceId": "74625",
+      "sourceUrl": "https://clevelandart.org/art/2015.453",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Study for a Decoration for the Salle des Fêtes of the Town Hall of Paris's 11th arrondissement",
+      "title_zh": "巴黎十一区市政厅宴会厅装饰草图",
+      "artist_en": "Victor Emile Prouvé (French, 1858–1943)",
+      "artist_zh": "维克多·埃米尔·普鲁韦",
+      "artist_id": "victor-emile-prouve-french-1858-1943",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1858–1943",
+      "date_display": "1897",
+      "year": 1897,
+      "medium_zh": "米色纸上水彩与黑粉笔",
+      "dimensions": "Sheet: 45.9 x 64.5 cm (18 1/16 x 25 3/8 in.)",
+      "movement_zh": "新艺术运动",
+      "tags": [
+        "草图",
+        "人物",
+        "19世纪",
+        "法国",
+        "装饰艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.453/2015.453_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.453/2015.453_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.453/2015.453_web.jpg",
+        "ratio": 0.7
+      },
+      "palette": [
+        "#e1c29b",
+        "#cfad79"
+      ],
+      "essay": [
+        "普鲁韦是南锡画派的核心人物，也是新艺术运动在法国东部的重要推手。这幅作于 1897 年的水彩，是他为巴黎十一区市政厅宴会厅所作的大型装饰壁画预备稿。此时他已脱离学院派束缚，正致力于将绘画融入建筑空间，试图用流动的线条打破传统壁画的僵硬边框。",
+        "画面最精彩处在于线条的呼吸感——黑粉笔勾勒骨架，水彩渲染肌理。请看左侧女子裙摆的转折，几笔枯润相间的黄色扫过，布料的垂坠感与舞动的惯性瞬间立住。这种速写式的概括力，比完成稿更能显露画家对动态的敏锐捕捉。",
+        "作为装饰草图，它难免带有某种程式化的甜美。三位女子的面容模糊且雷同，缺乏个体特征，仿佛只是为了填充构图的符号。这种为了整体和谐而牺牲人物个性的做法，是当时公共装饰艺术的通病，也是普鲁韦未能完全摆脱的匠气。",
+        "但这并不妨碍它成为一份优秀的视觉笔记。它记录了画家在宏大工程前的思考轨迹：如何用有限的色彩（仅黄与黑灰）在米色底纸上营造出金色的辉煌感，这正是后来新艺术风格中常见的视觉策略。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-84858",
+      "source": "cma",
+      "sourceId": "84858",
+      "sourceUrl": "https://clevelandart.org/art/2018.1066",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sancho Panza",
+      "title_zh": "桑丘·潘沙",
+      "artist_en": "Gustave Doré (French, 1832–1883)",
+      "artist_zh": "古斯塔夫·多雷",
+      "artist_id": "gustave-dore-french-1832-1883",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "c. 1863",
+      "year": 1863,
+      "medium_zh": "纸上钢笔与墨水",
+      "dimensions": "Sheet: 14.4 x 10.5 cm (5 11/16 x 4 1/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "文学插图",
+        "人物速写",
+        "19世纪",
+        "法国"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2018.1066/2018.1066_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2018.1066/2018.1066_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2018.1066/2018.1066_web.jpg",
+        "ratio": 1.417
+      },
+      "palette": [
+        "#d7ccc1",
+        "#b8aa9e"
+      ],
+      "essay": [
+        "多雷是 19 世纪最成功的商业插画家，其《堂吉诃德》插图定义了后世对塞万提斯笔下人物的视觉想象。这幅作于 1863 年左右的速写，并非最终出版的精细版画，而是创作初期的构思草稿。它展示了多雷在将文学形象转化为视觉符号时的原始冲动，比成品更具现场感。",
+        "画面捕捉了桑丘侧身回望的瞬间，多雷用极少的线条就确立了人物的体积感。请看帽檐下那张粗糙的脸——密集的排线刻画出胡茬的质感，而帽顶那根夸张的羽毛则用流畅的长线条一笔带过。这种疏密对比，让观者的视线自然聚焦于人物惊愕或疑惑的神情上。",
+        "作为插图底稿，它的完成度显然不如后来的钢版画严谨，衣褶的处理略显随意，甚至带有未加修饰的潦草感。但也正是这种‘未完成’的状态，保留了多雷手腕运动的速度与力度，呈现出大师在落笔瞬间的果断，而非后期刻刀下的精雕细琢。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.38,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-314450",
+      "source": "cma",
+      "sourceId": "314450",
+      "sourceUrl": "https://clevelandart.org/art/2018.145",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Maharana Sangram Singh II of Mewar (r. 1710–34) and Stages a Boar Hunt with Tigers at Sadri",
+      "title_zh": "梅瓦尔的桑格拉姆·辛格二世在萨德里猎野猪与虎",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1720",
+      "year": 1720,
+      "medium_zh": "纸本树胶蛋彩、墨与金",
+      "dimensions": "Painting: 48.3 x 53.4 cm (19 x 21 in.)",
+      "movement_zh": "拉杰普特细密画",
+      "tags": [
+        "狩猎",
+        "宫廷",
+        "18世纪",
+        "印度",
+        "拉杰普特"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2018.145/2018.145_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2018.145/2018.145_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2018.145/2018.145_web.jpg",
+        "ratio": 0.889
+      },
+      "palette": [
+        "#925c45",
+        "#ac9478"
+      ],
+      "essay": [
+        "这幅作品出自18世纪初的拉杰普特宫廷画派，是典型的「狩猎图」体裁。它并非为了记录真实的狩猎过程，而是为了展示王公的权威与对自然的征服。画面采用俯瞰视角，将复杂的狩猎场面压缩在二维平面上，这种全景式构图是当时梅瓦尔画派的标志性语言。",
+        "画面中央的猎场被处理成一块平整的色块，老虎与野猪在其中奔跑、撕咬。最值得玩味的是右下角的局部：王公坐在高台上，身形比例明显大于周围的侍从与舞者。这种「等级透视」并非技法缺陷，而是刻意为之的视觉修辞——地位越高，画得越大。",
+        "尽管画面充满了动态的野兽与人群，但整体氛围却显得异常秩序井然。动物们像是在排练一场戏剧，而非进行生死搏斗；围观的人群排列整齐，甚至带着某种庆典般的欢愉。这种将血腥狩猎「舞台化」的处理，暴露了宫廷艺术对现实暴力的美化与粉饰。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.62,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-314454",
+      "source": "cma",
+      "sourceId": "314454",
+      "sourceUrl": "https://clevelandart.org/art/2018.149",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Maharana Jawan Singh of Mewar (r. 1828–38) Holding a Falcon",
+      "title_zh": "梅瓦尔的贾万·辛格大君持猎鹰像",
+      "artist_en": "Ghasi (Indian, active c. 1820–36)",
+      "artist_zh": "加西",
+      "artist_id": "ghasi-indian-active-c-1820-36",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于约 1820–1836 年",
+      "date_display": "c. 1835",
+      "year": 1835,
+      "medium_zh": "纸本树胶蛋彩、珍珠、丝绸与金",
+      "dimensions": "Page: 31.2 x 23.9 cm (12 5/16 x 9 7/16 in.); Painting: 21.6 x 13.8 cm (8 1/2 x 5 7/16 in.)",
+      "movement_zh": "拉杰普特绘画",
+      "tags": [
+        "肖像",
+        "宫廷艺术",
+        "19世纪",
+        "印度",
+        "拉杰普特",
+        "狩猎"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2018.149/2018.149_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2018.149/2018.149_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2018.149/2018.149_web.jpg",
+        "ratio": 1.278
+      },
+      "palette": [
+        "#c59895",
+        "#785742"
+      ],
+      "essay": [
+        "加西是 19 世纪早期梅瓦尔宫廷的首席画师，这幅作品代表了拉杰普特绘画在莫卧儿写实主义影响下的晚期风格。作为贾万·辛格大君的官方肖像，它既是个人记录，也是王权与贵族狩猎传统的视觉宣言。",
+        "画面最精彩处在于大君颈部的珍珠项链与猎鹰的羽毛处理。加西用极细的笔触勾勒每一颗珍珠的高光，并在猎鹰翅膀上运用留白与淡墨渲染出绒羽的质感。这种对材质微观纹理的执着，是拉杰普特细密画区别于其他东方绘画的显著特征。",
+        "尽管画家极力铺陈奢华，大君的面部却显得过于程式化——侧脸轮廓与胡须样式几乎套用了同一模板，缺乏对人物个性的深入挖掘。这种‘千人一面’的处理，暴露了宫廷画师在迎合君主审美时的局限：重装饰而轻神韵。",
+        "背景中深蓝色的夜空与前景繁茂的植被形成了强烈的平面装饰感，这种非自然主义的空间处理，反而强化了画面的仪式感，让观者聚焦于人物本身的威仪。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.42,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-329339",
+      "source": "cma",
+      "sourceId": "329339",
+      "sourceUrl": "https://clevelandart.org/art/2019.10",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Bird Seller",
+      "title_zh": "卖鸟人",
+      "artist_en": "Willem van Mieris (Dutch, 1662–1747)",
+      "artist_zh": "威廉·范·米里斯",
+      "artist_id": "willem-van-mieris-dutch-1662-1747",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1662–1747",
+      "date_display": "c. 1700–1710",
+      "year": 1705,
+      "medium_zh": "蓝纸黑白粉笔素描",
+      "dimensions": "Sheet: 36.4 x 28.9 cm (14 5/16 x 11 3/8 in.); Matted: 41 x 31.8 x 0.3 cm (16 1/8 x 12 1/2 x 1/8 in.); Image: 26 x 22.3 cm (10 1/4 x 8 3/4 in.)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "市井生活",
+        "18世纪",
+        "荷兰",
+        "素描"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2019.10/2019.10_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2019.10/2019.10_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2019.10/2019.10_web.jpg",
+        "ratio": 1.164
+      },
+      "palette": [
+        "#636762",
+        "#8e8f87"
+      ],
+      "essay": [
+        "威廉·范·米里斯是莱顿精细画派的代表人物，继承了父亲杰拉德·范·米里斯的衣钵。这幅约作于 1700 至 1710 年的素描，展示了他在油画之外驾驭粉笔画的高超能力。作为荷兰黄金时代晚期的风俗画，它记录了当时市井交易的生动瞬间，是研究当时社会风貌的珍贵视觉档案。",
+        "画面最精彩之处在于对质感与光线的微妙处理。注意左上角垂下的布幔，粉笔在蓝纸上的排线既表现了织物的厚重褶皱，又通过留白暗示了高光的流动。这种在单色介质中营造丰富层次的手法，显示了画家对光影极其敏锐的捕捉力。",
+        "尽管技法纯熟，但这幅作品仍带有明显的“舞台感”。人物衣着整洁光鲜，交易场景被安排得如同剧场布景，缺乏真实市集的嘈杂与混乱。这种将底层生活美化、精致化的倾向，是当时迎合中产阶级收藏趣味的典型做法，削弱了题材原本的粗粝生命力。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.25,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-329347",
+      "source": "cma",
+      "sourceId": "329347",
+      "sourceUrl": "https://clevelandart.org/art/2019.12",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Horse Standing on a Mound",
+      "title_zh": "伫立土丘上的马",
+      "artist_en": "Cornelis Saftleven (Dutch, 1607–1681)",
+      "artist_zh": "科内利斯·萨夫特莱文",
+      "artist_id": "cornelis-saftleven-dutch-1607-1681",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1607–1681",
+      "date_display": "1655",
+      "year": 1655,
+      "medium_zh": "纸上石墨、红粉笔及多色水彩",
+      "dimensions": "Matted: 19.8 x 26.8 x 0.3 cm (7 13/16 x 10 9/16 x 1/8 in.); Image: 14.1 x 17 cm (5 9/16 x 6 11/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "动物画",
+        "素描",
+        "17世纪",
+        "荷兰黄金时代",
+        "写生"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2019.12/2019.12_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2019.12/2019.12_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2019.12/2019.12_web.jpg",
+        "ratio": 0.843
+      },
+      "palette": [
+        "#e9dfd0",
+        "#c8b9a7"
+      ],
+      "essay": [
+        "萨夫特莱文是 17 世纪荷兰画坛的多面手，以动物题材和怪诞讽刺画著称。这幅作于 1655 年的素描，处于他风格成熟的中年时期。不同于当时流行的宏大历史画，这类对牲畜的精准速写，反映了荷兰黄金时代对自然观察的务实精神，也是画家作为鲁本斯同代人的侧面印证。",
+        "画面最精彩处在于马匹臀部与尾巴的衔接。萨夫特莱文用红粉笔铺出肌肉的暖色体积，随即以灰黑水彩快速扫出鬃毛的蓬松感。这种干湿结合的技法，让马匹看似静止，却有一种随时会甩动尾巴的张力。缰绳末端的留白处理，暗示了微风中的轻微晃动。",
+        "尽管解剖结构准确，但这匹马的姿态略显僵硬，像是一个被摆拍的模特而非野外生灵。画家过于追求轮廓的完整性，牺牲了动物在自然状态下的松弛感。这种“标本式”的精准，是当时许多北方画家在脱离工作室写生时的通病。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-302194",
+      "source": "cma",
+      "sourceId": "302194",
+      "sourceUrl": "https://clevelandart.org/art/2017.105",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of a Man Holding a Watch",
+      "title_zh": "持怀表的男子肖像",
+      "artist_en": "Pieter Cornelisz van Slingelandt (Dutch)",
+      "artist_zh": "皮特·科内利兹·范·斯林格兰特",
+      "artist_id": "pieter-cornelisz-van-slingelandt-dutch",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1640–1691",
+      "date_display": "c. 1665–70",
+      "year": 1665,
+      "medium_zh": "木板油画",
+      "dimensions": "8.9 x 7 cm (3 1/2 x 2 3/4 in.)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "油画",
+        "黄金时代",
+        "怀表"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2017.105/2017.105_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2017.105/2017.105_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2017.105/2017.105_web.jpg",
+        "ratio": 1.282
+      },
+      "palette": [
+        "#261918",
+        "#857b75"
+      ],
+      "essay": [
+        "斯林格兰特是莱顿精细画派（Fijnschilders）的代表人物，以极度细腻的笔触和光滑如瓷的质感著称。这幅作于 1665 至 1670 年间的微型肖像，典型地展示了该流派在方寸之间追求极致写实的野心。",
+        "画面最精彩处在于那只持表的手——你可以看到指关节处微红的肤色过渡，以及指甲盖受光后的半透明质感。怀表边缘的金属光泽与深红丝绒长袍的哑光形成强烈对比，这种对物质属性的精准区分，是当时荷兰画家的拿手好戏。",
+        "尽管技法无可挑剔，人物神情却略显僵硬。那双直视观众的眼睛缺乏神采，仿佛模特在长时间保持姿势后已感到疲惫。这种‘完美的空洞’是精细画派的通病：为了追求表面的极致光滑，往往牺牲了人物的内在生命力。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.72,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-84852",
+      "source": "cma",
+      "sourceId": "84852",
+      "sourceUrl": "https://clevelandart.org/art/2019.60",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Nuns",
+      "title_zh": "修女",
+      "artist_en": "Anonymous",
+      "artist_zh": "佚名",
+      "artist_id": "anonymous",
+      "artist_nationality_zh": "不详",
+      "artist_years": "不详",
+      "date_display": "mid-1800s",
+      "year": 1800,
+      "medium_zh": "灰色纸上黑白粉笔",
+      "dimensions": "Sheet: 18.8 x 21.2 cm (7 3/8 x 8 3/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "素描",
+        "群像",
+        "烛光"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2019.60/2019.60_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2019.60/2019.60_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2019.60/2019.60_web.jpg",
+        "ratio": 0.822
+      },
+      "palette": [
+        "#b5a58b",
+        "#4b453f"
+      ],
+      "essay": [
+        "这幅 19 世纪中期的素描出自佚名画家之手，技法却显露出学院派的严谨训练。在摄影术日益普及的年代，这类精细的粉笔画仍坚持用传统手工去捕捉光影的微妙变化，试图在纸面上重现一种近乎舞台剧般的戏剧性氛围。",
+        "画面最精彩处在于烛光的处理——注意中央少女脸庞上那抹柔和的高光，与周围修女深暗头巾形成的强烈反差。粉笔在粗糙纸面上留下的颗粒感，恰好模拟了烛光摇曳时的朦胧与温暖，让暗部不至于死黑，保留了丰富的层次。",
+        "然而，这种精心编排的虔诚场景难免显得刻意。修女们的表情过于统一地沉浸在冥想中，缺乏真实人群应有的细微差异；尤其是中央那位未被头巾完全遮盖的少女，其理想化的面容更像是一位被安排入画的模特，而非真正的修道者。",
+        "尽管如此，画家对光线与质感的掌控仍值得肯定。在有限的尺幅内，他成功营造出一种静谧而庄重的宗教仪式感，让观者仿佛能听见修道院中低沉的祈祷声。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.42,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-74651",
+      "source": "cma",
+      "sourceId": "74651",
+      "sourceUrl": "https://clevelandart.org/art/2019.64",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Young Woman from Valence",
+      "title_zh": "瓦朗斯年轻女子",
+      "artist_en": "Gustave Doré (French, 1832–1883)",
+      "artist_zh": "古斯塔夫·多雷",
+      "artist_id": "gustave-dore-french-1832-1883",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "c. 1862",
+      "year": 1862,
+      "medium_zh": "纸上棕墨、石墨、擦笔及白粉",
+      "dimensions": "Sheet: 28.7 x 22.1 cm (11 5/16 x 8 11/16 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "肖像",
+        "素描",
+        "19世纪",
+        "法国"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2019.64/2019.64_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2019.64/2019.64_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2019.64/2019.64_web.jpg",
+        "ratio": 1.38
+      },
+      "palette": [
+        "#c2a786",
+        "#a37e5d"
+      ],
+      "essay": [
+        "多雷以宏大的圣经与文学插图闻名，但这幅约 1862 年的习作展示了他作为学院派画家的扎实功底。此时他正值三十岁，处于职业生涯的成熟期，这类速写往往是为大型创作积累的人物素材，或是单纯的写生练习。",
+        "画面最精彩处在于对光影的概括处理。女子侧脸的轮廓线肯定而流畅，耳垂上那一点留白的高光，暗示了珍珠耳环的质感。衣褶的处理极为老练，几笔浓重的棕墨扫出阴影，配合擦笔制造的柔和过渡，布料的体积感跃然纸上。",
+        "背景中那个模糊的男性头像草稿显得多余且干扰视线，破坏了前景女子的完整性。这种“画中画”式的构图在正式作品中很少见，暴露了这是一张未经修饰的练习稿。多雷似乎更在意捕捉瞬间的动态，而非构图的完美平衡。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-435711",
+      "source": "met",
+      "sourceId": "435711",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435711",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "An Egyptian Peasant Woman and Her Child",
+      "title_zh": "埃及农妇与她的孩子",
+      "artist_en": "Léon Bonnat",
+      "artist_zh": "莱昂·博纳",
+      "artist_id": "leon-bonnat",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1833–1922",
+      "date_display": "1869–70",
+      "year": 1869,
+      "medium_zh": "布面油画",
+      "dimensions": "73 1/2 x 41 1/2 in. (186.7 x 105.4 cm)",
+      "movement_zh": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "东方主义",
+        "写实"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT234058.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
+        "ratio": 1.838
+      },
+      "palette": [
+        "#83765c",
+        "#2f3027"
+      ],
+      "essay": [
+        "莱昂·博纳是 19 世纪法国学院派的中坚力量，以严谨的素描功底和肖像画闻名。这幅作于 1869 至 1870 年的巨幅油画，诞生于他游历东方之后。在摄影术日益普及的年代，博纳试图用古典主义的庄重构图来记录异域风情，将一位普通的埃及母亲提升到了纪念碑式的高度。",
+        "画面最耐看的是母子肌肤的质感处理。博纳用极细腻的晕涂法，让母亲闭目时眼皮的厚度、孩子熟睡时松弛的脚掌都显得触手可及。尤其是母亲颈部的蓝绿色珠串与胸前垂下的红流苏，在深黑长袍的衬托下，成为了画面中仅有的色彩跳跃，引导视线聚焦于母爱的核心区域。",
+        "但这幅画并非纯粹的写实记录。标题虽称“农妇”，人物却拥有雕塑般完美的五官和毫无劳作痕迹的肌肤，这种理想化的美化是当时东方主义绘画的通病。画家借用了异域题材，实则是在展示法国学院派对人体结构和古典美的掌控力，真实的埃及生活被过滤成了符合巴黎沙龙审美的景观。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.38,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-380076",
+      "source": "cma",
+      "sourceId": "380076",
+      "sourceUrl": "https://clevelandart.org/art/2020.161",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Vista y Prospettiva del Palacio del Rey de Portugal en Lisbona",
+      "title_zh": "里斯本葡萄牙王宫景观",
+      "artist_en": "George Balthazar Probst (German, 1732–1801)",
+      "artist_zh": "乔治·巴尔塔扎·普罗布斯特",
+      "artist_id": "george-balthazar-probst-german-1732-1801",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1732–1801",
+      "date_display": "c. 1766–1801",
+      "year": 1783,
+      "medium_zh": "蚀刻版画与雕刻版画，手工上色",
+      "dimensions": "Image and Sheet: 29.6 x 45.2 cm (11 5/8 x 17 13/16 in.)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "城市景观",
+        "建筑",
+        "18世纪",
+        "葡萄牙",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2020.161/2020.161_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2020.161/2020.161_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2020.161/2020.161_web.jpg",
+        "ratio": 0.673
+      },
+      "palette": [
+        "#b9b2a3",
+        "#7e756a"
+      ],
+      "essay": [
+        "普罗布斯特是 18 世纪德国版画家，以描绘欧洲城市景观闻名。这幅作品创作于 1766 至 1801 年间，展现了里斯本葡萄牙王宫的宏伟景象。作为洛可可时期的代表作，它体现了当时对建筑细节和透视法的极致追求。",
+        "画面中，王宫建筑群占据了主导地位，其圆顶和塔楼在天空中显得格外醒目。手工上色的细腻笔触赋予了建筑丰富的色彩层次，尤其是红色屋顶与白色墙面的对比。前景中的人群和马车增添了生活气息，而远处的船只则暗示了里斯本作为港口城市的繁荣。",
+        "然而，这幅作品并非完全写实。王宫的规模和装饰被适度理想化，以突出其皇家气派。此外，手工上色的不均匀性也暴露了版画制作的局限性——某些区域的色彩略显生硬，缺乏自然过渡。这种艺术加工与现实之间的矛盾，正是 18 世纪城市景观版画的典型特征。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.4,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-441213",
+      "source": "cma",
+      "sourceId": "441213",
+      "sourceUrl": "https://clevelandart.org/art/2021.133",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of a man in profile, turned to the left",
+      "title_zh": "男子侧面像",
+      "artist_en": "Simon Vouet (French, 1590–1649)",
+      "artist_zh": "西蒙·武埃",
+      "artist_id": "simon-vouet-french-1590-1649",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1590–1649",
+      "date_display": "1632–34",
+      "year": 1632,
+      "medium_zh": "纸上粉彩与炭笔",
+      "dimensions": "Image: 27.5 x 20.8 cm (10 13/16 x 8 3/16 in.); Sheet: 49.4 x 38.6 cm (19 7/16 x 15 3/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "法国",
+        "素描"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2021.133/2021.133_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2021.133/2021.133_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2021.133/2021.133_web.jpg",
+        "ratio": 1.271
+      },
+      "palette": [
+        "#b8ac97",
+        "#5e5548"
+      ],
+      "essay": [
+        "西蒙·武埃是路易十三时期的首席宫廷画家，早年旅居罗马，将卡拉瓦乔式的戏剧光影带回法国。这幅作于 1630 年代初期的粉彩肖像，处于他从意大利巴洛克向法国古典主义过渡的阶段，展示了他在素描领域的高超造诣。",
+        "画面最精彩处在于面部的色彩处理——武埃用红、粉两色粉笔在骨与眼睑处轻扫，模拟出皮肤下的血色与体温。这种对气色的捕捉，比单纯的黑白素描多了一层生命的质感，使人物显得栩栩如生。",
+        "作为宫廷画师，武埃笔下的男子总带着一种程式化的优雅。画中人的眼神略显空洞，姿态也过于端庄，少了几分市井人物的粗粝感。这种美化是当时贵族肖像的通病，却也是其时代特征，反映了当时社会对理想化形象的追求。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.38,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-536434",
+      "source": "cma",
+      "sourceId": "536434",
+      "sourceUrl": "https://clevelandart.org/art/2023.18.10",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Perseus and Andromeda",
+      "title_zh": "珀尔修斯与安德洛墨达",
+      "artist_en": "Nicolas-François Chifflart (French, 1825–1901)",
+      "artist_zh": "尼古拉-弗朗索瓦·希夫拉尔",
+      "artist_id": "nicolas-francois-chifflart-french-1825-1901",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1825–1901",
+      "date_display": "1865",
+      "year": 1865,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Image: 30.4 x 22.8 cm (11 15/16 x 9 in.); Plate: 31.5 x 23.5 cm (12 3/8 x 9 1/4 in.); Sheet: 57.4 x 37 cm (22 5/8 x 14 9/16 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "神话",
+        "蚀刻版画",
+        "19世纪",
+        "法国",
+        "英雄主义"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2023.18.10/2023.18.10_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2023.18.10/2023.18.10_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2023.18.10/2023.18.10_web.jpg",
+        "ratio": 1.531
+      },
+      "palette": [
+        "#cfc6b4",
+        "#9b9285"
+      ],
+      "essay": [
+        "希夫拉尔是 19 世纪法国学院派版画的重要人物，以精湛的蚀刻技艺闻名。这幅 1865 年的作品取材于希腊神话，描绘了英雄珀尔修斯斩杀海怪、解救安德洛墨达的瞬间。在摄影术兴起的年代，希夫拉尔坚持用繁复的线条构建戏剧性场景，试图在黑白世界中延续古典叙事的辉煌。",
+        "画面左侧的动感处理极具张力：珀尔修斯骑在飞马上，身体前倾，剑锋直指海怪。请注意飞马前蹄下那团翻涌的水花与海怪粗糙的鳞片——希夫拉尔利用密集的排线（hatching）制造出强烈的明暗对比，让怪物的质感显得狰狞可怖，与右侧安德洛墨达光滑细腻的肌肤形成鲜明反差。",
+        "然而，这种反差也暴露了学院派的通病：过度理想化。安德洛墨达被锁在礁石上等待献祭，姿态却像刚做完热身运动的体操运动员，肌肉线条饱满且充满力量感，完全不见受惊或虚弱的迹象。这种为了展示人体解剖学而牺牲叙事真实性的做法，让神话故事看起来更像是一场精心编排的舞台剧。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-536428",
+      "source": "cma",
+      "sourceId": "536428",
+      "sourceUrl": "https://clevelandart.org/art/2023.18.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Justice, Vengence, and Truth",
+      "title_zh": "正义、复仇与真理",
+      "artist_en": "Nicolas-François Chifflart (French, 1825–1901)",
+      "artist_zh": "尼古拉-弗朗索瓦·希夫拉尔",
+      "artist_id": "nicolas-francois-chifflart-french-1825-1901",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1825–1901",
+      "date_display": "1865",
+      "year": 1865,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Image: 23.6 x 31.1 cm (9 5/16 x 12 1/4 in.); Plate: 23.9 x 31.7 cm (9 7/16 x 12 1/2 in.); Sheet: 37.1 x 57.4 cm (14 5/8 x 22 5/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "寓言",
+        "神话",
+        "19世纪",
+        "法国",
+        "蚀刻"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2023.18.4/2023.18.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2023.18.4/2023.18.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2023.18.4/2023.18.4_web.jpg",
+        "ratio": 0.653
+      },
+      "palette": [
+        "#d2c6b4",
+        "#aca191"
+      ],
+      "essay": [
+        "希夫拉尔是 19 世纪法国学院派版画的代表人物，以精湛的蚀刻技法著称。这幅作于 1865 年的作品，典型地体现了当时学院派对宏大叙事与古典寓言的迷恋。画面试图将抽象的道德概念具象化，这种将正义、复仇与真理拟人化的处理，是当时历史画创作中的常见母题。",
+        "画面最精彩之处在于上方三位女神的动势处理。希夫拉尔利用蚀刻针在铜版上刻出的细密排线，精准地塑造了衣褶在空中的翻卷感。特别是左侧女神高举的手臂与飘扬的披风，线条流畅且充满张力，与下方纠缠扭打的人群形成了鲜明的动静对比。",
+        "然而，这种宏大的构图也暴露了学院派的通病：概念先行。为了塞进三个抽象概念，画面显得拥挤且略显做作。下方受难者的姿态过于戏剧化，甚至带有一丝舞台表演的痕迹，削弱了悲剧应有的沉重感。这种为了展示技法而牺牲叙事自然性的做法，是当时许多学院派作品的硬伤。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-162745",
+      "source": "cma",
+      "sourceId": "162745",
+      "sourceUrl": "https://clevelandart.org/art/2003.285",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Moses Seymour Jr.",
+      "title_zh": "小摩西·西摩",
+      "artist_en": "Ralph Earl (American, 1751–1801)",
+      "artist_zh": "拉尔夫·厄尔",
+      "artist_id": "ralph-earl-american-1751-1801",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1751–1801",
+      "date_display": "1789",
+      "year": 1789,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 139.4 x 108.6 x 5.2 cm (54 7/8 x 42 3/4 x 2 1/16 in.); Unframed: 120.7 x 90.2 cm (47 1/2 x 35 1/2 in.)",
+      "movement_zh": "美国早期肖像",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "油画",
+        "殖民时期"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2003.285/2003.285_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2003.285/2003.285_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2003.285/2003.285_web.jpg",
+        "ratio": 1.355
+      },
+      "palette": [
+        "#2b281d",
+        "#84795d"
+      ],
+      "essay": [
+        "拉尔夫·厄尔是美国早期肖像画的重要代表，活跃于独立战争前后。这幅作于 1789 年的《小摩西·西摩》处于他职业生涯的成熟期，展现了当时美国新兴精英阶层的审美趣味。",
+        "画面最精彩之处在于人物面部与手部的处理。厄尔用细腻的笔触描绘了西摩白皙的皮肤和精致的五官，尤其是那双握着书本和手杖的手，显得优雅而自信。背景中的风景虽然略显平面化，但为画面增添了深度。",
+        "尽管厄尔在人物刻画上表现出色，但整体构图略显僵硬，尤其是人物的姿态和背景的融合不够自然。这种风格反映了当时美国肖像画的局限性，但也正是这种质朴的风格，使其具有独特的时代感。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "met-437457",
+      "source": "met",
+      "sourceId": "437457",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437457",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Baptism of Christ",
+      "title_zh": "基督受洗",
+      "artist_en": "Sebastiano Ricci",
+      "artist_zh": "塞巴斯蒂亚诺·里奇",
+      "artist_id": "sebastiano-ricci",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1659–1734",
+      "date_display": "ca. 1713–14",
+      "year": 1713,
+      "medium_zh": "布面油画",
+      "dimensions": "26 x 40 in. (66 x 101.6 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "油画",
+        "巴洛克",
+        "圣经故事"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9354.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT9354.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9354.jpg",
+        "ratio": 0.65
+      },
+      "palette": [
+        "#907557",
+        "#513d2b"
+      ],
+      "essay": [
+        "塞巴斯蒂亚诺·里奇是威尼斯画派晚期巴洛克的关键人物，以宏大的构图和明亮的色彩著称。这幅《基督受洗》创作于 1713-14 年，正值他艺术生涯的成熟期，展现了他在处理复杂宗教题材时的卓越能力。",
+        "画面中央，施洗者约翰正为基督施洗，周围环绕着众多人物和天使。里奇巧妙地运用了光线和色彩，使画面充满动感和戏剧性。特别是前景中的人物姿态各异，细节丰富，展现了画家对人物动态的精准把握。",
+        "尽管里奇在构图和色彩上表现出色，但画面中的人物表情略显程式化，缺乏深度。这种理想化的处理方式，虽然符合当时巴洛克艺术的审美标准，但也使得作品在情感表达上略显不足。",
+        "总体而言，这幅作品是里奇艺术风格的典型代表，展现了他在巴洛克艺术中的独特地位。尽管存在一些局限，但其精湛的技艺和宏大的气势仍令人印象深刻。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.6,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-536431",
+      "source": "cma",
+      "sourceId": "536431",
+      "sourceUrl": "https://clevelandart.org/art/2023.18.7",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Meditation",
+      "title_zh": "沉思",
+      "artist_en": "Nicolas-François Chifflart (French, 1825–1901)",
+      "artist_zh": "尼古拉-弗朗索瓦·希夫拉尔",
+      "artist_id": "nicolas-francois-chifflart-french-1825-1901",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1825–1901",
+      "date_display": "1865",
+      "year": 1865,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Image: 31.4 x 23.1 cm (12 3/8 x 9 1/8 in.); Plate: 31.7 x 23.5 cm (12 1/2 x 9 1/4 in.); Sheet: 57.2 x 37 cm (22 1/2 x 14 9/16 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "蚀刻版画",
+        "19世纪",
+        "法国",
+        "寓言",
+        "人物"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2023.18.7/2023.18.7_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2023.18.7/2023.18.7_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2023.18.7/2023.18.7_web.jpg",
+        "ratio": 1.531
+      },
+      "palette": [
+        "#d1c8b6",
+        "#8e877c"
+      ],
+      "essay": [
+        "希夫拉尔是 19 世纪法国学院派版画的代表人物，以精湛的蚀刻技法闻名。这幅作于 1865 年的《沉思》处于他创作成熟期，展现了当时学院派对古典题材与严谨造型的推崇。作品通过复杂的构图和细腻的线条，体现了艺术家对传统技法的掌握。",
+        "画面中心的裸体男子肌肉线条分明，姿态充满张力。蚀刻的排线在暗部极其密集，营造出深沉的阴影，与受光面形成强烈对比。这种对光影的戏剧化处理，突出了人物内心的挣扎与沉思。细节处的纹理处理尤为精细，显示出艺术家的高超技艺。",
+        "尽管技法无可挑剔，但人物的姿态略显刻意，仿佛是为了展示解剖学知识而摆出的造型。背景中模糊的人物与景物虽然增加了画面的叙事性，却显得有些杂乱，削弱了主体的表现力。这种过度追求细节的做法，有时会让观者感到疲惫。",
+        "总体而言，《沉思》是一幅技术精湛的作品，但在情感表达上略显不足。希夫拉尔通过这幅作品展示了他在蚀刻技法上的深厚功底，同时也反映了学院派艺术的一些局限性。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-681928",
+      "source": "cma",
+      "sourceId": "681928",
+      "sourceUrl": "https://clevelandart.org/art/2024.145.5",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Plate 6:  Isaachar",
+      "title_zh": "以萨迦",
+      "artist_en": "Jacob de Gheyn II (Netherlandish, 1565–1629)",
+      "artist_zh": "雅各布·德·盖恩二世",
+      "artist_id": "jacob-de-gheyn-ii-netherlandish-1565-1629",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1565–1629",
+      "date_display": "c. 1589",
+      "year": 1589,
+      "medium_zh": "铜版画",
+      "dimensions": "Platemark: 16 x 11 cm (6 5/16 x 4 5/16 in.)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "圣经题材",
+        "铜版画",
+        "16世纪",
+        "尼德兰",
+        "肖像"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2024.145.5/2024.145.5_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2024.145.5/2024.145.5_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2024.145.5/2024.145.5_web.jpg",
+        "ratio": 1.389
+      },
+      "palette": [
+        "#beb3a3",
+        "#797168"
+      ],
+      "essay": [
+        "雅各布·德·盖恩二世是尼德兰文艺复兴晚期的重要版画家，以精细的铜版画闻名。这幅《以萨迦》出自其早期的圣经人物系列，展现了他在人物造型与线条表现上的深厚功底。",
+        "画面中，以萨迦肩扛重物，手抚驴头，神情坚毅。盖恩运用细腻的交叉排线，刻画出衣褶的质感与肌肉的张力。驴的眼神温顺，与人物形成情感呼应。背景中的建筑与树木虽简略，却增添了空间深度。",
+        "尽管技法精湛，但人物形象略显程式化，缺乏个性特征。以萨迦的面容与姿态与其他圣经人物相似，未能完全体现其独特身份。这种重复性在当时的版画创作中较为常见，反映了批量生产的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-436794",
+      "source": "met",
+      "sourceId": "436794",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436794",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Last Judgment",
+      "title_zh": "最后的审判",
+      "artist_en": "Joos van Cleve",
+      "artist_zh": "约斯·范·克利夫",
+      "artist_id": "joos-van-cleve",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1485–1540",
+      "date_display": "ca. 1525–30",
+      "year": 1525,
+      "medium_zh": "木板油画",
+      "dimensions": "48 3/4 x 34 in. (123.8 x 86.4 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "荷兰",
+        "油画",
+        "北方文艺复兴",
+        "最后的审判"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26502-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-26502-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26502-001.jpg",
+        "ratio": 1.292
+      },
+      "palette": [
+        "#685747",
+        "#1f150e"
+      ],
+      "essay": [
+        "约斯·范·克利夫是安特卫普画派的关键人物，以融合意大利文艺复兴构图与北方细腻写实著称。此作约绘于 1525 至 1530 年间，正值其风格成熟期。作为当时流行的祭坛画题材，他并未完全照搬米开朗基罗的宏大叙事，而是保留了北方艺术对个体面容与世俗质感的执着关注。",
+        "画面最耐看的是基督脚下那团翻涌的云层与天使。detailCrop 选定的局部展示了天使衣褶的复杂处理——紫袍与金袍在云端交织，既有丝绸的垂坠感，又因光线折射呈现出近乎金属的硬度。这种对织物纹理近乎强迫症般的刻画，是凡·艾克以来北方画家的看家本领，在此处被用来平衡上方神圣空间的虚幻感。",
+        "然而，这幅画在神学严肃性与世俗审美间显得有些摇摆。下方等待审判的众生虽然姿态各异，但大多拥有过于健美、甚至略显肉感的躯体，皮肤光泽如同刚出浴的模特，缺乏末日审判应有的枯槁与恐惧。这种将神圣题材“美化”的倾向，虽迎合了当时富商阶层的品味，却削弱了题材原本的震慑力。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.46,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-168979",
+      "source": "cma",
+      "sourceId": "168979",
+      "sourceUrl": "https://clevelandart.org/art/2010.651",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Isolde",
+      "title_zh": "伊索尔德",
+      "artist_en": "Aubrey Beardsley (British, 1872–1898)",
+      "artist_zh": "奥布里·比亚兹莱",
+      "artist_id": "aubrey-beardsley-british-1872-1898",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1872–1898",
+      "date_display": "1895",
+      "year": 1895,
+      "medium_zh": "彩色石版画",
+      "dimensions": "Image: 22.8 x 14.2 cm (9 x 5 9/16 in.); Sheet: 28.5 x 20.4 cm (11 1/4 x 8 1/16 in.)",
+      "movement_zh": "新艺术运动",
+      "tags": [
+        "版画",
+        "人物",
+        "19世纪",
+        "英国",
+        "插画",
+        "新艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2010.651/2010.651_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2010.651/2010.651_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2010.651/2010.651_web.jpg",
+        "ratio": 1.578
+      },
+      "palette": [
+        "#f1e1c3",
+        "#df7f5e"
+      ],
+      "essay": [
+        "比亚兹莱是 19 世纪末英国插画界的异类，也是新艺术运动中最具争议的名字。这幅《伊索尔德》作于他生命的最后阶段，彼时他已深受肺结核折磨，画风却愈发大胆。不同于他早期黑白线条的阴郁诡谲，这幅作品展示了他在色彩运用上的实验性尝试，将中世纪传说人物置于极简的现代构图中。",
+        "画面最精彩之处在于大面积平涂的朱红色背景，这种极具压迫感的色彩在当时的插画中极为罕见。请看人物头饰部分：繁复的花朵与羽毛堆叠出一种近乎窒息的华丽感，与下方大面积留白的裙摆形成强烈反差。这种上重下轻的构图冒险，完全依赖那条垂直贯穿画面的黑色发辫来维持视觉平衡。",
+        "必须承认，这幅画在叙事上是苍白的。比亚兹莱为了追求装饰性的极致，牺牲了人物的情感深度——伊索尔德在此更像是一个被抽空的时尚符号，而非那个为爱赴死的悲剧女主角。这种对形式感的过度迷恋，导致画面虽然精致，却缺乏打动人心的力量，这是唯美主义走向极端时常见的通病。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.28,
+        "r": 0.18
+      }
+    }
+  ]
+}
