@@ -270,8 +270,10 @@ def generate_work(c, tags_hint, need_bio):
                 json_mode=True, schema=ESSAY_SCHEMA, temperature=0.7)
             if obj2 and obj2.get("essay"):
                 obj, raw = obj2, raw2
-        else:
-            log(f"[warn] 3 轮重写后赏析仍违规（{'；'.join(essay_violations(obj['essay']))}），保留待修")
+        # 循环结束后显式复检：第 3 轮重写成功会走 for-else 造成假 warn，这里修正
+        left = essay_violations(obj["essay"])
+        if left:
+            log(f"[warn] 3 轮重写后赏析仍违规（{'；'.join(left)}），保留待修")
     return obj
 
 
