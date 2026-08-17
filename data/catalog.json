@@ -3085,6 +3085,571 @@
       ],
       "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15089-001.jpg",
       "ratio": 1.434
+    },
+    {
+      "id": "met-626692",
+      "issue": "2026-08-17",
+      "t": "雅巴赫家族",
+      "a": "夏尔·勒布伦",
+      "aid": "charles-le-brun",
+      "y": 1660,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "群像",
+        "17世纪",
+        "法国",
+        "巴洛克",
+        "贵族"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP352819.jpg",
+      "ratio": 0.85
+    },
+    {
+      "id": "cma-79376",
+      "issue": "2026-08-17",
+      "t": "巴黎之夜（《穷人的独白》插图）",
+      "a": "泰奥菲尔·亚历山大·斯坦伦",
+      "aid": "theophile-alexandre-steinlen-swiss-1859-1923",
+      "y": 1903,
+      "mv": "新艺术运动",
+      "tags": [
+        "街景",
+        "夜景",
+        "19世纪",
+        "法国",
+        "版画",
+        "社会写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2016.243/2016.243_web.jpg",
+      "ratio": 0.648
+    },
+    {
+      "id": "cma-137604",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉的故事》第三十二夜：巨石封洞",
+      "a": "比扎德",
+      "aid": "bihzad-persian-active-in-india-mid-1500s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "寓言",
+        "波斯风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.215.a/1962.279.215.a_web.jpg",
+      "ratio": 1.473
+    },
+    {
+      "id": "met-437059",
+      "issue": "2026-08-17",
+      "t": "手持石竹的年轻女子",
+      "a": "汉斯·梅姆林",
+      "aid": "hans-memling",
+      "y": 1485,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "尼德兰",
+        "文艺复兴",
+        "女性",
+        "石竹"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-45396-001.jpg",
+      "ratio": 2.163
+    },
+    {
+      "id": "cma-95339",
+      "issue": "2026-08-17",
+      "t": "风流六玉川·武藏",
+      "a": "喜多川歌麿",
+      "aid": "kitagawa-utamaro-japanese-c-1754-1806",
+      "y": 1804,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "风景",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1104.a/1916.1104.a_web.jpg",
+      "ratio": 1.454
+    },
+    {
+      "id": "cma-137392",
+      "issue": "2026-08-17",
+      "t": "狼劝狮向猫求教（出自《鹦鹉故事》第十五夜）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "手稿",
+        "寓言"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.114.a/1962.279.114.a_web.jpg",
+      "ratio": 1.505
+    },
+    {
+      "id": "cma-150699",
+      "issue": "2026-08-17",
+      "t": "古典人物的田园场景",
+      "a": "克洛德·洛兰",
+      "aid": "claude-lorrain-french-1604-1682",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "素描",
+        "17世纪",
+        "法国",
+        "古典"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.13/1982.13_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-79575",
+      "issue": "2026-08-17",
+      "t": "破墨山水图",
+      "a": "桂孙",
+      "aid": "keison-japanese-active-late-15th-to-early-16th-century",
+      "y": 1450,
+      "mv": "水墨画",
+      "tags": [
+        "海景",
+        "15世纪",
+        "日本",
+        "水墨",
+        "留白",
+        "禅宗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.466/2015.466_web.jpg",
+      "ratio": 1.284
+    },
+    {
+      "id": "cma-137954",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉故事》第八夜：小王子向国王父亲讲述经历",
+      "a": "苏拉朱",
+      "aid": "suraju-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.72.a/1962.279.72.a_web.jpg",
+      "ratio": 1.511
+    },
+    {
+      "id": "cma-123149",
+      "issue": "2026-08-17",
+      "t": "双陆棋游戏",
+      "a": "大卫·特尼尔斯",
+      "aid": "david-teniers-flemish-1610-1690",
+      "y": 1640,
+      "mv": "佛兰德斯巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "游戏",
+        "酒馆",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.377/1943.377_web.jpg",
+      "ratio": 0.731
+    },
+    {
+      "id": "cma-137542",
+      "issue": "2026-08-17",
+      "t": "第二十七夜鹦鹉对胡贾斯塔的训诫（出自《鹦鹉故事》）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "对话",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.185.a/1962.279.185.a_web.jpg",
+      "ratio": 1.536
+    },
+    {
+      "id": "met-347927",
+      "issue": "2026-08-17",
+      "t": "天真之歌：神圣的形象",
+      "a": "威廉·布莱克",
+      "aid": "william-blake",
+      "y": 1807,
+      "mv": "浪漫主义",
+      "tags": [
+        "诗歌",
+        "18世纪",
+        "英国",
+        "版画",
+        "插画",
+        "宗教"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816659.jpg",
+      "ratio": 1.093
+    },
+    {
+      "id": "cma-156124",
+      "issue": "2026-08-17",
+      "t": "高雄之秋",
+      "a": "清原雪信",
+      "aid": "kiyohara-yukinobu-japanese-1643-1682",
+      "y": 1600,
+      "mv": "琳派",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "绘画",
+        "仕女",
+        "秋景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.55/1991.55_web.jpg",
+      "ratio": 2.453
+    },
+    {
+      "id": "cma-137980",
+      "issue": "2026-08-17",
+      "t": "僧人将神鹦鹉归还给商人（《鹦鹉故事七十则》第十夜）",
+      "a": "拉鲁",
+      "aid": "lalu-indian-active-mid-1500s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "归还",
+        "文学插图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.84.a/1962.279.84.a_web.jpg",
+      "ratio": 1.524
+    },
+    {
+      "id": "cma-166677",
+      "issue": "2026-08-17",
+      "t": "《渔夫一家》中母亲形象的习作",
+      "a": "皮埃尔·皮维·德·夏凡纳",
+      "aid": "pierre-puvis-de-chavannes-french-1824-1898",
+      "y": 1875,
+      "mv": "象征主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "素描",
+        "习作",
+        "象征主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.390/2008.390_web.jpg",
+      "ratio": 1.4
+    },
+    {
+      "id": "cma-138004",
+      "issue": "2026-08-17",
+      "t": "第十二夜伊始，鹦鹉对胡贾斯塔说话（出自《鹦鹉故事》）",
+      "a": "塔拉一世",
+      "aid": "tara-1-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "鹦鹉",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.95.a/1962.279.95.a_web.jpg",
+      "ratio": 1.536
+    },
+    {
+      "id": "cma-86107",
+      "issue": "2026-08-17",
+      "t": "葡萄图屏风",
+      "a": "崔锡焕",
+      "aid": "choe-seok-hwan-korean-active-first-half-of-19th-century",
+      "y": 1800,
+      "mv": "朝鲜王朝绘画",
+      "tags": [
+        "植物",
+        "静物",
+        "19世纪",
+        "韩国",
+        "水墨画",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.510/2015.510_web.jpg",
+      "ratio": 0.32
+    },
+    {
+      "id": "cma-137367",
+      "issue": "2026-08-17",
+      "t": "第十三夜：鹦鹉对胡贾斯塔的训诫（出自《鹦鹉故事》）",
+      "a": "塔拉一世",
+      "aid": "tara-1-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "夜晚",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.102.b/1962.279.102.b_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-79156",
+      "issue": "2026-08-17",
+      "t": "伊格姆水闸",
+      "a": "弗朗西斯·西摩·海登",
+      "aid": "francis-seymour-haden-british-1818-1910",
+      "y": 1859,
+      "mv": "写实主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "英国",
+        "版画",
+        "泰晤士河",
+        "水闸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2016.184/2016.184_web.jpg",
+      "ratio": 0.681
+    },
+    {
+      "id": "cma-170891",
+      "issue": "2026-08-17",
+      "t": "林边河畔嬉游的女子",
+      "a": "胡恩哈尔二世",
+      "aid": "hunhar-ii-indian-active-mid-1700s",
+      "y": 1765,
+      "mv": "印度细密画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "印度",
+        "细密画",
+        "休闲",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.351.a/2013.351.a_web.jpg",
+      "ratio": 1.324
+    },
+    {
+      "id": "cma-114159",
+      "issue": "2026-08-17",
+      "t": "穿蓝裙的女子（正面）",
+      "a": "康斯坦丁·居伊",
+      "aid": "constantin-guys-french-1805-1892",
+      "y": 1855,
+      "mv": "现代主义先驱",
+      "tags": [
+        "人物",
+        "时尚",
+        "19世纪",
+        "法国",
+        "素描",
+        "速写"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1933.417.a/1933.417.a_web.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "cma-137922",
+      "issue": "2026-08-17",
+      "t": "女子挥剑逐爱郎（出自《鹦鹉故事七十二则》第八夜）",
+      "a": "古吉拉特画师",
+      "aid": "gujarati-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "印度细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "戏剧",
+        "古吉拉特"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.58.a/1962.279.58.a_web.jpg",
+      "ratio": 1.63
+    },
+    {
+      "id": "cma-79578",
+      "issue": "2026-08-17",
+      "t": "山水图",
+      "a": "云谷等与",
+      "aid": "unkoku-toyo-japanese-1612-1688",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "日本",
+        "水墨",
+        "双幅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.469/2015.469_web.jpg",
+      "ratio": 1.355
+    },
+    {
+      "id": "cma-137931",
+      "issue": "2026-08-17",
+      "t": "侍女再次伸冤，王子第三次被押赴刑场（出自《鹦鹉故事》第八夜）",
+      "a": "古吉拉特画派",
+      "aid": "gujarati-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "正义",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.61.b/1962.279.61.b_web.jpg",
+      "ratio": 1.612
+    },
+    {
+      "id": "cma-97743",
+      "issue": "2026-08-17",
+      "t": "穿格纹棉袍的濑川路之助",
+      "a": "歌川丰国",
+      "aid": "utagawa-toyokuni-japanese-1769-1825",
+      "y": 1805,
+      "mv": "浮世绘",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "演员",
+        "歌舞伎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.376/1917.376_web.jpg",
+      "ratio": 1.523
+    },
+    {
+      "id": "cma-111621",
+      "issue": "2026-08-17",
+      "t": "《雪花：梅花颜见世》中的尾上菊五郎一世饰演泉三郎",
+      "a": "一笔斋文调",
+      "aid": "ippitsusai-buncho-japanese-active-c-1765-92",
+      "y": 1769,
+      "mv": "浮世绘",
+      "tags": [
+        "役者绘",
+        "歌舞伎",
+        "18世纪",
+        "江户",
+        "戏剧"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1930.173/1930.173_web.jpg",
+      "ratio": 2.069
+    },
+    {
+      "id": "cma-137935",
+      "issue": "2026-08-17",
+      "t": "侍女伸冤与王子受刑（《鹦鹉故事》第八夜）",
+      "a": "塔拉二世",
+      "aid": "tara-2-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷",
+        "处刑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.63.b/1962.279.63.b_web.jpg",
+      "ratio": 1.6
+    },
+    {
+      "id": "cma-74644",
+      "issue": "2026-08-17",
+      "t": "街景（正面）；素描（背面）",
+      "a": "古斯塔夫·多雷",
+      "aid": "gustave-dore-french-1832-1883",
+      "y": 1848,
+      "mv": "学院派",
+      "tags": [
+        "街景",
+        "19世纪",
+        "法国",
+        "素描",
+        "速写",
+        "马车"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.448/2015.448_web.jpg",
+      "ratio": 1.241
+    },
+    {
+      "id": "cma-159402",
+      "issue": "2026-08-17",
+      "t": "以利沙诅咒伯特利的孩童",
+      "a": "尼古拉斯·德·布鲁因",
+      "aid": "nicolaes-de-bruyn-netherlandish-1571-1656",
+      "y": 1602,
+      "mv": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "风景",
+        "17世纪",
+        "尼德兰",
+        "叙事画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.223/1996.223_web.jpg",
+      "ratio": 0.784
+    },
+    {
+      "id": "cma-110378",
+      "issue": "2026-08-17",
+      "t": "消防局背面",
+      "a": "奥维尔·霍顿·皮茨",
+      "aid": "orville-houghton-peets-american-1884-1968",
+      "y": 1920,
+      "mv": "美国乡土主义",
+      "tags": [
+        "雪景",
+        "建筑",
+        "20世纪",
+        "美国",
+        "蚀刻"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.94/1928.94_web.jpg",
+      "ratio": 0.703
     }
   ]
 }

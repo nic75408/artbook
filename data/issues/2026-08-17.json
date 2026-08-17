@@ -3,13 +3,250 @@
   "date": "2026-08-17",
   "works": [
     {
-      "id": "cma-137834",
+      "id": "met-626692",
+      "source": "met",
+      "sourceId": "626692",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/626692",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Jabach Family",
+      "title_zh": "雅巴赫家族",
+      "artist_en": "Charles Le Brun",
+      "artist_zh": "夏尔·勒布伦",
+      "artist_id": "charles-le-brun",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1619–1690",
+      "date_display": "ca. 1660",
+      "year": 1660,
+      "medium_zh": "布面油画",
+      "dimensions": "110 1/4 × 129 1/8 in. (280 × 328 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "群像",
+        "17世纪",
+        "法国",
+        "巴洛克",
+        "贵族"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP352819.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP352819.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP352819.jpg",
+        "ratio": 0.85
+      },
+      "palette": [
+        "#221c15",
+        "#49382a"
+      ],
+      "essay": [
+        "夏尔·勒布伦是路易十四时代的宫廷首席画师，也是法国学院派的奠基人。这幅《雅巴赫家族》创作于他职业生涯的上升期，展示了他在宏大叙事之外驾驭私人肖像的能力。画作记录了科隆银行家雅巴赫一家的显赫地位，确立了法国巴洛克群像画的经典范式：将家庭成员置于充满象征意味的古典环境中。",
+        "画面左侧的静物细节值得玩味——散落的乐谱、地球仪与古典半身像，暗示了主人的博学与财富。勒布伦用厚重的笔触描绘了深绿色天鹅绒帷幕的质感，与右侧人物光洁的肌肤形成强烈对比。这种对物质世界的精细刻画，是当时荷兰绘画对法国艺术影响的直接体现。",
+        "尽管勒布伦试图营造一种自然的家庭氛围，但人物的姿态依然显得过于舞台化。母亲怀中的婴儿如同精致的瓷娃娃，缺乏真实孩童的动感；孩子们整齐排列的站位也暴露了摆拍的痕迹。这种理想化与真实感之间的张力，正是宫廷画家难以摆脱的职业习惯。"
+      ],
+      "detailCrop": {
+        "cx": 0.15,
+        "cy": 0.75,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-79376",
       "source": "cma",
-      "sourceId": "137834",
-      "sourceUrl": "https://clevelandart.org/art/1962.279.324.a",
+      "sourceId": "79376",
+      "sourceUrl": "https://clevelandart.org/art/2016.243",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Page from Tales of a Parrot (Tuti-nama): text page",
-      "title_zh": "《鹦鹉故事》书页",
+      "title_en": "Paris by Night (Paris La Nuit)",
+      "title_zh": "巴黎之夜（《穷人的独白》插图）",
+      "artist_en": "Théophile Alexandre Steinlen (Swiss, 1859–1923)",
+      "artist_zh": "泰奥菲尔·亚历山大·斯坦伦",
+      "artist_id": "theophile-alexandre-steinlen-swiss-1859-1923",
+      "artist_nationality_zh": "瑞士",
+      "artist_years": "1859–1923",
+      "date_display": "1903",
+      "year": 1903,
+      "medium_zh": "石版画",
+      "dimensions": "Sheet: 28.1 x 38.1 cm (11 1/16 x 15 in.); Matted: 32.4 x 50.2 cm (12 3/4 x 19 3/4 in.)",
+      "movement_zh": "新艺术运动",
+      "tags": [
+        "街景",
+        "夜景",
+        "19世纪",
+        "法国",
+        "版画",
+        "社会写实"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2016.243/2016.243_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2016.243/2016.243_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2016.243/2016.243_web.jpg",
+        "ratio": 0.648
+      },
+      "palette": [
+        "#514c45",
+        "#9f927f"
+      ],
+      "essay": [
+        "斯坦伦是 19 世纪末巴黎蒙马特艺术圈的核心人物，以描绘底层生活与流浪猫狗闻名。这幅作于 1903 年的石版画，是为诗人里克图斯的诗集《穷人的独白》所作的封面插图。它确立了新艺术运动时期海报艺术的视觉高度，也是当时巴黎社会贫富分化的直接证词。",
+        "画面右侧占据主导的诗人形象如同一座黑色的剪影，目光空洞地望向画外，与左侧模糊舞动的夜生活人群形成强烈反差。最值得玩味的是背景的处理——斯坦伦利用石版特有的颗粒感，将煤气路灯的光晕渲染得朦胧而压抑，光线并未照亮街道，反而衬托出夜色的浓重与寒冷。",
+        "作为一本关于“穷人”的诗集封面，这幅画在商业上极其成功，却也不免陷入一种审美的矛盾：它将贫困与边缘化包装成了某种浪漫化的波西米亚风格。那些在寒风中瑟缩的舞女和路人，在斯坦伦笔下变成了一种装饰性的纹理，这种将苦难美学化的处理，是那个时代知识分子常见的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137604",
+      "source": "cma",
+      "sourceId": "137604",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.215.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The tale of the three men trapped in a cave by a rolling boulder, from a Tuti-nama (Tales of a Parrot): Thirty-second Night",
+      "title_zh": "《鹦鹉的故事》第三十二夜：巨石封洞",
+      "artist_en": "Bihzad (Persian, active in India mid-1500s)",
+      "artist_zh": "比扎德",
+      "artist_id": "bihzad-persian-active-in-india-mid-1500s",
+      "artist_nationality_zh": "波斯",
+      "artist_years": "活跃于 16 世纪中叶",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本胶彩、墨水与金箔",
+      "dimensions": "Overall: 20 x 13.3 cm (7 7/8 x 5 1/4 in.); Painting only: 11.1 x 10.2 cm (4 3/8 x 4 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "寓言",
+        "波斯风格"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.215.a/1962.279.215.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.215.a/1962.279.215.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.215.a/1962.279.215.a_web.jpg",
+        "ratio": 1.473
+      },
+      "palette": [
+        "#eccfb1",
+        "#a48878"
+      ],
+      "essay": [
+        "比扎德是波斯细密画的巅峰人物，晚年受聘于莫卧儿宫廷，将赫拉特画派的优雅线条带入印度。这幅作于 1560 年前后的插图，出自《鹦鹉的故事》手抄本，展示了他在异国他乡对传统叙事构图的延续与微调。",
+        "画面最精彩处在于岩石的处理——并非写实的地质结构，而是像堆积的彩色软糖。注意左侧那块滚落的石，边缘勾勒的金线在矿物颜料中闪烁，既交代了重量感，又维持了装饰性的平面美感，这是细密画独有的视觉逻辑。",
+        "三人被困洞中的惊恐表情略显程式化，缺乏真正的绝望张力，这是宫廷绘画的通病：灾难必须保持优雅。但上方密集的波斯书法与下方拥挤的岩层形成了奇妙的节奏呼应，文字本身也成为了画面构图的一部分。",
+        "这种在方寸之间经营宏大叙事的能力，正是比扎德超越同代画师的关键。他懂得如何在极小的画幅内，通过色彩的堆叠与线条的疏密，制造出超越物理空间的戏剧张力，让观者在微观世界中看到宏大的命运感。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437059",
+      "source": "met",
+      "sourceId": "437059",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437059",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Young Woman with a Pink",
+      "title_zh": "手持石竹的年轻女子",
+      "artist_en": "Hans Memling",
+      "artist_zh": "汉斯·梅姆林",
+      "artist_id": "hans-memling",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1430–1494",
+      "date_display": "ca. 1485–90",
+      "year": 1485,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall 17 x 7 3/8 in. (43.2 x 18.7 cm); painted surface 17 x 6 7/8 in. (43.2 x 17.5 cm)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "尼德兰",
+        "文艺复兴",
+        "女性",
+        "石竹"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-45396-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-45396-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-45396-001.jpg",
+        "ratio": 2.163
+      },
+      "palette": [
+        "#2d1b15",
+        "#5e5040"
+      ],
+      "essay": [
+        "汉斯·梅姆林是 15 世纪尼德兰画派的集大成者，以细腻、静谧的画风著称。这幅作于 1485 至 1490 年间的肖像，是他晚期风格的典型代表。不同于当时流行的宏大叙事，梅姆林专注于描绘个体的内在宁静，将佛兰德斯画派对细节的执着推向了极致。",
+        "画面最耐看的是女子手中的那朵石竹花。花瓣边缘的锯齿状处理极其精细，仿佛能触碰到其脆弱的质感。这种对微小物体的超写实刻画，是早期尼德兰画派的标志。画家利用这朵花，将观者的视线从人物面部引向手部，构建了微妙的视觉流动。",
+        "这幅画虽美，却透着一种刻意的疏离感。女子面容完美得近乎面具，缺乏真实人物的瑕疵与情绪波动。这种理想化的处理，虽然符合当时对女性美德的审美标准，却牺牲了肖像画应有的个性与生命力，让这位女子更像是一个完美的符号，而非有血有肉的人。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.68,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-95339",
+      "source": "cma",
+      "sourceId": "95339",
+      "sourceUrl": "https://clevelandart.org/art/1916.1104.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Musashi  Province from the series Fashionable Six Jewel Rivers (Furyu Mu Tamagawa)",
+      "title_zh": "风流六玉川·武藏",
+      "artist_en": "Kitagawa Utamaro (Japanese, c. 1754–1806)",
+      "artist_zh": "喜多川歌麿",
+      "artist_id": "kitagawa-utamaro-japanese-c-1754-1806",
+      "artist_nationality_zh": "日本",
+      "artist_years": "约 1754–1806",
+      "date_display": "c. 1804",
+      "year": 1804,
+      "medium_zh": "木刻版画",
+      "dimensions": "Overall: 39.2 x 27 cm (15 7/16 x 10 5/8 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "风景",
+        "江户时代"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.1104.a/1916.1104.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.1104.a/1916.1104.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.1104.a/1916.1104.a_web.jpg",
+        "ratio": 1.454
+      },
+      "palette": [
+        "#c9bea6",
+        "#a6937a"
+      ],
+      "essay": [
+        "喜多川歌麿是江户时代浮世绘的巅峰人物，以「大首绘」革新了美人画的构图。此作出自其晚年系列《风流六玉川》，虽仍属美人画范畴，却将人物置于特定的名胜风景中，试图在风俗与山水间寻找新的平衡。",
+        "画面最精彩处在于前景女子衣纹的处理——那件米色格纹和服的褶皱，并非死板的线条堆砌，而是顺着跪坐姿态自然流淌。特别是 detailCrop 选定的膝部区域，几笔淡墨勾勒出的阴影与织物纹理，精准地表现了布料的垂坠感与身体的重量。",
+        "但这幅作品也暴露了歌麿晚年的局限：为了迎合市场对「名胜」题材的猎奇，人物与背景的割裂感略显生硬。身后的波浪纹样过于程式化，像是一块绘制的幕布而非真实的河水，削弱了「玉川」应有的流动气息。",
+        "尽管如此，右侧女子仰望蜻蜓的生动瞬间，仍保留了歌麿捕捉女性神态的一贯敏锐。这种对日常情趣的捕捉，让这幅在构图上略显拼凑的作品，依然拥有打动人心的生命力，证明了大师即便在程式化题材中也不愿放弃对真实的观察。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.78,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137392",
+      "source": "cma",
+      "sourceId": "137392",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.114.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The wolf advises the lion to consult the cat, from a Tuti-nama (Tales of a Parrot): Fifteenth Night",
+      "title_zh": "狼劝狮向猫求教（出自《鹦鹉故事》第十五夜）",
       "artist_en": "Unknown",
       "artist_zh": "佚名",
       "artist_id": "unknown",
@@ -17,1014 +254,1164 @@
       "artist_years": "不详",
       "date_display": "c. 1560",
       "year": 1560,
-      "medium_zh": "纸本树胶水彩、墨水与金",
-      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.)",
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 6 x 10.3 cm (2 3/8 x 4 1/16 in.)",
       "movement_zh": "莫卧儿细密画",
       "tags": [
-        "手抄本",
-        "书法",
+        "叙事",
         "16世纪",
         "印度",
-        "伊斯兰艺术"
+        "细密画",
+        "手稿",
+        "寓言"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.324.a/1962.279.324.a_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1962.279.324.a/1962.279.324.a_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.324.a/1962.279.324.a_web.jpg",
-        "ratio": 1.538
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.114.a/1962.279.114.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.114.a/1962.279.114.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.114.a/1962.279.114.a_web.jpg",
+        "ratio": 1.505
       },
       "palette": [
-        "#cbba9a",
-        "#b6a384"
+        "#cab190",
+        "#907c6f"
       ],
       "essay": [
-        "这是莫卧儿帝国阿克巴大帝时期的宫廷写本残页，出自波斯语故事集《鹦鹉故事》。作为早期莫卧儿绘画的代表，它体现了波斯细密画传统在印度土壤上的移植与演变。这类书页通常成对出现，一面绘图，一面书写，此页虽无图像，其书法布局本身即构成了严谨的视觉秩序。",
-        "画面被分割为规整的文本框，纳斯塔利克体（Nasta'liq）书法如流水般在格线间舒展。最值得玩味的是边缘的装饰线——极细的金线与彩色边框层层嵌套，这种克制而精致的“画框”处理，是莫卧儿宫廷审美对秩序感的极致追求，即便在纯文本页也不曾懈怠。",
-        "必须诚实地说，脱离了插图，单看这一页显得过于功能化。书法的墨色浓淡变化被格线束缚，缺乏后来德干地区书法那种狂放的生命力。它更像是一件精密的宫廷档案，而非自由挥洒的艺术品，其价值更多在于历史文献性，而非纯粹的视觉冲击。"
+        "这幅作品出自 16 世纪莫卧儿宫廷的《鹦鹉故事》手稿，代表了波斯细密画传统与印度本土审美融合的关键期。画师虽未留名，但其对空间与色彩的掌控力，显示出当时宫廷作坊极高的工艺水准。",
+        "画面最精彩处在于动物毛发的处理——尤其是卧虎背部的条纹，画师用极细的墨线勾勒轮廓，再层层罩染赭石与朱红，营造出蓬松而厚实的质感。这种对生物肌理的执着，是莫卧儿画派区别于波斯原型的显著特征。",
+        "构图上，前景的岩石被处理成粉紫色的块面，虽具装饰美感，却缺乏真实的体积感，显得像舞台布景。这种为了叙事清晰而牺牲透视逻辑的做法，是细密画服务于文本阅读时的典型妥协。"
       ],
       "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.45,
+        "cx": 0.62,
+        "cy": 0.68,
         "r": 0.15
       }
     },
     {
-      "id": "cma-137906",
+      "id": "cma-150699",
       "source": "cma",
-      "sourceId": "137906",
-      "sourceUrl": "https://clevelandart.org/art/1962.279.50.a",
+      "sourceId": "150699",
+      "sourceUrl": "https://clevelandart.org/art/1982.13",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Page from Tales of a Parrot (Tuti-nama): text page",
-      "title_zh": "《鹦鹉故事》书页",
-      "artist_en": "Unknown",
-      "artist_zh": "佚名",
-      "artist_id": "unknown",
-      "artist_nationality_zh": "不详",
+      "title_en": "Pastoral Scene with Classical Figures",
+      "title_zh": "古典人物的田园场景",
+      "artist_en": "Claude Lorrain (French, 1604–1682)",
+      "artist_zh": "克洛德·洛兰",
+      "artist_id": "claude-lorrain-french-1604-1682",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1604–1682",
+      "date_display": "c. 1640–45",
+      "year": 1640,
+      "medium_zh": "纸上钢笔、棕色墨水及淡彩",
+      "dimensions": "Sheet: 19.2 x 25.8 cm (7 9/16 x 10 3/16 in.); Image: 19 x 25.4 cm (7 1/2 x 10 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风景",
+        "素描",
+        "17世纪",
+        "法国",
+        "古典"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1982.13/1982.13_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1982.13/1982.13_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1982.13/1982.13_web.jpg",
+        "ratio": 0.746
+      },
+      "palette": [
+        "#4b3b31",
+        "#bfab99"
+      ],
+      "essay": [
+        "克洛德·洛兰是 17 世纪理想风景画的奠基人，他确立了光线在画面中的主导地位。这幅作于 1640 年代中期的素描，展示了他如何将古典神话人物自然地融入宏大的自然叙事中。",
+        "画面左侧的大树是视觉重心，洛兰用极快的钢笔排线勾勒树冠，再以浓淡不一的棕色淡彩渲染体积。这种干湿结合的技法，让树叶在逆光下呈现出一种毛茸茸的通透感，与右侧人物衣褶的流畅线条形成质感对比。",
+        "虽然人物姿态优雅，但在这幅习作中，他们的面部表情略显模糊，缺乏肖像画般的个性刻画。洛兰似乎更在意人物作为风景构图的平衡码，而非独立的叙事主角，这种对“氛围”的极致追求有时会让具体形象显得单薄。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.25,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-79575",
+      "source": "cma",
+      "sourceId": "79575",
+      "sourceUrl": "https://clevelandart.org/art/2015.466",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Coastal Landscape in the Haboku Style",
+      "title_zh": "破墨山水图",
+      "artist_en": "Keison (Japanese, active late 15th to early 16th century)",
+      "artist_zh": "桂孙",
+      "artist_id": "keison-japanese-active-late-15th-to-early-16th-century",
+      "artist_nationality_zh": "日本",
+      "artist_years": "15 世纪末–16 世纪初",
+      "date_display": "late 1400s–early 1500s",
+      "year": 1450,
+      "medium_zh": "纸本水墨 挂轴",
+      "dimensions": "Mounted: 117.7 x 43.5 cm (46 5/16 x 17 1/8 in.); Painting: 41 x 31.6 cm (16 1/8 x 12 7/16 in.)",
+      "movement_zh": "水墨画",
+      "tags": [
+        "海景",
+        "15世纪",
+        "日本",
+        "水墨",
+        "留白",
+        "禅宗"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.466/2015.466_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.466/2015.466_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.466/2015.466_web.jpg",
+        "ratio": 1.284
+      },
+      "palette": [
+        "#a59482",
+        "#8c7e71"
+      ],
+      "essay": [
+        "桂孙活跃于室町时代晚期，正值日本水墨画从模仿南宋院体转向本土化表达的关键期。这幅《破墨山水图》虽无确切纪年，但其对“破墨”技法的运用，显示出画家深受雪舟等杨的影响，试图在狂放的笔触中寻求秩序。",
+        "画面最精彩处在于山石与树木的交接——注意看画面中部的树丛，画家先用湿笔泼洒出山体轮廓，趁墨未干时以焦墨枯笔“破”之，这种水墨晕染的偶然性被精准地控制住了。几笔极简的线条勾勒出临水的屋舍，与大面积的留白形成虚实对比，营造出湿润的海风感。",
+        "然而，这种对“逸笔草草”的过度追求也带来了风险。画面左侧的远山处理得略显单薄，墨色层次不够丰富，导致空间纵深感稍弱。相比于雪舟那种如刀刻般的力度，桂孙的笔触有时显得过于温吞，少了一份撼人的气势。",
+        "尽管如此，这幅作品仍成功捕捉到了日本海景特有的朦胧与寂寥。它不是对自然的客观再现，而是画家内心对“空”与“无”的禅意投射。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137954",
+      "source": "cma",
+      "sourceId": "137954",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.72.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The young prince recounts his experiences to his father, the king, from a Tuti-nama (Tales of a Parrot): Eighth Night",
+      "title_zh": "《鹦鹉故事》第八夜：小王子向国王父亲讲述经历",
+      "artist_en": "Suraju (Indian)",
+      "artist_zh": "苏拉朱",
+      "artist_id": "suraju-indian",
+      "artist_nationality_zh": "印度",
       "artist_years": "不详",
       "date_display": "c. 1560",
       "year": 1560,
-      "medium_zh": "纸本树胶水彩、墨水与金",
-      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.)",
+      "medium_zh": "纸本胶彩、墨水与金箔",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 11 x 10.1 cm (4 5/16 x 4 in.)",
       "movement_zh": "莫卧儿细密画",
       "tags": [
-        "书法",
-        "手抄本",
+        "叙事",
         "16世纪",
         "印度",
+        "细密画",
+        "宫廷",
         "波斯文学"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.50.a/1962.279.50.a_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1962.279.50.a/1962.279.50.a_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.50.a/1962.279.50.a_web.jpg",
-        "ratio": 1.607
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.72.a/1962.279.72.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.72.a/1962.279.72.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.72.a/1962.279.72.a_web.jpg",
+        "ratio": 1.511
       },
       "palette": [
-        "#cac0a8",
-        "#b2a48d"
+        "#c9af91",
+        "#8c6d67"
       ],
       "essay": [
-        "这是莫卧儿帝国早期（约 1560 年）的宫廷手抄本残页，源自波斯文学经典《鹦鹉故事》。在阿克巴大帝建立皇家画院之初，这类作品标志着波斯细密画传统与印度本土审美的初步融合。作为文本页，它虽无叙事性插图，却是理解当时书籍装帧与书法艺术的重要实物。",
-        "画面完全由书法主导，黑色的纳斯塔利克体（Nasta'liq）如流水般倾泻而下，字体的倾斜度与行间距经过精密计算，营造出一种动态的视觉韵律。金粉勾勒的边框与文中点缀的朱红标记打破了单色的沉闷，这种对平面装饰性的极致追求，是伊斯兰艺术回避偶像崇拜后的独特美学表达。",
-        "必须承认，对于不熟悉波斯语的现代观众，这页作品存在天然的阅读门槛。它剥离了图像叙事的直观性，强迫观者进入纯粹的线条与形式欣赏。这种「可读性」的缺失，使其在视觉冲击力上远逊于同书中的彩绘插图，更像是一件供文人把玩的精致文物，而非面向大众的视觉艺术。"
+        "这幅作品出自 16 世纪中叶的莫卧儿宫廷，是波斯文学经典《鹦鹉故事》（Tuti-nama）的插图本之一。画家苏拉朱活跃于阿克巴大帝早期的画坊，这一时期正是波斯细密画传统与印度本土审美激烈碰撞、融合的关键阶段。此作是莫卧儿绘画风格成型期的珍贵样本，记录了外来技法在印度土壤上的初次扎根。",
+        "画面采用了典型的「分层透视」构图，将宫殿空间切割为高低错落的平面。最值得玩味的是右下角的听众群像：三位朝臣呈对角线排列，衣褶的流动感与面部表情的微妙差异，打破了细密画常见的僵硬感。尤其是中间蓝衣人的侧脸，胡须的勾勒与眼神的聚焦，显示出画家对人物心理状态的捕捉野心。",
+        "然而，画面的割裂感依然明显。上方窗棂中的女子与下方的朝堂叙事缺乏视线交流，仿佛两个独立的世界被强行拼贴；地毯繁复的几何纹样虽然华丽，却在视觉上压倒了人物的体积感。这种装饰性压倒写实性的矛盾，正是早期莫卧儿绘画在转型期的典型特征——技法尚未完全消化外来影响。"
       ],
       "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.4,
+        "cx": 0.78,
+        "cy": 0.62,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-123149",
+      "source": "cma",
+      "sourceId": "123149",
+      "sourceUrl": "https://clevelandart.org/art/1943.377",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Game of Backgammon",
+      "title_zh": "双陆棋游戏",
+      "artist_en": "David Teniers (Flemish, 1610–1690)",
+      "artist_zh": "大卫·特尼尔斯",
+      "artist_id": "david-teniers-flemish-1610-1690",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "1610–1690",
+      "date_display": "1640s",
+      "year": 1640,
+      "medium_zh": "木板油画（后转绘于画布）",
+      "dimensions": "Framed: 82 x 102 x 9 cm (32 5/16 x 40 3/16 x 3 9/16 in.); Unframed: 59 x 80.6 cm (23 1/4 x 31 3/4 in.)",
+      "movement_zh": "佛兰德斯巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "游戏",
+        "酒馆",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.377/1943.377_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.377/1943.377_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.377/1943.377_web.jpg",
+        "ratio": 0.731
+      },
+      "palette": [
+        "#2d261b",
+        "#534633"
+      ],
+      "essay": [
+        "大卫·特尼尔斯是 17 世纪佛兰德斯风俗画的集大成者，以描绘农民生活与乡村娱乐闻名。这幅《双陆棋游戏》创作于 1640 年代，正值其艺术生涯的成熟期。不同于鲁本斯宏大的神话叙事，特尼尔斯将目光投向市井，用画笔记录当时普通人的消遣时光，确立了他在艺术史上作为“平民生活记录者”的地位。",
+        "画面左侧的光线处理极具戏剧性，精准地照亮了棋桌这一视觉中心。请注意前景中站立男子的姿态——他身体前倾，手指棋盘，神情专注而急切，这种动态捕捉了博弈中的紧张瞬间。特尼尔斯对人物面部表情的刻画入微，从围观者的窃窃私语到窗后窥视的老妇，每个人物都构成了完整的叙事链条。",
+        "尽管特尼尔斯以写实著称，但这幅画中的农民形象仍带有某种舞台化的整洁感。他们的衣着虽朴素却无明显的污渍或破损，场景中的混乱（如散落的工具）更像是为了营造氛围而精心布置的道具。这种“经过修饰的真实”是当时佛兰德斯风俗画的通病，旨在迎合城市收藏家对田园生活的浪漫想象，而非完全还原粗砺的现实。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.55,
         "r": 0.15
       }
     },
     {
-      "id": "cma-137941",
+      "id": "cma-137542",
       "source": "cma",
-      "sourceId": "137941",
-      "sourceUrl": "https://clevelandart.org/art/1962.279.66.b",
+      "sourceId": "137542",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.185.a",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Page from Tales of a Parrot (Tuti-nama): text page",
-      "title_zh": "《鹦鹉故事》书页",
+      "title_en": "The Parrot Addresses Khujasta at the Beginning of the Twenty-seventh Night, form a Tuti-nama (Tales of a Parrot)",
+      "title_zh": "第二十七夜鹦鹉对胡贾斯塔的训诫（出自《鹦鹉故事》）",
       "artist_en": "Unknown",
       "artist_zh": "佚名",
       "artist_id": "unknown",
-      "artist_nationality_zh": "不详",
+      "artist_nationality_zh": "印度",
       "artist_years": "不详",
       "date_display": "c. 1560",
       "year": 1560,
       "medium_zh": "纸本树胶水彩、墨与金",
-      "dimensions": "Overall: 20 x 14.4 cm (7 7/8 x 5 11/16 in.); Text field: 16.6 x 10 cm (6 9/16 x 3 15/16 in.)",
+      "dimensions": "Painting only: 10.5 x 10 cm (4 1/8 x 3 15/16 in.); Overall: 20.1 x 15.3 cm (7 15/16 x 6 in.)",
       "movement_zh": "莫卧儿细密画",
       "tags": [
-        "书法",
-        "手抄本",
+        "叙事",
         "16世纪",
         "印度",
-        "波斯文学"
+        "细密画",
+        "对话",
+        "宫廷"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.66.b/1962.279.66.b_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1962.279.66.b/1962.279.66.b_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.66.b/1962.279.66.b_web.jpg",
-        "ratio": 1.556
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.185.a/1962.279.185.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.185.a/1962.279.185.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.185.a/1962.279.185.a_web.jpg",
+        "ratio": 1.536
       },
       "palette": [
-        "#e1cead",
-        "#c7b18f"
+        "#c4af92",
+        "#977d6f"
       ],
       "essay": [
-        "这是莫卧儿帝国阿克巴大帝时期的宫廷手抄本残页，属于早期细密画风格。当时画师多由波斯迁入，将波斯书法的严谨与印度本土的装饰趣味结合。此页虽无图像，却是整部叙事诗中不可或缺的视觉节奏，文字本身即是画面主体。",
-        "请看画面中段的黑色纳斯塔利克体（Nasta'liq），笔触如流水般向右下方倾斜，极具动感。墨色浓淡变化自然，显示出书写者运笔时的呼吸节奏。金线勾勒的边框虽已氧化发暗，但依然能看出当初极尽奢华的宫廷审美，这种红蓝金三色的搭配是当时的标准配置。",
-        "作为纯文本页，它缺乏细密画最迷人的叙事图像，显得略微单调。且纸张边缘有明显的虫蛀与霉斑，保存状况不如同系列的插图页完美。但这恰恰证明了它作为阅读物的真实身份——它曾被反复翻阅，而非仅仅被供奉在画框中。",
-        "这种以书法为核心的页面，提醒我们伊斯兰艺术中文字的神圣地位。在图像被限制的年代，书写的线条承担了表达情感与美的重任。这种纯粹的文字之美，往往比具象的绘画更能引发观者对无限意境的遐想与沉思。"
+        "这幅作品出自 16 世纪莫卧儿帝国早期的《鹦鹉故事》手抄本，代表了波斯细密画传统与印度本土审美融合的关键节点。作为宫廷叙事插图，它是当时画师在有限尺幅内构建复杂空间秩序的试验场，确立了早期莫卧儿绘画的视觉范式。",
+        "画面最耐看的是建筑与自然的并置处理。右侧宫殿的几何纹样严谨繁复，红白相间的立柱与墙面装饰展示了极高的工艺水准；而左侧天空中的鹦鹉笼悬于虚空，这种非写实的悬浮感打破了物理重力，强化了故事的寓言性质。",
+        "尽管色彩华丽，人物造型却略显僵硬。胡贾斯塔的手势与站姿带有明显的程式化痕迹，缺乏后期莫卧儿绘画中那种对解剖结构的精准捕捉。这种‘装饰性’压倒‘真实性’的倾向，正是该时期风格转型的局限所在。"
       ],
       "detailCrop": {
-        "cx": 0.52,
-        "cy": 0.65,
-        "r": 0.15
+        "cx": 0.68,
+        "cy": 0.45,
+        "r": 0.18
       }
     },
     {
-      "id": "cma-156794",
+      "id": "met-347927",
+      "source": "met",
+      "sourceId": "347927",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/347927",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Songs of Innocence: The Divine Image",
+      "title_zh": "天真之歌：神圣的形象",
+      "artist_en": "William Blake",
+      "artist_zh": "威廉·布莱克",
+      "artist_id": "william-blake",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1757–1827",
+      "date_display": "[1789] printed ca. 1825",
+      "year": 1807,
+      "medium_zh": "铜版腐蚀版画，手工水彩上色",
+      "dimensions": "sheet: 6 3/16 x 5 9/16 in. (15.7 x 14.1 cm)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "诗歌",
+        "18世纪",
+        "英国",
+        "版画",
+        "插画",
+        "宗教"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816659.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP816659.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816659.jpg",
+        "ratio": 1.093
+      },
+      "palette": [
+        "#e8ddc7",
+        "#c0ab8f"
+      ],
+      "essay": [
+        "威廉·布莱克是英国浪漫主义先驱，也是版画与诗歌结合的革新者。此作出自其代表作《天真之歌》，创作于 1789 年，但这件印本约在 1825 年完成。布莱克独创的“浮雕蚀刻”技法，让他能同时掌控文字与图像的布局，使诗画互为注脚，这在当时是极具前瞻性的实验。",
+        "画面被流动的彩色带状纹样贯穿，如同有生命的藤蔓将诗句包裹。注意右下角的人物，身着长袍，姿态虔诚，正向着上方的神圣形象祈祷。布莱克用贝壳金粉点缀高光，在橙褐色的主调中制造出一种类似中世纪手抄本的辉煌感，这种手工上色的不确定性赋予了每一幅印本独特的灵魂。",
+        "尽管布莱克宣称这是“天真”的视角，但画面中缠绕的线条与略显压抑的深蓝色背景，隐约透出一丝不安。诗中歌颂的“仁慈、怜悯、和平与爱”被具象化为神圣的人形，这种将抽象美德人格化的处理，虽符合浪漫主义的想象，却也暴露了布莱克在视觉叙事上有时过于依赖象征符号，略显说教。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.78,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-156124",
       "source": "cma",
-      "sourceId": "156794",
-      "sourceUrl": "https://clevelandart.org/art/1992.388",
+      "sourceId": "156124",
+      "sourceUrl": "https://clevelandart.org/art/1991.55",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Kenshu, Monk with Shrimp",
-      "title_zh": "虾僧",
-      "artist_en": "Tawaraya Sōtatsu (Japanese, c. 1570–c. 1640)",
-      "artist_zh": "俵屋宗达",
-      "artist_id": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "title_en": "Autumn in Takao",
+      "title_zh": "高雄之秋",
+      "artist_en": "Kiyohara Yukinobu (Japanese, 1643–1682)",
+      "artist_zh": "清原雪信",
+      "artist_id": "kiyohara-yukinobu-japanese-1643-1682",
       "artist_nationality_zh": "日本",
-      "artist_years": "约 1570–约 1640",
-      "date_display": "c. 1600–1640",
-      "year": 1620,
-      "medium_zh": "纸本水墨",
-      "dimensions": "Overall: 170.5 x 43.2 cm (67 1/8 x 17 in.); Painting only: 93 x 36.4 cm (36 5/8 x 14 5/16 in.)",
+      "artist_years": "1643–1682",
+      "date_display": "late 1600s",
+      "year": 1600,
+      "medium_zh": "绢本设色立轴",
+      "dimensions": "Painting only: 89.7 x 32.7 cm (35 5/16 x 12 7/8 in.); Including mounting: 170.2 x 49.6 cm (67 x 19 1/2 in.)",
       "movement_zh": "琳派",
       "tags": [
         "人物",
         "17世纪",
         "日本",
-        "水墨",
-        "禅意",
-        "幽默"
+        "绘画",
+        "仕女",
+        "秋景"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1992.388/1992.388_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1992.388/1992.388_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1992.388/1992.388_web.jpg",
-        "ratio": 2.557
+        "feed": "https://openaccess-cdn.clevelandart.org/1991.55/1991.55_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1991.55/1991.55_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1991.55/1991.55_web.jpg",
+        "ratio": 2.453
       },
       "palette": [
-        "#c1a078",
-        "#ac8e6a"
+        "#b8a585",
+        "#a69172"
       ],
       "essay": [
-        "俵屋宗达是琳派艺术的奠基人，以装饰性风格闻名，但这幅《虾僧》却展示了他水墨画的高超造诣。作品属于典型的禅画题材，描绘一位僧人手持活虾的滑稽瞬间。这种将神圣人物置于荒诞情境的手法，在江户初期的京都画坛颇为流行，宗达在此展现了超越装饰趣味的笔墨控制力。",
-        "画面留白极多，人物被挤压在下方，这种构图迫使视线聚焦于僧人的动态。最精彩处在于僧人伸出的手臂与手中的虾——宗达用极淡的墨色勾勒虾须，几乎隐入纸底，而僧人宽大的袖口则用浓墨泼洒，干湿浓淡的对比在瞬间完成。这种「减笔」画法要求画家下笔无悔，精准捕捉神态。",
-        "但这幅画并非纯粹的禅意表达。僧人夸张的表情和手中的活物，更像是一种世俗的幽默甚至讽刺。宗达虽然被后世奉为装饰大师，但他这类水墨小品往往比那些金碧辉煌的屏风更具生命力。不过，相较于他成熟的琳派作品，此作在空间处理上略显单薄，人物与背景的互动较少，更多依赖观者的想象填补空白。"
+        "清原雪信是江户时代琳派的重要传人，也是该流派中罕见的女性画家。这幅《高雄之秋》作于 17 世纪晚期，展现了琳派将自然景物与文学意境结合的传统。画作虽尺幅修长，却通过留白与物象的巧妙布局，营造出深远的空间感，是当时屏风画与挂轴艺术的典型代表。",
+        "画面右侧伸出的红叶枝条是视觉焦点，画家以没骨法点染叶片，色彩从朱红过渡到淡粉，层次分明。树干以浓墨勾勒，笔触苍劲，与柔美的红叶形成质感对比。树下蜿蜒的流水以淡墨晕染，平衡了画面重心，暗示了秋风的流动与季节的凉意。",
+        "作为一幅仕女题材的变体，画中并未出现具体人物，而是以悬挂的诗笺（短册）作为人的替身。这种‘无人之境’的处理虽显高雅，却也暴露了琳派后期过于依赖程式化符号的局限——红叶与流水的组合虽美，却略显刻意，少了几分野外秋景的随机与野趣。"
       ],
       "detailCrop": {
         "cx": 0.68,
-        "cy": 0.72,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-139718",
-      "source": "cma",
-      "sourceId": "139718",
-      "sourceUrl": "https://clevelandart.org/art/1963.493",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Studies of Children (Two Little Girls); Two Dogs; A Man",
-      "title_zh": "儿童习作（两个小女孩）；两只狗；一个男人",
-      "artist_en": "George Morland (British, 1763–1804)",
-      "artist_zh": "乔治·莫兰",
-      "artist_id": "george-morland-british-1763-1804",
-      "artist_nationality_zh": "英国",
-      "artist_years": "1763–1804",
-      "date_display": "1793",
-      "year": 1793,
-      "medium_zh": "粉笔风格蚀刻版画与雕刻版画",
-      "dimensions": "Paper: 31.8 x 44.5 cm (12 1/2 x 17 1/2 in.)",
-      "movement_zh": "英国风俗画",
-      "tags": [
-        "风俗画",
-        "动物",
-        "儿童",
-        "18世纪",
-        "英国",
-        "版画"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1963.493/1963.493_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1963.493/1963.493_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1963.493/1963.493_web.jpg",
-        "ratio": 0.728
-      },
-      "palette": [
-        "#e7dacc",
-        "#bcae9f"
-      ],
-      "essay": [
-        "乔治·莫兰是 18 世纪末英国风俗画与动物题材的领军人物，以描绘乡村生活、流浪汉与动物著称。这幅 1793 年的版画习作集，展示了他作为素描高手的敏锐观察力。这类作品通常作为独立版画发行，或作为油画创作的底稿，记录了画家对日常瞬间的捕捉。",
-        "画面左侧那只长毛猎犬的头部处理极具质感——莫兰利用蚀刻针法的疏密变化，模拟出粉笔在纸上涂抹的柔和效果。狗的眼神温顺而警觉，毛发的蓬松感通过细碎的排线表现得层次分明，与右侧站立男子粗糙的衣褶形成鲜明对比。",
-        "作为一幅习作拼贴，画面缺乏统一的叙事逻辑，人物与动物之间显得松散。两个孩子互动的场景略显刻意摆拍，不如左下角那只趴着的狗来得自然生动。这种「素材库」式的构图虽显随意，却真实反映了当时画家积累视觉词汇的工作方式。"
-      ],
-      "detailCrop": {
-        "cx": 0.22,
-        "cy": 0.48,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-140125",
-      "source": "cma",
-      "sourceId": "140125",
-      "sourceUrl": "https://clevelandart.org/art/1964.13",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "The Rev. Dr. Syntax Loses his Money on the Raceground at York",
-      "title_zh": "辛塔克斯牧师在约克赛马场输钱",
-      "artist_en": "Thomas Rowlandson (British, 1756–1827)",
-      "artist_zh": "托马斯·罗兰森",
-      "artist_id": "thomas-rowlandson-british-1756-1827",
-      "artist_nationality_zh": "英国",
-      "artist_years": "1756–1827",
-      "date_display": "",
-      "year": null,
-      "medium_zh": "蚀刻版画，手工上色",
-      "dimensions": "",
-      "movement_zh": "讽刺画",
-      "tags": [
-        "赛马",
-        "讽刺",
-        "18世纪",
-        "英国",
-        "版画"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1964.13/1964.13_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1964.13/1964.13_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1964.13/1964.13_web.jpg",
-        "ratio": 0.579
-      },
-      "palette": [
-        "#ada696",
-        "#797468"
-      ],
-      "essay": [
-        "托马斯·罗兰森是 18 世纪末英国讽刺画的代表人物，与贺加斯齐名。这幅作品取材于当时流行的连环画故事《辛塔克斯博士的旅程》，描绘了主角在约克赛马场因赌博而倾家荡产的狼狈时刻。罗兰森将文学叙事转化为视觉闹剧，确立了其作为社会观察者的地位。",
-        "画面前景的混乱极具张力：辛塔克斯博士被人群推搡，帽子飞脱，双手高举向天哀嚎，肢体语言夸张扭曲。这种近乎漫画式的变形处理，精准捕捉了赌徒输光后的绝望。背景中宏伟的看台与前景的无序形成强烈反差，看台上密密麻麻的观众如同冷漠的旁观者。",
-        "罗兰森的讽刺虽辛辣，却难免流于表面。他对人物面部表情的刻画过于依赖程式化的丑化，缺乏对个体心理深度的挖掘。此外，手工上色的笔触略显随意，色彩并未完全服务于叙事，有时甚至削弱了蚀刻线条本身的力度，显得略微廉价。"
-      ],
-      "detailCrop": {
-        "cx": 0.28,
-        "cy": 0.72,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-140159",
-      "source": "cma",
-      "sourceId": "140159",
-      "sourceUrl": "https://clevelandart.org/art/1964.159",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Chrysanthemums",
-      "title_zh": "菊花图",
-      "artist_en": "Kitagawa Sōsetsu (Japanese, active 1639–50)",
-      "artist_zh": "北川宗雪",
-      "artist_id": "kitagawa-sosetsu-japanese-active-1639-50",
-      "artist_nationality_zh": "日本",
-      "artist_years": "活跃于 1639–1650",
-      "date_display": "mid 1600s",
-      "year": 1600,
-      "medium_zh": "纸本设色挂轴",
-      "dimensions": "Image: 127 x 57.2 cm (50 x 22 1/2 in.); Overall: 190 x 65 cm (74 13/16 x 25 9/16 in.)",
-      "movement_zh": "琳派",
-      "tags": [
-        "花卉",
-        "17世纪",
-        "日本",
-        "琳派",
-        "水墨设色"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1964.159/1964.159_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1964.159/1964.159_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1964.159/1964.159_web.jpg",
-        "ratio": 2.266
-      },
-      "palette": [
-        "#b5a999",
-        "#8b7f72"
-      ],
-      "essay": [
-        "北川宗雪活跃于江户时代初期，是琳派早期的重要传承者。这幅《菊花图》创作于 17 世纪中叶，正值琳派风格从俵屋宗达向尾形光琳过渡的关键期。作品虽无明确纪年，但其构图与用色显示出对宗达装饰性风格的继承，同时保留了狩野派严谨的写生基础。",
-        "画面最精彩处在于花叶的层次处理——白菊以细劲墨线勾勒，花瓣层层叠叠却无堆砌感；红叶与墨叶交错，形成冷暖对比。右下角的题款与朱印位置考究，与左上角的花丛形成视觉平衡。叶片边缘的晕染技法尤为精妙，墨色由浓转淡，过渡自然。",
-        "然而，这种高度程式化的表现也带来局限：菊花虽美，却缺乏自然生长的随机性，每朵花的朝向与大小都经过精心设计，显得过于完美。琳派追求的装饰美感在此得到充分体现，但也牺牲了部分写生的生动性。",
-        "作为一幅挂轴，此作在空间布局上充分考虑了悬挂展示的效果。花丛自下而上延伸，引导观者视线向上移动，符合日本传统审美中'余白'的理念。这种构图方式影响了后来尾形光琳的许多花卉作品。"
-      ],
-      "detailCrop": {
-        "cx": 0.65,
         "cy": 0.45,
         "r": 0.18
       }
     },
     {
-      "id": "cma-142337",
+      "id": "cma-137980",
       "source": "cma",
-      "sourceId": "142337",
-      "sourceUrl": "https://clevelandart.org/art/1966.163",
+      "sourceId": "137980",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.84.a",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Meyer-Heine",
-      "title_zh": "迈耶 - 海因",
-      "artist_en": "Félix Bracquemond (French, 1833–1914)",
-      "artist_zh": "费利克斯·布拉克蒙",
-      "artist_id": "felix-bracquemond-french-1833-1914",
-      "artist_nationality_zh": "法国",
-      "artist_years": "1833–1914",
-      "date_display": "c. 1872",
-      "year": 1872,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "Sheet: 25 x 36.5 cm (9 13/16 x 14 3/8 in.); Plate: 21.8 x 24.5 cm (8 9/16 x 9 5/8 in.)",
-      "movement_zh": "印象派",
+      "title_en": "The monk returns the magic parrot to its rightful owner, the merchant, from a Tuti-nama (Tales of a Parrot): Tenth Night",
+      "title_zh": "僧人将神鹦鹉归还给商人（《鹦鹉故事七十则》第十夜）",
+      "artist_en": "Lalu (Indian, active mid-1500s)",
+      "artist_zh": "拉鲁",
+      "artist_id": "lalu-indian-active-mid-1500s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 16 世纪中叶",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Painting only: 5.8 x 10.2 cm (2 5/16 x 4 in.); Overall: 20 x 13.2 cm (7 7/8 x 5 3/16 in.)",
+      "movement_zh": "莫卧儿细密画",
       "tags": [
-        "肖像",
-        "风景",
-        "19世纪",
-        "法国",
-        "蚀刻"
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "归还",
+        "文学插图"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1966.163/1966.163_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1966.163/1966.163_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1966.163/1966.163_web.jpg",
-        "ratio": 0.869
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.84.a/1962.279.84.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.84.a/1962.279.84.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.84.a/1962.279.84.a_web.jpg",
+        "ratio": 1.524
       },
       "palette": [
-        "#c3bdb1",
-        "#7f7c73"
+        "#d5b78b",
+        "#977c65"
       ],
       "essay": [
-        "费利克斯·布拉克蒙是 19 世纪法国版画复兴的关键人物，也是最早将日本浮世绘引入巴黎艺术圈的推手。这幅作于 1872 年前后的蚀刻版画，处于他从早期严谨写实向后期自由写意过渡的阶段。作为印象派团体的边缘参与者，他试图在铜版上捕捉光影的瞬时颤动，而非仅仅记录轮廓。",
-        "画面左侧的人物刻画极为扎实，尤其是面部胡须与衣领阴影处的排线，密集而有序，展现了深厚的学院派功底。视线移至右侧窗外，技法陡然松弛——树木与远山仅用几笔概括性的线条勾勒，利用留白营造出空气感。这种室内严谨与室外写意的并置，构成了视觉上的双重节奏。",
-        "但这幅作品也暴露了布拉克蒙的局限：他始终未能完全摆脱对形体结构的执念。右侧风景虽然试图模仿水墨的晕染效果，但线条依然显得过于理性与克制，缺乏真正印象派那种消融形体的决绝。这种在‘记录’与‘感受’之间的摇摆，让画面少了一份浑然天成的松弛，却保留了版画独有的骨力。"
+        "这幅作品出自 16 世纪中叶的印度莫卧儿宫廷，是《鹦鹉故事七十则》手稿的插图之一。画家拉鲁活跃于阿克巴大帝统治初期，正值波斯细密画传统与印度本土审美融合的关键阶段。此作是莫卧儿绘画风格从波斯范式向更具印度本土气息转型的早期见证。",
+        "画面下方的叙事场景虽尺幅极小，却充满了戏剧张力。左侧僧人夸张的肢体语言——一手高举过头顶，一手递出鹦鹉，这种略显生硬的动态是早期莫卧儿绘画的特征。右侧端坐的商人神态沉稳，身下的条纹地毯与身后繁复的几何纹样壁龛，展示了画家对装饰性图案的迷恋，金粉的运用则强化了宫廷艺术的奢华感。",
+        "若以成熟期莫卧儿绘画的标准审视，此作在空间处理上仍显稚嫩。人物与背景的比例关系有些脱节，僧人的身形略显拉长，缺乏解剖学上的严谨性。这种「平面化」并非全是技法局限，也源于细密画不追求透视深度的传统——画家更在意故事的清晰传达与装饰的华丽，而非营造真实的物理空间。"
       ],
       "detailCrop": {
-        "cx": 0.32,
-        "cy": 0.48,
+        "cx": 0.38,
+        "cy": 0.78,
         "r": 0.18
       }
     },
     {
-      "id": "cma-142380",
+      "id": "cma-166677",
       "source": "cma",
-      "sourceId": "142380",
-      "sourceUrl": "https://clevelandart.org/art/1966.196",
+      "sourceId": "166677",
+      "sourceUrl": "https://clevelandart.org/art/2008.390",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "The Morning of Life",
-      "title_zh": "生命的早晨",
-      "artist_en": "Samuel Palmer (British, 1805–1881)",
-      "artist_zh": "塞缪尔·帕尔默",
-      "artist_id": "samuel-palmer-british-1805-1881",
-      "artist_nationality_zh": "英国",
-      "artist_years": "1805–1881",
-      "date_display": "1860–1861",
-      "year": 1860,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "",
-      "movement_zh": "浪漫主义",
-      "tags": [
-        "风景",
-        "田园",
-        "19世纪",
-        "英国",
-        "蚀刻版画"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1966.196/1966.196_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1966.196/1966.196_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1966.196/1966.196_web.jpg",
-        "ratio": 0.699
-      },
-      "palette": [
-        "#454542",
-        "#908f87"
-      ],
-      "essay": [
-        "塞缪尔·帕尔默是英国浪漫主义风景画的代表人物，早年受威廉·布莱克影响，以梦幻般的田园风光著称。这幅《生命的早晨》创作于 1860 年代，是他晚期蚀刻版画中的杰作，展现了他对自然与人类和谐共处的理想化追求。",
-        "画面中，阳光透过茂密的树冠洒向大地，形成强烈的明暗对比。前景中，几位农妇在溪边劳作，姿态自然，细节刻画细腻。特别是右侧树干的纹理和光影处理，展现了帕尔默高超的蚀刻技巧。",
-        "尽管画面充满诗意，但人物的理想化处理与现实生活有所脱节。农妇们的姿态过于优雅，仿佛置身于神话而非日常劳作中。这种理想化与现实的矛盾，是帕尔默作品中常见的特点。",
-        "总体而言，《生命的早晨》不仅展示了帕尔默对自然的深刻感悟，也反映了他对理想化田园生活的向往。这幅作品在技术与情感表达上达到了高度统一，是浪漫主义风景画的典范。"
-      ],
-      "detailCrop": {
-        "cx": 0.75,
-        "cy": 0.45,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-142633",
-      "source": "cma",
-      "sourceId": "142633",
-      "sourceUrl": "https://clevelandart.org/art/1966.359",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Young Woman Standing",
-      "title_zh": "站立的年轻女子",
-      "artist_en": "Horace Vernet (French, 1789–1863)",
-      "artist_zh": "奥拉斯·韦尔内",
-      "artist_id": "horace-vernet-french-1789-1863",
+      "title_en": "Study for the Mother in The Fisherman's Family",
+      "title_zh": "《渔夫一家》中母亲形象的习作",
+      "artist_en": "Pierre Puvis de Chavannes (French, 1824–1898)",
+      "artist_zh": "皮埃尔·皮维·德·夏凡纳",
+      "artist_id": "pierre-puvis-de-chavannes-french-1824-1898",
       "artist_nationality_zh": "法国",
-      "artist_years": "1789–1863",
-      "date_display": "c. early 1800s",
-      "year": 1800,
-      "medium_zh": "石版画",
-      "dimensions": "",
-      "movement_zh": "浪漫主义",
+      "artist_years": "1824–1898",
+      "date_display": "c. 1875",
+      "year": 1875,
+      "medium_zh": "纸上黑白粉笔，擦笔晕染，黑粉笔打格",
+      "dimensions": "Sheet: 46.6 x 32.8 cm (18 3/8 x 12 15/16 in.)",
+      "movement_zh": "象征主义",
       "tags": [
-        "肖像",
-        "时尚",
+        "人物",
         "19世纪",
         "法国",
-        "石版画"
+        "素描",
+        "习作",
+        "象征主义"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1966.359/1966.359_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1966.359/1966.359_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1966.359/1966.359_web.jpg",
-        "ratio": 1.431
+        "feed": "https://openaccess-cdn.clevelandart.org/2008.390/2008.390_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2008.390/2008.390_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2008.390/2008.390_web.jpg",
+        "ratio": 1.4
       },
       "palette": [
-        "#eae5dd",
-        "#d0cbc3"
+        "#999684",
+        "#757568"
       ],
       "essay": [
-        "奥拉斯·韦尔内是法国浪漫主义时期的多面手，以描绘军事题材和东方风情闻名。这幅早期石版画展示了他作为肖像画家的另一面，捕捉了复辟时期法国上流社会女性的典型形象。",
-        "画面最精彩处在于衣褶的处理——尤其是裙摆下缘层层叠叠的荷叶边。韦尔内利用石版特有的颗粒感，通过疏密有致的排线，既表现了织物的厚重垂坠，又保留了蕾丝边缘的轻盈透气感。",
-        "这是一幅典型的“时尚肖像”，重点在于展示服饰而非人物个性。女子双臂交叉的姿态略显僵硬，面部表情也趋于模式化的端庄，缺乏韦尔内后期战争画作中那种鲜活的生命力与戏剧张力。",
-        "尽管人物刻画略显拘谨，但这幅作品仍展现了韦尔内对细节的敏锐观察，以及对当时社会风尚的精准捕捉，是了解19世纪初法国时尚与肖像艺术的重要窗口。"
+        "皮埃尔·皮维·德·夏凡纳是 19 世纪法国象征主义绘画的领军人物，以宏大的装饰壁画闻名。这幅作于 1875 年左右的素描，是为大型油画《渔夫一家》中母亲形象所做的局部习作。它剥离了最终成品的叙事背景，将观者的注意力完全引向人体本身的结构与光影，展示了画家在构建理想化形象前的严谨推敲。",
+        "画面最精彩处在于对体积感的塑造。请看局部放大的肩颈与手臂连接处：夏凡纳利用擦笔（stumping）将粉笔线条揉碎，制造出如烟雾般柔和的过渡，模拟出皮肤在漫射光下的质感。这种“粉彩般”的细腻晕染，让原本坚硬的骨骼转折显得圆润而富有弹性，赋予了模特一种超越现实的雕塑感。",
+        "但这并非对真实肉体的直接写生。尽管姿态放松，模特的肌肉线条却被处理得过于平滑，几乎抹去了所有生理瑕疵，呈现出一种冷峻的“大理石化”倾向。这种刻意抽离烟火气的处理方式，正是夏凡纳的风格标签——他笔下的劳动者往往像古希腊神像般静穆，虽失却了生活的粗粝真实，却换来了永恒的庄重。"
       ],
       "detailCrop": {
         "cx": 0.52,
+        "cy": 0.38,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-138004",
+      "source": "cma",
+      "sourceId": "138004",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.95.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Parrot Addresses Khujasta at the Beginning of the Twelfth Night, from a Tuti-nama (Tales of a Parrot)",
+      "title_zh": "第十二夜伊始，鹦鹉对胡贾斯塔说话（出自《鹦鹉故事》）",
+      "artist_en": "Tara 1 (Indian, active 1550s-1590s)",
+      "artist_zh": "塔拉一世",
+      "artist_id": "tara-1-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550 年代 -1590 年代",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 9.1 x 10.3 cm (3 9/16 x 4 1/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "鹦鹉",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.95.a/1962.279.95.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.95.a/1962.279.95.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.95.a/1962.279.95.a_web.jpg",
+        "ratio": 1.536
+      },
+      "palette": [
+        "#c4ac8a",
+        "#9f7f6b"
+      ],
+      "essay": [
+        "塔拉一世是莫卧儿帝国阿克巴大帝画院早期的核心画师，这幅作于 1560 年左右的细密画，呈现了波斯画风与印度本土审美在宫廷中的初次融合。作为《鹦鹉故事》手抄本的插图，它既是文学叙事的图解，也是当时画院确立新风格的实验场。",
+        "画面最精彩处在于建筑结构的几何秩序感。注意左侧露台边缘，红白相间的棋盘格地砖与蓝色繁复花纹地毯并置，这种对平面装饰性的极致追求，压倒了西方透视法的空间逻辑。鹦鹉被安置在精致的金笼中，其翠绿的羽色在赭石色建筑背景下显得格外跳脱。",
+        "然而，人物造型略显僵硬，胡贾斯塔的手势与身姿虽优雅，却缺乏解剖学上的自然松弛感，这是早期莫卧儿绘画尚未完全消化波斯程式化语言的痕迹。画面上方大段的波斯文书法占据了近三分之一篇幅，这种图文并置的版式虽显拥挤，却是当时手抄本的标准形制。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-86107",
+      "source": "cma",
+      "sourceId": "86107",
+      "sourceUrl": "https://clevelandart.org/art/2015.510",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Grapevine",
+      "title_zh": "葡萄图屏风",
+      "artist_en": "Choe Seok-hwan (Korean, active first half of 19th century)",
+      "artist_zh": "崔锡焕",
+      "artist_id": "choe-seok-hwan-korean-active-first-half-of-19th-century",
+      "artist_nationality_zh": "韩国",
+      "artist_years": "不详",
+      "date_display": "early 1800s",
+      "year": 1800,
+      "medium_zh": "纸本水墨八折屏风",
+      "dimensions": "Image: 100.5 x 345 cm (39 9/16 x 135 13/16 in.)",
+      "movement_zh": "朝鲜王朝绘画",
+      "tags": [
+        "植物",
+        "静物",
+        "19世纪",
+        "韩国",
+        "水墨画",
+        "屏风"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.510/2015.510_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.510/2015.510_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.510/2015.510_web.jpg",
+        "ratio": 0.32
+      },
+      "palette": [
+        "#d6ba9a",
+        "#a18e75"
+      ],
+      "essay": [
+        "崔锡焕活跃于19世纪上半叶，是朝鲜王朝后期文人画传统的继承者。这幅《葡萄图屏风》展示了当时韩国画家对水墨技法的掌握，将中国文人画题材本土化。作为八折大屏风，它是装饰，也是展示画家驾驭宏大构图能力的载体。",
+        "画面最精彩处在于老藤的墨色处理——浓墨枯笔扫出的主干苍劲有力，与淡墨渲染的叶片形成强烈对比。注意看右侧第三折的主干转折处，飞白笔触模拟了树皮的粗糙质感，而缠绕其间的细藤则用中锋勾勒，柔韧度跃然纸上。",
+        "葡萄果实的画法略显程式化，成串的墨点虽试图表现体积感，但缺乏光影变化，显得平面。这种‘墨葡萄’画法重意不重形，是文人画的传统，但也暴露了画家在写实观察上的局限——他更在意笔墨趣味，而非植物学上的准确。",
+        "整幅作品气韵生动，藤蔓走势如龙蛇游走，占据了画面的主导地位。这种以线造型、计白当黑的处理，体现了东方绘画独特的空间意识。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-137367",
+      "source": "cma",
+      "sourceId": "137367",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.102.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Parrot Addresses Khujasta at the Beginning of the Thirteenth Night, from a Tuti-nama (Tales of a Parrot)",
+      "title_zh": "第十三夜：鹦鹉对胡贾斯塔的训诫（出自《鹦鹉故事》）",
+      "artist_en": "Tara 1 (Indian, active 1550s-1590s)",
+      "artist_zh": "塔拉一世",
+      "artist_id": "tara-1-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550 年代–1590 年代",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨水与金箔",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 8.6 x 10.5 cm (3 3/8 x 4 1/8 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "夜晚",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.102.b/1962.279.102.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.102.b/1962.279.102.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.102.b/1962.279.102.b_web.jpg",
+        "ratio": 1.541
+      },
+      "palette": [
+        "#c3b297",
+        "#a78678"
+      ],
+      "essay": [
+        "塔拉一世是莫卧儿帝国阿克巴大帝时期的宫廷画师，这幅作品出自著名的《鹦鹉故事》手抄本。作为早期莫卧儿绘画的代表，它展示了波斯细密画传统与印度本土审美在 16 世纪的剧烈碰撞与融合。",
+        "画面采用了典型的「高视点」构图，将建筑剖面与人物活动并置。最值得玩味的是左侧的鹦鹉笼——画家不惜用金箔描绘笼柱，却将鹦鹉画得极小。这种对「物」的精细刻画与对「人」的符号化处理，正是细密画装饰性压倒写实性的铁证。",
+        "虽然色彩华丽，但人物姿态略显僵硬，缺乏后来莫卧儿绘画中那种自然的动态感。胡贾斯塔伸出的手臂角度生硬，仿佛是为了展示珠宝而非表达情绪。这种「摆拍感」是早期宫廷画师尚未完全消化外来技法时的典型特征。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.28,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-79156",
+      "source": "cma",
+      "sourceId": "79156",
+      "sourceUrl": "https://clevelandart.org/art/2016.184",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Egham Lock",
+      "title_zh": "伊格姆水闸",
+      "artist_en": "Francis Seymour Haden (British, 1818–1910)",
+      "artist_zh": "弗朗西斯·西摩·海登",
+      "artist_id": "francis-seymour-haden-british-1818-1910",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1818–1910",
+      "date_display": "1859",
+      "year": 1859,
+      "medium_zh": "蚀刻与干针版画",
+      "dimensions": "Image: 14.9 x 22.4 cm (5 7/8 x 8 13/16 in.); Sheet: 18.4 x 27.3 cm (7 1/4 x 10 3/4 in.); Matted: 36.2 x 48.9 cm (14 1/4 x 19 1/4 in.)",
+      "movement_zh": "写实主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "英国",
+        "版画",
+        "泰晤士河",
+        "水闸"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2016.184/2016.184_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2016.184/2016.184_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2016.184/2016.184_web.jpg",
+        "ratio": 0.681
+      },
+      "palette": [
+        "#efd6b7",
+        "#b6a088"
+      ],
+      "essay": [
+        "海登是 19 世纪英国蚀刻复兴的关键人物，也是惠斯勒的姐夫与早期导师。这幅 1859 年的《伊格姆水闸》处于他创作生涯的上升期，此时他正试图摆脱外科医生的严谨，转而用针笔捕捉泰晤士河畔稍纵即逝的光影。",
+        "画面最精彩处在于水面的处理——看右侧闸口下方的倒影，几道果断的斜线便勾勒出木桩的坚硬与水的流动感。这种“未完成”的留白并非草率，而是利用纸本的底色作为高光，展现了蚀刻版画特有的透气感。",
+        "然而，海登对“如画”的执念有时会让位于形式感。左侧树木的排线略显程式化，缺乏右侧闸口那种直面现场的生动。这种在自然观察与版画传统技法间的摇摆，正是他虽技艺精湛，却常被惠斯勒的灵气所掩盖的原因。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-170891",
+      "source": "cma",
+      "sourceId": "170891",
+      "sourceUrl": "https://clevelandart.org/art/2013.351.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Women Enjoying the River at the Forest’s Edge (recto)",
+      "title_zh": "林边河畔嬉游的女子",
+      "artist_en": "Hunhar II (Indian, active mid-1700s)",
+      "artist_zh": "胡恩哈尔二世",
+      "artist_id": "hunhar-ii-indian-active-mid-1700s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 18 世纪中叶",
+      "date_display": "c. 1765",
+      "year": 1765,
+      "medium_zh": "纸本树胶水彩描金",
+      "dimensions": "Page: 33.1 x 24.9 cm (13 1/16 x 9 13/16 in.)",
+      "movement_zh": "印度细密画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "印度",
+        "细密画",
+        "休闲",
+        "风景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2013.351.a/2013.351.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2013.351.a/2013.351.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2013.351.a/2013.351.a_web.jpg",
+        "ratio": 1.324
+      },
+      "palette": [
+        "#52513a",
+        "#a59265"
+      ],
+      "essay": [
+        "胡恩哈尔二世是 18 世纪印度莫卧儿晚期细密画的代表人物，活跃于德里宫廷。这幅作品创作于 1765 年左右，正值莫卧儿帝国衰落、地方画派兴起的转折期。画作虽保留了宫廷画的精致，却将视角从帝王将相转向了更为私密的休闲场景，体现了当时审美趣味的世俗化倾向。",
+        "画面最精彩处在于对自然与人物关系的处理。右侧芒果树占据了近半幅画面，繁茂的枝叶与金黄的果实形成强烈的装饰感，与左侧开阔的河流形成疏密对比。水中女子的动态自然舒展，打破了细密画常见的人物僵硬感，尤其是她们互相泼水的瞬间，捕捉到了难得的生动气息。",
+        "然而，这幅画也存在明显的程式化痕迹。尽管题材是户外嬉游，但人物的面部特征几乎完全一致——同样的椭圆脸、细长眼和小巧嘴唇，缺乏个体差异。这种「千人一面」的处理是细密画的传统惯例，虽保证了画面的和谐统一，却牺牲了人物的真实感与情感深度。",
+        "天空的处理值得玩味：厚重的乌云与金色的晚霞并存，既暗示了季风季节的气候特征，又为画面增添了戏剧性的光影效果。这种对自然现象的敏锐观察，是胡恩哈尔二世超越同时代画家的地方。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.58,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-114159",
+      "source": "cma",
+      "sourceId": "114159",
+      "sourceUrl": "https://clevelandart.org/art/1933.417.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Woman in a Blue Dress (recto)",
+      "title_zh": "穿蓝裙的女子（正面）",
+      "artist_en": "Constantin Guys (French, 1805–1892)",
+      "artist_zh": "康斯坦丁·居伊",
+      "artist_id": "constantin-guys-french-1805-1892",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1805–1892",
+      "date_display": "1855–60",
+      "year": 1855,
+      "medium_zh": "纸上石墨、棕蓝水彩及红黄罩染",
+      "dimensions": "Sheet: 32.1 x 22.4 cm (12 5/8 x 8 13/16 in.)",
+      "movement_zh": "现代主义先驱",
+      "tags": [
+        "人物",
+        "时尚",
+        "19世纪",
+        "法国",
+        "素描",
+        "速写"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1933.417.a/1933.417.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1933.417.a/1933.417.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1933.417.a/1933.417.a_web.jpg",
+        "ratio": 1.431
+      },
+      "palette": [
+        "#a28462",
+        "#47463d"
+      ],
+      "essay": [
+        "康斯坦丁·居伊是波德莱尔笔下“现代生活画家”的原型，他拒绝沙龙式的宏大叙事，转而捕捉巴黎街头的瞬间。这幅作于 1855 至 1860 年间的速写，正是他作为时尚记录者的典型样本。他并不追求永恒的美，而是致力于提取那个时代特有的“短暂、易逝”的时尚气质。",
+        "画面最精彩处在于衣褶的处理——居伊用大笔触的蓝色水彩横扫而出，利用水分的流动自然形成裙摆的体积感，而非死板的线条勾勒。这种“未完成”的潦草感恰恰赋予了人物动态的生命力，仿佛她正转身或行走，裙角带风。",
+        "然而，这种对氛围的极致追求也牺牲了结构的严谨。女子的面部虽然精致，却略显面具化，与身体那种狂放的笔触在精细度上存在割裂。这并非技法的缺失，而是居伊的选择：他只要那一瞥的风情，至于解剖是否精准，对他而言并不重要。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-137922",
+      "source": "cma",
+      "sourceId": "137922",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.58.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "A woman asks her lover to leave her house, brandishing his sword and feigning rage in order to deceive her husband who has just arrived, from a Tuti-nama (Tales of a Parrot): Eighth Night",
+      "title_zh": "女子挥剑逐爱郎（出自《鹦鹉故事七十二则》第八夜）",
+      "artist_en": "Gujarati (Indian, active 1550s-1590s)",
+      "artist_zh": "古吉拉特画师",
+      "artist_id": "gujarati-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550s–1590s",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶蛋彩、墨与金",
+      "dimensions": "Overall: 20 x 14.3 cm (7 7/8 x 5 5/8 in.); Painting only: 16.7 x 10 cm (6 9/16 x 3 15/16 in.)",
+      "movement_zh": "印度细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "戏剧",
+        "古吉拉特"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.58.a/1962.279.58.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.58.a/1962.279.58.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.58.a/1962.279.58.a_web.jpg",
+        "ratio": 1.63
+      },
+      "palette": [
+        "#cab79a",
+        "#93766d"
+      ],
+      "essay": [
+        "这幅作品出自 16 世纪古吉拉特画派绘制的《鹦鹉故事七十二则》。作为莫卧儿宫廷艺术兴起前的重要地方流派，古吉拉特细密画保留了印度本土的平面装饰趣味，尚未完全受波斯风格的自然主义影响。此作处于印度叙事绘画从传统向融合风格过渡的关键节点。",
+        "画面最精彩处在于中间男子的表演：他身穿蓝衣，手持出鞘长剑，面部却无半分怒意，反而眼神游移。这种「假戏真做」的肢体语言，精准传达了他在原配丈夫面前虚张声势的紧张感。上方金底拱门内的细密花纹，展示了当时极高的装饰工艺水准。",
+        "构图虽热闹，却略显拥挤。为了交代「丈夫归来、情人伪装、女子配合」这一复杂剧情，画家将三个人物强行塞入狭小空间，导致透视关系扁平，人物比例也随叙事重要性而非视觉逻辑缩放。这是早期细密画重图解、轻空间的典型局限。",
+        "尽管技法尚显稚拙，但画中女子那份从容不迫的机智，透过她递剑的手势与镇定的神情跃然纸上，让这出家庭闹剧充满了世俗的幽默感。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-79578",
+      "source": "cma",
+      "sourceId": "79578",
+      "sourceUrl": "https://clevelandart.org/art/2015.469",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscapes",
+      "title_zh": "山水图",
+      "artist_en": "Unkoku Tōyo (Japanese, 1612–1688?)",
+      "artist_zh": "云谷等与",
+      "artist_id": "unkoku-toyo-japanese-1612-1688",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1612–1688?",
+      "date_display": "mid- to late 1600s",
+      "year": 1600,
+      "medium_zh": "纸本水墨淡彩",
+      "dimensions": "Mounted: 199.6 x 60.5 cm (78 9/16 x 23 13/16 in.); Mounted: 199.4 x 60.4 cm (78 1/2 x 23 3/4 in.); Painting: 120.6 x 47.9 cm (47 1/2 x 18 7/8 in.); Painting: 120.8 x 47.8 cm (47 9/16 x 18 13/16 in.)",
+      "movement_zh": "狩野派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "日本",
+        "水墨",
+        "双幅"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.469/2015.469_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.469/2015.469_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.469/2015.469_web.jpg",
+        "ratio": 1.355
+      },
+      "palette": [
+        "#b39f85",
+        "#6d6256"
+      ],
+      "essay": [
+        "云谷等与活跃于江户初期，是狩野派分支云谷派的代表人物。这组双幅山水作于 17 世纪中后期，正值日本水墨画从室町时代的禅意枯淡向装饰性风格转型的节点。作品保留了宋元山水的构图骨架，但笔触已显露出职业画师的娴熟与程式化。",
+        "画面最精彩处在于右侧前景那株盘曲的古松——树干以干笔皴擦出粗糙的质感，松针则用细劲的墨线一簇簇点出，与后方淡墨渲染的远山形成虚实对比。这种处理既展示了画家的笔墨功底，也引导视线从近景的坚实走向远景的空灵。",
+        "然而，这种娴熟也带来了某种乏味。山石的堆叠方式过于规整，瀑布与屋舍的布局像是按图索骥的拼贴，缺乏对自然真景的敏锐观察。云谷派后期往往陷入这种「熟练的平庸」，技法完美却少了雪舟等早期大师那种撼人的生命力。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-137931",
+      "source": "cma",
+      "sourceId": "137931",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.61.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The handmaiden again appeals for justice and the prince is led to the place of execution for the third time, from a Tuti-nama (Tales of a Parrot): Eighth Night",
+      "title_zh": "侍女再次伸冤，王子第三次被押赴刑场（出自《鹦鹉故事》第八夜）",
+      "artist_en": "Gujarati (Indian, active 1550s-1590s)",
+      "artist_zh": "古吉拉特画派",
+      "artist_id": "gujarati-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550 年代–1590 年代",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Painting only: 12.1 x 9.9 cm (4 3/4 x 3 7/8 in.); Overall: 20 x 13.4 cm (7 7/8 x 5 1/4 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "正义",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.61.b/1962.279.61.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.61.b/1962.279.61.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.61.b/1962.279.61.b_web.jpg",
+        "ratio": 1.612
+      },
+      "palette": [
+        "#c8b392",
+        "#90836a"
+      ],
+      "essay": [
+        "这幅作品出自 16 世纪古吉拉特画派，是莫卧儿细密画早期的典型代表。作为《鹦鹉故事》手稿插图，它展示了印度本土传统与波斯技法的融合。在莫卧儿宫廷艺术确立宏大叙事风格之前，这类作品以独特的平面装饰性，记录了民间文学与宫廷审美的交汇。",
+        "画面被分割为上下两个时空：上方是金碧辉煌的宫廷，王子手势夸张；下方是开阔的草地刑场。右下角的行刑者尤为精彩——画家仅用几笔就勾勒出他回头张望的动态，肩扛圆盾与手中长矛形成稳定三角。这种举重若轻的线条，正是古吉拉特画派区别于后期严谨写实风格的最大特征。",
+        "尽管题材涉及生死攸关的“正义”与“行刑”，画面却缺乏应有的紧张感。上方人物面容如出一辙的平静，甚至带着程式化的微笑，仿佛这并非生离死别，而是一场排演好的舞台剧。这种情感上的抽离，既是细密画追求装饰秩序的代价，也暴露了早期画师处理复杂戏剧冲突时表现力的稚嫩。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.72,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-97743",
+      "source": "cma",
+      "sourceId": "97743",
+      "sourceUrl": "https://clevelandart.org/art/1917.376",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Segawa Michinosuke Wearing a Padded Plaid Robe",
+      "title_zh": "穿格纹棉袍的濑川路之助",
+      "artist_en": "Utagawa Toyokuni (Japanese, 1769–1825)",
+      "artist_zh": "歌川丰国",
+      "artist_id": "utagawa-toyokuni-japanese-1769-1825",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1769–1825",
+      "date_display": "c. 1805",
+      "year": 1805,
+      "medium_zh": "彩色木刻版画",
+      "dimensions": "Sheet: 38.4 x 23.8 cm (15 1/8 x 9 3/8 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "演员",
+        "歌舞伎"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1917.376/1917.376_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1917.376/1917.376_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1917.376/1917.376_web.jpg",
+        "ratio": 1.523
+      },
+      "palette": [
+        "#baaa93",
+        "#8b7462"
+      ],
+      "essay": [
+        "歌川丰国是江户时代浮世绘的巨匠，以捕捉歌舞伎演员的神韵著称。这幅作品约作于 1805 年，正值其创作盛期。画中主角濑川路之助是当时的名角，丰国通过这幅半身像，确立了他在舞台之外的另一种经典形象。",
+        "画面最精彩处在于对格纹的处理——红白相间的菱形图案在棉袍上随身体扭转而变形，线条流畅且富有弹性。丰国用粗黑的轮廓线锁住衣摆的动态，这种夸张的几何感展示了布料的厚度，同时暗示了演员转身时的瞬间张力。",
+        "但这幅画并非完全写实。演员的面部被处理得过于平滑与理想化，缺乏舞台妆容的粗砺感，甚至带有一丝女性化的柔美。这种将男演员“美化”的倾向，是当时浮世绘为了迎合市民审美而做出的妥协，牺牲了部分戏剧的真实感。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-111621",
+      "source": "cma",
+      "sourceId": "111621",
+      "sourceUrl": "https://clevelandart.org/art/1930.173",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Onoe Kikugorō I as Izumi no Saburō in the Play Snowflakes: Plum Blossoms Kaomise",
+      "title_zh": "《雪花：梅花颜见世》中的尾上菊五郎一世饰演泉三郎",
+      "artist_en": "Ippitsusai Bunchō (Japanese, active c. 1765–92)",
+      "artist_zh": "一笔斋文调",
+      "artist_id": "ippitsusai-buncho-japanese-active-c-1765-92",
+      "artist_nationality_zh": "日本",
+      "artist_years": "活跃于 1765–1792",
+      "date_display": "1769",
+      "year": 1769,
+      "medium_zh": "彩色木刻版画",
+      "dimensions": "Sheet: 30.6 x 14 cm (12 1/16 x 5 1/2 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "役者绘",
+        "歌舞伎",
+        "18世纪",
+        "江户",
+        "戏剧"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1930.173/1930.173_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1930.173/1930.173_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1930.173/1930.173_web.jpg",
+        "ratio": 2.069
+      },
+      "palette": [
+        "#b4a382",
+        "#8f6345"
+      ],
+      "essay": [
+        "作为江户时代早期的浮世绘大师，一笔斋文调是役者绘（演员画）的奠基人之一。这幅作于 1769 年的作品，记录了著名歌舞伎演员尾上菊五郎一世的舞台瞬间。在胜川春章确立写实风格之前，文调这种略带程式化、强调姿态韵律的画风，定义了当时观众对舞台明星的视觉记忆。",
+        "画面最耐看的是演员的面部表情与肢体张力。文调没有追求解剖学的精准，而是用夸张的“隈取”妆容和凝滞的眼神传达戏剧冲突。注意看演员左手微翘的兰花指与右膝跪地的姿态，这种非自然的定格，精准捕捉了歌舞伎表演中“见得”（亮相）时的静止美感。",
+        "必须承认，文调的技法在此时仍显古朴。相比后来歌麿笔下细腻的肌肤质感，此作的人物面部略显扁平，缺乏立体光影的塑造。背景中梅枝与格窗的透视关系也较为生硬，带有明显的装饰平面感。但这恰恰保留了早期浮世绘那种稚拙而有力的版画刀味。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.28,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-137935",
+      "source": "cma",
+      "sourceId": "137935",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.63.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The handmaiden appeals for justice and the prince is taken to the execution site for the fourth time, from a Tuti-nama (Tales of a Parrot): Eighth Night",
+      "title_zh": "侍女伸冤与王子受刑（《鹦鹉故事》第八夜）",
+      "artist_en": "Tara 2 (Indian, active 1550s-1590s)",
+      "artist_zh": "塔拉二世",
+      "artist_id": "tara-2-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550s–1590s",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Painting only: 16.6 x 10 cm (6 9/16 x 3 15/16 in.); Overall: 20 x 14.4 cm (7 7/8 x 5 11/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷",
+        "处刑"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.63.b/1962.279.63.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.63.b/1962.279.63.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.63.b/1962.279.63.b_web.jpg",
+        "ratio": 1.6
+      },
+      "palette": [
+        "#877066",
+        "#ab997e"
+      ],
+      "essay": [
+        "这幅作品出自 16 世纪莫卧儿宫廷画师塔拉二世之手，是《鹦鹉故事》手抄本插图之一。作为阿克巴大帝时期的宫廷画家，塔拉二世以细腻的叙事能力和对人物心理的刻画著称。此作处于莫卧儿细密画从波斯风格向本土化过渡的关键阶段，展现了早期莫卧儿绘画对空间与情节的独特处理。",
+        "画面采用上下分层的叙事结构：上层是宫廷内的戏剧性对峙，侍女跪地陈情，王子惊愕抬手；下层则是行刑现场的肃杀。最值得玩味的是下层右侧的行刑者——他肩扛弯刀，眼神却并未看向跪地的囚犯，而是望向画外。这种「不在场」的冷漠，与上层激烈的肢体语言形成鲜明对比，暗示了权力的冷酷与无常。",
+        "尽管构图精巧，但人物面部表情的程式化削弱了情感的冲击力。无论是惊恐的王子还是悲愤的侍女，五官描绘都趋于雷同，缺乏个体特征。这种「千人一面」是早期莫卧儿细密画的通病，画师更关注服饰纹样与金箔装饰的华丽，而非人物内心的真实流露。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.75,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-74644",
+      "source": "cma",
+      "sourceId": "74644",
+      "sourceUrl": "https://clevelandart.org/art/2015.448",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Street Scene (recto); Sketches (verso)",
+      "title_zh": "街景（正面）；素描（背面）",
+      "artist_en": "Gustave Doré (French, 1832–1883)",
+      "artist_zh": "古斯塔夫·多雷",
+      "artist_id": "gustave-dore-french-1832-1883",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1832–1883",
+      "date_display": "c. 1848–49",
+      "year": 1848,
+      "medium_zh": "纸上钢笔、棕色墨水、灰色水彩及白色高光",
+      "dimensions": "Sheet: 25.2 x 40.4 cm (9 15/16 x 15 7/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "街景",
+        "19世纪",
+        "法国",
+        "素描",
+        "速写",
+        "马车"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.448/2015.448_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.448/2015.448_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.448/2015.448_web.jpg",
+        "ratio": 1.241
+      },
+      "palette": [
+        "#928f7d",
+        "#bdb9a3"
+      ],
+      "essay": [
+        "这是多雷十六七岁时的习作，早于他那些宏大的圣经插图与但丁版画。此时的他尚未确立个人风格，正通过大量街头速写磨练观察力。这幅作品虽显稚嫩，却已显露出他对复杂人群动态的捕捉天赋，是理解这位“插画之王”起步阶段的重要切片。",
+        "画面最精彩处在于马车与人群的互动。注意看马车右侧那个奔跑的男孩，多雷用极少的几笔淡墨就勾勒出了他前倾的动态和急切的神态。这种对瞬间动势的把握，比周围那些略显僵硬的站立人群要生动得多，展现了少年画家敏锐的直觉。",
+        "作为早期作品，其局限性也显而易见。为了填满扇形构图，左侧人群显得过于拥挤且缺乏呼吸感，部分人物面部处理雷同，像是为了凑数而添加的符号。这种“填满画面”的冲动，预示了他日后插画中那种令人窒息的繁复风格，既是才华也是负担。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.48,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-159402",
+      "source": "cma",
+      "sourceId": "159402",
+      "sourceUrl": "https://clevelandart.org/art/1996.223",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Elisha Cursing the Children of Bethel Who Are Being Devoured by the Bears",
+      "title_zh": "以利沙诅咒伯特利的孩童",
+      "artist_en": "Nicolaes de Bruyn (Netherlandish, 1571–1656)",
+      "artist_zh": "尼古拉斯·德·布鲁因",
+      "artist_id": "nicolaes-de-bruyn-netherlandish-1571-1656",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1571–1656",
+      "date_display": "1602",
+      "year": 1602,
+      "medium_zh": "铜版画",
+      "dimensions": "Platemark: 46.5 x 58.7 cm (18 5/16 x 23 1/8 in.); Sheet: 47.4 x 59.9 cm (18 11/16 x 23 9/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "风景",
+        "17世纪",
+        "尼德兰",
+        "叙事画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1996.223/1996.223_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1996.223/1996.223_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1996.223/1996.223_web.jpg",
+        "ratio": 0.784
+      },
+      "palette": [
+        "#7e766d",
+        "#bcb3a7"
+      ],
+      "essay": [
+        "尼古拉斯·德·布鲁因是 17 世纪初尼德兰版画界的重要人物，以宏大的叙事构图和精细的刀法著称。这幅作于 1602 年的铜版画，取材自《列王纪下》中先知以利沙的著名神迹。在艺术史上，这类作品展示了北方文艺复兴向巴洛克过渡时期，艺术家如何将宗教叙事与日益独立的风景画传统相结合。",
+        "画面最精彩之处在于前景左侧的戏剧性冲突：两只巨熊正撕咬顽童，先知以利沙背对观众，姿态肃穆。铜版画的线条在此处极为密集，通过交叉排线营造出熊毛皮的粗糙质感与肌肉的张力。这种对暴力瞬间的刻画，与远处宁静的田园风光形成了强烈的视觉反差。",
+        "然而，这幅画也暴露了当时历史画的通病：为了展示风景画的技巧，宗教故事的严肃性被稀释了。观者的目光极易被中景精致的磨坊、蜿蜒的河流和远处的城堡吸引，而忽略了前景中残酷的神罚。这种「借圣经之名行风景之实」的做法，虽满足了收藏家对宏大场景的喜好，却削弱了叙事的道德冲击力。",
+        "尽管如此，德·布鲁因对空间深度的处理依然令人印象深刻，从前景的暗部到远景的明亮大气透视，展现了当时尼德兰版画极高的工艺水准。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
         "cy": 0.78,
         "r": 0.15
       }
     },
     {
-      "id": "cma-143860",
+      "id": "cma-110378",
       "source": "cma",
-      "sourceId": "143860",
-      "sourceUrl": "https://clevelandart.org/art/1968.260.j",
+      "sourceId": "110378",
+      "sourceUrl": "https://clevelandart.org/art/1928.94",
       "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "The Book of Job:  Pl. 9, Then a Spirit passed before my face / the hair of my flesh stood up",
-      "title_zh": "约伯记：灵从我面前经过，我身毫毛直立",
-      "artist_en": "William Blake (British, 1757–1827)",
-      "artist_zh": "威廉·布莱克",
-      "artist_id": "william-blake-british-1757-1827",
-      "artist_nationality_zh": "英国",
-      "artist_years": "1757–1827",
-      "date_display": "1825",
-      "year": 1825,
-      "medium_zh": "铜版画",
-      "dimensions": "",
-      "movement_zh": "浪漫主义",
-      "tags": [
-        "宗教",
-        "19世纪",
-        "英国",
-        "版画",
-        "插画",
-        "圣经"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1968.260.j/1968.260.j_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1968.260.j/1968.260.j_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1968.260.j/1968.260.j_web.jpg",
-        "ratio": 1.235
-      },
-      "palette": [
-        "#d6d4bb",
-        "#838270"
-      ],
-      "essay": [
-        "威廉·布莱克是英国浪漫主义先驱，也是艺术史上罕见的“诗画双修”者。这套《约伯记》版画是他晚年的集大成之作，试图用图像重释圣经文本。此作位于组画第九帧，描绘约伯在极度苦难中遭遇神性显现的惊悚瞬间，标志着他从早期的反叛转向对神义论的深沉内省。",
-        "画面最精彩处在于对“不可见之物”的刻画。注意看中央那团被强光包裹的灵体——布莱克没有画出具体的五官或形态，而是用放射状的排线制造出一种令人窒息的压迫感。这种处理让观者能直观感受到约伯口中“身毫毛直立”的生理战栗，光线在这里既是照明，也是神威的实体化。",
-        "但这幅画也暴露了布莱克的一贯局限：人物造型过于舞台化。下方跪拜的约伯与其友人的姿态夸张且雷同，像是为了配合文本而摆出的戏剧造型，缺乏真实肉体的重量感。这种对精神性的过度追求，往往牺牲了画面的自然生机，让神圣场景显得有些像精心编排的哑剧。"
-      ],
-      "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.35,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-143664",
-      "source": "cma",
-      "sourceId": "143664",
-      "sourceUrl": "https://clevelandart.org/art/1968.118",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "The Fountains of Rome (Le fontane di Roma), Book IV, plate 27: View of the Principal Cascade of the River Aniene in the City of Tivoli (Veduta della Cascata Principale del Fiume Aniene nelle citta di Tivoli)",
-      "title_zh": "蒂沃利阿涅内河大瀑布景观",
-      "artist_en": "Giovanni Francesco Venturini (Italian, 1650–1710)",
-      "artist_zh": "乔瓦尼·弗朗切斯科·文图里尼",
-      "artist_id": "giovanni-francesco-venturini-italian-1650-1710",
-      "artist_nationality_zh": "意大利",
-      "artist_years": "1650–1710",
-      "date_display": "1676–1700",
-      "year": 1688,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "Sheet: 33.1 x 47.5 cm (13 1/16 x 18 11/16 in.); Image: 22.5 x 34.2 cm (8 7/8 x 13 7/16 in.)",
-      "movement_zh": "巴洛克",
-      "tags": [
-        "风景",
-        "瀑布",
-        "17世纪",
-        "意大利",
-        "蚀刻版画",
-        "罗马"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1968.118/1968.118_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1968.118/1968.118_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1968.118/1968.118_web.jpg",
-        "ratio": 0.701
-      },
-      "palette": [
-        "#d1cec4",
-        "#817f76"
-      ],
-      "essay": [
-        "文图里尼是 17 世纪罗马蚀刻版画的重要代表，以记录罗马及其周边的古迹与风景闻名。这幅作品出自其《罗马喷泉》系列，展现了蒂沃利阿涅内河大瀑布的壮丽景象，体现了巴洛克时期对自然景观的宏大描绘。",
-        "画面中，瀑布的水流通过细腻的线条表现得栩栩如生，水花飞溅的动态感跃然纸上。左侧的建筑与右侧的城镇形成对比，前景中的人物活动为画面增添了生活气息。",
-        "尽管画面整体气势恢宏，但文图里尼对细节的处理略显程式化，尤其是人物的姿态和服饰，缺乏个性化的表现。这种处理方式反映了当时版画制作的商业化倾向，使得作品在艺术表现上略显不足。"
-      ],
-      "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.6,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-149312",
-      "source": "cma",
-      "sourceId": "149312",
-      "sourceUrl": "https://clevelandart.org/art/1978.136.14",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Views of Venice:  Piazzetta S. Basso",
-      "title_zh": "威尼斯景观：圣巴索广场",
-      "artist_en": "Michele Marieschi (Italian, 1710–1743)",
-      "artist_zh": "米凯莱·马里耶斯基",
-      "artist_id": "michele-marieschi-italian-1710-1743",
-      "artist_nationality_zh": "意大利",
-      "artist_years": "1710–1743",
-      "date_display": "1741",
-      "year": 1741,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "",
-      "movement_zh": "威尼斯画派",
-      "tags": [
-        "城市景观",
-        "威尼斯",
-        "18世纪",
-        "蚀刻版画",
-        "建筑"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1978.136.14/1978.136.14_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1978.136.14/1978.136.14_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1978.136.14/1978.136.14_web.jpg",
-        "ratio": 0.714
-      },
-      "palette": [
-        "#cbc0b0",
-        "#766e63"
-      ],
-      "essay": [
-        "米凯莱·马里耶斯基是 18 世纪威尼斯著名的景观画家与版画家，与卡纳莱托和瓜尔迪齐名。这幅作于 1741 年的蚀刻版画，记录了他眼中圣马可广场一角的日常。不同于卡纳莱托那种近乎工程图纸般的严谨透视，马里耶斯基的威尼斯更具生活气息，少了一份冷峻的秩序，多了一份市井的喧嚣。",
-        "画面右侧的建筑工地是整幅作品的视觉趣味点。脚手架杂乱地交织在一起，与左侧圣马可大教堂繁复完美的哥特式尖顶形成强烈反差。这种对“未完成”状态的直白记录，在当时的旅游纪念品市场中并不多见。艺术家没有刻意回避施工中的凌乱，反而用细密的排线强化了木材的粗糙质感。",
-        "不过，画中人物的处理略显程式化。前景中那些身着长袍、三五成群的人物，虽然姿态各异，但面部特征模糊，更像是为了填充空间而设置的符号，缺乏肖像画般的个性深度。这种“有人无面”的处理，是当时风景版画为了兼顾宏大场景与制作效率而做出的妥协。",
-        "尽管人物刻画稍显单薄，但马里耶斯基对光线和空气感的捕捉依然敏锐。远处海面上泛起的微光与近处建筑投下的阴影，共同构建了一个真实可感的威尼斯午后。"
-      ],
-      "detailCrop": {
-        "cx": 0.82,
-        "cy": 0.35,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-153490",
-      "source": "cma",
-      "sourceId": "153490",
-      "sourceUrl": "https://clevelandart.org/art/1987.1064",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Pastilles Poncelet",
-      "title_zh": "庞斯莱喉糖",
-      "artist_en": "Jules Chéret (French, 1836–1932)",
-      "artist_zh": "朱尔·谢雷",
-      "artist_id": "jules-cheret-french-1836-1932",
-      "artist_nationality_zh": "法国",
-      "artist_years": "1836–1932",
-      "date_display": "1896",
-      "year": 1896,
-      "medium_zh": "彩色石版画",
-      "dimensions": "Framed: 127.3 x 92.4 cm (50 1/8 x 36 3/8 in.)",
-      "movement_zh": "新艺术运动",
-      "tags": [
-        "海报",
-        "广告",
-        "19世纪",
-        "法国",
-        "女性形象"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1987.1064/1987.1064_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1987.1064/1987.1064_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1987.1064/1987.1064_web.jpg",
-        "ratio": 1.378
-      },
-      "palette": [
-        "#a89981",
-        "#63453d"
-      ],
-      "essay": [
-        "朱尔·谢雷被誉为“现代海报之父”，他将石版印刷从单纯的复制技术提升为独立的艺术形式。这幅作于 1896 年的《庞斯莱喉糖》处于其职业生涯的成熟期，展示了他在商业委托中如何平衡艺术表达与推销功能。",
-        "画面最精彩之处在于对动态的捕捉：狂风卷起红裙与阳伞，雨丝斜切过深色背景。谢雷用极少的笔触勾勒出女子在风中护住咽喉的动作，既点明了药品的治疗部位，又让原本狼狈的避雨场景显得轻盈优雅。",
-        "作为一张药品广告，它刻意回避了疾病的痛苦联想。画中女子面色红润、妆容精致，即便在暴雨中也不失体面——这种将“治病”包装成“时尚生活”的手法，是当时商业美术的典型策略，虽略显粉饰，却极具说服力。"
-      ],
-      "detailCrop": {
-        "cx": 0.52,
-        "cy": 0.38,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-154629",
-      "source": "cma",
-      "sourceId": "154629",
-      "sourceUrl": "https://clevelandart.org/art/1989.235.b",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Fragment of an Arch (tracing from recto) (verso)",
-      "title_zh": "拱门残片（背面）",
-      "artist_en": "Andrea Locatelli (Italian, 1695–1741)",
-      "artist_zh": "安德烈亚·洛卡泰利",
-      "artist_id": "andrea-locatelli-italian-1695-1741",
-      "artist_nationality_zh": "意大利",
-      "artist_years": "1695–1741",
-      "date_display": "first half 1700s",
-      "year": 1700,
-      "medium_zh": "纸上黑粉笔",
-      "dimensions": "Sheet: 32.1 x 16.9 cm (12 5/8 x 6 5/8 in.)",
-      "movement_zh": "巴洛克",
-      "tags": [
-        "建筑草图",
-        "18世纪",
-        "意大利",
-        "纸上作品",
-        "考古"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1989.235.b/1989.235.b_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1989.235.b/1989.235.b_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1989.235.b/1989.235.b_web.jpg",
-        "ratio": 1.904
-      },
-      "palette": [
-        "#e4d3bb",
-        "#dbc4a8"
-      ],
-      "essay": [
-        "安德烈亚·洛卡泰利是 18 世纪罗马画派的重要人物，以描绘古典废墟与田园风光著称。这幅作品并非独立画作，而是画稿背面的建筑速写。它揭示了画家在构思宏大风景画之前的准备工作，展示了当时艺术家对古罗马遗迹的痴迷与记录方式。",
-        "画面主体是一个被岁月侵蚀的拱门轮廓，线条虽淡却极肯定。最值得玩味的是顶部那道深色的弧线，笔触粗砺且带有涂抹感，与下方纤细的辅助线形成鲜明对比。这种轻重缓急的处理，暗示了画家在捕捉光影投射在残垣断壁上时的瞬间直觉。",
-        "作为一张功能性草图，它显得过于克制甚至枯燥。洛卡泰利惯用的那种充满戏剧性光线的巴洛克氛围在此缺席，只剩下冷静的几何结构。这种‘去情感化’的测绘式画法，虽然缺乏视觉冲击力，却诚实地反映了 18 世纪艺术家面对古迹时那种近乎考古学家的严谨态度。"
-      ],
-      "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.15,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-156137",
-      "source": "cma",
-      "sourceId": "156137",
-      "sourceUrl": "https://clevelandart.org/art/1991.64.1",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Frontispiece from \"Prospectus Locurum Urbis Romae Insign[ium]\"",
-      "title_zh": "《罗马名胜图景》扉页",
-      "artist_en": "Lievin Cruyl (Flemish, c. 1640-c. 1720)",
-      "artist_zh": "利文·克鲁伊尔",
-      "artist_id": "lievin-cruyl-flemish-c-1640-c-1720",
-      "artist_nationality_zh": "佛兰德斯",
-      "artist_years": "约 1640–约 1720",
-      "date_display": "1666",
-      "year": 1666,
-      "medium_zh": "铜版画",
-      "dimensions": "",
-      "movement_zh": "巴洛克",
-      "tags": [
-        "建筑",
-        "罗马",
-        "17世纪",
-        "版画",
-        "城市景观"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1991.64.1/1991.64.1_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1991.64.1/1991.64.1_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1991.64.1/1991.64.1_web.jpg",
-        "ratio": 0.758
-      },
-      "palette": [
-        "#decfbf",
-        "#bbae9f"
-      ],
-      "essay": [
-        "利文·克鲁伊尔是 17 世纪佛兰德斯画家，以描绘罗马城市景观闻名。这幅作品是他 1666 年出版的《罗马名胜图景》系列版画的扉页，也是他艺术生涯中的重要代表作。作为巴洛克时期的艺术家，克鲁伊尔的作品融合了古典建筑的庄重与巴洛克艺术的繁复装饰，展现了他对罗马城市景观的独特理解。",
-        "画面中央是一座宏伟的纪念碑式建筑，顶部装饰着复杂的纹章和雕塑，象征着罗马的辉煌历史。纪念碑的基座上刻有拉丁文铭文，周围环绕着罗马的著名建筑，如圣彼得大教堂和古罗马遗迹。克鲁伊尔通过精细的线条和光影处理，展现了建筑的立体感和空间深度，尤其是纪念碑顶部的纹章细节，体现了他高超的版画技艺。",
-        "尽管克鲁伊尔的作品在技术上无可挑剔，但画面中的建筑布局略显理想化，部分建筑的透视关系并不完全符合现实。这种理想化的处理方式，可能是为了突出罗马作为古典文明中心的地位，但也让画面显得有些刻意。此外，画面右侧的拉丁文铭文虽然增添了学术气息，但对普通观众来说，可能显得有些晦涩难懂。"
-      ],
-      "detailCrop": {
-        "cx": 0.35,
-        "cy": 0.25,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-156143",
-      "source": "cma",
-      "sourceId": "156143",
-      "sourceUrl": "https://clevelandart.org/art/1991.64.6",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Piazza Navona from \"Prospectus Locurum Urbis Romae Insign[ium]",
-      "title_zh": "纳沃纳广场",
-      "artist_en": "Lievin Cruyl (Flemish, c. 1640-c. 1720)",
-      "artist_zh": "利文·克鲁伊尔",
-      "artist_id": "lievin-cruyl-flemish-c-1640-c-1720",
-      "artist_nationality_zh": "佛兰德斯",
-      "artist_years": "约 1640–约 1720",
-      "date_display": "1666",
-      "year": 1666,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "Sheet: 41.8 x 55.3 cm (16 7/16 x 21 3/4 in.); Platemark: 38.8 x 52.9 cm (15 1/4 x 20 13/16 in.); Secondary Support: 44.7 x 68.7 cm (17 5/8 x 27 1/16 in.)",
-      "movement_zh": "巴洛克",
-      "tags": [
-        "城市景观",
-        "罗马",
-        "17世纪",
-        "蚀刻版画",
-        "广场"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1991.64.6/1991.64.6_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1991.64.6/1991.64.6_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1991.64.6/1991.64.6_web.jpg",
-        "ratio": 0.746
-      },
-      "palette": [
-        "#e3d9cd",
-        "#b3a99c"
-      ],
-      "essay": [
-        "利文·克鲁伊尔是 17 世纪佛兰德斯画家，以描绘罗马城市景观闻名。这幅《纳沃纳广场》创作于 1666 年，是他“罗马名胜”系列作品之一，展现了巴洛克时期罗马的城市风貌。作为一位外来艺术家，克鲁伊尔对罗马的描绘既带有客观的观察，也融入了个人的艺术风格。",
-        "画面中，纳沃纳广场的布局清晰可见，中央的喷泉和方尖碑成为视觉焦点。克鲁伊尔通过细腻的线条和光影处理，生动地再现了广场上的繁忙景象，人物和马车穿梭其间，充满了生活气息。特别是喷泉周围的细节，水流的动态和人物的姿态都被刻画得栩栩如生。",
-        "尽管画面细节丰富，但克鲁伊尔对建筑的描绘略显理想化，部分建筑的透视关系并不完全准确。这种处理方式虽然增强了画面的美感，但也牺牲了一定的真实性。此外，人物的比例和动作有时显得过于夸张，缺乏自然感。"
-      ],
-      "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.5,
-        "r": 0.2
-      }
-    },
-    {
-      "id": "cma-160406",
-      "source": "cma",
-      "sourceId": "160406",
-      "sourceUrl": "https://clevelandart.org/art/1998.242",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "The Menpes Children",
-      "title_zh": "门佩斯家的孩子们",
-      "artist_en": "James McNeill Whistler (American, 1834–1903)",
-      "artist_zh": "詹姆斯·麦克尼尔·惠斯勒",
-      "artist_id": "james-mcneill-whistler-american-1834-1903",
+      "title_en": "Back of Firemen's Hall",
+      "title_zh": "消防局背面",
+      "artist_en": "Orville Houghton Peets (American, 1884–1968)",
+      "artist_zh": "奥维尔·霍顿·皮茨",
+      "artist_id": "orville-houghton-peets-american-1884-1968",
       "artist_nationality_zh": "美国",
-      "artist_years": "1834–1903",
-      "date_display": "1887",
-      "year": 1887,
+      "artist_years": "1884–1968",
+      "date_display": "c. 1920s",
+      "year": 1920,
       "medium_zh": "蚀刻版画",
-      "dimensions": "Sheet: 16.7 x 19.2 cm (6 9/16 x 7 9/16 in.); Platemark: 6.7 x 10.1 cm (2 5/8 x 4 in.)",
-      "movement_zh": "唯美主义",
+      "dimensions": "Plate: 22.6 x 32.9 cm (8 7/8 x 12 15/16 in.)",
+      "movement_zh": "美国乡土主义",
       "tags": [
-        "儿童",
-        "蚀刻版画",
-        "19世纪",
+        "雪景",
+        "建筑",
+        "20世纪",
         "美国",
-        "速写"
+        "蚀刻"
       ],
       "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1998.242/1998.242_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1998.242/1998.242_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1998.242/1998.242_web.jpg",
-        "ratio": 0.684
+        "feed": "https://openaccess-cdn.clevelandart.org/1928.94/1928.94_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1928.94/1928.94_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1928.94/1928.94_web.jpg",
+        "ratio": 0.703
       },
       "palette": [
-        "#bcb1a2",
-        "#a19485"
+        "#e6ddcf",
+        "#6f6255"
       ],
       "essay": [
-        "惠斯勒在艺术史上以「为艺术而艺术」的唯美主义主张著称，但这幅蚀刻版画展示了他作为素描大师的另一面。作于 1887 年，此时他已不再执着于早期《夜曲》系列那种朦胧的色调实验，转而追求线条的精准与概括。这幅作品属于他晚年对日常生活瞬间的捕捉，技法上已臻化境。",
-        "画面左侧两个并坐的身影是视觉重心，惠斯勒用极少的线条就勾勒出了衣褶的垂坠感和人物的动态。请看局部放大的腿部与椅腿交界处，寥寥数笔交叉排线（hatching）交代了结构，同时制造出一种未完成的「速写感」。这种看似随意的留白，实则是为了引导观者用想象去补全画面。",
-        "必须指出，右侧站立的孩童与坐着的幼儿相比，显得略微单薄且比例有些失调，这或许是惠斯勒为了追求整体构图的疏密平衡而做出的牺牲。他并不在意解剖学的绝对准确，这种「不完整」恰恰是蚀刻版画的魅力所在——它记录的是一种印象，而非照片式的复刻。"
-      ],
-      "detailCrop": {
-        "cx": 0.38,
-        "cy": 0.62,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "cma-160620",
-      "source": "cma",
-      "sourceId": "160620",
-      "sourceUrl": "https://clevelandart.org/art/1998.393",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Henry Austin Dobson, No. 2",
-      "title_zh": "亨利·奥斯汀·多布森肖像，第二版",
-      "artist_en": "William Strang (British, 1859–1921)",
-      "artist_zh": "威廉·斯特兰",
-      "artist_id": "william-strang-british-1859-1921",
-      "artist_nationality_zh": "英国",
-      "artist_years": "1859–1921",
-      "date_display": "1894",
-      "year": 1894,
-      "medium_zh": "蚀刻版画",
-      "dimensions": "",
-      "movement_zh": "不详",
-      "tags": [
-        "肖像",
-        "19世纪",
-        "英国",
-        "版画",
-        "文人"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1998.393/1998.393_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1998.393/1998.393_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1998.393/1998.393_web.jpg",
-        "ratio": 1.478
-      },
-      "palette": [
-        "#b8b7b0",
-        "#93938d"
-      ],
-      "essay": [
-        "威廉·斯特兰是 19 世纪末英国版画复兴的关键人物，以蚀刻与干刻技法闻名。这幅作于 1894 年的肖像，描绘了当时著名的诗人与散文家亨利·奥斯汀·多布森。在斯特兰的版画生涯中，这类文人肖像占据重要地位，展现了他捕捉人物神韵的敏锐观察力。",
-        "画面最精彩处在于对头发与胡须的处理——斯特兰利用极细密的平行排线，构建出浓密而富有光泽的质感。这种技法在鬓角处尤为明显，线条顺着肌肉走向弯曲，既交代了体积，又保留了蚀刻特有的锐利边缘，让侧脸轮廓显得格外清晰。",
-        "作为一幅文人肖像，它过于强调轮廓的装饰性，牺牲了部分性格深度。多布森的眼神虽然望向远方，却略显空洞，缺乏与其文学成就相匹配的内在张力。这种‘漂亮的空壳’是当时许多肖像版画的通病，重技法展示而轻精神挖掘。",
-        "尽管如此，斯特兰对线条的绝对控制力仍令人印象深刻。他在衣领处仅用寥寥数笔便勾勒出挺括的形态，与面部繁复的排线形成疏密对比，展现了成熟版画家的构图自信。"
-      ],
-      "detailCrop": {
-        "cx": 0.58,
-        "cy": 0.35,
-        "r": 0.18
-      }
-    },
-    {
-      "id": "cma-137797",
-      "source": "cma",
-      "sourceId": "137797",
-      "sourceUrl": "https://clevelandart.org/art/1962.279.306.b",
-      "credit": "Cleveland Museum of Art, CC0",
-      "title_en": "Page from Tales of a Parrot (Tuti-nama): text page",
-      "title_zh": "《鹦鹉故事》书页",
-      "artist_en": "Unknown",
-      "artist_zh": "佚名",
-      "artist_id": "unknown",
-      "artist_nationality_zh": "印度",
-      "artist_years": "不详",
-      "date_display": "c. 1560",
-      "year": 1560,
-      "medium_zh": "纸本树胶水彩、墨水与金",
-      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.)",
-      "movement_zh": "莫卧儿细密画",
-      "tags": [
-        "手稿",
-        "16世纪",
-        "印度",
-        "细密画",
-        "叙事",
-        "书法"
-      ],
-      "image": {
-        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.306.b/1962.279.306.b_web.jpg",
-        "full": "https://openaccess-cdn.clevelandart.org/1962.279.306.b/1962.279.306.b_print.jpg",
-        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.306.b/1962.279.306.b_web.jpg",
-        "ratio": 1.538
-      },
-      "palette": [
-        "#c3b695",
-        "#af9e7e"
-      ],
-      "essay": [
-        "这是莫卧儿帝国阿克巴大帝时期的宫廷手稿残页，代表了波斯细密画传统与印度本土审美融合的关键节点。作为《鹦鹉故事》（Tuti-nama）的文本页，它展示了当时皇家画院（Kitabkhana）标准化生产的严谨面貌，是研究早期莫卧儿书法风格的重要样本。",
-        "画面完全由书法主导，黑色的纳斯塔利克体（Nasta'liq）在米色纸面上呈现出极强的流动感。最值得玩味的是字里行间的节奏控制——某些笔画被刻意拉长或压缩，形成视觉上的呼吸感，这种对空白的经营不亚于对墨色的运用。",
-        "尽管书法技艺精湛，但这页手稿缺乏同期绘画页那种华丽的边框装饰或插图点缀，显得相对朴素。这或许暗示了它在原书卷中的功能性定位，或是作坊中不同等级工匠的分工结果——文本抄写员与画师在宫廷中的地位显然有着微妙的高下之分。"
-      ],
-      "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.45,
-        "r": 0.15
-      }
-    },
-    {
-      "id": "met-438467",
-      "source": "met",
-      "sourceId": "438467",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438467",
-      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
-      "title_en": "The Birth and Naming of Saint John the Baptist; (reverse) Trompe-l'oeil with Painting of The Man of Sorrows",
-      "title_zh": "施洗者圣约翰的诞生与命名",
-      "artist_en": "Bernard van Orley",
-      "artist_zh": "贝尔纳·凡·奥利",
-      "artist_id": "bernard-van-orley",
-      "artist_nationality_zh": "佛兰德斯",
-      "artist_years": "1487/92–1541",
-      "date_display": "ca. 1514–15",
-      "year": 1514,
-      "medium_zh": "木板油画",
-      "dimensions": "25 × 30 in. (63.5 × 76.2 cm)",
-      "movement_zh": "北方文艺复兴",
-      "tags": [
-        "宗教",
-        "16世纪",
-        "佛兰德斯",
-        "人物",
-        "油画",
-        "叙事"
-      ],
-      "image": {
-        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136254.jpg",
-        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP136254.jpg",
-        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136254.jpg",
-        "ratio": 0.876
-      },
-      "palette": [
-        "#35251e",
-        "#84705d"
-      ],
-      "essay": [
-        "作为布鲁塞尔宫廷画师，凡·奥利是北方文艺复兴的关键人物，他成功将意大利的宏大构图与佛兰德斯的精细写实相融合。这幅约作于 1515 年的作品，展示了他在处理复杂多人物场景时的成熟掌控力，是其早期将意大利式空间感引入本土传统的典型尝试。",
-        "画面被石柱巧妙分割为内外两个时空：前景是产后休养与命名仪式，背景则是父亲在圣殿书写名字的瞬间。最值得玩味的是前景左侧那位身着银白绸缎的女子，其衣褶的堆叠处理极具雕塑感，光泽流转间展现了画家对材质惊人的还原能力，与右侧深红帷幔形成强烈的质感对比。",
-        "尽管画家极力营造透视深度，但左侧庭院的孔雀与人物比例略显失调，仿佛是为了填充空间而强行置入的符号。这种对繁复细节的过度迷恋，有时会让叙事节奏显得拥挤，削弱了宗教题材应有的庄重与空灵，暴露出北方画派在消化意大利透视法时的生涩。"
-      ],
-      "detailCrop": {
-        "cx": 0.48,
-        "cy": 0.65,
-        "r": 0.18
-      }
-    },
-    {
-      "id": "met-437368",
-      "source": "met",
-      "sourceId": "437368",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437368",
-      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
-      "title_en": "Holy Family with an Angel",
-      "title_zh": "圣家族与天使",
-      "artist_en": "Raffaellino del Garbo (also known as Raffaelle de' Capponi and Raffaelle de' Carli)",
-      "artist_zh": "拉法埃利诺·德尔·加尔博",
-      "artist_id": "raffaellino-del-garbo-also-known-as-raffaelle-de-capponi-and-raffaelle-de-carli",
-      "artist_nationality_zh": "意大利",
-      "artist_years": "1466–1524",
-      "date_display": "ca. 1490",
-      "year": 1490,
-      "medium_zh": "木板坦培拉（后转绘于布面）",
-      "dimensions": "22 x 15 in. (55.9 x 38.1 cm)",
-      "movement_zh": "文艺复兴",
-      "tags": [
-        "宗教",
-        "15世纪",
-        "意大利",
-        "人物",
-        "圣母",
-        "圣约瑟"
-      ],
-      "image": {
-        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15089-001.jpg",
-        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-15089-001.jpg",
-        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15089-001.jpg",
-        "ratio": 1.434
-      },
-      "palette": [
-        "#413932",
-        "#676762"
-      ],
-      "essay": [
-        "拉法埃利诺·德尔·加尔博是佛罗伦萨画派承前启后的关键人物，师从波提切利，却比老师更早拥抱了 16 世纪的宏大叙事。这幅作于 1490 年前后的圣像画，正处于他从早期精细风格向盛期文艺复兴庄重感过渡的阶段。画面虽保留了 15 世纪对线条的迷恋，但人物体积感的塑造已显露出新时代的野心。",
-        "最耐人寻味的是圣母右臂的处理——衣袖下隐约透出的手臂轮廓，显示出画家试图在厚重织物下表现人体结构的努力。这种“透明感”并非透视失误，而是坦培拉技法层层罩染留下的痕迹。背景中残破的古典柱廊与远处青蓝色的山峦，构成了典型的佛罗伦萨式风景，将神圣场景置于可感知的现实空间中。",
-        "然而，这种过渡期的探索也带来了视觉上的割裂感。圣约瑟的面部刻画过于苍老且神情游离，与圣母理想化的柔美面容缺乏情感上的呼应；左侧天使的红色衣袍色彩虽艳丽，却略显生硬，未能完全融入整体色调。这种人物间气质与技法的微妙的不协调，正是画家在个人风格确立前留下的真实印记。"
+        "奥维尔·皮茨是 20 世纪初美国乡土主义版画运动的活跃人物，擅长以蚀刻技法记录新英格兰地区的日常景观。这幅作于 1920 年代的作品，避开了宏大的城市叙事，转而聚焦于消防局后巷这一被忽视的角落，体现了当时艺术家对本土平凡题材的审美自觉。",
+        "画面最精彩处在于前景那条蜿蜒的深色水沟。皮茨利用蚀刻针在铜板上留下的粗犷线条，制造出近乎墨汁般浓重的黑色块，与周围大面积留白的积雪形成强烈反差。这种处理不仅确立了画面的视觉重心，也精准传达了冬日融雪时泥泞湿冷的触感。",
+        "尽管构图稳健，但右侧远景中的教堂尖塔与房屋处理得略显仓促，线条密度骤减，导致空间纵深感在远处有些塌陷。这种前紧后松的布局或许是有意为之的虚实处理，但也暴露了画家在平衡复杂场景时的力不从心，让画面止步于优秀的习作而非完美的杰作。"
       ],
       "detailCrop": {
         "cx": 0.52,
-        "cy": 0.58,
-        "r": 0.12
+        "cy": 0.78,
+        "r": 0.15
       }
     }
   ]
