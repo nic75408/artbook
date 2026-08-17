@@ -2682,6 +2682,409 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2010.651/2010.651_web.jpg",
       "ratio": 1.578
+    },
+    {
+      "id": "cma-137834",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉故事》书页",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "手抄本",
+        "书法",
+        "16世纪",
+        "印度",
+        "伊斯兰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.324.a/1962.279.324.a_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-137906",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉故事》书页",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "书法",
+        "手抄本",
+        "16世纪",
+        "印度",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.50.a/1962.279.50.a_web.jpg",
+      "ratio": 1.607
+    },
+    {
+      "id": "cma-137941",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉故事》书页",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "书法",
+        "手抄本",
+        "16世纪",
+        "印度",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.66.b/1962.279.66.b_web.jpg",
+      "ratio": 1.556
+    },
+    {
+      "id": "cma-156794",
+      "issue": "2026-08-17",
+      "t": "虾僧",
+      "a": "俵屋宗达",
+      "aid": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "y": 1620,
+      "mv": "琳派",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "水墨",
+        "禅意",
+        "幽默"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.388/1992.388_web.jpg",
+      "ratio": 2.557
+    },
+    {
+      "id": "cma-139718",
+      "issue": "2026-08-17",
+      "t": "儿童习作（两个小女孩）；两只狗；一个男人",
+      "a": "乔治·莫兰",
+      "aid": "george-morland-british-1763-1804",
+      "y": 1793,
+      "mv": "英国风俗画",
+      "tags": [
+        "风俗画",
+        "动物",
+        "儿童",
+        "18世纪",
+        "英国",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.493/1963.493_web.jpg",
+      "ratio": 0.728
+    },
+    {
+      "id": "cma-140125",
+      "issue": "2026-08-17",
+      "t": "辛塔克斯牧师在约克赛马场输钱",
+      "a": "托马斯·罗兰森",
+      "aid": "thomas-rowlandson-british-1756-1827",
+      "y": null,
+      "mv": "讽刺画",
+      "tags": [
+        "赛马",
+        "讽刺",
+        "18世纪",
+        "英国",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.13/1964.13_web.jpg",
+      "ratio": 0.579
+    },
+    {
+      "id": "cma-140159",
+      "issue": "2026-08-17",
+      "t": "菊花图",
+      "a": "北川宗雪",
+      "aid": "kitagawa-sosetsu-japanese-active-1639-50",
+      "y": 1600,
+      "mv": "琳派",
+      "tags": [
+        "花卉",
+        "17世纪",
+        "日本",
+        "琳派",
+        "水墨设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.159/1964.159_web.jpg",
+      "ratio": 2.266
+    },
+    {
+      "id": "cma-142337",
+      "issue": "2026-08-17",
+      "t": "迈耶 - 海因",
+      "a": "费利克斯·布拉克蒙",
+      "aid": "felix-bracquemond-french-1833-1914",
+      "y": 1872,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "风景",
+        "19世纪",
+        "法国",
+        "蚀刻"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.163/1966.163_web.jpg",
+      "ratio": 0.869
+    },
+    {
+      "id": "cma-142380",
+      "issue": "2026-08-17",
+      "t": "生命的早晨",
+      "a": "塞缪尔·帕尔默",
+      "aid": "samuel-palmer-british-1805-1881",
+      "y": 1860,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "田园",
+        "19世纪",
+        "英国",
+        "蚀刻版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.196/1966.196_web.jpg",
+      "ratio": 0.699
+    },
+    {
+      "id": "cma-142633",
+      "issue": "2026-08-17",
+      "t": "站立的年轻女子",
+      "a": "奥拉斯·韦尔内",
+      "aid": "horace-vernet-french-1789-1863",
+      "y": 1800,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "时尚",
+        "19世纪",
+        "法国",
+        "石版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.359/1966.359_web.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "cma-143860",
+      "issue": "2026-08-17",
+      "t": "约伯记：灵从我面前经过，我身毫毛直立",
+      "a": "威廉·布莱克",
+      "aid": "william-blake-british-1757-1827",
+      "y": 1825,
+      "mv": "浪漫主义",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "英国",
+        "版画",
+        "插画",
+        "圣经"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.260.j/1968.260.j_web.jpg",
+      "ratio": 1.235
+    },
+    {
+      "id": "cma-143664",
+      "issue": "2026-08-17",
+      "t": "蒂沃利阿涅内河大瀑布景观",
+      "a": "乔瓦尼·弗朗切斯科·文图里尼",
+      "aid": "giovanni-francesco-venturini-italian-1650-1710",
+      "y": 1688,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "瀑布",
+        "17世纪",
+        "意大利",
+        "蚀刻版画",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.118/1968.118_web.jpg",
+      "ratio": 0.701
+    },
+    {
+      "id": "cma-149312",
+      "issue": "2026-08-17",
+      "t": "威尼斯景观：圣巴索广场",
+      "a": "米凯莱·马里耶斯基",
+      "aid": "michele-marieschi-italian-1710-1743",
+      "y": 1741,
+      "mv": "威尼斯画派",
+      "tags": [
+        "城市景观",
+        "威尼斯",
+        "18世纪",
+        "蚀刻版画",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.136.14/1978.136.14_web.jpg",
+      "ratio": 0.714
+    },
+    {
+      "id": "cma-153490",
+      "issue": "2026-08-17",
+      "t": "庞斯莱喉糖",
+      "a": "朱尔·谢雷",
+      "aid": "jules-cheret-french-1836-1932",
+      "y": 1896,
+      "mv": "新艺术运动",
+      "tags": [
+        "海报",
+        "广告",
+        "19世纪",
+        "法国",
+        "女性形象"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.1064/1987.1064_web.jpg",
+      "ratio": 1.378
+    },
+    {
+      "id": "cma-154629",
+      "issue": "2026-08-17",
+      "t": "拱门残片（背面）",
+      "a": "安德烈亚·洛卡泰利",
+      "aid": "andrea-locatelli-italian-1695-1741",
+      "y": 1700,
+      "mv": "巴洛克",
+      "tags": [
+        "建筑草图",
+        "18世纪",
+        "意大利",
+        "纸上作品",
+        "考古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.235.b/1989.235.b_web.jpg",
+      "ratio": 1.904
+    },
+    {
+      "id": "cma-156137",
+      "issue": "2026-08-17",
+      "t": "《罗马名胜图景》扉页",
+      "a": "利文·克鲁伊尔",
+      "aid": "lievin-cruyl-flemish-c-1640-c-1720",
+      "y": 1666,
+      "mv": "巴洛克",
+      "tags": [
+        "建筑",
+        "罗马",
+        "17世纪",
+        "版画",
+        "城市景观"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.64.1/1991.64.1_web.jpg",
+      "ratio": 0.758
+    },
+    {
+      "id": "cma-156143",
+      "issue": "2026-08-17",
+      "t": "纳沃纳广场",
+      "a": "利文·克鲁伊尔",
+      "aid": "lievin-cruyl-flemish-c-1640-c-1720",
+      "y": 1666,
+      "mv": "巴洛克",
+      "tags": [
+        "城市景观",
+        "罗马",
+        "17世纪",
+        "蚀刻版画",
+        "广场"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.64.6/1991.64.6_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-160406",
+      "issue": "2026-08-17",
+      "t": "门佩斯家的孩子们",
+      "a": "詹姆斯·麦克尼尔·惠斯勒",
+      "aid": "james-mcneill-whistler-american-1834-1903",
+      "y": 1887,
+      "mv": "唯美主义",
+      "tags": [
+        "儿童",
+        "蚀刻版画",
+        "19世纪",
+        "美国",
+        "速写"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.242/1998.242_web.jpg",
+      "ratio": 0.684
+    },
+    {
+      "id": "cma-160620",
+      "issue": "2026-08-17",
+      "t": "亨利·奥斯汀·多布森肖像，第二版",
+      "a": "威廉·斯特兰",
+      "aid": "william-strang-british-1859-1921",
+      "y": 1894,
+      "mv": "不详",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "版画",
+        "文人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.393/1998.393_web.jpg",
+      "ratio": 1.478
+    },
+    {
+      "id": "cma-137797",
+      "issue": "2026-08-17",
+      "t": "《鹦鹉故事》书页",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "手稿",
+        "16世纪",
+        "印度",
+        "细密画",
+        "叙事",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.306.b/1962.279.306.b_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "met-438467",
+      "issue": "2026-08-17",
+      "t": "施洗者圣约翰的诞生与命名",
+      "a": "贝尔纳·凡·奥利",
+      "aid": "bernard-van-orley",
+      "y": 1514,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "佛兰德斯",
+        "人物",
+        "油画",
+        "叙事"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136254.jpg",
+      "ratio": 0.876
+    },
+    {
+      "id": "met-437368",
+      "issue": "2026-08-17",
+      "t": "圣家族与天使",
+      "a": "拉法埃利诺·德尔·加尔博",
+      "aid": "raffaellino-del-garbo-also-known-as-raffaelle-de-capponi-and-raffaelle-de-carli",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "人物",
+        "圣母",
+        "圣约瑟"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15089-001.jpg",
+      "ratio": 1.434
     }
   ]
 }
