@@ -1,0 +1,1408 @@
+{
+  "v": 1,
+  "date": "2026-08-18",
+  "works": [
+    {
+      "id": "met-436243",
+      "source": "met",
+      "sourceId": "436243",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436243",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Salvator Mundi",
+      "title_zh": "救世主",
+      "artist_en": "Albrecht Dürer",
+      "artist_zh": "阿尔布雷希特·丢勒",
+      "artist_id": "albrecht-durer",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1471–1528",
+      "date_display": "ca. 1505",
+      "year": 1505,
+      "medium_zh": "椴木板油画",
+      "dimensions": "22 7/8 x 18 1/2in. (58.1 x 47cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "宗教",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+        "ratio": 1.23
+      },
+      "palette": [
+        "#2e2117",
+        "#4e5541"
+      ],
+      "essay": [
+        "这是丢勒第二次游历意大利期间的作品，标志着他试图将意大利文艺复兴的宏大构图与北方日耳曼的细腻写实相融合。作为北方文艺复兴的巨匠，丢勒在此作中展现了超越时代的造型能力，将宗教偶像从神坛拉入凡人的视觉经验中。",
+        "画面最耐看的是基督手中的水晶球。丢勒没有像传统圣像画那样将其画成完美的透明体，而是诚实地描绘了光线穿过球体产生的折射与变形——你可以清晰看到球体后方红色衣袍的扭曲倒影。这种对光学物理的严谨观察，是丢勒作为科学型画家的铁证。",
+        "尽管技法精湛，但这幅画在情感传达上略显拘谨。基督的面容虽然庄严，却带着一种近乎僵硬的对称感，缺乏后来巴洛克艺术中那种直击灵魂的戏剧张力。这种冷静甚至冷淡的崇高感，正是北方艺术理性特质的体现，既令人敬佩，也让人难以完全亲近。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.78,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-157148",
+      "source": "cma",
+      "sourceId": "157148",
+      "sourceUrl": "https://clevelandart.org/art/1993.40",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Star of Kings: A Night Piece",
+      "title_zh": "三王之星：夜景",
+      "artist_en": "Rembrandt van Rijn (Dutch, 1606–1669)",
+      "artist_zh": "伦勃朗·凡·莱因",
+      "artist_id": "rembrandt-van-rijn-dutch-1606-1669",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1606–1669",
+      "date_display": "c. 1651",
+      "year": 1651,
+      "medium_zh": "蚀刻版画与干针",
+      "dimensions": "Sheet: 10.3 x 15.3 cm (4 1/16 x 6 in.); Platemark: 9.3 x 14.3 cm (3 11/16 x 5 5/8 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教",
+        "夜景",
+        "17世纪",
+        "荷兰",
+        "光影",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1993.40/1993.40_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1993.40/1993.40_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1993.40/1993.40_web.jpg",
+        "ratio": 0.686
+      },
+      "palette": [
+        "#1c1c1a",
+        "#7f7f76"
+      ],
+      "essay": [
+        "这是伦勃朗版画生涯晚期的杰作，标志着他从早期精细的叙事风格转向对光影氛围的极致探索。在这幅作于 1651 年前后的作品中，他不再执着于描绘宏大的朝圣队伍，而是将视线聚焦于黑夜中那一束决定性的光，确立了其在西方艺术史上“光影魔术师”的不可动摇地位。",
+        "画面右侧那颗放射状的星是绝对的视觉重心，伦勃朗利用干针在铜板上刮出的毛刺，制造出一种粗糙而辉煌的发光质感。这种光线并非均匀铺陈，而是像利剑般刺破浓重的黑暗，照亮了前景中模糊的人影与马匹轮廓，让观者在几乎全黑的画面中感受到空气的流动。",
+        "必须诚实地说，为了追求这种戏剧性的夜视效果，伦勃朗牺牲了画面的清晰度与叙事的完整性。除了那束强光，大部分区域都隐没在难以辨识的墨色团块中，人物面目全非。这种极端的明暗对比虽然震撼，却也让画面显得支离破碎，仿佛是为了气氛而放弃了讲故事的逻辑。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-103236",
+      "source": "cma",
+      "sourceId": "103236",
+      "sourceUrl": "https://clevelandart.org/art/1921.311",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Chushingura: Act IV of The Storehouse of Loyalty",
+      "title_zh": "忠臣藏四段目",
+      "artist_en": "Kitagawa Utamaro (Japanese, c. 1754–1806)",
+      "artist_zh": "喜多川歌麿",
+      "artist_id": "kitagawa-utamaro-japanese-c-1754-1806",
+      "artist_nationality_zh": "日本",
+      "artist_years": "约 1754–1806",
+      "date_display": "late 1790s",
+      "year": 1790,
+      "medium_zh": "彩色木刻版画",
+      "dimensions": "Sheet: 38.2 x 25.4 cm (15 1/16 x 10 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "戏剧",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "构图",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1921.311/1921.311_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1921.311/1921.311_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1921.311/1921.311_web.jpg",
+        "ratio": 1.483
+      },
+      "palette": [
+        "#b8ab98",
+        "#736a59"
+      ],
+      "essay": [
+        "喜多川歌麿是江户时代浮世绘的巅峰人物，尤以“大首绘”确立其历史地位。此作取材于当时最热门的歌舞伎剧目《忠臣藏》，但他并未描绘激烈的复仇场面，而是将视角转向后台，捕捉女性角色在戏剧间隙的私密瞬间。这种对“幕后”的关注，体现了歌麿对人物心理深度的独到挖掘。",
+        "画面右上角的 inset（画中画）是理解剧情的关键，描绘了正剧中的悲剧时刻。视线回到主画面，前景女子正专注于插花，歌麿用极其细腻的线条勾勒出她侧脸的轮廓与发丝的质感。特别是她微微张开的嘴唇与专注的眼神，被刻画得栩栩如生，展现了画家捕捉瞬间神态的高超能力。",
+        "左侧站立女子手捧漆器托盘，姿态优雅得近乎刻意。这种过度的端庄与右上角 inset 中发生的生死大事形成了微妙的反差——仿佛戏剧的残酷被隔绝在画框之外，只留下这一方精致的日常。这种将宏大叙事消解于琐碎生活细节的处理，既是浮世绘的装饰性需求，也透着一丝对现实重量的回避。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.58,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-149996",
+      "source": "cma",
+      "sourceId": "149996",
+      "sourceUrl": "https://clevelandart.org/art/1980.216.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Kali Enshrined (verso), from a Kalighat album",
+      "title_zh": "供奉的迦梨女神（背面）",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1890",
+      "year": 1890,
+      "medium_zh": "纸本树胶蛋彩、石墨与墨",
+      "dimensions": "Overall: 49.5 x 29 cm (19 1/2 x 11 7/16 in.)",
+      "movement_zh": "迦梨画派",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "印度",
+        "色彩",
+        "神像"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1980.216.b/1980.216.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1980.216.b/1980.216.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1980.216.b/1980.216.b_web.jpg",
+        "ratio": 1.138
+      },
+      "palette": [
+        "#ccba6d",
+        "#825b45"
+      ],
+      "essay": [
+        "这幅作品出自 19 世纪加尔各答的迦梨画派（Kalighat），一种为朝圣者制作的廉价宗教绘画。它并非传统意义上的架上油画，而是印度本土艺术在殖民时期面对大众市场的一次风格突变。画中的迦梨女神形象，既保留了印度教神像的威猛特征，又融入了当时市井审美的通俗趣味。",
+        "画面最精彩之处在于女神面部与饰品的处理。黑色的脸庞与鲜红的舌头形成强烈的视觉冲击，而那一串串用白色点出的珍珠项链，笔触果断且带有装饰性。这种用树胶水彩在纸上快速平涂的技法，使得色彩虽艳丽却缺乏油画的厚重感，呈现出一种独特的平面张力。",
+        "尽管神像姿态威严，但为了迎合买家的喜好，画师刻意美化了女神的肢体，使其显得圆润丰满，甚至带有一丝世俗的妩媚。这种将恐怖女神‘柔化’的处理，削弱了原本宗教图像中令人敬畏的毁灭力量，却也让它成为了那个时代印度民间信仰与商业艺术结合的生动标本。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.25
+      }
+    },
+    {
+      "id": "cma-120916",
+      "source": "cma",
+      "sourceId": "120916",
+      "sourceUrl": "https://clevelandart.org/art/1941.622",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "St. Giles-in-the-Fields",
+      "title_zh": "圣吉尔斯教堂",
+      "artist_en": "James McNeill Whistler (American, 1834–1903)",
+      "artist_zh": "詹姆斯·麦克尼尔·惠斯勒",
+      "artist_id": "james-mcneill-whistler-american-1834-1903",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1834–1903",
+      "date_display": "1896",
+      "year": 1896,
+      "medium_zh": "石版画",
+      "dimensions": "",
+      "movement_zh": "唯美主义",
+      "tags": [
+        "建筑",
+        "19世纪",
+        "美国",
+        "夜景",
+        "版画",
+        "伦敦"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1941.622/1941.622_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1941.622/1941.622_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1941.622/1941.622_web.jpg",
+        "ratio": 1.486
+      },
+      "palette": [
+        "#cec3b2",
+        "#aca294"
+      ],
+      "essay": [
+        "惠斯勒晚年转向石版画，试图在黑白灰的微妙层次中寻找他在油画里追求的“夜曲”效果。这幅作于 1896 年的伦敦街景，是他对城市氛围的速写式捕捉，不再执着于轮廓的精准，而是专注于光影的呼吸。",
+        "画面最精彩处在于前景那棵枯树的处理——枝干如炭笔般粗砺，线条在纸面上摩擦出的颗粒感，与背景教堂塔楼那几乎要消融在雾气中的淡墨形成强烈反差。这种虚实处理让坚硬的石材建筑显出一种易碎的透明感。",
+        "作为一幅城市写生，它略显草率：地面留白过多，缺乏具体的空间锚点，路人只是几团模糊的墨渍。但这正是惠斯勒的意图，他不在乎记录街道的地理信息，只在乎那一刻空气中弥漫的静谧与疏离。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-120119",
+      "source": "cma",
+      "sourceId": "120119",
+      "sourceUrl": "https://clevelandart.org/art/1940.899",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sappo",
+      "title_zh": "萨波",
+      "artist_en": "Anders Zorn (Swedish, 1860–1920)",
+      "artist_zh": "安德斯·佐恩",
+      "artist_id": "anders-zorn-swedish-1860-1920",
+      "artist_nationality_zh": "瑞典",
+      "artist_years": "1860–1920",
+      "date_display": "1917",
+      "year": 1917,
+      "medium_zh": "蚀刻与干针版画",
+      "dimensions": "",
+      "movement_zh": "印象派",
+      "tags": [
+        "人物",
+        "海景",
+        "20世纪",
+        "瑞典",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1940.899/1940.899_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1940.899/1940.899_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1940.899/1940.899_web.jpg",
+        "ratio": 1.191
+      },
+      "palette": [
+        "#d0c2a8",
+        "#968872"
+      ],
+      "essay": [
+        "安德斯·佐恩是瑞典国宝级画家，也是 19 世纪末欧洲最成功的肖像画家之一。这幅《萨波》创作于他去世前三年，属于其晚期版画代表作。此时佐恩已不再追求早年那种精细入微的学院派刻画，转而用更自由、写意的线条捕捉光影与瞬间的动态。",
+        "画面最精彩处在于对水与岩石的处理。佐恩利用干针技法在铜板上刮擦出的粗糙肌理，完美模拟了海浪拍打礁石的破碎感。注意女子膝盖入水处的线条，寥寥几笔便交代了水面的张力与腿部的体积，这种“惜墨如金”的概括力正是其大师之处。",
+        "但这幅作品并非无懈可击。女子与狗的面部刻画略显雷同，缺乏足够的个性特征，似乎只是佐恩笔下常见的北欧女性形象的又一次重复。这种对特定类型模特的依赖，虽然构成了佐恩的个人风格，却也限制了他在叙事深度上的进一步挖掘。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "met-437060",
+      "source": "met",
+      "sourceId": "437060",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437060",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Virgin and Child",
+      "title_zh": "圣母与圣子",
+      "artist_en": "Hans Memling",
+      "artist_zh": "汉斯·梅姆林",
+      "artist_id": "hans-memling",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1430–1494",
+      "date_display": "ca. 1490–94",
+      "year": 1490,
+      "medium_zh": "木板油画",
+      "dimensions": "Overall 14 1/8 x 10 1/4 in. (35.9 x 26 cm); painted surface 13 3/8 x 9 1/2 in. (34 x 24.1 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "肖像",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42409-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-42409-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42409-001.jpg",
+        "ratio": 1.371
+      },
+      "palette": [
+        "#62482b",
+        "#241811"
+      ],
+      "essay": [
+        "汉斯·梅姆林是 15 世纪尼德兰画派的重要代表，活跃于布鲁日。这幅《圣母与圣子》创作于其晚年，体现了北方文艺复兴时期对细节的极致追求与宗教情感的细腻表达。",
+        "画面中，圣母身着红色长袍，面容宁静而庄重，怀中的圣子则显得天真无邪。梅姆林对光影的处理极为细腻，尤其是圣母面部的柔和光线，突显了其神圣与慈爱的气质。",
+        "然而，这种理想化的表现手法也带来了一定的矛盾。圣母的衣着与环境表明她应是朴素的农家女子，但其白皙无暇的脸庞和精致的服饰显然不符合这一身份。这种理想化与现实之间的反差，是梅姆林作品中的常见特点。",
+        "尽管如此，梅姆林通过对细节的精妙刻画，成功地将宗教情感与世俗生活融为一体，使观者在欣赏画作的同时，也能感受到一种亲切与温暖。"
+      ],
+      "detailCrop": {
+        "cx": 0.46,
+        "cy": 0.22,
+        "r": 0.16
+      }
+    },
+    {
+      "id": "cma-120932",
+      "source": "cma",
+      "sourceId": "120932",
+      "sourceUrl": "https://clevelandart.org/art/1941.635",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Evening, Port of Genoa",
+      "title_zh": "黄昏，热那亚港",
+      "artist_en": "Muirhead Bone (British, 1876–1953)",
+      "artist_zh": "缪尔黑德·博恩",
+      "artist_id": "muirhead-bone-british-1876-1953",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1876–1953",
+      "date_display": "1915",
+      "year": 1915,
+      "medium_zh": "干刻版画",
+      "dimensions": "",
+      "movement_zh": "写实主义",
+      "tags": [
+        "海景",
+        "港口",
+        "20世纪",
+        "英国",
+        "版画",
+        "热那亚"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1941.635/1941.635_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1941.635/1941.635_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1941.635/1941.635_web.jpg",
+        "ratio": 0.781
+      },
+      "palette": [
+        "#e2dace",
+        "#938c83"
+      ],
+      "essay": [
+        "作为英国首位官方战争艺术家，缪尔黑德·博恩以建筑与工业景观的精准记录著称。这幅 1915 年的热那亚港，处于他战前游历欧洲的创作高峰期。不同于当时流行的印象派模糊光影，他坚持用线条构建坚实的物理空间，将港口这一工业题材提升到了严肃艺术的层面。",
+        "画面左侧的防波堤是视觉重心，博恩利用干刻技法特有的毛边线条（burr），堆叠出石墙粗糙且厚重的质感。注意看堤岸受光面与背阴处的处理——他没有使用大面积涂黑，而是通过疏密有致的排线，让坚硬的石材在黄昏微光中呈现出丰富的层次与体积感。",
+        "这种对建筑结构的执着有时显得过于冷静。远处帆船与灯塔的轮廓虽然清晰，却缺乏空气透视带来的朦胧感，使得画面景深略显扁平，像是一张经过精密测量的工程图而非瞬间的光影捕捉。但这正是博恩的风格：他记录的是永恒的结构，而非易逝的氛围。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-124036",
+      "source": "cma",
+      "sourceId": "124036",
+      "sourceUrl": "https://clevelandart.org/art/1944.520",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Victor Hugo (2nd Plate)",
+      "title_zh": "维克多·雨果肖像（第二版）",
+      "artist_en": "Alphonse Legros (French, 1837–1911)",
+      "artist_zh": "阿尔方斯·勒格罗",
+      "artist_id": "alphonse-legros-french-1837-1911",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1837–1911",
+      "date_display": "c. 1857–1911",
+      "year": 1884,
+      "medium_zh": "蚀刻与干刻版画",
+      "dimensions": "",
+      "movement_zh": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "文学",
+        "版画",
+        "雨果"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1944.520/1944.520_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1944.520/1944.520_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1944.520/1944.520_web.jpg",
+        "ratio": 1.252
+      },
+      "palette": [
+        "#393936",
+        "#b6b2a8"
+      ],
+      "essay": [
+        "勒格罗是 19 世纪法国写实主义版画的重要推手，这幅雨果肖像是其成熟期的代表作。作为流亡英国的法国艺术家，他通过蚀刻技法捕捉了这位文学巨匠晚年的神韵，确立了其在肖像版画领域的地位。",
+        "画面最精彩处在于胡须与面部的过渡——勒格罗利用干刻针在铜板上留下的毛刺，制造出一种类似炭笔的柔和晕染。这种技法让雨果浓密的白须显得蓬松且富有体积感，与背景深沉的交叉排线形成强烈对比。",
+        "尽管技法精湛，但这幅肖像仍带有明显的理想化倾向。雨果晚年饱受病痛折磨，面容憔悴，但勒格罗刻意柔化了其面部皱纹与松弛的皮肤，将其塑造为一位威严的智者，而非真实的垂暮老人。这种美化处理虽削弱了现实的残酷感，却成功传达了雨果作为民族精神象征的庄严气质，体现了勒格罗对人物内在精神的深刻理解。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.58,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-98905",
+      "source": "cma",
+      "sourceId": "98905",
+      "sourceUrl": "https://clevelandart.org/art/1918.570",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscape near Painesville",
+      "title_zh": "佩恩斯维尔附近的风景",
+      "artist_en": "Allen Smith, Jr. (American, 1810–1891)",
+      "artist_zh": "艾伦·史密斯",
+      "artist_id": "allen-smith-jr-american-1810-1891",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1810–1891",
+      "date_display": "c. 1880s",
+      "year": 1880,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 47 x 31 cm (18 1/2 x 12 3/16 in.)",
+      "movement_zh": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "自然",
+        "油画",
+        "哈德逊河画派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1918.570/1918.570_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1918.570/1918.570_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1918.570/1918.570_web.jpg",
+        "ratio": 1.4
+      },
+      "palette": [
+        "#4a4e3d",
+        "#99a69e"
+      ],
+      "essay": [
+        "艾伦·史密斯是 19 世纪美国风景画的中坚力量，虽不如丘奇或比尔施塔特那般声名显赫，却忠实地记录了哈德逊河画派向更私密、日常视角的转变。这幅作于 1880 年代的作品，不再追求宏大叙事或戏剧性的崇高感，而是将目光投向俄亥俄州佩恩斯维尔的一处寻常溪谷，体现了当时美国画家对本土地貌的平视与温情。",
+        "画面最精彩处在于对水面的处理。前景中，画家利用厚涂法堆叠出河床岩石的坚硬质感，并在石缝间点染出清浅的流水。注意看那些灰白与淡粉交织的色块，并非随意涂抹，而是精准捕捉了光线在湿润石面上漫反射的效果。这种对物质实体感的执着，是哈德逊河画派画家的一贯坚持。",
+        "然而，这幅画也暴露了该流派晚期的一些疲态。天空中的积云虽然体积感饱满，但笔触略显程式化，缺乏早期大师那种对大气瞬息万变的敏锐捕捉。左侧树木的枝叶处理也稍显琐碎，为了追求细节的丰富而牺牲了整体的空气感。这是一幅工整的习作，却少了一点让人屏息的灵气。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.88,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-99301",
+      "source": "cma",
+      "sourceId": "99301",
+      "sourceUrl": "https://clevelandart.org/art/1918.86",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Storm Cloud",
+      "title_zh": "暴风雨云",
+      "artist_en": "Félix Bracquemond (French, 1833–1914)",
+      "artist_zh": "费利克斯·布拉克蒙",
+      "artist_id": "felix-bracquemond-french-1833-1914",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1833–1914",
+      "date_display": "1878–1887",
+      "year": 1882,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Sheet: 31.8 x 40.6 cm (12 1/2 x 16 in.); Platemark: 26.3 x 35 cm (10 3/8 x 13 3/4 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "风景",
+        "天空",
+        "19世纪",
+        "法国",
+        "版画",
+        "自然"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1918.86/1918.86_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1918.86/1918.86_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1918.86/1918.86_web.jpg",
+        "ratio": 0.758
+      },
+      "palette": [
+        "#a29d95",
+        "#65625c"
+      ],
+      "essay": [
+        "费利克斯·布拉克蒙是 19 世纪法国版画复兴的关键人物，也是最早将日本浮世绘引入巴黎艺术圈的推手。这幅《暴风雨云》创作于 1878 至 1887 年间，正值印象派运动的高潮期。不同于当时画家们热衷于捕捉户外的瞬间光色，布拉克蒙选择用铜版和酸液，在金属板上雕刻出一种更为持久且充满张力的空气感。",
+        "画面的视觉重心完全被天空占据，这也是布拉克蒙蚀刻技法的炫技场。请看画面左上方的云层处理——他利用长短不一的排线交叉，制造出乌云翻滚的厚重体积感。几道锐利的斜线穿过云隙，模拟出暴雨将至时特有的丁达尔效应。这种对光线穿透力的表现，完全依靠线条的疏密而非墨色的深浅，展现了极高的控制力。",
+        "然而，将如此宏大的气象背景赋予一群呆立的家禽，多少显得有些比例失调。前景中的鹅群姿态略显僵硬，缺乏马奈或德加笔下动物那种生动的野性，更像是为了填充构图而存在的静物。这种「史诗级天空」与「平庸化前景」的反差，暴露了布拉克蒙作为版画家在叙事野心与写实功底之间的某种割裂。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.25,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-106459",
+      "source": "cma",
+      "sourceId": "106459",
+      "sourceUrl": "https://clevelandart.org/art/1924.529",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Scherzi di Fantasia: Satyr Family with the Obelisk",
+      "title_zh": "幻想曲：方尖碑旁的萨提尔一家",
+      "artist_en": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+      "artist_zh": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "artist_id": "giovanni-battista-tiepolo-italian-1696-1770",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1696–1770",
+      "date_display": "1750–60",
+      "year": 1750,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "意大利",
+        "幻想",
+        "蚀刻版画",
+        "废墟"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1924.529/1924.529_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1924.529/1924.529_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1924.529/1924.529_web.jpg",
+        "ratio": 1.225
+      },
+      "palette": [
+        "#d7d3c3",
+        "#bab5a6"
+      ],
+      "essay": [
+        "提埃波罗是 18 世纪威尼斯画派的巅峰，以宏大的湿壁画闻名。但这组《幻想曲》蚀刻版画展示了他私下的一面：不画神迹，只画废墟与怪诞。这些作品并非为教堂或宫殿而作，而是艺术家在铜版上进行的自由速写，记录了他对古典废墟与神话生物的私人想象。",
+        "画面中央的萨提尔一家在断壁残垣间休憩，这种构图充满了戏剧性的张力。请看母亲怀中的幼崽与前景倒置的乐器——提埃波罗用极细的排线刻画出肌肤的柔软与石块的粗砺。这种对质感的敏锐捕捉，正是他作为色彩大师在黑白线条中的另一种体现。",
+        "然而，这并非纯粹的田园牧歌。背景中矗立的方尖碑与残破的石棺暗示了文明的消逝，而前景散落的酒神杖与面具则指向狂欢后的虚无。提埃波罗将神圣的古典符号与粗俗的半人半兽并置，这种刻意的不协调感，消解了神话的庄严，透出一种玩世不恭的幽默。",
+        "作为洛可可时代的代表，提埃波罗在这里没有追求完美的和谐，而是拥抱了混乱与瞬间。这种对废墟美学的迷恋，比后来的浪漫主义早了半个世纪，展现了他超越时代的敏锐直觉。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-709469",
+      "source": "cma",
+      "sourceId": "709469",
+      "sourceUrl": "https://clevelandart.org/art/2026.27.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Mary Salome and her Family",
+      "title_zh": "圣萨洛梅及其家人",
+      "artist_en": "Hans Süss von Kulmbach (German, c. 1480–1522)",
+      "artist_zh": "汉斯·苏斯·冯·库尔姆巴赫",
+      "artist_id": "hans-suss-von-kulmbach-german-c-1480-1522",
+      "artist_nationality_zh": "德国",
+      "artist_years": "约 1480–1522",
+      "date_display": "1513",
+      "year": 1513,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 54.6 x 28.9 x 1.5 cm (21 1/2 x 11 3/8 x 9/16 in.); Framed: 62 x 36.3 x 4.7 cm (24 7/16 x 14 5/16 x 1 7/8 in.)",
+      "movement_zh": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "群像",
+        "纽伦堡画派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2026.27.2/2026.27.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2026.27.2/2026.27.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2026.27.2/2026.27.2_web.jpg",
+        "ratio": 1.657
+      },
+      "palette": [
+        "#b18c5d",
+        "#866640"
+      ],
+      "essay": [
+        "作为丢勒的得意门生，库尔姆巴赫是纽伦堡画派的关键人物。这幅作于 1513 年的木板油画，描绘了圣萨洛梅一家——她是圣母玛利亚的姨母，画面中她正哺乳圣雅各，身旁是年幼的施洗约翰。作品体现了德国文艺复兴早期对宗教题材的世俗化处理，将神圣家族置于类似当时中产家庭的室内环境中。",
+        "画面最耐看的是衣褶的处理。注意圣母膝头那抹厚重的绿色长袍，画家利用高饱和度的颜料堆叠出织物的体积感，阴影处近乎墨黑，受光面则呈现出丝绸般的冷调光泽。这种对材质质感的执着，是当时德国画家受凡·艾克等尼德兰大师影响的铁证。",
+        "然而，人物面部表情的刻画略显僵硬。背景中那位伏案书写的男子（据传是萨洛梅的丈夫泽贝代），神情严肃得近乎呆板，缺乏与前景母子互动的温情。这种“拼贴感”暴露了当时北方绘画在构图叙事上的局限：重细节堆砌，轻整体氛围的流动。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.62,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-120945",
+      "source": "cma",
+      "sourceId": "120945",
+      "sourceUrl": "https://clevelandart.org/art/1941.647",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Appin Rocks",
+      "title_zh": "阿平岩",
+      "artist_en": "David Young Cameron (British, 1865–1945)",
+      "artist_zh": "大卫·扬·卡梅隆",
+      "artist_id": "david-young-cameron-british-1865-1945",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1865–1945",
+      "date_display": "1913",
+      "year": 1913,
+      "medium_zh": "干刻版画",
+      "dimensions": "",
+      "movement_zh": "不详",
+      "tags": [
+        "风景",
+        "20世纪",
+        "英国",
+        "岩石",
+        "海景",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1941.647/1941.647_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1941.647/1941.647_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1941.647/1941.647_web.jpg",
+        "ratio": 1.035
+      },
+      "palette": [
+        "#e6e2da",
+        "#b7b1a9"
+      ],
+      "essay": [
+        "大卫·扬·卡梅隆是苏格兰蚀刻复兴运动的关键人物，以风景版画闻名。这幅 1913 年的《阿平岩》处于他技法最成熟的时期，展现了他在处理宏大景观与细腻光影上的卓越控制力。",
+        "画面左侧巨大的岩壁占据了视觉重心，卡梅隆利用干刻特有的毛边线条（burr），在岩石的阴影处堆叠出厚重、丝绒般的黑色质感。这种深沉的暗部与右侧大面积留白的天空及海面形成强烈反差，营造出一种近乎肃穆的静谧感。",
+        "尽管技法精湛，但这幅作品在构图上略显保守。巨大的岩石虽然气势逼人，却也让画面显得有些失衡，右侧稀疏的帆船点缀虽增加了空间深度，却未能完全打破左侧带来的压迫感，整体氛围稍显沉闷。"
+      ],
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.45,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-121374",
+      "source": "cma",
+      "sourceId": "121374",
+      "sourceUrl": "https://clevelandart.org/art/1942.1233",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Scene in Union Square, New York, on a March Day",
+      "title_zh": "三月某日纽约联合广场一景",
+      "artist_en": "Winslow Homer (American, 1836–1910)",
+      "artist_zh": "温斯洛·霍默",
+      "artist_id": "winslow-homer-american-1836-1910",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1836–1910",
+      "date_display": "1860",
+      "year": 1860,
+      "medium_zh": "木刻版画",
+      "dimensions": "",
+      "movement_zh": "现实主义",
+      "tags": [
+        "城市",
+        "19世纪",
+        "美国",
+        "街头",
+        "版画",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.1233/1942.1233_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.1233/1942.1233_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.1233/1942.1233_web.jpg",
+        "ratio": 0.777
+      },
+      "palette": [
+        "#d8d0c2",
+        "#a09a8f"
+      ],
+      "essay": [
+        "这是霍默早年作为插画师时期的代表作。彼时他尚未转向油画，而是以记者的敏锐捕捉纽约街头的瞬间。这幅作品确立了他观察美国生活的基调：不美化、不煽情，只记录真实发生的荒诞与秩序。",
+        "画面最精彩处在于对“风”的视觉化处理。请看左侧老者与警察的对话瞬间，背景中礼帽如落叶般漫天飞舞，女士的裙摆被狂风掀起至狼狈的高度。霍默用密集的排线制造出气流的湍急感，让观者几乎能听到呼啸的风声。",
+        "底部的文字说明揭示了这是一则视觉笑话：警察问丢了什么，老人指着满天的帽子说“你没看见我丢了帽子吗？”这种幽默感是霍默早期作品的特征。虽然技法上不如他后期的水彩通透，但这种对市井生活的冷峻观察，已显露出大师的雏形。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-123954",
+      "source": "cma",
+      "sourceId": "123954",
+      "sourceUrl": "https://clevelandart.org/art/1944.466.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Overdoor Painting",
+      "title_zh": "门楣装饰画",
+      "artist_en": "Pierre Rousseau (French, 1751–1829)",
+      "artist_zh": "皮埃尔·卢梭",
+      "artist_id": "pierre-rousseau-french-1751-1829",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1751–1829",
+      "date_display": "1790s",
+      "year": 1790,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 59.7 x 148.9 x 6 cm (23 1/2 x 58 5/8 x 2 3/8 in.); Unframed: 52 x 151 cm (20 1/2 x 59 7/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "装饰画",
+        "18世纪",
+        "法国",
+        "浮雕",
+        "神话"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1944.466.1/1944.466.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1944.466.1/1944.466.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1944.466.1/1944.466.1_web.jpg",
+        "ratio": 0.369
+      },
+      "palette": [
+        "#ac8559",
+        "#b39e7c"
+      ],
+      "essay": [
+        "皮埃尔·卢梭是法国新古典主义时期的装饰画家，活跃于大革命前后的巴黎。这幅作于 1790 年代的门楣画（Overdoor），展示了当时室内装饰对古典浮雕的狂热模仿。它并非独立的架上绘画，而是建筑空间的一部分，旨在用严谨的秩序感取代洛可可的繁复。",
+        "画面最精彩之处在于对“伪浮雕”质感的处理。请看祭司伸出的手与升起的烟雾——卢梭用极细腻的晕涂法，在平面上制造出石膏般的体积感。人物衣褶的阴影被刻意统一，仿佛真的被侧光照射，这种视觉欺骗是当时装饰画的最高技艺。",
+        "然而，这种极致的秩序也带来了僵化。为了维持浮雕的侧面轮廓，人物动作显得拘谨，缺乏巴洛克式的动态张力。尤其是右侧牵牛的男子，肌肉线条虽精准，却像模具倒出来的石膏像，少了几分血肉之躯的温热感。",
+        "尽管如此，作为一件功能性装饰，它完美完成了使命：在门框上方构建了一个静谧、理性的古典世界，让观者在抬头瞬间，仿佛置身于庞贝古城的厅堂之中。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-171375",
+      "source": "cma",
+      "sourceId": "171375",
+      "sourceUrl": "https://clevelandart.org/art/2014.191",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Picturesque Architecture in Paris, Ghent, Antwerp, Rouen, Etc.: South Porch of Chartres Cathedral, ",
+      "title_zh": "沙特尔大教堂南门廊",
+      "artist_en": "Thomas Shotter Boys (British, 1803–1874)",
+      "artist_zh": "托马斯·肖特·博伊斯",
+      "artist_id": "thomas-shotter-boys-british-1803-1874",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1803–1874",
+      "date_display": "1839",
+      "year": 1839,
+      "medium_zh": "手工上色石版画",
+      "dimensions": "Image: 36.1 x 28.3 cm (14 3/16 x 11 1/8 in.); Sheet: 44.6 x 36.5 cm (17 9/16 x 14 3/8 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "建筑",
+        "19世纪",
+        "英国",
+        "教堂",
+        "版画",
+        "哥特式"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2014.191/2014.191_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2014.191/2014.191_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2014.191/2014.191_web.jpg",
+        "ratio": 1.247
+      },
+      "palette": [
+        "#655f4f",
+        "#a69e87"
+      ],
+      "essay": [
+        "托马斯·肖特·博伊斯是 19 世纪英国水彩与石版画领域的佼佼者，以描绘欧洲大陆建筑景观闻名。这幅 1839 年的作品出自其著名的《如画建筑》系列，旨在向英国观众展示法国哥特式建筑的壮丽。",
+        "画面利用巨大的石柱构建出深邃的景深，将视线引向远处明亮的街景。最精彩之处在于光影的处理：阳光斜射在门廊的雕塑群上，石质的粗糙肌理与雕像衣褶的细腻阴影被刻画得极具立体感，仿佛触手可及。",
+        "博伊斯为了营造“如画”的浪漫氛围，刻意在宏伟的宗教建筑脚下安排了市井人物——沉睡的乞丐与嬉戏的孩童。这种将神圣空间世俗化的处理虽增加了生活气息，却也让建筑本身显得像是一个巨大的舞台布景，削弱了教堂应有的庄严与肃穆。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-123305",
+      "source": "cma",
+      "sourceId": "123305",
+      "sourceUrl": "https://clevelandart.org/art/1943.549",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of a Man with a High Hat",
+      "title_zh": "戴高帽的男子肖像",
+      "artist_en": "Ferdinand Bol (Dutch, 1616–1680)",
+      "artist_zh": "费迪南德·博尔",
+      "artist_id": "ferdinand-bol-dutch-1616-1680",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1616–1680",
+      "date_display": "1642/1651",
+      "year": 1646,
+      "medium_zh": "蚀刻与干针版画",
+      "dimensions": "Sheet: 13.4 x 10.7 cm (5 1/4 x 4 3/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "帽子",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.549/1943.549_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.549/1943.549_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.549/1943.549_web.jpg",
+        "ratio": 1.239
+      },
+      "palette": [
+        "#a0957d",
+        "#544e42"
+      ],
+      "essay": [
+        "费迪南德·博尔是伦勃朗最杰出的学生之一，也是 17 世纪阿姆斯特丹肖像画市场的中坚力量。这幅作于 1640 年代的作品，处于他深受伦勃朗光影技法影响的时期，尚未完全转向后期那种迎合贵族口味的华丽风格。",
+        "画面最精彩处在于对那顶夸张高帽的处理——博尔利用干针在铜版上刮出的毛糙线条，模拟出帽檐投下的阴影与帽身的质感。这种粗粝的笔触与人物面部细腻柔和的排线形成鲜明对比，展现了版画独有的肌理魅力。",
+        "虽然人物姿态自信，但这顶帽子在当时的荷兰显得过于戏剧化，甚至带有几分舞台装扮的意味。博尔似乎刻意模仿了伦勃朗早期自画像中的那种“艺术家式”的张扬，却少了几分伦勃朗特有的那种直击灵魂的深邃与不安。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.28,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-98274",
+      "source": "cma",
+      "sourceId": "98274",
+      "sourceUrl": "https://clevelandart.org/art/1917.95.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Buddhist Panel",
+      "title_zh": "佛教挂轴",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "不详",
+      "artist_years": "不详",
+      "date_display": "1600s–1700s",
+      "year": 1650,
+      "medium_zh": "纸本设色挂轴",
+      "dimensions": "Overall: 30.5 cm (12 in.)",
+      "movement_zh": "不详",
+      "tags": [
+        "佛教",
+        "17世纪",
+        "亚洲",
+        "宗教",
+        "挂轴"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1917.95.2/1917.95.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1917.95.2/1917.95.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1917.95.2/1917.95.2_web.jpg",
+        "ratio": 6.87
+      },
+      "palette": [
+        "#906d4d",
+        "#9a8163"
+      ],
+      "essay": [
+        "这幅作品属于 17 至 18 世纪的亚洲佛教艺术，具体流派虽不可考，但其形制与风格带有明显的东亚宗教绘画特征。作为一幅挂轴，它不仅是礼拜对象，也是当时信徒精神生活的物质载体。",
+        "画面自上而下分层描绘了佛陀、菩萨与护法神，构图严谨而富有秩序。最下方的供品细节尤为精彩——花瓶、香炉与织物纹理清晰可见，色彩虽经岁月侵蚀仍显温润，显示出画工对日常器物的细腻观察。",
+        "尽管人物造型遵循了严格的造像仪轨，但面部表情略显程式化，缺乏个性特征。这种标准化处理虽符合宗教图像的规范，却也削弱了艺术表现力，使观者难以产生情感共鸣。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.85,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-123358",
+      "source": "cma",
+      "sourceId": "123358",
+      "sourceUrl": "https://clevelandart.org/art/1943.593.3",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The River near the Woods",
+      "title_zh": "林边河流",
+      "artist_en": "Herman Naiwincx (Flemish, c. 1624–after 1651)",
+      "artist_zh": "赫尔曼·奈温克斯",
+      "artist_id": "herman-naiwincx-flemish-c-1624-after-1651",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "约 1624–1651 年后",
+      "date_display": "1640–51",
+      "year": 1640,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "河流",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.593.3/1943.593.3_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.593.3/1943.593.3_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.593.3/1943.593.3_web.jpg",
+        "ratio": 0.912
+      },
+      "palette": [
+        "#c1bfb0",
+        "#64635b"
+      ],
+      "essay": [
+        "赫尔曼·奈温克斯是 17 世纪佛兰德斯风景版画的重要代表，其作品深受鲁本斯与凡·戴克等大师的影响。这幅《林边河流》创作于 1640 至 1651 年间，正值他艺术生涯的成熟期，展现了他对自然景观的细腻观察与高超的蚀刻技艺。",
+        "画面中，左侧茂密的树木与右侧开阔的河流形成鲜明对比，树木的枝叶通过精细的线条表现得栩栩如生，而河流的波纹则通过疏密有致的线条传达出流动感。天空中云朵的轻盈与地面的厚重形成视觉上的平衡，整体构图和谐而富有层次。",
+        "尽管奈温克斯在细节处理上极为出色，但画面整体略显平面化，缺乏深度感。树木与河流之间的过渡稍显生硬，未能完全展现出自然景观的立体感。然而，这种风格正是 17 世纪佛兰德斯版画的典型特征，反映了当时艺术家对形式美的追求。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.45,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-122768",
+      "source": "cma",
+      "sourceId": "122768",
+      "sourceUrl": "https://clevelandart.org/art/1942.941",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Revers des Médailles",
+      "title_zh": "勋章的反面",
+      "artist_en": "Paul Gavarni (French, 1804–1866)",
+      "artist_zh": "保罗·加瓦尔尼",
+      "artist_id": "paul-gavarni-french-1804-1866",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1804–1866",
+      "date_display": "1842",
+      "year": 1842,
+      "medium_zh": "石版画",
+      "dimensions": "",
+      "movement_zh": "讽刺版画",
+      "tags": [
+        "讽刺",
+        "19世纪",
+        "法国",
+        "社会",
+        "版画",
+        "七月王朝"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.941/1942.941_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.941/1942.941_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.941/1942.941_web.jpg",
+        "ratio": 1.433
+      },
+      "palette": [
+        "#e3dccf",
+        "#b4ada1"
+      ],
+      "essay": [
+        "保罗·加瓦尔尼是七月王朝时期巴黎最敏锐的观察者之一，与杜米埃齐名。这幅作于 1842 年的石版画出自其著名的社会讽刺系列，专门捕捉当时资产阶级在时尚与虚荣上的荒诞瞬间。",
+        "画面右侧男子正对着墙上的广告高谈阔论，声称自己治好了耳聋，能听见全巴黎的钟声。加瓦尔尼用极细的线条勾勒出他夸张的侧脸和紧绷的肢体语言，这种近乎漫画式的处理让角色的自负跃然纸上。",
+        "讽刺在于，这位刚刚宣称恢复听力的男士，其实正沉浸在自己的吹嘘中，完全听不见同伴的质疑。加瓦尔尼没有美化这种市井气，他笔下的巴黎人总是带着某种可笑的真诚，既让人发笑，又让人看到人性中普遍的盲目。"
+      ],
+      "detailCrop": {
+        "cx": 0.64,
+        "cy": 0.36,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-123370",
+      "source": "cma",
+      "sourceId": "123370",
+      "sourceUrl": "https://clevelandart.org/art/1943.605",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Saying Grace",
+      "title_zh": "谢饭",
+      "artist_en": "Adriaen van Ostade (Dutch, 1610–1684)",
+      "artist_zh": "阿德里安·凡·奥斯塔德",
+      "artist_id": "adriaen-van-ostade-dutch-1610-1684",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1610–1684",
+      "date_display": "1653",
+      "year": 1653,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "荷兰",
+        "室内",
+        "版画",
+        "宗教生活"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.605/1943.605_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.605/1943.605_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.605/1943.605_web.jpg",
+        "ratio": 1.164
+      },
+      "palette": [
+        "#c2bcac",
+        "#545148"
+      ],
+      "essay": [
+        "阿德里安·凡·奥斯塔德是 17 世纪荷兰风俗画的代表人物，以描绘农民和底层生活著称。这幅 1653 年的蚀刻版画处于他风格成熟的时期，此时他已不再单纯追求滑稽夸张，而是转向对日常生活的温情观察。",
+        "画面利用强烈的明暗对比构建空间，光线从右上方射入，聚焦于围坐桌前的家庭。最值得玩味的是左侧男子的姿态：他双手合十低头祈祷，但身体前倾，眼神似乎并未完全离开桌上的汤碗——这种对食物的渴望与宗教仪式的并置，充满了凡·奥斯塔德式的幽默感。",
+        "尽管题材朴素，但人物形象仍带有某种类型化的粗糙感，尤其是右侧背对观众的孩童，处理得略显概念化。不过，这种不完美恰恰符合蚀刻版画的即兴特质，记录了那个时代普通人在信仰与生存之间的真实状态。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.58,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-98370",
+      "source": "cma",
+      "sourceId": "98370",
+      "sourceUrl": "https://clevelandart.org/art/1918.106",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Building Dover Pier",
+      "title_zh": "多佛尔码头建设",
+      "artist_en": "Joseph Pennell (American, 1857–1926)",
+      "artist_zh": "约瑟夫·佩内尔",
+      "artist_id": "joseph-pennell-american-1857-1926",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1857–1926",
+      "date_display": "1910",
+      "year": 1910,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "美国印象派",
+      "tags": [
+        "建筑",
+        "20世纪",
+        "美国",
+        "工程",
+        "版画",
+        "海景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1918.106/1918.106_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1918.106/1918.106_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1918.106/1918.106_web.jpg",
+        "ratio": 0.761
+      },
+      "palette": [
+        "#e6dcce",
+        "#b6aa9c"
+      ],
+      "essay": [
+        "约瑟夫·佩内尔是 20 世纪初美国版画复兴的关键人物，以描绘现代工业景观著称。这幅 1910 年的蚀刻版画记录了他旅居英国期间对多佛尔港的观察。不同于当时画家对田园牧歌的迷恋，佩内尔将目光投向了正在生长的钢铁巨兽，试图在工业废墟与古典风景之间寻找新的视觉秩序。",
+        "画面最精彩之处在于对金属骨架的刻画。前景中巨大的起重机塔楼占据了视觉重心，佩内尔利用蚀刻针在铜板上留下的细密排线，精准地表现了钢架的镂空结构与光影变化。这种繁复的线条构建了体积感，传达出一种机械特有的冷峻与秩序，与远处朦胧的白崖形成强烈反差。",
+        "然而，这种对工业力量的崇拜也暴露了画家的局限。为了追求构图的宏大与对称，画面中的人物被极度简化甚至忽略，使得整个场景显得空旷而缺乏生气。这种‘无人之境’的处理虽然强化了建筑的纪念碑性，却也削弱了码头作为人类活动中心的真实感，让作品更像是一幅冷静的工程图纸而非生活切片。"
+      ],
+      "detailCrop": {
+        "cx": 0.18,
+        "cy": 0.45,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-123299",
+      "source": "cma",
+      "sourceId": "123299",
+      "sourceUrl": "https://clevelandart.org/art/1943.543",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Mother Seated in an Inn",
+      "title_zh": "坐在客栈里的母亲",
+      "artist_en": "Cornelis Pietersz Bega (Dutch, 1631/32–1664)",
+      "artist_zh": "科内利斯·彼得斯·贝加",
+      "artist_id": "cornelis-pietersz-bega-dutch-1631-32-1664",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1631/32–1664",
+      "date_display": "1642–64",
+      "year": 1642,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "Sheet: 15.6 x 12.1 cm (6 1/8 x 4 3/4 in.); Platemark: 15.4 x 12 cm (6 1/16 x 4 3/4 in.)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "荷兰",
+        "母亲",
+        "版画",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.543/1943.543_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.543/1943.543_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.543/1943.543_web.jpg",
+        "ratio": 1.276
+      },
+      "palette": [
+        "#cac2b0",
+        "#6b665c"
+      ],
+      "essay": [
+        "贝加是荷兰黄金时代风俗画的短命天才，师从阿德里安·范·奥斯塔德。这幅蚀刻版画创作于他艺术生涯的成熟期，展现了他在狭小尺幅内构建复杂叙事的能力。不同于伦勃朗的戏剧性光影，贝加更关注市井生活的粗粝质感。",
+        "画面右侧的母亲是视觉重心——她怀抱婴儿，眼神却并未聚焦于孩子，而是投向正在倒酒的男子。这种疏离感通过细腻的排线表现出来：衣褶的阴影处理得极为克制，面部表情在暗部中若隐若现，仿佛被生活的疲惫笼罩。",
+        "这幅作品并非温情的母爱颂歌。母亲身处的环境杂乱，前景的木箱与背景的隔板暗示这是廉价客栈。她虽在哺乳，却更像是一个被动的旁观者，被男性的社交活动边缘化。贝加没有美化这种现实，反而用粗糙的笔触强化了生活的窘迫。",
+        "作为版画，其局限性在于无法像油画那样层层罩染，但贝加利用蚀刻的线条密度创造了丰富的灰度层次。这种技法上的克制，恰好契合了题材本身的朴素与冷峻。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-120279",
+      "source": "cma",
+      "sourceId": "120279",
+      "sourceUrl": "https://clevelandart.org/art/1941.133",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "In the Grotto of Merlin, the Magician",
+      "title_zh": "梅林法师的洞穴",
+      "artist_en": "Nicolas Delaunay (French, 1739–1792)",
+      "artist_zh": "尼古拉·德洛奈",
+      "artist_id": "nicolas-delaunay-french-1739-1792",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1739–1792",
+      "date_display": "1771",
+      "year": 1771,
+      "medium_zh": "铜版蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洞穴",
+        "版画",
+        "插图"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1941.133/1941.133_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1941.133/1941.133_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1941.133/1941.133_web.jpg",
+        "ratio": 1.42
+      },
+      "palette": [
+        "#6e6e65",
+        "#b4b3a9"
+      ],
+      "essay": [
+        "尼古拉·德洛奈是 18 世纪法国版画界的重要人物，以精湛的蚀刻技艺著称。这幅作品创作于 1771 年，属于典型的洛可可晚期向新古典主义过渡的风格。作为书籍插图，它服务于当时流行的骑士传奇文学，将文字中的魔法场景转化为具象的视觉奇观，确立了德洛奈作为叙事性版画大师的地位。",
+        "画面最精彩之处在于对建筑空间的刻画。请看左侧前景的螺旋纹桌腿与后方宏伟的多立克柱式——德洛奈利用极其细密的平行排线（hatching），在方寸之间营造出了大理石的坚硬质感与深邃的景深。这种对古典建筑秩序的严谨描绘，正是当时法国学院派审美的核心体现。",
+        "然而，这幅画在叙事上略显生硬。虽然标题强调这是“魔法师”的洞穴，但画面中的梅林形象缺失（或仅暗示于背景阴影中），焦点完全集中在两位主角的戏剧性姿态上。这种为了构图平衡而牺牲部分叙事逻辑的做法，是当时商业版画为了迎合大众视觉趣味而做出的常见妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-121301",
+      "source": "cma",
+      "sourceId": "121301",
+      "sourceUrl": "https://clevelandart.org/art/1942.1172",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Wheelbarrow Polka - Sheet Music Cover",
+      "title_zh": "独轮车波尔卡舞曲",
+      "artist_en": "Winslow Homer (American, 1836–1910)",
+      "artist_zh": "温斯洛·霍默",
+      "artist_id": "winslow-homer-american-1836-1910",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1836–1910",
+      "date_display": "1856",
+      "year": 1856,
+      "medium_zh": "石版画",
+      "dimensions": "",
+      "movement_zh": "美国现实主义",
+      "tags": [
+        "音乐",
+        "19世纪",
+        "美国",
+        "封面",
+        "版画",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.1172/1942.1172_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.1172/1942.1172_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.1172/1942.1172_web.jpg",
+        "ratio": 1.404
+      },
+      "palette": [
+        "#efe7d9",
+        "#c0b9ac"
+      ],
+      "essay": [
+        "这是温斯洛·霍默职业生涯早期的商业委托作品，彼时他尚未成为以描绘美国内战与海洋著称的大师。作为乐谱封面，它服务于大众娱乐市场，记录了 1856 年马萨诸塞州的一场真实赌局轶事。这种通俗题材为霍默日后敏锐捕捉美国社会生活奠定了观察基础。",
+        "画面中心的独轮车与木桶构成了视觉重心，霍默用细密的排线刻画出木桶的弧度与质感。右侧奔跑的男孩姿态极具动感，衣褶线条流畅，与左侧静态的路标形成动静对比。这种对人物动态的精准捕捉，预示了他后来在插画领域的卓越天赋。",
+        "作为商业印刷品，其艺术性受限于当时的石版技术，人物面部表情略显程式化，缺乏霍默后期油画中那种深刻的心理刻画。下方的长篇文字说明占据了过多版面，使得图像本身更像是一种插图而非独立的艺术表达，这是早期商业设计的常见局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-123362",
+      "source": "cma",
+      "sourceId": "123362",
+      "sourceUrl": "https://clevelandart.org/art/1943.593.7",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Road near the Rocks",
+      "title_zh": "岩石旁的道路",
+      "artist_en": "Herman Naiwincx (Flemish, c. 1624–after 1651)",
+      "artist_zh": "赫尔曼·奈温克斯",
+      "artist_id": "herman-naiwincx-flemish-c-1624-after-1651",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "约 1624–1651 年后",
+      "date_display": "1640–51",
+      "year": 1640,
+      "medium_zh": "蚀刻版画",
+      "dimensions": "",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "道路",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.593.7/1943.593.7_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.593.7/1943.593.7_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.593.7/1943.593.7_web.jpg",
+        "ratio": 0.912
+      },
+      "palette": [
+        "#c0bdad",
+        "#737267"
+      ],
+      "essay": [
+        "赫尔曼·奈温克斯是 17 世纪佛兰德斯风景版画中常被低估的实干家。这幅《岩石旁的道路》创作于其活跃期，展现了当时北方艺术家对意大利式宏大风景的向往与模仿。作品虽非出自鲁本斯或凡·戴克等巨匠之手，却精准捕捉了巴洛克时期对戏剧性地貌的迷恋。",
+        "画面右侧那棵盘根错节的大树是视觉重心，也是蚀刻技法最精彩之处。请看树冠与岩壁交接处，艺术家利用极细密的排线制造出深邃的阴影，树叶的繁茂感并非靠描摹每一片叶子，而是通过疏密有致的墨点堆叠而成，这种“虚写”手法让前景极具空气感。",
+        "但这幅画也暴露了二流风景画家的通病：构图过于依赖程式。左侧远山的轮廓处理得有些草率，缺乏中景岩石那种扎实的体积感；路面上微小的人物更像是为了标示比例而强行塞入的符号，缺乏生活气息。这种“为了宏大而宏大”的拼凑感，削弱了写生的真实力度。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.35,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-122771",
+      "source": "cma",
+      "sourceId": "122771",
+      "sourceUrl": "https://clevelandart.org/art/1942.944",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "La Vie de Jeune Homme",
+      "title_zh": "青年生活",
+      "artist_en": "Paul Gavarni (French, 1804–1866)",
+      "artist_zh": "保罗·加瓦尔尼",
+      "artist_id": "paul-gavarni-french-1804-1866",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1804–1866",
+      "date_display": "1842",
+      "year": 1842,
+      "medium_zh": "石版画",
+      "dimensions": "",
+      "movement_zh": "讽刺版画",
+      "tags": [
+        "讽刺",
+        "19世纪",
+        "法国",
+        "生活",
+        "版画",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.944/1942.944_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.944/1942.944_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.944/1942.944_web.jpg",
+        "ratio": 1.302
+      },
+      "palette": [
+        "#e6dfd2",
+        "#9a948a"
+      ],
+      "essay": [
+        "保罗·加瓦尔尼是 19 世纪法国讽刺版画界的领军人物，与杜米埃齐名。这幅《青年生活》出自其著名的系列组画，精准捕捉了七月王朝时期巴黎资产阶级的浮华与空虚。不同于杜米埃那种粗犷的政治抨击，加瓦尔尼更擅长用优雅的线条解剖上流社会的虚伪，是当时巴黎社交圈的一面镜子。",
+        "画面焦点在于前景男子的姿态：他慵懒地陷在扶手椅中，双腿交叠，手中的报纸并未真正阅读，眼神却飘向虚空。这种漫不经心的肢体语言，配合身后女子吸烟的随意动作，生动刻画了百无聊赖的纨绔子弟形象。加瓦尔尼利用石版画的细腻特性，将丝绒衣料的厚重感与室内光线的微妙层次表现得极具质感。",
+        "底部的法文题注「当人们说拥有一个女人，意思是女人拥有了你」，直接点破了画中看似主导的男性实则处于被动地位。这种图文互涉的讽刺手法虽显直白，却也是当时大众刊物的生存法则。画中人物面容略显程式化，缺乏深层心理挖掘，但这正是为了迎合当时市民阶层的审美趣味，将复杂的两性博弈简化为一种可供消遣的谈资。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.62,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-124278",
+      "source": "cma",
+      "sourceId": "124278",
+      "sourceUrl": "https://clevelandart.org/art/1945.262",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Walford Davis Green",
+      "title_zh": "沃尔福德·戴维斯·格林",
+      "artist_en": "Francis Dodd (British, 1874–1949)",
+      "artist_zh": "弗朗西斯·多德",
+      "artist_id": "francis-dodd-british-1874-1949",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1874–1949",
+      "date_display": "1911",
+      "year": 1911,
+      "medium_zh": "干刻版画",
+      "dimensions": "",
+      "movement_zh": "不详",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "英国",
+        "政治",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1945.262/1945.262_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1945.262/1945.262_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1945.262/1945.262_web.jpg",
+        "ratio": 1.415
+      },
+      "palette": [
+        "#ded5c7",
+        "#aea597"
+      ],
+      "essay": [
+        "弗朗西斯·多德是英国一战时期著名的官方战争艺术家，但他早期的干刻版画同样展现了惊人的造型能力。这幅作于 1911 年的肖像，描绘了自由党政治家沃尔福德·戴维斯·格林。在摄影术已普及的年代，多德坚持用这种古老技法捕捉人物神韵，显示了他在具象绘画上的深厚功底。",
+        "画面最精彩处在于对西装质感的处理——多德利用干刻针在铜版上刮出的毛边（burr），印出了天鹅绒般厚重的黑色调。请看袖管与翻领的交接处，排线疏密有致，既交代了布料的褶皱，又暗示了手臂的体积。这种对物质感的敏锐捕捉，是多德版画的标志性语言。",
+        "然而，这幅作品在构图上略显拘谨。人物呈标准的四分之三侧面坐姿，双手交叠，这是维多利亚时代肖像画的传统范式，缺乏现代主义的张力。格林的眼神虽然锐利，但身体姿态过于端正，少了几分政治家应有的松弛感或个性流露，像是一张为了正式场合而拍摄的‘标准照’。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-98058",
+      "source": "cma",
+      "sourceId": "98058",
+      "sourceUrl": "https://clevelandart.org/art/1917.684",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "George Washington",
+      "title_zh": "乔治·华盛顿",
+      "artist_en": "Max Rosenthal (American, 1833–1918)",
+      "artist_zh": "马克斯·罗森塔尔",
+      "artist_id": "max-rosenthal-american-1833-1918",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1833–1918",
+      "date_display": "1903",
+      "year": 1903,
+      "medium_zh": "美柔汀版画",
+      "dimensions": "Platemark: 58.2 x 34 cm (22 15/16 x 13 3/8 in.); Sheet: 70.4 x 55.1 cm (27 11/16 x 21 11/16 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "肖像",
+        "历史人物",
+        "19世纪",
+        "美国",
+        "版画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1917.684/1917.684_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1917.684/1917.684_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1917.684/1917.684_web.jpg",
+        "ratio": 1.685
+      },
+      "palette": [
+        "#57473c",
+        "#b4a495"
+      ],
+      "essay": [
+        "马克斯·罗森塔尔是 19 世纪末美国著名的版画家，以精湛的肖像复制技术闻名。这幅作于 1903 年的《乔治·华盛顿》，并非对历史现场的写生，而是对早期绘画经典的再诠释。在摄影术已普及的年代，罗森塔尔试图用传统的美柔汀技法，为这位开国元勋重塑一种超越时间的纪念碑性。",
+        "美柔汀（Mezzotint）的魅力在于其如天鹅绒般深邃的黑色与细腻的灰阶过渡。请看华盛顿面部与军装领口的处理——罗森塔尔利用铜版上细密的毛刺挂墨，营造出一种近乎油画的厚重质感。这种技法让华盛顿的面容在深沉背景中浮现，既保留了皮肤的纹理，又赋予了某种理想化的光泽。",
+        "然而，这种极致的完美恰恰暴露了作品的局限。画中华盛顿的姿态过于舞台化，身后的战马温顺得像匹道具，缺乏战场上的张力与野性。罗森塔尔过于追求画面的洁净与庄重，反而削弱了华盛顿作为军事统帅的粗砺感。这是一尊被精心打磨的偶像，而非那个在泥泞中行军的真实将领。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.28,
+        "r": 0.12
+      }
+    }
+  ]
+}

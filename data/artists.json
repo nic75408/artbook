@@ -1015,6 +1015,153 @@
       "years": "1884–1968",
       "nationality_zh": "美国",
       "bio_zh": "美国版画家，以描绘新英格兰地区风景与建筑见长，是 20 世纪初美国乡土主义版画运动的重要参与者。"
+    },
+    "albrecht-durer": {
+      "name_zh": "阿尔布雷希特·丢勒",
+      "name_en": "Albrecht Dürer",
+      "years": "1471–1528",
+      "nationality_zh": "德国",
+      "bio_zh": "德国文艺复兴核心人物，版画成就最高，将科学观察与艺术完美结合。"
+    },
+    "rembrandt-van-rijn-dutch-1606-1669": {
+      "name_zh": "伦勃朗·凡·莱因",
+      "name_en": "Rembrandt van Rijn (Dutch, 1606–1669)",
+      "years": "1606–1669",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代巨匠，以戏剧性光影与深刻心理刻画著称，版画技艺登峰造极。"
+    },
+    "anders-zorn-swedish-1860-1920": {
+      "name_zh": "安德斯·佐恩",
+      "name_en": "Anders Zorn (Swedish, 1860–1920)",
+      "years": "1860–1920",
+      "nationality_zh": "瑞典",
+      "bio_zh": "瑞典绘画大师，以精湛的光影捕捉与豪放的笔触闻名，被誉为“阳光画家”。"
+    },
+    "muirhead-bone-british-1876-1953": {
+      "name_zh": "缪尔黑德·博恩",
+      "name_en": "Muirhead Bone (British, 1876–1953)",
+      "years": "1876–1953",
+      "nationality_zh": "英国",
+      "bio_zh": "苏格兰版画家，英国首位官方战争艺术家，以精准记录建筑与工业景观的干刻版画闻名。"
+    },
+    "alphonse-legros-french-1837-1911": {
+      "name_zh": "阿尔方斯·勒格罗",
+      "name_en": "Alphonse Legros (French, 1837–1911)",
+      "years": "1837–1911",
+      "nationality_zh": "法国",
+      "bio_zh": "法国写实主义版画家，以蚀刻技法闻名，擅长捕捉人物神态，晚年定居英国。"
+    },
+    "allen-smith-jr-american-1810-1891": {
+      "name_zh": "艾伦·史密斯",
+      "name_en": "Allen Smith, Jr. (American, 1810–1891)",
+      "years": "1810–1891",
+      "nationality_zh": "美国",
+      "bio_zh": "美国风景画家，哈德逊河画派成员，以描绘俄亥俄州及新英格兰地区细腻、写实的自然风光著称。"
+    },
+    "giovanni-battista-tiepolo-italian-1696-1770": {
+      "name_zh": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "name_en": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+      "years": "1696–1770",
+      "nationality_zh": "意大利",
+      "bio_zh": "18 世纪威尼斯画派巨匠，以宏大的天顶湿壁画与轻盈的洛可可风格著称，被誉为“最后的伟大装饰画家”。"
+    },
+    "hans-suss-von-kulmbach-german-c-1480-1522": {
+      "name_zh": "汉斯·苏斯·冯·库尔姆巴赫",
+      "name_en": "Hans Süss von Kulmbach (German, c. 1480–1522)",
+      "years": "约 1480–1522",
+      "nationality_zh": "德国",
+      "bio_zh": "德国文艺复兴画家，丢勒的学生，纽伦堡画派代表，以精细的祭坛画和受意大利影响的构图著称。"
+    },
+    "david-young-cameron-british-1865-1945": {
+      "name_zh": "大卫·扬·卡梅隆",
+      "name_en": "David Young Cameron (British, 1865–1945)",
+      "years": "1865–1945",
+      "nationality_zh": "英国",
+      "bio_zh": "苏格兰画家与版画家，以精湛的蚀刻与干刻风景作品著称，擅长表现光影与大气氛围。"
+    },
+    "winslow-homer-american-1836-1910": {
+      "name_zh": "温斯洛·霍默",
+      "name_en": "Winslow Homer (American, 1836–1910)",
+      "years": "1836–1910",
+      "nationality_zh": "美国",
+      "bio_zh": "19 世纪美国最杰出的现实主义画家，以描绘内战、海洋与自然题材闻名，被誉为美国绘画的良心。"
+    },
+    "pierre-rousseau-french-1751-1829": {
+      "name_zh": "皮埃尔·卢梭",
+      "name_en": "Pierre Rousseau (French, 1751–1829)",
+      "years": "1751–1829",
+      "nationality_zh": "法国",
+      "bio_zh": "法国新古典主义画家，以模仿古典浮雕的装饰性门楣画闻名，追求严谨的秩序与理性美。"
+    },
+    "thomas-shotter-boys-british-1803-1874": {
+      "name_zh": "托马斯·肖特·博伊斯",
+      "name_en": "Thomas Shotter Boys (British, 1803–1874)",
+      "years": "1803–1874",
+      "nationality_zh": "英国",
+      "bio_zh": "英国水彩画家与石版画家，以描绘欧洲大陆建筑景观的精细作品闻名，是 19 世纪早期建筑题材版画的重要代表。"
+    },
+    "ferdinand-bol-dutch-1616-1680": {
+      "name_zh": "费迪南德·博尔",
+      "name_en": "Ferdinand Bol (Dutch, 1616–1680)",
+      "years": "1616–1680",
+      "nationality_zh": "荷兰",
+      "bio_zh": "伦勃朗最杰出的学生，以宏大的历史画与精致的肖像蚀刻版画闻名，后成为阿姆斯特丹富商阶层的首选画家。"
+    },
+    "herman-naiwincx-flemish-c-1624-after-1651": {
+      "name_zh": "赫尔曼·奈温克斯",
+      "name_en": "Herman Naiwincx (Flemish, c. 1624–after 1651)",
+      "years": "约 1624–1651 年后",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "17 世纪佛兰德斯版画家，以描绘带有意大利风情的幻想风景著称，擅长利用蚀刻技法表现丰富的光影层次。"
+    },
+    "paul-gavarni-french-1804-1866": {
+      "name_zh": "保罗·加瓦尔尼",
+      "name_en": "Paul Gavarni (French, 1804–1866)",
+      "years": "1804–1866",
+      "nationality_zh": "法国",
+      "bio_zh": "19 世纪法国著名石版画家，以描绘巴黎风俗与讽刺社会百态著称，被誉为「优雅的杜米埃」。"
+    },
+    "adriaen-van-ostade-dutch-1610-1684": {
+      "name_zh": "阿德里安·凡·奥斯塔德",
+      "name_en": "Adriaen van Ostade (Dutch, 1610–1684)",
+      "years": "1610–1684",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代风俗画家，以描绘农民生活与乡村场景闻名，风格从早期粗犷转向后期温和细腻。"
+    },
+    "joseph-pennell-american-1857-1926": {
+      "name_zh": "约瑟夫·佩内尔",
+      "name_en": "Joseph Pennell (American, 1857–1926)",
+      "years": "1857–1926",
+      "nationality_zh": "美国",
+      "bio_zh": "美国版画家与插画家，以描绘现代城市与工业景观闻名，是 20 世纪初美国蚀刻复兴运动的重要代表。"
+    },
+    "cornelis-pietersz-bega-dutch-1631-32-1664": {
+      "name_zh": "科内利斯·彼得斯·贝加",
+      "name_en": "Cornelis Pietersz Bega (Dutch, 1631/32–1664)",
+      "years": "1631/32–1664",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代风俗画家，以描绘农民与市井生活著称，英年早逝却留下大量蚀刻版画杰作。"
+    },
+    "nicolas-delaunay-french-1739-1792": {
+      "name_zh": "尼古拉·德洛奈",
+      "name_en": "Nicolas Delaunay (French, 1739–1792)",
+      "years": "1739–1792",
+      "nationality_zh": "法国",
+      "bio_zh": "18 世纪法国著名版画家，以精细的蚀刻技艺和为文学作品绘制插图而闻名，擅长表现古典建筑与神话场景。"
+    },
+    "francis-dodd-british-1874-1949": {
+      "name_zh": "弗朗西斯·多德",
+      "name_en": "Francis Dodd (British, 1874–1949)",
+      "years": "1874–1949",
+      "nationality_zh": "英国",
+      "bio_zh": "英国画家与版画家，以一战战地素描及敏锐的人物肖像干刻版画闻名。"
+    },
+    "max-rosenthal-american-1833-1918": {
+      "name_zh": "马克斯·罗森塔尔",
+      "name_en": "Max Rosenthal (American, 1833–1918)",
+      "years": "1833–1918",
+      "nationality_zh": "美国",
+      "bio_zh": "19 世纪美国著名版画家，生于波兰，以精湛的美柔汀肖像复制技术闻名，作品多见于美国重要博物馆。"
     }
   }
 }

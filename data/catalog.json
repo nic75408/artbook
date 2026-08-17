@@ -3650,6 +3650,564 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1928.94/1928.94_web.jpg",
       "ratio": 0.703
+    },
+    {
+      "id": "met-436243",
+      "issue": "2026-08-18",
+      "t": "救世主",
+      "a": "阿尔布雷希特·丢勒",
+      "aid": "albrecht-durer",
+      "y": 1505,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "宗教",
+        "油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+      "ratio": 1.23
+    },
+    {
+      "id": "cma-157148",
+      "issue": "2026-08-18",
+      "t": "三王之星：夜景",
+      "a": "伦勃朗·凡·莱因",
+      "aid": "rembrandt-van-rijn-dutch-1606-1669",
+      "y": 1651,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "夜景",
+        "17世纪",
+        "荷兰",
+        "光影",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1993.40/1993.40_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-103236",
+      "issue": "2026-08-18",
+      "t": "忠臣藏四段目",
+      "a": "喜多川歌麿",
+      "aid": "kitagawa-utamaro-japanese-c-1754-1806",
+      "y": 1790,
+      "mv": "浮世绘",
+      "tags": [
+        "戏剧",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "构图",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.311/1921.311_web.jpg",
+      "ratio": 1.483
+    },
+    {
+      "id": "cma-149996",
+      "issue": "2026-08-18",
+      "t": "供奉的迦梨女神（背面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1890,
+      "mv": "迦梨画派",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "印度",
+        "色彩",
+        "神像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.216.b/1980.216.b_web.jpg",
+      "ratio": 1.138
+    },
+    {
+      "id": "cma-120916",
+      "issue": "2026-08-18",
+      "t": "圣吉尔斯教堂",
+      "a": "詹姆斯·麦克尼尔·惠斯勒",
+      "aid": "james-mcneill-whistler-american-1834-1903",
+      "y": 1896,
+      "mv": "唯美主义",
+      "tags": [
+        "建筑",
+        "19世纪",
+        "美国",
+        "夜景",
+        "版画",
+        "伦敦"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.622/1941.622_web.jpg",
+      "ratio": 1.486
+    },
+    {
+      "id": "cma-120119",
+      "issue": "2026-08-18",
+      "t": "萨波",
+      "a": "安德斯·佐恩",
+      "aid": "anders-zorn-swedish-1860-1920",
+      "y": 1917,
+      "mv": "印象派",
+      "tags": [
+        "人物",
+        "海景",
+        "20世纪",
+        "瑞典",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1940.899/1940.899_web.jpg",
+      "ratio": 1.191
+    },
+    {
+      "id": "met-437060",
+      "issue": "2026-08-18",
+      "t": "圣母与圣子",
+      "a": "汉斯·梅姆林",
+      "aid": "hans-memling",
+      "y": 1490,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "肖像",
+        "油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42409-001.jpg",
+      "ratio": 1.371
+    },
+    {
+      "id": "cma-120932",
+      "issue": "2026-08-18",
+      "t": "黄昏，热那亚港",
+      "a": "缪尔黑德·博恩",
+      "aid": "muirhead-bone-british-1876-1953",
+      "y": 1915,
+      "mv": "写实主义",
+      "tags": [
+        "海景",
+        "港口",
+        "20世纪",
+        "英国",
+        "版画",
+        "热那亚"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.635/1941.635_web.jpg",
+      "ratio": 0.781
+    },
+    {
+      "id": "cma-124036",
+      "issue": "2026-08-18",
+      "t": "维克多·雨果肖像（第二版）",
+      "a": "阿尔方斯·勒格罗",
+      "aid": "alphonse-legros-french-1837-1911",
+      "y": 1884,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "文学",
+        "版画",
+        "雨果"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.520/1944.520_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-98905",
+      "issue": "2026-08-18",
+      "t": "佩恩斯维尔附近的风景",
+      "a": "艾伦·史密斯",
+      "aid": "allen-smith-jr-american-1810-1891",
+      "y": 1880,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "自然",
+        "油画",
+        "哈德逊河画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.570/1918.570_web.jpg",
+      "ratio": 1.4
+    },
+    {
+      "id": "cma-99301",
+      "issue": "2026-08-18",
+      "t": "暴风雨云",
+      "a": "费利克斯·布拉克蒙",
+      "aid": "felix-bracquemond-french-1833-1914",
+      "y": 1882,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "天空",
+        "19世纪",
+        "法国",
+        "版画",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.86/1918.86_web.jpg",
+      "ratio": 0.758
+    },
+    {
+      "id": "cma-106459",
+      "issue": "2026-08-18",
+      "t": "幻想曲：方尖碑旁的萨提尔一家",
+      "a": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "aid": "giovanni-battista-tiepolo-italian-1696-1770",
+      "y": 1750,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "意大利",
+        "幻想",
+        "蚀刻版画",
+        "废墟"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.529/1924.529_web.jpg",
+      "ratio": 1.225
+    },
+    {
+      "id": "cma-709469",
+      "issue": "2026-08-18",
+      "t": "圣萨洛梅及其家人",
+      "a": "汉斯·苏斯·冯·库尔姆巴赫",
+      "aid": "hans-suss-von-kulmbach-german-c-1480-1522",
+      "y": 1513,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "群像",
+        "纽伦堡画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.27.2/2026.27.2_web.jpg",
+      "ratio": 1.657
+    },
+    {
+      "id": "cma-120945",
+      "issue": "2026-08-18",
+      "t": "阿平岩",
+      "a": "大卫·扬·卡梅隆",
+      "aid": "david-young-cameron-british-1865-1945",
+      "y": 1913,
+      "mv": "不详",
+      "tags": [
+        "风景",
+        "20世纪",
+        "英国",
+        "岩石",
+        "海景",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.647/1941.647_web.jpg",
+      "ratio": 1.035
+    },
+    {
+      "id": "cma-121374",
+      "issue": "2026-08-18",
+      "t": "三月某日纽约联合广场一景",
+      "a": "温斯洛·霍默",
+      "aid": "winslow-homer-american-1836-1910",
+      "y": 1860,
+      "mv": "现实主义",
+      "tags": [
+        "城市",
+        "19世纪",
+        "美国",
+        "街头",
+        "版画",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.1233/1942.1233_web.jpg",
+      "ratio": 0.777
+    },
+    {
+      "id": "cma-123954",
+      "issue": "2026-08-18",
+      "t": "门楣装饰画",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰画",
+        "18世纪",
+        "法国",
+        "浮雕",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.466.1/1944.466.1_web.jpg",
+      "ratio": 0.369
+    },
+    {
+      "id": "cma-171375",
+      "issue": "2026-08-18",
+      "t": "沙特尔大教堂南门廊",
+      "a": "托马斯·肖特·博伊斯",
+      "aid": "thomas-shotter-boys-british-1803-1874",
+      "y": 1839,
+      "mv": "浪漫主义",
+      "tags": [
+        "建筑",
+        "19世纪",
+        "英国",
+        "教堂",
+        "版画",
+        "哥特式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2014.191/2014.191_web.jpg",
+      "ratio": 1.247
+    },
+    {
+      "id": "cma-123305",
+      "issue": "2026-08-18",
+      "t": "戴高帽的男子肖像",
+      "a": "费迪南德·博尔",
+      "aid": "ferdinand-bol-dutch-1616-1680",
+      "y": 1646,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "帽子",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.549/1943.549_web.jpg",
+      "ratio": 1.239
+    },
+    {
+      "id": "cma-98274",
+      "issue": "2026-08-18",
+      "t": "佛教挂轴",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1650,
+      "mv": "不详",
+      "tags": [
+        "佛教",
+        "17世纪",
+        "亚洲",
+        "宗教",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.95.2/1917.95.2_web.jpg",
+      "ratio": 6.87
+    },
+    {
+      "id": "cma-123358",
+      "issue": "2026-08-18",
+      "t": "林边河流",
+      "a": "赫尔曼·奈温克斯",
+      "aid": "herman-naiwincx-flemish-c-1624-after-1651",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "河流",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.593.3/1943.593.3_web.jpg",
+      "ratio": 0.912
+    },
+    {
+      "id": "cma-122768",
+      "issue": "2026-08-18",
+      "t": "勋章的反面",
+      "a": "保罗·加瓦尔尼",
+      "aid": "paul-gavarni-french-1804-1866",
+      "y": 1842,
+      "mv": "讽刺版画",
+      "tags": [
+        "讽刺",
+        "19世纪",
+        "法国",
+        "社会",
+        "版画",
+        "七月王朝"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.941/1942.941_web.jpg",
+      "ratio": 1.433
+    },
+    {
+      "id": "cma-123370",
+      "issue": "2026-08-18",
+      "t": "谢饭",
+      "a": "阿德里安·凡·奥斯塔德",
+      "aid": "adriaen-van-ostade-dutch-1610-1684",
+      "y": 1653,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "荷兰",
+        "室内",
+        "版画",
+        "宗教生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.605/1943.605_web.jpg",
+      "ratio": 1.164
+    },
+    {
+      "id": "cma-98370",
+      "issue": "2026-08-18",
+      "t": "多佛尔码头建设",
+      "a": "约瑟夫·佩内尔",
+      "aid": "joseph-pennell-american-1857-1926",
+      "y": 1910,
+      "mv": "美国印象派",
+      "tags": [
+        "建筑",
+        "20世纪",
+        "美国",
+        "工程",
+        "版画",
+        "海景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.106/1918.106_web.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "cma-123299",
+      "issue": "2026-08-18",
+      "t": "坐在客栈里的母亲",
+      "a": "科内利斯·彼得斯·贝加",
+      "aid": "cornelis-pietersz-bega-dutch-1631-32-1664",
+      "y": 1642,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "荷兰",
+        "母亲",
+        "版画",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.543/1943.543_web.jpg",
+      "ratio": 1.276
+    },
+    {
+      "id": "cma-120279",
+      "issue": "2026-08-18",
+      "t": "梅林法师的洞穴",
+      "a": "尼古拉·德洛奈",
+      "aid": "nicolas-delaunay-french-1739-1792",
+      "y": 1771,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洞穴",
+        "版画",
+        "插图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.133/1941.133_web.jpg",
+      "ratio": 1.42
+    },
+    {
+      "id": "cma-121301",
+      "issue": "2026-08-18",
+      "t": "独轮车波尔卡舞曲",
+      "a": "温斯洛·霍默",
+      "aid": "winslow-homer-american-1836-1910",
+      "y": 1856,
+      "mv": "美国现实主义",
+      "tags": [
+        "音乐",
+        "19世纪",
+        "美国",
+        "封面",
+        "版画",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.1172/1942.1172_web.jpg",
+      "ratio": 1.404
+    },
+    {
+      "id": "cma-123362",
+      "issue": "2026-08-18",
+      "t": "岩石旁的道路",
+      "a": "赫尔曼·奈温克斯",
+      "aid": "herman-naiwincx-flemish-c-1624-after-1651",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "道路",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.593.7/1943.593.7_web.jpg",
+      "ratio": 0.912
+    },
+    {
+      "id": "cma-122771",
+      "issue": "2026-08-18",
+      "t": "青年生活",
+      "a": "保罗·加瓦尔尼",
+      "aid": "paul-gavarni-french-1804-1866",
+      "y": 1842,
+      "mv": "讽刺版画",
+      "tags": [
+        "讽刺",
+        "19世纪",
+        "法国",
+        "生活",
+        "版画",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.944/1942.944_web.jpg",
+      "ratio": 1.302
+    },
+    {
+      "id": "cma-124278",
+      "issue": "2026-08-18",
+      "t": "沃尔福德·戴维斯·格林",
+      "a": "弗朗西斯·多德",
+      "aid": "francis-dodd-british-1874-1949",
+      "y": 1911,
+      "mv": "不详",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "英国",
+        "政治",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1945.262/1945.262_web.jpg",
+      "ratio": 1.415
+    },
+    {
+      "id": "cma-98058",
+      "issue": "2026-08-18",
+      "t": "乔治·华盛顿",
+      "a": "马克斯·罗森塔尔",
+      "aid": "max-rosenthal-american-1833-1918",
+      "y": 1903,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "历史人物",
+        "19世纪",
+        "美国",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.684/1917.684_web.jpg",
+      "ratio": 1.685
     }
   ]
 }
