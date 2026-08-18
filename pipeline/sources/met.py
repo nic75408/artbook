@@ -13,7 +13,8 @@ from . import Candidate
 # 部门 id（以官方 departments 接口为准；取不到该部门自动跳过）：
 # 11 European Paintings / 9 Drawings and Prints / 6 Asian Art /
 # 21 Islamic Art / 3 Egyptian Art / 17 Greek and Roman Art / 2 American Paintings and Sculpture
-DEPARTMENT_IDS = [11, 9, 6, 21, 3, 17, 2]
+# 2026-08-17：绘画部门（11、2）各加权 ×2，提升候选池绘画占比（SPE 要求 ≥70%）
+DEPARTMENT_IDS = [11, 11, 2, 2, 9, 6, 21, 3, 17]
 
 QUERY_TERMS = ["painting", "portrait", "landscape", "still life", "watercolor",
                "drawing", "figure", "seascape", "flowers", "cityscape"]

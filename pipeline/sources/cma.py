@@ -1,7 +1,10 @@
 """Cleveland Museum of Art 适配器（免 key，SPE §6.2）。
 
-Open Access API：cc0=1&has_image=1，随机 skip 分页采样；
+Open Access API：cc0=1&has_image=1&type=Painting，随机 skip 分页采样；
 feed/thumb 用 images.web.url，full 优先 images.print.url。
+
+2026-08-17：加 type=Painting 过滤——此前客户端白名单放行 drawing/print，
+导致候选池绘画占比不足（08-17 期仅 60%，SPE 要求 70%）。
 """
 import random
 
@@ -12,7 +15,8 @@ from . import Candidate
 
 def _total():
     data = http_get_json(f"{config.CMA_BASE}/artworks/",
-                         params={"cc0": "1", "has_image": "1", "limit": "1"})
+                         params={"cc0": "1", "has_image": "1", "type": "Painting",
+                                 "limit": "1"})
     return (data or {}).get("info", {}).get("total", 0)
 
 
@@ -27,7 +31,7 @@ def fetch_candidates(n):
         tries += 1
         skip = random.randint(0, max(0, total - 100))
         data = http_get_json(f"{config.CMA_BASE}/artworks/",
-                             params={"cc0": "1", "has_image": "1",
+                             params={"cc0": "1", "has_image": "1", "type": "Painting",
                                      "limit": "100", "skip": str(skip)})
         for a in (data or {}).get("data", []):
             t = (a.get("type") or "").lower()
