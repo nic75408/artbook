@@ -4208,6 +4208,545 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1917.684/1917.684_web.jpg",
       "ratio": 1.685
+    },
+    {
+      "id": "cma-122348",
+      "issue": "2026-08-17",
+      "t": "戴金链的青年",
+      "a": "伦勃朗·凡·莱因",
+      "aid": "rembrandt-van-rijn-dutch-1606-1669",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "巴洛克",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.644/1942.644_web.jpg",
+      "ratio": 1.337
+    },
+    {
+      "id": "cma-144278",
+      "issue": "2026-08-17",
+      "t": "华山图",
+      "a": "唐寅",
+      "aid": "tang-yin-chinese-1470-1523",
+      "y": 1506,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "16世纪",
+        "中国",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.116/1969.116_web.jpg",
+      "ratio": 2.356
+    },
+    {
+      "id": "cma-148297",
+      "issue": "2026-08-17",
+      "t": "大树",
+      "a": "保罗·高更",
+      "aid": "paul-gauguin-french-1848-1903",
+      "y": 1891,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "塔希提",
+        "19世纪",
+        "原始主义",
+        "色彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.263/1975.263_web.jpg",
+      "ratio": 0.792
+    },
+    {
+      "id": "cma-143803",
+      "issue": "2026-08-17",
+      "t": "参孙与大利拉",
+      "a": "赫里特·范·洪特霍斯特",
+      "aid": "gerrit-van-honthorst-dutch-1590-1656",
+      "y": 1616,
+      "mv": "卡拉瓦乔主义",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "荷兰",
+        "卡拉瓦乔主义",
+        "戏剧光",
+        "圣经故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.23/1968.23_web.jpg",
+      "ratio": 1.382
+    },
+    {
+      "id": "cma-162089",
+      "issue": "2026-08-17",
+      "t": "在海浪中",
+      "a": "爱德华·H·波特哈斯特",
+      "aid": "edward-h-potthast-american-1857-1927",
+      "y": 1910,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "户外光",
+        "休闲"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2001.41.a/2001.41.a_web.jpg",
+      "ratio": 0.772
+    },
+    {
+      "id": "cma-127572",
+      "issue": "2026-08-17",
+      "t": "天使报喜",
+      "a": "保罗·委罗内塞",
+      "aid": "paolo-veronese-italian-1528-1588",
+      "y": 1580,
+      "mv": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "天使报喜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.251/1950.251_web.jpg",
+      "ratio": 1.111
+    },
+    {
+      "id": "cma-135173",
+      "issue": "2026-08-17",
+      "t": "小溪",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne-french-1839-1906",
+      "y": 1897,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "笔触",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_web.jpg",
+      "ratio": 0.723
+    },
+    {
+      "id": "cma-141549",
+      "issue": "2026-08-17",
+      "t": "弄臣卡拉巴萨斯肖像",
+      "a": "迭戈·委拉斯开兹",
+      "aid": "diego-velazquez-spanish-1599-1660",
+      "y": 1631,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "巴洛克",
+        "宫廷人物",
+        "弄臣"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.15/1965.15_web.jpg",
+      "ratio": 1.627
+    },
+    {
+      "id": "cma-124040",
+      "issue": "2026-08-17",
+      "t": "石楠木烟斗",
+      "a": "温斯洛·霍默",
+      "aid": "winslow-homer-american-1836-1910",
+      "y": 1864,
+      "mv": "现实主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "美国",
+        "内战",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.524/1944.524_web.jpg",
+      "ratio": 1.129
+    },
+    {
+      "id": "cma-137877",
+      "issue": "2026-08-17",
+      "t": "第六夜鹦鹉对胡佳斯塔说话，出自《鹦鹉故事》",
+      "a": "达萨万塔",
+      "aid": "dasavanta-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "插画",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷",
+        "文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.37.b/1962.279.37.b_web.jpg",
+      "ratio": 1.518
+    },
+    {
+      "id": "cma-125247",
+      "issue": "2026-08-17",
+      "t": "伊莎贝拉·布兰特肖像",
+      "a": "彼得·保罗·鲁本斯",
+      "aid": "peter-paul-rubens-flemish-1577-1640",
+      "y": 1620,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "质感",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.207/1947.207_web.jpg",
+      "ratio": 1.181
+    },
+    {
+      "id": "cma-145124",
+      "issue": "2026-08-17",
+      "t": "岩石风景与猎人",
+      "a": "加斯帕尔·杜盖",
+      "aid": "gaspard-dughet-french-1615-1675",
+      "y": 1635,
+      "mv": "古典主义",
+      "tags": [
+        "风景",
+        "狩猎",
+        "17世纪",
+        "法国",
+        "理想化",
+        "巴洛克"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.30/1970.30_web.jpg",
+      "ratio": 0.749
+    },
+    {
+      "id": "cma-128074",
+      "issue": "2026-08-17",
+      "t": "韦普勒咖啡馆",
+      "a": "爱德华·维亚尔",
+      "aid": "edouard-vuillard-french-1868-1940",
+      "y": 1910,
+      "mv": "纳比派",
+      "tags": [
+        "室内",
+        "20世纪",
+        "法国",
+        "纳比派",
+        "图案",
+        "巴黎生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.90/1950.90_web.jpg",
+      "ratio": 0.603
+    },
+    {
+      "id": "cma-149391",
+      "issue": "2026-08-17",
+      "t": "白衣观音",
+      "a": "觉继永仲",
+      "aid": "jueji-yongzhong-chinese-active-around-1300",
+      "y": 1250,
+      "mv": "宋代绘画",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "中国",
+        "宋代",
+        "线条",
+        "观音"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.47.2/1978.47.2_web.jpg",
+      "ratio": 3.02
+    },
+    {
+      "id": "cma-163042",
+      "issue": "2026-08-17",
+      "t": "阿波罗与乌拉尼亚",
+      "a": "夏尔·梅尼耶",
+      "aid": "charles-meynier-french-1768-1832",
+      "y": 1798,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "寓言",
+        "18世纪",
+        "法国",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.6.3/2003.6.3_web.jpg",
+      "ratio": 1.184
+    },
+    {
+      "id": "cma-124679",
+      "issue": "2026-08-17",
+      "t": "地下酒馆",
+      "a": "约翰·斯隆",
+      "aid": "john-sloan-american-1871-1951",
+      "y": 1901,
+      "mv": "垃圾箱画派",
+      "tags": [
+        "城市",
+        "夜景",
+        "20世纪",
+        "美国",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.164/1946.164_web.jpg",
+      "ratio": 1.307
+    },
+    {
+      "id": "cma-118679",
+      "issue": "2026-08-17",
+      "t": "拉撒路与财主",
+      "a": "雅各布·巴萨诺",
+      "aid": "jacopo-bassano-italian-c-1510-1592",
+      "y": 1550,
+      "mv": "风格主义",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "威尼斯画派",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.68/1939.68_web.jpg",
+      "ratio": 0.657
+    },
+    {
+      "id": "cma-156813",
+      "issue": "2026-08-17",
+      "t": "在博斯恩山",
+      "a": "埃德蒙·C·塔贝尔",
+      "aid": "edmund-c-tarbell-american-1862-1938",
+      "y": 1901,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "风景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "阳光"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.398/1992.398_web.jpg",
+      "ratio": 1.355
+    },
+    {
+      "id": "cma-148233",
+      "issue": "2026-08-17",
+      "t": "樊会公山水花卉册",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "金陵画派",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22/1975.22_web.jpg",
+      "ratio": 1.026
+    },
+    {
+      "id": "cma-108555",
+      "issue": "2026-08-17",
+      "t": "宁芙与萨堤尔（爱征服一切）",
+      "a": "尼古拉·普桑",
+      "aid": "nicolas-poussin-french-1594-1665",
+      "y": 1625,
+      "mv": "古典主义",
+      "tags": [
+        "神话",
+        "17世纪",
+        "法国",
+        "古典主义",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.26/1926.26_web.jpg",
+      "ratio": 0.759
+    },
+    {
+      "id": "cma-93234",
+      "issue": "2026-08-17",
+      "t": "海滩上，第 3 号",
+      "a": "莫里斯·普伦德加斯特",
+      "aid": "maurice-prendergast-american-born-newfoundland-now-canada-1858-1924",
+      "y": 1915,
+      "mv": "后印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "后印象派",
+        "色块",
+        "休闲"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.1653/1926.1653_web.jpg",
+      "ratio": 0.759
+    },
+    {
+      "id": "cma-142476",
+      "issue": "2026-08-17",
+      "t": "施洗者圣约翰",
+      "a": "罗伯特·康平",
+      "aid": "robert-campin-netherlandish-1375-79-1444",
+      "y": 1410,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "早期尼德兰",
+        "细节"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.238/1966.238_web.jpg",
+      "ratio": 1.466
+    },
+    {
+      "id": "cma-172828",
+      "issue": "2026-08-17",
+      "t": "哈德逊河假日",
+      "a": "乔治·卢克斯",
+      "aid": "george-luks-american-1866-1933",
+      "y": 1912,
+      "mv": "垃圾箱画派",
+      "tags": [
+        "城市",
+        "20世纪",
+        "美国",
+        "垃圾箱画派",
+        "动态",
+        "海景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1933.2291/1933.2291_web.jpg",
+      "ratio": 0.836
+    },
+    {
+      "id": "cma-124092",
+      "issue": "2026-08-17",
+      "t": "女子肖像",
+      "a": "赫拉德·特·博尔赫",
+      "aid": "gerard-ter-borch-dutch-1617-1681",
+      "y": 1665,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "丝绸质感",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.93/1944.93_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-145987",
+      "issue": "2026-08-17",
+      "t": "云访山居图",
+      "a": "陶宏",
+      "aid": "tao-hong-chinese-active-c-1610-1640",
+      "y": 1633,
+      "mv": "明代院体",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "明代",
+        "氛围",
+        "隐居"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.19/1971.19_web.jpg",
+      "ratio": 1.688
+    },
+    {
+      "id": "cma-302209",
+      "issue": "2026-08-17",
+      "t": "查尔斯·希斯科特上校肖像",
+      "a": "约瑟夫·赖特",
+      "aid": "joseph-wright-of-derby-british-1734-1797",
+      "y": 1771,
+      "mv": "启蒙时代",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "启蒙时代",
+        "心理刻画",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2017.100/2017.100_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-125942",
+      "issue": "2026-08-17",
+      "t": "园丁",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1723,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "装饰画",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.176.1/1948.176.1_web.jpg",
+      "ratio": 4.335
+    },
+    {
+      "id": "cma-137929",
+      "issue": "2026-08-17",
+      "t": "不忠的妻子袭击出轨的丈夫（出自《鹦鹉故事》第八夜）",
+      "a": "塔拉一世",
+      "aid": "tara-1-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事插画",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.60.b/1962.279.60.b_web.jpg",
+      "ratio": 1.627
+    },
+    {
+      "id": "cma-160913",
+      "issue": "2026-08-17",
+      "t": "三清图",
+      "a": "张熊",
+      "aid": "zhang-xiong-chinese-1803-1886",
+      "y": 1878,
+      "mv": "海派",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "中国",
+        "清代",
+        "写意",
+        "海派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.193/1999.193_web.jpg",
+      "ratio": 3.614
     }
   ]
 }
