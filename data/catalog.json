@@ -4747,6 +4747,548 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.193/1999.193_web.jpg",
       "ratio": 3.614
+    },
+    {
+      "id": "cma-151517",
+      "issue": "2026-08-19",
+      "t": "《猎熊》习作",
+      "a": "彼得·保罗·鲁本斯",
+      "aid": "peter-paul-rubens-flemish-1577-1640",
+      "y": 1639,
+      "mv": "巴洛克",
+      "tags": [
+        "狩猎",
+        "动物",
+        "17世纪",
+        "佛兰德斯",
+        "动态",
+        "习作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.69/1983.69_web.jpg",
+      "ratio": 0.479
+    },
+    {
+      "id": "cma-135964",
+      "issue": "2026-08-19",
+      "t": "秋兴八景图",
+      "a": "董其昌",
+      "aid": "dong-qichang-chinese-1555-1636",
+      "y": 1624,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "水墨",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.46/1959.46_web.jpg",
+      "ratio": 0.139
+    },
+    {
+      "id": "met-438779",
+      "issue": "2026-08-19",
+      "t": "农民家庭",
+      "a": "安托万·勒南",
+      "aid": "antoine-le-nain",
+      "y": 1640,
+      "mv": "现实主义",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "法国",
+        "家庭",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP131218.jpg",
+      "ratio": 1.27
+    },
+    {
+      "id": "cma-152447",
+      "issue": "2026-08-19",
+      "t": "双美人图",
+      "a": "北尾重政",
+      "aid": "kitao-shigemasa-japanese-1739-1819",
+      "y": 1750,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "肖像",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.274/1985.274_web.jpg",
+      "ratio": 6.164
+    },
+    {
+      "id": "cma-146469",
+      "issue": "2026-08-19",
+      "t": "女子肖像",
+      "a": "阿尼奥洛·布龙齐诺",
+      "aid": "agnolo-bronzino-italian-1503-1572",
+      "y": 1550,
+      "mv": "样式主义",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "样式主义",
+        "女性",
+        "佛罗伦萨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.121/1972.121_web.jpg",
+      "ratio": 1.284
+    },
+    {
+      "id": "cma-151970",
+      "issue": "2026-08-19",
+      "t": "芦雁图",
+      "a": "梁楷",
+      "aid": "liang-kai-chinese-mid-1100s-early-1200s",
+      "y": 1200,
+      "mv": "禅画",
+      "tags": [
+        "花鸟",
+        "南宋",
+        "水墨",
+        "禅画",
+        "留白"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.42/1984.42_web.jpg",
+      "ratio": 1.001
+    },
+    {
+      "id": "cma-150840",
+      "issue": "2026-08-19",
+      "t": "瓶花",
+      "a": "西蒙·韦雷斯特",
+      "aid": "simon-verelst-dutch-1644-1721",
+      "y": 1669,
+      "mv": "巴洛克",
+      "tags": [
+        "静物",
+        "花卉",
+        "17世纪",
+        "荷兰",
+        "质感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.246/1982.246_web.jpg",
+      "ratio": 1.191
+    },
+    {
+      "id": "cma-132015",
+      "issue": "2026-08-19",
+      "t": "林逋月下漫步图",
+      "a": "杜堇",
+      "aid": "du-jin-chinese-1446-c-1519",
+      "y": 1400,
+      "mv": "吴门画派",
+      "tags": [
+        "人物",
+        "15世纪",
+        "中国",
+        "叙事",
+        "月光",
+        "文人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.582/1954.582_web.jpg",
+      "ratio": 2.116
+    },
+    {
+      "id": "cma-97146",
+      "issue": "2026-08-19",
+      "t": "基督与行淫时被捉的妇人",
+      "a": "塞巴斯蒂亚诺·里奇",
+      "aid": "sebastiano-ricci-italian-1659-1734",
+      "y": 1700,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "巴洛克",
+        "圣经"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.785/1916.785_web.jpg",
+      "ratio": 0.793
+    },
+    {
+      "id": "cma-149960",
+      "issue": "2026-08-19",
+      "t": "潇湘八景之远浦归帆",
+      "a": "谷文",
+      "aid": "tani-buncho-japanese-1763-1841",
+      "y": 1788,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "海景",
+        "18世纪",
+        "日本",
+        "潇湘八景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.188.3/1980.188.3_web.jpg",
+      "ratio": 0.622
+    },
+    {
+      "id": "cma-150697",
+      "issue": "2026-08-19",
+      "t": "湖畔旅人",
+      "a": "埃萨亚斯·凡·德·维尔德",
+      "aid": "esaias-van-de-velde-dutch-1587-1630",
+      "y": 1625,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "圆形画",
+        "旅行"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.128/1982.128_web.jpg",
+      "ratio": 0.999
+    },
+    {
+      "id": "cma-155593",
+      "issue": "2026-08-19",
+      "t": "《牧童歌》插图：拉达等待与克里希纳和解",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1680,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "印度",
+        "细密画",
+        "色彩",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1990.41/1990.41_web.jpg",
+      "ratio": 0.818
+    },
+    {
+      "id": "met-435837",
+      "issue": "2026-08-19",
+      "t": "祈祷的男子",
+      "a": "罗希尔·凡·德·韦登",
+      "aid": "rogier-van-der-weyden",
+      "y": 1440,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "佛兰德斯",
+        "早期尼德兰",
+        "祈祷",
+        "宗教"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP347297.jpg",
+      "ratio": 1.365
+    },
+    {
+      "id": "cma-149031",
+      "issue": "2026-08-19",
+      "t": "秋林听泉图",
+      "a": "张风",
+      "aid": "zhang-feng-chinese-active-c-1632-1662",
+      "y": 1657,
+      "mv": "清初文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清初",
+        "秋景",
+        "隐逸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.173/1977.173_web.jpg",
+      "ratio": 2.69
+    },
+    {
+      "id": "cma-150045",
+      "issue": "2026-08-19",
+      "t": "鞋匠的居室",
+      "a": "让 - 阿方斯·迪普莱西",
+      "aid": "jean-alphonse-duplessy-french-1817-after-1872",
+      "y": 1860,
+      "mv": "现实主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "室内",
+        "静物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.257/1980.257_web.jpg",
+      "ratio": 1.175
+    },
+    {
+      "id": "cma-148358",
+      "issue": "2026-08-19",
+      "t": "雨竹图",
+      "a": "雪舟等杨",
+      "aid": "genga-japanese",
+      "y": 1500,
+      "mv": "水墨画",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "水墨",
+        "竹子",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.71.1/1975.71.1_web.jpg",
+      "ratio": 2.332
+    },
+    {
+      "id": "cma-173240",
+      "issue": "2026-08-19",
+      "t": "女子肖像（朱迪思·科尔曼·布尔芬奇？）",
+      "a": "约翰·斯米伯特",
+      "aid": "john-smibert-scottish-1688-1751",
+      "y": 1734,
+      "mv": "殖民时期艺术",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "殖民时期",
+        "女性",
+        "波士顿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.3919/1920.3919_web.jpg",
+      "ratio": 1.217
+    },
+    {
+      "id": "cma-135144",
+      "issue": "2026-08-19",
+      "t": "农人子女之舞",
+      "a": "勒南兄弟",
+      "aid": "le-nain-french",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "法国",
+        "儿童",
+        "舞蹈",
+        "乡村生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.175.2/1958.175.2_web.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "cma-149791",
+      "issue": "2026-08-19",
+      "t": "青卞图",
+      "a": "董其昌",
+      "aid": "dong-qichang-chinese-1555-1636",
+      "y": 1617,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "笔墨",
+        "松江派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.10/1980.10_web.jpg",
+      "ratio": 2.928
+    },
+    {
+      "id": "cma-93015",
+      "issue": "2026-08-19",
+      "t": "公园之冬",
+      "a": "莱昂·克罗尔",
+      "aid": "leon-kroll-american-1884-1974",
+      "y": 1923,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "雪景",
+        "20世纪",
+        "美国",
+        "城市生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1923.1339/1923.1339_web.jpg",
+      "ratio": 0.75
+    },
+    {
+      "id": "cma-125879",
+      "issue": "2026-08-19",
+      "t": "源氏物语绘卷",
+      "a": "土佐派",
+      "aid": "tosa-school-japanese",
+      "y": 1700,
+      "mv": "大和绘",
+      "tags": [
+        "叙事",
+        "18世纪",
+        "日本",
+        "大和绘",
+        "源氏物语",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.124.1/1948.124.1_web.jpg",
+      "ratio": 0.472
+    },
+    {
+      "id": "met-437061",
+      "issue": "2026-08-19",
+      "t": "救世主",
+      "a": "汉斯·梅姆林",
+      "aid": "hans-memling",
+      "y": 1480,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "佛兰德斯",
+        "肖像",
+        "圆形画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19586-001.jpg",
+      "ratio": 0.995
+    },
+    {
+      "id": "cma-132835",
+      "issue": "2026-08-19",
+      "t": "四季山水册·叶 D",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "新安派",
+        "册页",
+        "明末清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.2/1955.302.2_web.jpg",
+      "ratio": 1.323
+    },
+    {
+      "id": "cma-149104",
+      "issue": "2026-08-19",
+      "t": "巫术场景",
+      "a": "萨尔瓦多·罗萨",
+      "aid": "salvator-rosa-italian-1615-1673",
+      "y": 1647,
+      "mv": "巴洛克",
+      "tags": [
+        "巫术",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "怪诞",
+        "圆形画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.37/1977.37_web.jpg",
+      "ratio": 0.992
+    },
+    {
+      "id": "cma-152410",
+      "issue": "2026-08-19",
+      "t": "太宰春台像",
+      "a": "谷文晁",
+      "aid": "tani-buncho-japanese-1763-1841",
+      "y": 1750,
+      "mv": "南画",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "日本",
+        "南画",
+        "学者",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.248/1985.248_web.jpg",
+      "ratio": 1.402
+    },
+    {
+      "id": "cma-139815",
+      "issue": "2026-08-19",
+      "t": "湖景",
+      "a": "托马斯·多尔蒂",
+      "aid": "thomas-doughty-american-1793-1856",
+      "y": 1830,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "湖泊",
+        "哈德逊河派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.574/1963.574_web.jpg",
+      "ratio": 0.685
+    },
+    {
+      "id": "cma-146213",
+      "issue": "2026-08-19",
+      "t": "牡丹竹石虎豹图屏风",
+      "a": "山口雪溪",
+      "aid": "yamaguchi-sekkei-japanese-1644-1732",
+      "y": 1668,
+      "mv": "狩野派",
+      "tags": [
+        "动物",
+        "17世纪",
+        "日本",
+        "屏风画",
+        "牡丹",
+        "竹林"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.10.2/1972.10.2_web.jpg",
+      "ratio": 0.493
+    },
+    {
+      "id": "cma-123024",
+      "issue": "2026-08-19",
+      "t": "游行十字架",
+      "a": "圣基亚拉大师",
+      "aid": "master-of-santa-chiara-italian",
+      "y": 1320,
+      "mv": "中世纪",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "意大利",
+        "中世纪",
+        "十字架",
+        "锡耶纳画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.280/1943.280_web.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "cma-152450",
+      "issue": "2026-08-19",
+      "t": "骑象普贤",
+      "a": "北尾政美",
+      "aid": "kitao-masayoshi-japanese-1761-1824",
+      "y": 1750,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "戏剧",
+        "佛教题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.277/1985.277_web.jpg",
+      "ratio": 1.996
     }
   ]
 }
