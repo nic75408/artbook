@@ -5289,6 +5289,573 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1985.277/1985.277_web.jpg",
       "ratio": 1.996
+    },
+    {
+      "id": "met-437423",
+      "issue": "2026-08-20",
+      "t": "无染原罪",
+      "a": "圭多·雷尼",
+      "aid": "guido-reni",
+      "y": 1627,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "圣母",
+        "天使"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1138.jpg",
+      "ratio": 1.433
+    },
+    {
+      "id": "cma-160127",
+      "issue": "2026-08-20",
+      "t": "松溪观鹿图",
+      "a": "马远",
+      "aid": "ma-yuan-chinese-c-1150-after-1255",
+      "y": 1203,
+      "mv": "南宋院体",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "水墨",
+        "留白",
+        "构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.88/1997.88_web.jpg",
+      "ratio": 0.933
+    },
+    {
+      "id": "met-437875",
+      "issue": "2026-08-20",
+      "t": "男子肖像",
+      "a": "迭戈·委拉斯开兹",
+      "aid": "velazquez",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "写实",
+        "暗调",
+        "大师"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276131.jpg",
+      "ratio": 1.223
+    },
+    {
+      "id": "cma-95285",
+      "issue": "2026-08-20",
+      "t": "林中人物",
+      "a": "阿道夫·蒙蒂切利",
+      "aid": "adolphe-monticelli-french-1824-1886",
+      "y": 1859,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "厚涂",
+        "浪漫主义",
+        "质感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1054/1916.1054_web.jpg",
+      "ratio": 1.222
+    },
+    {
+      "id": "cma-159738",
+      "issue": "2026-08-20",
+      "t": "雉",
+      "a": "尾形光琳",
+      "aid": "ogata-korin-japanese-1658-1716",
+      "y": 1687,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "琳派",
+        "装饰",
+        "色彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.110/1997.110_web.jpg",
+      "ratio": 1.135
+    },
+    {
+      "id": "met-436038",
+      "issue": "2026-08-20",
+      "t": "朱迪斯与赫罗弗尼斯的头颅",
+      "a": "老卢卡斯·克拉纳赫",
+      "aid": "lucas-cranach-the-elder",
+      "y": 1530,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "16世纪",
+        "德国",
+        "叙事",
+        "色彩"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280784.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "cma-168471",
+      "issue": "2026-08-20",
+      "t": "圣瓦莱里港景色",
+      "a": "欧仁·布丹",
+      "aid": "eugene-boudin-french-1824-1898",
+      "y": 1891,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "天空",
+        "外光"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.23/2010.23_web.jpg",
+      "ratio": 0.713
+    },
+    {
+      "id": "cma-132925",
+      "issue": "2026-08-20",
+      "t": "仿古山水册：春水船如天上坐",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "清代",
+        "中国",
+        "水墨",
+        "仿古",
+        "笔触"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.3/1955.37.3_web.jpg",
+      "ratio": 0.792
+    },
+    {
+      "id": "cma-173173",
+      "issue": "2026-08-20",
+      "t": "钓鱼的男孩",
+      "a": "伊斯特曼·约翰逊",
+      "aid": "eastman-johnson-american-1824-1906",
+      "y": 1860,
+      "mv": "写实主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "美国",
+        "写实",
+        "光线",
+        "童年"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.683/1915.683_web.jpg",
+      "ratio": 1.199
+    },
+    {
+      "id": "met-436884",
+      "issue": "2026-08-20",
+      "t": "下棋者",
+      "a": "利贝拉莱·达·维罗纳",
+      "aid": "liberale-da-verona",
+      "y": 1475,
+      "mv": "文艺复兴",
+      "tags": [
+        "叙事",
+        "15世纪",
+        "意大利",
+        "室内",
+        "构图",
+        "风俗画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT226950.jpg",
+      "ratio": 0.841
+    },
+    {
+      "id": "cma-117758",
+      "issue": "2026-08-20",
+      "t": "卡梅尔山丘",
+      "a": "盖伊·罗斯",
+      "aid": "guy-rose-american-1867-1925",
+      "y": 1919,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "阳光",
+        "色彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.38/1938.38_web.jpg",
+      "ratio": 0.876
+    },
+    {
+      "id": "cma-161910",
+      "issue": "2026-08-20",
+      "t": "萨万特·辛格大君与芭妮·塔尼肖像",
+      "a": "尼哈尔·昌德",
+      "aid": "nihal-chand-indian",
+      "y": 1700,
+      "mv": "印度细密画",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "印度",
+        "细密画",
+        "宫廷",
+        "爱情"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2001.172/2001.172_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "met-437035",
+      "issue": "2026-08-20",
+      "t": "哀悼基督",
+      "a": "圣母与圣女大师",
+      "aid": "master-of-the-virgin-among-virgins",
+      "y": null,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "佛兰德斯",
+        "群像",
+        "哀悼"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23271-001.jpg",
+      "ratio": 1.684
+    },
+    {
+      "id": "cma-133000",
+      "issue": "2026-08-20",
+      "t": "破墨山水图",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1450,
+      "mv": "水墨画",
+      "tags": [
+        "山水",
+        "15世纪",
+        "日本",
+        "水墨",
+        "泼墨",
+        "禅意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.43/1955.43_web.jpg",
+      "ratio": 2.658
+    },
+    {
+      "id": "cma-95270",
+      "issue": "2026-08-20",
+      "t": "风车",
+      "a": "朱尔·杜普雷",
+      "aid": "jules-dupre-french-1811-1889",
+      "y": 1850,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "风车",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1042/1916.1042_web.jpg",
+      "ratio": 0.71
+    },
+    {
+      "id": "cma-125817",
+      "issue": "2026-08-20",
+      "t": "女子头像",
+      "a": "安东尼奥·瓜尔迪",
+      "aid": "antonio-guardi-italian-1699-1760",
+      "y": 1739,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "意大利",
+        "洛可可",
+        "草图",
+        "神态"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.71/1947.71_web.jpg",
+      "ratio": 1.2
+    },
+    {
+      "id": "cma-109251",
+      "issue": "2026-08-20",
+      "t": "杰西卡",
+      "a": "路易斯·洛布",
+      "aid": "louis-loeb-american-1866-1909",
+      "y": 1905,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "女性",
+        "光影",
+        "学院派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.398/1927.398_web.jpg",
+      "ratio": 1.397
+    },
+    {
+      "id": "cma-160740",
+      "issue": "2026-08-20",
+      "t": "福山院",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "明代",
+        "寺院",
+        "册页",
+        "青绿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.8/1998.78.8_web.jpg",
+      "ratio": 0.925
+    },
+    {
+      "id": "cma-168420",
+      "issue": "2026-08-20",
+      "t": "老兵",
+      "a": "玛丽 - 弗朗索瓦·菲尔曼 - 吉拉尔",
+      "aid": "marie-francois-firmin-girard-french-1838-1921",
+      "y": 1870,
+      "mv": "学院派",
+      "tags": [
+        "叙事",
+        "19世纪",
+        "法国",
+        "学院派",
+        "人物",
+        "故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.20/2010.20_web.jpg",
+      "ratio": 1.265
+    },
+    {
+      "id": "met-436299",
+      "issue": "2026-08-20",
+      "t": "圣母加冕与圣徒",
+      "a": "乔瓦尼·迪·塔诺·费伊",
+      "aid": "giovanni-di-tano-fei",
+      "y": 1394,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "意大利",
+        "哥特",
+        "金底",
+        "庄严"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP293271.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "cma-157244",
+      "issue": "2026-08-20",
+      "t": "莎拉·艾略特·斯科维尔",
+      "a": "阿舍·B·杜兰德",
+      "aid": "asher-b-durand-american-1796-1886",
+      "y": 1830,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "写实",
+        "哈德逊河",
+        "细腻"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.119/1994.119_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-106780",
+      "issue": "2026-08-20",
+      "t": "瀑布",
+      "a": "吉田博",
+      "aid": "yoshida-hiroshi-japanese-1876-1950",
+      "y": 1924,
+      "mv": "新版画",
+      "tags": [
+        "风景",
+        "20世纪",
+        "日本",
+        "新版画",
+        "水流",
+        "动态"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.803/1924.803_web.jpg",
+      "ratio": 2.913
+    },
+    {
+      "id": "cma-145207",
+      "issue": "2026-08-20",
+      "t": "古木寒泉图",
+      "a": "李士行",
+      "aid": "li-shixing-chinese-1283-1328",
+      "y": 1326,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "元代",
+        "中国",
+        "水墨",
+        "古树",
+        "意境"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.41/1970.41_web.jpg",
+      "ratio": 1.483
+    },
+    {
+      "id": "met-687513",
+      "issue": "2026-08-20",
+      "t": "哀悼基督",
+      "a": "路易斯·德·莫拉莱斯",
+      "aid": "luis-de-morales",
+      "y": 1560,
+      "mv": "风格主义",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "西班牙",
+        "特写",
+        "情感",
+        "哀悼"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP370255.jpg",
+      "ratio": 1.38
+    },
+    {
+      "id": "cma-173632",
+      "issue": "2026-08-20",
+      "t": "康涅狄格州格兰比附近的风景",
+      "a": "亨德里克·迪尔克·克鲁斯曼·范·埃尔滕",
+      "aid": "hendrik-dirk-kruseman-van-elten-american-born-the-netherlands-1829-1904",
+      "y": 1870,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河画派",
+        "自然",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.690/1915.690_web.jpg",
+      "ratio": 0.58
+    },
+    {
+      "id": "cma-156871",
+      "issue": "2026-08-20",
+      "t": "罗汉与虎",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1661,
+      "mv": "狩野派",
+      "tags": [
+        "罗汉",
+        "老虎",
+        "17世纪",
+        "日本",
+        "水墨画",
+        "宗教题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.80.2/1992.80.2_web.jpg",
+      "ratio": 2.507
+    },
+    {
+      "id": "cma-121865",
+      "issue": "2026-08-20",
+      "t": "双叶门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "室内设计"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.11.b/1942.2.11.b_web.jpg",
+      "ratio": 1.717
+    },
+    {
+      "id": "cma-153348",
+      "issue": "2026-08-20",
+      "t": "仿荆浩山水图",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "仿古",
+        "册页",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.11/1986.49.11_web.jpg",
+      "ratio": 1.331
+    },
+    {
+      "id": "cma-148754",
+      "issue": "2026-08-20",
+      "t": "萨宾女子",
+      "a": "克拉伦斯·霍尔布鲁克·卡特",
+      "aid": "clarence-holbrook-carter-american-1904-2000",
+      "y": 1928,
+      "mv": "现代主义",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "线条",
+        "造型"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.1976/1929.1976_web.jpg",
+      "ratio": 1.194
+    },
+    {
+      "id": "met-828241",
+      "issue": "2026-08-20",
+      "t": "圣抹大拉的马利亚的诱惑",
+      "a": "约翰·利斯",
+      "aid": "johann-liss",
+      "y": 1626,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "德国",
+        "巴洛克",
+        "戏剧性",
+        "光影"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19542-001.jpg",
+      "ratio": 0.797
     }
   ]
 }
