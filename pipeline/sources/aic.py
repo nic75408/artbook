@@ -40,10 +40,11 @@ def _iiif(image_id, w):
     return f"https://www.artic.edu/iiif/2/{image_id}/full/{w},/0/default.jpg"
 
 
-def fetch_candidates(n):
+def fetch_candidates(n, seen=None):
     if not _iiif_ok():
         print("[source] aic: IIIF 被 Cloudflare 挑战拦截（403），本期跳过 AIC 源，由 Met/CMA 承担")
         return []
+    seen = seen or set()
     out = []
     by_artist = {}
     tries = 0
@@ -55,6 +56,9 @@ def fetch_candidates(n):
                              params={"q": q, "limit": "100", "page": str(page),
                                      "fields": FIELDS})
         for a in (data or {}).get("data", []):
+            cid = f"aic-{a.get('id')}"
+            if cid in seen:
+                continue
             image_id = a.get("image_id")
             if not (image_id and a.get("is_public_domain")):
                 continue

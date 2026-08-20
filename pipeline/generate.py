@@ -98,8 +98,8 @@ def is_painting(classification):
 
 # ---------------------------------------------------------------- 候选
 
-def fetch_candidates():
-    """各源按配额拉候选；不足/失败由其余源补足到 CANDIDATE_TARGET。"""
+def fetch_candidates(seen):
+    """各源按配额拉候选（源内部跳过 seen 已见 id）；不足/失败由其余源补足到 CANDIDATE_TARGET。"""
     sources = (("met", met), ("aic", aic), ("cma", cma), ("rijks", rijks))
     out = []
     for name, mod in sources:
@@ -107,7 +107,7 @@ def fetch_candidates():
         if n <= 0:
             continue
         try:
-            got = mod.fetch_candidates(n)
+            got = mod.fetch_candidates(n, seen)
         except Exception as e:
             log(f"[source] {name} 异常: {e}")
             got = []
@@ -121,7 +121,7 @@ def fetch_candidates():
             if len(out) >= config.CANDIDATE_TARGET:
                 break
             try:
-                extra = mod.fetch_candidates(30)
+                extra = mod.fetch_candidates(30, seen)
             except Exception:
                 extra = []
             out.extend(extra)
@@ -511,7 +511,7 @@ def main():
     artists = load_json(config.DATA / "artists.json", {"v": 1, "artists": {}}).get("artists", {})
 
     log("1/8 拉取候选")
-    cands = fetch_candidates()
+    cands = fetch_candidates(seen)
     log(f"候选总数 {len(cands)}")
     cands = dedupe(cands, seen)
     log(f"去重后 {len(cands)}")

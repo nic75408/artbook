@@ -20,7 +20,8 @@ def _total():
     return (data or {}).get("info", {}).get("total", 0)
 
 
-def fetch_candidates(n):
+def fetch_candidates(n, seen=None):
+    seen = seen or set()
     total = _total()
     if not total:
         return []
@@ -34,6 +35,9 @@ def fetch_candidates(n):
                              params={"cc0": "1", "has_image": "1", "type": "Painting",
                                      "limit": "100", "skip": str(skip)})
         for a in (data or {}).get("data", []):
+            cid = f"cma-{a.get('id')}"
+            if cid in seen:
+                continue
             t = (a.get("type") or "").lower()
             if not any(k in t for k in config.CLASSIFICATION_WHITELIST):
                 continue

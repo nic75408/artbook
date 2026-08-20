@@ -18,10 +18,11 @@ def _sized(url, s):
     return re.sub(r"=s\d+", f"=s{s}", url)
 
 
-def fetch_candidates(n):
+def fetch_candidates(n, seen=None):
     if not config.RIJKS_API_KEY:
         print("[source] rijks: 无 RIJKS_API_KEY，跳过")
         return []
+    seen = seen or set()
     out = []
     by_artist = {}
     tries = 0
