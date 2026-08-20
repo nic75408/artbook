@@ -5856,6 +5856,563 @@
       ],
       "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19542-001.jpg",
       "ratio": 0.797
+    },
+    {
+      "id": "met-437980",
+      "issue": "2026-08-20",
+      "t": "柏树",
+      "a": "文森特·梵高",
+      "aid": "vincent-van-gogh",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "后印象派",
+        "油画",
+        "圣雷米"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130999.jpg",
+      "ratio": 1.261
+    },
+    {
+      "id": "cma-144829",
+      "issue": "2026-08-20",
+      "t": "幽谷抚琴图",
+      "a": "文徵明",
+      "aid": "wen-zhengming-chinese-1470-1559",
+      "y": 1548,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "中国",
+        "明代",
+        "文人画",
+        "隐逸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.60/1969.60_web.jpg",
+      "ratio": 2.278
+    },
+    {
+      "id": "met-435725",
+      "issue": "2026-08-20",
+      "t": "基督降临地狱",
+      "a": "希罗尼穆斯·博斯",
+      "aid": "hieronymus-bosch",
+      "y": null,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "地狱",
+        "末世"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1207-001.jpg",
+      "ratio": 0.496
+    },
+    {
+      "id": "cma-151555",
+      "issue": "2026-08-20",
+      "t": "鱼、面包与壶的静物",
+      "a": "路易斯·梅伦德斯",
+      "aid": "luis-melendez-spanish-1716-1780",
+      "y": 1772,
+      "mv": "洛可可",
+      "tags": [
+        "静物",
+        "18世纪",
+        "西班牙",
+        "写实主义",
+        "食物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.97/1983.97_web.jpg",
+      "ratio": 0.716
+    },
+    {
+      "id": "met-436706",
+      "issue": "2026-08-20",
+      "t": "雅克-路易·勒布朗肖像",
+      "a": "让·奥古斯特·多米尼克·安格尔",
+      "aid": "jean-auguste-dominique-ingres",
+      "y": 1823,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "新古典主义",
+        "油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT403.jpg",
+      "ratio": 1.256
+    },
+    {
+      "id": "cma-170830",
+      "issue": "2026-08-20",
+      "t": "胡马雍接见使节",
+      "a": "米斯金",
+      "aid": "miskin-indian-active-1570s-c-1604",
+      "y": 1610,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "人物",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.320/2013.320_web.jpg",
+      "ratio": 1.67
+    },
+    {
+      "id": "met-435991",
+      "issue": "2026-08-20",
+      "t": "读书的女子",
+      "a": "卡米耶·柯罗",
+      "aid": "camille-corot",
+      "y": 1869,
+      "mv": "巴比松画派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "油画",
+        "阅读"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16589-001.jpg",
+      "ratio": 1.368
+    },
+    {
+      "id": "cma-143879",
+      "issue": "2026-08-20",
+      "t": "潇湘八景图屏风",
+      "a": "渡边始兴",
+      "aid": "watanabe-shiko-japanese-1683-1755",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "琳派",
+        "水墨",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.267/1968.267_web.jpg",
+      "ratio": 0.452
+    },
+    {
+      "id": "met-436301",
+      "issue": "2026-08-20",
+      "t": "梁木与刺的寓言",
+      "a": "多梅尼科·费蒂",
+      "aid": "domenico-fetti",
+      "y": 1619,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "寓言",
+        "木板油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT6682.jpg",
+      "ratio": 1.338
+    },
+    {
+      "id": "cma-165425",
+      "issue": "2026-08-20",
+      "t": "阿格拉伊达与博尼法斯",
+      "a": "亚历山大·卡巴内尔",
+      "aid": "alexandre-cabanel-french-1823-1889",
+      "y": 1857,
+      "mv": "学院派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "学院派",
+        "古典题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2007.275/2007.275_web.jpg",
+      "ratio": 0.908
+    },
+    {
+      "id": "cma-130132",
+      "issue": "2026-08-20",
+      "t": "基督与亚利马太的约瑟",
+      "a": "乔瓦尼·吉罗拉莫·萨沃尔多",
+      "aid": "giovanni-girolamo-savoldo-italian-c-1480-after-1548",
+      "y": 1525,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "威尼斯画派",
+        "哀悼基督"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.512/1952.512_web.jpg",
+      "ratio": 0.541
+    },
+    {
+      "id": "cma-124017",
+      "issue": "2026-08-20",
+      "t": "公鸡",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1620,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "动物",
+        "17世纪",
+        "印度",
+        "细密画",
+        "博物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.501/1944.501_web.jpg",
+      "ratio": 1.475
+    },
+    {
+      "id": "met-438107",
+      "issue": "2026-08-20",
+      "t": "苔丝狄蒙娜（柳之歌）",
+      "a": "泰奥多尔·夏塞里奥",
+      "aid": "theodore-chasseriau",
+      "y": 1849,
+      "mv": "浪漫主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "文学题材",
+        "悲剧"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18259-001.jpg",
+      "ratio": 1.276
+    },
+    {
+      "id": "cma-140452",
+      "issue": "2026-08-20",
+      "t": "虎丘十二景图册：千顷云",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "苏州",
+        "虎丘",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.9/1964.371.9_web.jpg",
+      "ratio": 0.739
+    },
+    {
+      "id": "met-436803",
+      "issue": "2026-08-20",
+      "t": "博士来拜",
+      "a": "尤斯·范·瓦森霍夫",
+      "aid": "joos-van-wassenhove",
+      "y": 1472,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "文艺复兴",
+        "圣经故事"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16339-001.jpg",
+      "ratio": 0.71
+    },
+    {
+      "id": "cma-148860",
+      "issue": "2026-08-20",
+      "t": "对画：教皇选举期间的圣彼得大教堂柱廊与波西利波石窟",
+      "a": "于贝尔·罗伯特",
+      "aid": "hubert-robert-french-1733-1808",
+      "y": 1769,
+      "mv": "新古典主义",
+      "tags": [
+        "建筑",
+        "18世纪",
+        "法国",
+        "风景",
+        "油画",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.97/1976.97_web.jpg",
+      "ratio": 0.616
+    },
+    {
+      "id": "cma-152412",
+      "issue": "2026-08-20",
+      "t": "山景与碧水",
+      "a": "田能村竹田",
+      "aid": "tanomura-chikuden-japanese-1777-1835",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "19世纪",
+        "日本",
+        "南画",
+        "水墨",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.250/1985.250_web.jpg",
+      "ratio": 3.6
+    },
+    {
+      "id": "met-435678",
+      "issue": "2026-08-20",
+      "t": "圣安东尼的诱惑",
+      "a": "赫里·梅特·德·布莱斯",
+      "aid": "herri-met-de-bles",
+      "y": 1550,
+      "mv": "风格主义",
+      "tags": [
+        "宗教题材",
+        "16世纪",
+        "尼德兰",
+        "风景",
+        "幻想生物"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP235224.jpg",
+      "ratio": 0.647
+    },
+    {
+      "id": "cma-129804",
+      "issue": "2026-08-20",
+      "t": "天使向亚伯拉罕显现",
+      "a": "弗朗切斯科·瓜尔迪",
+      "aid": "francesco-guardi-italian-1712-1793",
+      "y": 1750,
+      "mv": "洛可可",
+      "tags": [
+        "宗教题材",
+        "18世纪",
+        "意大利",
+        "威尼斯",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.235.3/1952.235.3_web.jpg",
+      "ratio": 0.736
+    },
+    {
+      "id": "cma-152441",
+      "issue": "2026-08-20",
+      "t": "四艺图",
+      "a": "岩佐又兵卫",
+      "aid": "iwasa-matabei-japanese-1578-1650",
+      "y": 1620,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "浮世绘",
+        "水墨",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.269/1985.269_web.jpg",
+      "ratio": 2.232
+    },
+    {
+      "id": "met-436885",
+      "issue": "2026-08-20",
+      "t": "小说场景",
+      "a": "利贝拉莱·达·维罗纳",
+      "aid": "liberale-da-verona",
+      "y": null,
+      "mv": "文艺复兴",
+      "tags": [
+        "叙事",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "木板蛋彩画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8310.jpg",
+      "ratio": 0.8
+    },
+    {
+      "id": "cma-166783",
+      "issue": "2026-08-20",
+      "t": "索福尼斯巴之死",
+      "a": "皮埃尔·盖兰",
+      "aid": "pierre-guerin-french-1774-1833",
+      "y": 1810,
+      "mv": "新古典主义",
+      "tags": [
+        "历史画",
+        "19世纪",
+        "法国",
+        "新古典主义",
+        "悲剧",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.71/2008.71_web.jpg",
+      "ratio": 1.163
+    },
+    {
+      "id": "cma-132834",
+      "issue": "2026-08-20",
+      "t": "四季山水册·春",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "水墨",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.1/1955.302.1_web.jpg",
+      "ratio": 1.18
+    },
+    {
+      "id": "met-437032",
+      "issue": "2026-08-20",
+      "t": "圣保罗与捐赠者；基督向母亲显现",
+      "a": "圣乌尔苏拉传说大师",
+      "aid": "master-of-the-saint-ursula-legend",
+      "y": 1485,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "双联画",
+        "肖像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT262309.jpg",
+      "ratio": 1.632
+    },
+    {
+      "id": "cma-150017",
+      "issue": "2026-08-20",
+      "t": "音乐的属性",
+      "a": "弗朗索瓦·邦万",
+      "aid": "francois-bonvin-french-1817-1887",
+      "y": 1863,
+      "mv": "写实主义",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "音乐",
+        "乐器",
+        "乐谱"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.233/1980.233_web.jpg",
+      "ratio": 0.54
+    },
+    {
+      "id": "cma-123953",
+      "issue": "2026-08-20",
+      "t": "门楣画与双叶门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰",
+        "18世纪",
+        "法国",
+        "室内",
+        "浮雕",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.466/1944.466_web.jpg",
+      "ratio": 0.418
+    },
+    {
+      "id": "met-838076",
+      "issue": "2026-08-20",
+      "t": "宝座上的圣母与圣子",
+      "a": "波希米亚画家",
+      "aid": "bohemian-painter",
+      "y": 1345,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "捷克",
+        "哥特",
+        "宫廷艺术"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20592-001.jpg",
+      "ratio": 1.266
+    },
+    {
+      "id": "cma-140451",
+      "issue": "2026-08-20",
+      "t": "虎丘十二景图册·五贤堂",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "苏州",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.8/1964.371.8_web.jpg",
+      "ratio": 0.769
+    },
+    {
+      "id": "cma-132838",
+      "issue": "2026-08-20",
+      "t": "四季山水图册·秋",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "水墨",
+        "秋景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.5/1955.302.5_web.jpg",
+      "ratio": 1.327
+    },
+    {
+      "id": "cma-174005",
+      "issue": "2026-08-20",
+      "t": "松枝松鼠图",
+      "a": "宋天",
+      "aid": "song-tian-chinese-active-1300s",
+      "y": 1500,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "14世纪",
+        "中国",
+        "元代",
+        "水墨",
+        "松鼠"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.498/2015.498_web.jpg",
+      "ratio": 0.538
     }
   ]
 }
