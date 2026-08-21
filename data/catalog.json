@@ -6959,6 +6959,568 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1932.119.11.b/1932.119.11.b_web.jpg",
       "ratio": 0.457
+    },
+    {
+      "id": "cma-161326",
+      "issue": "2026-08-22",
+      "t": "波涛图",
+      "a": "中村抱冲",
+      "aid": "nakamura-hochu-japanese-d-1819",
+      "y": 1750,
+      "mv": "琳派",
+      "tags": [
+        "海景",
+        "18世纪",
+        "日本",
+        "扇面画",
+        "装饰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.90/1999.90_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-136680",
+      "issue": "2026-08-22",
+      "t": "圣杰罗姆",
+      "a": "胡塞佩·德·里贝拉",
+      "aid": "jusepe-de-ribera-spanish-1591-1652",
+      "y": 1638,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "光影",
+        "质感",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.219/1961.219_web.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "cma-130457",
+      "issue": "2026-08-22",
+      "t": "树下（选自《公共花园》系列）",
+      "a": "爱德华·维亚尔",
+      "aid": "edouard-vuillard-french-1868-1940",
+      "y": 1894,
+      "mv": "纳比派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "色彩",
+        "图案",
+        "纳比派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.212/1953.212_web.jpg",
+      "ratio": 2.211
+    },
+    {
+      "id": "cma-149108",
+      "issue": "2026-08-22",
+      "t": "巫术场景：夜",
+      "a": "萨尔瓦多·罗萨",
+      "aid": "salvator-rosa-italian-1615-1673",
+      "y": 1647,
+      "mv": "巴洛克",
+      "tags": [
+        "夜景",
+        "17世纪",
+        "意大利",
+        "光影",
+        "戏剧性",
+        "巫术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.37.4/1977.37.4_web.jpg",
+      "ratio": 0.997
+    },
+    {
+      "id": "cma-92936",
+      "issue": "2026-08-22",
+      "t": "缅因海岸",
+      "a": "洛克威尔·肯特",
+      "aid": "rockwell-kent-american-1882-1971",
+      "y": 1907,
+      "mv": "美国现代主义",
+      "tags": [
+        "风景",
+        "雪景",
+        "20世纪",
+        "美国",
+        "极简",
+        "海岸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
+      "ratio": 0.766
+    },
+    {
+      "id": "cma-132367",
+      "issue": "2026-08-22",
+      "t": "宝座上的圣母与圣子",
+      "a": "巴蒂斯塔·迪·比亚焦·桑吉尼",
+      "aid": "battista-di-biagio-sanguigni-italian-active-1393-1451",
+      "y": 1419,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "金色",
+        "庄严",
+        "祭坛画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.834/1954.834_web.jpg",
+      "ratio": 1.875
+    },
+    {
+      "id": "cma-149606",
+      "issue": "2026-08-22",
+      "t": "仿倪瓒山水",
+      "a": "陈洪",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "线条",
+        "留白",
+        "仿作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.10/1979.27.1.10_web.jpg",
+      "ratio": 1.119
+    },
+    {
+      "id": "cma-135875",
+      "issue": "2026-08-22",
+      "t": "查理二世肖像",
+      "a": "菲利普·德·尚佩涅",
+      "aid": "philippe-de-champaigne-french-1602-1674",
+      "y": 1653,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "法国",
+        "皇室",
+        "盔甲"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.38/1959.38_web.jpg",
+      "ratio": 1.325
+    },
+    {
+      "id": "cma-173641",
+      "issue": "2026-08-22",
+      "t": "休憩",
+      "a": "威廉·阿道夫·布格罗",
+      "aid": "william-adolphe-bouguereau-french-1825-1905",
+      "y": 1879,
+      "mv": "学院派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "质感",
+        "学院派",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.722/1915.722_web.jpg",
+      "ratio": 1.406
+    },
+    {
+      "id": "cma-145960",
+      "issue": "2026-08-22",
+      "t": "终点，伊拉斯的装置",
+      "a": "小汉斯·荷尔拜因",
+      "aid": "hans-holbein-the-younger-german-active-england-and-switzerland-1497-98-1543",
+      "y": 1532,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "细节",
+        "象征",
+        "人文主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.166/1971.166_web.jpg",
+      "ratio": 0.984
+    },
+    {
+      "id": "cma-97148",
+      "issue": "2026-08-22",
+      "t": "圣方济各受圣痕",
+      "a": "比奇·迪·洛伦佐",
+      "aid": "bicci-di-lorenzo-italian-1373-1452",
+      "y": 1430,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "金色",
+        "叙事",
+        "圣方济各"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.787/1916.787_web.jpg",
+      "ratio": 0.702
+    },
+    {
+      "id": "cma-109507",
+      "issue": "2026-08-22",
+      "t": "阿戈斯蒂诺·巴尔巴里戈肖像",
+      "a": "保罗·委罗内塞",
+      "aid": "paolo-veronese-italian-1528-1588",
+      "y": 1571,
+      "mv": "威尼斯画派",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "威尼斯",
+        "盔甲",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.16/1928.16_web.jpg",
+      "ratio": 0.98
+    },
+    {
+      "id": "cma-136682",
+      "issue": "2026-08-22",
+      "t": "凯瑟琳·格雷夫人像",
+      "a": "托马斯·劳伦斯",
+      "aid": "thomas-lawrence-british-1769-1830",
+      "y": 1794,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "贵族",
+        "孔雀"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.220/1961.220_web.jpg",
+      "ratio": 1.621
+    },
+    {
+      "id": "cma-149105",
+      "issue": "2026-08-22",
+      "t": "巫术场景：晨",
+      "a": "萨尔瓦多·罗萨",
+      "aid": "salvator-rosa-italian-1615-1673",
+      "y": 1647,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "意大利",
+        "光影",
+        "晨景",
+        "巫术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.37.1/1977.37.1_web.jpg",
+      "ratio": 0.988
+    },
+    {
+      "id": "cma-151973",
+      "issue": "2026-08-22",
+      "t": "芒草图屏风",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1525,
+      "mv": "大和绘",
+      "tags": [
+        "植物",
+        "16世纪",
+        "日本",
+        "极简",
+        "金地",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.43.2/1984.43.2_web.jpg",
+      "ratio": 0.474
+    },
+    {
+      "id": "cma-130392",
+      "issue": "2026-08-22",
+      "t": "圣家族返回拿撒勒",
+      "a": "尼古拉·普桑",
+      "aid": "nicolas-poussin-french-1594-1665",
+      "y": 1627,
+      "mv": "古典主义",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "法国",
+        "构图",
+        "古典",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.156/1953.156_web.jpg",
+      "ratio": 1.359
+    },
+    {
+      "id": "cma-148301",
+      "issue": "2026-08-22",
+      "t": "施洗约翰的诞生与命名",
+      "a": "胡安·德·佛兰德斯",
+      "aid": "juan-de-flandes-netherlandish-c-1460-1519",
+      "y": 1496,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "叙事",
+        "室内场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.3/1975.3_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-123435",
+      "issue": "2026-08-22",
+      "t": "索菲·克鲁泽",
+      "a": "路易·埃尔桑",
+      "aid": "louis-hersent-french-1777-1860",
+      "y": 1801,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "肤色",
+        "新古典",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.659/1943.659_web.jpg",
+      "ratio": 1.251
+    },
+    {
+      "id": "cma-170235",
+      "issue": "2026-08-22",
+      "t": "艺术家的画室",
+      "a": "约翰·格奥尔格·普拉策",
+      "aid": "johann-georg-platzer-austrian-1704-1761",
+      "y": 1740,
+      "mv": "洛可可",
+      "tags": [
+        "室内",
+        "风俗画",
+        "18世纪",
+        "奥地利",
+        "艺术寓言"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2012.41/2012.41_web.jpg",
+      "ratio": 0.702
+    },
+    {
+      "id": "cma-163043",
+      "issue": "2026-08-22",
+      "t": "史诗缪斯卡利俄珀",
+      "a": "夏尔·梅尼耶",
+      "aid": "charles-meynier-french-1768-1832",
+      "y": 1798,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "肖像",
+        "18世纪",
+        "法国",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_web.jpg",
+      "ratio": 1.565
+    },
+    {
+      "id": "cma-99445",
+      "issue": "2026-08-22",
+      "t": "英国制造业：素描稿",
+      "a": "本杰明·韦斯特",
+      "aid": "benjamin-west-american-born-the-thirteen-colonies-1738-1820",
+      "y": 1791,
+      "mv": "新古典主义",
+      "tags": [
+        "寓言",
+        "工业",
+        "18世纪",
+        "英国",
+        "素描感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1018/1919.1018_web.jpg",
+      "ratio": 0.79
+    },
+    {
+      "id": "cma-111479",
+      "issue": "2026-08-22",
+      "t": "圣雅各的奇迹",
+      "a": "诺埃尔-尼古拉·夸佩尔",
+      "aid": "noel-nicolas-coypel-french-1690-1734",
+      "y": 1726,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "法国",
+        "动态",
+        "巴洛克",
+        "神迹"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.96/1929.96_web.jpg",
+      "ratio": 1.272
+    },
+    {
+      "id": "cma-146416",
+      "issue": "2026-08-22",
+      "t": "诺亚：洪水前夕",
+      "a": "约翰·林内尔",
+      "aid": "john-linnell-british-1792-1882",
+      "y": 1848,
+      "mv": "浪漫主义",
+      "tags": [
+        "圣经题材",
+        "风景",
+        "19世纪",
+        "英国",
+        "浪漫主义",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.119/1972.119_web.jpg",
+      "ratio": 0.658
+    },
+    {
+      "id": "cma-128838",
+      "issue": "2026-08-22",
+      "t": "受难祭坛画",
+      "a": "施莱格尔祭坛画大师",
+      "aid": "master-of-the-schlagl-altarpiece-german",
+      "y": 1440,
+      "mv": "晚期哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "金色",
+        "祭坛画",
+        "受难"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.453/1951.453_web.jpg",
+      "ratio": 0.408
+    },
+    {
+      "id": "cma-99429",
+      "issue": "2026-08-22",
+      "t": "查尔斯·阿普索普",
+      "a": "罗伯特·费克",
+      "aid": "robert-feke-american-born-the-thirteen-colonies-c-1707-c-1752",
+      "y": 1748,
+      "mv": "殖民时期艺术",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "质感",
+        "殖民时期",
+        "商人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1006/1919.1006_web.jpg",
+      "ratio": 1.249
+    },
+    {
+      "id": "cma-124012",
+      "issue": "2026-08-22",
+      "t": "奥朗则布肖像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "印度",
+        "细密画",
+        "皇室",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.498/1944.498_web.jpg",
+      "ratio": 1.582
+    },
+    {
+      "id": "cma-149614",
+      "issue": "2026-08-22",
+      "t": "仿古人画：仲卿山水像",
+      "a": "陈洪",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "线条",
+        "文人画",
+        "山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.8/1979.27.1.8_web.jpg",
+      "ratio": 1.133
+    },
+    {
+      "id": "cma-170887",
+      "issue": "2026-08-22",
+      "t": "湿婆夜祭",
+      "a": "穆罕默德·里扎维·辛迪",
+      "aid": "muhammad-rizavi-hindi-indian-active-mid-1700s",
+      "y": 1760,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "宗教",
+        "夜景",
+        "18世纪",
+        "印度",
+        "湿婆崇拜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.350/2013.350_web.jpg",
+      "ratio": 0.627
+    },
+    {
+      "id": "cma-97165",
+      "issue": "2026-08-22",
+      "t": "佛罗伦萨街头帕利奥赛马（婚柜嵌板）",
+      "a": "乔瓦尼·弗朗切斯科·托斯卡尼",
+      "aid": "giovanni-francesco-toscani-italian-c-1380-1430",
+      "y": 1418,
+      "mv": "国际哥特式",
+      "tags": [
+        "风俗",
+        "15世纪",
+        "意大利",
+        "叙事",
+        "透视",
+        "赛马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.801/1916.801_web.jpg",
+      "ratio": 0.299
+    },
+    {
+      "id": "cma-108541",
+      "issue": "2026-08-22",
+      "t": "圣家族与抹大拉的玛利亚",
+      "a": "埃尔·格列柯",
+      "aid": "el-greco-spanish-1541-1614",
+      "y": 1590,
+      "mv": "矫饰主义",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "西班牙",
+        "色彩",
+        "情感",
+        "矫饰主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.247/1926.247_web.jpg",
+      "ratio": 1.315
     }
   ]
 }

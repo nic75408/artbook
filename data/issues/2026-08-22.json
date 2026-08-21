@@ -1,0 +1,1418 @@
+{
+  "v": 1,
+  "date": "2026-08-22",
+  "works": [
+    {
+      "id": "cma-161326",
+      "source": "cma",
+      "sourceId": "161326",
+      "sourceUrl": "https://clevelandart.org/art/1999.90",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Waves",
+      "title_zh": "波涛图",
+      "artist_en": "Nakamura Hōchū (Japanese, d. 1819)",
+      "artist_zh": "中村抱冲",
+      "artist_id": "nakamura-hochu-japanese-d-1819",
+      "artist_nationality_zh": "日本",
+      "artist_years": "不详–1819",
+      "date_display": "late 1700s-early 1800s",
+      "year": 1750,
+      "medium_zh": "纸本金地设色扇面",
+      "dimensions": "Image: 39.8 x 53 cm (15 11/16 x 20 7/8 in.); Overall: 126.4 x 61.3 cm (49 3/4 x 24 1/8 in.)",
+      "movement_zh": "琳派",
+      "tags": [
+        "海景",
+        "18世纪",
+        "日本",
+        "扇面画",
+        "装饰艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1999.90/1999.90_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1999.90/1999.90_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1999.90/1999.90_web.jpg",
+        "ratio": 0.746
+      },
+      "palette": [
+        "#e8d8c6",
+        "#cdb79d"
+      ],
+      "essay": [
+        "中村抱冲活跃于江户时代晚期，是琳派风格的继承者。这幅扇面画虽无确切纪年，但典型的金地装饰与程式化水纹，将其牢牢锁定在 18 世纪末至 19 世纪初的京都画坛。作为扇面小品，它展示了当时文人雅士对精致装饰艺术的追求。",
+        "画面最精彩处在于右侧浪头的处理——深蓝色的墨线勾勒出漩涡，笔触在收笔处刻意顿挫，模拟浪花破碎的瞬间。金箔铺就的背景并非死板的平涂，而是利用纸张纹理制造出波光粼粼的闪烁感，与前景流动的水纹形成虚实对比。",
+        "这种高度风格化的海浪，与其说是自然写生，不如说是对光琳等前辈大师图式的致敬与复刻。线条虽流畅优美，却略显程式化，缺乏对水体真实物理动态的深刻观察。它更像是一件精美的工艺装饰，而非对自然力量的敬畏记录。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.65,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-136680",
+      "source": "cma",
+      "sourceId": "136680",
+      "sourceUrl": "https://clevelandart.org/art/1961.219",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Saint Jerome",
+      "title_zh": "圣杰罗姆",
+      "artist_en": "Jusepe de Ribera (Spanish, 1591–1652)",
+      "artist_zh": "胡塞佩·德·里贝拉",
+      "artist_id": "jusepe-de-ribera-spanish-1591-1652",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1591–1652",
+      "date_display": "c. 1638–40",
+      "year": 1638,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 150 x 121.5 x 9 cm (59 1/16 x 47 13/16 x 3 9/16 in.); Unframed: 129 x 100.3 cm (50 13/16 x 39 1/2 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "西班牙",
+        "光影",
+        "质感",
+        "宗教"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1961.219/1961.219_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1961.219/1961.219_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1961.219/1961.219_web.jpg",
+        "ratio": 1.289
+      },
+      "palette": [
+        "#231f1a",
+        "#5c4433"
+      ],
+      "essay": [
+        "里贝拉是 17 世纪西班牙巴洛克绘画的巨擘，长期活跃于那不勒斯。他深受卡拉瓦乔影响，将强烈的明暗对照法与对底层人物、苦修圣徒的写实描绘相结合。这幅《圣杰罗姆》创作于其艺术生涯的成熟期，展现了画家对肉体苦难与精神升华这一主题的深刻掌控。",
+        "画面最震撼之处在于对衰老肉体的毫不避讳。请看老人胸前的肋骨与锁骨，皮肤紧贴骨骼，呈现出一种近乎解剖学般的精准与冷峻。里贝拉用粗砺的笔触堆叠出如树皮般粗糙的皮肤质感，与手中光滑的头骨形成触觉上的强烈反差。",
+        "然而，这种极端的写实主义也带来了一种审美的矛盾。为了强调苦修的严酷，画家刻意夸大了人物的消瘦与苍老，使得圣徒看起来更像是一位受难的流浪汉，而非博学的教会博士。这种对‘丑’的执着追求，有时甚至压倒了人物应有的神性光辉。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-130457",
+      "source": "cma",
+      "sourceId": "130457",
+      "sourceUrl": "https://clevelandart.org/art/1953.212",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Under the Trees (from \"The Public Gardens\")",
+      "title_zh": "树下（选自《公共花园》系列）",
+      "artist_en": "Édouard Vuillard (French, 1868–1940)",
+      "artist_zh": "爱德华·维亚尔",
+      "artist_id": "edouard-vuillard-french-1868-1940",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1868–1940",
+      "date_display": "1894",
+      "year": 1894,
+      "medium_zh": "布面胶画",
+      "dimensions": "Framed: 229.9 x 113 x 11.4 cm (90 1/2 x 44 1/2 x 4 1/2 in.); Unframed: 214.2 x 96.3 cm (84 5/16 x 37 15/16 in.)",
+      "movement_zh": "纳比派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "色彩",
+        "图案",
+        "纳比派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1953.212/1953.212_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1953.212/1953.212_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1953.212/1953.212_web.jpg",
+        "ratio": 2.211
+      },
+      "palette": [
+        "#585c4a",
+        "#7b775e"
+      ],
+      "essay": [
+        "作为纳比派的核心成员，维亚尔在 1894 年创作的这幅作品，标志着他从室内私密场景向户外公共空间的视角延伸。这幅细长的屏风式构图，原本是为装饰特定空间而作，体现了当时艺术家对绘画与装饰艺术界限的模糊化处理。",
+        "画面最迷人之处在于对光影碎片的捕捉。注意前景中那个身穿蓝衣的女孩，她的轮廓并未被清晰勾勒，而是通过色块的并置自然浮现。树干与地面斑驳的光点，并非写实的光影再现，而是被提炼成了具有节奏感的装饰图案。",
+        "这种极致的平面化处理是一把双刃剑。虽然营造了如梦似幻的氛围，但也牺牲了空间的纵深感，人物仿佛被压扁在树影之间，缺乏体积感。这种为了图案美感而牺牲立体真实的做法，正是纳比派美学中一种自觉的妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-149108",
+      "source": "cma",
+      "sourceId": "149108",
+      "sourceUrl": "https://clevelandart.org/art/1977.37.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Scenes of Witchcraft: Night",
+      "title_zh": "巫术场景：夜",
+      "artist_en": "Salvator Rosa (Italian, 1615–1673)",
+      "artist_zh": "萨尔瓦多·罗萨",
+      "artist_id": "salvator-rosa-italian-1615-1673",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1615–1673",
+      "date_display": "c. 1645–1649",
+      "year": 1647,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 76.2 x 9.6 cm (30 x 3 3/4 in.); Unframed: 54.5 cm (21 7/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "夜景",
+        "17世纪",
+        "意大利",
+        "光影",
+        "戏剧性",
+        "巫术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1977.37.4/1977.37.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1977.37.4/1977.37.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1977.37.4/1977.37.4_web.jpg",
+        "ratio": 0.997
+      },
+      "palette": [
+        "#261b16",
+        "#080605"
+      ],
+      "essay": [
+        "萨尔瓦多·罗萨是巴洛克时期意大利画坛的异类，以描绘荒野、强盗与巫术场景著称。这幅《巫术场景：夜》创作于1645至1649年间，是他早期探索神秘题材的代表作之一，展现了他在光影处理上的独特才能。",
+        "画面中，月光透过树梢洒下，照亮了正在进行巫术仪式的人物。左侧的骑士与马匹在阴影中若隐若现，而右侧的巫师则被火光映照得格外清晰。这种强烈的明暗对比不仅增强了画面的戏剧性，也突显了罗萨对光影效果的精湛掌握。",
+        "尽管罗萨试图通过夸张的姿态和表情来表现巫术的神秘与恐怖，但部分人物的动作显得过于戏剧化，甚至有些做作。这种理想化的表现手法与现实中的巫术场景存在一定差距，反映了当时艺术家对神秘题材的浪漫化想象。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-92936",
+      "source": "cma",
+      "sourceId": "92936",
+      "sourceUrl": "https://clevelandart.org/art/1922.1132",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Maine Coast",
+      "title_zh": "缅因海岸",
+      "artist_en": "Rockwell Kent (American, 1882–1971)",
+      "artist_zh": "洛克威尔·肯特",
+      "artist_id": "rockwell-kent-american-1882-1971",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1882–1971",
+      "date_display": "1907",
+      "year": 1907,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 104.5 x 130.2 x 6.5 cm (41 1/8 x 51 1/4 x 2 9/16 in.); Unframed: 86.4 x 111.7 cm (34 x 44 in.)",
+      "movement_zh": "美国现代主义",
+      "tags": [
+        "风景",
+        "雪景",
+        "20世纪",
+        "美国",
+        "极简",
+        "海岸"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
+        "ratio": 0.766
+      },
+      "palette": [
+        "#4e5e6d",
+        "#aab3bb"
+      ],
+      "essay": [
+        "洛克威尔·肯特是美国现代主义早期的关键人物，以冷峻、纪念碑式的风景画著称。这幅 1907 年的《缅因海岸》创作于他艺术生涯的上升期，彼时他正试图摆脱学院派的束缚，寻找一种更具精神性与形式感的视觉语言。",
+        "画面最精彩之处在于天空与雪地的色彩博弈。肯特没有使用纯白，而是用冷灰与淡蓝铺陈雪面，以呼应上方厚重的积雨云。注意画面右侧海平线处那一抹深邃的普鲁士蓝，它像一道切口，将沉闷的冬日氛围瞬间打破，带来了呼吸感。",
+        "这种极简构图虽显大气，却也暴露了肯特早期的生涩：前景大片留白的雪地缺乏足够的肌理支撑，显得略微单薄。他似乎过于迷恋这种肃穆的秩序感，以至于牺牲了自然界应有的丰富层次，让画面带有一种刻意营造的戏剧性。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.42,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-132367",
+      "source": "cma",
+      "sourceId": "132367",
+      "sourceUrl": "https://clevelandart.org/art/1954.834",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Virgin and Child Enthroned",
+      "title_zh": "宝座上的圣母与圣子",
+      "artist_en": "Battista di Biagio Sanguigni (Italian, active 1393–1451)",
+      "artist_zh": "巴蒂斯塔·迪·比亚焦·桑吉尼",
+      "artist_id": "battista-di-biagio-sanguigni-italian-active-1393-1451",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "活跃于 1393–1451",
+      "date_display": "1419",
+      "year": 1419,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "Framed: 196.2 x 68.6 x 9.5 cm (77 1/4 x 27 x 3 3/4 in.); Unframed: 196.2 x 68.2 cm (77 1/4 x 26 7/8 in.); with original molding and pinnacle: 129 x 59 cm (50 13/16 x 23 1/4 in.)",
+      "movement_zh": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "金色",
+        "庄严",
+        "祭坛画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1954.834/1954.834_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1954.834/1954.834_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1954.834/1954.834_web.jpg",
+        "ratio": 1.875
+      },
+      "palette": [
+        "#eceae7",
+        "#6a553b"
+      ],
+      "essay": [
+        "桑吉尼活跃于 15 世纪上半叶的佛罗伦萨，正处于中世纪晚期向文艺复兴过渡的微妙节点。这幅作于 1419 年的祭坛画，保留了浓厚的拜占庭遗风与国际哥特式的装饰趣味。在乔托开启的空间革命尚未完全普及之时，这类作品仍致力于通过神圣的金色背景，将观者从尘世抽离，构建一个永恒且非现实的信仰空间。",
+        "画面最耐看之处在于衣褶的处理。圣母深蓝色的长袍并非自然垂坠，而是被处理成如金属般坚硬、锐利的管状线条，这种程式化的技法强化了神性的不可侵犯。请注意她膝头与手臂处的衣纹，层层堆叠如雕塑般厚重，边缘勾勒的金线在幽暗的教堂光线下会微微闪烁，这种物质上的奢华感是当时信徒献祭诚意的直接体现。",
+        "然而，这种对神性庄严的过度追求，牺牲了人性的温度。圣母与圣子的面部表情如出一辙的淡漠，缺乏母子间应有的亲昵互动；圣子的手势更像是在赐福而非依偎。人物仿佛被禁锢在金色的牢笼中，虽高贵却显得僵硬疏离。这种‘神性压倒人性’的处理，正是旧时代审美在新时代门槛前的最后坚持，虽显刻板，却有一种肃穆的秩序美。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.65,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-149606",
+      "source": "cma",
+      "sourceId": "149606",
+      "sourceUrl": "https://clevelandart.org/art/1979.27.1.10",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Paintings after Ancient Masters: Landscape in the Style of Ni Zan",
+      "title_zh": "仿倪瓒山水",
+      "artist_en": "Chen Hongshou (Chinese, 1598/99–1652)",
+      "artist_zh": "陈洪",
+      "artist_id": "chen-hongshou-chinese-1598-99-1652",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1598/99–1652",
+      "date_display": "1598–1652",
+      "year": 1625,
+      "medium_zh": "绢本设色册页",
+      "dimensions": "Overall: 30.2 x 26.7 cm (11 7/8 x 10 1/2 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "线条",
+        "留白",
+        "仿作"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.27.1.10/1979.27.1.10_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.27.1.10/1979.27.1.10_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.27.1.10/1979.27.1.10_web.jpg",
+        "ratio": 1.119
+      },
+      "palette": [
+        "#d1c09a",
+        "#a49474"
+      ],
+      "essay": [
+        "陈洪绶是明末清初人物画巨匠，以高古奇骇的造型著称。但这幅册页显示了他对文人山水传统的致敬。他选择模仿元代倪瓒，意在通过复古来确立自己的文人身份，而非单纯的技法练习。",
+        "画面最精彩处在于枯树的线条处理。陈洪绶特有的“铁线描”在这里被刻意收敛，模仿倪瓒的折带皴与疏淡笔意。树干分叉处的顿挫有力，竹叶的撇捺虽细却如刀刻，这种刚劲的笔触与倪瓒原本的萧散形成了微妙的张力。",
+        "这是一次诚实的“误读”。倪瓒的山水讲究空灵与荒寒，而陈洪绶的构图过于紧凑，山石堆叠略显刻意，少了几分元人的逸气。他把自己标志性的装饰趣味带入了本应平淡天真的题材，让这幅仿作打上了鲜明的陈氏烙印。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-135875",
+      "source": "cma",
+      "sourceId": "135875",
+      "sourceUrl": "https://clevelandart.org/art/1959.38",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of King Charles II of England",
+      "title_zh": "查理二世肖像",
+      "artist_en": "Philippe de Champaigne (French, 1602–1674)",
+      "artist_zh": "菲利普·德·尚佩涅",
+      "artist_id": "philippe-de-champaigne-french-1602-1674",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1602–1674",
+      "date_display": "1653",
+      "year": 1653,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 182 x 141 x 15 cm (71 5/8 x 55 1/2 x 5 7/8 in.); Unframed: 129.5 x 97.2 cm (51 x 38 1/4 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "法国",
+        "皇室",
+        "盔甲"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1959.38/1959.38_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1959.38/1959.38_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1959.38/1959.38_web.jpg",
+        "ratio": 1.325
+      },
+      "palette": [
+        "#2d2821",
+        "#52483d"
+      ],
+      "essay": [
+        "菲利普·德·尚佩涅是 17 世纪法国宫廷肖像画的标杆人物，以冷静、客观的笔触著称。这幅作于 1653 年的查理二世肖像，创作于国王流亡期间，既非登基后的威仪展示，也非战败后的颓唐记录，而是处于一种微妙的政治悬置状态。",
+        "画面最耐看的是那身黑色板甲的处理。尚佩涅没有像鲁本斯那样用夸张的高光去渲染金属的闪耀，而是用沉稳的深褐色调，细致描绘出甲片上细密的铆钉与磨损痕迹。这种近乎静物画般的严谨质感，与国王手中那根看似随意的指挥棒形成了有趣的虚实对比。",
+        "但这幅画并非无懈可击。为了维持王室的尊严，画家刻意回避了查理二世当时流亡海外的窘迫现实。背景中那片平静的海港与整齐的舰队，更像是一种政治愿景的投射，而非眼前的真实处境。这种‘粉饰’让画面显得过于整洁，少了几分乱世君主应有的沧桑感。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-173641",
+      "source": "cma",
+      "sourceId": "173641",
+      "sourceUrl": "https://clevelandart.org/art/1915.722",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Rest",
+      "title_zh": "休憩",
+      "artist_en": "William Adolphe Bouguereau (French, 1825–1905)",
+      "artist_zh": "威廉·阿道夫·布格罗",
+      "artist_id": "william-adolphe-bouguereau-french-1825-1905",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1825–1905",
+      "date_display": "1879",
+      "year": 1879,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 204 x 156 x 15 cm (80 5/16 x 61 7/16 x 5 7/8 in.); Unframed: 164.5 x 117.8 cm (64 3/4 x 46 3/8 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "质感",
+        "学院派",
+        "田园"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1915.722/1915.722_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1915.722/1915.722_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1915.722/1915.722_web.jpg",
+        "ratio": 1.406
+      },
+      "palette": [
+        "#2c2618",
+        "#776b4f"
+      ],
+      "essay": [
+        "作为 19 世纪法国学院派的领军人物，布格罗以完美的技法和对古典美的极致追求著称。这幅作于 1879 年的《休憩》处于他职业生涯的成熟期，典型地体现了他将神话般的理想美注入日常田园题材的野心。",
+        "画面最耐看的是母亲怀中的幼童，其肌肤质感被处理得如同温润的瓷器。布格罗用极细的笔触层层罩染，消除了所有粗糙的毛孔与瑕疵，让光线在圆润的肢体上平滑过渡。这种对“完美肉体”的迷恋，是布格罗技法的最高体现。",
+        "然而，这种完美也构成了画面的矛盾。母亲衣着朴素似农妇，但面容过于精致白皙，双手毫无劳作的痕迹；背景中清晰可辨的圣心大教堂（建于 1875 年后）暗示了巴黎近郊，但这般一尘不染的草地与人物，更像是精心搭建的影棚摆拍，而非真实的乡野休憩。",
+        "尽管有人诟病其过度甜腻，但布格罗对构图平衡的掌控力不容置疑。母亲凝视观众的眼神平静而深邃，与身旁熟睡的孩子形成动静对比，为这幅略显造作的理想化图景增添了一丝真实的温情。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.48,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-145960",
+      "source": "cma",
+      "sourceId": "145960",
+      "sourceUrl": "https://clevelandart.org/art/1971.166",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Terminus, the Device of Erasmus",
+      "title_zh": "终点，伊拉斯的装置",
+      "artist_en": "Hans Holbein the Younger (German, active England and Switzerland, 1497/98–1543)",
+      "artist_zh": "小汉斯·荷尔拜因",
+      "artist_id": "hans-holbein-the-younger-german-active-england-and-switzerland-1497-98-1543",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1497/98–1543",
+      "date_display": "c. 1532",
+      "year": 1532,
+      "medium_zh": "木板油画",
+      "dimensions": "Framed: 32.4 x 32.4 x 4.5 cm (12 3/4 x 12 3/4 x 1 3/4 in.); Unframed: 21.6 x 21.6 cm (8 1/2 x 8 1/2 in.)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "细节",
+        "象征",
+        "人文主义"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1971.166/1971.166_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1971.166/1971.166_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1971.166/1971.166_web.jpg",
+        "ratio": 0.984
+      },
+      "palette": [
+        "#262720",
+        "#524937"
+      ],
+      "essay": [
+        "小汉斯·荷尔拜因是北方文艺复兴的巨匠，以冷峻的写实主义著称。这幅作于 1532 年的作品并非传统肖像，而是为人文主义学者伊拉斯谟设计的个人徽章。它展示了画家在离开巴塞尔前往英国前夕，对古典形式与象征意义的深度探索。",
+        "画面核心是一尊被截断的古典半身像，仿佛刚从泥土中挖掘出土。最精彩之处在于雕像胸部的受光处理——光线从左侧切入，在石膏质感的肌肤上形成锐利的高光，与背后深沉的墨绿色背景形成强烈反差，营造出一种近乎雕塑的体积感。",
+        "这种将学者比作古典神祇的隐喻虽显崇高，却也不免有些矫饰。伊拉斯谟本人推崇谦逊，但这尊带有光环的雕像显然将其神圣化了。这种理想化的自我标榜，与荷尔拜因其他作品中那种毫不留情的客观观察形成了有趣的矛盾。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-97148",
+      "source": "cma",
+      "sourceId": "97148",
+      "sourceUrl": "https://clevelandart.org/art/1916.787",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "St. Francis of Assisi Receiving the Stigmata",
+      "title_zh": "圣方济各受圣痕",
+      "artist_en": "Bicci di Lorenzo (Italian, 1373–1452)",
+      "artist_zh": "比奇·迪·洛伦佐",
+      "artist_id": "bicci-di-lorenzo-italian-1373-1452",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1373–1452",
+      "date_display": "c. 1430",
+      "year": 1430,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "Framed: 21.7 x 32 cm (8 9/16 x 12 5/8 in.); Unframed: 17.9 x 27 cm (7 1/16 x 10 5/8 in.)",
+      "movement_zh": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "金色",
+        "叙事",
+        "圣方济各"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.787/1916.787_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.787/1916.787_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.787/1916.787_web.jpg",
+        "ratio": 0.702
+      },
+      "palette": [
+        "#8f7d5b",
+        "#5e503d"
+      ],
+      "essay": [
+        "比奇·迪·洛伦佐是佛罗伦萨晚期哥特式向早期文艺复兴过渡的关键人物。这幅约 1430 年的小尺幅作品，展示了他在国际哥特式风格下的叙事能力。作为私人祈祷用的面板画，它既保留了中世纪金底的神圣感，又尝试在风景中构建空间深度。",
+        "画面最精彩处在于六束金线的处理——它们充当了连接天与地的物理通道。注意看金线如何精准地刺入圣徒的手心、脚心与肋部，这种对“受难”瞬间的具象化描绘，在当时的宗教画中极具张力。",
+        "尽管画家试图通过右侧的建筑群展示透视技巧，但比例显得生硬且缺乏逻辑，仿佛是为了填充画面而强行加入的布景。这种空间处理上的稚拙，暴露了他在面对新兴写实主义潮流时的力不从心。",
+        "不过，左侧跪地修士惊恐捂眼的姿态十分生动，作为旁观者，他成功地将观者的情绪带入了这个神迹现场，平衡了画面过于程式化的神圣氛围。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.28,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-109507",
+      "source": "cma",
+      "sourceId": "109507",
+      "sourceUrl": "https://clevelandart.org/art/1928.16",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Agostino Barbarigo",
+      "title_zh": "阿戈斯蒂诺·巴尔巴里戈肖像",
+      "artist_en": "Paolo Veronese (Italian, 1528–1588)",
+      "artist_zh": "保罗·委罗内塞",
+      "artist_id": "paolo-veronese-italian-1528-1588",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1528–1588",
+      "date_display": "after c. 1571",
+      "year": 1571,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 136.2 x 136.2 x 12.1 cm (53 5/8 x 53 5/8 x 4 3/4 in.); Unframed: 102.2 x 104.2 cm (40 1/4 x 41 in.)",
+      "movement_zh": "威尼斯画派",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "威尼斯",
+        "盔甲",
+        "贵族"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1928.16/1928.16_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1928.16/1928.16_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1928.16/1928.16_web.jpg",
+        "ratio": 0.98
+      },
+      "palette": [
+        "#231212",
+        "#454639"
+      ],
+      "essay": [
+        "作为威尼斯画派盛期的代表人物，委罗内塞以宏大的宴会场景闻名，但这幅半身像展示了他驾驭严肃肖像的能力。画中人是阿戈斯蒂诺·巴尔巴里戈，他在 1571 年勒班陀海战中负伤，后成为威尼斯总督。此作约绘于 1571 年后，处于画家风格最成熟的阶段。",
+        "画面最精彩处在于对金属质感的处理。注意胸甲上的高光——并非死板的银白，而是融合了环境色的冷灰与暖褐。委罗内塞用极薄的釉染层叠出钢板的厚度，边缘处甚至能感到金属的冰冷触感。手中细长的指挥棒打破了盔甲的封闭感，引导视线向右延伸。",
+        "这幅画在威严中透着一丝僵硬。巴尔巴里戈身披重甲，姿态却略显拘谨，缺乏提香笔下人物那种由内而外的张力。背景大面积的青绿色墙面虽然衬托了肤色，但处理得过于平整，少了些空气感。这是典型的官方肖像：旨在记录功绩与地位，而非挖掘灵魂。",
+        "尽管如此，那对深陷眼窝中的眼睛依然锐利。画家没有回避这位老将的疲惫与沧桑，灰白的胡须与紧抿的嘴唇，让这位胜利者显得真实可触。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-136682",
+      "source": "cma",
+      "sourceId": "136682",
+      "sourceUrl": "https://clevelandart.org/art/1961.220",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Catherine Grey, Lady Manners",
+      "title_zh": "凯瑟琳·格雷夫人像",
+      "artist_en": "Thomas Lawrence (British, 1769–1830)",
+      "artist_zh": "托马斯·劳伦斯",
+      "artist_id": "thomas-lawrence-british-1769-1830",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1769–1830",
+      "date_display": "1794",
+      "year": 1794,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 280.5 x 185 x 9 cm (110 7/16 x 72 13/16 x 3 9/16 in.); Unframed: 255.3 x 158 cm (100 1/2 x 62 3/16 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "贵族",
+        "孔雀"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1961.220/1961.220_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1961.220/1961.220_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1961.220/1961.220_web.jpg",
+        "ratio": 1.621
+      },
+      "palette": [
+        "#4e4c41",
+        "#a09d8a"
+      ],
+      "essay": [
+        "托马斯·劳伦斯是英国摄政时期最耀眼的肖像画家，以捕捉上流社会人物的优雅神态著称。这幅作于 1794 年的巨幅肖像，描绘了凯瑟琳·格雷夫人，正值画家风格成熟期。他摒弃了雷诺兹式的厚重堆砌，转而追求一种轻盈、流动的视觉质感，确立了当时英国肖像画的新风尚。",
+        "画面最精彩处在于对白色织物的处理——劳伦斯用极薄的釉染层叠出裙摆的透明感，光线仿佛穿透了布料。注意她腰间的蓝色缎带与手中垂落的玫瑰，色彩虽淡却压住了阵脚。右侧那只孔雀不仅是财富的炫耀，其斑斓的尾羽与夫人苍白的肤色形成强烈反差，衬托出人物的娇嫩。",
+        "这种极致的理想化也带来了代价：夫人的面容被修饰得过于完美，缺乏真实的骨骼结构，像是一个精致的瓷娃娃。背景中戏剧性的风暴天空与前景宁静的姿态略显割裂，这是劳伦斯为了营造浪漫氛围而牺牲了部分逻辑。但这并不妨碍它成为展示那个时代审美趣味的绝佳样本。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-149105",
+      "source": "cma",
+      "sourceId": "149105",
+      "sourceUrl": "https://clevelandart.org/art/1977.37.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Scenes of Witchcraft: Morning",
+      "title_zh": "巫术场景：晨",
+      "artist_en": "Salvator Rosa (Italian, 1615–1673)",
+      "artist_zh": "萨尔瓦多·罗萨",
+      "artist_id": "salvator-rosa-italian-1615-1673",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1615–1673",
+      "date_display": "c. 1645–1649",
+      "year": 1647,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 76.2 x 9.6 cm (30 x 3 3/4 in.); Unframed: 54.5 cm (21 7/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "意大利",
+        "光影",
+        "晨景",
+        "巫术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1977.37.1/1977.37.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1977.37.1/1977.37.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1977.37.1/1977.37.1_web.jpg",
+        "ratio": 0.988
+      },
+      "palette": [
+        "#0f0907",
+        "#483829"
+      ],
+      "essay": [
+        "萨尔瓦多·罗萨是 17 世纪意大利巴洛克画坛的异类，以描绘荒凉风景和神秘题材著称。这幅《巫术场景：晨》创作于 1645-1649 年间，是他早期探索超自然主题的代表作之一，展现了画家对黑暗浪漫主义的独特理解。",
+        "画面中央的女巫正用剑刺向一只青蛙，周围环绕着各种奇异的生物——展翅的猫头鹰、怪诞的鸟头和潜伏的蟾蜍。罗萨运用强烈的明暗对比，将女巫苍白的肌肤与幽暗的背景形成鲜明对照，营造出神秘而紧张的氛围。",
+        "尽管题材诡异，但罗萨的处理方式却透露出某种戏剧化的美感。女巫的姿态优雅得近乎做作，仿佛舞台上的演员而非真正的施法者。这种理想化与现实主题的矛盾，正是罗萨作品的独特魅力所在——他既想表现黑暗，又无法完全摆脱古典美的束缚。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.68,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-151973",
+      "source": "cma",
+      "sourceId": "151973",
+      "sourceUrl": "https://clevelandart.org/art/1984.43.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Susuki Grass",
+      "title_zh": "芒草图屏风",
+      "artist_en": "Unknown",
+      "artist_zh": "不详",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "日本",
+      "artist_years": "不详",
+      "date_display": "c. 1525",
+      "year": 1525,
+      "medium_zh": "纸本金地设色屏风",
+      "dimensions": "Image: 150.4 x 349.2 cm (59 3/16 x 137 1/2 in.); Overall: 163.6 x 362.4 cm (64 7/16 x 142 11/16 in.); with frame: 166.8 x 365.6 cm (65 11/16 x 143 15/16 in.); Panorama: 163.6 x 60.4 cm (64 7/16 x 23 3/4 in.)",
+      "movement_zh": "大和绘",
+      "tags": [
+        "植物",
+        "16世纪",
+        "日本",
+        "极简",
+        "金地",
+        "屏风"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1984.43.2/1984.43.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1984.43.2/1984.43.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1984.43.2/1984.43.2_web.jpg",
+        "ratio": 0.474
+      },
+      "palette": [
+        "#ab9779",
+        "#62574a"
+      ],
+      "essay": [
+        "这幅六曲屏风是 16 世纪日本大和绘传统的典型遗存，作者虽已不可考，但其风格明显承袭了土佐派或狩野派的装饰趣味。在室町至桃山时代的审美语境中，这种将单一植物题材铺满金地屏风的做法，旨在通过宏大的尺幅与贵重的材质，将自然野趣转化为室内空间的庄严装饰。",
+        "画面最耐看之处在于线条的韵律感。画家并未追求植物学意义上的精准，而是用极具弹性的墨线勾勒出芒草随风倒伏的姿态。请注意局部中叶片的穿插：深绿与淡墨交替，利用线条的疏密制造出风穿过草丛的视觉流动感，这种「留白」并非真空，而是充满了空气的流动。",
+        "然而，这种极致的装饰性也带来了某种视觉上的单调。为了适应屏风的连续展开，草叶的形态不得不进行大量的重复排列，导致画面缺乏明确的视觉焦点。这种均质化的构图虽然保证了从任何角度观看的完整性，却牺牲了纵深空间的可能性，让这片芒草永远定格在一种静止的摇曳中。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.55,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-130392",
+      "source": "cma",
+      "sourceId": "130392",
+      "sourceUrl": "https://clevelandart.org/art/1953.156",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Return of the Holy Family to Nazareth",
+      "title_zh": "圣家族返回拿撒勒",
+      "artist_en": "Nicolas Poussin (French, 1594–1665)",
+      "artist_zh": "尼古拉·普桑",
+      "artist_id": "nicolas-poussin-french-1594-1665",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1594–1665",
+      "date_display": "c. 1627",
+      "year": 1627,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 159.5 x 124 x 14.5 cm (62 13/16 x 48 13/16 x 5 11/16 in.); Unframed: 134 x 99 cm (52 3/4 x 39 in.)",
+      "movement_zh": "古典主义",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "法国",
+        "构图",
+        "古典",
+        "风景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1953.156/1953.156_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1953.156/1953.156_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1953.156/1953.156_web.jpg",
+        "ratio": 1.359
+      },
+      "palette": [
+        "#3c3027",
+        "#5f5143"
+      ],
+      "essay": [
+        "这是普桑早期罗马时期的作品，此时他正从威尼斯画派的色彩中抽离，转向对古典秩序的追求。画面虽仍带有巴洛克式的戏剧张力，但人物布局已显露出他对几何结构的迷恋。作为法国古典主义的奠基人，普桑在此作中试图平衡叙事性与形式感，确立了其日后严谨理性的画风基调。",
+        "画面最精彩处在于上方云端的天使群像——他们并非悬浮于虚空，而是相互支撑、肢体交叠，形成稳固的金字塔结构。天使衣褶的流动感与下方船夫的肌肉线条形成呼应，普桑用冷暖色块的交替（红与蓝、金与灰）引导视线在天地之间往返，这种色彩编排比单纯的明暗对照更具理性秩序。",
+        "然而，这幅画也暴露了普桑早期的犹豫：下方圣家族登岸的动作略显僵硬，约瑟夫抱婴的姿态缺乏生活实感，更像是在摆弄雕塑模型。天上天使的欢腾与地上人物的凝重在情绪上有些割裂，仿佛两个不同剧本被强行拼贴。这种叙事上的不连贯，是普桑在确立个人风格前必须跨越的门槛。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.28,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-148301",
+      "source": "cma",
+      "sourceId": "148301",
+      "sourceUrl": "https://clevelandart.org/art/1975.3",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Birth and Naming of John the Baptist",
+      "title_zh": "施洗约翰的诞生与命名",
+      "artist_en": "Juan de Flandes (Netherlandish, c. 1460–1519)",
+      "artist_zh": "胡安·德·佛兰德斯",
+      "artist_id": "juan-de-flandes-netherlandish-c-1460-1519",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "约 1460–1519",
+      "date_display": "1496–99",
+      "year": 1496,
+      "medium_zh": "木板油画",
+      "dimensions": "Framed: 99 x 60 x 7.5 cm (39 x 23 5/8 x 2 15/16 in.); Unframed: 88.4 x 49.9 cm (34 13/16 x 19 5/8 in.)",
+      "movement_zh": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "叙事",
+        "室内场景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1975.3/1975.3_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1975.3/1975.3_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1975.3/1975.3_web.jpg",
+        "ratio": 1.826
+      },
+      "palette": [
+        "#3d3324",
+        "#675e48"
+      ],
+      "essay": [
+        "胡安·德·佛兰德斯是早期尼德兰画派的重要代表，活跃于 15 世纪末至 16 世纪初。这幅《施洗约翰的诞生与命名》是他为西班牙宫廷创作的宗教题材作品之一，展现了他在叙事性和细节刻画上的卓越才能。",
+        "画面中，绿色帷幔下的床榻、精致的家具和人物服饰都体现了画家对细节的极致追求。尤其是前景中抱着婴儿的女子，她的表情温柔而专注，衣褶的处理细腻入微，显示出画家高超的技艺。",
+        "然而，尽管画面充满了宗教神圣感，但人物的表情和姿态略显僵硬，缺乏自然的情感流露。这种理想化与现实之间的矛盾，是早期尼德兰画派常见的特点。",
+        "尽管如此，胡安·德·佛兰德斯通过精细的笔触和丰富的色彩，成功地将这一宗教故事呈现得生动而富有感染力，使观者能够感受到其中的神圣与庄严。"
+      ],
+      "detailCrop": {
+        "cx": 0.46,
+        "cy": 0.65,
+        "r": 0.16
+      }
+    },
+    {
+      "id": "cma-123435",
+      "source": "cma",
+      "sourceId": "123435",
+      "sourceUrl": "https://clevelandart.org/art/1943.659",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sophie Crouzet",
+      "title_zh": "索菲·克鲁泽",
+      "artist_en": "Louis Hersent (French, 1777–1860)",
+      "artist_zh": "路易·埃尔桑",
+      "artist_id": "louis-hersent-french-1777-1860",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1777–1860",
+      "date_display": "c. 1801",
+      "year": 1801,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 101 x 85.5 x 12.5 cm (39 3/4 x 33 11/16 x 4 15/16 in.); Unframed: 81.2 x 65 cm (31 15/16 x 25 9/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "肤色",
+        "新古典",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1943.659/1943.659_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1943.659/1943.659_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1943.659/1943.659_web.jpg",
+        "ratio": 1.251
+      },
+      "palette": [
+        "#423f37",
+        "#8a897f"
+      ],
+      "essay": [
+        "路易·埃尔桑是法国新古典主义时期的代表画家，以细腻的笔触和理想化的美感著称。《索菲·克鲁泽》创作于 1801 年左右，正值埃尔桑艺术生涯的成熟期，这幅作品不仅展示了他对人物形象的精准捕捉，也体现了他对新古典主义美学的深刻理解。",
+        "画面中的索菲·克鲁泽身着白色长裙，姿态优雅，目光温和而坚定。她的皮肤在柔和的光线照射下显得光滑细腻，尤其是脸部和颈部的处理，展现了埃尔桑对肤色和光影的高超掌控。桌上的羽毛笔和墨水瓶暗示了她的文人身份，增加了画面的文化内涵。",
+        "尽管埃尔桑在技法上无可挑剔，但画中人物的理想化处理也引发了一些争议。索菲的面容过于完美，几乎没有任何瑕疵，这与现实中的普通人相去甚远。这种理想化的表现手法虽然提升了画面的美感，但也削弱了人物的真实感。",
+        "总体而言，《索菲·克鲁泽》是一幅技艺精湛的新古典主义肖像画，它不仅展示了埃尔桑的艺术才华，也反映了当时社会对美的追求和理想化倾向。"
+      ],
+      "detailCrop": {
+        "cx": 0.46,
+        "cy": 0.22,
+        "r": 0.16
+      }
+    },
+    {
+      "id": "cma-170235",
+      "source": "cma",
+      "sourceId": "170235",
+      "sourceUrl": "https://clevelandart.org/art/2012.41",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Artist's Studio",
+      "title_zh": "艺术家的画室",
+      "artist_en": "Johann Georg Platzer (Austrian, 1704–1761)",
+      "artist_zh": "约翰·格奥尔格·普拉策",
+      "artist_id": "johann-georg-platzer-austrian-1704-1761",
+      "artist_nationality_zh": "奥地利",
+      "artist_years": "1704–1761",
+      "date_display": "1740s–50s",
+      "year": 1740,
+      "medium_zh": "铜板油画",
+      "dimensions": "Framed: 55.6 x 73.3 cm (21 7/8 x 28 7/8 in.); Unframed: 41.9 x 60 cm (16 1/2 x 23 5/8 in.)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "室内",
+        "风俗画",
+        "18世纪",
+        "奥地利",
+        "艺术寓言"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2012.41/2012.41_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2012.41/2012.41_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2012.41/2012.41_web.jpg",
+        "ratio": 0.702
+      },
+      "palette": [
+        "#3b2a1f",
+        "#6b593e"
+      ],
+      "essay": [
+        "普拉策是 18 世纪奥地利洛可可风格的代表人物，以绘制这种拥挤、喧闹且充满细节的“画廊画”闻名。这幅作品并非对真实画室的写生，而是一种精心编排的视觉寓言，展示了当时艺术收藏的品味与画家对各类题材的驾驭能力。",
+        "画面左侧的光线处理值得玩味：阳光穿过窗棂，在红衣模特和白色丝绸裙摆上投下高光，这种对质感的迷恋是洛可可的典型特征。右下角正在清洗调色板的学徒是点睛之笔，他低头的专注与周围高谈阔论的宾客形成反差，暗示了艺术创作背后枯燥的劳作。",
+        "这幅画最大的问题在于“贪多”。普拉策试图将神话、风景、肖像和静物全部塞进一个房间，导致画面缺乏真正的视觉中心。墙上那幅巨大的《最后的晚餐》仿作显得格格不入，神圣题材被强行置入世俗的喧嚣中，削弱了整体的叙事连贯性。",
+        "尽管构图略显杂乱，但铜板材质赋予了画面如珐琅般的光泽。这种对微小细节的极致追求，让它在三百年后依然能让人看清每一本摊开的画册和每一处织物的纹理，这是大画布难以企及的精致。"
+      ],
+      "detailCrop": {
+        "cx": 0.88,
+        "cy": 0.68,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-163043",
+      "source": "cma",
+      "sourceId": "163043",
+      "sourceUrl": "https://clevelandart.org/art/2003.6.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Calliope, Muse of Epic Poetry",
+      "title_zh": "史诗缪斯卡利俄珀",
+      "artist_en": "Charles Meynier (French, 1768–1832)",
+      "artist_zh": "夏尔·梅尼耶",
+      "artist_id": "charles-meynier-french-1768-1832",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1768–1832",
+      "date_display": "1798",
+      "year": 1798,
+      "medium_zh": "布面油画",
+      "dimensions": "Overall: 275 x 177 cm (108 1/4 x 69 11/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "神话",
+        "肖像",
+        "18世纪",
+        "法国",
+        "新古典主义"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_web.jpg",
+        "ratio": 1.565
+      },
+      "palette": [
+        "#423929",
+        "#796d59"
+      ],
+      "essay": [
+        "夏尔·梅尼耶是大卫画派的重要追随者，这幅作于 1798 年的巨作，典型地体现了法国大革命后新古典主义对崇高与理性的追求。作为史诗缪斯，卡利俄珀在此被赋予了近乎政治宣传般的庄严感，试图在动荡年代重塑古典秩序。",
+        "画面最精彩处在于衣褶的处理——尤其是左臂下那团深蓝色织物，梅尼耶用极其锐利的折痕和冷峻的高光，模拟出大理石般的坚硬质感。这种对“雕塑感”的迷恋，让原本柔软的丝绸看起来像被冻结在寒风中，与右侧飘散的云雾形成强烈对比。",
+        "然而，这种对完美的过度执念也带来了僵硬感。缪斯的面容虽然符合古典美的标准，却缺乏真正的情感温度；她仰望荷马胸像的姿态显得刻意而造作，仿佛只是为了展示这一文化符号，而非发自内心的灵感迸发。",
+        "尽管如此，画面右下角那丛在风中摇曳的野草，却意外地透出一丝生机。这处不起眼的细节，或许是画家在严谨构图下，对自然真实感的一次隐秘妥协。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-99445",
+      "source": "cma",
+      "sourceId": "99445",
+      "sourceUrl": "https://clevelandart.org/art/1919.1018",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "British Manufactory; A Sketch",
+      "title_zh": "英国制造业：素描稿",
+      "artist_en": "Benjamin West (American, born The Thirteen Colonies, 1738–1820)",
+      "artist_zh": "本杰明·韦斯特",
+      "artist_id": "benjamin-west-american-born-the-thirteen-colonies-1738-1820",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1738–1820",
+      "date_display": "1791",
+      "year": 1791,
+      "medium_zh": "纸本油画，于木板",
+      "dimensions": "Framed: 67.4 x 80 x 5.2 cm (26 9/16 x 31 1/2 x 2 1/16 in.); Unframed: 51 x 65 cm (20 1/16 x 25 9/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "寓言",
+        "工业",
+        "18世纪",
+        "英国",
+        "素描感"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1919.1018/1919.1018_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1919.1018/1919.1018_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1919.1018/1919.1018_web.jpg",
+        "ratio": 0.79
+      },
+      "palette": [
+        "#452e1e",
+        "#776342"
+      ],
+      "essay": [
+        "本杰明·韦斯特是首位在国际上获得巨大成功的美国画家，也是英国皇家艺术学院的创始人之一。这幅作于 1791 年的作品，虽名为“素描稿”，实则是一幅完整的油画习作。它处于韦斯特艺术生涯的成熟期，展现了他如何将宏大的历史画构图技巧，应用于当时新兴的工业题材寓言中。",
+        "画面采用椭圆形构图，营造出一种透过窥视孔观察的舞台感。前景中，身着古典长袍的女性形象与赤裸的孩童形成了质感上的强烈对比。最值得玩味的是左侧背景的处理：韦斯特用极快且松动的笔触概括了工人们的劳作场景，这种“未完成感”并非草率，而是为了突出前景神话人物的永恒性，让工业活动成为古典理想的注脚。",
+        "这幅画在立意上存在明显的割裂感。题目宣称歌颂“英国制造业”，但画面核心却是几位无所事事的古典女神和天使，真正的工匠被推至边缘，面目模糊。韦斯特试图用高贵的古典形式来包装世俗的工业生产，结果让画面显得像是一场穿着古装的角色扮演，削弱了题材本身的力量。"
+      ],
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.45,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-111479",
+      "source": "cma",
+      "sourceId": "111479",
+      "sourceUrl": "https://clevelandart.org/art/1929.96",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Miracles of Saint James the Greater",
+      "title_zh": "圣雅各的奇迹",
+      "artist_en": "Noël Nicolas Coypel (French, 1690–1734)",
+      "artist_zh": "诺埃尔-尼古拉·夸佩尔",
+      "artist_id": "noel-nicolas-coypel-french-1690-1734",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1690–1734",
+      "date_display": "1726",
+      "year": 1726,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 129.5 x 107.5 x 10.5 cm (51 x 42 5/16 x 4 1/8 in.); Unframed: 102 x 80.7 cm (40 3/16 x 31 3/4 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "法国",
+        "动态",
+        "巴洛克",
+        "神迹"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1929.96/1929.96_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1929.96/1929.96_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1929.96/1929.96_web.jpg",
+        "ratio": 1.272
+      },
+      "palette": [
+        "#3d3326",
+        "#5e5e55"
+      ],
+      "essay": [
+        "诺埃尔-尼古拉·夸佩尔是法国洛可可早期的代表人物，这幅作于 1726 年的《圣雅各的奇迹》展示了他驾驭宏大宗教题材的能力。此时他已脱离父亲的影响，试图在学院派严谨构图与巴洛克戏剧性之间寻找平衡。这幅画是其成熟期的代表作，反映了当时法国宗教画向更具情感张力方向转变的趋势。",
+        "画面左侧圣雅各的姿态极具舞台感，红蓝长袍的褶皱处理得繁复而流畅。最值得玩味的是前景跪地者的背部肌肉线条与衣纹堆叠，夸佩尔用厚涂法强调了肉体的沉重感，与后方轻盈升腾的烟雾形成质感上的强烈反差，这种对物质实感的迷恋是当时法国画坛的显著特征。",
+        "尽管夸佩尔极力营造神迹降临的震撼瞬间，但人物表情却显得过于程式化。围观者的惊愕与虔诚仿佛经过排练，缺乏真正面对超自然现象时的混乱与失序。这种将神圣场景过度“剧场化”的处理，虽然满足了当时贵族阶层的审美趣味，却削弱了宗教题材本应有的精神穿透力。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.72,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-146416",
+      "source": "cma",
+      "sourceId": "146416",
+      "sourceUrl": "https://clevelandart.org/art/1972.119",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Noah:  The Eve of the Deluge",
+      "title_zh": "诺亚：洪水前夕",
+      "artist_en": "John Linnell (British, 1792–1882)",
+      "artist_zh": "约翰·林内尔",
+      "artist_id": "john-linnell-british-1792-1882",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1792–1882",
+      "date_display": "1848",
+      "year": 1848,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 168.5 x 242.5 x 9.5 cm (66 5/16 x 95 1/2 x 3 3/4 in.); Unframed: 146 x 221 cm (57 1/2 x 87 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "圣经题材",
+        "风景",
+        "19世纪",
+        "英国",
+        "浪漫主义",
+        "氛围"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1972.119/1972.119_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1972.119/1972.119_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1972.119/1972.119_web.jpg",
+        "ratio": 0.658
+      },
+      "palette": [
+        "#342a25",
+        "#635346"
+      ],
+      "essay": [
+        "约翰·林内尔是英国浪漫主义晚期的重要画家，以风景画和宗教题材闻名。这幅《诺亚：洪水前夕》创作于 1848 年，正值他艺术生涯的成熟期。作品将圣经叙事与自然景观结合，展现了浪漫主义对情感与自然的深刻关注。",
+        "画面中，天空的云层以厚重的笔触堆叠，暗红与灰蓝交织，营造出压抑的氛围。诺亚一家在右侧祈祷，姿态虔诚，而左侧的诺亚则独自站立，神情凝重。前景中倒地的尸体与远处的方舟形成强烈对比，细节处理极具戏剧性。",
+        "尽管画面充满张力，但人物的表情略显程式化，缺乏个体情感的深度。这种理想化的处理削弱了灾难来临前的真实恐惧感，更像是舞台剧而非现实场景。",
+        "林内尔通过宏大的构图与细腻的光影，成功捕捉了圣经故事的史诗感。尽管人物刻画稍显不足，但整体氛围的营造仍令人印象深刻，展现了浪漫主义艺术的独特魅力。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.3,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-128838",
+      "source": "cma",
+      "sourceId": "128838",
+      "sourceUrl": "https://clevelandart.org/art/1951.453",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Altarpiece with The Passion of Christ",
+      "title_zh": "受难祭坛画",
+      "artist_en": "Master of the Schlägl Altarpiece (German)",
+      "artist_zh": "施莱格尔祭坛画大师",
+      "artist_id": "master-of-the-schlagl-altarpiece-german",
+      "artist_nationality_zh": "德国",
+      "artist_years": "不详",
+      "date_display": "c. 1440s",
+      "year": 1440,
+      "medium_zh": "木板油画与金箔",
+      "dimensions": "Framed: 88.9 x 157.5 x 8.3 cm (35 x 62 x 3 1/4 in.); Unframed: 74.3 x 69.8 cm (29 1/4 x 27 1/2 in.); Part 1: 84.9 x 81.4 x 8.3 cm (33 7/16 x 32 1/16 x 3 1/4 in.); Part 2: 84.6 x 152.2 x 8.3 cm (33 5/16 x 59 15/16 x 3 1/4 in.); Part 3: 84.6 x 78.7 x 8.3 cm (33 5/16 x 31 x 3 1/4 in.); Panel: 36.2 x 35 cm (14 1/4 x 13 3/4 in.)",
+      "movement_zh": "晚期哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "金色",
+        "祭坛画",
+        "受难"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1951.453/1951.453_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1951.453/1951.453_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1951.453/1951.453_web.jpg",
+        "ratio": 0.408
+      },
+      "palette": [
+        "#53341c",
+        "#826540"
+      ],
+      "essay": [
+        "施莱格尔祭坛画大师是 15 世纪中叶活跃于德国南部的重要画家，其风格介于晚期哥特式的装饰性与早期北方文艺复兴的写实倾向之间。这件多联祭坛画以基督受难为核心，两侧辅以受难故事的连续场景，是当时教堂礼拜仪式中引导信徒冥想的重要视觉工具。",
+        "画面中央的十字架场景最为肃穆，金色背景虽沿袭中世纪传统，但人物衣褶的体积感已显露出对现实的观察。请看左侧哀悼的圣母与圣约翰，深绿与暗红的衣袍堆叠出厚重的质感，面部表情虽显程式化，但肢体语言已试图传达真实的悲痛。",
+        "这种叙事性多联画难免陷入拥挤的构图困境：为了在有限面板内讲完故事，人物往往被压缩在浅层空间中，缺乏纵深感。此外，金色背景虽然辉煌，却削弱了光影对人物立体感的塑造，使画面略显平面化，这是该时期宗教画难以回避的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-99429",
+      "source": "cma",
+      "sourceId": "99429",
+      "sourceUrl": "https://clevelandart.org/art/1919.1006",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Charles Apthorp",
+      "title_zh": "查尔斯·阿普索普",
+      "artist_en": "Robert Feke (American, born The Thirteen Colonies, c. 1707–c. 1752)",
+      "artist_zh": "罗伯特·费克",
+      "artist_id": "robert-feke-american-born-the-thirteen-colonies-c-1707-c-1752",
+      "artist_nationality_zh": "美国",
+      "artist_years": "约 1707–约 1752",
+      "date_display": "1748",
+      "year": 1748,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 141.5 x 117.5 x 7.5 cm (55 11/16 x 46 1/4 x 2 15/16 in.); Unframed: 127 x 101.5 cm (50 x 39 15/16 in.)",
+      "movement_zh": "殖民时期艺术",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "质感",
+        "殖民时期",
+        "商人"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1919.1006/1919.1006_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1919.1006/1919.1006_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1919.1006/1919.1006_web.jpg",
+        "ratio": 1.249
+      },
+      "palette": [
+        "#382f25",
+        "#5a5145"
+      ],
+      "essay": [
+        "罗伯特·费克是北美殖民地时期最重要的肖像画家之一，活跃于波士顿与纽波特。这幅 1748 年的作品处于他风格的成熟期，展示了当时新兴商业精英的典型形象。费克虽未受过正统学院训练，却凭借对人物神态的敏锐捕捉，在艺术史上占据了一席之地。",
+        "画面最精彩之处在于对物质质感的处理。请看袖口那团繁复的白色蕾丝——费克用极细的笔触堆叠出织物的厚度与透光感，与深褐色外套的厚重毛呢形成鲜明对比。这种对衣饰细节近乎执着的描绘，是当时委托人彰显财富与社会地位的直接诉求。",
+        "然而，这幅画在解剖结构上略显生硬。人物左手插入马甲的姿态虽显自信，但手指关节的转折处理得有些含糊，缺乏真实的骨骼支撑感。这是费克作为自学画家的局限：他擅长捕捉人物的社会面具，却在严谨的人体结构上稍逊一筹。",
+        "背景中隐约可见的海景与帆船暗示了画家的商人身份，将个人肖像置于宏大的贸易背景之下。这种构图模式虽显程式化，却真实记录了 18 世纪美国沿海城市依靠海运贸易崛起的历史切片。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.66,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-124012",
+      "source": "cma",
+      "sourceId": "124012",
+      "sourceUrl": "https://clevelandart.org/art/1944.498",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Emperor Alamgir (Aurangzeb)",
+      "title_zh": "奥朗则布肖像",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "c. 1700",
+      "year": 1700,
+      "medium_zh": "纸本树胶水彩与金粉",
+      "dimensions": "Sheet: 7.9 x 5.3 cm (3 1/8 x 2 1/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "印度",
+        "细密画",
+        "皇室",
+        "宗教"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1944.498/1944.498_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1944.498/1944.498_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1944.498/1944.498_web.jpg",
+        "ratio": 1.582
+      },
+      "palette": [
+        "#6d4d42",
+        "#a1805b"
+      ],
+      "essay": [
+        "这幅作品出自莫卧儿帝国晚期，描绘了以虔诚和严苛著称的皇帝奥朗则布。不同于早期莫卧儿绘画对世俗享乐与宏大狩猎的迷恋，奥朗则布时代的艺术风格转向内敛与肃穆。此作虽由佚名画师绘制，却精准捕捉了这位“活圣人”晚年的精神面貌，是研究帝国由盛转衰期审美趣味转变的重要样本。",
+        "画面最精彩处在于对人物神态的微观刻画。注意看皇帝低垂的眼帘与紧抿的嘴角，画师用极细的墨线勾勒出面部松弛的皮肤纹理，毫无美化之意。头巾褶皱的处理繁复而有序，金粉在头光处的放射状运用，既保留了皇权的威严，又暗示了其苦行僧般的宗教狂热。",
+        "然而，这种极度的写实主义在表现手部时略显生硬。手指关节的转折过于平直，缺乏血肉感，仿佛是为了展示解剖知识而刻意摆出的姿态。此外，背景大面积的深色虽然突出了人物，却也让画面显得压抑，少了几分早期细密画那种通透灵动的装饰美感。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.48,
+        "r": 0.18
+      }
+    },
+    {
+      "id": "cma-149614",
+      "source": "cma",
+      "sourceId": "149614",
+      "sourceUrl": "https://clevelandart.org/art/1979.27.1.8",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Paintings after Ancient Masters: Portrait of Zhongqing in a Landscape",
+      "title_zh": "仿古人画：仲卿山水像",
+      "artist_en": "Chen Hongshou (Chinese, 1598/99–1652)",
+      "artist_zh": "陈洪",
+      "artist_id": "chen-hongshou-chinese-1598-99-1652",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1598–1652",
+      "date_display": "1598–1652",
+      "year": 1625,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 30.2 x 26.7 cm (11 7/8 x 10 1/2 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "线条",
+        "文人画",
+        "山水"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.27.1.8/1979.27.1.8_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.27.1.8/1979.27.1.8_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.27.1.8/1979.27.1.8_web.jpg",
+        "ratio": 1.133
+      },
+      "palette": [
+        "#d7c19d",
+        "#9d8d72"
+      ],
+      "essay": [
+        "陈洪绶是明末清初极具个性的画家，以夸张变形的人物造型和古拙的线条著称。此作虽题为“仿古人画”，却并非单纯复古，而是借古人之形，注入个人独特的审美趣味。画中人物仲卿端坐于山水之间，姿态闲适，体现了文人画追求的精神境界。",
+        "画面最精彩处在于树木的描绘——树干扭曲盘结，肌理丰富，线条刚劲有力，充满装饰性。陈洪绶用笔如刀刻，将树皮的质感表现得极为细腻。人物衣纹流畅，与背景的粗犷形成对比，突出了主体的文人气质。",
+        "然而，这种高度风格化的处理也带来了一定的距离感。人物面容过于理想化，缺乏真实的情感流露；山水布局虽精巧，却略显刻意，少了自然天成的韵味。这正是陈洪绶艺术的特点：重形式而轻写实，重意趣而轻生活。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.35,
+        "r": 0.2
+      }
+    },
+    {
+      "id": "cma-170887",
+      "source": "cma",
+      "sourceId": "170887",
+      "sourceUrl": "https://clevelandart.org/art/2013.350",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "A night scene of Shiva puja (recto); Calligraphy (verso)",
+      "title_zh": "湿婆夜祭",
+      "artist_en": "Muhammad Rizavi Hindi (Indian, active mid-1700s)",
+      "artist_zh": "穆罕默德·里扎维·辛迪",
+      "artist_id": "muhammad-rizavi-hindi-indian-active-mid-1700s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 18 世纪中叶",
+      "date_display": "c. 1760–70",
+      "year": 1760,
+      "medium_zh": "纸本树胶蛋彩描金",
+      "dimensions": "Page: 28.2 x 24.1 cm (11 1/8 x 9 1/2 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "宗教",
+        "夜景",
+        "18世纪",
+        "印度",
+        "湿婆崇拜"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2013.350/2013.350_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2013.350/2013.350_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2013.350/2013.350_web.jpg",
+        "ratio": 0.627
+      },
+      "palette": [
+        "#5c5350",
+        "#92958f"
+      ],
+      "essay": [
+        "这幅作品出自 18 世纪中叶的莫卧儿细密画师穆罕默德·里扎维·辛迪之手。彼时莫卧儿帝国虽已走向衰落，但宫廷画院仍保留着极高的工艺水准。此作属于典型的“夜祭”题材，将印度教湿婆崇拜的仪式场景，置于莫卧儿绘画特有的写实主义与装饰风格之中，是当时宗教文化交融的视觉见证。",
+        "画面最精彩之处在于对夜色的处理。画家并未简单涂黑背景，而是用深褐与墨绿层层罩染，营造出山体在月光下的厚重体积感。左上角的一弯新月与远处依稀可见的飞鸟，点明了时间的流逝。前景中，女子手中的花环与祭坛上的林伽在微弱光线下呈现出温润的质感，金粉的运用克制而精准，仅点缀于首饰与器皿边缘，避免了俗艳。",
+        "然而，这种极致的精致也带来了某种疏离感。画中女子虽处于虔诚的祈祷姿态，但其肌肤的光洁度、服饰的繁复纹样以及周围环境的整洁程度，显然经过了高度的理想化修饰。这更像是一场被精心编排的宫廷戏剧，而非真实的民间信仰现场。画家对形式美的追求，在一定程度上削弱了宗教仪式原本应有的粗粝与狂热。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.55,
+        "r": 0.15
+      }
+    },
+    {
+      "id": "cma-97165",
+      "source": "cma",
+      "sourceId": "97165",
+      "sourceUrl": "https://clevelandart.org/art/1916.801",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Panel from a Cassone: The Race of the Palio in the Streets of Florence",
+      "title_zh": "佛罗伦萨街头帕利奥赛马（婚柜嵌板）",
+      "artist_en": "Giovanni Francesco Toscani (Italian, c. 1380–1430)",
+      "artist_zh": "乔瓦尼·弗朗切斯科·托斯卡尼",
+      "artist_id": "giovanni-francesco-toscani-italian-c-1380-1430",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "约 1380–1430",
+      "date_display": "1418",
+      "year": 1418,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "Framed: 46.5 x 143.5 x 7 cm (18 5/16 x 56 1/2 x 2 3/4 in.); Unframed: 42.1 x 139.5 cm (16 9/16 x 54 15/16 in.)",
+      "movement_zh": "国际哥特式",
+      "tags": [
+        "风俗",
+        "15世纪",
+        "意大利",
+        "叙事",
+        "透视",
+        "赛马"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.801/1916.801_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.801/1916.801_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.801/1916.801_web.jpg",
+        "ratio": 0.299
+      },
+      "palette": [
+        "#816f51",
+        "#594534"
+      ],
+      "essay": [
+        "托斯卡尼是佛罗伦萨早期文艺复兴的过渡人物，此作绘于 1418 年，属于典型的婚柜（Cassone）装饰画。这类长幅嵌板通常置于新娘嫁妆箱侧面，用以炫耀家族财富与城市荣耀。画面记录了佛罗伦萨圣约翰节期间的帕利奥赛马，是当时市民生活的重要视觉档案。",
+        "画家试图在二维平面上构建宏大的城市空间。注意画面右侧的马群动态——白马前蹄腾空，黑马紧随其后，甚至有一匹马失足倒地，骑手摔落在地。这种对混乱瞬间的捕捉，打破了中世纪绘画常见的僵直队列，赋予了画面难得的叙事张力。",
+        "然而，透视法在此处显得颇为稚嫩。街道两侧的建筑虽然试图呈现纵深感，但比例失调，仿佛悬浮的积木；人群如剪纸般平铺直叙，缺乏体积感。这种「地图式」的构图虽不够写实，却意外地保留了节日的全景氛围，让观者能一眼看尽整条街道的狂欢。",
+        "金箔背景与华丽的服饰彰显了哥特式晚期的装饰趣味，尽管技法尚未完全摆脱中世纪的平面化束缚，但其对世俗欢乐的直白记录，已显露出人文主义萌芽时期对现实生活的关注。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.65,
+        "r": 0.12
+      }
+    },
+    {
+      "id": "cma-108541",
+      "source": "cma",
+      "sourceId": "108541",
+      "sourceUrl": "https://clevelandart.org/art/1926.247",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Holy Family with Mary Magdalen",
+      "title_zh": "圣家族与抹大拉的玛利亚",
+      "artist_en": "El Greco (Spanish, 1541–1614)",
+      "artist_zh": "埃尔·格列柯",
+      "artist_id": "el-greco-spanish-1541-1614",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1541–1614",
+      "date_display": "c. 1590–95",
+      "year": 1590,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 160 x 131 x 7.5 cm (63 x 51 9/16 x 2 15/16 in.); Unframed: 130 x 100 cm (51 3/16 x 39 3/8 in.)",
+      "movement_zh": "矫饰主义",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "西班牙",
+        "色彩",
+        "情感",
+        "矫饰主义"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1926.247/1926.247_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1926.247/1926.247_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1926.247/1926.247_web.jpg",
+        "ratio": 1.315
+      },
+      "palette": [
+        "#383632",
+        "#848170"
+      ],
+      "essay": [
+        "埃尔·格列柯是西班牙黄金时代最独特的画家，他将拜占庭的圣像传统与威尼斯画派的色彩结合，创造出一种超越现实的灵性风格。这幅作于 1590 年代中期的作品，处于他托莱多时期的成熟阶段，此时他已不再追求文艺复兴式的解剖精准，转而探索精神性的表达。",
+        "画面最引人注目的是那非自然的冷色调与流动的光影。圣母玛利亚身披的蓝色长袍并非静止的织物，而像是一团在风中翻涌的云雾，高光处呈现出近乎银白的质感。这种处理消解了物质的重量感，让人物仿佛悬浮在灵性的空间中，而非坐在坚实的地面上。",
+        "这种极度的精神化也带来了视觉上的矛盾：人物的肢体比例被刻意拉长，尤其是圣婴耶稣，其躯干与四肢的衔接显得生硬且不合常理。对于习惯古典和谐美的眼睛来说，这种变形或许显得怪诞，但这正是格列柯为了传达神圣狂热而做出的主动牺牲——他宁愿要灵魂的震颤，也不要肉体的完美。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.68,
+        "r": 0.18
+      }
+    }
+  ]
+}
