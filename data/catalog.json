@@ -7521,6 +7521,542 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1926.247/1926.247_web.jpg",
       "ratio": 1.315
+    },
+    {
+      "id": "cma-110953",
+      "issue": "2026-08-23",
+      "t": "埃特雷塔的悬崖",
+      "a": "古斯塔夫·库尔贝",
+      "aid": "gustave-courbet-french-1819-1877",
+      "y": 1872,
+      "mv": "现实主义",
+      "tags": [
+        "风景",
+        "海景",
+        "19世纪",
+        "法国",
+        "诺曼底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.465/1929.465_web.jpg",
+      "ratio": 0.832
+    },
+    {
+      "id": "cma-163582",
+      "issue": "2026-08-23",
+      "t": "庭院中两头大象在穆罕默德·沙面前搏斗",
+      "a": "纳因苏克",
+      "aid": "nainsukh-indian-1710-1778",
+      "y": 1730,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "动物",
+        "18世纪",
+        "印度",
+        "细密画",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2005.1.b/2005.1.b_web.jpg",
+      "ratio": 0.68
+    },
+    {
+      "id": "cma-173658",
+      "issue": "2026-08-23",
+      "t": "水果静物",
+      "a": "埃米莉·普雷耶",
+      "aid": "emilie-preyer-german-1849-1930",
+      "y": 1873,
+      "mv": "写实主义",
+      "tags": [
+        "静物",
+        "19世纪",
+        "德国",
+        "水果",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.723/1915.723_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-151027",
+      "issue": "2026-08-23",
+      "t": "古诗山水册：听琴",
+      "a": "华",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "扬州画派",
+      "tags": [
+        "山水",
+        "人物",
+        "18世纪",
+        "中国",
+        "清代",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.11/1982.68.11_web.jpg",
+      "ratio": 0.841
+    },
+    {
+      "id": "cma-170510",
+      "issue": "2026-08-23",
+      "t": "年轻女子头像",
+      "a": "弗朗索瓦·布歇",
+      "aid": "francois-boucher-french-1703-1770",
+      "y": 1730,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "女性",
+        "习作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2012.95/2012.95_web.jpg",
+      "ratio": 1.175
+    },
+    {
+      "id": "cma-132920",
+      "issue": "2026-08-23",
+      "t": "诸体山水册：仿倪瓒山水",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "仿古",
+        "倪瓒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.1/1955.37.1_web.jpg",
+      "ratio": 0.636
+    },
+    {
+      "id": "cma-97192",
+      "issue": "2026-08-23",
+      "t": "圣母与圣子",
+      "a": "洛伦佐·迪·克雷迪",
+      "aid": "lorenzo-di-credi-italian-1459-1537",
+      "y": 1400,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "圣母像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.826/1916.826_web.jpg",
+      "ratio": 1.424
+    },
+    {
+      "id": "cma-172603",
+      "issue": "2026-08-23",
+      "t": "流萤美人图",
+      "a": "久保春满",
+      "aid": "kubo-shunman-japanese-1757-1820",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "江户时代",
+        "夏夜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.85/2015.85_web.jpg",
+      "ratio": 2.647
+    },
+    {
+      "id": "cma-95283",
+      "issue": "2026-08-23",
+      "t": "橡树",
+      "a": "泰奥多尔·卢梭",
+      "aid": "theodore-rousseau-french-1812-1867",
+      "y": null,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "树木",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1052/1916.1052_web.jpg",
+      "ratio": 0.781
+    },
+    {
+      "id": "cma-160724",
+      "issue": "2026-08-23",
+      "t": "新塘",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "明代",
+        "青绿",
+        "册页",
+        "江南"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.1/1998.78.1_web.jpg",
+      "ratio": 0.917
+    },
+    {
+      "id": "cma-166505",
+      "issue": "2026-08-23",
+      "t": "母女肖像",
+      "a": "亨利-皮埃尔·丹卢",
+      "aid": "henri-pierre-danloux-french-1753-1809",
+      "y": 1794,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "母女",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.286/2008.286_web.jpg",
+      "ratio": 1.215
+    },
+    {
+      "id": "cma-130982",
+      "issue": "2026-08-23",
+      "t": "耶稣降生",
+      "a": "小豪梅·费雷尔",
+      "aid": "jaume-ferrer-the-younger-spanish-catalonia-died-c-1460-70",
+      "y": 1457,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "西班牙",
+        "圣母",
+        "哥特",
+        "加泰罗尼亚"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.660.2/1953.660.2_web.jpg",
+      "ratio": 1.376
+    },
+    {
+      "id": "cma-159734",
+      "issue": "2026-08-23",
+      "t": "雁、芦苇与水",
+      "a": "山本梅逸",
+      "aid": "yamamoto-baiitsu-japanese-1783-1856",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "水禽",
+        "屏风",
+        "南画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.109/1997.109_web.jpg",
+      "ratio": 0.998
+    },
+    {
+      "id": "cma-136270",
+      "issue": "2026-08-23",
+      "t": "有远景的森林溪流",
+      "a": "阿舍·B·杜兰德",
+      "aid": "asher-b-durand-american-1796-1886",
+      "y": 1872,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河",
+        "森林",
+        "溪流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.162/1960.162_web.jpg",
+      "ratio": 1.175
+    },
+    {
+      "id": "cma-145721",
+      "issue": "2026-08-23",
+      "t": "《劫波经》与卡拉卡故事：婆罗门沙提·夜叉（背面）",
+      "a": "德瓦钱德拉",
+      "aid": "devachandra-indian",
+      "y": 1279,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "手稿",
+        "13世纪",
+        "印度",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.122.b/1971.122.b_web.jpg",
+      "ratio": 0.182
+    },
+    {
+      "id": "cma-109628",
+      "issue": "2026-08-23",
+      "t": "水果与花卉",
+      "a": "亨利·李·麦克菲",
+      "aid": "henry-lee-mcfee-american-1886-1953",
+      "y": 1927,
+      "mv": "现代主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.258/1928.258_web.jpg",
+      "ratio": 0.663
+    },
+    {
+      "id": "cma-161013",
+      "issue": "2026-08-23",
+      "t": "书画册",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "清代",
+        "芦雁",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260/1999.260_web.jpg",
+      "ratio": 0.745
+    },
+    {
+      "id": "cma-95284",
+      "issue": "2026-08-23",
+      "t": "枫丹白露森林，毒蛇池旁的小径",
+      "a": "纳西斯·迪亚兹·德·拉·佩尼亚",
+      "aid": "narcisse-diaz-de-la-pena-french-1807-1876",
+      "y": 1860,
+      "mv": "巴比松派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "光影",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1053/1916.1053_web.jpg",
+      "ratio": 0.737
+    },
+    {
+      "id": "cma-144462",
+      "issue": "2026-08-23",
+      "t": "内布拉斯加州卡尼堡的旅人墓地",
+      "a": "沃辛顿·惠特里奇",
+      "aid": "worthington-whittredge-american-1820-1910",
+      "y": 1866,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "西部",
+        "历史",
+        "墓地"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.19/1969.19_web.jpg",
+      "ratio": 0.319
+    },
+    {
+      "id": "cma-160726",
+      "issue": "2026-08-23",
+      "t": "归云庵",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "明代",
+        "楼阁",
+        "16世纪",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.11/1998.78.11_web.jpg",
+      "ratio": 0.926
+    },
+    {
+      "id": "cma-130161",
+      "issue": "2026-08-23",
+      "t": "夏",
+      "a": "让 - 巴蒂斯特·帕特",
+      "aid": "jean-baptiste-pater-french-1695-1736",
+      "y": 1728,
+      "mv": "洛可可",
+      "tags": [
+        "风景",
+        "田园",
+        "18世纪",
+        "法国",
+        "季节"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.540/1952.540_web.jpg",
+      "ratio": 1.192
+    },
+    {
+      "id": "cma-172604",
+      "issue": "2026-08-23",
+      "t": "长寿之兆：桃松下的鹿（对幅）",
+      "a": "户田忠直",
+      "aid": "toda-tadanaka-japanese-1761-1823",
+      "y": 1801,
+      "mv": "日本画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "祥瑞",
+        "装饰",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.86/2015.86_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-132922",
+      "issue": "2026-08-23",
+      "t": "诸家山水册：雪景山水",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "雪景",
+        "17世纪",
+        "中国",
+        "清代",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.11/1955.37.11_web.jpg",
+      "ratio": 0.807
+    },
+    {
+      "id": "cma-161014",
+      "issue": "2026-08-23",
+      "t": "边寿公墨妙 第二册",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "清代",
+        "册页",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.a/1999.260.a_web.jpg",
+      "ratio": 0.747
+    },
+    {
+      "id": "cma-95205",
+      "issue": "2026-08-23",
+      "t": "山水四条屏",
+      "a": "任预",
+      "aid": "ren-yu-chinese-1853-1901",
+      "y": 1892,
+      "mv": "海派",
+      "tags": [
+        "山水",
+        "清代",
+        "19世纪",
+        "四条屏",
+        "海派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.97/1915.97_web.jpg",
+      "ratio": 0.881
+    },
+    {
+      "id": "cma-108157",
+      "issue": "2026-08-23",
+      "t": "少年头像",
+      "a": "乔治·富勒",
+      "aid": "george-fuller-american-1822-1884",
+      "y": 1885,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "少年",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.78/1925.78_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-161322",
+      "issue": "2026-08-23",
+      "t": "平井兄弟像",
+      "a": "三藤兵曹",
+      "aid": "sando-hyosho-japanese",
+      "y": 1776,
+      "mv": "浮世绘",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "日本",
+        "武士",
+        "对幅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.89/1999.89_web.jpg",
+      "ratio": 1.248
+    },
+    {
+      "id": "cma-159735",
+      "issue": "2026-08-23",
+      "t": "雁、芦苇与水",
+      "a": "山本梅逸",
+      "aid": "yamamoto-baiitsu-japanese-1783-1856",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "水禽",
+        "屏风",
+        "南画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.109.1/1997.109.1_web.jpg",
+      "ratio": 0.492
+    },
+    {
+      "id": "cma-95206",
+      "issue": "2026-08-23",
+      "t": "山水图",
+      "a": "任预",
+      "aid": "ren-yu-chinese-1853-1901",
+      "y": 1892,
+      "mv": "海派",
+      "tags": [
+        "山水",
+        "19世纪",
+        "中国",
+        "清代",
+        "海派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.97.1/1915.97.1_web.jpg",
+      "ratio": 3.557
     }
   ]
 }
