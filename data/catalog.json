@@ -8057,6 +8057,570 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1915.97.1/1915.97.1_web.jpg",
       "ratio": 3.557
+    },
+    {
+      "id": "cma-127573",
+      "issue": "2026-08-24",
+      "t": "戴帽子的胡须男子",
+      "a": "伦勃朗·凡·莱因",
+      "aid": "rembrandt-van-rijn-dutch-1606-1669",
+      "y": 1655,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "光影",
+        "质感",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.252/1950.252_web.jpg",
+      "ratio": 1.224
+    },
+    {
+      "id": "cma-120286",
+      "issue": "2026-08-24",
+      "t": "瓶中的玫瑰",
+      "a": "皮埃尔-奥古斯特·雷诺阿",
+      "aid": "pierre-auguste-renoir-french-1841-1919",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "静物",
+        "花卉",
+        "19世纪",
+        "法国",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.14/1941.14_web.jpg",
+      "ratio": 0.727
+    },
+    {
+      "id": "cma-113945",
+      "issue": "2026-08-24",
+      "t": "云山图",
+      "a": "米友仁",
+      "aid": "mi-youren-chinese-1072-1151",
+      "y": 1130,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "12世纪",
+        "中国",
+        "水墨",
+        "米氏云山",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1933.220/1933.220_web.jpg",
+      "ratio": 0.178
+    },
+    {
+      "id": "cma-150115",
+      "issue": "2026-08-24",
+      "t": "有韭葱、鱼和蛋的厨房用具",
+      "a": "让-西梅翁·夏尔丹",
+      "aid": "jean-simeon-chardin-french-1699-1779",
+      "y": 1734,
+      "mv": "洛可可",
+      "tags": [
+        "静物",
+        "18世纪",
+        "法国",
+        "光影",
+        "质感",
+        "厨房"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.37/1980.37_web.jpg",
+      "ratio": 0.787
+    },
+    {
+      "id": "cma-141929",
+      "issue": "2026-08-24",
+      "t": "拉班搜寻被偷的家神",
+      "a": "巴托洛梅·埃斯特万·牟利罗",
+      "aid": "bartolome-esteban-murillo-spanish-1617-1682",
+      "y": 1665,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "西班牙",
+        "戏剧性",
+        "巴洛克",
+        "圣经故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.469/1965.469_web.jpg",
+      "ratio": 0.664
+    },
+    {
+      "id": "cma-145427",
+      "issue": "2026-08-24",
+      "t": "秋日归农图",
+      "a": "与谢芜村",
+      "aid": "yosa-buson-japanese-1716-1783",
+      "y": 1781,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "留白",
+        "诗意",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.77/1970.77_web.jpg",
+      "ratio": 2.736
+    },
+    {
+      "id": "cma-124080",
+      "issue": "2026-08-24",
+      "t": "玛丽·怀斯肖像",
+      "a": "托马斯·庚斯博罗",
+      "aid": "thomas-gainsborough-british-1727-1788",
+      "y": 1774,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "服饰",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.82/1944.82_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-118643",
+      "issue": "2026-08-24",
+      "t": "羚羊与鹿狩猎图",
+      "a": "戈瓦尔丹",
+      "aid": "govardhan-indian-active-c-1596-1645",
+      "y": 1602,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "狩猎",
+        "动物",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.66/1939.66_web.jpg",
+      "ratio": 1.615
+    },
+    {
+      "id": "cma-124078",
+      "issue": "2026-08-24",
+      "t": "维尔达夫雷的池塘",
+      "a": "让 - 巴蒂斯特 - 卡米耶·柯罗",
+      "aid": "jean-baptiste-camille-corot-french-1796-1875",
+      "y": 1860,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "氛围",
+        "写实",
+        "池塘"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.80/1944.80_web.jpg",
+      "ratio": 0.59
+    },
+    {
+      "id": "cma-142579",
+      "issue": "2026-08-24",
+      "t": "秦淮忆",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "笔触",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.8/1966.31.8_web.jpg",
+      "ratio": 1.119
+    },
+    {
+      "id": "cma-169684",
+      "issue": "2026-08-24",
+      "t": "小让 - 巴蒂斯特·勒穆瓦纳肖像",
+      "a": "伊丽莎白·路易丝·维热 - 勒布伦",
+      "aid": "elisabeth-louise-vigee-lebrun-french-1755-1842",
+      "y": 1774,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "新古典",
+        "男性",
+        "洛可可"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.49/2011.49_web.jpg",
+      "ratio": 1.186
+    },
+    {
+      "id": "cma-122223",
+      "issue": "2026-08-24",
+      "t": "博士来拜",
+      "a": "乔瓦尼·迪·保罗",
+      "aid": "giovanni-di-paolo-italian-c-1403-1482",
+      "y": 1440,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "金色",
+        "蛋彩",
+        "锡耶纳"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.536/1942.536_web.jpg",
+      "ratio": 0.871
+    },
+    {
+      "id": "cma-135333",
+      "issue": "2026-08-24",
+      "t": "竹石新霁图屏风",
+      "a": "池大雅",
+      "aid": "ike-taiga-japanese-1723-1776",
+      "y": 1700,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "竹石",
+        "18世纪",
+        "日本",
+        "水墨",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.337/1958.337_web.jpg",
+      "ratio": 0.898
+    },
+    {
+      "id": "cma-143772",
+      "issue": "2026-08-24",
+      "t": "岩石山坡上的树木",
+      "a": "阿舍·B·杜兰德",
+      "aid": "asher-b-durand-american-1796-1886",
+      "y": 1849,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "写实",
+        "哈德逊河",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.21/1968.21_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-125948",
+      "issue": "2026-08-24",
+      "t": "音乐与舞蹈及丘比特的密谋",
+      "a": "弗朗索瓦·布歇",
+      "aid": "francois-boucher-french-1703-1770",
+      "y": 1740,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "色彩",
+        "丘比特"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.181/1948.181_web.jpg",
+      "ratio": 1.126
+    },
+    {
+      "id": "cma-149604",
+      "issue": "2026-08-24",
+      "t": "老莲抚古册",
+      "a": "陈洪",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "线条",
+        "仿古",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1/1979.27.1_web.jpg",
+      "ratio": 1.186
+    },
+    {
+      "id": "cma-122335",
+      "issue": "2026-08-24",
+      "t": "圣凯瑟琳与圣芭芭拉（双联画）",
+      "a": "圣血大师",
+      "aid": "master-of-the-holy-blood-netherlandish",
+      "y": 1520,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "双联画",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.633/1942.633_web.jpg",
+      "ratio": 1.32
+    },
+    {
+      "id": "cma-149978",
+      "issue": "2026-08-24",
+      "t": "安娜·达默·鲍威尔",
+      "a": "约翰·辛格尔顿·科普利",
+      "aid": "john-singleton-copley-american-born-the-thirteen-colonies-1738-1815",
+      "y": 1764,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "质感",
+        "服饰",
+        "清教徒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.202/1980.202_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-143761",
+      "issue": "2026-08-24",
+      "t": "天使加冕的圣母",
+      "a": "斯特凡·洛赫纳",
+      "aid": "stefan-lochner-german-1400-c-1452",
+      "y": 1450,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "金色",
+        "哥特",
+        "圣母"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.20/1968.20_web.jpg",
+      "ratio": 1.734
+    },
+    {
+      "id": "cma-159309",
+      "issue": "2026-08-24",
+      "t": "甜蜜的忧郁",
+      "a": "约瑟夫-玛丽·维安",
+      "aid": "joseph-marie-vien-french-1716-1809",
+      "y": 1756,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "情感",
+        "寓言",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.1/1996.1_web.jpg",
+      "ratio": 1.235
+    },
+    {
+      "id": "cma-142472",
+      "issue": "2026-08-24",
+      "t": "圣母子与圣徒三联画",
+      "a": "贝林吉耶罗",
+      "aid": "berlinghiero-italian-before-1242",
+      "y": 1230,
+      "mv": "拜占庭风格",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "意大利",
+        "拜占庭",
+        "圣像",
+        "三联画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.237/1966.237_web.jpg",
+      "ratio": 0.837
+    },
+    {
+      "id": "cma-117774",
+      "issue": "2026-08-24",
+      "t": "亭中的舞者",
+      "a": "让 - 巴蒂斯特·帕特",
+      "aid": "jean-baptiste-pater-french-1695-1736",
+      "y": 1720,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "场景",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.392/1938.392_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-149616",
+      "issue": "2026-08-24",
+      "t": "老莲抚古",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "线条",
+        "仿古",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2/1979.27.2_web.jpg",
+      "ratio": 1.116
+    },
+    {
+      "id": "cma-122337",
+      "issue": "2026-08-24",
+      "t": "圣芭芭拉",
+      "a": "圣血大师",
+      "aid": "master-of-the-holy-blood-netherlandish",
+      "y": 1520,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "肖像",
+        "圣徒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.633.2/1942.633.2_web.jpg",
+      "ratio": 2.941
+    },
+    {
+      "id": "cma-94966",
+      "issue": "2026-08-24",
+      "t": "凯瑟琳·格林",
+      "a": "约翰·辛格尔顿·科普利",
+      "aid": "john-singleton-copley-american-born-the-thirteen-colonies-1738-1815",
+      "y": 1769,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "质感",
+        "女性",
+        "丝绸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.527/1915.527_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "cma-152263",
+      "issue": "2026-08-24",
+      "t": "男子肖像",
+      "a": "坦齐奥·达·瓦拉洛",
+      "aid": "tanzio-da-varallo-italian-c-1575-80-1635",
+      "y": 1620,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "意大利",
+        "光影",
+        "男性",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.143/1985.143_web.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "cma-150851",
+      "issue": "2026-08-24",
+      "t": "玛丽 - 约兰德·德·菲茨 - 詹姆斯",
+      "a": "亨利·方丹 - 拉图尔",
+      "aid": "henri-fantin-latour-french-1836-1904",
+      "y": 1867,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "写实",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.256/1982.256_web.jpg",
+      "ratio": 1.194
+    },
+    {
+      "id": "cma-170783",
+      "issue": "2026-08-24",
+      "t": "猎鹰图",
+      "a": "阿卜杜勒·萨马德",
+      "aid": "abd-al-samad-persian-c-1510-1600",
+      "y": 1629,
+      "mv": "波斯细密画",
+      "tags": [
+        "狩猎",
+        "16世纪",
+        "波斯",
+        "莫卧儿",
+        "细密画",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.292/2013.292_web.jpg",
+      "ratio": 0.783
+    },
+    {
+      "id": "cma-129220",
+      "issue": "2026-08-24",
+      "t": "圣格列高利弥撒",
+      "a": "汉斯·巴尔东·格里恩",
+      "aid": "hans-baldung-german-1484-85-1545",
+      "y": 1511,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "祭坛画",
+        "神迹"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.112/1952.112_web.jpg",
+      "ratio": 0.716
+    },
+    {
+      "id": "cma-149658",
+      "issue": "2026-08-24",
+      "t": "九龙潭",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "构图",
+        "新安画派",
+        "黄山"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.50/1979.50_web.jpg",
+      "ratio": 2.072
     }
   ]
 }
