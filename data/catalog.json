@@ -8621,6 +8621,564 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1979.50/1979.50_web.jpg",
       "ratio": 2.072
+    },
+    {
+      "id": "cma-98439",
+      "issue": "2026-08-25",
+      "t": "赫柏",
+      "a": "阿博特·汉德森·塞耶",
+      "aid": "abbott-handerson-thayer-american-1849-1921",
+      "y": 1890,
+      "mv": "唯美主义",
+      "tags": [
+        "肖像",
+        "神话",
+        "19世纪",
+        "美国",
+        "唯美主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.172/1918.172_web.jpg",
+      "ratio": 1.537
+    },
+    {
+      "id": "cma-130967",
+      "issue": "2026-08-25",
+      "t": "从图尔内勒码头眺望巴黎圣母院",
+      "a": "让-弗朗索瓦·拉法埃利",
+      "aid": "jean-francois-raffaelli-french-1850-1924",
+      "y": 1899,
+      "mv": "印象派",
+      "tags": [
+        "城市景观",
+        "巴黎",
+        "塞纳河",
+        "19世纪末",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.649/1953.649_web.jpg",
+      "ratio": 0.8
+    },
+    {
+      "id": "cma-156869",
+      "issue": "2026-08-25",
+      "t": "梅花麻雀图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1661,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "水墨画",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.80/1992.80_web.jpg",
+      "ratio": 2.55
+    },
+    {
+      "id": "cma-117783",
+      "issue": "2026-08-25",
+      "t": "林中",
+      "a": "乔治·因尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1866,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "色调主义",
+        "森林"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.40/1938.40_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-151029",
+      "issue": "2026-08-25",
+      "t": "古诗山水册：三树溪岸高士图",
+      "a": "华嵒",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "册页",
+        "清代",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.2/1982.68.2_web.jpg",
+      "ratio": 0.82
+    },
+    {
+      "id": "cma-95282",
+      "issue": "2026-08-25",
+      "t": "沐浴者",
+      "a": "纳西斯·迪亚兹·德·拉·佩尼亚",
+      "aid": "narcisse-diaz-de-la-pena-french-1807-1876",
+      "y": 1847,
+      "mv": "巴比松画派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "沐浴",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1051/1916.1051_web.jpg",
+      "ratio": 0.66
+    },
+    {
+      "id": "cma-127046",
+      "issue": "2026-08-25",
+      "t": "猿猴图",
+      "a": "森狙仙",
+      "aid": "mori-sosen-japanese-1747-1821",
+      "y": 1780,
+      "mv": "南画",
+      "tags": [
+        "动物",
+        "18世纪",
+        "日本",
+        "猿猴",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.381/1949.381_web.jpg",
+      "ratio": 2.507
+    },
+    {
+      "id": "cma-132921",
+      "issue": "2026-08-25",
+      "t": "诸家山水册：仿吴镇山水",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "清代",
+        "仿古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.10/1955.37.10_web.jpg",
+      "ratio": 0.772
+    },
+    {
+      "id": "cma-159503",
+      "issue": "2026-08-25",
+      "t": "牧羊女与羊群",
+      "a": "夏尔-埃米尔·雅克",
+      "aid": "charles-emile-jacque-french-1813-1894",
+      "y": 1876,
+      "mv": "巴比松画派",
+      "tags": [
+        "田园",
+        "19世纪",
+        "法国",
+        "牧羊",
+        "乡村",
+        "动物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.273/1996.273_web.jpg",
+      "ratio": 0.683
+    },
+    {
+      "id": "cma-539781",
+      "issue": "2026-08-25",
+      "t": "悉达多王与特里沙拉王后及解梦者",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "手稿",
+        "耆那教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.25.b/1932.119.25.b_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-161017",
+      "issue": "2026-08-25",
+      "t": "书画册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "书法",
+        "册页",
+        "芦雁"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.d/1999.260.d_web.jpg",
+      "ratio": 0.689
+    },
+    {
+      "id": "cma-139728",
+      "issue": "2026-08-25",
+      "t": "樵夫",
+      "a": "乔治·英尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1849,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "人物",
+        "19世纪",
+        "美国",
+        "劳动",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.501/1963.501_web.jpg",
+      "ratio": 0.827
+    },
+    {
+      "id": "cma-153346",
+      "issue": "2026-08-25",
+      "t": "山水",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "清代院体",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "青绿",
+        "清代",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.1/1986.49.1_web.jpg",
+      "ratio": 1.3
+    },
+    {
+      "id": "cma-95268",
+      "issue": "2026-08-25",
+      "t": "迦太基",
+      "a": "威廉·林顿",
+      "aid": "william-linton-british-1791-1876",
+      "y": 1830,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "历史",
+        "遗迹",
+        "19世纪",
+        "英国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1040/1916.1040_web.jpg",
+      "ratio": 0.792
+    },
+    {
+      "id": "cma-146700",
+      "issue": "2026-08-25",
+      "t": "竹石兰草图",
+      "a": "玉泉梵甫",
+      "aid": "gyokuen-bonpo-japanese-1348-after-1420",
+      "y": 1350,
+      "mv": "禅画",
+      "tags": [
+        "花鸟",
+        "14世纪",
+        "日本",
+        "禅画",
+        "竹石",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.15/1972.15_web.jpg",
+      "ratio": 3.201
+    },
+    {
+      "id": "cma-102100",
+      "issue": "2026-08-25",
+      "t": "最后的价钱",
+      "a": "J. C. 阿特",
+      "aid": "j-c-arter-american-1859-1923",
+      "y": 1895,
+      "mv": "学院派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "美国",
+        "叙事",
+        "室内",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.751/1920.751_web.jpg",
+      "ratio": 1.411
+    },
+    {
+      "id": "cma-145728",
+      "issue": "2026-08-25",
+      "t": "《劫波经》与卡拉卡查里亚故事：经文（正面）；持花比丘与在家居士（背面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1287,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "印度",
+        "手稿",
+        "人物",
+        "佛教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.127/1971.127_web.jpg",
+      "ratio": 0.443
+    },
+    {
+      "id": "cma-155381",
+      "issue": "2026-08-25",
+      "t": "猿猴图",
+      "a": "森祖仙",
+      "aid": "mori-sosen-japanese-1747-1821",
+      "y": 1800,
+      "mv": "日本画",
+      "tags": [
+        "动物",
+        "19世纪",
+        "日本",
+        "猿猴",
+        "群像",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1990.129/1990.129_web.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "cma-151031",
+      "issue": "2026-08-25",
+      "t": "古诗山水册：高士观鱼",
+      "a": "华嵒",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "扬州画派",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "册页",
+        "高士",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.4/1982.68.4_web.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "cma-156873",
+      "issue": "2026-08-25",
+      "t": "中国圣贤图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "高士",
+        "水墨",
+        "儒家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.83/1992.83_web.jpg",
+      "ratio": 0.553
+    },
+    {
+      "id": "cma-132923",
+      "issue": "2026-08-25",
+      "t": "诸家山水册：石标待月",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "夜景",
+        "17世纪",
+        "中国",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.12/1955.37.12_web.jpg",
+      "ratio": 0.807
+    },
+    {
+      "id": "cma-98442",
+      "issue": "2026-08-25",
+      "t": "黄昏",
+      "a": "休·亨廷顿·霍华德",
+      "aid": "hugh-huntington-howard-american-1860-1927",
+      "y": 1919,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "黄昏",
+        "美国",
+        "19世纪",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.175/1918.175_web.jpg",
+      "ratio": 0.737
+    },
+    {
+      "id": "cma-117893",
+      "issue": "2026-08-25",
+      "t": "老人头像习作",
+      "a": "弗拉基米尔·马科夫斯基",
+      "aid": "vladimir-egorovic-makovskij-russian-1846-1920",
+      "y": 1883,
+      "mv": "巡回展览画派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "俄罗斯",
+        "习作",
+        "老人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.49/1938.49_web.jpg",
+      "ratio": 1.572
+    },
+    {
+      "id": "cma-102101",
+      "issue": "2026-08-25",
+      "t": "日本男孩建造军舰",
+      "a": "J. C. 阿特",
+      "aid": "j-c-arter-american-1859-1923",
+      "y": 1895,
+      "mv": "学院派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "美国",
+        "叙事",
+        "儿童",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.752/1920.752_web.jpg",
+      "ratio": 0.704
+    },
+    {
+      "id": "cma-161020",
+      "issue": "2026-08-25",
+      "t": "书画册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "书法",
+        "册页",
+        "芦雁"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.g/1999.260.g_web.jpg",
+      "ratio": 0.752
+    },
+    {
+      "id": "cma-121862",
+      "issue": "2026-08-25",
+      "t": "装饰面板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "洛可可",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "室内装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.10/1942.2.10_web.jpg",
+      "ratio": 8.036
+    },
+    {
+      "id": "cma-160050",
+      "issue": "2026-08-25",
+      "t": "素性法师像",
+      "a": "松花堂昭乘",
+      "aid": "shokado-shojo-japanese-1584-1639",
+      "y": 1600,
+      "mv": "琳派",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "日本",
+        "诗人",
+        "书法",
+        "僧侣"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.307/1997.307_web.jpg",
+      "ratio": 1.404
+    },
+    {
+      "id": "cma-153352",
+      "issue": "2026-08-25",
+      "t": "仿赵善长山水",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "清代文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "仿古",
+        "清代",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.4/1986.49.4_web.jpg",
+      "ratio": 1.296
+    },
+    {
+      "id": "cma-97426",
+      "issue": "2026-08-25",
+      "t": "花魁与侍女",
+      "a": "鸟居清长",
+      "aid": "kaigetsudo-ando-japanese-c-1671-1743",
+      "y": 1799,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "18世纪",
+        "日本",
+        "江户时代",
+        "风俗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.1001/1917.1001_web.jpg",
+      "ratio": 2.368
+    },
+    {
+      "id": "cma-173729",
+      "issue": "2026-08-25",
+      "t": "拉尚附近的农舍",
+      "a": "泰奥多尔·卢梭",
+      "aid": "theodore-rousseau-french-1812-1867",
+      "y": null,
+      "mv": "巴比松派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "乡村",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.728/1915.728_web.jpg",
+      "ratio": 0.775
     }
   ]
 }
