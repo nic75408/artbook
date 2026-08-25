@@ -50,6 +50,16 @@ export function catalogEntry(id) {
   return catalogById.get(id);
 }
 
+// 版本探针（t_3342ced5）：版本变化时清空内存缓存，
+// 下次 load 调用即重新拉取最新数据（当前已渲染视图不受影响）
+export function invalidateAll() {
+  indexCache = null;
+  catalogCache = null;
+  artistsCache = null;
+  issueCache.clear();
+  catalogById.clear();
+}
+
 export async function getWork(id) {
   // id -> catalog 查期号 -> 期 JSON 完整记录
   await loadCatalog();

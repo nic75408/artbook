@@ -362,6 +362,18 @@ def merge_seen(works, date):
     path.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def write_version(latest=None):
+    """版本探针标记（t_3342ced5）：每次成功生成/推送时写入。
+
+    前端加载后以 no-cache 拉取 version.json 比对；值变化即数据已更新，
+    在后台刷新数据缓存。latest 附带最新期号便于人工核对。
+    """
+    stamp = datetime.now(TZ).strftime("%Y%m%d%H%M%S")
+    payload = {"version": stamp, "latest": latest or today_str()}
+    (ROOT / "version.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 # ---------------------------------------------------------------- 逐幅生成
 
 def generate_works(sel, by_id, tags_hint, artists):
@@ -527,10 +539,11 @@ def main():
     merge_index(date)
     merge_artists(artists_new)
     merge_seen(valid, date)
+    write_version(date)  # t_3342ced5：数据已更新 → 版本探针标记随推送刷新
 
     log("6/8 commit + push")
     try:
-        subprocess.run(["git", "add", "data", "pipeline/seen.json"], cwd=ROOT, check=True)
+        subprocess.run(["git", "add", "data", "pipeline/seen.json", "version.json"], cwd=ROOT, check=True)
         subprocess.run(["git", "commit", "-m", f"issue: {date}"], cwd=ROOT, check=True)
         subprocess.run(["git", "push"], cwd=ROOT, check=True)
     except Exception as e:
