@@ -27,6 +27,8 @@ from pipeline import config, llm  # noqa: E402
 from pipeline.net import http_head_ok  # noqa: E402
 from pipeline.palette import extract_palette  # noqa: E402
 from pipeline.sources import met, aic, cma, rijks  # noqa: E402
+from pipeline.validate import (essay_violations, validate_issue,  # noqa: E402
+                               validate_work)
 
 TZ = ZoneInfo("Asia/Shanghai")
 
@@ -209,32 +211,8 @@ def finalize_selection(curated, by_id):
 
 # ---------------------------------------------------------------- 逐幅生成
 
-# 赏析硬约束自动检查（SPE §6.3-4）：违规 → 带错误重问一轮
-VIOLATION_PAIRS = (("不仅", "更"),)
-VIOLATION_WORDS = ("叹为观止", "无与伦比", "淋漓尽致", "值得一提的是",
-                   "见证了", "让我们", "细细品味")
-
-
-def essay_violations(essay):
-    v = []
-    total = 0
-    for i, p in enumerate(essay, 1):
-        n = len(p)
-        total += n
-        if not (60 <= n <= 150):
-            v.append(f"第{i}段字数{n}（要求60-150）")
-        if p.count("——") > 1:
-            v.append(f"第{i}段破折号{p.count('——')}处")
-        for a, b in VIOLATION_PAIRS:
-            if a in p and b in p:
-                v.append(f"第{i}段含禁用句式「{a}…{b}…」")
-        for w_ in VIOLATION_WORDS:
-            if w_ in p:
-                v.append(f"第{i}段含禁用词「{w_}」")
-    if not (250 <= total <= 450):
-        v.append(f"总长{total}（要求250-450）")
-    return v
-
+# 赏析硬约束自动检查（SPE §6.3-4）：违规 → 带错误重问一轮。
+# essay_violations 已抽到 pipeline/validate.py（发布闸门同规则，纯 stdlib 便于测试/体检复用）。
 
 def generate_work(c, tags_hint, need_bio):
     system = (config.PIPELINE_DIR / "prompts" / "essay.md").read_text(encoding="utf-8")
@@ -273,7 +251,7 @@ def generate_work(c, tags_hint, need_bio):
         # 循环结束后显式复检：第 3 轮重写成功会走 for-else 造成假 warn，这里修正
         left = essay_violations(obj["essay"])
         if left:
-            log(f"[warn] 3 轮重写后赏析仍违规（{'；'.join(left)}），保留待修")
+            log(f"[warn] 3 轮重写后赏析仍违规（{'；'.join(left)}），发布闸门将拦截此幅")
     return obj
 
 
@@ -333,41 +311,6 @@ def build_work(c, g, ratio, palette):
     }
     bio = (g or {}).get("bio_zh") or ""
     return w, bio
-
-
-def validate_work(w):
-    """返回错误列表；空列表 = 通过（SPE §6.3-6 闸门）。"""
-    errs = []
-    need_str = ["id", "source", "sourceId", "sourceUrl", "credit", "title_en", "title_zh",
-                "artist_en", "artist_zh", "artist_id", "medium_zh", "movement_zh"]
-    for k in need_str:
-        if not w.get(k):
-            errs.append(f"缺字段 {k}")
-    if w.get("year") is not None and not isinstance(w.get("year"), int):
-        errs.append("year 非 int")
-    if not (isinstance(w.get("tags"), list) and 2 <= len(w["tags"]) <= 6):
-        errs.append("tags 数量越界")
-    img = w.get("image") or {}
-    for k in ("feed", "full", "thumb"):
-        if not img.get(k):
-            errs.append(f"image.{k} 缺失")
-    if not (isinstance(img.get("ratio"), (int, float)) and 0.1 < img["ratio"] < 10):
-        errs.append("ratio 非法")
-    essay = w.get("essay")
-    if not (isinstance(essay, list) and len(essay) >= 2):
-        errs.append("essay < 2 段")
-        return errs
-    for i, p in enumerate(essay):
-        if not isinstance(p, str) or len(p.strip()) < 30:
-            errs.append(f"essay[{i}] 过短")
-    total = sum(len(p) for p in essay)
-    if total > 700:
-        errs.append("essay 总长超标")
-    crop = w.get("detailCrop") or {}
-    if not (0 <= crop.get("cx", -1) <= 1 and 0 <= crop.get("cy", -1) <= 1
-            and 0.08 <= crop.get("r", -1) <= 0.3):
-        errs.append("detailCrop 非法")
-    return errs
 
 
 # ---------------------------------------------------------------- 落盘
@@ -532,10 +475,12 @@ def main():
 
     log("4/8 发布闸门校验")
     valid = []
+    blocked = 0
     for w in works:
         errs = validate_work(w)
         if errs:
-            log(f"[gate] {w['id']} 不过: {errs}")
+            blocked += 1
+            log(f"[gate] 拦截 {w['id']}：{'；'.join(errs)}")
             continue
         if w["id"] in seen:
             log(f"[gate] {w['id']} 已在 seen 账本")
@@ -544,6 +489,8 @@ def main():
             log(f"[gate] {w['id']} 图片 URL HEAD 失败")
             continue
         valid.append(w)
+    if blocked:
+        log(f"[gate] 拦截 {blocked} 幅含空字段/待修数据作品（不进入本期）")
 
     n = len(valid)
     if n < config.MIN_WORKS:
@@ -558,6 +505,14 @@ def main():
         log(f"[gate] WARN: 绘画占比低于 {config.PAINTING_RATIO:.0%}")
 
     issue = {"v": 1, "date": date, "works": valid}
+
+    # 推送前整期复检（t_866be207）：任何一幅空必填字段/待修数据 → 禁止提交
+    issue_errs = validate_issue(issue, date)
+    if issue_errs:
+        for e in issue_errs:
+            log(f"[gate] {e}")
+        log(f"[fatal] 整期复检未通过（{len(issue_errs)} 项），禁止提交推送")
+        return 1
 
     if args.dry_run:
         log("[dry-run] 不写任何文件")
