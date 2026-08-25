@@ -30,11 +30,12 @@ def _sample_ids(n):
     for dep in DEPARTMENT_IDS:
         for q in random.sample(QUERY_TERMS, 4):
             data = http_get_json(f"{config.MET_BASE}/search",
-                                 params={"q": q, "departmentId": dep, "hasImages": "true"})
+                                 params={"q": q, "departmentId": dep, "hasImages": "true",
+                                         "isPublicDomain": "true"})
             pool = (data or {}).get("objectIDs") or []
             if pool:
                 random.shuffle(pool)
-                ids.extend(pool[:40])
+                ids.extend(pool[:20])
     random.shuffle(ids)
     return ids[:n]
 
@@ -45,7 +46,7 @@ def fetch_candidates(n, seen=None):
     out = []
     by_artist = {}
     rounds = 0
-    while len(out) < n and rounds < 5:
+    while len(out) < n and rounds < 3:
         rounds += 1
         for oid in _sample_ids(n * 10):
             cid = f"met-{oid}"
