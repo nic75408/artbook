@@ -101,6 +101,10 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .feed-scroller::-webkit-scrollbar { display: none; }
 
 .slide {
+  /* --pad-t/--pad-b 供 .ph 尺寸预排复用：图片最大高度 = 100dvh - 上下内边距 - 画框与题名预留。
+     底部 120px 让题名区始终高于右下「了解更多」按钮（顶部 110px）与日期胶囊，避免文字被按钮压住 */
+  --pad-t: calc(56px + var(--safe-t));
+  --pad-b: calc(120px + var(--safe-b));
   height: 100dvh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -109,7 +113,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: calc(56px + var(--safe-t)) 7vw calc(64px + var(--safe-b));
+  padding: var(--pad-t) 7vw var(--pad-b);
 }
 
 /* 画框感：直角 + 1px 描边 + 8px 白色内衬 */
@@ -122,7 +126,9 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 }
 .frame .ph {
   position: relative;
-  width: min(86vw, calc(70dvh * var(--r, 1.2)));
+  /* ratio 为高/宽（SPE §5）。宽度上限 = 可用高度 × (宽/高)，
+     保证图片+画框+题名总高 ≤ 100dvh，单屏独占不溢出。 */
+  width: min(86vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2)));
   aspect-ratio: calc(1 / var(--r, 1.2));
   background: var(--bg-card);
 }
