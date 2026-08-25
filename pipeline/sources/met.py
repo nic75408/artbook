@@ -24,18 +24,38 @@ QUERY_TERMS = ["The", "Madonna", "Saint", "Portrait", "Landscape", "Venus",
                "Bust", "Holy", "Annunciation", "Virgin", "Mountain", "Interior",
                "Sea", "Market", "Wine", "Garden", "Winter", "Summer", "Bathers"]
 
+# 2026-08-25：artistOrCulture 参数按画家名搜索，池子远大于标题词
+# （Rembrandt 63、Monet 100+……），且命中率高（名画家公版油画多）。
+ARTIST_TERMS = ["Rembrandt", "Van Gogh", "Monet", "Renoir", "Cezanne", "Degas",
+                "Pissarro", "Gauguin", "Manet", "Whistler", "Sargent", "Homer",
+                "El Greco", "Velazquez", "Goya", "Titian", "Caravaggio", "Poussin",
+                "Watteau", "Fragonard", "Boucher", "David", "Ingres", "Delacroix",
+                "Courbet", "Millet", "Corot", "Toulouse-Lautrec", "Seurat", "Cassatt",
+                "Church", "Cole", "Bierstadt", "Durand", "Inness", "Hassam"]
+
+
+def _search(dep, **extra):
+    params = {"q": "the", "departmentId": dep, "hasImages": "true",
+              "isPublicDomain": "true", **extra}
+    data = http_get_json(f"{config.MET_BASE}/search", params=params)
+    return (data or {}).get("objectIDs") or []
+
 
 def _sample_ids(n):
     ids = []
     for dep in DEPARTMENT_IDS:
-        for q in random.sample(QUERY_TERMS, 4):
-            data = http_get_json(f"{config.MET_BASE}/search",
-                                 params={"q": q, "departmentId": dep, "hasImages": "true",
-                                         "isPublicDomain": "true"})
-            pool = (data or {}).get("objectIDs") or []
+        # 画家词（池子大、命中率高）
+        for a in random.sample(ARTIST_TERMS, 2):
+            pool = _search(dep, artistOrCulture=a)
             if pool:
                 random.shuffle(pool)
-                ids.extend(pool[:20])
+                ids.extend(pool[:30])
+        # 标题词（补充冷门作品）
+        for q in random.sample(QUERY_TERMS, 2):
+            pool = _search(dep, q=q)
+            if pool:
+                random.shuffle(pool)
+                ids.extend(pool[:15])
     random.shuffle(ids)
     return ids[:n]
 
