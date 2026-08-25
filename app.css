@@ -239,8 +239,9 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 }
 .detail-hero img.loaded { opacity: 1; }
 
+/* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
 .detail-close {
-  position: absolute;
+  position: fixed;
   top: calc(12px + var(--safe-t));
   right: calc(12px + var(--safe-r));
   width: 40px;
@@ -248,11 +249,12 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   border-radius: 50%;
   background: rgba(245, 241, 234, 0.88);
   border: 1px solid var(--line);
+  box-shadow: 0 2px 10px rgba(29, 27, 22, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--ink);
-  z-index: 10;
+  z-index: 30;
 }
 
 .detail-body { padding: 24px 22px 0; }
