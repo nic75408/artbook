@@ -32,6 +32,21 @@ export PIPELINE_THREADS=3
 
 cd "$REPO" || exit 1
 
+# ---- Met 可达性探针（2026-08-25）：Met API 被 Imperva WAF 间歇封锁，
+# 凌晨时段常全 403 → 生成期全 CMA。探针不通则等 30 分钟重试（最多 3 次），
+# 全不通照跑（CMA 兜底，SPE §11 韧性）。----
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+for attempt in 1 2 3; do
+  code=$(curl -m 15 -sS -A "$UA" -o /dev/null -w "%{http_code}" \
+    "https://collectionapi.metmuseum.org/public/collection/v1/search?q=Madonna&departmentId=11&hasImages=true" 2>/dev/null)
+  if [ "$code" = "200" ]; then
+    [ "$attempt" -gt 1 ] && echo "$(date '+%F %T') [probe] Met 恢复（第 ${attempt} 次探针 200）" >> "$LOGFILE"
+    break
+  fi
+  echo "$(date '+%F %T') [probe] Met 探针 $code，30 分钟后重试（$attempt/3）" >> "$LOGFILE"
+  sleep 1800
+done
+
 {
     echo "===== $(date '+%F %T') artbook pipeline 开始 ====="
     .venv/bin/python pipeline/generate.py
