@@ -9179,6 +9179,546 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1915.728/1915.728_web.jpg",
       "ratio": 0.775
+    },
+    {
+      "id": "met-436180",
+      "issue": "2026-08-26",
+      "t": "纳奇兹人",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix",
+      "y": 1829,
+      "mv": "浪漫主义",
+      "tags": [
+        "浪漫主义",
+        "19世纪",
+        "法国",
+        "人物",
+        "戏剧性",
+        "异域风情"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+      "ratio": 0.778
+    },
+    {
+      "id": "cma-129861",
+      "issue": "2026-08-26",
+      "t": "寒江飞雁图",
+      "a": "马麟",
+      "aid": "ma-lin-chinese-c-1185-after-1260",
+      "y": 1200,
+      "mv": "南宋院体",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "水墨",
+        "飞雁",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.285/1952.285_web.jpg",
+      "ratio": 0.831
+    },
+    {
+      "id": "cma-128365",
+      "issue": "2026-08-26",
+      "t": "年轻女子",
+      "a": "赫里特·道",
+      "aid": "gerrit-dou-dutch-1613-1675",
+      "y": 1640,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "风俗",
+        "光影",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.325/1951.325_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-162446",
+      "issue": "2026-08-26",
+      "t": "《摩诃婆罗多》俱卢之战（背面）",
+      "a": "斯里·戈宾达·钱德拉·罗伊",
+      "aid": "shri-gobinda-chandra-roy-indian-active-late-1800s",
+      "y": 1890,
+      "mv": "卡利加特画派",
+      "tags": [
+        "叙事",
+        "19世纪",
+        "印度",
+        "宗教",
+        "战争",
+        "史诗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.111.b/2003.111.b_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-154962",
+      "issue": "2026-08-26",
+      "t": "卡德·伊德里斯山与莫达赫河",
+      "a": "理查德·威尔逊",
+      "aid": "richard-wilson-british-1714-1782",
+      "y": 1774,
+      "mv": "古典主义",
+      "tags": [
+        "风景",
+        "18世纪",
+        "英国",
+        "河流",
+        "威尔士",
+        "古典"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.52/1989.52_web.jpg",
+      "ratio": 0.853
+    },
+    {
+      "id": "cma-149565",
+      "issue": "2026-08-26",
+      "t": "戴帽穿大衣的自画像",
+      "a": "洛维斯·科林特",
+      "aid": "lovis-corinth-german-1858-1925",
+      "y": 1915,
+      "mv": "表现主义",
+      "tags": [
+        "自画像",
+        "20世纪",
+        "德国",
+        "表现主义",
+        "笔触",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.14/1979.14_web.jpg",
+      "ratio": 1.261
+    },
+    {
+      "id": "cma-140448",
+      "issue": "2026-08-26",
+      "t": "虎丘十二景图册：千人石、点头石、虎丘",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "园林",
+        "明代",
+        "苏州",
+        "文人雅集"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.5/1964.371.5_web.jpg",
+      "ratio": 0.747
+    },
+    {
+      "id": "met-435807",
+      "issue": "2026-08-26",
+      "t": "吸烟者",
+      "a": "阿德里安·布劳威尔",
+      "aid": "adriaen-brouwer",
+      "y": 1636,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "吸烟",
+        "酒馆",
+        "质感"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15904-001.jpg",
+      "ratio": 1.248
+    },
+    {
+      "id": "cma-152433",
+      "issue": "2026-08-26",
+      "t": "花魁读信",
+      "a": "北尾铁斋",
+      "aid": "teisai-hokuba-japanese-1771-1844",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "江户时代",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.261/1985.261_web.jpg",
+      "ratio": 0.952
+    },
+    {
+      "id": "cma-130377",
+      "issue": "2026-08-26",
+      "t": "基督受洗",
+      "a": "卢卡斯·克拉纳赫",
+      "aid": "lucas-cranach-german-1472-1553",
+      "y": 1530,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "洗礼",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.143/1953.143_web.jpg",
+      "ratio": 0.743
+    },
+    {
+      "id": "cma-146924",
+      "issue": "2026-08-26",
+      "t": "伊利湖图案",
+      "a": "克拉伦斯·霍尔布鲁克·卡特",
+      "aid": "clarence-holbrook-carter-american-1904-2000",
+      "y": 1930,
+      "mv": "美国现代主义",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "图案",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.326/1972.326_web.jpg",
+      "ratio": 0.757
+    },
+    {
+      "id": "cma-173671",
+      "issue": "2026-08-26",
+      "t": "三骑猎雁图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "院体画",
+      "tags": [
+        "狩猎",
+        "宋代",
+        "中国",
+        "动物",
+        "古画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.703/1915.703_web.jpg",
+      "ratio": 0.9
+    },
+    {
+      "id": "cma-168488",
+      "issue": "2026-08-26",
+      "t": "龙骑兵军官",
+      "a": "爱德华·德泰尔",
+      "aid": "edouard-detaille-french-1848-1912",
+      "y": 1876,
+      "mv": "学院派",
+      "tags": [
+        "军事",
+        "肖像",
+        "19世纪",
+        "法国",
+        "制服"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.24/2010.24_web.jpg",
+      "ratio": 1.503
+    },
+    {
+      "id": "cma-154004",
+      "issue": "2026-08-26",
+      "t": "四季山水图：冬",
+      "a": "狩野秀赖",
+      "aid": "kano-hideyori-japanese-active-mid-to-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "冬景",
+        "雪景",
+        "16世纪",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.13.2/1988.13.2_web.jpg",
+      "ratio": 2.748
+    },
+    {
+      "id": "cma-148958",
+      "issue": "2026-08-26",
+      "t": "好奇者",
+      "a": "安托万·皮埃尔·蒙金",
+      "aid": "antoine-pierre-mongin-french-1761-1827",
+      "y": 1823,
+      "mv": "新古典主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "法国",
+        "室内",
+        "好奇",
+        "窥视"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.116/1977.116_web.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "cma-137412",
+      "issue": "2026-08-26",
+      "t": "第十七夜鹦鹉对胡贾斯塔的讲述",
+      "a": "斯拉瓦纳",
+      "aid": "sravana-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "手稿",
+        "鹦鹉",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.124.a/1962.279.124.a_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-169673",
+      "issue": "2026-08-26",
+      "t": "猎人行景",
+      "a": "扬·韦南茨",
+      "aid": "jan-wijnants-dutch-1635-1684",
+      "y": 1660,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "猎人",
+        "沙丘",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.48/2011.48_web.jpg",
+      "ratio": 0.813
+    },
+    {
+      "id": "cma-159724",
+      "issue": "2026-08-26",
+      "t": "仿王渊黄菊红桂图",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1468,
+      "mv": "吴门画派",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "中国",
+        "明代",
+        "静物",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.100/1997.100_web.jpg",
+      "ratio": 2.557
+    },
+    {
+      "id": "cma-126243",
+      "issue": "2026-08-26",
+      "t": "怀特岛后的风暴",
+      "a": "朱利叶斯·凯撒·伊贝森",
+      "aid": "julius-caesar-ibbetson-british-1759-1817",
+      "y": null,
+      "mv": "浪漫主义",
+      "tags": [
+        "海景",
+        "18世纪",
+        "英国",
+        "风暴",
+        "岛屿",
+        "戏剧性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.461/1948.461_web.jpg",
+      "ratio": 0.769
+    },
+    {
+      "id": "cma-448490",
+      "issue": "2026-08-26",
+      "t": "海山画帖第六图",
+      "a": "吉次海山",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "南画",
+      "tags": [
+        "雪景",
+        "山水",
+        "19世纪",
+        "日本",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.g/1997.247.g_web.jpg",
+      "ratio": 0.698
+    },
+    {
+      "id": "cma-146185",
+      "issue": "2026-08-26",
+      "t": "老年阿克巴肖像",
+      "a": "戈瓦尔丹",
+      "aid": "govardhan-indian-active-c-1596-1645",
+      "y": 1640,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "帝王",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.78/1971.78_web.jpg",
+      "ratio": 1.436
+    },
+    {
+      "id": "cma-123955",
+      "issue": "2026-08-26",
+      "t": "门楣装饰画",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "门楣",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.466.2/1944.466.2_web.jpg",
+      "ratio": 1.619
+    },
+    {
+      "id": "cma-132928",
+      "issue": "2026-08-26",
+      "t": "诸家山水册：秋山行旅图",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "秋山",
+        "行旅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.6/1955.37.6_web.jpg",
+      "ratio": 0.749
+    },
+    {
+      "id": "cma-146724",
+      "issue": "2026-08-26",
+      "t": "彼得的否认",
+      "a": "彼得·维特瓦尔",
+      "aid": "peter-wtewael-dutch-1596-1660",
+      "y": 1624,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "荷兰",
+        "圣经",
+        "戏剧性",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.169/1972.169_web.jpg",
+      "ratio": 0.617
+    },
+    {
+      "id": "cma-150419",
+      "issue": "2026-08-26",
+      "t": "伊势物语渚宫图屏风",
+      "a": "柴田是真",
+      "aid": "shibata-zeshin-japanese-1807-1891",
+      "y": 1800,
+      "mv": "琳派",
+      "tags": [
+        "屏风",
+        "建筑",
+        "19世纪",
+        "日本",
+        "漆画",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.2/1981.2_web.jpg",
+      "ratio": 0.911
+    },
+    {
+      "id": "cma-448492",
+      "issue": "2026-08-26",
+      "t": "海山画册第十二开",
+      "a": "吉次海山",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "册页",
+        "19世纪",
+        "日本",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.m/1997.247.m_web.jpg",
+      "ratio": 0.702
+    },
+    {
+      "id": "cma-148083",
+      "issue": "2026-08-26",
+      "t": "山水册页（秋风吹荷）",
+      "a": "曾衍东",
+      "aid": "zeng-yandong-chinese-c-1751-1827",
+      "y": 1822,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "19世纪",
+        "中国",
+        "微型",
+        "册页",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.11.g/1975.11.g_web.jpg",
+      "ratio": 0.809
+    },
+    {
+      "id": "cma-139733",
+      "issue": "2026-08-26",
+      "t": "海滨美人",
+      "a": "一筆斎文調",
+      "aid": "ippitsusai-buncho-japanese-active-c-1765-92",
+      "y": 1765,
+      "mv": "浮世绘",
+      "tags": [
+        "美人",
+        "海景",
+        "18世纪",
+        "日本",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.506/1963.506_web.jpg",
+      "ratio": 0.771
+    },
+    {
+      "id": "cma-173742",
+      "issue": "2026-08-26",
+      "t": "湖景图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1506,
+      "mv": "院体画",
+      "tags": [
+        "山水",
+        "湖景",
+        "明代",
+        "中国",
+        "青绿山水",
+        "界画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.708/1915.708_web.jpg",
+      "ratio": 0.988
     }
   ]
 }
