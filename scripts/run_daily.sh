@@ -32,6 +32,17 @@ export PIPELINE_THREADS=3
 
 cd "$REPO" || exit 1
 
+# ---- 单元测试（t_866be207 推送上线前验证）：验证逻辑回归防线，失败即中止，
+# 不进入生成（避免浪费下方 Met 探针最长 90 分钟的等待）。----
+if .venv/bin/python -m unittest discover -s tests -q >> "$LOGFILE" 2>&1; then
+    echo "$(date '+%F %T') [test] 单元测试通过" >> "$LOGFILE"
+else
+    rc=$?
+    echo "$(date '+%F %T') [test] 单元测试失败（exit $rc），中止 pipeline" >> "$LOGFILE"
+    osascript -e "display notification \"单元测试失败（exit $rc），pipeline 中止\" with title \"艺术手册\" sound name \"Basso\"" 2>/dev/null
+    exit 1
+fi
+
 # ---- Met 可达性探针（2026-08-25）：Met API 被 Imperva WAF 间歇封锁，
 # 凌晨时段常全 403 → 生成期全 CMA。探针不通则等 30 分钟重试（最多 3 次），
 # 全不通照跑（CMA 兜底，SPE §11 韧性）。----
