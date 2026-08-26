@@ -32,6 +32,14 @@ export PIPELINE_THREADS=3
 
 cd "$REPO" || exit 1
 
+# ---- 自然日锚定（t_8d5cb3c8）----
+# 触发时刻即定本期期日（Asia/Shanghai 自然日），显式传给 generate.py：
+# 下方 Met 探针最长可等 90 分钟，若拖过午夜，generate.py 自己取日期会漂到
+# 次日，把当天期号永久跳过。launchd 按本地时区触发，期日一律以
+# Asia/Shanghai 为准（SPE §5）。
+ISSUE_DATE="$(TZ=Asia/Shanghai date +%F)"
+echo "$(date '+%F %T') [date] 目标期日 $ISSUE_DATE" >> "$LOGFILE"
+
 # ---- 单元测试（t_866be207 推送上线前验证）：验证逻辑回归防线，失败即中止，
 # 不进入生成（避免浪费下方 Met 探针最长 90 分钟的等待）。----
 if .venv/bin/python -m unittest discover -s tests -q >> "$LOGFILE" 2>&1; then
@@ -60,7 +68,7 @@ done
 
 {
     echo "===== $(date '+%F %T') artbook pipeline 开始 ====="
-    .venv/bin/python pipeline/generate.py
+    .venv/bin/python pipeline/generate.py --date "$ISSUE_DATE"
     rc=$?
     echo "exit=$rc"
     if [ $rc -ne 0 ]; then

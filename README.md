@@ -4,12 +4,13 @@
 
 - **内容为王，前端要薄**：零框架、零构建、零依赖的原生 HTML/CSS/JS；GitHub 仓库即数据库
 - **图片不入仓库**：全部直链博物馆图床（Met / AIC / Cleveland / Rijks），仓库只有文本
-- **零运维**：GitHub Actions 每日 cron 跑内容 pipeline，commit + push，GitHub Pages 自动发布
+- **零运维**：本地 launchd 每日凌晨跑内容 pipeline，commit + push，GitHub Pages 自动发布
 
 ## 架构
 
 ```
-.github/workflows/daily.yml ──每日 cron──▶ pipeline/generate.py
+launchd com.artbook.pipeline（每日 05:00）──▶ scripts/run_daily.sh ──▶ pipeline/generate.py
+                                          （手动兜底：daily.yml workflow_dispatch）
                                               │ 1. 博物馆开放 API 拉候选
                                               │ 2. 去重（pipeline/seen.json）
                                               │ 3. LLM 选品 30 幅
@@ -28,10 +29,11 @@
 
 ### 每日发布
 
-- workflow：`.github/workflows/daily.yml`，cron `0 21 * * *`（UTC，= 北京时间次日 05:00），另有 `workflow_dispatch` 手动触发（`date` / `force` 输入）
-- 每次运行内部完成 commit/push，用 `GITHUB_TOKEN`，无需单独配置
+- **日常触发（主路径）**：本地 launchd 任务 `com.artbook.pipeline`，每天 **05:00（本地时区）** 跑 `scripts/run_daily.sh` → `pipeline/generate.py`，内部完成 commit + push。触发点模板与安装脚本已版本化：`scripts/com.artbook.pipeline.plist` + `scripts/install_launchd.sh`（幂等重装）
+- **自然日锚定**：触发时刻即定本期期日（Asia/Shanghai 自然日，`YYYY-MM-DD`），显式传入 `--date`；即使 Met 探针等待/手动触发跨午夜，期号也不会漂到次日（t_8d5cb3c8）
+- **手动兜底**：`.github/workflows/daily.yml` 仅保留 `workflow_dispatch`（`date` / `force` 输入）——lboneapi 网关仅内网可达，托管 runner 被 403，无法恢复 cron（详见 workflow 头部注释）
 - **Schedule 停用机制**：GitHub 会在仓库 60 天无 commit 后自动停用 schedule。本项目每天一次 commit 天然规避；若长时间停更后需恢复，手动跑一次 workflow_dispatch 即可重新激活
-- 失败 = workflow 失败，GitHub 默认邮件通知仓库 owner，无需额外报警
+- 失败时本地弹系统通知（见 `run_daily.sh`）；GitHub Actions 兜底路径失败即 workflow 失败，GitHub 默认邮件通知仓库 owner
 
 ### Secrets（Repository Settings → Secrets and variables → Actions）
 

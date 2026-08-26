@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- 艺术手册每日 pipeline 触发点（t_8d5cb3c8 版本化模板）
+     安装：scripts/install_launchd.sh（替换 __REPO__ / __HOME__ 占位符后写入
+     ~/Library/LaunchAgents 并加载）。
+     触发：每天 05:00 本地时区；run_daily.sh 在触发时刻锚定 Asia/Shanghai
+     自然日期并显式传给 generate.py（SPE §6.4 / §11，t_8d5cb3c8）。 -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.artbook.pipeline</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__REPO__/scripts/run_daily.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>5</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/artbook-pipeline.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/artbook-pipeline.log</string>
+</dict>
+</plist>

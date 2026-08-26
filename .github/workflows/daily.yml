@@ -44,14 +44,19 @@ jobs:
         run: pip install -r pipeline/requirements.txt
       - name: Unit tests（t_866be207 发布闸门校验逻辑）
         run: python -m unittest discover -s tests -q
+      - name: Compute issue date（自然日锚定，t_8d5cb3c8）
+        # 触发时刻即定 Asia/Shanghai 期日；即使生成跨午夜也不漂到次日。
+        # 用户显式传 date 时以用户输入为准。
+        id: date
+        run: echo "date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
       - name: Run pipeline (内部完成 commit + push)
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           RIJKS_API_KEY: ${{ secrets.RIJKS_API_KEY }}
         run: |
-          ARGS=()
+          ARGS=(--date "${{ steps.date.outputs.date }}")
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS+=(--date "${{ github.event.inputs.date }}")
+            ARGS=(--date "${{ github.event.inputs.date }}")
           fi
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             ARGS+=(--force)
