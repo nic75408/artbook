@@ -372,12 +372,49 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   background: var(--bg-card);
 }
 
+/* 局部标签（region-label） */
+.region-label {
+  display: none;
+  font-size: 13px;
+  color: var(--gold);
+  margin: 12px 0 8px;
+  padding: 6px 12px;
+  border-left: 3px solid var(--gold);
+  background: rgba(140, 109, 63, 0.08);
+}
+
+/* 段落小标题（paragraph-label） */
+.paragraph-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+  margin: 20px 0 8px;
+  letter-spacing: 0.05em;
+}
+.paragraph-label:first-child {
+  margin-top: 0;
+}
+
 .essay { padding: 4px 0 10px; }
 .essay .body-text {
   font-size: 17px;
   line-height: 1.9;
   margin-bottom: 18px;
   letter-spacing: 0.02em;
+}
+
+/* 圆形细节图包装容器 */
+.detail-crop-container {
+  margin: 26px auto;
+  text-align: center;
+}
+
+/* 圆形细节图上方标签 */
+.detail-crop-container .crop-label {
+  font-size: 13px;
+  color: var(--gold);
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
 }
 
 /* 圆形细节图：div 圆形裁剪 + background 按 detailCrop 换算 */
@@ -387,7 +424,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   max-width: 340px;
   max-height: 340px;
   border-radius: 50%;
-  margin: 26px auto;
+  margin: 0 auto;
   border: 1px solid var(--line);
   background-color: var(--bg-card);
   background-repeat: no-repeat;
@@ -647,4 +684,81 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
     transition-duration: 0.001s !important;
   }
   .learn-btn .ring-rotor { animation: none; }
+}
+
+/* ============================================================ 响应式：小屏适配（局部赏析区域） */
+
+/* iPhone SE 及以下（视口高度较小） */
+@media (max-width: 375px) {
+  .region-label {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 10px 0 6px;
+  }
+
+  .paragraph-label {
+    font-size: 12px;
+    margin: 16px 0 6px;
+  }
+
+  .detail-crop-container .crop-label {
+    font-size: 12px;
+  }
+
+  .detail-crop {
+    width: 68vw;
+    height: 68vw;
+    max-width: 260px;
+    max-height: 260px;
+  }
+}
+
+/* 超小屏（Android 360x800 等） */
+@media (max-width: 360px) {
+  .region-label {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 8px 0 6px;
+  }
+
+  .paragraph-label {
+    font-size: 11px;
+    margin: 14px 0 4px;
+  }
+
+  .detail-crop-container .crop-label {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+
+  .detail-crop {
+    width: 65vw;
+    height: 65vw;
+    max-width: 220px;
+    max-height: 220px;
+  }
+
+  .detail-crop-container {
+    margin: 20px auto;
+  }
+}
+
+/* 确保文字不换行、不溢出 */
+@media (max-width: 390px) {
+  .region-label,
+  .paragraph-label,
+  .detail-crop-container .crop-label {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* 适配动态岛和刘海屏的安全区域 */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .region-label {
+    margin-left: max(0px, calc(var(--safe-l) - 12px));
+    margin-right: max(0px, calc(var(--safe-r) - 12px));
+  }
 }

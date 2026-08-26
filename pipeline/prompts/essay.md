@@ -11,9 +11,29 @@
   "movement_zh": "主流派单值中文（如 印象派、巴洛克、学院派、浮世绘；不确定填 不详）",
   "tags": ["题材/时代/地域标签，2-6 个，如 肖像、海景、19世纪、荷兰"],
   "essay": ["段落1", "段落2", "段落3"],
-  "detailCrop": {"cx": 0.46, "cy": 0.22, "r": 0.16},
+  "detailCrop": {"cx": 0.46, "cy": 0.22, "r": 0.16, "region": "face"},
   "bio_zh": "画家一句话简介（20-40 字；若被告知已有档案，输出空字符串）"
 }
+
+region 类型定义（detailCrop.region）：
+- face: 面部特写（专注描绘脸部表情、五官细节）
+- torso_neck: 躯干/颈部（上身、肩膀、脖子区域）
+- clothing: 衣物/面料（衣服纹理、面料质感、服饰细节）
+- background: 背景/环境（风景、室内场景、抽象背景）
+- whole_work: 整体作品（展示整幅画作的缩略或全景）
+
+选择原则：根据 detailCrop 指定的局部区域内容判断，不是根据整幅作品。
+
+essay 段落 scope 标记约定：
+第 2 段（画面看点）必须对应 detailCrop.region：
+- 若 region=face → 描述面部细节
+- 若 region=clothing → 描述衣物质感纹理
+- 若 region=background → 描述背景环境处理
+- 若 region=torso_neck → 描述身体姿态或颈部线条
+- 若 region=whole_work → 描述整体构图
+
+禁止出现图文错位：不要在 region=clothing/background/torso_neck 的段落中描述面部表情；
+若 detailCrop 为衣服/背景，则不要写「眼神」「面容」「表情」等词汇。
 
 赏析写作硬约束（违反即不合格）：
 1. essay 共 2-4 段；每段 60-150 字；总长 250-450 字。

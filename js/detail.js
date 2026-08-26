@@ -88,8 +88,11 @@ function render(el, w) {
       <!-- H2: 赏析标题（本篇章赏析） -->
       <h2 class="section-title">本篇章赏析</h2>
 
-      <!-- 正文赏析：H3 作为段落标识由样式控制层级 -->
-      <div class="essay"></div>
+      <!-- 局部解析标题（动态渲染） -->
+      <div class="region-label" id="region-label"></div>
+
+      <!-- 正文赏析：带段落标识 -->
+      <div class="essay" id="essay-container"></div>
 
       <div class="credit">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
         <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
@@ -123,20 +126,69 @@ function render(el, w) {
   );
 
   // 赏析 + 圆形细节图（第 2 段之后插入）
-  const essayEl = el.querySelector(".essay");
+  const essayEl = el.querySelector("#essay-container");
+  const regionLabelEl = el.querySelector("#region-label");
+  const detailCrop = w.detailCrop || {};
+  const region = detailCrop.region || "whole_work";
+
+  // 映射 region 到标签文本
+  const regionLabels = {
+    face: "局部赏析：面部表情",
+    torso_neck: "局部赏析：身体姿态",
+    clothing: "局部赏析：衣物纹理",
+    background: "局部赏析：背景环境",
+    whole_work: "整体印象"
+  };
+
+  // 渲染局部标签（仅当非 whole_work 时显示在图上方）
+  if (region !== "whole_work") {
+    regionLabelEl.textContent = regionLabels[region] || regionLabels.whole_work;
+    regionLabelEl.style.display = "block";
+  } else {
+    regionLabelEl.style.display = "none";
+  }
+
+  // 段落小标题配置
+  const paragraphLabels = [
+    "整体印象",
+    regionLabels[region] || "局部细节",
+    "技法解读",
+    "收尾点睛"
+  ];
+
   (w.essay || []).forEach((p, i) => {
+    // 添加段落小标题
+    if (i < paragraphLabels.length) {
+      const labelEl = document.createElement("div");
+      labelEl.className = "paragraph-label";
+      labelEl.textContent = paragraphLabels[i];
+      essayEl.appendChild(labelEl);
+    }
+
     const pEl = document.createElement("p");
     pEl.className = "body-text";
     pEl.textContent = p;
     essayEl.appendChild(pEl);
+
+    // 第 2 段后插入圆形细节图
     if (i === 1 && (w.essay || []).length >= 2) {
+      const cropContainer = document.createElement("div");
+      cropContainer.className = "detail-crop-container";
+
+      const cropLabel = document.createElement("div");
+      cropLabel.className = "crop-label";
+      cropLabel.textContent = regionLabels[region] || "局部赏析";
+      cropContainer.appendChild(cropLabel);
+
       const crop = document.createElement("div");
       crop.className = "detail-crop";
       const bg = data.cropToBackground(w.detailCrop, ratio);
       crop.style.backgroundImage = `url("${w.image.full}")`;
       crop.style.backgroundSize = bg.size;
       crop.style.backgroundPosition = bg.pos;
-      essayEl.appendChild(crop);
+      cropContainer.appendChild(crop);
+
+      essayEl.appendChild(cropContainer);
     }
   });
 
