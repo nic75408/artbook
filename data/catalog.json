@@ -9719,6 +9719,528 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1915.708/1915.708_web.jpg",
       "ratio": 0.988
+    },
+    {
+      "id": "cma-150037",
+      "issue": "2026-08-27",
+      "t": "皮埃罗在刑事法庭",
+      "a": "托马斯·库图尔",
+      "aid": "thomas-couture-french-1815-1879",
+      "y": 1864,
+      "mv": "学院派",
+      "tags": [
+        "人物",
+        "戏剧",
+        "19世纪",
+        "法国",
+        "叙事",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.250/1980.250_web.jpg",
+      "ratio": 0.817
+    },
+    {
+      "id": "cma-145423",
+      "issue": "2026-08-27",
+      "t": "菊、雀与幼犬图",
+      "a": "长泽芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1792,
+      "mv": "圆山四条派",
+      "tags": [
+        "动物",
+        "花卉",
+        "18世纪",
+        "日本",
+        "水墨画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.71.3/1970.71.3_web.jpg",
+      "ratio": 1.829
+    },
+    {
+      "id": "cma-149422",
+      "issue": "2026-08-27",
+      "t": "麦田",
+      "a": "乔治·英尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1875,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "光影",
+        "田园",
+        "哈德逊河画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.74/1978.74_web.jpg",
+      "ratio": 0.66
+    },
+    {
+      "id": "cma-153773",
+      "issue": "2026-08-27",
+      "t": "《圣母升天》习作",
+      "a": "胡安·德·巴尔德斯·莱亚尔",
+      "aid": "juan-de-valdes-leal-spanish-1622-1690",
+      "y": 1670,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "西班牙",
+        "习作",
+        "圣母升天"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.7/1987.7_web.jpg",
+      "ratio": 1.503
+    },
+    {
+      "id": "cma-150494",
+      "issue": "2026-08-27",
+      "t": "竹石图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1203,
+      "mv": "宋代院体",
+      "tags": [
+        "竹石",
+        "宋代",
+        "中国",
+        "水墨",
+        "绢本",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.54/1981.54_web.jpg",
+      "ratio": 1.737
+    },
+    {
+      "id": "cma-96328",
+      "issue": "2026-08-27",
+      "t": "本杰明·韦斯特肖像",
+      "a": "托马斯·劳伦斯",
+      "aid": "thomas-lawrence-british-1769-1830",
+      "y": 1818,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "写实",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.2059/1916.2059_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-152438",
+      "issue": "2026-08-27",
+      "t": "雉鸡与草",
+      "a": "尾形光琳",
+      "aid": "ogata-korin-japanese-1658-1716",
+      "y": 1650,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "装饰性",
+        "琳派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.266/1985.266_web.jpg",
+      "ratio": 1.657
+    },
+    {
+      "id": "cma-173640",
+      "issue": "2026-08-27",
+      "t": "卡茨基尔的秋天",
+      "a": "贾维斯·麦肯蒂",
+      "aid": "jervis-mcentee-american-1828-1891",
+      "y": 1873,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "秋景",
+        "哈德逊河画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.692/1915.692_web.jpg",
+      "ratio": 1.189
+    },
+    {
+      "id": "cma-146035",
+      "issue": "2026-08-27",
+      "t": "楚山秋霁图",
+      "a": "蓝瑛",
+      "aid": "lan-ying-chinese-1585-after-1664",
+      "y": 1600,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "云雾",
+        "宏大",
+        "秋景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.231/1971.231_web.jpg",
+      "ratio": 3.502
+    },
+    {
+      "id": "cma-125301",
+      "issue": "2026-08-27",
+      "t": "邓肯·坎贝尔中将",
+      "a": "亨利·雷伯恩",
+      "aid": "henry-raeburn-scottish-1756-1823",
+      "y": 1810,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "苏格兰",
+        "军事",
+        "庄重"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.266/1947.266_web.jpg",
+      "ratio": 1.184
+    },
+    {
+      "id": "cma-152251",
+      "issue": "2026-08-27",
+      "t": "情侣",
+      "a": "长谷川宗恩",
+      "aid": "hasegawa-soen-japanese",
+      "y": 1500,
+      "mv": "风俗画",
+      "tags": [
+        "人物",
+        "风俗",
+        "16世纪",
+        "日本",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.133/1985.133_web.jpg",
+      "ratio": 2.118
+    },
+    {
+      "id": "cma-148968",
+      "issue": "2026-08-27",
+      "t": "林中",
+      "a": "塞莱斯汀·弗朗索瓦·南特伊",
+      "aid": "celestin-francois-nanteuil-french-1813-1873",
+      "y": 1841,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "森林",
+        "神话",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
+      "ratio": 0.747
+    },
+    {
+      "id": "cma-153797",
+      "issue": "2026-08-27",
+      "t": "芦雁图屏风",
+      "a": "狩野山乐",
+      "aid": "kano-sanraku-japanese-1559-1635",
+      "y": 1550,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "动态",
+        "野趣",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.9.1/1987.9.1_web.jpg",
+      "ratio": 0.456
+    },
+    {
+      "id": "cma-109247",
+      "issue": "2026-08-27",
+      "t": "詹姆斯·斯图尔特医生",
+      "a": "吉尔伯特·斯图尔特",
+      "aid": "gilbert-stuart-american-born-the-thirteen-colonies-1755-1828",
+      "y": 1815,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "心理刻画",
+        "男性肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.394.1/1927.394.1_web.jpg",
+      "ratio": 1.27
+    },
+    {
+      "id": "cma-143248",
+      "issue": "2026-08-27",
+      "t": "花鸟册：梅枝鹦鹉",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代院体",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "册页",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.j/1967.193.j_web.jpg",
+      "ratio": 0.717
+    },
+    {
+      "id": "cma-173656",
+      "issue": "2026-08-27",
+      "t": "母爱的关怀",
+      "a": "亚瑟·菲茨威廉·泰特",
+      "aid": "arthur-fitzwilliam-tait-american-born-england-1819-1905",
+      "y": 1873,
+      "mv": "美国写实主义",
+      "tags": [
+        "动物",
+        "19世纪",
+        "美国",
+        "温情",
+        "叙事",
+        "雪景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
+      "ratio": 0.815
+    },
+    {
+      "id": "cma-150676",
+      "issue": "2026-08-27",
+      "t": "黄瓜与茄子",
+      "a": "山田道安",
+      "aid": "yamada-doan-japanese-d-1571",
+      "y": 1500,
+      "mv": "禅画",
+      "tags": [
+        "静物",
+        "16世纪",
+        "日本",
+        "蔬菜",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.11/1982.11_web.jpg",
+      "ratio": 0.658
+    },
+    {
+      "id": "cma-135085",
+      "issue": "2026-08-27",
+      "t": "阿皮亚大道",
+      "a": "爱德华·布鲁斯",
+      "aid": "edward-bruce-american-1879-1943",
+      "y": 1929,
+      "mv": "美国现代主义",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "建筑",
+        "历史感",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.128/1958.128_web.jpg",
+      "ratio": 0.667
+    },
+    {
+      "id": "cma-145361",
+      "issue": "2026-08-27",
+      "t": "秋林烟霭图",
+      "a": "邹",
+      "aid": "zou-zhe-chinese-c-1610-before-1688",
+      "y": 1647,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "秋景",
+        "金陵画派",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.59/1970.59_web.jpg",
+      "ratio": 0.103
+    },
+    {
+      "id": "cma-144976",
+      "issue": "2026-08-27",
+      "t": "自画像",
+      "a": "阿博特·汉德森·塞耶",
+      "aid": "abbott-handerson-thayer-american-1849-1921",
+      "y": 1918,
+      "mv": "美国印象派",
+      "tags": [
+        "自画像",
+        "20世纪",
+        "美国",
+        "内省",
+        "光影",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.17/1970.17_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "cma-101471",
+      "issue": "2026-08-27",
+      "t": "加州早春",
+      "a": "爱德华·B·巴特勒",
+      "aid": "edward-b-butler-american-1853-1928",
+      "y": 1918,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "早春",
+        "色彩",
+        "加州"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.262/1920.262_web.jpg",
+      "ratio": 0.783
+    },
+    {
+      "id": "cma-148088",
+      "issue": "2026-08-27",
+      "t": "人物山水册页（骑驴老者）",
+      "a": "曾衍东",
+      "aid": "zeng-yandong-chinese-c-1751-1827",
+      "y": 1822,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "中国",
+        "驴",
+        "生活气息",
+        "写意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.11.l/1975.11.l_web.jpg",
+      "ratio": 0.821
+    },
+    {
+      "id": "cma-146071",
+      "issue": "2026-08-27",
+      "t": "三棵树：意大利",
+      "a": "伊莱休·维德",
+      "aid": "elihu-vedder-american-1836-1923",
+      "y": 1871,
+      "mv": "象征主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "意大利",
+        "罗马",
+        "柏树"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.263/1971.263_web.jpg",
+      "ratio": 1.727
+    },
+    {
+      "id": "cma-152408",
+      "issue": "2026-08-27",
+      "t": "鸳鸯图",
+      "a": "雪村周继",
+      "aid": "sesson-shukei-japanese-c-1492-c-1577",
+      "y": 1500,
+      "mv": "水墨画",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "鸳鸯",
+        "水墨",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.246/1985.246_web.jpg",
+      "ratio": 0.729
+    },
+    {
+      "id": "cma-151025",
+      "issue": "2026-08-27",
+      "t": "古诗诗意山水册：松下高士",
+      "a": "华嵒",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "高士",
+        "松树",
+        "诗意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.1/1982.68.1_web.jpg",
+      "ratio": 0.849
+    },
+    {
+      "id": "cma-108978",
+      "issue": "2026-08-27",
+      "t": "约翰·蔡尔德",
+      "a": "切斯特·哈丁",
+      "aid": "chester-harding-american-1792-1866",
+      "y": 1835,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "绅士",
+        "古典"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.144/1927.144_web.jpg",
+      "ratio": 1.2
+    },
+    {
+      "id": "cma-154051",
+      "issue": "2026-08-27",
+      "t": "布袋图",
+      "a": "如然一彻",
+      "aid": "jonan-etetsu-japanese-1444-1507",
+      "y": 1400,
+      "mv": "禅宗画",
+      "tags": [
+        "人物",
+        "15世纪",
+        "日本",
+        "布袋",
+        "禅宗",
+        "写意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.17/1988.17_web.jpg",
+      "ratio": 1.941
+    },
+    {
+      "id": "cma-137873",
+      "issue": "2026-08-27",
+      "t": "《鹦鹉故事》书页",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "文学",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.35.b/1962.279.35.b_web.jpg",
+      "ratio": 1.549
     }
   ]
 }
