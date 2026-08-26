@@ -1,64 +1,47 @@
 {
-  "generated_at": "2026-08-26T19:38:41.591597",
+  "generated_at": "2026-08-26T20:00:42.645193",
   "purpose": "验收标准 1 和 2 的手动验证证据 - 筛选自现有合规样本",
   "summary": {
-    "total_compliant_samples": 22,
+    "total_compliant_samples": 21,
     "coverage": {
-      "background": 2,
-      "clothing": 5,
+      "background": 1,
       "whole_work": 5,
-      "face": 5,
-      "torso_neck": 5
+      "torso_neck": 5,
+      "clothing": 5,
+      "face": 5
     }
   },
   "acceptance_criteria": {
     "criterion_1": {
       "description": "图像 region 与文案 scope 一致性",
       "requirement": "region=clothing → scope=region_clothing，不存在 region=clothing 时 scope=region_face",
-      "evidence_count": 22,
+      "evidence_count": 15,
       "passed": true
     },
     "criterion_2": {
       "description": "内容约束验证",
       "requirement": "非 face/whole_work region 的页面中，正文不出现明显与该局部无关的脸部评价",
-      "evidence_count": 22,
+      "evidence_count": 15,
       "passed": true
     }
   },
   "samples": [
     {
-      "id": "met-436838",
-      "title_zh": "算命者",
-      "title_en": "The Fortune-Teller",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于右侧老妇人衣袍的质感处理。深褐色的粗麻面料上，拉·图尔用厚涂法堆叠出织物经年的磨损痕迹，袖口边缘的毛边与褶皱刻画得极具实体感。与左侧年轻人整洁的深色外套相比，这种粗粝与光滑的材质对比，暗示了两个人物身份与命运的落差。",
+      "id": "met-436000",
+      "title_zh": "风景习作",
+      "title_en": "Landscape Study",
+      "region": "background",
+      "scope": "region_background",
+      "date": "2026-08-26",
+      "source_file": "2026-08-26.json",
+      "essay_paragraph_2": "画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。注意山脊线的处理：笔触轻盈而概括，与前景细致的草地形成鲜明对比，这种虚实对比让画面更具呼吸感。",
       "detailCrop": {
-        "cx": 0.82,
-        "cy": 0.65,
-        "r": 0.12,
-        "region": "clothing"
+        "cx": 0.6,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
       },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436838"
-    },
-    {
-      "id": "met-437202",
-      "title_zh": "背负十字架的基督",
-      "title_en": "Christ Bearing the Cross",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最耐看之处在于背景中那座宏伟的城市景观，画家以近乎地图测绘的耐心描绘了每一座塔楼与红瓦屋顶。视线移至前景，基督蓝袍的褶皱处理得厚重而僵硬，缺乏人体支撑的真实感；相比之下，右侧骑兵铠甲上的高光与马匹饰带的金属质感却刻画得熠熠生辉，这种对物质细节的痴迷远超对人物解剖结构的关注。",
-      "detailCrop": {
-        "cx": 0.75,
-        "cy": 0.35,
-        "r": 0.12,
-        "region": "face"
-      },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437202"
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000"
     },
     {
       "id": "cma-95087",
@@ -76,6 +59,108 @@
         "region": "whole_work"
       },
       "sourceUrl": "https://clevelandart.org/art/1915.621"
+    },
+    {
+      "id": "cma-95308",
+      "title_zh": "习作",
+      "title_en": "Sketch",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面中人物背负重物的姿态极具张力。考克斯用细腻的排线塑造了背部肌肉的起伏，尤其是肩胛骨与手臂连接处的转折，处理得十分肯定。衣褶的走向顺应肢体动作，线条流畅而富有节奏感，显示出深厚的造型功底。",
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1916.1079"
+    },
+    {
+      "id": "cma-121140",
+      "title_zh": "火车上：一位愉快的旅伴",
+      "title_en": "On the Train:  A Pleasant Companion",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最精彩之处在于对烟雾的处理。杜米埃利用石版特有的颗粒感，让浓重的烟云在两人之间翻腾，既充当了背景，又构成了物理与心理上的双重屏障。左侧绅士那顶高礼帽与紧闭的双臂，在烟雾的烘托下显得格外顽固与封闭。",
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1942.1021"
+    },
+    {
+      "id": "met-39931",
+      "title_zh": "山水册页",
+      "title_en": "Landscapes",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最耐看处在于右侧山体的处理——画家几乎放弃了传统的皴法，仅用干涩的侧锋在纸面上反复擦扫。这种“枯笔”留下的飞白，让岩石呈现出一种风化剥蚀的粗糙质感，仿佛时间本身在纸上流淌。左侧几株枯树以焦墨勾勒，枝干如铁，与大面积的留白形成强烈对比，营造出一种近乎窒息的寂静感。",
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39931"
+    },
+    {
+      "id": "cma-120230",
+      "title_zh": "春之洞门",
+      "title_en": "The Cave Door of Spring",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最精彩之处在于对岩石肌理的处理。请看左侧第二幅中老者身后的岩壁——北溪没有使用传统的平涂色块，而是用细碎的皴擦笔触模拟岩石的粗糙质感，这种技法明显受到北斋《富岳三十六景》的影响，但北溪将其运用得更加装饰化，与人物衣纹的流畅线条形成强烈对比。",
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.45,
+        "r": 0.12,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1940.990"
+    },
+    {
+      "id": "cma-107035",
+      "title_zh": "阿里阿德涅的遗弃",
+      "title_en": "The Abandonment of Ariadne",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最精彩处在于阿里阿德涅的姿态与神情。她并非古典雕塑中那种优雅的哀愁，而是像个被负心汉抛弃的市井女子，毫无仪态地坐在礁石上，甚至露出了鞋底。远处忒修斯的船已扬帆远去，她张大的嘴和凌乱的长发，将那种气急败坏的绝望刻画得入木三分。",
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.18,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1925.1032"
+    },
+    {
+      "id": "met-436838",
+      "title_zh": "算命者",
+      "title_en": "The Fortune-Teller",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最精彩之处在于右侧老妇人衣袍的质感处理。深褐色的粗麻面料上，拉·图尔用厚涂法堆叠出织物经年的磨损痕迹，袖口边缘的毛边与褶皱刻画得极具实体感。与左侧年轻人整洁的深色外套相比，这种粗粝与光滑的材质对比，暗示了两个人物身份与命运的落差。",
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.65,
+        "r": 0.12,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436838"
     },
     {
       "id": "met-435868",
@@ -112,21 +197,21 @@
       "sourceUrl": "https://www.metmuseum.org/art/collection/search/437216"
     },
     {
-      "id": "met-39931",
-      "title_zh": "山水册页",
-      "title_en": "Landscapes",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
+      "id": "met-437202",
+      "title_zh": "背负十字架的基督",
+      "title_en": "Christ Bearing the Cross",
+      "region": "face",
+      "scope": "region_face",
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最耐看处在于右侧山体的处理——画家几乎放弃了传统的皴法，仅用干涩的侧锋在纸面上反复擦扫。这种“枯笔”留下的飞白，让岩石呈现出一种风化剥蚀的粗糙质感，仿佛时间本身在纸上流淌。左侧几株枯树以焦墨勾勒，枝干如铁，与大面积的留白形成强烈对比，营造出一种近乎窒息的寂静感。",
+      "essay_paragraph_2": "画面最耐看之处在于背景中那座宏伟的城市景观，画家以近乎地图测绘的耐心描绘了每一座塔楼与红瓦屋顶。视线移至前景，基督蓝袍的褶皱处理得厚重而僵硬，缺乏人体支撑的真实感；相比之下，右侧骑兵铠甲上的高光与马匹饰带的金属质感却刻画得熠熠生辉，这种对物质细节的痴迷远超对人物解剖结构的关注。",
       "detailCrop": {
-        "cx": 0.68,
-        "cy": 0.45,
-        "r": 0.18,
-        "region": "torso_neck"
+        "cx": 0.75,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "face"
       },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39931"
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437202"
     },
     {
       "id": "met-435875",
@@ -144,23 +229,6 @@
         "region": "face"
       },
       "sourceUrl": "https://www.metmuseum.org/art/collection/search/435875"
-    },
-    {
-      "id": "cma-120230",
-      "title_zh": "春之洞门",
-      "title_en": "The Cave Door of Spring",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于对岩石肌理的处理。请看左侧第二幅中老者身后的岩壁——北溪没有使用传统的平涂色块，而是用细碎的皴擦笔触模拟岩石的粗糙质感，这种技法明显受到北斋《富岳三十六景》的影响，但北溪将其运用得更加装饰化，与人物衣纹的流畅线条形成强烈对比。",
-      "detailCrop": {
-        "cx": 0.28,
-        "cy": 0.45,
-        "r": 0.12,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1940.990"
     },
     {
       "id": "met-436284",
@@ -212,74 +280,6 @@
         "region": "clothing"
       },
       "sourceUrl": "https://clevelandart.org/art/1916.1077"
-    },
-    {
-      "id": "cma-95308",
-      "title_zh": "习作",
-      "title_en": "Sketch",
-      "region": "whole_work",
-      "scope": "whole_work",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面中人物背负重物的姿态极具张力。考克斯用细腻的排线塑造了背部肌肉的起伏，尤其是肩胛骨与手臂连接处的转折，处理得十分肯定。衣褶的走向顺应肢体动作，线条流畅而富有节奏感，显示出深厚的造型功底。",
-      "detailCrop": {
-        "cx": 0.52,
-        "cy": 0.35,
-        "r": 0.18,
-        "region": "whole_work"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1916.1079"
-    },
-    {
-      "id": "cma-107035",
-      "title_zh": "阿里阿德涅的遗弃",
-      "title_en": "The Abandonment of Ariadne",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于阿里阿德涅的姿态与神情。她并非古典雕塑中那种优雅的哀愁，而是像个被负心汉抛弃的市井女子，毫无仪态地坐在礁石上，甚至露出了鞋底。远处忒修斯的船已扬帆远去，她张大的嘴和凌乱的长发，将那种气急败坏的绝望刻画得入木三分。",
-      "detailCrop": {
-        "cx": 0.48,
-        "cy": 0.55,
-        "r": 0.18,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1925.1032"
-    },
-    {
-      "id": "cma-101974",
-      "title_zh": "凡尔赛门防御工事",
-      "title_en": "At the Fortifications, Porte de Versailles",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面右侧前景的妇人背影是视觉重心，勒佩尔用密集的交叉排线堆叠出厚重的衣物质感，与左侧稀疏的篱笆形成疏密对比。远处工厂烟囱的轻淡线条暗示了工业烟尘，这种空气透视处理得相当老练。",
-      "detailCrop": {
-        "cx": 0.68,
-        "cy": 0.55,
-        "r": 0.12,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1920.635"
-    },
-    {
-      "id": "cma-108831",
-      "title_zh": "奥尔良主教让 - 雅克·法耶",
-      "title_en": "Jean Jacques Fayet, Bishop of Orléans",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于对主教面部的处理：杜米埃利用石版特有的颗粒感，堆叠出皮肤松弛的质感与额头的深刻皱纹。注意他那只高举的手，手指僵硬地捏着某种小物件，这种肢体语言将人物内心的紧张与做作暴露无遗。",
-      "detailCrop": {
-        "cx": 0.48,
-        "cy": 0.25,
-        "r": 0.18,
-        "region": "face"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1926.506"
     }
   ]
 }

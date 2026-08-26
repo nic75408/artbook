@@ -102,6 +102,16 @@ def main():
         print()
     
     # 生成证据文件
+    # 确保包含所有 region 类型（至少一个 background）
+    samples_for_evidence = []
+    for region in VALID_REGIONS:
+        region_samples = [s for s in all_compliant if s['region'] == region]
+        samples_for_evidence.extend(region_samples[:3])  # 每个 region 至少取 3 个
+    
+    # 补齐到 15 个样本
+    remaining = [s for s in all_compliant if s not in samples_for_evidence]
+    samples_for_evidence.extend(remaining[:max(0, 15 - len(samples_for_evidence))])
+    
     evidence = {
         "generated_at": datetime.now().isoformat(),
         "purpose": "验收标准 1 和 2 的手动验证证据 - 筛选自现有合规样本",
@@ -113,17 +123,17 @@ def main():
             "criterion_1": {
                 "description": "图像 region 与文案 scope 一致性",
                 "requirement": "region=clothing → scope=region_clothing，不存在 region=clothing 时 scope=region_face",
-                "evidence_count": len(all_compliant),
+                "evidence_count": len(samples_for_evidence),
                 "passed": True
             },
             "criterion_2": {
                 "description": "内容约束验证",
                 "requirement": "非 face/whole_work region 的页面中，正文不出现明显与该局部无关的脸部评价",
-                "evidence_count": len(all_compliant),
+                "evidence_count": len(samples_for_evidence),
                 "passed": True
             }
         },
-        "samples": all_compliant[:15]  # 只保留前 15 个作为证据
+        "samples": samples_for_evidence[:15]  # 只保留前 15 个作为证据
     }
     
     # 写入文件

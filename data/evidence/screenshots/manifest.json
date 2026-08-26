@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:40:40.285703",
+  "generated_at": "2026-08-26T19:59:30.605568",
   "base_url": "http://127.0.0.1:8888",
   "viewports": [
     {
@@ -140,6 +140,6 @@
       ]
     }
   ],
-  "total_screenshots": 0,
+  "total_screenshots": 7,
   "output_dir": "data/evidence/screenshots"
 }
