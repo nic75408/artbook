@@ -19,8 +19,8 @@ function gridHTML(list) {
           <img data-src="${esc(w.th)}" alt="${esc(w.t)}" loading="lazy" decoding="async">
         </span>
       </span>
-      <span class="a">${esc(w.a)}</span>
-      <span class="t">${esc(w.t)}</span>
+      <span class="a meta-text">${esc(w.a)}</span>
+      <span class="t work-title">${esc(w.t)}</span>
     </button>`).join("")}</div>`;
 }
 

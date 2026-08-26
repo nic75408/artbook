@@ -76,15 +76,15 @@ export async function mount(el) {
     const w = byId.get(f.id);
     if (!w) return `<div class="card" style="opacity:.55">
       <span class="th"><span class="ph" style="aspect-ratio:1;background:var(--bg-card)"></span></span>
-      <span class="a">—</span><span class="t">作品数据缺失</span></div>`;
+      <span class="a meta-text">—</span><span class="t work-title">作品数据缺失</span></div>`;
     return `<button class="card" data-go="${esc(w.id)}">
       <span class="th" style="--r:${w.ratio || 1}">
         <span class="ph" style="aspect-ratio:calc(1/${w.ratio || 1})">
           <img data-src="${esc(w.th)}" alt="${esc(w.t)}" loading="lazy" decoding="async">
         </span>
       </span>
-      <span class="a">${esc(w.a)}</span>
-      <span class="t">${esc(w.t)}</span>
+      <span class="a meta-text">${esc(w.a)}</span>
+      <span class="t work-title">${esc(w.t)}</span>
     </button>`;
   }).join("")}</div>`;
   body.querySelectorAll(".card[data-go]").forEach((card) =>
