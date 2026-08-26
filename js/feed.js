@@ -2,8 +2,7 @@
 import { WORDMARK } from "../config.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
-import { isFav, toggleFav } from "./favorites.js";
-import { esc, icons, learnBtnSVG, toast } from "./ui.js";
+import { esc, icons, learnBtnSVG } from "./ui.js";
 
 const POS_KEY = "artbook.feedpos";
 let scroller = null;
@@ -19,7 +18,7 @@ export async function mount(el) {
   el.innerHTML = `
     <header class="feed-header">
       <div class="wordmark brand-title">${esc(WORDMARK)}</div>
-      <button id="goto-favs" aria-label="我的收藏夹" title="我的收藏夹">${icons.bookmark}</button>
+      <button id="goto-favs" aria-label="收藏夹" title="收藏夹">${icons.bookmark}<span>收藏夹</span></button>
     </header>
     <div class="feed-scroller"></div>
     <button class="date-capsule" id="date-capsule" aria-label="选择日期"></button>
@@ -73,7 +72,6 @@ function slideHTML(w, date) {
       <div class="artist-zh work-title">${esc(w.artist_zh)}</div>
       <div class="title-en meta-text">${esc(w.title_en)}</div>
     </div>
-    <button class="fav-btn" data-fav="${esc(w.id)}" aria-label="收藏画作">${icons.bookmark}</button>
     <button class="learn-btn" data-go="${esc(w.id)}" aria-label="了解更多">${learnBtnSVG(w.id)}</button>
   </section>`;
 }
@@ -100,16 +98,6 @@ function buildSlides() {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
-    s.querySelector(".fav-btn").addEventListener("click", (ev) => {
-      ev.stopPropagation();
-      const { ok, on } = toggleFav(sw.work.id);
-      if (!ok) {
-        toast("当前浏览器环境无法保存收藏");
-        return;
-      }
-      s.querySelector(".fav-btn").classList.toggle("on", on);
-    });
-    if (isFav(sw.work.id)) s.querySelector(".fav-btn").classList.add("on");
   });
 }
 
@@ -195,13 +183,6 @@ function rebindSlides(from) {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
-    s.querySelector(".fav-btn").addEventListener("click", (ev) => {
-      ev.stopPropagation();
-      const { ok, on } = toggleFav(sw.work.id);
-      if (!ok) toast("当前浏览器环境无法保存收藏");
-      else s.querySelector(".fav-btn").classList.toggle("on", on);
-    });
-    if (isFav(sw.work.id)) s.querySelector(".fav-btn").classList.add("on");
   }
 }
 
