@@ -11,6 +11,13 @@
   --line: #E4DDD0;
   --serif-zh: "Songti SC", "Noto Serif CJK SC", serif;
   --serif-en: Georgia, "Times New Roman", serif;
+  --sans-zh: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  --text-brand: 22px;
+  --text-work: 19px;
+  --text-body: 16px;
+  --text-meta: 14px;
+  --page-gutter: 22px;
+  --content-max: 340px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
@@ -86,8 +93,34 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .feed-header .wordmark {
   font-family: var(--serif-zh);
   font-weight: 700;
-  font-size: 22px;
+  font-size: var(--text-brand);
   letter-spacing: 0.12em;
+}
+
+/* 统一文本层级类 */
+.brand-title {
+  font-family: var(--serif-zh);
+  font-weight: 700;
+  font-size: var(--text-brand);
+  letter-spacing: 0.12em;
+}
+.work-title {
+  font-family: var(--serif-zh);
+  font-weight: 600;
+  font-size: var(--text-work);
+  letter-spacing: 0.02em;
+}
+.body-text {
+  font-family: var(--sans-zh);
+  font-size: var(--text-body);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+.meta-text {
+  font-family: var(--sans-zh);
+  font-size: var(--text-meta);
+  color: var(--ink-2);
+  line-height: 1.5;
 }
 /* 顶部右上收藏夹入口：轻量线框图标，弱化对比，语义明确 */
 .feed-header button {
