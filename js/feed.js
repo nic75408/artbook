@@ -19,7 +19,7 @@ export async function mount(el) {
   el.innerHTML = `
     <header class="feed-header">
       <div class="wordmark">${esc(WORDMARK)}</div>
-      <button id="goto-favs" aria-label="收藏">${icons.star}</button>
+      <button id="goto-favs" aria-label="我的收藏夹" title="我的收藏夹">${icons.bookmark}</button>
     </header>
     <div class="feed-scroller"></div>
     <button class="date-capsule" id="date-capsule" aria-label="选择日期"></button>
@@ -73,7 +73,7 @@ function slideHTML(w, date) {
       <div class="artist-zh">${esc(w.artist_zh)}</div>
       <div class="title-en">${esc(w.title_en)}</div>
     </div>
-    <button class="fav-btn" data-fav="${esc(w.id)}" aria-label="收藏">${icons.star}</button>
+    <button class="fav-btn" data-fav="${esc(w.id)}" aria-label="收藏画作">${icons.bookmark}</button>
     <button class="learn-btn" data-go="${esc(w.id)}" aria-label="了解更多">${learnBtnSVG(w.id)}</button>
   </section>`;
 }

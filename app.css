@@ -89,7 +89,18 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   font-size: 22px;
   letter-spacing: 0.12em;
 }
-.feed-header button { pointer-events: auto; color: var(--ink); padding: 6px; }
+/* 顶部右上收藏夹入口：轻量线框图标，弱化对比，语义明确 */
+.feed-header button {
+  pointer-events: auto;
+  color: rgba(15, 23, 42, 0.55);
+  padding: 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  background: rgba(248, 250, 252, 0.85);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+.feed-header button svg { width: 20px; height: 20px; stroke-width: 1.5; }
+.feed-header button:hover { color: var(--ink-2); }
 
 .feed-scroller {
   height: 100dvh;
@@ -162,17 +173,18 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   max-width: 86vw;
 }
 
-/* 左下收藏星 */
+/* 左下收藏星：从主 CTA 降级为弱辅助工具——小尺寸、低对比 */
 .slide .fav-btn {
   position: absolute;
   left: calc(20px + var(--safe-l));
   bottom: calc(24px + var(--safe-b));
-  color: var(--ink-2);
-  padding: 8px;
+  color: rgba(15, 23, 42, 0.45);
+  padding: 6px;
   z-index: 5;
 }
+.slide .fav-btn svg { width: 22px; height: 22px; stroke-width: 1.25; }
 .slide .fav-btn.on { color: var(--gold); }
-.slide .fav-btn.on svg { fill: currentColor; }
+.slide .fav-btn.on svg { fill: currentColor; stroke: var(--gold); }
 
 /* 右下圆形「了解更多」按钮 + 环形文字 */
 .learn-btn {
@@ -390,6 +402,19 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
 
 .action-row { display: flex; justify-content: center; padding: 18px 0 30px; }
+.action-row .fav-tool {
+  /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
+  border-color: rgba(140, 109, 63, 0.5);
+  color: rgba(29, 27, 22, 0.7);
+  font-size: 15px;
+  padding: 10px 24px;
+}
+.action-row .fav-tool.on {
+  background: rgba(140, 109, 63, 0.12);
+  color: var(--gold);
+  border-color: var(--gold);
+}
+.action-row .fav-tool svg { width: 16px; height: 16px; }
 .action-btn {
   display: flex;
   align-items: center;

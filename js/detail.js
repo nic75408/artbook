@@ -94,7 +94,7 @@ function render(el, w) {
       <div class="credit">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
         <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
       <div class="action-row">
-        <button class="action-btn" id="fav-act">${icons.star} 收藏画作</button>
+        <button class="action-btn fav-tool" id="fav-act">${icons.bookmark} 收藏</button>
       </div>
       <div class="related" id="related">
         <h2 class="section-title">相关推荐</h2>
@@ -145,10 +145,10 @@ function render(el, w) {
   const paintFav = () => {
     if (isFav(w.id)) {
       favBtn.classList.add("on");
-      favBtn.innerHTML = `${icons.star} 已收藏`;
+      favBtn.innerHTML = `${icons.bookmarkFilled} 已收藏`;
     } else {
       favBtn.classList.remove("on");
-      favBtn.innerHTML = `${icons.star} 收藏画作`;
+      favBtn.innerHTML = `${icons.bookmark} 收藏`;
     }
   };
   paintFav();
