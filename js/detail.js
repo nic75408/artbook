@@ -25,12 +25,9 @@ export async function mount(el, { id }) {
 function render(el, w) {
   const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
   const ratio = w.image.ratio || 1;
-  const artistMeta = [w.artist_nationality_zh, w.artist_years]
-    .filter((x) => x && x !== "不详")
-    .join("，");
-  const artistLine = `${esc(w.artist_en)} / ` +
-    `<a class="artist-zh-link" href="#/artist/${encodeURIComponent(w.artist_id)}">${esc(w.artist_zh)}</a>` +
-    (artistMeta ? `<span style="color:var(--ink-2)">（${esc(artistMeta)}）</span>` : "");
+
+  // 构建在馆信息
+  const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
 
   el.innerHTML = `
   <div class="detail">
@@ -40,26 +37,67 @@ function render(el, w) {
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
-    <div class="detail-body">
-      <div class="meta">
-        <div class="meta-row"><span class="k">作品名</span>
-          <span class="v">${esc(w.title_zh)}<span class="artist-en" style="display:block;font-family:var(--serif-en);font-size:14px;color:var(--ink-2)">${esc(w.title_en)}</span></span></div>
-        <div class="meta-row"><span class="k">创作者</span><span class="v">${artistLine}</span></div>
-        <div class="meta-row"><span class="k">创作年代</span><span class="v">${esc(w.date_display || "不详")}</span></div>
-        <div class="meta-row"><span class="k">作品材质</span><span class="v">${esc(w.medium_zh)}</span></div>
-        ${w.dimensions ? `<div class="meta-row"><span class="k">实际尺寸</span><span class="v">${esc(w.dimensions)}</span></div>` : ""}
+
+    <!-- 作品信息块：紧邻主图，标签+图像组合 -->
+    <div class="artwork-info-card">
+      <!-- H1: 作品名 -->
+      <h1 class="work-title">
+        <span class="work-title-zh">${esc(w.title_zh)}</span>
+        ${w.title_en && w.title_en !== w.title_zh ? `<span class="work-title-en">${esc(w.title_en)}</span>` : ''}
+      </h1>
+
+      <!-- 次要字段：作者、年代、材质、馆藏 -->
+      <div class="work-meta-compact">
+        <div class="work-meta-row">
+          <span class="work-meta-label">创作者</span>
+          <span class="work-meta-value">
+            <a class="artist-link" href="#/artist/${encodeURIComponent(w.artist_id)}">${esc(w.artist_zh)}</a>
+            <span class="artist-en">${esc(w.artist_en)}</span>
+          </span>
+        </div>
+        <div class="work-meta-row">
+          <span class="work-meta-label">创作年代</span>
+          <span class="work-meta-value">${esc(w.date_display || '不详')}</span>
+        </div>
+        ${w.medium_zh ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">作品材质</span>
+          <span class="work-meta-value">${esc(w.medium_zh)}</span>
+        </div>
+        ` : ''}
+        ${w.dimensions ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">实际尺寸</span>
+          <span class="work-meta-value">${esc(w.dimensions)}</span>
+        </div>
+        ` : ''}
+        ${creditMuseum ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">在馆收藏</span>
+          <span class="work-meta-value credit-name">${esc(creditMuseum)}</span>
+        </div>
+        ` : ''}
       </div>
+    </div>
+
+    <div class="detail-body">
       <div class="tags">${[w.movement_zh, ...(w.tags || [])].filter(Boolean)
         .map((t) => `<button class="tag-pill" data-tag="${esc(t)}">${esc(t)}</button>`)
         .join("")}</div>
+
+      <!-- H2: 赏析标题（本篇章赏析） -->
+      <h2 class="section-title">本篇章赏析</h2>
+
+      <!-- 正文赏析：H3 作为段落标识由样式控制层级 -->
       <div class="essay"></div>
+
       <div class="credit">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
         <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
       <div class="action-row">
         <button class="action-btn" id="fav-act">${icons.star} 收藏画作</button>
       </div>
       <div class="related" id="related">
-        <h2>相关推荐</h2>
+        <h2 class="section-title">相关推荐</h2>
         <div class="related-scroll" id="related-scroll"></div>
       </div>
     </div>
@@ -88,6 +126,7 @@ function render(el, w) {
   const essayEl = el.querySelector(".essay");
   (w.essay || []).forEach((p, i) => {
     const pEl = document.createElement("p");
+    pEl.className = "body-text";
     pEl.textContent = p;
     essayEl.appendChild(pEl);
     if (i === 1 && (w.essay || []).length >= 2) {
