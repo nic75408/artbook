@@ -321,7 +321,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   font-weight: 400;
 }
 
-/* 次要字段：轻量级、紧凑 */
+/* 次要字段：轻量级、紧凑 — 带标签版本 */
 .artwork-info-card .work-meta-compact {
   margin-top: 14px;
 }
@@ -329,20 +329,33 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .artwork-info-card .work-meta-row {
   display: flex;
   align-items: baseline;
-  gap: 12px;
-  padding: 6px 0;
-  font-size: 14px;  /* ≤ 正文 0.9 倍（正文 17px → 14px ≈ 0.82x） */
+  gap: 10px;
+  padding: 5px 0;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 .artwork-info-card .work-meta-label {
   color: var(--ink-2);
-  flex: 0 0 5em;  /* 固定 5 字宽度 */
+  flex: 0 0 auto;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 
 .artwork-info-card .work-meta-value {
   color: var(--ink);
   flex: 1;
+}
+
+/* 特殊字段样式 */
+.artwork-info-card .artist-line .work-meta-label {
+  /* ARTIST 标签 */
+}
+
+.artwork-info-card .artist-line .work-meta-value {
+  display: inline;
 }
 
 .artwork-info-card .artist-link {
@@ -375,6 +388,26 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 
 .related .section-title {
   margin: 0 0 14px 0;
+}
+
+/* ============================================================ 赏析小节：整体印象 vs 局部细节 */
+
+.essay-section {
+  margin-bottom: 20px;
+}
+
+.essay-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink-2);
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+}
+
+.essay-section .body-text {
+  margin-bottom: 12px;
 }
 
 /* ============================================================ 详情页头部 */
@@ -451,7 +484,12 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 }
 .credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
 
-.action-row { display: flex; justify-content: center; padding: 18px 0 30px; }
+.action-row { 
+  display: flex; 
+  justify-content: flex-start; 
+  padding: 18px 0 30px; 
+  gap: 12px;
+}
 .action-row .fav-tool {
   /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
   border-color: rgba(140, 109, 63, 0.5);
@@ -465,6 +503,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   border-color: var(--gold);
 }
 .action-row .fav-tool svg { width: 16px; height: 16px; }
+
 .action-btn {
   display: flex;
   align-items: center;
@@ -478,13 +517,25 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .action-btn.on { background: var(--gold); color: var(--bg-card); }
 .action-btn.on svg { fill: currentColor; }
 
-.related { padding-top: 14px; }
-.related h2 {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0 var(--page-gutter) 14px;
-  max-width: var(--content-max);
-  margin: 0 auto;
+/* 下载按钮样式与收藏按钮一致 */
+.action-row .download-btn {
+  border-color: rgba(140, 109, 63, 0.5);
+  color: rgba(29, 27, 22, 0.7);
+  font-size: 15px;
+  padding: 10px 24px;
+}
+.action-row .download-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.related { 
+  padding-top: 14px; 
+  padding-left: 0;
+}
+.related .section-title {
+  margin: 0 0 14px 0;
+  padding-left: 0;
 }
 .related-scroll {
   display: flex;
