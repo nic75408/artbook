@@ -26,14 +26,23 @@ region 类型定义（detailCrop.region）：
 
 essay 段落 scope 标记约定：
 第 2 段（画面看点）必须对应 detailCrop.region：
-- 若 region=face → 描述面部细节
-- 若 region=clothing → 描述衣物质感纹理
-- 若 region=background → 描述背景环境处理
-- 若 region=torso_neck → 描述身体姿态或颈部线条
-- 若 region=whole_work → 描述整体构图
+- 若 region=face → 描述面部细节（五官、表情、眼神、肤色等）
+- 若 region=clothing → 描述衣物质感纹理（面料、褶皱、装饰、色彩等）
+- 若 region=background → 描述背景环境处理（风景、建筑、室内、道具等）
+- 若 region=torso_neck → 描述身体姿态或颈部线条（肩膀、手臂、躯干动态等）
+- 若 region=whole_work → 描述整体构图（人物关系、空间布局、整体氛围等）
 
-禁止出现图文错位：不要在 region=clothing/background/torso_neck 的段落中描述面部表情；
-若 detailCrop 为衣服/背景，则不要写「眼神」「面容」「表情」等词汇。
+禁止出现图文错位（违反即不合格）：
+- region=clothing 时：禁止写「眼神」「面容」「表情」「五官」「脸色」「嘴唇」「鼻子」「眉毛」等面部词汇
+- region=background 时：禁止写「眼神」「面容」「表情」「五官」「脸色」「嘴唇」「鼻子」「眉毛」「手部」「身体」「衣服」等人物细节词汇
+- region=torso_neck 时：禁止写「眼神」「面容」「表情」「五官」「脸色」「嘴唇」「鼻子」「眉毛」等面部词汇
+- 若 detailCrop 为衣服/背景/躯干，则第 2 段必须聚焦于该局部可见的内容
+
+负面示例（不要这样写）：
+✗ region=clothing 时写：「她眼神平静，面容姣好」→ 错！这是 clothing region，看不到脸
+✗ region=torso_neck 时写：「他眉头紧锁，目光坚定」→ 错！这是 torso region，看不到脸
+✓ region=clothing 时写：「深褐色粗麻面料上，厚涂法堆叠出织物经年的磨损痕迹」→ 对！聚焦衣物质感
+✓ region=torso_neck 时写：「肩膀微微前倾，手臂肌肉紧绷，显示出用力的姿态」→ 对！聚焦身体动态
 
 赏析写作硬约束（违反即不合格）：
 1. essay 共 2-4 段；每段 60-150 字；总长 250-450 字。

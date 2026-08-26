@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-08-26T19:24:52.283925",
+  "base_url": "http://127.0.0.1:8888",
+  "viewports": [
+    {
+      "name": "iphone14pro",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "iphonese",
+      "width": 375,
+      "height": 667
+    },
+    {
+      "name": "android",
+      "width": 360,
+      "height": 800
+    }
+  ],
+  "samples": [
+    {
+      "id": "met-436838",
+      "title_zh": "算命者",
+      "region": "clothing",
+      "screenshots": [
+        "met-436838_iphone14pro_390x844.png",
+        "met-436838_iphonese_375x667.png",
+        "met-436838_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-435868",
+      "title_zh": "玩牌者",
+      "region": "clothing",
+      "screenshots": [
+        "met-435868_iphone14pro_390x844.png",
+        "met-435868_iphonese_375x667.png",
+        "met-435868_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-437216",
+      "title_zh": "十五端奥迹与玫瑰圣母",
+      "region": "clothing",
+      "screenshots": [
+        "met-437216_iphone14pro_390x844.png",
+        "met-437216_iphonese_375x667.png",
+        "met-437216_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-437202",
+      "title_zh": "背负十字架的基督",
+      "region": "face",
+      "screenshots": [
+        "met-437202_iphone14pro_390x844.png",
+        "met-437202_iphonese_375x667.png",
+        "met-437202_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-435875",
+      "title_zh": "温室里的塞尚夫人",
+      "region": "face",
+      "screenshots": [
+        "met-435875_iphone14pro_390x844.png",
+        "met-435875_iphonese_375x667.png",
+        "met-435875_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-436284",
+      "title_zh": "圣徒引荐的捐赠者",
+      "region": "face",
+      "screenshots": [
+        "met-436284_iphone14pro_390x844.png",
+        "met-436284_iphonese_375x667.png",
+        "met-436284_android_360x800.png"
+      ]
+    },
+    {
+      "id": "met-39931",
+      "title_zh": "山水册页",
+      "region": "torso_neck",
+      "screenshots": [
+        "met-39931_iphone14pro_390x844.png",
+        "met-39931_iphonese_375x667.png",
+        "met-39931_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-120230",
+      "title_zh": "春之洞门",
+      "region": "torso_neck",
+      "screenshots": [
+        "cma-120230_iphone14pro_390x844.png",
+        "cma-120230_iphonese_375x667.png",
+        "cma-120230_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-107035",
+      "title_zh": "阿里阿德涅的遗弃",
+      "region": "torso_neck",
+      "screenshots": [
+        "cma-107035_iphone14pro_390x844.png",
+        "cma-107035_iphonese_375x667.png",
+        "cma-107035_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-95087",
+      "title_zh": "仿巨然山水图",
+      "region": "whole_work",
+      "screenshots": [
+        "cma-95087_iphone14pro_390x844.png",
+        "cma-95087_iphonese_375x667.png",
+        "cma-95087_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-95308",
+      "title_zh": "习作",
+      "region": "whole_work",
+      "screenshots": [
+        "cma-95308_iphone14pro_390x844.png",
+        "cma-95308_iphonese_375x667.png",
+        "cma-95308_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-121140",
+      "title_zh": "火车上：一位愉快的旅伴",
+      "region": "whole_work",
+      "screenshots": [
+        "cma-121140_iphone14pro_390x844.png",
+        "cma-121140_iphonese_375x667.png",
+        "cma-121140_android_360x800.png"
+      ]
+    }
+  ],
+  "total_screenshots": 36,
+  "output_dir": "data/evidence/screenshots"
+}
