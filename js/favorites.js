@@ -57,7 +57,7 @@ export async function mount(el) {
   <div class="page">
     <header class="page-header">
       <button id="back" aria-label="返回">${icons.chevronLeft}</button>
-      <div class="title">收藏</div>
+      <div class="title">我的收藏夹</div>
     </header>
     <div id="fav-body"></div>
     <div class="favs-footer">收藏保存在本机浏览器中，清除网站数据会丢失。</div>
