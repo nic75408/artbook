@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:02:00.530446",
+  "generated_at": "2026-08-26T21:48:50.711189",
   "purpose": "验收标准 1 和 2 的手动验证证据",
   "methodology": "从最近 15 期数据中筛选合规样本。筛选标准：\n- detailCrop.region 必须是 face/torso_neck/clothing/background/whole_work 之一\n- essay 至少 2 段\n- 非 face/whole_work region 的样本，essay 前 2 段不包含 face 术语\n- 随机种子：42 (确保可复现)\n- 每种 region 类型最多采样 5 个样本",
   "reproducibility": {
@@ -12,11 +12,11 @@
     "total_scanned": 25,
     "total_compliant_samples": 21,
     "coverage": {
-      "background": 1,
-      "torso_neck": 92,
-      "whole_work": 113,
       "clothing": 98,
-      "face": 58
+      "face": 58,
+      "whole_work": 113,
+      "torso_neck": 92,
+      "background": 1
     },
     "note": "所有 5 种 region 类型均有覆盖。"
   },
@@ -45,147 +45,183 @@
   },
   "samples": [
     {
-      "id": "met-436000",
-      "title_zh": "风景习作",
-      "title_en": "Landscape Study",
-      "region": "background",
-      "scope": "region_background",
-      "date": "2026-08-26",
-      "source_file": "2026-08-26.json",
-      "essay_paragraph_2": "画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。注意山脊线的处理：笔触轻盈而概括，与前景细致的草地形成鲜明对比，这种虚实对比让画面更具呼吸感。",
-      "detailCrop": {
-        "cx": 0.6,
-        "cy": 0.5,
-        "r": 0.15,
-        "region": "background"
-      },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-101974",
-      "title_zh": "凡尔赛门防御工事",
-      "title_en": "At the Fortifications, Porte de Versailles",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面右侧前景的妇人背影是视觉重心，勒佩尔用密集的交叉排线堆叠出厚重的衣物质感，与左侧稀疏的篱笆形成疏密对比。远处工厂烟囱的轻淡线条暗示了工业烟尘，这种空气透视处理得相当老练。",
-      "detailCrop": {
-        "cx": 0.68,
-        "cy": 0.55,
-        "r": 0.12,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1920.635",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-120945",
-      "title_zh": "阿平岩",
-      "title_en": "Appin Rocks",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-18",
-      "source_file": "2026-08-18.json",
-      "essay_paragraph_2": "画面左侧巨大的岩壁占据了视觉重心，卡梅隆利用干刻特有的毛边线条（burr），在岩石的阴影处堆叠出厚重、丝绒般的黑色质感。这种深沉的暗部与右侧大面积留白的天空及海面形成强烈反差，营造出一种近乎肃穆的静谧感。",
-      "detailCrop": {
-        "cx": 0.25,
-        "cy": 0.45,
-        "r": 0.2,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1941.647",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-160913",
-      "title_zh": "三清图",
-      "title_en": "Three Purities",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-17",
-      "source_file": "2026-08-17.json",
-      "essay_paragraph_2": "画面最精彩处在于松干的质感处理。老松主干横亘画面，树皮皴法粗犷苍劲，墨色浓淡干湿变化丰富，极好地表现了老树历经风霜的粗糙肌理。与之形成鲜明对比的是松针的细密勾勒，笔笔分明，劲挺有力。这种粗与细、刚与柔的并置，构成了画面的视觉张力。",
+      "id": "cma-122223",
+      "title_zh": "博士来拜",
+      "title_en": "The Adoration of the Magi",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-24",
+      "source_file": "2026-08-24.json",
+      "essay_paragraph_2": "画面最迷人的地方在于对物质世界的极度迷恋。请注意前景中那位跪拜的博士，他的长袍上布满了繁复的金色纹样，每一笔都极尽工细。这种对织物纹理的执着描绘，甚至超过了对人物体积感的塑造。背景中起伏的山丘与点缀其间的金色树木，共同构建了一个既非完全写实、又充满童话色彩的舞台。",
       "detailCrop": {
         "cx": 0.52,
-        "cy": 0.55,
-        "r": 0.18,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1999.193",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-127572",
-      "title_zh": "天使报喜",
-      "title_en": "The Annunciation",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-17",
-      "source_file": "2026-08-17.json",
-      "essay_paragraph_2": "画面最精彩处在于天使衣褶的处理——那是典型的威尼斯式笔触，厚重油彩堆叠出丝绸的体积感与光泽。注意天使脚下那团云雾，并非虚无缥缈的留白，而是用灰白与淡紫交织出的实体感，仿佛天使是真正踩在某种物质上降临。这种对物质世界的迷恋，是威尼斯画家区别于佛罗伦萨同行的标志。",
-      "detailCrop": {
-        "cx": 0.32,
-        "cy": 0.45,
-        "r": 0.14,
-        "region": "torso_neck"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1950.251",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-153727",
-      "title_zh": "桃园结义",
-      "title_en": "Oath of the Peach Garden, from Romance of the Three Kingdoms",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-15",
-      "source_file": "2026-08-15.json",
-      "essay_paragraph_2": "画面最精彩处在于线条的书法性运用。放大看刘备（左）的衣纹，线条细劲流畅，起笔收笔皆有顿挫，与背景梅树枯涩的枝干形成质感对比。这种对线条表现力的极致追求，是吴春南画风格的典型特征。",
-      "detailCrop": {
-        "cx": 0.38,
-        "cy": 0.45,
+        "cy": 0.68,
         "r": 0.12,
-        "region": "torso_neck"
+        "region": "clothing"
       },
-      "sourceUrl": "https://clevelandart.org/art/1987.35",
+      "sourceUrl": "https://clevelandart.org/art/1942.536",
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-160726",
-      "title_zh": "归云庵",
-      "title_en": "Guiyun Shrine",
-      "region": "whole_work",
-      "scope": "whole_work",
-      "date": "2026-08-23",
-      "source_file": "2026-08-23.json",
-      "essay_paragraph_2": "画面最精彩之处在于对云气的处理——画家并未使用传统的留白，而是以淡墨层层烘染，营造出厚重且流动的质感。这种云雾分割了前景的楼阁与后景的峰峦，在视觉上制造了深远的纵深感。右下角的松树与建筑线条硬朗，与中部柔和弥漫的烟云形成强烈的虚实对比。",
-      "detailCrop": {
-        "cx": 0.55,
-        "cy": 0.45,
-        "r": 0.22,
-        "region": "whole_work"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1998.78.11",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "met-435897",
-      "title_zh": "基督头像（Ecce Homo）",
-      "title_en": "Head of Christ (Ecce Homo)",
-      "region": "whole_work",
-      "scope": "whole_work",
+      "id": "met-848137",
+      "title_zh": "裸体男子习作",
+      "title_en": "Study of a Nude Man",
+      "region": "clothing",
+      "scope": "region_clothing",
       "date": "2026-08-14",
       "source_file": "2026-08-14.json",
-      "essay_paragraph_2": "画面中，基督的面容被细致描绘，荆棘冠冕下的血迹清晰可见，尤其是额头上的血滴，通过精细的笔触表现出液体的质感与光泽。背景深蓝色调与金色装饰形成强烈对比，增强了神圣感。基督的眼神直视观者，传达出一种超越时空的悲悯与沉思。",
+      "essay_paragraph_2": "光线从左上方切入，在背部脊柱沟壑与紧绷的臀大肌上形成强烈的高光，塑造出雕塑般的坚实质感。注意看支撑身体的右手——指节因用力而发白，手背青筋暴起，这种对受力状态的精准捕捉，比光滑的皮肤更具说服力。暗部并非死黑，而是透着暖褐色的空气感。",
+      "detailCrop": {
+        "cx": 0.22,
+        "cy": 0.65,
+        "r": 0.12,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/848137",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-437868",
+      "title_zh": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
+      "title_en": "Don Gaspar de Guzmán (1587–1645), Count-Duke of Olivares",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面最精彩处在于白马的肌肉处理——马佐用灰白与淡蓝的短促笔触堆叠出马匹紧绷的胸肌与腿部线条，马鬃与尾毛的飞动感极强。这种对动物动态的敏锐观察，明显承袭自委拉斯开兹，但笔触略显琐碎，少了一份举重若轻的概括力。",
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437868",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-159724",
+      "title_zh": "仿王渊黄菊红桂图",
+      "title_en": "Yellow Chrysanthemums and Red Osmanthus in the Style of Wang Yuan",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-26",
+      "source_file": "2026-08-26.json",
+      "essay_paragraph_2": "画面最精彩处在于岩石与花卉的质感对比。岩石以粗笔淡墨横扫，笔触苍劲且带有飞白，呈现出坚硬的体量感；而桂花与菊花则用没骨法点染，色彩淡雅清丽。这种粗犷与细腻的并置，在视觉上形成了极佳的张力。",
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.65,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1997.100",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-149391",
+      "title_zh": "白衣观音",
+      "title_en": "White-Robed Guanyin",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-17",
+      "source_file": "2026-08-17.json",
+      "essay_paragraph_2": "画面最精彩处在于衣纹的处理——仅用几根连绵不断的墨线，便勾勒出观音坐姿的体量与衣料的垂坠感。这种“铁线描”看似随意，实则对运笔的稳定性要求极高，稍有迟疑便会破坏整体的气韵流动。",
       "detailCrop": {
         "cx": 0.5,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1978.47.2",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-171078",
+      "title_zh": "酒神与阿里阿德涅",
+      "title_en": "Bacchus and Ariadne",
+      "region": "face",
+      "scope": "region_face",
+      "date": "2026-08-15",
+      "source_file": "2026-08-15.json",
+      "essay_paragraph_2": "画面最精彩之处在于酒神巴克斯那极具动感的飞跃姿态，以及他身后那抹如旗帜般在风中猎猎作响的猩红披风。博恩利用琅材质特有的光泽感，极好地还原了丝绸在光照下的流动质感。左侧阿里阿德涅惊愕回望的神情与右侧狂欢的酒神随从形成强烈的动静对比，构图张力十足。",
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://clevelandart.org/art/2013.51",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-124076",
+      "title_zh": "圣母加冕",
+      "title_en": "Coronation of the Virgin",
+      "region": "face",
+      "scope": "region_face",
+      "date": "2026-08-15",
+      "source_file": "2026-08-15.json",
+      "essay_paragraph_2": "画面中，圣母玛利亚跪在中央，身着蓝色长袍，双手合十，神情庄重而虔诚。耶稣基督站在她的右侧，正为她加冕，动作温柔而神圣。左侧的天使手持蓝色球体，象征着宇宙的秩序。背景的金箔装饰和复杂的几何图案，增添了画面的神圣感和华丽感。",
+      "detailCrop": {
+        "cx": 0.65,
         "cy": 0.35,
         "r": 0.15,
-        "region": "whole_work"
+        "region": "face"
       },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435897",
+      "sourceUrl": "https://clevelandart.org/art/1944.79",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-435621",
+      "title_zh": "圣女贞德",
+      "title_en": "Joan of Arc",
+      "region": "face",
+      "scope": "region_face",
+      "date": "2026-08-14",
+      "source_file": "2026-08-14.json",
+      "essay_paragraph_2": "画面最耐人寻味的是贞德身后的幻象处理。画家没有使用传统的金色光环或戏剧性布光，而是让天使以半透明的幽灵形态悬浮在树丛间，仿佛只是光线折射的错觉。这种处理让神迹看起来像是一种心理投射，而非超自然现象。",
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-161017",
+      "title_zh": "书画册页",
+      "title_en": "Album of Calligraphy and Paintings",
+      "region": "face",
+      "scope": "region_face",
+      "date": "2026-08-25",
+      "source_file": "2026-08-25.json",
+      "essay_paragraph_2": "画面右侧两只大雁振翅掠过，姿态舒展。最值得玩味的是雁身的墨色处理——并非平涂，而是用淡墨侧锋扫出羽毛的蓬松质感，翼尖与尾羽则用浓墨勾勒，层次分明。左侧芦苇以书法笔意入画，线条苍劲，与题跋的行草书风形成呼应，构成了典型的“书画同源”视觉现场。",
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1999.260.d",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-435876",
+      "title_zh": "穿红裙的塞尚夫人",
+      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
+      "region": "face",
+      "scope": "region_face",
+      "date": "2026-08-13",
+      "source_file": "2026-08-13.json",
+      "essay_paragraph_2": "画面最耐看的是人物面部的处理——塞尚放弃了传统的明暗晕染，改用细碎的笔触堆叠出结构。注意看颧骨与鼻梁处，冷峻的蓝绿阴影与暖红的受光面直接碰撞，这种看似生硬的拼接，实则是为了在二维平面上模拟出雕塑般的坚实感。",
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.32,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435876",
       "compliance_note": "✓ 合规"
     },
     {
@@ -204,6 +240,24 @@
         "region": "whole_work"
       },
       "sourceUrl": "https://clevelandart.org/art/1951.453",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-160726",
+      "title_zh": "归云庵",
+      "title_en": "Guiyun Shrine",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-23",
+      "source_file": "2026-08-23.json",
+      "essay_paragraph_2": "画面最精彩之处在于对云气的处理——画家并未使用传统的留白，而是以淡墨层层烘染，营造出厚重且流动的质感。这种云雾分割了前景的楼阁与后景的峰峦，在视觉上制造了深远的纵深感。右下角的松树与建筑线条硬朗，与中部柔和弥漫的烟云形成强烈的虚实对比。",
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.22,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1998.78.11",
       "compliance_note": "✓ 合规"
     },
     {
@@ -243,183 +297,129 @@
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-163582",
-      "title_zh": "庭院中两头大象在穆罕默德·沙面前搏斗",
-      "title_en": "Two Elephants Fighting in a Courtyard Before Muhammad Shah",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-23",
-      "source_file": "2026-08-23.json",
-      "essay_paragraph_2": "画面右下角的局部最值得玩味。在占据画面主体的空白处旁，画家勾勒了一位身披长袍的旁观者与一株风格化的植物。这种极简的线描与标题中“大象搏斗”的激烈动态形成巨大反差，暗示了原稿可能是一幅未完成的底稿，或是被裁切后的残页。",
+      "id": "cma-85861",
+      "title_zh": "果园",
+      "title_en": "Orchard",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-21",
+      "source_file": "2026-08-21.json",
+      "essay_paragraph_2": "画面中，色彩块面被用来构建空间，而非传统的透视法。前景的灰白色小径与中景的黄绿色树丛形成对比，笔触松散而自由。局部放大可见，树叶并非细致描绘，而是用色块堆叠，营造出光影斑驳的效果。",
       "detailCrop": {
-        "cx": 0.78,
-        "cy": 0.78,
-        "r": 0.15,
-        "region": "clothing"
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "whole_work"
       },
-      "sourceUrl": "https://clevelandart.org/art/2005.1.b",
+      "sourceUrl": "https://clevelandart.org/art/2020.120",
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-143879",
-      "title_zh": "潇湘八景图屏风",
-      "title_en": "Eight Views of the Xiao and Xiang Rivers",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-20",
-      "source_file": "2026-08-20.json",
-      "essay_paragraph_2": "画面最精彩处在于对“虚”的处理。请看右侧近景的岩石与枯树，墨色在湿润的纸面上自然晕开，边缘模糊而富有呼吸感。这种“没骨”画法省去了勾勒轮廓的线条，仅靠墨块的浓淡堆叠出体积。树干的扭曲姿态与远处淡墨抹出的山峦形成强烈的虚实对比，留白处即是浩渺的江水与雾气。",
+      "id": "cma-92936",
+      "title_zh": "缅因海岸",
+      "title_en": "Maine Coast",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-22",
+      "source_file": "2026-08-22.json",
+      "essay_paragraph_2": "画面最精彩之处在于天空与雪地的色彩博弈。肯特没有使用纯白，而是用冷灰与淡蓝铺陈雪面，以呼应上方厚重的积雨云。注意画面右侧海平线处那一抹深邃的普鲁士蓝，它像一道切口，将沉闷的冬日氛围瞬间打破，带来了呼吸感。",
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.42,
+        "r": 0.12,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1922.1132",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-113031",
+      "title_zh": "大雄沐浴图（出自《劫波经》第 31 页）",
+      "title_en": "Ritual Bath of Mahavira, Folio 31 (recto), from a Kalpa-sutra",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面右侧的大雄（Mahavira）端坐于莲花座上，通体施以厚重的金粉，在深红与群青的底色衬托下显得庄严辉煌。请注意其头光与衣饰的描金线条——画师用极细的笔触勾勒出繁复的珠宝纹样，这种对平面装饰感的极致追求，完全压倒了对于人体解剖结构的写实描绘。",
       "detailCrop": {
         "cx": 0.82,
-        "cy": 0.65,
-        "r": 0.15,
-        "region": "clothing"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1968.267",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-95306",
-      "title_zh": "素描习作",
-      "title_en": "Sketch",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于衣褶的处理——考克斯用极其细腻的排线，构建出织物厚重的垂坠感与光影体积。请注意左臂护腕处的纹样与下方果篮的刻画，线条繁复却秩序井然，这种对装饰细节的耐心，是当时学院训练的典型特征。",
-      "detailCrop": {
-        "cx": 0.72,
-        "cy": 0.65,
-        "r": 0.15,
-        "region": "clothing"
-      },
-      "sourceUrl": "https://clevelandart.org/art/1916.1077",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "met-437868",
-      "title_zh": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
-      "title_en": "Don Gaspar de Guzmán (1587–1645), Count-Duke of Olivares",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于白马的肌肉处理——马佐用灰白与淡蓝的短促笔触堆叠出马匹紧绷的胸肌与腿部线条，马鬃与尾毛的飞动感极强。这种对动物动态的敏锐观察，明显承袭自委拉斯开兹，但笔触略显琐碎，少了一份举重若轻的概括力。",
-      "detailCrop": {
-        "cx": 0.42,
-        "cy": 0.68,
+        "cy": 0.45,
         "r": 0.18,
-        "region": "clothing"
+        "region": "torso_neck"
       },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437868",
+      "sourceUrl": "https://clevelandart.org/art/1932.119.31.a",
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-437261",
-      "title_zh": "圣杰罗姆的忏悔",
-      "title_en": "The Penitence of Saint Jerome",
-      "region": "clothing",
-      "scope": "region_clothing",
+      "id": "cma-101974",
+      "title_zh": "凡尔赛门防御工事",
+      "title_en": "At the Fortifications, Porte de Versailles",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-12",
+      "source_file": "2026-08-12.json",
+      "essay_paragraph_2": "画面右侧前景的妇人背影是视觉重心，勒佩尔用密集的交叉排线堆叠出厚重的衣物质感，与左侧稀疏的篱笆形成疏密对比。远处工厂烟囱的轻淡线条暗示了工业烟尘，这种空气透视处理得相当老练。",
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.55,
+        "r": 0.12,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1920.635",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-438815",
+      "title_zh": "夏庞蒂埃夫人和她的孩子们",
+      "title_en": "Madame Georges Charpentier (Marguerite-Louise Lemonnier, 1848–1904) and Her Children, Georgette-Berthe (1872–1945) and Paul-Emile-Charles (1875–1895)",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
       "date": "2026-08-13",
       "source_file": "2026-08-13.json",
-      "essay_paragraph_2": "画面中央的圣杰罗姆跪在嶙峋的岩石前，姿态极具张力。注意他深蓝色的长袍与周围黄绿色草地的色彩对比，这种高饱和度的处理让前景人物从复杂的背景中跳脱出来。岩石的肌理刻画得如地质标本般精确，展现了尼德兰画家对物质世界的痴迷观察。",
+      "essay_paragraph_2": "画面最精彩之处在于对黑色丝绒的处理。请看夏庞蒂埃夫人的裙摆——雷诺阿没有使用死黑，而是用深蓝、深紫甚至墨绿的碎笔触堆叠出织物的厚度与光泽。这种画法既保留了印象派笔触的呼吸感，又精准地表现了高级定制礼服的垂坠质感，与孩子们身上轻盈的蓝白棉布形成强烈的材质对比。",
       "detailCrop": {
-        "cx": 0.5,
-        "cy": 0.65,
-        "r": 0.12,
-        "region": "clothing"
-      },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437261",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "met-440209",
-      "title_zh": "施洗者圣约翰的殉难",
-      "title_en": "The Martyrdom of Saint John the Baptist",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-15",
-      "source_file": "2026-08-15.json",
-      "essay_paragraph_2": "画面最耐看的是右侧那群看客。凡·奥利用近乎工笔的耐心描绘了他们的衣着——菱形格纹的紧身裤、袖口的褶皱、甚至乐手手中的鲁特琴。这种对物质世界的迷恋，是北方画家的本能，即便在描绘血腥殉难时也不忘展示华服。",
-      "detailCrop": {
-        "cx": 0.78,
-        "cy": 0.35,
-        "r": 0.18,
-        "region": "face"
-      },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/440209",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "cma-124076",
-      "title_zh": "圣母加冕",
-      "title_en": "Coronation of the Virgin",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-15",
-      "source_file": "2026-08-15.json",
-      "essay_paragraph_2": "画面中，圣母玛利亚跪在中央，身着蓝色长袍，双手合十，神情庄重而虔诚。耶稣基督站在她的右侧，正为她加冕，动作温柔而神圣。左侧的天使手持蓝色球体，象征着宇宙的秩序。背景的金箔装饰和复杂的几何图案，增添了画面的神圣感和华丽感。",
-      "detailCrop": {
-        "cx": 0.65,
-        "cy": 0.35,
+        "cx": 0.58,
+        "cy": 0.55,
         "r": 0.15,
-        "region": "face"
+        "region": "torso_neck"
       },
-      "sourceUrl": "https://clevelandart.org/art/1944.79",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438815",
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-149104",
-      "title_zh": "巫术场景",
-      "title_en": "Scenes of Witchcraft",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-19",
-      "source_file": "2026-08-19.json",
-      "essay_paragraph_2": "画面最精彩处在于对怪诞生物的刻画。右上角圆盘里，骑在猫头鹰状怪物背上的老巫婆，其枯槁的面容与飞扬的白发形成强烈对比；左下角则通过极暗的色调处理，让骷髅与夜行生物在微弱的火光中若隐若现。罗萨擅长用粗砺的笔触表现粗糙的岩石与扭曲的肢体，营造出一种原始而野性的质感。",
+      "id": "cma-148297",
+      "title_zh": "大树",
+      "title_en": "The Large Tree",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-17",
+      "source_file": "2026-08-17.json",
+      "essay_paragraph_2": "画面左侧那棵巨大的蓝灰色树干是视觉重心，高更用平涂的色块概括了树皮的质感，而非描摹纹理。这种处理方式让树木像舞台布景般矗立，强行分割了空间。树冠的深绿与地面的赭红形成强烈的冷暖对比，这种非自然的色彩选择，旨在传达热带午后那种令人窒息的静谧与热度。",
       "detailCrop": {
-        "cx": 0.74,
-        "cy": 0.26,
+        "cx": 0.22,
+        "cy": 0.45,
         "r": 0.18,
-        "region": "face"
+        "region": "torso_neck"
       },
-      "sourceUrl": "https://clevelandart.org/art/1977.37",
+      "sourceUrl": "https://clevelandart.org/art/1975.263",
       "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-125948",
-      "title_zh": "音乐与舞蹈及丘比特的密谋",
-      "title_en": "Music and Dance and Cupids in Conspiracy ",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-24",
-      "source_file": "2026-08-24.json",
-      "essay_paragraph_2": "布歇对肉体质感的处理堪称一绝。请看画面右侧那组丘比特，肌肤呈现出一种半透明的粉嫩色泽，仿佛由奶油与玫瑰花瓣揉捏而成。这种被称为“布歇粉”的色调，配合丝绸般顺滑的笔触，让画面充满了甜腻的触感。背景中贝壳状喷泉与流水的处理，则展示了他在营造梦幻氛围上的高超技巧。",
+      "id": "met-436000",
+      "title_zh": "风景习作",
+      "title_en": "Landscape Study",
+      "region": "background",
+      "scope": "region_background",
+      "date": "2026-08-26",
+      "source_file": "2026-08-26.json",
+      "essay_paragraph_2": "画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。注意山脊线的处理：笔触轻盈而概括，与前景细致的草地形成鲜明对比，这种虚实对比让画面更具呼吸感。",
       "detailCrop": {
-        "cx": 0.75,
-        "cy": 0.25,
+        "cx": 0.6,
+        "cy": 0.5,
         "r": 0.15,
-        "region": "face"
+        "region": "background"
       },
-      "sourceUrl": "https://clevelandart.org/art/1948.181",
-      "compliance_note": "✓ 合规"
-    },
-    {
-      "id": "met-435875",
-      "title_zh": "温室里的塞尚夫人",
-      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
-      "region": "face",
-      "scope": "region_face",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于人物与背景的博弈。请看面部与衣领的交界处——塞尚用冷峻的蓝绿色块塑造深色裙装，却用暖赭石色勾勒脸颊，这种冷暖并置让形体在平面上‘浮’了起来。背景中植物的笔触粗犷而概括，与人物严谨的坐姿形成张力。",
-      "detailCrop": {
-        "cx": 0.48,
-        "cy": 0.28,
-        "r": 0.12,
-        "region": "face"
-      },
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435875",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000",
       "compliance_note": "✓ 合规"
     }
   ]
