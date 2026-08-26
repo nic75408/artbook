@@ -4,7 +4,7 @@
     "width": 390,
     "height": 844
   },
-  "timestamp": "2026-08-26T09:44:18.349Z",
+  "timestamp": "2026-08-26T09:51:18.685Z",
   "pages": [
     {
       "name": "feed",
@@ -59,24 +59,58 @@
     },
     {
       "name": "detail",
-      "url": "http://127.0.0.1:8765/#/work/1",
+      "url": "http://127.0.0.1:8765/#/work/met-435809",
       "primaryElement": {
-        "selector": ".work-title",
-        "styles": null
+        "selector": ".work-title-zh",
+        "styles": {
+          "selector": ".work-title-zh",
+          "fontSize": "26px",
+          "fontFamily": "\"Songti SC\", \"Noto Serif CJK SC\", serif",
+          "fontWeight": "700",
+          "letterSpacing": "0.52px",
+          "lineHeight": "33.8px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "width": 296,
+          "height": 33.796875
+        }
       },
       "secondaryElement": {
         "selector": ".essay .body-text",
-        "styles": null
+        "styles": {
+          "selector": ".essay .body-text",
+          "fontSize": "17px",
+          "fontFamily": "\"PingFang SC\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontWeight": "400",
+          "letterSpacing": "0.34px",
+          "lineHeight": "32.3px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "18px",
+          "marginLeft": "0px",
+          "width": 296,
+          "height": 290.671875
+        }
       },
       "screenshots": {
         "fullPage": "typography-detail-390x844.png",
-        "primaryBox": null,
-        "secondaryBox": null
+        "primaryBox": "typography-detail-primary-box.png",
+        "secondaryBox": "typography-detail-secondary-box.png"
       }
     },
     {
       "name": "collection",
-      "url": "http://127.0.0.1:8765/#/artist/1",
+      "url": "http://127.0.0.1:8765/#/artist/pieter-bruegel-the-elder",
       "primaryElement": {
         "selector": ".page-header .title",
         "styles": {
@@ -100,12 +134,29 @@
       },
       "secondaryElement": {
         "selector": ".grid .card .t",
-        "styles": null
+        "styles": {
+          "selector": ".grid .card .t",
+          "fontSize": "15px",
+          "fontFamily": "\"Songti SC\", \"Noto Serif CJK SC\", serif",
+          "fontWeight": "600",
+          "letterSpacing": "0.3px",
+          "lineHeight": "21px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "marginTop": "2px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "width": 97.5,
+          "height": 21
+        }
       },
       "screenshots": {
         "fullPage": "typography-collection-390x844.png",
         "primaryBox": "typography-collection-primary-box.png",
-        "secondaryBox": null
+        "secondaryBox": "typography-collection-secondary-box.png"
       }
     },
     {

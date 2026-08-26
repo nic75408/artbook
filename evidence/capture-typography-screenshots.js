@@ -13,13 +13,13 @@ const PAGES = [
   },
   { 
     name: 'detail', 
-    url: 'http://127.0.0.1:8765/#/work/1',
-    selector: '.work-title',
+    url: 'http://127.0.0.1:8765/#/work/met-435809',
+    selector: '.work-title-zh',
     selector2: '.essay .body-text'
   },
   { 
     name: 'collection', 
-    url: 'http://127.0.0.1:8765/#/artist/1',
+    url: 'http://127.0.0.1:8765/#/artist/pieter-bruegel-the-elder',
     selector: '.page-header .title',
     selector2: '.grid .card .t'
   },
