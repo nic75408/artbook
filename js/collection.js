@@ -47,7 +47,7 @@ function bindGrid(el) {
 }
 
 function failState(el, cb) {
-  el.innerHTML = `<div class="empty"><div class="wordmark">艺术手册</div>
+  el.innerHTML = `<div class="empty"><div class="wordmark brand-title">艺术手册</div>
     <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
   el.querySelector("#retry").addEventListener("click", cb);
 }

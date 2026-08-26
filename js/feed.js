@@ -53,7 +53,7 @@ export async function mount(el) {
     ensureImages(currentIndex);
   } catch (e) {
     el.querySelector(".feed-scroller").innerHTML = `
-      <div class="empty"><div class="wordmark">${esc(WORDMARK)}</div>
+      <div class="empty"><div class="wordmark brand-title">${esc(WORDMARK)}</div>
       <p>暂时加载不出来</p>
       <button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate("#/"));

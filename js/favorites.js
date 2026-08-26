@@ -67,7 +67,7 @@ export async function mount(el) {
   const body = el.querySelector("#fav-body");
   if (!favs.length) {
     body.innerHTML = `<div class="empty">
-      <div class="wordmark">艺术手册</div>
+      <div class="wordmark brand-title">艺术手册</div>
       <p>还没有收藏。在画作下点亮星标，它会出现在这里。</p>
     </div>`;
     return;
