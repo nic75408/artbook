@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography Evidence — iPhone 14 Pro (390×844)</title>
+  <link rel="stylesheet" href="app.css">
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+      padding: 20px;
+    }
+    .frame {
+      border: 2px solid #333;
+      margin: 20px 0;
+      padding: 10px;
+      background: #111;
+    }
+    .frame h2 {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    iframe {
+      border: 1px solid #333;
+      background: #F5F1EA;
+    }
+    .note {
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Typography Evidence — iPhone 14 Pro (390×844)</h1>
+  <p>Open each frame in Chromium DevTools with Device Toolbar set to iPhone 14 Pro (390×844).</p>
+  
+  <div class="frame">
+    <h2>1. Feed View — Brand Title & First Artwork</h2>
+    <iframe src="http://127.0.0.1:8765/" width="390" height="844"></iframe>
+    <div class="note">Measure: .brand-title (≥18pt), .work-title (≥1.2× body), .meta-text (≤0.9× body)</div>
+  </div>
+  
+  <div class="frame">
+    <h2>2. Detail View — Work Title & Body Text</h2>
+    <iframe src="http://127.0.0.1:8765/#/work/monet-1840-1" width="390" height="844"></iframe>
+    <div class="note">Measure: content width 320-340px, left/right gutter diff ≤5px</div>
+  </div>
+  
+  <div class="frame">
+    <h2>3. Collection View — Page Gutter Consistency</h2>
+    <iframe src="http://127.0.0.1:8765/#/collection/impressionism" width="390" height="844"></iframe>
+    <div class="note">Measure: top/bottom padding diff ≤10px across pages</div>
+  </div>
+  
+  <script>
+    // Auto-log CSS variables for verification
+    const iframe = document.querySelector('iframe');
+    iframe.onload = () => {
+      const doc = iframe.contentDocument;
+      const root = doc.documentElement;
+      const styles = getComputedStyle(root);
+      console.log('CSS Variables:', {
+        textBrand: styles.getPropertyValue('--text-brand').trim(),
+        textWork: styles.getPropertyValue('--text-work').trim(),
+        textBody: styles.getPropertyValue('--text-body').trim(),
+        textMeta: styles.getPropertyValue('--text-meta').trim(),
+        pageGutter: styles.getPropertyValue('--page-gutter').trim(),
+        contentMax: styles.getPropertyValue('--content-max').trim()
+      });
+    };
+  </script>
+</body>
+</html>
