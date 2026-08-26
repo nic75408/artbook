@@ -1394,11 +1394,10 @@
     },
     {
       "id": "met-436000",
+      "source": "met",
+      "sourceId": "436000",
       "title_zh": "风景习作",
       "title_en": "Landscape Study",
-      "artist": "Test Artist",
-      "date": "1850",
-      "medium": "布面油画",
       "dimensions": "50 × 70 cm",
       "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000",
       "detailCrop": {
@@ -1415,6 +1414,26 @@
         "landscape",
         "background",
         "impressionism"
+      ],
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "artist_en": "Test Artist",
+      "artist_zh": "测试画家",
+      "artist_id": "test-artist",
+      "artist_nationality_zh": "测试",
+      "artist_years": "测试年份",
+      "date_display": "1850",
+      "year": 1850,
+      "medium_zh": "布面油画",
+      "movement_zh": "测试流派",
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-14345-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+        "ratio": 0.778
+      },
+      "palette": [
+        "#251b0c",
+        "#4d4531"
       ]
     }
   ]

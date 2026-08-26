@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:07:14.091266",
+  "generated_at": "2026-08-26T20:18:21.924391",
   "base_url": "http://127.0.0.1:8888",
   "viewports": [
     {
@@ -244,10 +244,22 @@
           "width": 390,
           "height": 844,
           "filename": "met-436000_background_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-436000_background_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-436000_background_android_360x800.png"
         }
       ]
     }
   ],
-  "total_screenshots": 28,
+  "total_screenshots": 30,
   "output_dir": "/Users/david/人文/艺术手册/artbook/.worktrees/t_f306353b/data/evidence/screenshots"
 }
