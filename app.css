@@ -135,12 +135,25 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .feed-header button svg { width: 20px; height: 20px; stroke-width: 1.5; }
 .feed-header button:hover { color: var(--ink-2); }
 
+/* 统一内容容器约束：使用 CSS 变量控制页边距与最大宽度 */
+.content-container {
+  padding: 0 var(--page-gutter);
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+/* Feed 页面主滚动区应用内容约束 */
 .feed-scroller {
   height: 100dvh;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+}
+.feed-scroller .content-container {
+  /* 确保 slide 内容在约束范围内 */
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 .feed-scroller::-webkit-scrollbar { display: none; }
 
@@ -157,7 +170,9 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--pad-t) 7vw var(--pad-b);
+  padding: var(--pad-t) var(--page-gutter) var(--pad-b);
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 
 /* 画框感：直角 + 1px 描边 + 8px 白色内衬 */
@@ -274,8 +289,10 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 /* ============================================================ 作品信息块：紧邻主图的标题与元信息 */
 
 .artwork-info-card {
-  padding: 22px 22px 8px;
+  padding: var(--page-gutter) var(--page-gutter) 8px;
   background: var(--bg);
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 
 /* H1: 作品名层级 — 醒目、与品牌标题协调 */
@@ -393,7 +410,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   z-index: 30;
 }
 
-.detail-body { padding: 12px 22px 0; }
+.detail-body { padding: 12px var(--page-gutter) 0; max-width: var(--content-max); margin: 0 auto; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 0 14px; }
 .tag-pill {
@@ -465,13 +482,15 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .related h2 {
   font-size: 20px;
   font-weight: 700;
-  padding: 0 22px 14px;
+  padding: 0 var(--page-gutter) 14px;
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 .related-scroll {
   display: flex;
   gap: 14px;
   overflow-x: auto;
-  padding: 0 22px 8px;
+  padding: 0 var(--page-gutter) 8px;
   scrollbar-width: none;
 }
 .related-scroll::-webkit-scrollbar { display: none; }
@@ -560,7 +579,7 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .page-header button { padding: 8px; color: var(--ink); }
 .page-header .title { font-size: 20px; font-weight: 700; }
 
-.page-intro { padding: 8px 22px 18px; }
+.page-intro { padding: 8px var(--page-gutter) 18px; max-width: var(--content-max); margin: 0 auto; }
 .page-intro .name-zh { font-size: 30px; font-weight: 700; }
 .page-intro .name-en {
   font-family: var(--serif-en);
@@ -574,7 +593,9 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .grid {
   columns: 2;
   column-gap: 14px;
-  padding: 0 16px calc(40px + var(--safe-b));
+  padding: 0 var(--page-gutter) calc(40px + var(--safe-b));
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 .card {
   break-inside: avoid;

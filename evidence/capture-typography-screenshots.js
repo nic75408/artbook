@@ -7,151 +7,144 @@ const VIEWPORT = { name: 'iphone-14-pro', width: 390, height: 844 };
 const PAGES = [
   { 
     name: 'feed', 
-    url: 'http://127.0.0.1:8765/', 
-    selector: '.feed-header .wordmark',
-    additionalSelectors: ['.artist-zh', '.title-en']
+    url: 'http://127.0.0.1:8765/',
+    selector: '.brand-title',
+    selector2: '.slide .names .title-en'
   },
   { 
     name: 'detail', 
-    url: 'http://127.0.0.1:8765/#/work/monet-1840-1', 
-    selector: '.artwork-info-card .work-title',
-    additionalSelectors: ['.work-meta-label', '.work-meta-value', '.tag-pill', '.credit']
+    url: 'http://127.0.0.1:8765/#/work/1',
+    selector: '.work-title',
+    selector2: '.essay .body-text'
   },
   { 
     name: 'collection', 
-    url: 'http://127.0.0.1:8765/#/artist/impressionism', 
+    url: 'http://127.0.0.1:8765/#/artist/1',
     selector: '.page-header .title',
-    additionalSelectors: ['.grid .t', '.grid .a']
+    selector2: '.grid .card .t'
   },
-  {
-    name: 'favorites',
+  { 
+    name: 'favorites', 
     url: 'http://127.0.0.1:8765/#/favs',
     selector: '.page-header .title',
-    additionalSelectors: ['.grid .t', '.grid .a']
+    selector2: '.grid .card .t'
   }
 ];
 
 const OUTPUT_DIR = path.join(__dirname, 'typography-measurements');
 
-async function captureScreenshots() {
+async function main() {
+  // Ensure output directory exists
   if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
   const browser = await chromium.launch({ headless: true });
-  const results = [];
+  const measurements = {
+    viewport: VIEWPORT,
+    timestamp: new Date().toISOString(),
+    pages: []
+  };
 
   for (const pageSpec of PAGES) {
+    console.log(`Capturing ${pageSpec.name}...`);
+    
     const context = await browser.newContext({
-      viewport: { width: VIEWPORT.width, height: VIEWPORT.height }
+      viewport: VIEWPORT
     });
     const page = await context.newPage();
-
-    console.log(`Capturing: ${pageSpec.name} @ ${VIEWPORT.name} (${VIEWPORT.width}x${VIEWPORT.height})`);
-
+    
+    await page.goto(pageSpec.url, { waitUntil: 'networkidle', timeout: 10000 });
+    await page.waitForTimeout(2000);
+    
+    // Wait for specific elements to be visible
     try {
-      await page.goto(pageSpec.url, { waitUntil: 'networkidle', timeout: 30000 });
-      await page.waitForTimeout(2000);
-
-      // Inject ruler overlay for DevTools-like measurement visualization
-      await page.evaluate(() => {
-        const ruler = document.createElement('div');
-        ruler.style.cssText = `
-          position: fixed;
-          top: 0; left: 0; right: 0; bottom: 0;
-          pointer-events: none;
-          z-index: 99999;
-          background: 
-            linear-gradient(to right, rgba(255,0,0,0.1) 1px, transparent 1px) 0 0 / 10px 100%,
-            linear-gradient(to bottom, rgba(0,255,0,0.1) 1px, transparent 1px) 0 0 / 100% 10px;
-        `;
-        document.body.appendChild(ruler);
-      });
-
-      const filename = `typography-${pageSpec.name}-${VIEWPORT.name}.png`;
-      const filepath = path.join(OUTPUT_DIR, filename);
-      await page.screenshot({ path: filepath, fullPage: false });
-
-      // Extract computed styles for key elements
-      const extractStyles = async (selector) => {
-        return await page.evaluate((selector) => {
-          const el = document.querySelector(selector);
-          if (!el) return null;
-          const computed = getComputedStyle(el);
-          return {
-            fontSize: computed.fontSize,
-            fontFamily: computed.fontFamily,
-            fontWeight: computed.fontWeight,
-            letterSpacing: computed.letterSpacing,
-            lineHeight: computed.lineHeight,
-            color: computed.color,
-            width: el.offsetWidth,
-            height: el.offsetHeight
-          };
-        }, selector);
-      };
-
-      const primaryStyles = await extractStyles(pageSpec.selector);
-      
-      const additionalStyles = {};
-      for (const sel of (pageSpec.additionalSelectors || [])) {
-        const el = await page.$(sel);
-        if (el) {
-          additionalStyles[sel] = await extractStyles(sel);
-        }
-      }
-
-      results.push({
-        page: pageSpec.name,
-        url: pageSpec.url,
-        viewport: `${VIEWPORT.width}x${VIEWPORT.height}`,
-        primarySelector: pageSpec.selector,
-        primaryStyles: primaryStyles,
-        additionalStyles: additionalStyles,
-        screenshot: filename,
-        timestamp: new Date().toISOString()
-      });
-
-      console.log(`  -> ${filename}`);
-      console.log(`  Primary: ${JSON.stringify(primaryStyles)}`);
-      if (Object.keys(additionalStyles).length > 0) {
-        console.log(`  Additional: ${JSON.stringify(additionalStyles)}`);
-      }
-    } catch (err) {
-      console.error(`  FAILED: ${err.message}`);
-      results.push({
-        page: pageSpec.name,
-        error: err.message
-      });
+      await page.waitForSelector(pageSpec.selector, { state: 'visible', timeout: 5000 });
+    } catch (e) {
+      console.log(`  Warning: ${pageSpec.selector} not found on ${pageSpec.name}`);
     }
-
+    
+    // Extract computed styles for key elements
+    const extractStyles = async (selector) => {
+      return await page.evaluate((sel) => {
+        const el = document.querySelector(sel);
+        if (!el) return null;
+        const styles = window.getComputedStyle(el);
+        const rect = el.getBoundingClientRect();
+        return {
+          selector: sel,
+          fontSize: styles.fontSize,
+          fontFamily: styles.fontFamily,
+          fontWeight: styles.fontWeight,
+          letterSpacing: styles.letterSpacing,
+          lineHeight: styles.lineHeight,
+          paddingTop: styles.paddingTop,
+          paddingRight: styles.paddingRight,
+          paddingBottom: styles.paddingBottom,
+          paddingLeft: styles.paddingLeft,
+          marginTop: styles.marginTop,
+          marginRight: styles.marginRight,
+          marginBottom: styles.marginBottom,
+          marginLeft: styles.marginLeft,
+          width: rect.width,
+          height: rect.height
+        };
+      }, selector);
+    };
+    
+    const primaryStyles = await extractStyles(pageSpec.selector);
+    const secondaryStyles = await extractStyles(pageSpec.selector2);
+    
+    // Capture full page screenshot
+    const screenshotPath = path.join(OUTPUT_DIR, `typography-${pageSpec.name}-${VIEWPORT.width}x${VIEWPORT.height}.png`);
+    await page.screenshot({ path: screenshotPath, fullPage: true });
+    
+    // Capture element screenshots with bounding box
+    if (primaryStyles) {
+      const primaryEl = await page.$(pageSpec.selector);
+      if (primaryEl) {
+        const primaryBoxPath = path.join(OUTPUT_DIR, `typography-${pageSpec.name}-primary-box.png`);
+        await primaryEl.screenshot({ path: primaryBoxPath });
+      }
+    }
+    
+    if (secondaryStyles) {
+      const secondaryEl = await page.$(pageSpec.selector2);
+      if (secondaryEl) {
+        const secondaryBoxPath = path.join(OUTPUT_DIR, `typography-${pageSpec.name}-secondary-box.png`);
+        await secondaryEl.screenshot({ path: secondaryBoxPath });
+      }
+    }
+    
+    measurements.pages.push({
+      name: pageSpec.name,
+      url: pageSpec.url,
+      primaryElement: {
+        selector: pageSpec.selector,
+        styles: primaryStyles
+      },
+      secondaryElement: {
+        selector: pageSpec.selector2,
+        styles: secondaryStyles
+      },
+      screenshots: {
+        fullPage: `typography-${pageSpec.name}-${VIEWPORT.width}x${VIEWPORT.height}.png`,
+        primaryBox: primaryStyles ? `typography-${pageSpec.name}-primary-box.png` : null,
+        secondaryBox: secondaryStyles ? `typography-${pageSpec.name}-secondary-box.png` : null
+      }
+    });
+    
     await context.close();
   }
 
   await browser.close();
-
-  const manifestPath = path.join(OUTPUT_DIR, 'typography-measurements.json');
-  fs.writeFileSync(manifestPath, JSON.stringify({
-    generatedAt: new Date().toISOString(),
-    viewport: VIEWPORT,
-    totalScreenshots: results.filter(r => !r.error).length,
-    results: results
-  }, null, 2));
-
-  console.log(`\nManifest written to: ${manifestPath}`);
   
-  // Print summary for verification
-  console.log('\n=== TYPOGRAPHY VERIFICATION SUMMARY ===');
-  for (const r of results) {
-    if (r.primaryStyles) {
-      console.log(`\n${r.page.toUpperCase()}:`);
-      console.log(`  Font-size: ${r.primaryStyles.fontSize}`);
-      console.log(`  Font-family: ${r.primaryStyles.fontFamily}`);
-      console.log(`  Font-weight: ${r.primaryStyles.fontWeight}`);
-    }
-  }
+  // Write measurements JSON
+  const jsonPath = path.join(OUTPUT_DIR, 'typography-measurements.json');
+  fs.writeFileSync(jsonPath, JSON.stringify(measurements, null, 2));
   
-  return results;
+  console.log(`\nMeasurements saved to ${jsonPath}`);
+  console.log(`Screenshots saved to ${OUTPUT_DIR}/`);
 }
 
-captureScreenshots().catch(console.error);
+main().catch(console.error);
