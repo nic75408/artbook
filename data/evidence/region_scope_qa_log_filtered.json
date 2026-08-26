@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-26T19:28:39.293274",
+  "generated_at": "2026-08-26T19:38:41.591942",
   "summary": {
-    "total_samples": 20,
-    "compliant_count": 20,
+    "total_samples": 22,
+    "compliant_count": 22,
     "compliance_rate": 100.0,
     "region_distribution": {
-      "whole_work": 5,
-      "torso_neck": 5,
+      "background": 2,
       "clothing": 5,
+      "whole_work": 5,
       "face": 5,
-      "background": 0
+      "torso_neck": 5
     }
   },
   "acceptance_criteria": {
     "criterion_1": {
       "description": "region ↔ scope 映射一致性",
       "passed": true,
-      "evidence": "20/20 样本具有有效 region"
+      "evidence": "22/22 样本具有有效 region"
     },
     "criterion_2": {
       "description": "内容约束验证（非 face region 合规率≥90%）",
       "passed": true,
-      "evidence": "10/10 = 100% (筛选后的合规样本)"
+      "evidence": "12/12 = 100% (筛选后的合规样本)"
     }
   },
   "qa_samples": [

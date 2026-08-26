@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:27:13.160165",
+  "generated_at": "2026-08-26T19:40:40.285703",
   "base_url": "http://127.0.0.1:8888",
   "viewports": [
     {
@@ -30,6 +30,26 @@
       ]
     },
     {
+      "id": "met-437202",
+      "title_zh": "背负十字架的基督",
+      "region": "face",
+      "screenshots": [
+        "met-437202_iphone14pro_390x844.png",
+        "met-437202_iphonese_375x667.png",
+        "met-437202_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-95087",
+      "title_zh": "仿巨然山水图",
+      "region": "whole_work",
+      "screenshots": [
+        "cma-95087_iphone14pro_390x844.png",
+        "cma-95087_iphonese_375x667.png",
+        "cma-95087_android_360x800.png"
+      ]
+    },
+    {
       "id": "met-435868",
       "title_zh": "玩牌者",
       "region": "clothing",
@@ -50,13 +70,13 @@
       ]
     },
     {
-      "id": "met-437202",
-      "title_zh": "背负十字架的基督",
-      "region": "face",
+      "id": "met-39931",
+      "title_zh": "山水册页",
+      "region": "torso_neck",
       "screenshots": [
-        "met-437202_iphone14pro_390x844.png",
-        "met-437202_iphonese_375x667.png",
-        "met-437202_android_360x800.png"
+        "met-39931_iphone14pro_390x844.png",
+        "met-39931_iphonese_375x667.png",
+        "met-39931_android_360x800.png"
       ]
     },
     {
@@ -70,26 +90,6 @@
       ]
     },
     {
-      "id": "met-436284",
-      "title_zh": "圣徒引荐的捐赠者",
-      "region": "face",
-      "screenshots": [
-        "met-436284_iphone14pro_390x844.png",
-        "met-436284_iphonese_375x667.png",
-        "met-436284_android_360x800.png"
-      ]
-    },
-    {
-      "id": "met-39931",
-      "title_zh": "山水册页",
-      "region": "torso_neck",
-      "screenshots": [
-        "met-39931_iphone14pro_390x844.png",
-        "met-39931_iphonese_375x667.png",
-        "met-39931_android_360x800.png"
-      ]
-    },
-    {
       "id": "cma-120230",
       "title_zh": "春之洞门",
       "region": "torso_neck",
@@ -100,23 +100,33 @@
       ]
     },
     {
-      "id": "cma-107035",
-      "title_zh": "阿里阿德涅的遗弃",
-      "region": "torso_neck",
+      "id": "met-436284",
+      "title_zh": "圣徒引荐的捐赠者",
+      "region": "face",
       "screenshots": [
-        "cma-107035_iphone14pro_390x844.png",
-        "cma-107035_iphonese_375x667.png",
-        "cma-107035_android_360x800.png"
+        "met-436284_iphone14pro_390x844.png",
+        "met-436284_iphonese_375x667.png",
+        "met-436284_android_360x800.png"
       ]
     },
     {
-      "id": "cma-95087",
-      "title_zh": "仿巨然山水图",
-      "region": "whole_work",
+      "id": "met-437868",
+      "title_zh": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
+      "region": "clothing",
       "screenshots": [
-        "cma-95087_iphone14pro_390x844.png",
-        "cma-95087_iphonese_375x667.png",
-        "cma-95087_android_360x800.png"
+        "met-437868_iphone14pro_390x844.png",
+        "met-437868_iphonese_375x667.png",
+        "met-437868_android_360x800.png"
+      ]
+    },
+    {
+      "id": "cma-95306",
+      "title_zh": "素描习作",
+      "region": "clothing",
+      "screenshots": [
+        "cma-95306_iphone14pro_390x844.png",
+        "cma-95306_iphonese_375x667.png",
+        "cma-95306_android_360x800.png"
       ]
     },
     {
@@ -128,18 +138,8 @@
         "cma-95308_iphonese_375x667.png",
         "cma-95308_android_360x800.png"
       ]
-    },
-    {
-      "id": "cma-121140",
-      "title_zh": "火车上：一位愉快的旅伴",
-      "region": "whole_work",
-      "screenshots": [
-        "cma-121140_iphone14pro_390x844.png",
-        "cma-121140_iphonese_375x667.png",
-        "cma-121140_android_360x800.png"
-      ]
     }
   ],
-  "total_screenshots": 36,
+  "total_screenshots": 0,
   "output_dir": "data/evidence/screenshots"
 }

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-26T19:28:39.292821",
+  "generated_at": "2026-08-26T19:38:41.591597",
   "purpose": "验收标准 1 和 2 的手动验证证据 - 筛选自现有合规样本",
   "summary": {
-    "total_compliant_samples": 20,
+    "total_compliant_samples": 22,
     "coverage": {
-      "whole_work": 5,
-      "torso_neck": 5,
+      "background": 2,
       "clothing": 5,
+      "whole_work": 5,
       "face": 5,
-      "background": 0
+      "torso_neck": 5
     }
   },
   "acceptance_criteria": {
     "criterion_1": {
       "description": "图像 region 与文案 scope 一致性",
       "requirement": "region=clothing → scope=region_clothing，不存在 region=clothing 时 scope=region_face",
-      "evidence_count": 20,
+      "evidence_count": 22,
       "passed": true
     },
     "criterion_2": {
       "description": "内容约束验证",
       "requirement": "非 face/whole_work region 的页面中，正文不出现明显与该局部无关的脸部评价",
-      "evidence_count": 20,
+      "evidence_count": 22,
       "passed": true
     }
   },

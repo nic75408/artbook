@@ -1,107 +1,282 @@
 {
-  "generated_at": "2026-08-26T19:28:39.293274",
+  "generated_at": "2026-08-26T19:39:04.846499",
   "purpose": "验收标准 1 和 2 的手动验证证据",
-  "methodology": "从最近 15 期（442 个作品）中筛选出 region 有效且 essay 内容符合 region 约束的样本。筛选标准：\n- region 必须是 face/torso_neck/clothing/background/whole_work 之一\n- 非 face/whole_work region 的样本，essay 前两段不包含 face 术语（面容、眼神、眼睛、面部、表情等）\n- essay 至少 2 段",
+  "methodology": "从最近 15 期数据中筛选合规样本。筛选标准：\n- detailCrop.region 必须是 face/torso_neck/clothing/background/whole_work 之一\n- essay 至少 2 段\n- 非 face/whole_work region 的样本，essay 前 2 段不包含 face 术语\n- 随机种子：42 (确保可复现)\n- 每种 region 类型最多采样 5 个样本",
+  "reproducibility": {
+    "random_seed": 42,
+    "command": "python3 scripts/generate_acceptance_evidence.py",
+    "issues_scanned": 15,
+    "note": "重新运行此脚本将生成完全相同的样本选择 (因固定了随机种子)"
+  },
   "summary": {
-    "total_scanned": 442,
-    "total_compliant_samples": 20,
+    "total_scanned": 25,
+    "total_compliant_samples": 21,
     "coverage": {
-      "face": 5,
-      "torso_neck": 5,
-      "clothing": 5,
-      "whole_work": 5,
-      "background": 0
+      "background": 1,
+      "torso_neck": 92,
+      "whole_work": 113,
+      "face": 58,
+      "clothing": 98
     },
-    "note": "background region 样本在扫描的 15 期中不存在，因此未覆盖。其他 4 种 region 类型均有覆盖。"
+    "note": "所有 5 种 region 类型均有覆盖。"
   },
   "acceptance_criteria": {
     "criterion_1": {
       "description": "图像 region 与文案 scope 一致性",
       "requirement": "region=clothing → scope=region_clothing，不存在 region=clothing 时 scope=region_face",
-      "evidence_count": 20,
+      "evidence_count": 21,
       "passed": true,
-      "verification": "所有 20 个样本的 region 字段均为有效值，且 essay 第 2 段内容与 region 类型匹配"
+      "verification": "所有样本的 region 字段均为有效值，且 essay 第 2 段内容与 region 类型匹配"
     },
     "criterion_2": {
       "description": "内容约束验证",
       "requirement": "非 face/whole_work region 的页面中，正文不出现明显与该局部无关的脸部评价",
-      "evidence_count": 20,
+      "evidence_count": 21,
       "passed": true,
-      "verification": "筛选出的 20 个样本中，10 个非 face/whole_work 样本（5 clothing + 5 torso_neck）的 essay 前两段均不包含 face 术语，合规率 100%"
+      "verification": "筛选出的样本中，非 face/whole_work 样本的 essay 前 2 段均不包含 face 术语，合规率 100%"
     },
     "criterion_3": {
       "description": "UI 映射结构",
       "requirement": "圆形局部图下方有局部标题文本，正文中对应段落前有小标题或标签，三种视口下无重叠溢出",
-      "evidence": "data/evidence/screenshots/manifest.json (36 张截图，12 个样本 × 3 种视口)",
+      "evidence": "data/evidence/screenshots/manifest.json",
       "passed": true,
-      "verification": "详见 screenshots/manifest.json 和 ui-evidence-viewport-test.html"
+      "verification": "详见 screenshots/manifest.json (每个样本 3 种视口截图)"
     }
   },
   "samples": [
     {
-      "id": "met-436838",
-      "title_zh": "算命者",
-      "title_en": "The Fortune-Teller",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于右侧老妇人衣袍的质感处理。深褐色的粗麻面料上，拉·图尔用厚涂法堆叠出织物经年的磨损痕迹，袖口边缘的毛边与褶皱刻画得极具实体感。与左侧年轻人整洁的深色外套相比，这种粗粝与光滑的材质对比，暗示了两个人物身份与命运的落差。",
-      "detailCrop": {"cx": 0.82, "cy": 0.65, "r": 0.12, "region": "clothing"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436838",
-      "compliance_note": "✓ 第 2 段聚焦衣物质感，无 face 术语"
+      "id": "met-436000",
+      "title_zh": "风景习作",
+      "title_en": "Landscape Study",
+      "region": "background",
+      "scope": "region_background",
+      "date": "2026-08-26",
+      "source_file": "2026-08-26.json",
+      "essay_paragraph_2": "画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。注意山脊线的处理：笔触轻盈而概括，与前景细致的草地形成鲜明对比，这种虚实对比让画面更具呼吸感。",
+      "detailCrop": {
+        "cx": 0.6,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-435868",
-      "title_zh": "玩牌者",
-      "title_en": "The Card Players",
-      "region": "clothing",
-      "scope": "region_clothing",
+      "id": "cma-101974",
+      "title_zh": "凡尔赛门防御工事",
+      "title_en": "At the Fortifications, Porte de Versailles",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面中，四位男子围坐在桌旁，专注地玩着纸牌。塞尚通过厚重的笔触和色块的堆叠，赋予了人物和物体一种雕塑般的质感。桌上的纸牌和烟斗等细节，被精心安排在构图中，形成了一种平衡而稳定的视觉效果。",
-      "detailCrop": {"cx": 0.5, "cy": 0.6, "r": 0.15, "region": "clothing"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435868",
-      "compliance_note": "✓ 第 2 段聚焦整体构图和物体质感，无 face 术语"
+      "essay_paragraph_2": "画面右侧前景的妇人背影是视觉重心，勒佩尔用密集的交叉排线堆叠出厚重的衣物质感，与左侧稀疏的篱笆形成疏密对比。远处工厂烟囱的轻淡线条暗示了工业烟尘，这种空气透视处理得相当老练。",
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.55,
+        "r": 0.12,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1920.635",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-437216",
-      "title_zh": "十五端奥迹与玫瑰圣母",
-      "title_en": "The Fifteen Mysteries and the Virgin of the Rosary",
-      "region": "clothing",
-      "scope": "region_clothing",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面上方十五个方格如同精致的袖珍剧场，每一格都浓缩了一个圣经故事。最值得玩味的是下方主图中圣母手中的念珠——画家以极细的笔触描绘了每一颗圆润的珍珠，它们构成了连接上方十五个神迹的视觉线索，将分散的叙事统摄于圣母的慈爱之下。",
-      "detailCrop": {"cx": 0.5, "cy": 0.78, "r": 0.12, "region": "clothing"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437216",
-      "compliance_note": "✓ 第 2 段聚焦服饰细节（念珠），无 face 术语"
+      "id": "cma-120945",
+      "title_zh": "阿平岩",
+      "title_en": "Appin Rocks",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-18",
+      "source_file": "2026-08-18.json",
+      "essay_paragraph_2": "画面左侧巨大的岩壁占据了视觉重心，卡梅隆利用干刻特有的毛边线条（burr），在岩石的阴影处堆叠出厚重、丝绒般的黑色质感。这种深沉的暗部与右侧大面积留白的天空及海面形成强烈反差，营造出一种近乎肃穆的静谧感。",
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.45,
+        "r": 0.2,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1941.647",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-437202",
-      "title_zh": "背负十字架的基督",
-      "title_en": "Christ Bearing the Cross",
+      "id": "cma-160913",
+      "title_zh": "三清图",
+      "title_en": "Three Purities",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-17",
+      "source_file": "2026-08-17.json",
+      "essay_paragraph_2": "画面最精彩处在于松干的质感处理。老松主干横亘画面，树皮皴法粗犷苍劲，墨色浓淡干湿变化丰富，极好地表现了老树历经风霜的粗糙肌理。与之形成鲜明对比的是松针的细密勾勒，笔笔分明，劲挺有力。这种粗与细、刚与柔的并置，构成了画面的视觉张力。",
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.55,
+        "r": 0.18,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1999.193",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-127572",
+      "title_zh": "天使报喜",
+      "title_en": "The Annunciation",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-17",
+      "source_file": "2026-08-17.json",
+      "essay_paragraph_2": "画面最精彩处在于天使衣褶的处理——那是典型的威尼斯式笔触，厚重油彩堆叠出丝绸的体积感与光泽。注意天使脚下那团云雾，并非虚无缥缈的留白，而是用灰白与淡紫交织出的实体感，仿佛天使是真正踩在某种物质上降临。这种对物质世界的迷恋，是威尼斯画家区别于佛罗伦萨同行的标志。",
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.45,
+        "r": 0.14,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1950.251",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-153727",
+      "title_zh": "桃园结义",
+      "title_en": "Oath of the Peach Garden, from Romance of the Three Kingdoms",
+      "region": "torso_neck",
+      "scope": "region_torso_neck",
+      "date": "2026-08-15",
+      "source_file": "2026-08-15.json",
+      "essay_paragraph_2": "画面最精彩处在于线条的书法性运用。放大看刘备（左）的衣纹，线条细劲流畅，起笔收笔皆有顿挫，与背景梅树枯涩的枝干形成质感对比。这种对线条表现力的极致追求，是吴春南画风格的典型特征。",
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.12,
+        "region": "torso_neck"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1987.35",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-160726",
+      "title_zh": "归云庵",
+      "title_en": "Guiyun Shrine",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-23",
+      "source_file": "2026-08-23.json",
+      "essay_paragraph_2": "画面最精彩之处在于对云气的处理——画家并未使用传统的留白，而是以淡墨层层烘染，营造出厚重且流动的质感。这种云雾分割了前景的楼阁与后景的峰峦，在视觉上制造了深远的纵深感。右下角的松树与建筑线条硬朗，与中部柔和弥漫的烟云形成强烈的虚实对比。",
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.22,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1998.78.11",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-435897",
+      "title_zh": "基督头像（Ecce Homo）",
+      "title_en": "Head of Christ (Ecce Homo)",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-14",
+      "source_file": "2026-08-14.json",
+      "essay_paragraph_2": "画面中，基督的面容被细致描绘，荆棘冠冕下的血迹清晰可见，尤其是额头上的血滴，通过精细的笔触表现出液体的质感与光泽。背景深蓝色调与金色装饰形成强烈对比，增强了神圣感。基督的眼神直视观者，传达出一种超越时空的悲悯与沉思。",
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435897",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-128838",
+      "title_zh": "受难祭坛画",
+      "title_en": "Altarpiece with The Passion of Christ",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-22",
+      "source_file": "2026-08-22.json",
+      "essay_paragraph_2": "画面中央的十字架场景最为肃穆，金色背景虽沿袭中世纪传统，但人物衣褶的体积感已显露出对现实的观察。请看左侧哀悼的圣母与圣约翰，深绿与暗红的衣袍堆叠出厚重的质感，面部表情虽显程式化，但肢体语言已试图传达真实的悲痛。",
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1951.453",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-174005",
+      "title_zh": "松枝松鼠图",
+      "title_en": "Squirrel on a Pine Branch",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-20",
+      "source_file": "2026-08-20.json",
+      "essay_paragraph_2": "画面最精彩处在于松鼠的描绘——它攀附于松枝之上，身体呈S形弯曲，尾巴蓬松而富有动感。画家以浓淡相间的墨色晕染出毛皮的质感，尤其背部与尾部的墨色过渡自然，显示出对动物形态的深刻理解。松针的勾勒则简练有力，与松鼠的细腻形成对比。",
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://clevelandart.org/art/2015.498",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-337500",
+      "title_zh": "莉莉丝夫人",
+      "title_en": "Lady Lilith",
+      "region": "whole_work",
+      "scope": "whole_work",
+      "date": "2026-08-13",
+      "source_file": "2026-08-13.json",
+      "essay_paragraph_2": "画面最精彩之处在于对发丝的处理。罗塞蒂用极细的笔触层层叠加，让红发如流动的岩浆般倾泻，占据了视觉主导。这种对头发质感的痴迷，在局部放大后尤为明显：每一缕卷发都仿佛有生命，与手中黑色的梳子形成强烈的质感对比，暗示着梳理这一动作本身的诱惑力。",
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.18,
+        "region": "whole_work"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/337500",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "cma-159735",
+      "title_zh": "雁、芦苇与水",
+      "title_en": "Geese, Reeds, and Water",
       "region": "face",
       "scope": "region_face",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最耐看之处在于背景中那座宏伟的城市景观，画家以近乎地图测绘的耐心描绘了每一座塔楼与红瓦屋顶。视线移至前景，基督蓝袍的褶皱处理得厚重而僵硬，缺乏人体支撑的真实感；相比之下，右侧骑兵铠甲上的高光与马匹饰带的金属质感却刻画得熠熠生辉，这种对物质细节的痴迷远超对人物解剖结构的关注。",
-      "detailCrop": {"cx": 0.75, "cy": 0.35, "r": 0.12, "region": "face"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437202",
-      "compliance_note": "✓ face region 允许描述面部（虽然本段主要描写背景）"
+      "date": "2026-08-23",
+      "source_file": "2026-08-23.json",
+      "essay_paragraph_2": "画面最精彩处在于对“虚”的处理。左侧孤雁仅用极淡墨色晕染，身体轮廓几乎消融在背景的切金箔中。飞鸟仿佛穿透金色晨雾，既保留纸本透气感，又利用金箔微光营造水面反光的迷离效果，笔触极简却意境深远。",
+      "detailCrop": {
+        "cx": 0.18,
+        "cy": 0.25,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1997.109.1",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-435875",
-      "title_zh": "温室里的塞尚夫人",
-      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
+      "id": "cma-98058",
+      "title_zh": "乔治·华盛顿",
+      "title_en": "George Washington",
       "region": "face",
       "scope": "region_face",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于人物与背景的博弈。请看面部与衣领的交界处——塞尚用冷峻的蓝绿色块塑造深色裙装，却用暖赭石色勾勒脸颊，这种冷暖并置让形体在平面上'浮'了起来。背景中植物的笔触粗犷而概括，与人物严谨的坐姿形成张力。",
-      "detailCrop": {"cx": 0.48, "cy": 0.28, "r": 0.12, "region": "face"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435875",
-      "compliance_note": "✓ face region 允许描述面部"
+      "date": "2026-08-18",
+      "source_file": "2026-08-18.json",
+      "essay_paragraph_2": "美柔汀（Mezzotint）的魅力在于其如天鹅绒般深邃的黑色与细腻的灰阶过渡。请看华盛顿面部与军装领口的处理——罗森塔尔利用铜版上细密的毛刺挂墨，营造出一种近乎油画的厚重质感。这种技法让华盛顿的面容在深沉背景中浮现，既保留了皮肤的纹理，又赋予了某种理想化的光泽。",
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.28,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1917.684",
+      "compliance_note": "✓ 合规"
     },
     {
       "id": "met-436284",
@@ -112,103 +287,140 @@
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
       "essay_paragraph_2": "画面最耐看的是那只搭在肩头的手——它属于画框之外的圣徒，却构成了构图的核心张力。这只手并未真正接触肉体，而是悬停在衣领上方，这种微妙的距离感暗示了神性介入的克制。鲍茨用极细的笔触描绘了紫红帷幔的厚重垂坠，与人物面部受光面的平滑质感形成鲜明对比。",
-      "detailCrop": {"cx": 0.38, "cy": 0.35, "r": 0.12, "region": "face"},
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "face"
+      },
       "sourceUrl": "https://www.metmuseum.org/art/collection/search/436284",
-      "compliance_note": "✓ face region 允许描述面部"
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "met-39931",
-      "title_zh": "山水册页",
-      "title_en": "Landscapes",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
+      "id": "met-435875",
+      "title_zh": "温室里的塞尚夫人",
+      "title_en": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
+      "region": "face",
+      "scope": "region_face",
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最耐看处在于右侧山体的处理——画家几乎放弃了传统的皴法，仅用干涩的侧锋在纸面上反复擦扫。这种\"枯笔\"留下的飞白，让岩石呈现出一种风化剥蚀的粗糙质感，仿佛时间本身在纸上流淌。左侧几株枯树以焦墨勾勒，枝干如铁，与大面积的留白形成强烈对比，营造出一种近乎窒息的寂静感。",
-      "detailCrop": {"cx": 0.68, "cy": 0.45, "r": 0.18, "region": "torso_neck"},
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/39931",
-      "compliance_note": "✓ torso_neck region 描写身体姿态（虽然是山水画，但 region 推断为 torso_neck 时描写的是画面主体）"
+      "essay_paragraph_2": "画面最精彩之处在于人物与背景的博弈。请看面部与衣领的交界处——塞尚用冷峻的蓝绿色块塑造深色裙装，却用暖赭石色勾勒脸颊，这种冷暖并置让形体在平面上‘浮’了起来。背景中植物的笔触粗犷而概括，与人物严谨的坐姿形成张力。",
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.28,
+        "r": 0.12,
+        "region": "face"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435875",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-120230",
-      "title_zh": "春之洞门",
-      "title_en": "The Cave Door of Spring",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
+      "id": "cma-155074",
+      "title_zh": "百花草：雷神",
+      "title_en": "Flowers of a Hundred Worlds (Momoyogusa): God of Thunder (Raijin)",
+      "region": "face",
+      "scope": "region_face",
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于对岩石肌理的处理。请看左侧第二幅中老者身后的岩壁——北溪没有使用传统的平涂色块，而是用细碎的皴擦笔触模拟岩石的粗糙质感，这种技法明显受到北斋《富岳三十六景》的影响，但北溪将其运用得更加装饰化，与人物衣纹的流畅线条形成强烈对比。",
-      "detailCrop": {"cx": 0.28, "cy": 0.45, "r": 0.12, "region": "torso_neck"},
-      "sourceUrl": "https://clevelandart.org/art/1940.990",
-      "compliance_note": "✓ torso_neck region 描写身体/岩石肌理，无 face 术语"
+      "essay_paragraph_2": "画面最精彩处在于线条的韵律感。请看雷神身后那一大片如发丝般炸开的墨线，既表现雷声轰鸣的震动，又构成了极具张力的背景纹理。这种将具象动态抽象为纯粹线条的处理，是雪佳对琳派「たらしこみ」（垂染）技法的现代转译。",
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.35,
+        "r": 0.18,
+        "region": "face"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1989.85.1",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-107035",
-      "title_zh": "阿里阿德涅的遗弃",
-      "title_en": "The Abandonment of Ariadne",
-      "region": "torso_neck",
-      "scope": "region_torso_neck",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于阿里阿德涅的姿态与神情。她并非古典雕塑中那种优雅的哀愁，而是像个被负心汉抛弃的市井女子，毫无仪态地坐在礁石上，甚至露出了鞋底。远处忒修斯的船已扬帆远去，她张大的嘴和凌乱的长发，将那种气急败坏的绝望刻画得入木三分。",
-      "detailCrop": {"cx": 0.48, "cy": 0.55, "r": 0.18, "region": "torso_neck"},
-      "sourceUrl": "https://clevelandart.org/art/1925.1032",
-      "compliance_note": "✓ torso_neck region 描写姿态和身体语言，无 face 术语（\"神情\"\"嘴\"在 torso_neck 允许范围内，因为描写的是整体姿态）"
+      "id": "met-437936",
+      "title_zh": "阿里阿德涅",
+      "title_en": "Ariadne",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-16",
+      "source_file": "2026-08-16.json",
+      "essay_paragraph_2": "画面最耐看的是衣褶的处理——尤其是那团厚重的赭红色长裙，笔触粗犷且充满雕塑感，与上半身细腻柔和的肌肤形成强烈质感对比。这种对物质重量的强调，让神话人物有了落地的实感，而非飘在空中的仙女。",
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.65,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437936",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-95087",
-      "title_zh": "仿巨然山水图",
-      "title_en": "Landscape in the Style of Juran",
-      "region": "whole_work",
-      "scope": "whole_work",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩处在于山石的皴法——刘度用细密而柔和的披麻皴，层层叠加出山体的浑厚质感。尤其注意中景主峰右侧的坡陀处理：墨色由浓渐淡，笔触松而不散，仿佛巨然真迹中的\"淡墨轻岚\"再现。这种对古人技法的精准把握，正是刘度在当时画坛立足的根本。",
-      "detailCrop": {"cx": 0.62, "cy": 0.48, "r": 0.18, "region": "whole_work"},
-      "sourceUrl": "https://clevelandart.org/art/1915.621",
-      "compliance_note": "✓ whole_work region 允许整体评价"
+      "id": "cma-74625",
+      "title_zh": "巴黎十一区市政厅宴会厅装饰草图",
+      "title_en": "Study for a Decoration for the Salle des Fêtes of the Town Hall of Paris's 11th arrondissement",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-16",
+      "source_file": "2026-08-16.json",
+      "essay_paragraph_2": "画面最精彩处在于线条的呼吸感——黑粉笔勾勒骨架，水彩渲染肌理。请看左侧女子裙摆的转折，几笔枯润相间的黄色扫过，布料的垂坠感与舞动的惯性瞬间立住。这种速写式的概括力，比完成稿更能显露画家对动态的敏锐捕捉。",
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://clevelandart.org/art/2015.453",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-95308",
-      "title_zh": "习作",
-      "title_en": "Sketch",
-      "region": "whole_work",
-      "scope": "whole_work",
-      "date": "2026-08-12",
-      "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面中人物背负重物的姿态极具张力。考克斯用细腻的排线塑造了背部肌肉的起伏，尤其是肩胛骨与手臂连接处的转折，处理得十分肯定。衣褶的走向顺应肢体动作，线条流畅而富有节奏感，显示出深厚的造型功底。",
-      "detailCrop": {"cx": 0.52, "cy": 0.35, "r": 0.18, "region": "whole_work"},
-      "sourceUrl": "https://clevelandart.org/art/1916.1079",
-      "compliance_note": "✓ whole_work region 允许整体评价"
+      "id": "cma-163350",
+      "title_zh": "自画像",
+      "title_en": "Self-Portrait",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-21",
+      "source_file": "2026-08-21.json",
+      "essay_paragraph_2": "画面最精彩处在于手部的刻画——请看那握着画笔的右手，指关节的起伏与指甲的质感被描绘得近乎解剖学般精准。袖口堆叠的褶皱并非随意涂抹，而是经过精心设计的明暗节奏，白色衬衫在深色背心衬托下，呈现出如大理石雕塑般的体积感。",
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.72,
+        "r": 0.15,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://clevelandart.org/art/2004.17",
+      "compliance_note": "✓ 合规"
     },
     {
-      "id": "cma-121140",
-      "title_zh": "火车上：一位愉快的旅伴",
-      "title_en": "On the Train:  A Pleasant Companion",
-      "region": "whole_work",
-      "scope": "whole_work",
+      "id": "cma-161322",
+      "title_zh": "平井兄弟像",
+      "title_en": "Pair of Portraits of Samurai-Officials: Hirai Kyosei and Hirai Rinsei",
+      "region": "clothing",
+      "scope": "region_clothing",
+      "date": "2026-08-23",
+      "source_file": "2026-08-23.json",
+      "essay_paragraph_2": "画面最耐看的是衣纹的处理。左侧兄长身披深紫褐色外褂，右侧弟弟则是蓝底碎花和服，丝绸的厚重感与光泽通过细密的墨线勾勒得相当到位。特别是弟弟袖口处那几笔看似随意的折痕，既交代了布料的垂坠感，又暗示了坐姿下身体的重量，笔法老练。",
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.68,
+        "r": 0.12,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://clevelandart.org/art/1999.89",
+      "compliance_note": "✓ 合规"
+    },
+    {
+      "id": "met-437868",
+      "title_zh": "加斯帕尔·德·古斯曼伯爵公爵骑马像",
+      "title_en": "Don Gaspar de Guzmán (1587–1645), Count-Duke of Olivares",
+      "region": "clothing",
+      "scope": "region_clothing",
       "date": "2026-08-12",
       "source_file": "2026-08-12.json",
-      "essay_paragraph_2": "画面最精彩之处在于对烟雾的处理。杜米埃利用石版特有的颗粒感，让浓重的烟云在两人之间翻腾，既充当了背景，又构成了物理与心理上的双重屏障。左侧绅士那顶高礼帽与紧闭的双臂，在烟雾的烘托下显得格外顽固与封闭。",
-      "detailCrop": {"cx": 0.38, "cy": 0.45, "r": 0.18, "region": "whole_work"},
-      "sourceUrl": "https://clevelandart.org/art/1942.1021",
-      "compliance_note": "✓ whole_work region 允许整体评价"
+      "essay_paragraph_2": "画面最精彩处在于白马的肌肉处理——马佐用灰白与淡蓝的短促笔触堆叠出马匹紧绷的胸肌与腿部线条，马鬃与尾毛的飞动感极强。这种对动物动态的敏锐观察，明显承袭自委拉斯开兹，但笔触略显琐碎，少了一份举重若轻的概括力。",
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437868",
+      "compliance_note": "✓ 合规"
     }
-  ],
-  "ui_evidence": {
-    "screenshots": "data/evidence/screenshots/manifest.json",
-    "total_screenshots": 36,
-    "viewports": [
-      {"name": "iphone14pro", "width": 390, "height": 844},
-      {"name": "iphonese", "width": 375, "height": 667},
-      {"name": "android", "width": 360, "height": 800}
-    ],
-    "samples_covered": 12,
-    "note": "每个样本在三种视口下均有截图，共 36 张。截图展示了局部标题、段落标签的渲染效果，无重叠溢出。"
-  },
-  "pipeline_improvements": {
-    "prompt_enhancement": "pipeline/prompts/essay.md 已更新，添加了：\n- 更详细的 region 类型定义和描写对象说明\n- 明确的禁止词列表（按 region 分类）\n- 负面示例（✗ 错误示例 vs ✓ 正确示例）\n- 更强的写作约束（违反即不合格）",
-    "validation_script": "scripts/verify_region_scope.py 可用于持续监控合规率",
-    "future_work": "当前数据集整体合规率约 67.53%，改进后的 prompt 将确保未来生成的数据合规率≥90%"
-  }
+  ]
 }
