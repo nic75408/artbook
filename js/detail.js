@@ -38,7 +38,7 @@ function render(el, w) {
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
 
-    <!-- 作品信息块：紧邻主图，标签+图像组合 -->
+    <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
       <!-- H1: 作品名 -->
       <h1 class="work-title">
@@ -49,32 +49,32 @@ function render(el, w) {
       <!-- 次要字段：作者、年代、材质、馆藏 -->
       <div class="work-meta-compact">
         <div class="work-meta-row">
-          <span class="work-meta-label">创作者</span>
+          <span class="work-meta-label meta-text">创作者</span>
           <span class="work-meta-value">
             <a class="artist-link" href="#/artist/${encodeURIComponent(w.artist_id)}">${esc(w.artist_zh)}</a>
-            <span class="artist-en">${esc(w.artist_en)}</span>
+            <span class="artist-en meta-text">${esc(w.artist_en)}</span>
           </span>
         </div>
         <div class="work-meta-row">
-          <span class="work-meta-label">创作年代</span>
-          <span class="work-meta-value">${esc(w.date_display || '不详')}</span>
+          <span class="work-meta-label meta-text">创作年代</span>
+          <span class="work-meta-value meta-text">${esc(w.date_display || '不详')}</span>
         </div>
         ${w.medium_zh ? `
         <div class="work-meta-row">
-          <span class="work-meta-label">作品材质</span>
-          <span class="work-meta-value">${esc(w.medium_zh)}</span>
+          <span class="work-meta-label meta-text">作品材质</span>
+          <span class="work-meta-value meta-text">${esc(w.medium_zh)}</span>
         </div>
         ` : ''}
         ${w.dimensions ? `
         <div class="work-meta-row">
-          <span class="work-meta-label">实际尺寸</span>
-          <span class="work-meta-value">${esc(w.dimensions)}</span>
+          <span class="work-meta-label meta-text">实际尺寸</span>
+          <span class="work-meta-value meta-text">${esc(w.dimensions)}</span>
         </div>
         ` : ''}
         ${creditMuseum ? `
         <div class="work-meta-row">
-          <span class="work-meta-label">在馆收藏</span>
-          <span class="work-meta-value credit-name">${esc(creditMuseum)}</span>
+          <span class="work-meta-label meta-text">在馆收藏</span>
+          <span class="work-meta-value credit-name meta-text">${esc(creditMuseum)}</span>
         </div>
         ` : ''}
       </div>
@@ -82,16 +82,16 @@ function render(el, w) {
 
     <div class="detail-body">
       <div class="tags">${[w.movement_zh, ...(w.tags || [])].filter(Boolean)
-        .map((t) => `<button class="tag-pill" data-tag="${esc(t)}">${esc(t)}</button>`)
+        .map((t) => `<button class="tag-pill meta-text" data-tag="${esc(t)}">${esc(t)}</button>`)
         .join("")}</div>
 
       <!-- H2: 赏析标题（本篇章赏析） -->
-      <h2 class="section-title">本篇章赏析</h2>
+      <h2 class="section-title work-title">本篇章赏析</h2>
 
       <!-- 正文赏析：H3 作为段落标识由样式控制层级 -->
       <div class="essay"></div>
 
-      <div class="credit">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
+      <div class="credit meta-text">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
         <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
       <div class="action-row">
         <button class="action-btn fav-tool" id="fav-act">${icons.bookmark} 收藏</button>

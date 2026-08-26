@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-08-26T09:35:12.237Z",
+  "viewport": {
+    "name": "iphone-14-pro",
+    "width": 390,
+    "height": 844
+  },
+  "totalScreenshots": 3,
+  "results": [
+    {
+      "page": "feed",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": "390x844",
+      "selector": ".feed-header .wordmark",
+      "computedStyles": {
+        "fontSize": "22px",
+        "fontFamily": "\"Songti SC\", \"Noto Serif CJK SC\", serif",
+        "fontWeight": "700",
+        "letterSpacing": "2.64px",
+        "lineHeight": "normal",
+        "width": 99,
+        "height": 30
+      },
+      "screenshot": "typography-feed-iphone-14-pro.png",
+      "timestamp": "2026-08-26T09:35:06.710Z"
+    },
+    {
+      "page": "detail",
+      "url": "http://127.0.0.1:8765/#/work/monet-1840-1",
+      "viewport": "390x844",
+      "selector": ".detail-header .work-title",
+      "computedStyles": null,
+      "screenshot": "typography-detail-iphone-14-pro.png",
+      "timestamp": "2026-08-26T09:35:09.277Z"
+    },
+    {
+      "page": "collection",
+      "url": "http://127.0.0.1:8765/#/collection/impressionism",
+      "viewport": "390x844",
+      "selector": ".collection-header .brand-title",
+      "computedStyles": null,
+      "screenshot": "typography-collection-iphone-14-pro.png",
+      "timestamp": "2026-08-26T09:35:12.219Z"
+    }
+  ]
+}

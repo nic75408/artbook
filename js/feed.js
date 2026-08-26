@@ -18,7 +18,7 @@ export async function mount(el) {
   el.classList.add("feed");
   el.innerHTML = `
     <header class="feed-header">
-      <div class="wordmark">${esc(WORDMARK)}</div>
+      <div class="wordmark brand-title">${esc(WORDMARK)}</div>
       <button id="goto-favs" aria-label="我的收藏夹" title="我的收藏夹">${icons.bookmark}</button>
     </header>
     <div class="feed-scroller"></div>
@@ -70,8 +70,8 @@ function slideHTML(w, date) {
       </div>
     </div>
     <div class="names">
-      <div class="artist-zh">${esc(w.artist_zh)}</div>
-      <div class="title-en">${esc(w.title_en)}</div>
+      <div class="artist-zh work-title">${esc(w.artist_zh)}</div>
+      <div class="title-en meta-text">${esc(w.title_en)}</div>
     </div>
     <button class="fav-btn" data-fav="${esc(w.id)}" aria-label="收藏画作">${icons.bookmark}</button>
     <button class="learn-btn" data-go="${esc(w.id)}" aria-label="了解更多">${learnBtnSVG(w.id)}</button>
