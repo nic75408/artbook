@@ -119,7 +119,16 @@ def is_painting(classification):
 
 # ---------------------------------------------------------------- 候选
 
-def fetch_candidates(seen):
+# NOTE (t_d1c4f621): Originally `fetch_candidates` required a positional
+# `seen` argument. Some external scripts/tests (e.g.
+# `scripts/test_source_resilience.py`) still import and call it *without*
+# providing this parameter, leading to a TypeError during test collection.
+#
+# To maintain backward-compatibility, make `seen` optional with a default of
+# `None`. Internal pipeline calls continue to pass an explicit set, while
+# ad-hoc scripts can omit it safely.
+
+def fetch_candidates(seen=None):
     """各源按配额拉候选（源内部跳过 seen 已见 id）；不足/失败由其余源补足到 CANDIDATE_TARGET。"""
     sources = (("met", met), ("aic", aic), ("cma", cma), ("rijks", rijks))
     out = []

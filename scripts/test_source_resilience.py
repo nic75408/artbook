@@ -11,9 +11,11 @@ from pipeline import generate  # noqa: E402
 from pipeline.sources import met  # noqa: E402
 
 # 模拟 Met 整体不可用（抛异常）
-met.fetch_candidates = lambda n: (_ for _ in ()).throw(RuntimeError("met down"))
+met.fetch_candidates = lambda n, seen=None: (_ for _ in ()).throw(RuntimeError("met down"))
 
-total = len(generate.fetch_candidates())
-ok = total >= config.CANDIDATE_TARGET
-print(f"[met 不可用] 其余源补足候选总数 {total} -> {'OK' if ok else 'FAIL'}")
-sys.exit(0 if ok else 1)
+if __name__ == "__main__":
+    seen = set()
+    total = len(generate.fetch_candidates(seen))
+    ok = total >= config.CANDIDATE_TARGET
+    print(f"[met 不可用] 其余源补足候选总数 {total} -> {'OK' if ok else 'FAIL'}")
+    sys.exit(0 if ok else 1)
