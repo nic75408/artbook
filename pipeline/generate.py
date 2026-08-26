@@ -82,6 +82,25 @@ def today_str():
     return datetime.now(TZ).strftime("%Y-%m-%d")
 
 
+def parse_issue_date(s):
+    """校验并归一化期日（自然日锚定，SPE §5：一律 YYYY-MM-DD，时区 Asia/Shanghai）。
+
+    返回规范化字符串；非法输入抛 ValueError。拒绝格式非法（如 2026-8-26、
+    20260826、空串）与伪日历日期（如 2026-02-30、2026-13-01）——坏期日若
+    写入 data/issues/ 会污染 index.json 排序与前端日期渲染，必须在入口拦住。
+    """
+    if not isinstance(s, str):
+        raise ValueError(f"期日必须为字符串，收到 {type(s).__name__}")
+    s = s.strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
+        raise ValueError(f"期日格式非法（须 YYYY-MM-DD）：{s!r}")
+    try:
+        dt = datetime.strptime(s, "%Y-%m-%d")
+    except ValueError:
+        raise ValueError(f"期日不是真实日历日期：{s!r}")
+    return dt.strftime("%Y-%m-%d")
+
+
 def extract_year(date_display):
     if not date_display:
         return None
@@ -453,7 +472,16 @@ def main():
     ap.add_argument("--force", action="store_true", help="日期已存在时覆盖重生成")
     args = ap.parse_args()
 
-    date = args.date or today_str()
+    # 自然日锚定（t_8d5cb3c8）：期日在入口一次定死——定时/手动触发跨午夜、
+    # 探针等待跨日都不会让本期漂移到错误的自然日。--date 由 run_daily.sh /
+    # daily.yml 在触发时刻计算并传入；缺省 = 此刻 Asia/Shanghai 自然日。
+    raw_date = args.date or today_str()
+    try:
+        date = parse_issue_date(raw_date)
+    except ValueError as e:
+        log(f"[fatal] {e}")
+        return 1
+    log(f"目标期日 {date}")
     issue_path = config.ISSUES / f"{date}.json"
     if issue_path.exists() and not args.force:
         log(f"[skip] {date} 已存在（--force 覆盖），幂等退出")
