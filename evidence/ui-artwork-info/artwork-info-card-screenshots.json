@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-08-26T07:47:13.386Z",
+  "totalScreenshots": 15,
+  "totalExpected": 15,
+  "results": [
+    {
+      "artworkId": "1",
+      "artworkName": "星月夜",
+      "viewport": "iphone-se",
+      "viewportSize": "375x667",
+      "url": "http://127.0.0.1:8889/index.html#work-1",
+      "screenshot": "artwork-1-iphone-se.png",
+      "timestamp": "2026-08-26T07:46:30.822Z"
+    },
+    {
+      "artworkId": "1",
+      "artworkName": "星月夜",
+      "viewport": "iphone-14-pro",
+      "viewportSize": "390x844",
+      "url": "http://127.0.0.1:8889/index.html#work-1",
+      "screenshot": "artwork-1-iphone-14-pro.png",
+      "timestamp": "2026-08-26T07:46:33.922Z"
+    },
+    {
+      "artworkId": "1",
+      "artworkName": "星月夜",
+      "viewport": "android",
+      "viewportSize": "360x800",
+      "url": "http://127.0.0.1:8889/index.html#work-1",
+      "screenshot": "artwork-1-android.png",
+      "timestamp": "2026-08-26T07:46:36.879Z"
+    },
+    {
+      "artworkId": "2",
+      "artworkName": "蒙娜丽莎",
+      "viewport": "iphone-se",
+      "viewportSize": "375x667",
+      "url": "http://127.0.0.1:8889/index.html#work-2",
+      "screenshot": "artwork-2-iphone-se.png",
+      "timestamp": "2026-08-26T07:46:39.922Z"
+    },
+    {
+      "artworkId": "2",
+      "artworkName": "蒙娜丽莎",
+      "viewport": "iphone-14-pro",
+      "viewportSize": "390x844",
+      "url": "http://127.0.0.1:8889/index.html#work-2",
+      "screenshot": "artwork-2-iphone-14-pro.png",
+      "timestamp": "2026-08-26T07:46:42.915Z"
+    },
+    {
+      "artworkId": "2",
+      "artworkName": "蒙娜丽莎",
+      "viewport": "android",
+      "viewportSize": "360x800",
+      "url": "http://127.0.0.1:8889/index.html#work-2",
+      "screenshot": "artwork-2-android.png",
+      "timestamp": "2026-08-26T07:46:45.913Z"
+    },
+    {
+      "artworkId": "3",
+      "artworkName": "戴珍珠耳环的少女",
+      "viewport": "iphone-se",
+      "viewportSize": "375x667",
+      "url": "http://127.0.0.1:8889/index.html#work-3",
+      "screenshot": "artwork-3-iphone-se.png",
+      "timestamp": "2026-08-26T07:46:48.957Z"
+    },
+    {
+      "artworkId": "3",
+      "artworkName": "戴珍珠耳环的少女",
+      "viewport": "iphone-14-pro",
+      "viewportSize": "390x844",
+      "url": "http://127.0.0.1:8889/index.html#work-3",
+      "screenshot": "artwork-3-iphone-14-pro.png",
+      "timestamp": "2026-08-26T07:46:52.013Z"
+    },
+    {
+      "artworkId": "3",
+      "artworkName": "戴珍珠耳环的少女",
+      "viewport": "android",
+      "viewportSize": "360x800",
+      "url": "http://127.0.0.1:8889/index.html#work-3",
+      "screenshot": "artwork-3-android.png",
+      "timestamp": "2026-08-26T07:46:55.195Z"
+    },
+    {
+      "artworkId": "4",
+      "artworkName": "神奈川冲浪里",
+      "viewport": "iphone-se",
+      "viewportSize": "375x667",
+      "url": "http://127.0.0.1:8889/index.html#work-4",
+      "screenshot": "artwork-4-iphone-se.png",
+      "timestamp": "2026-08-26T07:46:58.212Z"
+    },
+    {
+      "artworkId": "4",
+      "artworkName": "神奈川冲浪里",
+      "viewport": "iphone-14-pro",
+      "viewportSize": "390x844",
+      "url": "http://127.0.0.1:8889/index.html#work-4",
+      "screenshot": "artwork-4-iphone-14-pro.png",
+      "timestamp": "2026-08-26T07:47:01.220Z"
+    },
+    {
+      "artworkId": "4",
+      "artworkName": "神奈川冲浪里",
+      "viewport": "android",
+      "viewportSize": "360x800",
+      "url": "http://127.0.0.1:8889/index.html#work-4",
+      "screenshot": "artwork-4-android.png",
+      "timestamp": "2026-08-26T07:47:04.280Z"
+    },
+    {
+      "artworkId": "5",
+      "artworkName": "最后的晚餐",
+      "viewport": "iphone-se",
+      "viewportSize": "375x667",
+      "url": "http://127.0.0.1:8889/index.html#work-5",
+      "screenshot": "artwork-5-iphone-se.png",
+      "timestamp": "2026-08-26T07:47:07.306Z"
+    },
+    {
+      "artworkId": "5",
+      "artworkName": "最后的晚餐",
+      "viewport": "iphone-14-pro",
+      "viewportSize": "390x844",
+      "url": "http://127.0.0.1:8889/index.html#work-5",
+      "screenshot": "artwork-5-iphone-14-pro.png",
+      "timestamp": "2026-08-26T07:47:10.333Z"
+    },
+    {
+      "artworkId": "5",
+      "artworkName": "最后的晚餐",
+      "viewport": "android",
+      "viewportSize": "360x800",
+      "url": "http://127.0.0.1:8889/index.html#work-5",
+      "screenshot": "artwork-5-android.png",
+      "timestamp": "2026-08-26T07:47:13.362Z"
+    }
+  ]
+}
