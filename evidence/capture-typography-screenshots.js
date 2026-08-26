@@ -5,9 +5,30 @@ const path = require('path');
 const VIEWPORT = { name: 'iphone-14-pro', width: 390, height: 844 };
 
 const PAGES = [
-  { name: 'feed', url: 'http://127.0.0.1:8765/', selector: '.feed-header .wordmark' },
-  { name: 'detail', url: 'http://127.0.0.1:8765/#/work/monet-1840-1', selector: '.detail-header .work-title' },
-  { name: 'collection', url: 'http://127.0.0.1:8765/#/collection/impressionism', selector: '.collection-header .brand-title' }
+  { 
+    name: 'feed', 
+    url: 'http://127.0.0.1:8765/', 
+    selector: '.feed-header .wordmark',
+    additionalSelectors: ['.artist-zh', '.title-en']
+  },
+  { 
+    name: 'detail', 
+    url: 'http://127.0.0.1:8765/#/work/monet-1840-1', 
+    selector: '.artwork-info-card .work-title',
+    additionalSelectors: ['.work-meta-label', '.work-meta-value', '.tag-pill', '.credit']
+  },
+  { 
+    name: 'collection', 
+    url: 'http://127.0.0.1:8765/#/artist/impressionism', 
+    selector: '.page-header .title',
+    additionalSelectors: ['.grid .t', '.grid .a']
+  },
+  {
+    name: 'favorites',
+    url: 'http://127.0.0.1:8765/#/favs',
+    selector: '.page-header .title',
+    additionalSelectors: ['.grid .t', '.grid .a']
+  }
 ];
 
 const OUTPUT_DIR = path.join(__dirname, 'typography-measurements');
@@ -52,33 +73,50 @@ async function captureScreenshots() {
       await page.screenshot({ path: filepath, fullPage: false });
 
       // Extract computed styles for key elements
-      const styles = await page.evaluate((selector) => {
-        const el = document.querySelector(selector);
-        if (!el) return null;
-        const computed = getComputedStyle(el);
-        return {
-          fontSize: computed.fontSize,
-          fontFamily: computed.fontFamily,
-          fontWeight: computed.fontWeight,
-          letterSpacing: computed.letterSpacing,
-          lineHeight: computed.lineHeight,
-          width: el.offsetWidth,
-          height: el.offsetHeight
-        };
-      }, pageSpec.selector);
+      const extractStyles = async (selector) => {
+        return await page.evaluate((selector) => {
+          const el = document.querySelector(selector);
+          if (!el) return null;
+          const computed = getComputedStyle(el);
+          return {
+            fontSize: computed.fontSize,
+            fontFamily: computed.fontFamily,
+            fontWeight: computed.fontWeight,
+            letterSpacing: computed.letterSpacing,
+            lineHeight: computed.lineHeight,
+            color: computed.color,
+            width: el.offsetWidth,
+            height: el.offsetHeight
+          };
+        }, selector);
+      };
+
+      const primaryStyles = await extractStyles(pageSpec.selector);
+      
+      const additionalStyles = {};
+      for (const sel of (pageSpec.additionalSelectors || [])) {
+        const el = await page.$(sel);
+        if (el) {
+          additionalStyles[sel] = await extractStyles(sel);
+        }
+      }
 
       results.push({
         page: pageSpec.name,
         url: pageSpec.url,
         viewport: `${VIEWPORT.width}x${VIEWPORT.height}`,
-        selector: pageSpec.selector,
-        computedStyles: styles,
+        primarySelector: pageSpec.selector,
+        primaryStyles: primaryStyles,
+        additionalStyles: additionalStyles,
         screenshot: filename,
         timestamp: new Date().toISOString()
       });
 
       console.log(`  -> ${filename}`);
-      console.log(`  Styles: ${JSON.stringify(styles)}`);
+      console.log(`  Primary: ${JSON.stringify(primaryStyles)}`);
+      if (Object.keys(additionalStyles).length > 0) {
+        console.log(`  Additional: ${JSON.stringify(additionalStyles)}`);
+      }
     } catch (err) {
       console.error(`  FAILED: ${err.message}`);
       results.push({
@@ -101,6 +139,18 @@ async function captureScreenshots() {
   }, null, 2));
 
   console.log(`\nManifest written to: ${manifestPath}`);
+  
+  // Print summary for verification
+  console.log('\n=== TYPOGRAPHY VERIFICATION SUMMARY ===');
+  for (const r of results) {
+    if (r.primaryStyles) {
+      console.log(`\n${r.page.toUpperCase()}:`);
+      console.log(`  Font-size: ${r.primaryStyles.fontSize}`);
+      console.log(`  Font-family: ${r.primaryStyles.fontFamily}`);
+      console.log(`  Font-weight: ${r.primaryStyles.fontWeight}`);
+    }
+  }
+  
   return results;
 }
 
