@@ -9,10 +9,17 @@
  * - 页面探针发现 version.json 变化后发 VERSION_CHANGED 消息 →
  *   后台刷新核心数据缓存（不打断当前浏览）
  * - 离线行为不变：网络失败一律回退 Cache Storage / offline.html
+ *
+ * 首开提速（t_dac8f66a）：
+ * - install 时 best-effort 预缓存核心数据 + 最新一期 → 详情页数据首开即缓存命中
+ * - 页面发 PREFETCH_ISSUES → 预取相关作品的跨期期文件（第二幅作品首开秒出、离线可用）
+ * - 预取只补缺失、限量（PREFETCH_MAX）、失败静默，不拖累 install / 页面
  */
 const CACHE_APP = "artbook-app-v1";
 const DATA_RE = /\/data\//;
 const CORE_DATA = ["./data/index.json", "./data/catalog.json", "./data/artists.json"];
+// 跨期预取上限（t_dac8f66a）：相关作品最多横跨 4 期（同画家档上限），每期 ~70KB
+const PREFETCH_MAX = 4;
 
 const APP_SHELL = [
   "./",
@@ -101,6 +108,40 @@ async function refreshCoreData() {
   }
 }
 
+// 预取单个数据文件（t_dac8f66a）：缓存已存在则跳过；no-cache 拉取；失败静默
+// （离线 / 404 不打扰，也不让预取拖累 install / message 的完成）
+async function prefetchData(path) {
+  try {
+    const url = new URL(path, self.location).href;
+    const cache = await caches.open(CACHE_APP);
+    if (await cache.match(url)) return false;
+    const res = await fetch(new Request(url, { cache: "no-cache" }));
+    if (!res.ok) return false;
+    await cache.put(url, res.clone());
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// 首次安装即预缓存核心数据 + 最新一期（best-effort）：
+// 详情页数据（catalog + 期文件）首开即缓存命中，秒出且离线可用
+async function precacheCoreData() {
+  try {
+    const idxUrl = new URL("./data/index.json", self.location).href;
+    const idxRes = await fetch(new Request(idxUrl, { cache: "no-cache" }));
+    if (!idxRes.ok) return;
+    const cache = await caches.open(CACHE_APP);
+    await cache.put(idxUrl, idxRes.clone());
+    const idx = await idxRes.json().catch(() => null);
+    await prefetchData("./data/catalog.json");
+    await prefetchData("./data/artists.json");
+    if (idx && idx.latest) await prefetchData(`./data/issues/${idx.latest}.json`);
+  } catch {
+    /* 安装期离线：数据预缓存跳过，首屏数据仍走 swrData 网络路径 */
+  }
+}
+
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(CACHE_APP)
@@ -108,6 +149,8 @@ self.addEventListener("install", (e) => {
       .then((c) => c.addAll(APP_SHELL.map((u) => new Request(u, { cache: "no-cache" }))))
       .then(() => self.skipWaiting())
   );
+  // 核心数据 + 最新一期预缓存（独立 best-effort，失败不阻塞安装）
+  e.waitUntil(precacheCoreData());
 });
 
 self.addEventListener("activate", (e) => {
@@ -144,19 +187,27 @@ self.addEventListener("fetch", (e) => {
   e.respondWith(networkFirst(req));
 });
 
-// 页面探针发现版本变化 → 后台刷新数据缓存；完成后回执确认
+// 页面探针发现版本变化 → 后台刷新数据缓存；完成后回执确认。
+// 详情页请求 → 预取相关作品的跨期期文件（第二幅作品首开即缓存命中，离线可用）
 self.addEventListener("message", (e) => {
   const msg = e.data;
-  if (!msg || msg.type !== "VERSION_CHANGED") return;
-  e.waitUntil(
-    refreshCoreData().then(() => {
-      try {
-        if (e.source && e.source.postMessage) {
-          e.source.postMessage({ type: "VERSION_REFRESHED", version: msg.version });
+  if (!msg) return;
+  if (msg.type === "VERSION_CHANGED") {
+    e.waitUntil(
+      refreshCoreData().then(() => {
+        try {
+          if (e.source && e.source.postMessage) {
+            e.source.postMessage({ type: "VERSION_REFRESHED", version: msg.version });
+          }
+        } catch {
+          /* 回执失败不影响刷新结果 */
         }
-      } catch {
-        /* 回执失败不影响刷新结果 */
-      }
-    })
-  );
+      })
+    );
+    return;
+  }
+  if (msg.type === "PREFETCH_ISSUES" && Array.isArray(msg.dates)) {
+    const dates = [...new Set(msg.dates)].filter(Boolean).slice(0, PREFETCH_MAX);
+    e.waitUntil(Promise.all(dates.map((d) => prefetchData(`./data/issues/${d}.json`))));
+  }
 });

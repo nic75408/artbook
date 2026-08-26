@@ -51,6 +51,7 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r pipeline/requirements.txt
 export LLM_API_KEY=...   # 或由 .env 提供
 python -m unittest discover -s tests -q            # 发布闸门校验逻辑单元测试（推送上线前必须通过）
+node tests/sw_prefetch_logic.test.mjs              # SW 预缓存/懒预取/离线回退逻辑测试（t_dac8f66a）
 python pipeline/generate.py --date 2026-08-13 --dry-run   # 完整执行但不落盘
 ```
 

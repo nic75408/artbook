@@ -156,11 +156,27 @@ function render(el, w) {
       });
     }, { root: scroll });
     scroll.querySelectorAll(".rel-card").forEach((c) => io.observe(c));
+    prefetchRelatedIssues(list); // 相关作品跨期 → SW 后台预取期文件（第二幅作品首开秒出）
   }).catch(() => {
     const box = el.querySelector("#related-scroll");
     box.innerHTML = `<button class="action-btn" id="rel-retry">暂时加载不出来 · 重试</button>`;
     el.querySelector("#rel-retry").addEventListener("click", () => navigate(`#/work/${w.id}`));
   });
+}
+
+// 相关作品可能横跨多期：把缺失的期文件预取进 SW 缓存（去重+限量在 SW 内做），
+// 用户点开第二幅作品时数据已在缓存，秒开且离线可用。失败静默（无 SW/离线）。
+function prefetchRelatedIssues(list) {
+  const dates = [...new Set((list || []).map((r) => r.issue).filter(Boolean))];
+  if (!dates.length) return;
+  navigator.serviceWorker?.ready
+    .then((reg) => {
+      const target = reg.active || navigator.serviceWorker.controller;
+      target?.postMessage({ type: "PREFETCH_ISSUES", dates });
+    })
+    .catch(() => {
+      /* 无 SW 环境：跳过 */
+    });
 }
 
 // 全屏看图：黑底、双指缩放（1x-4x）+ 拖拽、单击退出（SPE §7.4-2）
