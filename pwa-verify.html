@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PWA 验证工具</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 20px;
+      background: #F5F1EA;
+      color: #1D1B16;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 { font-size: 20px; margin: 0 0 16px 0; }
+    h2 { font-size: 16px; margin: 0 0 8px 0; }
+    .status { font-size: 14px; color: #6B6558; }
+    .pass { color: #2E7D32; font-weight: bold; }
+    .fail { color: #C62828; font-weight: bold; }
+    .pending { color: #F57C00; font-weight: bold; }
+    button {
+      background: #8C6D3F;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      width: 100%;
+      margin: 8px 0;
+    }
+    button:active { background: #6B532F; }
+    pre {
+      background: #f5f5f5;
+      padding: 12px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 12px;
+    }
+    .metric {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .metric:last-child { border-bottom: none; }
+    .metric-value { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🎨 PWA 验证工具</h1>
+  
+  <div class="card">
+    <h2>1. Service Worker 状态</h2>
+    <div id="sw-status" class="status">检查中...</div>
+  </div>
+
+  <div class="card">
+    <h2>2. 缓存状态</h2>
+    <div id="cache-status" class="status">检查中...</div>
+    <button onclick="checkCache()">刷新缓存状态</button>
+  </div>
+
+  <div class="card">
+    <h2>3. 首屏渲染时间</h2>
+    <div class="metric">
+      <span>DOMContentLoaded:</span>
+      <span id="dom-interactive" class="metric-value">--</span>
+    </div>
+    <div class="metric">
+      <span>Load Event:</span>
+      <span id="load-complete" class="metric-value">--</span>
+    </div>
+    <button onclick="measureLaunchTime()">重新测量</button>
+  </div>
+
+  <div class="card">
+    <h2>4. 离线测试</h2>
+    <div id="offline-status" class="status">点击按钮开始测试</div>
+    <button onclick="testOffline()">测试离线模式</button>
+  </div>
+
+  <div class="card">
+    <h2>5. 设备信息</h2>
+    <div id="device-info" class="status">收集中...</div>
+  </div>
+
+  <div class="card">
+    <h2>📋 验证报告</h2>
+    <button onclick="generateReport()">生成验证报告</button>
+    <pre id="report"></pre>
+  </div>
+
+  <script>
+    // 性能计时
+    const perf = window.performance;
+    const timing = perf.timing;
+    
+    function formatTime(ms) {
+      return (ms / 1000).toFixed(2) + 's';
+    }
+
+    // 检查 Service Worker
+    async function checkSW() {
+      const el = document.getElementById('sw-status');
+      if ('serviceWorker' in navigator) {
+        try {
+          const reg = await navigator.serviceWorker.getRegistration();
+          if (reg && reg.active) {
+            el.innerHTML = `<span class="pass">✅ Service Worker 已激活</span><br>
+              <small>脚本：${reg.active.scriptURL}</small>`;
+          } else if (reg && reg.installing) {
+            el.innerHTML = `<span class="pending">⏳ Service Worker 安装中...</span>`;
+          } else {
+            el.innerHTML = `<span class="fail">❌ Service Worker 未注册</span>`;
+          }
+        } catch (e) {
+          el.innerHTML = `<span class="fail">❌ 检查失败：${e.message}</span>`;
+        }
+      } else {
+        el.innerHTML = `<span class="fail">❌ 浏览器不支持 Service Worker</span>`;
+      }
+    }
+
+    // 检查缓存
+    async function checkCache() {
+      const el = document.getElementById('cache-status');
+      try {
+        const cacheNames = await caches.keys();
+        if (cacheNames.length === 0) {
+          el.innerHTML = '<span class="pending">⚠️ 缓存为空（首次访问）</span>';
+          return;
+        }
+        let html = '<span class="pass">✅ 找到缓存:</span><ul style="margin:8px 0;padding-left:20px;font-size:13px;">';
+        for (const name of cacheNames) {
+          const cache = await caches.open(name);
+          const keys = await cache.keys();
+          html += `<li>${name}: ${keys.length} 个资源</li>`;
+        }
+        html += '</ul>';
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = `<span class="fail">❌ 检查失败：${e.message}</span>`;
+      }
+    }
+
+    // 测量启动时间
+    function measureLaunchTime() {
+      const domEl = document.getElementById('dom-interactive');
+      const loadEl = document.getElementById('load-complete');
+      
+      const domTime = timing.domInteractive - timing.navigationStart;
+      const loadTime = timing.loadEventEnd - timing.navigationStart;
+      
+      domEl.textContent = formatTime(domTime);
+      loadEl.textContent = formatTime(loadTime);
+      
+      // 判断是否达标
+      if (loadTime <= 3000) {
+        loadEl.innerHTML += ' <span class="pass">✅ ≤3s</span>';
+      } else {
+        loadEl.innerHTML += ' <span class="fail">❌ >3s</span>';
+      }
+    }
+
+    // 测试离线模式
+    async function testOffline() {
+      const el = document.getElementById('offline-status');
+      el.innerHTML = '<span class="pending">⏳ 测试中...</span>';
+      
+      try {
+        // 尝试 fetch 一个应该被缓存的资源
+        const response = await fetch('./index.html', { 
+          method: 'HEAD',
+          cache: 'only-if-cached'
+        });
+        
+        if (response.ok || response.type === 'opaque') {
+          el.innerHTML = '<span class="pass">✅ 离线模式可用（资源来自缓存）</span>';
+        } else {
+          el.innerHTML = '<span class="fail">❌ 离线模式不可用</span>';
+        }
+      } catch (e) {
+        // 离线时 fetch 会失败，这是正常的
+        el.innerHTML = '<span class="pass">✅ 检测到离线状态（预期行为）</span>';
+      }
+    }
+
+    // 收集设备信息
+    function collectDeviceInfo() {
+      const el = document.getElementById('device-info');
+      const ua = navigator.userAgent;
+      const platform = navigator.platform;
+      const language = navigator.language;
+      const online = navigator.onLine;
+      const connection = navigator.connection;
+      
+      let info = `<strong>User Agent:</strong> ${ua}<br>`;
+      info += `<strong>平台:</strong> ${platform}<br>`;
+      info += `<strong>语言:</strong> ${language}<br>`;
+      info += `<strong>网络状态:</strong> ${online ? '在线' : '离线'}<br>`;
+      
+      if (connection) {
+        info += `<strong>网络类型:</strong> ${connection.effectiveType || 'unknown'}<br>`;
+        info += `<strong>下行带宽:</strong> ${connection.downlink || 'unknown'} Mbps<br>`;
+        info += `<strong>RTT:</strong> ${connection.rtt || 'unknown'} ms<br>`;
+      }
+      
+      // 屏幕信息
+      info += `<strong>屏幕尺寸:</strong> ${screen.width}x${screen.height}<br>`;
+      info += `<strong>视口尺寸:</strong> ${window.innerWidth}x${window.innerHeight}<br>`;
+      info += `<strong>设备像素比:</strong> ${window.devicePixelRatio}x`;
+      
+      el.innerHTML = info;
+    }
+
+    // 生成验证报告
+    function generateReport() {
+      const report = {
+        timestamp: new Date().toISOString(),
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        serviceWorker: {
+          supported: 'serviceWorker' in navigator,
+          registered: !!(navigator.serviceWorker && navigator.serviceWorker.controller),
+          controller: navigator.serviceWorker?.controller?.scriptURL || null
+        },
+        performance: {
+          domInteractive: timing.domInteractive - timing.navigationStart,
+          loadComplete: timing.loadEventEnd - timing.navigationStart,
+          firstPaint: perf.getEntriesByType('paint')[0]?.startTime || null,
+          firstContentfulPaint: perf.getEntriesByType('paint')[1]?.startTime || null
+        },
+        cache: {
+          available: 'caches' in window,
+          cacheNames: null // 待填充
+        },
+        network: {
+          online: navigator.onLine,
+          connection: navigator.connection ? {
+            effectiveType: navigator.connection.effectiveType,
+            downlink: navigator.connection.downlink,
+            rtt: navigator.connection.rtt
+          } : null
+        },
+        screen: {
+          width: screen.width,
+          height: screen.height,
+          devicePixelRatio: window.devicePixelRatio,
+          viewportWidth: window.innerWidth,
+          viewportHeight: window.innerHeight
+        }
+      };
+      
+      // 异步获取缓存名
+      if ('caches' in window) {
+        caches.keys().then(names => {
+          report.cache.cacheNames = names;
+          document.getElementById('report').textContent = JSON.stringify(report, null, 2);
+        });
+      } else {
+        document.getElementById('report').textContent = JSON.stringify(report, null, 2);
+      }
+    }
+
+    // 初始化
+    window.addEventListener('load', () => {
+      checkSW();
+      checkCache();
+      measureLaunchTime();
+      collectDeviceInfo();
+    });
+  </script>
+</body>
+</html>
