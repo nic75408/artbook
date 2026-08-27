@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品赏析 Essay 小标题规范示例</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .page {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .card-header {
+            padding: 14px 16px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 999px;
+        }
+        .badge-no-heading { background: #e2e3e5; color: #343a40; }
+        .badge-with-heading { background: #d4edda; color: #155724; }
+
+        .mock-detail {
+            display: grid;
+            grid-template-columns: 1.1fr 1.4fr;
+            gap: 16px;
+            padding: 16px;
+        }
+        .mock-artwork {
+            border-radius: 12px;
+            background: #fdfbf7;
+            border: 1px solid #e4ddd0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            color: #666;
+        }
+        .mock-artwork-figure {
+            width: 160px;
+            height: 110px;
+            border-radius: 8px;
+            background: #ddd;
+            margin-bottom: 8px;
+        }
+        .essay-block {
+            background: #fdfbf7;
+            border-radius: 12px;
+            border: 1px solid #e4ddd0;
+            padding: 14px 16px;
+        }
+        .essay-heading {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .essay-heading-label {
+            font-size: 11px;
+            font-weight: 500;
+            color: #856404;
+        }
+        .essay-text {
+            font-size: 13px;
+            color: #444;
+        }
+        .essay-text + .essay-heading { margin-top: 12px; }
+        .essay-text p { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div style="margin-bottom: 20px;">
+        <h1 style="font-size: 18px; margin-bottom: 8px;">作品赏析 Essay 小标题规范示例</h1>
+        <p style="font-size: 13px; color: #555;">验证两种场景：仅整体印象一段（无小标题）与整体 + 局部 + 技法三段（所有小标题与内容一一对应）。</p>
+    </div>
+
+    <!-- 场景一：仅整体印象一段，无任何小标题，仅正文 -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">场景一：整体印象单段（type = overview）</div>
+            <span class="badge badge-no-heading">不渲染小标题，仅显示正文</span>
+        </div>
+        <div class="mock-detail">
+            <div class="mock-artwork">
+                <div class="mock-artwork-figure"></div>
+                <div>作品图与标题区域</div>
+            </div>
+            <div class="essay-block">
+                <div class="essay-text">
+                    <p>这幅作品的整体印象极为宁静。画面采用横向构图，主体人物略微偏左站立，身后远景以柔和的蓝灰色调铺陈，营造出开阔而克制的空间感。观者的视线从人物面部自然滑向衣物与背景，如同在博物馆中缓慢移动的脚步。</p>
+                    <p>光线处理上，画家避免了强烈的明暗对比，而是通过细密而均匀的笔触，让整幅画呈现出类似旧纸的温润色调。这种内敛的整体氛围，与作品所描绘的人物性格相呼应，使观者在短暂停留间即可感受到平静而持久的情绪。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 场景二：整体 + 局部 + 技法三段，所有小标题与内容一一对应 -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">场景二：整体 + 局部 + 技法三段（overview + detail + technique）</div>
+            <span class="badge badge-with-heading">所有小标题与段落一一对应</span>
+        </div>
+        <div class="mock-detail">
+            <div class="mock-artwork">
+                <div class="mock-artwork-figure"></div>
+                <div>作品图与标题区域</div>
+            </div>
+            <div class="essay-block">
+                <div class="essay-heading">
+                    <span class="essay-heading-label">整体印象</span>
+                </div>
+                <div class="essay-text">
+                    <p>初看这幅画，观者首先被稳定而略带庄严的构图所吸引。人物位于画面中央偏下，身后背景以简化的建筑与树木勾勒出来，整体结构类似舞台上的前景与布景，清晰区分出观看与被观看的关系。画面中的每个元素都经过精心安排，却不显得拥挤。</p>
+                </div>
+
+                <div class="essay-heading">
+                    <span class="essay-heading-label">局部细节：衣物</span>
+                </div>
+                <div class="essay-text">
+                    <p>衣物部分是整幅作品最耐看的地方。画家用极细的线条勾勒出衣领与袖口的边缘，再以略厚的颜料堆叠出褶皱的起伏，使面料既有重量感又不失柔软。局部区域的色彩略微偏向冷色，与人物面部的暖色形成细小对比，从而在不破坏整体宁静气氛的前提下，悄然将视线引向衣物。</p>
+                </div>
+
+                <div class="essay-heading">
+                    <span class="essay-heading-label">技法解读</span>
+                </div>
+                <div class="essay-text">
+                    <p>在技法上，画家通过交替使用细腻的横向笔触与略带颗粒感的竖向笔触，构造出衣物不同材质之间的差异。阴影部分多采用透明的薄涂，让前一次的颜色隐约透出，形成轻微抖动的色层，这种处理让衣物在光线变化中保持灵活，而非僵硬的块面。同时，刻意克制的高光只出现在衣领与纽扣附近，恰好在观者视线停留的位置完成点睛。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
