@@ -2,7 +2,8 @@
 import { WORDMARK } from "../config.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
-import { esc, icons, Icon, learnBtnSVG } from "./ui.js";
+import { esc, icons, learnBtnSVG } from "./ui.js";
+import { Icon } from "./icons/Icon.js";
 
 const POS_KEY = "artbook.feedpos";
 let scroller = null;

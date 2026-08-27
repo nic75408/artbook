@@ -272,10 +272,10 @@ console.log("== 离线数据请求 ==");
   const body = await res.clone().json();
   assert(Array.isArray(body.works) && body.works.length > 0, "离线: catalog 内容完整可解析");
 
-  const res2 = await fetchResponse(sandbox, ORIGIN + "/data/issues/2026-08-26.json");
-  assert(res2.status === 200, "离线: 最新一期从缓存 200 返回");
+  const res2 = await fetchResponse(sandbox, ORIGIN + "/data/issues/2026-08-27.json");
+  assert(res2.status === 200, "离线：最新一期从缓存 200 返回");
   const issue = await res2.clone().json();
-  assert(Array.isArray(issue.works) && issue.works.length > 0, "离线: 期文件内容完整可解析（详情页可渲染）");
+  assert(Array.isArray(issue.works) && issue.works.length > 0, "离线：期文件内容完整可解析（详情页可渲染）");
 }
 
 // ============================================================

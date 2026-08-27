@@ -4,7 +4,7 @@ import { initRouter, register } from "./router.js";
 import { mount as feed } from "./feed.js";
 import { mount as detail } from "./detail.js";
 import { mount as favs } from "./favorites.js";
-import { preloadIcons } from "./ui.js";
+import { preloadIcons } from "./icons/Icon.js";
 
 // 预加载关键图标，确保首屏渲染不闪烁
 preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });

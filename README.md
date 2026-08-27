@@ -57,6 +57,32 @@ node tests/sw_prefetch_logic.test.mjs              # SW 预缓存/懒预取/离�
 python pipeline/generate.py --date 2026-08-13 --dry-run   # 完整执行但不落盘
 ```
 
+### 前端测试验证
+
+```bash
+# 安装依赖
+npm install
+
+# 启动本地服务器（端口 8888）
+npm run dev
+
+# 运行 Playwright 测试（画作版式适配验收，t_f1b36a86）
+npx playwright test tests/artwork-aspect-ratio.spec.js
+
+# 运行 Service Worker 逻辑测试
+npm test
+```
+
+Playwright 测试验收标准（8 条用例）：
+1. 画作、作品文字、工具图标左边界对齐误差 ≤ 2px
+2. 横向滑动时左右留白差异 ≤ 5px（iPhone 14 Pro 390×844）
+3. 垂直间距统一为 24pt
+4. 右下角了解更多按钮尺寸收紧到 84px
+5. 首页无左下角收藏按钮
+6. 右上角收藏夹入口显示文字
+7. 点击右上角收藏夹进入收藏夹视图
+8. 画作容器采用 letterbox 背景
+
 ## 分工事项
 
 | 事项 | 归属 |
