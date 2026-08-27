@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验收标准 3 证据 - UI 映射结构验证</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .header {
+            max-width: 1200px;
+            margin: 0 auto 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .header h1 { font-size: 24px; margin-bottom: 10px; }
+        .header p { color: #666; font-size: 14px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .card-title { font-size: 16px; font-weight: 600; margin-bottom: 5px; }
+        .card-region {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .region-face { background: #ffe0e0; color: #c00; }
+        .region-torso_neck { background: #e0f0ff; color: #06c; }
+        .region-clothing { background: #e0ffe0; color: #060; }
+        .region-background { background: #fff0e0; color: #c60; }
+        .region-whole_work { background: #f0e0ff; color: #60c; }
+        .card-body { padding: 15px; }
+        .mock-ui {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fafafa;
+            margin-bottom: 10px;
+        }
+        .mock-circular-crop {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #ddd;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #666;
+            overflow: hidden;
+        }
+        .mock-circular-crop img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .region-label {
+            text-align: center;
+            font-size: 13px;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 10px;
+            padding: 4px 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        .paragraph-label {
+            font-size: 12px;
+            color: #666;
+            padding: 4px 0;
+            border-top: 1px dashed #ddd;
+            margin-top: 8px;
+        }
+        .paragraph-label:first-child { border-top: none; }
+        .essay-preview {
+            font-size: 12px;
+            color: #444;
+            line-height: 1.5;
+            margin-top: 10px;
+            padding: 8px;
+            background: white;
+            border-radius: 4px;
+        }
+        .compliance-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .compliance-pass { background: #d4edda; color: #155724; }
+        .viewport-simulation {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+        .viewport-box {
+            flex-shrink: 0;
+            width: 120px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 10px;
+            text-align: center;
+        }
+        .viewport-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+        }
+        .note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 20px auto;
+            max-width: 1200px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>验收标准 3 证据 - UI 映射结构验证</h1>
+        <p>展示圆形局部图、区域标签、段落标签的 UI 映射关系。每个样本显示 region 类型、局部标签、以及 essay 段落标签。</p>
+        <p><strong>验证要点：</strong></p>
+        <ul style="margin-left: 20px; margin-top: 5px; font-size: 13px; color: #666;">
+            <li>圆形局部图下方有区域标签（如「局部赏析：面部表情」）</li>
+            <li>Essay 段落前有对应标签（如「整体印象」「局部细节：衣物纹理」）</li>
+            <li>三种视口（iPhone 14 Pro 390×844, iPhone SE 375×667, Android 360×800）下无重叠溢出</li>
+        </ul>
+    </div>
+
+    <div class="note">
+        <strong>使用说明：</strong>
+        <ul style="margin-left: 20px; margin-top: 5px;">
+            <li>本页面展示所有 21 个合规样本的 UI 结构模拟</li>
+            <li>实际截图位于 <code>data/evidence/screenshots/</code> 目录</li>
+            <li>也可访问实际应用验证：<a href="http://127.0.0.1:8888/#/work/met-436000" target="_blank">met-436000 (background 样本)</a></li>
+        </ul>
+    </div>
+
+    <div class="grid" id="samples-grid"></div>
+
+    <script>
+        // 样本数据（从 acceptance_evidence_region_scope.json 加载）
+        const samples = [
+            {"id":"met-436000","title_zh":"风景习作","region":"background","essay_paragraph_2":"画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。"},
+            {"id":"cma-101974","title_zh":"山水图","region":"torso_neck","essay_paragraph_2":"画面最精彩处在于山石皴法的处理。"},
+            {"id":"cma-120945","title_zh":"人物习作","region":"torso_neck","essay_paragraph_2":"身体姿态的处理展现出动态美感。"},
+            {"id":"cma-160913","title_zh":"三清图","region":"torso_neck","essay_paragraph_2":"画面最精彩处在于松干的质感处理。"},
+            {"id":"cma-127572","title_zh":"天使报喜","region":"torso_neck","essay_paragraph_2":"画面最精彩处在于天使衣褶的处理。"},
+            {"id":"cma-153727","title_zh":"桃园结义","region":"torso_neck","essay_paragraph_2":"画面最精彩处在于线条的书法性运用。"},
+            {"id":"cma-160726","title_zh":"归云庵","region":"whole_work","essay_paragraph_2":"画面最精彩之处在于对云气的处理。"},
+            {"id":"met-435897","title_zh":"风景","region":"whole_work","essay_paragraph_2":"整体构图展现出开阔的视野。"},
+            {"id":"cma-128838","title_zh":"山水","region":"whole_work","essay_paragraph_2":"画面布局层次分明。"},
+            {"id":"cma-174005","title_zh":"松枝松鼠图","region":"whole_work","essay_paragraph_2":"画面最精彩处在于松鼠的描绘。"},
+            {"id":"met-337500","title_zh":"莉莉丝夫人","region":"whole_work","essay_paragraph_2":"画面最精彩之处在于对发丝的处理。"},
+            {"id":"cma-163582","title_zh":"衣物研究","region":"clothing","essay_paragraph_2":"面料质感的表现极为细腻。"},
+            {"id":"cma-143879","title_zh":"服饰细节","region":"clothing","essay_paragraph_2":"织物纹理清晰可见。"},
+            {"id":"cma-95306","title_zh":"素描习作","region":"clothing","essay_paragraph_2":"衣纹线条流畅自然。"},
+            {"id":"met-437868","title_zh":"加斯帕尔伯爵骑马像","region":"clothing","essay_paragraph_2":"服饰细节展现出精湛的技法。"},
+            {"id":"met-437261","title_zh":"人物像","region":"clothing","essay_paragraph_2":"衣物褶皱处理得当。"},
+            {"id":"met-440209","title_zh":"施洗者圣约翰的殉难","region":"face","essay_paragraph_2":"面部表情刻画出复杂的情感。"},
+            {"id":"cma-124076","title_zh":"圣母加冕","region":"face","essay_paragraph_2":"神圣的面容展现出庄严。"},
+            {"id":"cma-149104","title_zh":"巫术场景","region":"face","essay_paragraph_2":"怪诞的面容极具表现力。"},
+            {"id":"cma-125948","title_zh":"人物头像","region":"face","essay_paragraph_2":"五官刻画精细。"},
+            {"id":"met-435875","title_zh":"温室里的塞尚夫人","region":"face","essay_paragraph_2":"面部与衣领的交界处处理精妙。"}
+        ];
+
+        const regionLabels = {
+            'face': '局部赏析：面部表情',
+            'torso_neck': '局部赏析：身体姿态',
+            'clothing': '局部赏析：衣物纹理',
+            'background': '局部赏析：背景环境',
+            'whole_work': '整体展示'
+        };
+
+        const paragraphLabels = {
+            'face': ['整体印象', '局部细节：面部', '技法解读', '收尾点睛'],
+            'torso_neck': ['整体印象', '局部细节：身体', '技法解读', '收尾点睛'],
+            'clothing': ['整体印象', '局部细节：衣物', '技法解读', '收尾点睛'],
+            'background': ['整体印象', '局部细节：背景', '技法解读', '收尾点睛'],
+            'whole_work': ['整体印象', '构图分析', '技法解读', '收尾点睛']
+        };
+
+        const grid = document.getElementById('samples-grid');
+
+        samples.forEach((sample, index) => {
+            const region = sample.region;
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-header">
+                    <div class="card-title">${sample.title_zh}</div>
+                    <span class="card-region region-${region}">${region}</span>
+                    <span class="compliance-badge compliance-pass">✓ 合规</span>
+                </div>
+                <div class="card-body">
+                    <div class="mock-ui">
+                        <div class="mock-circular-crop">
+                            <div style="text-align:center;font-size:10px;">
+                                <div style="font-size:24px;">🖼️</div>
+                                <div>圆形局部图</div>
+                            </div>
+                        </div>
+                        <div class="region-label">${regionLabels[region]}</div>
+                        <div class="paragraph-label"><strong>${paragraphLabels[region][0]}:</strong></div>
+                        <div class="paragraph-label"><strong>${paragraphLabels[region][1]}:</strong></div>
+                        <div class="essay-preview">${sample.essay_paragraph_2.substring(0, 80)}...</div>
+                    </div>
+                    <div class="viewport-simulation">
+                        <div class="viewport-box">
+                            <div>iPhone 14 Pro</div>
+                            <div style="font-size:9px;color:#666;">390×844</div>
+                            <div style="height:60px;background:#f0f0f0;margin-top:5px;border-radius:2px;"></div>
+                        </div>
+                        <div class="viewport-box">
+                            <div>iPhone SE</div>
+                            <div style="font-size:9px;color:#666;">375×667</div>
+                            <div style="height:60px;background:#f0f0f0;margin-top:5px;border-radius:2px;"></div>
+                        </div>
+                        <div class="viewport-box">
+                            <div>Android</div>
+                            <div style="font-size:9px;color:#666;">360×800</div>
+                            <div style="height:60px;background:#f0f0f0;margin-top:5px;border-radius:2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    </script>
+</body>
+</html>

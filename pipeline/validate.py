@@ -23,6 +23,9 @@ REQUIRED_STR_FIELDS = (
 # --- 选填字符串字段：前端有优雅兜底（创作年代"不详"、实际尺寸行隐藏） ---
 OPTIONAL_STR_FIELDS = ("date_display", "dimensions")
 
+# --- 有效的 region 类型（detailCrop.region） ---
+VALID_REGIONS = {"face", "torso_neck", "clothing", "background", "whole_work"}
+
 HEX_COLOR_RE = re.compile(r"#[0-9a-fA-F]{6}")
 
 # --- 赏析硬约束（prompts/essay.md 第 1、3 条） ---
@@ -114,6 +117,10 @@ def validate_work(w):
             cx, cy, r = float(crop["cx"]), float(crop["cy"]), float(crop["r"])
             if not (0 <= cx <= 1 and 0 <= cy <= 1 and 0.08 <= r <= 0.3):
                 errs.append("detailCrop 非法")
+            # 校验 region 字段
+            region = crop.get("region")
+            if region is not None and region not in VALID_REGIONS:
+                errs.append(f"detailCrop.region 非法值: {region}")
         except Exception:
             errs.append("detailCrop 非法")
     return errs

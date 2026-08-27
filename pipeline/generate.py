@@ -52,9 +52,12 @@ ESSAY_SCHEMA = {
     "bio_zh": {"type": str, "required": False},
 }
 
+# 有效的 region 类型
+VALID_REGIONS = {"face", "torso_neck", "clothing", "background", "whole_work"}
+
 CURATE_SCHEMA = {"ids": list, "tags": dict}
 
-DEFAULT_CROP = {"cx": 0.5, "cy": 0.4, "r": 0.18}
+DEFAULT_CROP = {"cx": 0.5, "cy": 0.4, "r": 0.18, "region": "whole_work"}
 
 
 def log(msg):
@@ -296,10 +299,17 @@ def clean_tags(tags, year=None):
 
 
 def clean_crop(crop):
+    """清洗并验证 crop 数据，包括区域类型（region）。"""
     try:
         cx, cy, r = float(crop["cx"]), float(crop["cy"]), float(crop["r"])
         if 0 <= cx <= 1 and 0 <= cy <= 1 and 0.08 <= r <= 0.3:
-            return {"cx": round(cx, 2), "cy": round(cy, 2), "r": round(r, 2)}
+            result = {"cx": round(cx, 2), "cy": round(cy, 2), "r": round(r, 2)}
+            # 处理 region 字段
+            region = crop.get("region", "whole_work")
+            if region not in VALID_REGIONS:
+                region = "whole_work"
+            result["region"] = region
+            return result
     except Exception:
         pass
     return dict(DEFAULT_CROP)

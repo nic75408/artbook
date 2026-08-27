@@ -1,0 +1,4973 @@
+{
+  "generated_at": "2026-08-26T19:14:10.389386",
+  "summary": {
+    "total_samples": 412,
+    "region_distribution": {
+      "clothing": 138,
+      "torso_neck": 114,
+      "whole_work": 108,
+      "face": 52
+    },
+    "total_violations": 83,
+    "violation_rate": 20.145631067961165,
+    "non_face_samples": 252,
+    "compliant_count": 169,
+    "compliance_rate": 67.06349206349206
+  },
+  "acceptance_criteria": {
+    "criterion_1_passed": true,
+    "criterion_2_passed": false
+  },
+  "samples": [
+    {
+      "id": "met-435809",
+      "title_zh": "收割者",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-438821",
+      "title_zh": "万福玛利亚",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-39901",
+      "title_zh": "照夜白",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-437654",
+      "title_zh": "马戏团的旁侧",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-436105",
+      "title_zh": "苏格拉底之死",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-435876",
+      "title_zh": "穿红裙的塞尚夫人",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436658",
+      "title_zh": "赫尔曼·冯·韦迪希三世肖像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "视线"
+          ],
+          "preview": "画面最耐看之处在于对物质质感的极致还原。请看那件黑色天鹅绒外套——荷尔拜因没有使用简单的平涂，而是用极细的笔触堆叠出织物受光后的微妙起伏。这种深沉的黑色与背景纯净的群青形成强烈反差，迫使观者将视线聚焦..."
+        }
+      ]
+    },
+    {
+      "id": "met-39668",
+      "title_zh": "树色平远图",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-437056",
+      "title_zh": "托马索·迪·福尔科·波提纳里与玛丽亚·波提纳里肖像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-436282",
+      "title_zh": "受难与最后的审判",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情"
+          ],
+          "preview": "画面左侧描绘了耶稣受难的场景，右侧则是最后的审判。左侧的细节尤为精彩，尤其是前景中人物的服饰和表情，细腻入微。右侧上方的天使群像和下方的地狱景象形成了鲜明的对比，光影处理极为出色。"
+        }
+      ]
+    },
+    {
+      "id": "met-435851",
+      "title_zh": "受难沉思",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-36131",
+      "title_zh": "山水册页",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-438815",
+      "title_zh": "夏庞蒂埃夫人和她的孩子们",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-145422",
+      "title_zh": "菊丛雀犬图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面右下角的两只幼犬是绝对的视觉重心。芦雪用没骨法（不勾勒轮廓线）直接以墨块晕染出狗的身体，仅用极细的笔触点出眼神与鼻头。这种处理让皮毛呈现出蓬松柔软的质感，尤其是那只回首张望的小狗，眼神中透出的警觉..."
+        }
+      ]
+    },
+    {
+      "id": "met-436607",
+      "title_zh": "寓言",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "表情"
+          ],
+          "preview": "画面最耐看的是右侧女子手中的书本与羽毛笔——这是典型的「智慧」或「缪斯」符号。吉多博诺处理红袍褶皱的笔触相当松弛，与左侧女孩僵硬的面部表情形成反差。注意看女子裸露的肩头与手臂，那种如瓷器般光滑的质感，..."
+        }
+      ]
+    },
+    {
+      "id": "met-437925",
+      "title_zh": "法国喜剧演员",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "华托是洛可可风格的先驱，以描绘贵族游乐的“雅宴画”闻名。这幅作于他生命最后阶段的作品，将视线从田园牧歌转向了舞台后台。它既是戏剧场景的记录，也被视为画家对自己艺术生涯的某种隐喻——人生如戏，演员在幕间..."
+        }
+      ]
+    },
+    {
+      "id": "met-437878",
+      "title_zh": "沉睡的女仆",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-39895",
+      "title_zh": "孝经图",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436283",
+      "title_zh": "壁龛中的圣母与圣子",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-53439",
+      "title_zh": "桥上抛扇图屏风",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-436529",
+      "title_zh": "阿尔勒女子：约瑟夫 - 米歇尔·吉努夫人",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-337497",
+      "title_zh": "利比亚女先知习作（正面）；利比亚女先知习作及坐姿人物小稿（背面）",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-337500",
+      "title_zh": "莉莉丝夫人",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-438816",
+      "title_zh": "冬日森林的日落",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-435702",
+      "title_zh": "马市",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-437261",
+      "title_zh": "圣杰罗姆的忏悔",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435881",
+      "title_zh": "姜罐与茄子静物",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-436098",
+      "title_zh": "受难图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-437173",
+      "title_zh": "安德烈斯·德·安德拉德·伊·拉·卡尔肖像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面最耐看的是人与犬的互动。画家没有让猎犬仅仅充当背景道具，而是赋予了它鲜活的性格——它仰头望向主人，眼神温顺而警觉。牟利罗处理狗毛的笔触松散而灵动，与主人那身质感厚重、几乎吸光的黑色天鹅绒外套形成了..."
+        }
+      ]
+    },
+    {
+      "id": "cma-74601",
+      "title_zh": "迪耶普港口的两艘船",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-435844",
+      "title_zh": "音乐家",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "表情"
+          ],
+          "preview": "画面左侧少年调试鲁特琴的手指是整幅画的视觉锚点。卡拉瓦乔用厚涂法堆叠出琴弦的张力与指尖按压的凹陷感，这种对触觉真实的还原，比面部表情更具说服力。光线并非均匀铺陈，而是像聚光灯般打在乐器与乐谱上，强化了..."
+        }
+      ]
+    },
+    {
+      "id": "met-40057",
+      "title_zh": "西塞渔社图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435897",
+      "title_zh": "基督头像（Ecce Homo）",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-848137",
+      "title_zh": "裸体男子习作",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-104412",
+      "title_zh": "战争的恐怖：结局都一样",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "戈雅晚年创作的《战争的灾难》系列，彻底撕碎了古典主义对战争英雄化的滤镜。这幅作于半岛战争期间的蚀刻版画，不再歌颂胜利，而是将目光死死钉在暴力的荒谬与无差别上。它标志着艺术史从宏大叙事向个体苦难的残酷转..."
+        }
+      ]
+    },
+    {
+      "id": "met-435728",
+      "title_zh": "圣杰罗姆的最后圣餐",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面容",
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面最动人处在于圣杰罗姆跪地领受圣餐的瞬间——他双手颤抖，眼神虔诚，衣褶如流水般垂落，显示出波提切利对线条的极致掌控。detailCrop 所选局部聚焦于神父俯身递送圣体的手势与圣杰罗姆仰望的面容，二..."
+        }
+      ]
+    },
+    {
+      "id": "met-435899",
+      "title_zh": "天使报喜",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情"
+          ],
+          "preview": "画面最耐看的是左侧天使加百列的翅膀——那是整幅画色彩最饱和、肌理最繁复的区域。画家没有使用平涂，而是用细密的笔触堆叠出羽毛的层次感，金红与深蓝的交织如同镶嵌工艺。这种对材质质感的痴迷，甚至超过了人物表..."
+        }
+      ]
+    },
+    {
+      "id": "met-44759",
+      "title_zh": "山水、人物与花卉册（十二开）",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-53660",
+      "title_zh": "十牛图颂",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435621",
+      "title_zh": "圣女贞德",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-437384",
+      "title_zh": "莎乐美",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435848",
+      "title_zh": "圣母诞生",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面最精彩之处在于那座占据主导地位的白色大理石建筑。请看前景左侧的圆柱与拱券，画家利用线性透视将视线强行引向深处的产房。这种冷峻、清晰的灰白色调与人物身上鲜艳的蓝红长袍形成强烈反差，建筑本身的体积感甚..."
+        }
+      ]
+    },
+    {
+      "id": "cma-101027",
+      "title_zh": "藏书票：伊丽莎白·M·利特",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-104126",
+      "title_zh": "圣母生平：约阿希姆与安娜在金门相拥",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-101029",
+      "title_zh": "藏书票：约翰·W·洛",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-53238",
+      "title_zh": "郑黄牛与渔山主",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-101036",
+      "title_zh": "藏书票：埃尔米·P·米尔斯",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-101074",
+      "title_zh": "藏书票：玛格丽特·施特劳斯",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-101857",
+      "title_zh": "参拜神社的女子与少女",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-102690",
+      "title_zh": "黎明",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436965",
+      "title_zh": "阿让特伊花园中的莫奈一家",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-102691",
+      "title_zh": "圣马丁运河水闸",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "勒佩尔是 19 世纪末巴黎版画复兴的关键人物，他将木刻从单纯的插图复制提升为独立的艺术表达。这幅作于 1890 年的作品，记录了奥斯曼改造后巴黎的工业一角。不同于当时画家对优雅林荫大道的迷恋，他将目光..."
+        }
+      ]
+    },
+    {
+      "id": "cma-102697",
+      "title_zh": "维莱特港",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "勒佩尔是 19 世纪末法国版画复兴的关键人物，他拒绝将木刻视为单纯的复制手段，而是将其提升为独立的艺术表达。这幅 1890 年的《维莱特港》处于他创作成熟期，记录了巴黎工业化进程中运河码头的繁忙景象。..."
+        }
+      ]
+    },
+    {
+      "id": "cma-102659",
+      "title_zh": "巴尔街",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-102826",
+      "title_zh": "风笛手",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-435874",
+      "title_zh": "有裂缝的房子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-103626",
+      "title_zh": "布兰奇王后故居，圣希波利特街",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-104009",
+      "title_zh": "瓦伦西亚的罗拉",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-104128",
+      "title_zh": "圣母生平：圣母献堂",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "视线沿左侧台阶向上，大祭司与圣母的互动被处理得极具戏剧张力。丢勒利用密集的排线塑造出石柱的体积感与织物的垂坠感，尤其是前景左下角的市集摊位，那只蜷缩的绵羊与杂乱的货篮，其毛皮质感与编织纹理清晰可辨，展..."
+        }
+      ]
+    },
+    {
+      "id": "cma-104435",
+      "title_zh": "战争的灾难：这也是",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-436535",
+      "title_zh": "麦田与丝柏",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436851",
+      "title_zh": "伊丽莎白·法伦（后来的德比伯爵夫人）",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-39569",
+      "title_zh": "胡笳十八拍：文姬归汉图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线",
+            "目光"
+          ],
+          "preview": "画面最精彩处在于对“动”与“静”的调度。请注意左侧马队入城的瞬间：马匹的肌肉线条紧绷，马蹄扬起尘土，与右侧庭院内垂柳依依、屋舍俨然形成强烈反差。画家利用建筑屋檐的斜线引导视线，将观者目光从喧嚣的关塞引..."
+        }
+      ]
+    },
+    {
+      "id": "met-888663",
+      "title_zh": "男色十景图卷",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情"
+          ],
+          "preview": "画面采用“引目钩鼻”技法，人物表情含蓄，情感交流全靠肢体语言。注意看右侧人物手中的烟管与散落的玩具——这些细节暗示了场景发生前的闲适氛围。丝绸上的矿物颜料虽经三百年氧化，衣纹的墨线依然劲挺，展现了长春..."
+        }
+      ]
+    },
+    {
+      "id": "cma-153727",
+      "title_zh": "桃园结义",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-436643",
+      "title_zh": "圣马太的召唤",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眉",
+            "眼"
+          ],
+          "preview": "画面最精彩之处在于前景人物的互动张力。左侧戴红帽的男子神情狡黠，眼神斜视，仿佛正在算计得失；中间的女子低眉顺眼，与周围躁动的男性形成鲜明对比。注意看右侧正在记账的税吏，他低头专注于账本，对身后的神圣召..."
+        }
+      ]
+    },
+    {
+      "id": "met-435759",
+      "title_zh": "施洗者圣约翰的头颅",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-125951",
+      "title_zh": "女子肖像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-436793",
+      "title_zh": "圣家族",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-135262",
+      "title_zh": "赛前",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-440209",
+      "title_zh": "施洗者圣约翰的殉难",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-435762",
+      "title_zh": "圣母与圣子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-144732",
+      "title_zh": "山间风暴",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-111691",
+      "title_zh": "犹太会堂内部",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-436099",
+      "title_zh": "圣母子与捐赠者及圣杰罗姆、圣伦纳德",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面中央的圣家族被置于残破的古典建筑中，这种废墟意象象征着旧约时代的终结。最耐人寻味的是前景的静物细节：编织粗糙的草篮、散落的麦秸与那头眼神温顺的牛。这些极具质感的日常物件，被描绘得如同触手可及，展现..."
+        }
+      ]
+    },
+    {
+      "id": "met-437028",
+      "title_zh": "圣芭芭拉传奇大师三联画（局部）",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "面部",
+            "眼"
+          ],
+          "preview": "画面最耐看的是前景中跪姿的捐赠人。左侧两位修士手持十字架，神情肃穆；右侧一位俗人带着猎犬，帽置脚边。画家对这些真实人物的刻画远比对圣经人物的描绘更为用心——尤其是右侧那位俗人，面部皱纹与眼神的捕捉极其..."
+        }
+      ]
+    },
+    {
+      "id": "met-436987",
+      "title_zh": "逃往埃及途中的休息",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-135480",
+      "title_zh": "卖苹果的女人",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-95265",
+      "title_zh": "唐豪瑟",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-135407",
+      "title_zh": "圣塞巴斯蒂安",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-436638",
+      "title_zh": "雅各布·威廉斯佐恩·范·费恩（1456–1535），画家之父",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-142384",
+      "title_zh": "祭坛画底座画板：圣凯瑟琳受多明我会会衣",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-124076",
+      "title_zh": "圣母加冕",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-115067",
+      "title_zh": "花瓶中的花",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-155871",
+      "title_zh": "太监的梦",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-171078",
+      "title_zh": "酒神与阿里阿德涅",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436102",
+      "title_zh": "四天使环绕的圣母与圣子",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-100489",
+      "title_zh": "菲茨吉本男爵像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-136609",
+      "title_zh": "赫拉克勒斯在十字路口",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-172894",
+      "title_zh": "朱顶红",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-437873",
+      "title_zh": "腓力四世",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-347906",
+      "title_zh": "天真之歌：小黑男孩",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-436100",
+      "title_zh": "耶稣降生",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-137598",
+      "title_zh": "拉蒂夫杀兄后诬陷胡尔希德（《鹦鹉故事》第三十二夜）",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面采用典型的「剖视法」构图，将建筑切开以展示内部情节。最值得玩味的是右侧站立的男子（拉蒂夫），他一手抚须，姿态看似沉稳，眼神却游离于画面之外，这种肢体语言精准地外化了其内心的虚伪与算计。相比之下，屋..."
+        }
+      ]
+    },
+    {
+      "id": "met-437936",
+      "title_zh": "阿里阿德涅",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-137789",
+      "title_zh": "第四人挖掘落壳之处，期待珠宝却仅得铁块",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-162857",
+      "title_zh": "克里希纳与牧牛女",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-74625",
+      "title_zh": "巴黎十一区市政厅宴会厅装饰草图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-84858",
+      "title_zh": "桑丘·潘沙",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-314450",
+      "title_zh": "梅瓦尔的桑格拉姆·辛格二世在萨德里猎野猪与虎",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-314454",
+      "title_zh": "梅瓦尔的贾万·辛格大君持猎鹰像",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-329339",
+      "title_zh": "卖鸟人",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-329347",
+      "title_zh": "伫立土丘上的马",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-302194",
+      "title_zh": "持怀表的男子肖像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-84852",
+      "title_zh": "修女",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-74651",
+      "title_zh": "瓦朗斯年轻女子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-435711",
+      "title_zh": "埃及农妇与她的孩子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-380076",
+      "title_zh": "里斯本葡萄牙王宫景观",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-441213",
+      "title_zh": "男子侧面像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-536434",
+      "title_zh": "珀尔修斯与安德洛墨达",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-536428",
+      "title_zh": "正义、复仇与真理",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-162745",
+      "title_zh": "小摩西·西摩",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-437457",
+      "title_zh": "基督受洗",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-536431",
+      "title_zh": "沉思",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-681928",
+      "title_zh": "以萨迦",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面中，以萨迦肩扛重物，手抚驴头，神情坚毅。盖恩运用细腻的交叉排线，刻画出衣褶的质感与肌肉的张力。驴的眼神温顺，与人物形成情感呼应。背景中的建筑与树木虽简略，却增添了空间深度。"
+        }
+      ]
+    },
+    {
+      "id": "met-436794",
+      "title_zh": "最后的审判",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面容"
+          ],
+          "preview": "约斯·范·克利夫是安特卫普画派的关键人物，以融合意大利文艺复兴构图与北方细腻写实著称。此作约绘于 1525 至 1530 年间，正值其风格成熟期。作为当时流行的祭坛画题材，他并未完全照搬米开朗基罗的宏..."
+        }
+      ]
+    },
+    {
+      "id": "cma-168979",
+      "title_zh": "伊索尔德",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-122348",
+      "title_zh": "戴金链的青年",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "这是伦勃朗莱顿时期的早期作品，创作于他二十岁出头。此时的他尚未被阿姆斯特丹的浮华浸染，正专注于通过光影实验来确立个人风格。这幅肖像画展示了他在处理面部体积感上的早熟天赋，也是他探索“自画像”这一终身课..."
+        }
+      ]
+    },
+    {
+      "id": "cma-144278",
+      "title_zh": "华山图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-148297",
+      "title_zh": "大树",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-143803",
+      "title_zh": "参孙与大利拉",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-162089",
+      "title_zh": "在海浪中",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "波特哈斯特是美国印象派中专注于海滨题材的代表人物。不同于萨金特对精英阶层的描绘，他将目光投向了 20 世纪初纽约长岛与康尼岛的大众浴场。这幅作于 1910 年前后的作品，记录了他职业生涯中最成熟的阶段..."
+        }
+      ]
+    },
+    {
+      "id": "cma-127572",
+      "title_zh": "天使报喜",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-135173",
+      "title_zh": "小溪",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-141549",
+      "title_zh": "弄臣卡拉巴萨斯肖像",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-124040",
+      "title_zh": "石楠木烟斗",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-137877",
+      "title_zh": "第六夜鹦鹉对胡佳斯塔说话，出自《鹦鹉故事》",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面被上方密集的波斯书法压得透不过气，这种图文比例在后期莫卧儿绘画中极为罕见。视线落点在于右侧女子与笼中鹦鹉的对视——达萨万塔用极细的墨线勾勒出女子侧脸的轮廓，尤其是那挺直的鼻梁与微翘的下巴，带有明显..."
+        }
+      ]
+    },
+    {
+      "id": "cma-125247",
+      "title_zh": "伊莎贝拉·布兰特肖像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-145124",
+      "title_zh": "岩石风景与猎人",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "视线被前景深色的树丛与岩石强行框定，引导至中景明亮的猎人与猎犬。杜盖对光线的处理极具戏剧性，阳光穿透树冠洒在岩石表面，形成强烈的明暗对比。这种舞台光效不仅突出了狩猎的动态瞬间，也赋予了粗糙岩石一种雕塑..."
+        }
+      ]
+    },
+    {
+      "id": "cma-128074",
+      "title_zh": "韦普勒咖啡馆",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-149391",
+      "title_zh": "白衣观音",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-163042",
+      "title_zh": "阿波罗与乌拉尼亚",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-124679",
+      "title_zh": "地下酒馆",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-118679",
+      "title_zh": "拉撒路与财主",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-156813",
+      "title_zh": "在博斯恩山",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-148233",
+      "title_zh": "樊会公山水花卉册",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-108555",
+      "title_zh": "宁芙与萨堤尔（爱征服一切）",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-93234",
+      "title_zh": "海滩上，第 3 号",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-142476",
+      "title_zh": "施洗者圣约翰",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-172828",
+      "title_zh": "哈德逊河假日",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "作为“垃圾箱画派”的核心成员，乔治·卢克斯通常以描绘纽约街头的粗粝现实著称。但这幅作于 1912 年的《哈德逊河假日》展示了该流派鲜见的闲适一面。不同于他笔下那些满脸煤灰的拳击手或脏兮兮的报童，这里记..."
+        }
+      ]
+    },
+    {
+      "id": "cma-124092",
+      "title_zh": "女子肖像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-145987",
+      "title_zh": "云访山居图",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-302209",
+      "title_zh": "查尔斯·希斯科特上校肖像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "视线"
+          ],
+          "preview": "画面最精彩之处在于人物与环境的互动。上校倚靠的橡树树干肌理粗砺，与人物面部细腻平滑的肤色形成强烈对比。赖特用光极为克制，光线从左侧漫射而来，照亮了上校红色的军服与指向远方的手势。这种构图引导观者视线跟..."
+        }
+      ]
+    },
+    {
+      "id": "cma-125942",
+      "title_zh": "园丁",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-137929",
+      "title_zh": "不忠的妻子袭击出轨的丈夫（出自《鹦鹉故事》第八夜）",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面最精彩之处在于对冲突瞬间的定格。妻子揪住丈夫胡须的动作极具张力，打破了传统宫廷画的静态平衡。注意看丈夫惊恐的眼神与妻子紧绷的手臂线条，这种戏剧性的肢体语言在当时的细密画中并不多见。背景中繁复的建筑..."
+        }
+      ]
+    },
+    {
+      "id": "cma-160913",
+      "title_zh": "三清图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-436243",
+      "title_zh": "救世主",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-157148",
+      "title_zh": "三王之星：夜景",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-103236",
+      "title_zh": "忠臣藏四段目",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "神态",
+            "视线",
+            "眼"
+          ],
+          "preview": "画面右上角的 inset（画中画）是理解剧情的关键，描绘了正剧中的悲剧时刻。视线回到主画面，前景女子正专注于插花，歌麿用极其细腻的线条勾勒出她侧脸的轮廓与发丝的质感。特别是她微微张开的嘴唇与专注的眼神..."
+        }
+      ]
+    },
+    {
+      "id": "cma-149996",
+      "title_zh": "供奉的迦梨女神（背面）",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-120916",
+      "title_zh": "圣吉尔斯教堂",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-120119",
+      "title_zh": "萨波",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-437060",
+      "title_zh": "圣母与圣子",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-120932",
+      "title_zh": "黄昏，热那亚港",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-124036",
+      "title_zh": "维克多·雨果肖像（第二版）",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面最精彩处在于胡须与面部的过渡——勒格罗利用干刻针在铜板上留下的毛刺，制造出一种类似炭笔的柔和晕染。这种技法让雨果浓密的白须显得蓬松且富有体积感，与背景深沉的交叉排线形成强烈对比。"
+        }
+      ]
+    },
+    {
+      "id": "cma-98905",
+      "title_zh": "佩恩斯维尔附近的风景",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "艾伦·史密斯是 19 世纪美国风景画的中坚力量，虽不如丘奇或比尔施塔特那般声名显赫，却忠实地记录了哈德逊河画派向更私密、日常视角的转变。这幅作于 1880 年代的作品，不再追求宏大叙事或戏剧性的崇高感..."
+        }
+      ]
+    },
+    {
+      "id": "cma-99301",
+      "title_zh": "暴风雨云",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-106459",
+      "title_zh": "幻想曲：方尖碑旁的萨提尔一家",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-709469",
+      "title_zh": "圣萨洛梅及其家人",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-120945",
+      "title_zh": "阿平岩",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-121374",
+      "title_zh": "三月某日纽约联合广场一景",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-123954",
+      "title_zh": "门楣装饰画",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-171375",
+      "title_zh": "沙特尔大教堂南门廊",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面利用巨大的石柱构建出深邃的景深，将视线引向远处明亮的街景。最精彩之处在于光影的处理：阳光斜射在门廊的雕塑群上，石质的粗糙肌理与雕像衣褶的细腻阴影被刻画得极具立体感，仿佛触手可及。"
+        }
+      ]
+    },
+    {
+      "id": "cma-123305",
+      "title_zh": "戴高帽的男子肖像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-98274",
+      "title_zh": "佛教挂轴",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-123358",
+      "title_zh": "林边河流",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-122768",
+      "title_zh": "勋章的反面",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-123370",
+      "title_zh": "谢饭",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面利用强烈的明暗对比构建空间，光线从右上方射入，聚焦于围坐桌前的家庭。最值得玩味的是左侧男子的姿态：他双手合十低头祈祷，但身体前倾，眼神似乎并未完全离开桌上的汤碗——这种对食物的渴望与宗教仪式的并置..."
+        }
+      ]
+    },
+    {
+      "id": "cma-98370",
+      "title_zh": "多佛尔码头建设",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "约瑟夫·佩内尔是 20 世纪初美国版画复兴的关键人物，以描绘现代工业景观著称。这幅 1910 年的蚀刻版画记录了他旅居英国期间对多佛尔港的观察。不同于当时画家对田园牧歌的迷恋，佩内尔将目光投向了正在生..."
+        }
+      ]
+    },
+    {
+      "id": "cma-123299",
+      "title_zh": "坐在客栈里的母亲",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "面部",
+            "表情",
+            "眼"
+          ],
+          "preview": "画面右侧的母亲是视觉重心——她怀抱婴儿，眼神却并未聚焦于孩子，而是投向正在倒酒的男子。这种疏离感通过细腻的排线表现出来：衣褶的阴影处理得极为克制，面部表情在暗部中若隐若现，仿佛被生活的疲惫笼罩。"
+        }
+      ]
+    },
+    {
+      "id": "cma-120279",
+      "title_zh": "梅林法师的洞穴",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-121301",
+      "title_zh": "独轮车波尔卡舞曲",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-123362",
+      "title_zh": "岩石旁的道路",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-122771",
+      "title_zh": "青年生活",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面焦点在于前景男子的姿态：他慵懒地陷在扶手椅中，双腿交叠，手中的报纸并未真正阅读，眼神却飘向虚空。这种漫不经心的肢体语言，配合身后女子吸烟的随意动作，生动刻画了百无聊赖的纨绔子弟形象。加瓦尔尼利用石..."
+        }
+      ]
+    },
+    {
+      "id": "cma-124278",
+      "title_zh": "沃尔福德·戴维斯·格林",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-98058",
+      "title_zh": "乔治·华盛顿",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-151517",
+      "title_zh": "《猎熊》习作",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-135964",
+      "title_zh": "秋兴八景图",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-438779",
+      "title_zh": "农民家庭",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "勒南兄弟是 17 世纪法国画坛的异数。在巴洛克戏剧性主宰欧洲之时，他们选择将目光投向沉默的底层。这幅作于 1640 年代的小幅铜板画，是勒南风格成熟期的代表。不同于同时代画家对神话或权贵的迷恋，勒南让..."
+        }
+      ]
+    },
+    {
+      "id": "cma-152447",
+      "title_zh": "双美人图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "画面中两位女性身着华丽的和服，色彩鲜艳，图案精致。前景中的女性穿着黑色底带有花卉图案的和服，红色内衬显得格外醒目。她的姿态优雅，目光低垂，流露出一种含蓄的美感。背景中的女性则穿着红色和服，两人形成鲜明..."
+        }
+      ]
+    },
+    {
+      "id": "cma-146469",
+      "title_zh": "女子肖像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-151970",
+      "title_zh": "芦雁图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-150840",
+      "title_zh": "瓶花",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-132015",
+      "title_zh": "林逋月下漫步图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "杜堇是明代成化、弘治年间的人物画名家，以工笔重彩见长，常取材于历史典故与文人轶事。此作描绘北宋隐逸诗人林逋月夜漫步的情景，是典型的「高士图」。在杜堇的传世作品中，这类将人物置于宏大山水背景中的立轴，展..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "神态"
+          ],
+          "preview": "画面最耐看处在于人物衣纹的处理。杜堇使用了极为精细的「铁线描」，线条匀净流畅，精准地勾勒出宽袍大袖在行走中的垂坠感与褶皱。这种严谨的工笔技法与背景中写意挥洒的梅枝、淡墨渲染的山石形成了鲜明对比。人物面..."
+        }
+      ]
+    },
+    {
+      "id": "cma-97146",
+      "title_zh": "基督与行淫时被捉的妇人",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-149960",
+      "title_zh": "潇湘八景之远浦归帆",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-150697",
+      "title_zh": "湖畔旅人",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-155593",
+      "title_zh": "《牧童歌》插图：拉达等待与克里希纳和解",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435837",
+      "title_zh": "祈祷的男子",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149031",
+      "title_zh": "秋林听泉图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-150045",
+      "title_zh": "鞋匠的居室",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "迪普莱西是 19 世纪法国现实主义浪潮中一位被低估的画家。不同于库尔贝的宏大叙事，他专注于描绘工匠阶层的私密空间。这幅作于 1860 年代的作品，将视线从宏大的历史现场拉回逼仄的居室，记录了工业化前夕..."
+        }
+      ]
+    },
+    {
+      "id": "cma-148358",
+      "title_zh": "雨竹图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "画面右下角的几竿修竹是视觉重心，也是全画最见功力的部分。画家以极淡的墨色勾勒竹竿，笔触挺拔而略带颤抖，仿佛承受着雨水的重量；竹叶则用浓墨侧锋扫出，呈现出被风雨打湿后的垂坠感。这种干湿浓淡的强烈对比，精..."
+        }
+      ]
+    },
+    {
+      "id": "cma-173240",
+      "title_zh": "女子肖像（朱迪思·科尔曼·布尔芬奇？）",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面最精彩处在于对丝绸质感的处理——深蓝绿色的裙装在暗色背景中显得厚重而富有光泽，衣褶的走向暗示了身体的姿态。领口处白色的蕾丝衬里笔触松动，与光滑的面部形成肌理对比。"
+        }
+      ]
+    },
+    {
+      "id": "cma-135144",
+      "title_zh": "农人子女之舞",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149791",
+      "title_zh": "青卞图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-93015",
+      "title_zh": "公园之冬",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-125879",
+      "title_zh": "源氏物语绘卷",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-437061",
+      "title_zh": "救世主",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-132835",
+      "title_zh": "四季山水册·叶 D",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-149104",
+      "title_zh": "巫术场景",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-152410",
+      "title_zh": "太宰春台像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面最精彩处在于衣纹的处理——画家以极粗犷、近乎书法的浓墨线条勾勒外袍轮廓，笔势顿挫有力，与内衬清淡的石青色形成强烈反差。这种“减笔”画法舍弃了繁琐的服饰细节，仅用几块大面积的墨色渲染出人物盘坐的体量..."
+        }
+      ]
+    },
+    {
+      "id": "cma-139815",
+      "title_zh": "湖景",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面最耐看之处在于右侧前景那棵盘根错节的枯树与远处平静湖面的对比。树根的肌理刻画得粗砺而具体，仿佛能触摸到树皮的粗糙质感，这种对自然细节的执着是哈德逊河派的典型特征。视线顺着树干向左延伸，湖面上微小的..."
+        }
+      ]
+    },
+    {
+      "id": "cma-146213",
+      "title_zh": "牡丹竹石虎豹图屏风",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "顾盼"
+          ],
+          "preview": "画面最精彩处在于那只回首顾盼的豹子。它并未像传统瑞兽那样正襟危坐，而是呈现出一种警觉的松弛感。注意其背部斑点的处理——并非机械排列的圆圈，而是随肌肉起伏有着微妙的浓淡变化。金箔底色的运用极为克制，仅作..."
+        }
+      ]
+    },
+    {
+      "id": "cma-123024",
+      "title_zh": "游行十字架",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-152450",
+      "title_zh": "骑象普贤",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-437980",
+      "title_zh": "柏树",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-144829",
+      "title_zh": "幽谷抚琴图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-435725",
+      "title_zh": "基督降临地狱",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-151555",
+      "title_zh": "鱼、面包与壶的静物",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-436706",
+      "title_zh": "雅克-路易·勒布朗肖像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面最精彩处在对质感的区分处理。请看右侧桌案上的织物——安格尔用细碎的笔触描绘出繁复的东方花纹，色彩浓郁且带有厚度；相比之下，勒布朗的面部却平滑如瓷，几乎看不见笔触。这种「面部抛光、衣饰写意」的反差，..."
+        }
+      ]
+    },
+    {
+      "id": "cma-170830",
+      "title_zh": "胡马雍接见使节",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-435991",
+      "title_zh": "读书的女子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-143879",
+      "title_zh": "潇湘八景图屏风",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-436301",
+      "title_zh": "梁木与刺的寓言",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-165425",
+      "title_zh": "阿格拉伊达与博尼法斯",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-130132",
+      "title_zh": "基督与亚利马太的约瑟",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-124017",
+      "title_zh": "公鸡",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-438107",
+      "title_zh": "苔丝狄蒙娜（柳之歌）",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-140452",
+      "title_zh": "虎丘十二景图册：千顷云",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "met-436803",
+      "title_zh": "博士来拜",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-148860",
+      "title_zh": "对画：教皇选举期间的圣彼得大教堂柱廊与波西利波石窟",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-152412",
+      "title_zh": "山景与碧水",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-435678",
+      "title_zh": "圣安东尼的诱惑",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-129804",
+      "title_zh": "天使向亚伯拉罕显现",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-152441",
+      "title_zh": "四艺图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "met-436885",
+      "title_zh": "小说场景",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情",
+            "视线"
+          ],
+          "preview": "画面中，左侧的三位人物姿态各异，尤其是前景中那位身着金色长袍、红色靴子的女子，她的姿态和表情充满了戏剧性。右侧窗内的女子则显得沉思，与左侧的热闹形成对比。这种构图不仅增强了画面的层次感，也引导观者的视..."
+        }
+      ]
+    },
+    {
+      "id": "cma-166783",
+      "title_zh": "索福尼斯巴之死",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-132834",
+      "title_zh": "四季山水册·春",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-437032",
+      "title_zh": "圣保罗与捐赠者；基督向母亲显现",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-150017",
+      "title_zh": "音乐的属性",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-123953",
+      "title_zh": "门楣画与双叶门",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-838076",
+      "title_zh": "宝座上的圣母与圣子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-140451",
+      "title_zh": "虎丘十二景图册·五贤堂",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-132838",
+      "title_zh": "四季山水图册·秋",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-174005",
+      "title_zh": "松枝松鼠图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-134620",
+      "title_zh": "博士来拜",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-152333",
+      "title_zh": "溪边猿猴图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-153388",
+      "title_zh": "波尔多景色，取自夏特龙码头",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-143195",
+      "title_zh": "祈祷的老人",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-132839",
+      "title_zh": "四季山水册·归帆",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-150024",
+      "title_zh": "骑豹的酒神女祭司",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-170803",
+      "title_zh": "旭烈兀汗赐宴并施恩于埃米尔与王公",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-146023",
+      "title_zh": "前景有幼树的田野",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-149125",
+      "title_zh": "跃鲤图",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-148971",
+      "title_zh": "格劳科斯与尼迪亚",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-132048",
+      "title_zh": "鸢尾图屏风",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-142311",
+      "title_zh": "唐·路易斯·德·波旁亲王肖像",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-148854",
+      "title_zh": "四季山水图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-85861",
+      "title_zh": "果园",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-155615",
+      "title_zh": "茨木童子草图",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-124086",
+      "title_zh": "玛丽亚·基彻肖像",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-136692",
+      "title_zh": "索伦托天然桥",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "哈斯尔廷是哈德逊河画派第二代中的异类，他是最早一批长期旅居罗马的美国画家。这幅作于 1856 年的《索伦托天然桥》是他意大利时期的代表作，记录了他对地中海地貌的痴迷。不同于同辈画家对美洲荒野的宏大叙事..."
+        }
+      ]
+    },
+    {
+      "id": "cma-148078",
+      "title_zh": "人物山水册页：持杖老人",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面的趣味集中在右侧老人的形象上。画家仅用几笔浓淡相间的墨线就勾勒出宽袍大袖的轮廓，衣纹处理极其概括，甚至显得有些潦草。最精彩的是面部，那一抹朱砂色晕染出的酒糟鼻，配合微微上翘的嘴角，瞬间立住了一个玩..."
+        }
+      ]
+    },
+    {
+      "id": "cma-150046",
+      "title_zh": "逐出伊甸园",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-172781",
+      "title_zh": "九龙瀑布图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面采用极具张力的垂直构图，将视线强行拉向高处。最值得玩味的是瀑布的处理：画家没有使用留白，而是用细密平行的墨线勾勒水流，这种“排线法”赋予了瀑布一种丝绸般的质感与重量感。配合山石上干涩的擦，水的柔与..."
+        }
+      ]
+    },
+    {
+      "id": "cma-163350",
+      "title_zh": "自画像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-113088",
+      "title_zh": "《劫经》第 10 页（正面）",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-142018",
+      "title_zh": "弗雷德里克·W·林肯二世",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-142642",
+      "title_zh": "春山图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-448491",
+      "title_zh": "秋崖江漢",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-125580",
+      "title_zh": "旭烈兀汗时代的阿贝拉围城战",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-159034",
+      "title_zh": "猎人与印第安向导",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "伍德豪斯活跃于 19 世纪中后期的美国，这幅作于 1869 年的画作处于美国西部扩张与浪漫主义风景画并行的时期。它不属于哈德逊河画派那种宏大的自然崇拜，而是将视线聚焦于具体的边疆叙事，记录了当时白人与..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "面部",
+            "眼"
+          ],
+          "preview": "画面最耐看的是右侧猎人的面部刻画——胡须根根分明，眼神警惕地望向画外，手中的长枪并未放下，这种紧绷的肢体语言暗示了荒野生存的危机感。与之相对，站立的印第安向导姿态舒展，羽毛头饰色彩鲜艳，两人一静一动，..."
+        }
+      ]
+    },
+    {
+      "id": "cma-148244",
+      "title_zh": "杂画册·第九开",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-539739",
+      "title_zh": "《劫波经》第 11 页（背面）",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-161326",
+      "title_zh": "波涛图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-136680",
+      "title_zh": "圣杰罗姆",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-130457",
+      "title_zh": "树下（选自《公共花园》系列）",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149108",
+      "title_zh": "巫术场景：夜",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-92936",
+      "title_zh": "缅因海岸",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-132367",
+      "title_zh": "宝座上的圣母与圣子",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149606",
+      "title_zh": "仿倪瓒山水",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-135875",
+      "title_zh": "查理二世肖像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-173641",
+      "title_zh": "休憩",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-145960",
+      "title_zh": "终点，伊拉斯的装置",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-97148",
+      "title_zh": "圣方济各受圣痕",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-109507",
+      "title_zh": "阿戈斯蒂诺·巴尔巴里戈肖像",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面最精彩处在于对金属质感的处理。注意胸甲上的高光——并非死板的银白，而是融合了环境色的冷灰与暖褐。委罗内塞用极薄的釉染层叠出钢板的厚度，边缘处甚至能感到金属的冰冷触感。手中细长的指挥棒打破了盔甲的封..."
+        }
+      ]
+    },
+    {
+      "id": "cma-136682",
+      "title_zh": "凯瑟琳·格雷夫人像",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态",
+            "眼"
+          ],
+          "preview": "托马斯·劳伦斯是英国摄政时期最耀眼的肖像画家，以捕捉上流社会人物的优雅神态著称。这幅作于 1794 年的巨幅肖像，描绘了凯瑟琳·格雷夫人，正值画家风格成熟期。他摒弃了雷诺兹式的厚重堆砌，转而追求一种轻..."
+        }
+      ]
+    },
+    {
+      "id": "cma-149105",
+      "title_zh": "巫术场景：晨",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-151973",
+      "title_zh": "芒草图屏风",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-130392",
+      "title_zh": "圣家族返回拿撒勒",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-148301",
+      "title_zh": "施洗约翰的诞生与命名",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情"
+          ],
+          "preview": "画面中，绿色帷幔下的床榻、精致的家具和人物服饰都体现了画家对细节的极致追求。尤其是前景中抱着婴儿的女子，她的表情温柔而专注，衣褶的处理细腻入微，显示出画家高超的技艺。"
+        }
+      ]
+    },
+    {
+      "id": "cma-123435",
+      "title_zh": "索菲·克鲁泽",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-170235",
+      "title_zh": "艺术家的画室",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "睛"
+          ],
+          "preview": "画面左侧的光线处理值得玩味：阳光穿过窗棂，在红衣模特和白色丝绸裙摆上投下高光，这种对质感的迷恋是洛可可的典型特征。右下角正在清洗调色板的学徒是点睛之笔，他低头的专注与周围高谈阔论的宾客形成反差，暗示了..."
+        }
+      ]
+    },
+    {
+      "id": "cma-163043",
+      "title_zh": "史诗缪斯卡利俄珀",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-99445",
+      "title_zh": "英国制造业：素描稿",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-111479",
+      "title_zh": "圣雅各的奇迹",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-146416",
+      "title_zh": "诺亚：洪水前夕",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-128838",
+      "title_zh": "受难祭坛画",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-99429",
+      "title_zh": "查尔斯·阿普索普",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "罗伯特·费克是北美殖民地时期最重要的肖像画家之一，活跃于波士顿与纽波特。这幅 1748 年的作品处于他风格的成熟期，展示了当时新兴商业精英的典型形象。费克虽未受过正统学院训练，却凭借对人物神态的敏锐捕..."
+        }
+      ]
+    },
+    {
+      "id": "cma-124012",
+      "title_zh": "奥朗则布肖像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-149614",
+      "title_zh": "仿古人画：仲卿山水像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-170887",
+      "title_zh": "湿婆夜祭",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-97165",
+      "title_zh": "佛罗伦萨街头帕利奥赛马（婚柜嵌板）",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-108541",
+      "title_zh": "圣家族与抹大拉的玛利亚",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-110953",
+      "title_zh": "埃特雷塔的悬崖",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼睛",
+            "眼",
+            "睛"
+          ],
+          "preview": "库尔贝是现实主义画派的旗手，主张只画眼睛所见之物。这幅作于 1872 年后的海景，是他流亡瑞士期间的作品。此时的他已远离巴黎的政治漩涡，笔下的诺曼底海岸少了几分早年的激进，多了一份沉郁的静观。"
+        }
+      ]
+    },
+    {
+      "id": "cma-163582",
+      "title_zh": "庭院中两头大象在穆罕默德·沙面前搏斗",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-173658",
+      "title_zh": "水果静物",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-151027",
+      "title_zh": "古诗山水册：听琴",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-170510",
+      "title_zh": "年轻女子头像",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-132920",
+      "title_zh": "诸体山水册：仿倪瓒山水",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-97192",
+      "title_zh": "圣母与圣子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-172603",
+      "title_zh": "流萤美人图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "眼",
+            "睑"
+          ],
+          "preview": "画面最耐看的是女子手中的提灯与面部——提灯方正规整，透出暖黄微光，照亮了她低垂的眼睑与半张侧脸。这种「借光」手法在浮世绘中并不多见，春满用极细的墨线勾勒五官，再以淡彩层层晕染，使皮肤呈现出近乎透明的质..."
+        }
+      ]
+    },
+    {
+      "id": "cma-95283",
+      "title_zh": "橡树",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-160724",
+      "title_zh": "新塘",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-166505",
+      "title_zh": "母女肖像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "丹卢是法国大革命时期的肖像画家，以捕捉人物神态见长。这幅作于1794-95年的《母女肖像》是他流亡伦敦期间的作品，展现了他在动荡年代中对家庭温情的关注。"
+        }
+      ]
+    },
+    {
+      "id": "cma-130982",
+      "title_zh": "耶稣降生",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "小豪梅·费雷尔是 15 世纪加泰罗尼亚晚期哥特风格的代表人物。这幅《耶稣降生》创作于 1457 年左右，处于中世纪向文艺复兴过渡的节点。画作保留了中世纪祭坛画的庄严程式，但在人物神态的刻画上，已显露出..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "画面最耐看的是圣母与圣婴之间的互动。圣母身着饰有金色皇冠纹样的深蓝长袍，身体前倾，双手合十，目光低垂凝视马槽中的婴儿。这种姿态打破了早期圣像画中圣母正襟危坐的僵硬感，流露出一种近乎凡人的母性温柔。"
+        }
+      ]
+    },
+    {
+      "id": "cma-159734",
+      "title_zh": "雁、芦苇与水",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-136270",
+      "title_zh": "有远景的森林溪流",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-145721",
+      "title_zh": "《劫波经》与卡拉卡故事：婆罗门沙提·夜叉（背面）",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-109628",
+      "title_zh": "水果与花卉",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面右侧的花束是视觉重心，红橙色的花朵在灰蓝背景衬托下格外醒目。花瓣的笔触厚重而松动，与左侧水果光滑的质感形成对比。桌布的褶皱处理得极具雕塑感，引导视线在画面中流动。这种细腻的笔触和色彩对比，使得画面..."
+        }
+      ]
+    },
+    {
+      "id": "cma-161013",
+      "title_zh": "书画册",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-95284",
+      "title_zh": "枫丹白露森林，毒蛇池旁的小径",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-144462",
+      "title_zh": "内布拉斯加州卡尼堡的旅人墓地",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-160726",
+      "title_zh": "归云庵",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-130161",
+      "title_zh": "夏",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-172604",
+      "title_zh": "长寿之兆：桃松下的鹿（对幅）",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-132922",
+      "title_zh": "诸家山水册：雪景山水",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-161014",
+      "title_zh": "边寿公墨妙 第二册",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-95205",
+      "title_zh": "山水四条屏",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-108157",
+      "title_zh": "少年头像",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-161322",
+      "title_zh": "平井兄弟像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-159735",
+      "title_zh": "雁、芦苇与水",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-95206",
+      "title_zh": "山水图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-127573",
+      "title_zh": "戴帽子的胡须男子",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-120286",
+      "title_zh": "瓶中的玫瑰",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-113945",
+      "title_zh": "云山图",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-150115",
+      "title_zh": "有韭葱、鱼和蛋的厨房用具",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-141929",
+      "title_zh": "拉班搜寻被偷的家神",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-145427",
+      "title_zh": "秋日归农图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-124080",
+      "title_zh": "玛丽·怀斯肖像",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-118643",
+      "title_zh": "羚羊与鹿狩猎图",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-124078",
+      "title_zh": "维尔达夫雷的池塘",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-142579",
+      "title_zh": "秦淮忆",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-169684",
+      "title_zh": "小让 - 巴蒂斯特·勒穆瓦纳肖像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "这是维热 - 勒布伦 19 岁时的早期作品，画的是作曲家勒穆瓦纳。此时她尚未成为玛丽·安托瓦内特的御用画师，笔触间还保留着洛可可的轻快，但已显露出对人物神态的敏锐捕捉。这幅画是她职业生涯起步阶段的见证..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "眼"
+          ],
+          "preview": "画面最精彩的是那条蓝绿色丝巾——画家用了极薄的釉染技法，让丝绸的透明感与褶皱的光泽几乎触手可及。勒穆瓦纳眼角的细纹、微微上扬的嘴角，都被处理得既真实又体面。深色背景突出了面部，光线从左上方打来，鼻梁的..."
+        }
+      ]
+    },
+    {
+      "id": "cma-122223",
+      "title_zh": "博士来拜",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-135333",
+      "title_zh": "竹石新霁图屏风",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-143772",
+      "title_zh": "岩石山坡上的树木",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "作为哈德逊河画派的奠基人，杜兰德在 1840 年代末完成了从雕版师到风景画家的关键转型。这幅作于 1849 年前后的作品，正是他践行「忠实于自然」宣言的实证。不同于托马斯·科尔那种充满戏剧性寓意的宏大..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面右侧的砂岩断崖是视觉重心，也是杜兰德笔触最精彩之处。他利用厚涂法堆叠出岩石粗糙的颗粒感，红褐色的岩层与灰白色的沉积纹理交错，显示出他对地质结构的严谨考究。前景中那棵倾斜的枯树并非随意点缀，其扭曲的..."
+        }
+      ]
+    },
+    {
+      "id": "cma-125948",
+      "title_zh": "音乐与舞蹈及丘比特的密谋",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-149604",
+      "title_zh": "老莲抚古册",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-122335",
+      "title_zh": "圣凯瑟琳与圣芭芭拉（双联画）",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-149978",
+      "title_zh": "安娜·达默·鲍威尔",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-143761",
+      "title_zh": "天使加冕的圣母",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-159309",
+      "title_zh": "甜蜜的忧郁",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-142472",
+      "title_zh": "圣母子与圣徒三联画",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-117774",
+      "title_zh": "亭中的舞者",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149616",
+      "title_zh": "老莲抚古",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-122337",
+      "title_zh": "圣芭芭拉",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-94966",
+      "title_zh": "凯瑟琳·格林",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-152263",
+      "title_zh": "男子肖像",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-150851",
+      "title_zh": "玛丽 - 约兰德·德·菲茨 - 詹姆斯",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-170783",
+      "title_zh": "猎鹰图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "视线聚焦于画面中部的猎手——他身着醒目的朱红长袍，正高举手臂释放猎鹰。这一瞬间的动势被精准捕捉，与周围静止的岩石形成强烈反差。画家以极细的墨线勾勒山石轮廓，再用淡彩层层罩染，这种“皴法”虽源自东方，却..."
+        }
+      ]
+    },
+    {
+      "id": "cma-129220",
+      "title_zh": "圣格列高利弥撒",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-149658",
+      "title_zh": "九龙潭",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-98439",
+      "title_zh": "赫柏",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-130967",
+      "title_zh": "从图尔内勒码头眺望巴黎圣母院",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼"
+          ],
+          "preview": "拉法埃利是印象派圈子里的异类，他不像莫奈那样痴迷于纯粹的光色实验，而是执着于描绘巴黎的市井生活与城市变迁。这幅作于 19 世纪末的作品，记录了他眼中塞纳河畔的日常。虽然常被归入印象派，但他对建筑结构的..."
+        }
+      ]
+    },
+    {
+      "id": "cma-156869",
+      "title_zh": "梅花麻雀图",
+      "region": "whole_work",
+      "essay_length": 4,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-117783",
+      "title_zh": "林中",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-151029",
+      "title_zh": "古诗山水册：三树溪岸高士图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-95282",
+      "title_zh": "沐浴者",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-127046",
+      "title_zh": "猿猴图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面最精彩处在于猿猴的毛发处理——并非一根根勾勒，而是用淡墨层层晕染，利用纸张的吸水性制造出毛茸茸的质感。猿猴倒挂树枝，眼神灵动，前爪紧握枝条的力度感清晰可见。银杏叶的赭石色与猿猴的灰白形成冷暖对比，..."
+        }
+      ]
+    },
+    {
+      "id": "cma-132921",
+      "title_zh": "诸家山水册：仿吴镇山水",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-159503",
+      "title_zh": "牧羊女与羊群",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-539781",
+      "title_zh": "悉达多王与特里沙拉王后及解梦者",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-161017",
+      "title_zh": "书画册页",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-139728",
+      "title_zh": "樵夫",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-153346",
+      "title_zh": "山水",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-95268",
+      "title_zh": "迦太基",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-146700",
+      "title_zh": "竹石兰草图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-102100",
+      "title_zh": "最后的价钱",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-145728",
+      "title_zh": "《劫波经》与卡拉卡查里亚故事：经文（正面）；持花比丘与在家居士（背面）",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-155381",
+      "title_zh": "猿猴图",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-151031",
+      "title_zh": "古诗山水册：高士观鱼",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "画面左侧，高士倚石而卧，神态闲适。华嵒用笔极为松动，衣纹线条简练流畅，与身后山石粗犷的皴擦形成对比。右下角的侍童与几丛细竹，平衡了构图，也点出了“观鱼”的主题。"
+        }
+      ]
+    },
+    {
+      "id": "cma-156873",
+      "title_zh": "中国圣贤图",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-132923",
+      "title_zh": "诸家山水册：石标待月",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-98442",
+      "title_zh": "黄昏",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-117893",
+      "title_zh": "老人头像习作",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部"
+          ],
+          "preview": "画面最精彩处在于胡须的处理——画家并未将其画成死板的色块，而是用灰白与赭石色交织的细碎笔触，模拟出毛发蓬松且略带卷曲的质感。这种松动的运笔与面部受光处厚涂的肌理形成呼应，让这位老者在深沉的背景中显得呼..."
+        }
+      ]
+    },
+    {
+      "id": "cma-102101",
+      "title_zh": "日本男孩建造军舰",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-161020",
+      "title_zh": "书画册页",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-121862",
+      "title_zh": "装饰面板",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-160050",
+      "title_zh": "素性法师像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线"
+          ],
+          "preview": "画面最精彩处在于衣纹的处理——大面积留白的僧袍仅以极淡的墨线勾勒轮廓，却在领口与袖口处施以厚重的黑漆描金。这种强烈的黑白对比突出了人物的庄严，让观者视线聚焦于法师手中紧握的经卷与念珠。"
+        }
+      ]
+    },
+    {
+      "id": "cma-153352",
+      "title_zh": "仿赵善长山水",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-97426",
+      "title_zh": "花魁与侍女",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-173729",
+      "title_zh": "拉尚附近的农舍",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "met-436180",
+      "title_zh": "纳奇兹人",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-129861",
+      "title_zh": "寒江飞雁图",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-128365",
+      "title_zh": "年轻女子",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "眼"
+          ],
+          "preview": "画面最精彩之处在于对光线的克制运用。光源来自左上方，柔和地扫过女子的前额与鼻梁，而在眼窝与颈部留下细腻的阴影。请看她右肩处的皮草边缘，画家利用极细的笔触堆叠出毛发的蓬松感，与光滑的面部肌肤形成强烈的质..."
+        }
+      ]
+    },
+    {
+      "id": "cma-162446",
+      "title_zh": "《摩诃婆罗多》俱卢之战（背面）",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-154962",
+      "title_zh": "卡德·伊德里斯山与莫达赫河",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-149565",
+      "title_zh": "戴帽穿大衣的自画像",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "视线"
+          ],
+          "preview": "画面最精彩处在于那件深色大衣的处理——科林特用刮刀般的笔触堆叠出厚重的肌理，并在灰黑底色上大胆扫过几道红蓝线条，暗示衣料的反光与褶皱。这种粗粝的质感与面部相对细腻的刻画形成张力，让观者视线在粗糙衣物与..."
+        }
+      ]
+    },
+    {
+      "id": "cma-140448",
+      "title_zh": "虎丘十二景图册：千人石、点头石、虎丘",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "met-435807",
+      "title_zh": "吸烟者",
+      "region": "whole_work",
+      "essay_length": 3,
+      "scope_mapping": "whole_work",
+      "violations": []
+    },
+    {
+      "id": "cma-152433",
+      "title_zh": "花魁读信",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "面部",
+            "表情"
+          ],
+          "preview": "北尾铁斋是江户时代晚期浮世绘的重要画师，以描绘吉原游廓的游女（花魁）闻名。这幅双折屏风作于 19 世纪初，属于典型的“美人画”题材。不同于喜多川歌麿对面部表情的极致特写，铁斋更擅长通过人物姿态与衣纹的..."
+        }
+      ]
+    },
+    {
+      "id": "cma-130377",
+      "title_zh": "基督受洗",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-146924",
+      "title_zh": "伊利湖图案",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-173671",
+      "title_zh": "三骑猎雁图",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-168488",
+      "title_zh": "龙骑兵军官",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-154004",
+      "title_zh": "四季山水图：冬",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-148958",
+      "title_zh": "好奇者",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "目光"
+          ],
+          "preview": "蒙金是法国新古典主义时期的画家，以风俗画和肖像画见长。这幅作于 1823 年的《好奇者》处于他职业生涯的晚期，展现了当时巴黎市民生活的侧面。作品没有宏大的历史叙事，而是将目光投向了日常生活中的瞬间，体..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "视线",
+            "目光"
+          ],
+          "preview": "画面的趣味中心在于右下角那个攀爬梯子的人。他背对观众，身体前倾，极力想要越过墙头窥探墙内的景象。这种动态的构图引导观众的视线跟随他的目光，去想象墙后那个被树木遮蔽的秘密花园。墙上的铭文暗示了这是一所女..."
+        }
+      ]
+    },
+    {
+      "id": "cma-137412",
+      "title_zh": "第十七夜鹦鹉对胡贾斯塔的讲述",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": [
+        {
+          "paragraph_index": 0,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "神态"
+          ],
+          "preview": "这幅作品出自 16 世纪莫卧儿宫廷的《鹦鹉故事七十则》手稿，由画家斯拉瓦纳绘制。作为阿克巴大帝早期画坊的产物，它代表了波斯细密画传统与印度本土审美在印度的初次深度融合。斯拉瓦纳是当时画坊中的核心人物，..."
+        },
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "眼神",
+            "眼"
+          ],
+          "preview": "画面最精彩之处在于左侧悬挂的鹦鹉笼与女子的手势互动。鹦鹉虽被囚于笼中，却通过眼神与姿态主导着叙事节奏。女子侧身倾听，一手轻抬，仿佛在回应鹦鹉的讲述。背景中粉色砖墙与绿色帷幔的色彩对比鲜明，几何纹样的地..."
+        }
+      ]
+    },
+    {
+      "id": "cma-169673",
+      "title_zh": "猎人行景",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-159724",
+      "title_zh": "仿王渊黄菊红桂图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-126243",
+      "title_zh": "怀特岛后的风暴",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": [
+        {
+          "paragraph_index": 1,
+          "type": "face_term_in_non_face_region",
+          "terms_found": [
+            "表情"
+          ],
+          "preview": "画面中，乌云密布的天空与汹涌的海浪形成了强烈的对比，闪电划破黑暗，照亮了岩石和人物。前景中的人物姿态各异，有的惊恐，有的指向远方，增加了画面的紧张感和叙事性。细节上，岩石的质感和海浪的动感被细腻地表现..."
+        }
+      ]
+    },
+    {
+      "id": "cma-448490",
+      "title_zh": "海山画帖第六图",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-146185",
+      "title_zh": "老年阿克巴肖像",
+      "region": "face",
+      "essay_length": 3,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-123955",
+      "title_zh": "门楣装饰画",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-132928",
+      "title_zh": "诸家山水册：秋山行旅图",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-146724",
+      "title_zh": "彼得的否认",
+      "region": "face",
+      "essay_length": 4,
+      "scope_mapping": "region_face",
+      "violations": []
+    },
+    {
+      "id": "cma-150419",
+      "title_zh": "伊势物语渚宫图屏风",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-448492",
+      "title_zh": "海山画册第十二开",
+      "region": "clothing",
+      "essay_length": 3,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-148083",
+      "title_zh": "山水册页（秋风吹荷）",
+      "region": "clothing",
+      "essay_length": 4,
+      "scope_mapping": "region_clothing",
+      "violations": []
+    },
+    {
+      "id": "cma-139733",
+      "title_zh": "海滨美人",
+      "region": "torso_neck",
+      "essay_length": 3,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    },
+    {
+      "id": "cma-173742",
+      "title_zh": "湖景图",
+      "region": "torso_neck",
+      "essay_length": 4,
+      "scope_mapping": "region_torso_neck",
+      "violations": []
+    }
+  ],
+  "violations": [
+    {
+      "work_id": "met-436658",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "视线"
+      ],
+      "preview": "画面最耐看之处在于对物质质感的极致还原。请看那件黑色天鹅绒外套——荷尔拜因没有使用简单的平涂，而是用极细的笔触堆叠出织物受光后的微妙起伏。这种深沉的黑色与背景纯净的群青形成强烈反差，迫使观者将视线聚焦..."
+    },
+    {
+      "work_id": "met-436282",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情"
+      ],
+      "preview": "画面左侧描绘了耶稣受难的场景，右侧则是最后的审判。左侧的细节尤为精彩，尤其是前景中人物的服饰和表情，细腻入微。右侧上方的天使群像和下方的地狱景象形成了鲜明的对比，光影处理极为出色。"
+    },
+    {
+      "work_id": "cma-145422",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面右下角的两只幼犬是绝对的视觉重心。芦雪用没骨法（不勾勒轮廓线）直接以墨块晕染出狗的身体，仅用极细的笔触点出眼神与鼻头。这种处理让皮毛呈现出蓬松柔软的质感，尤其是那只回首张望的小狗，眼神中透出的警觉..."
+    },
+    {
+      "work_id": "met-436607",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "表情"
+      ],
+      "preview": "画面最耐看的是右侧女子手中的书本与羽毛笔——这是典型的「智慧」或「缪斯」符号。吉多博诺处理红袍褶皱的笔触相当松弛，与左侧女孩僵硬的面部表情形成反差。注意看女子裸露的肩头与手臂，那种如瓷器般光滑的质感，..."
+    },
+    {
+      "work_id": "met-437925",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "华托是洛可可风格的先驱，以描绘贵族游乐的“雅宴画”闻名。这幅作于他生命最后阶段的作品，将视线从田园牧歌转向了舞台后台。它既是戏剧场景的记录，也被视为画家对自己艺术生涯的某种隐喻——人生如戏，演员在幕间..."
+    },
+    {
+      "work_id": "met-437173",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面最耐看的是人与犬的互动。画家没有让猎犬仅仅充当背景道具，而是赋予了它鲜活的性格——它仰头望向主人，眼神温顺而警觉。牟利罗处理狗毛的笔触松散而灵动，与主人那身质感厚重、几乎吸光的黑色天鹅绒外套形成了..."
+    },
+    {
+      "work_id": "met-435844",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "表情"
+      ],
+      "preview": "画面左侧少年调试鲁特琴的手指是整幅画的视觉锚点。卡拉瓦乔用厚涂法堆叠出琴弦的张力与指尖按压的凹陷感，这种对触觉真实的还原，比面部表情更具说服力。光线并非均匀铺陈，而是像聚光灯般打在乐器与乐谱上，强化了..."
+    },
+    {
+      "work_id": "cma-104412",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "戈雅晚年创作的《战争的灾难》系列，彻底撕碎了古典主义对战争英雄化的滤镜。这幅作于半岛战争期间的蚀刻版画，不再歌颂胜利，而是将目光死死钉在暴力的荒谬与无差别上。它标志着艺术史从宏大叙事向个体苦难的残酷转..."
+    },
+    {
+      "work_id": "met-435728",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面容",
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面最动人处在于圣杰罗姆跪地领受圣餐的瞬间——他双手颤抖，眼神虔诚，衣褶如流水般垂落，显示出波提切利对线条的极致掌控。detailCrop 所选局部聚焦于神父俯身递送圣体的手势与圣杰罗姆仰望的面容，二..."
+    },
+    {
+      "work_id": "met-435899",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情"
+      ],
+      "preview": "画面最耐看的是左侧天使加百列的翅膀——那是整幅画色彩最饱和、肌理最繁复的区域。画家没有使用平涂，而是用细密的笔触堆叠出羽毛的层次感，金红与深蓝的交织如同镶嵌工艺。这种对材质质感的痴迷，甚至超过了人物表..."
+    },
+    {
+      "work_id": "met-435848",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面最精彩之处在于那座占据主导地位的白色大理石建筑。请看前景左侧的圆柱与拱券，画家利用线性透视将视线强行引向深处的产房。这种冷峻、清晰的灰白色调与人物身上鲜艳的蓝红长袍形成强烈反差，建筑本身的体积感甚..."
+    },
+    {
+      "work_id": "cma-102691",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "勒佩尔是 19 世纪末巴黎版画复兴的关键人物，他将木刻从单纯的插图复制提升为独立的艺术表达。这幅作于 1890 年的作品，记录了奥斯曼改造后巴黎的工业一角。不同于当时画家对优雅林荫大道的迷恋，他将目光..."
+    },
+    {
+      "work_id": "cma-102697",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "勒佩尔是 19 世纪末法国版画复兴的关键人物，他拒绝将木刻视为单纯的复制手段，而是将其提升为独立的艺术表达。这幅 1890 年的《维莱特港》处于他创作成熟期，记录了巴黎工业化进程中运河码头的繁忙景象。..."
+    },
+    {
+      "work_id": "cma-104128",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "视线沿左侧台阶向上，大祭司与圣母的互动被处理得极具戏剧张力。丢勒利用密集的排线塑造出石柱的体积感与织物的垂坠感，尤其是前景左下角的市集摊位，那只蜷缩的绵羊与杂乱的货篮，其毛皮质感与编织纹理清晰可辨，展..."
+    },
+    {
+      "work_id": "met-39569",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线",
+        "目光"
+      ],
+      "preview": "画面最精彩处在于对“动”与“静”的调度。请注意左侧马队入城的瞬间：马匹的肌肉线条紧绷，马蹄扬起尘土，与右侧庭院内垂柳依依、屋舍俨然形成强烈反差。画家利用建筑屋檐的斜线引导视线，将观者目光从喧嚣的关塞引..."
+    },
+    {
+      "work_id": "met-888663",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情"
+      ],
+      "preview": "画面采用“引目钩鼻”技法，人物表情含蓄，情感交流全靠肢体语言。注意看右侧人物手中的烟管与散落的玩具——这些细节暗示了场景发生前的闲适氛围。丝绸上的矿物颜料虽经三百年氧化，衣纹的墨线依然劲挺，展现了长春..."
+    },
+    {
+      "work_id": "met-436643",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眉",
+        "眼"
+      ],
+      "preview": "画面最精彩之处在于前景人物的互动张力。左侧戴红帽的男子神情狡黠，眼神斜视，仿佛正在算计得失；中间的女子低眉顺眼，与周围躁动的男性形成鲜明对比。注意看右侧正在记账的税吏，他低头专注于账本，对身后的神圣召..."
+    },
+    {
+      "work_id": "met-436099",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面中央的圣家族被置于残破的古典建筑中，这种废墟意象象征着旧约时代的终结。最耐人寻味的是前景的静物细节：编织粗糙的草篮、散落的麦秸与那头眼神温顺的牛。这些极具质感的日常物件，被描绘得如同触手可及，展现..."
+    },
+    {
+      "work_id": "met-437028",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "面部",
+        "眼"
+      ],
+      "preview": "画面最耐看的是前景中跪姿的捐赠人。左侧两位修士手持十字架，神情肃穆；右侧一位俗人带着猎犬，帽置脚边。画家对这些真实人物的刻画远比对圣经人物的描绘更为用心——尤其是右侧那位俗人，面部皱纹与眼神的捕捉极其..."
+    },
+    {
+      "work_id": "cma-137598",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面采用典型的「剖视法」构图，将建筑切开以展示内部情节。最值得玩味的是右侧站立的男子（拉蒂夫），他一手抚须，姿态看似沉稳，眼神却游离于画面之外，这种肢体语言精准地外化了其内心的虚伪与算计。相比之下，屋..."
+    },
+    {
+      "work_id": "cma-681928",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面中，以萨迦肩扛重物，手抚驴头，神情坚毅。盖恩运用细腻的交叉排线，刻画出衣褶的质感与肌肉的张力。驴的眼神温顺，与人物形成情感呼应。背景中的建筑与树木虽简略，却增添了空间深度。"
+    },
+    {
+      "work_id": "met-436794",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面容"
+      ],
+      "preview": "约斯·范·克利夫是安特卫普画派的关键人物，以融合意大利文艺复兴构图与北方细腻写实著称。此作约绘于 1525 至 1530 年间，正值其风格成熟期。作为当时流行的祭坛画题材，他并未完全照搬米开朗基罗的宏..."
+    },
+    {
+      "work_id": "cma-122348",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "这是伦勃朗莱顿时期的早期作品，创作于他二十岁出头。此时的他尚未被阿姆斯特丹的浮华浸染，正专注于通过光影实验来确立个人风格。这幅肖像画展示了他在处理面部体积感上的早熟天赋，也是他探索“自画像”这一终身课..."
+    },
+    {
+      "work_id": "cma-162089",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "波特哈斯特是美国印象派中专注于海滨题材的代表人物。不同于萨金特对精英阶层的描绘，他将目光投向了 20 世纪初纽约长岛与康尼岛的大众浴场。这幅作于 1910 年前后的作品，记录了他职业生涯中最成熟的阶段..."
+    },
+    {
+      "work_id": "cma-137877",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面被上方密集的波斯书法压得透不过气，这种图文比例在后期莫卧儿绘画中极为罕见。视线落点在于右侧女子与笼中鹦鹉的对视——达萨万塔用极细的墨线勾勒出女子侧脸的轮廓，尤其是那挺直的鼻梁与微翘的下巴，带有明显..."
+    },
+    {
+      "work_id": "cma-145124",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "视线被前景深色的树丛与岩石强行框定，引导至中景明亮的猎人与猎犬。杜盖对光线的处理极具戏剧性，阳光穿透树冠洒在岩石表面，形成强烈的明暗对比。这种舞台光效不仅突出了狩猎的动态瞬间，也赋予了粗糙岩石一种雕塑..."
+    },
+    {
+      "work_id": "cma-172828",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "作为“垃圾箱画派”的核心成员，乔治·卢克斯通常以描绘纽约街头的粗粝现实著称。但这幅作于 1912 年的《哈德逊河假日》展示了该流派鲜见的闲适一面。不同于他笔下那些满脸煤灰的拳击手或脏兮兮的报童，这里记..."
+    },
+    {
+      "work_id": "cma-302209",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "视线"
+      ],
+      "preview": "画面最精彩之处在于人物与环境的互动。上校倚靠的橡树树干肌理粗砺，与人物面部细腻平滑的肤色形成强烈对比。赖特用光极为克制，光线从左侧漫射而来，照亮了上校红色的军服与指向远方的手势。这种构图引导观者视线跟..."
+    },
+    {
+      "work_id": "cma-137929",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面最精彩之处在于对冲突瞬间的定格。妻子揪住丈夫胡须的动作极具张力，打破了传统宫廷画的静态平衡。注意看丈夫惊恐的眼神与妻子紧绷的手臂线条，这种戏剧性的肢体语言在当时的细密画中并不多见。背景中繁复的建筑..."
+    },
+    {
+      "work_id": "cma-103236",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "神态",
+        "视线",
+        "眼"
+      ],
+      "preview": "画面右上角的 inset（画中画）是理解剧情的关键，描绘了正剧中的悲剧时刻。视线回到主画面，前景女子正专注于插花，歌麿用极其细腻的线条勾勒出她侧脸的轮廓与发丝的质感。特别是她微微张开的嘴唇与专注的眼神..."
+    },
+    {
+      "work_id": "cma-124036",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面最精彩处在于胡须与面部的过渡——勒格罗利用干刻针在铜板上留下的毛刺，制造出一种类似炭笔的柔和晕染。这种技法让雨果浓密的白须显得蓬松且富有体积感，与背景深沉的交叉排线形成强烈对比。"
+    },
+    {
+      "work_id": "cma-98905",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "艾伦·史密斯是 19 世纪美国风景画的中坚力量，虽不如丘奇或比尔施塔特那般声名显赫，却忠实地记录了哈德逊河画派向更私密、日常视角的转变。这幅作于 1880 年代的作品，不再追求宏大叙事或戏剧性的崇高感..."
+    },
+    {
+      "work_id": "cma-171375",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面利用巨大的石柱构建出深邃的景深，将视线引向远处明亮的街景。最精彩之处在于光影的处理：阳光斜射在门廊的雕塑群上，石质的粗糙肌理与雕像衣褶的细腻阴影被刻画得极具立体感，仿佛触手可及。"
+    },
+    {
+      "work_id": "cma-123370",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面利用强烈的明暗对比构建空间，光线从右上方射入，聚焦于围坐桌前的家庭。最值得玩味的是左侧男子的姿态：他双手合十低头祈祷，但身体前倾，眼神似乎并未完全离开桌上的汤碗——这种对食物的渴望与宗教仪式的并置..."
+    },
+    {
+      "work_id": "cma-98370",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "约瑟夫·佩内尔是 20 世纪初美国版画复兴的关键人物，以描绘现代工业景观著称。这幅 1910 年的蚀刻版画记录了他旅居英国期间对多佛尔港的观察。不同于当时画家对田园牧歌的迷恋，佩内尔将目光投向了正在生..."
+    },
+    {
+      "work_id": "cma-123299",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "面部",
+        "表情",
+        "眼"
+      ],
+      "preview": "画面右侧的母亲是视觉重心——她怀抱婴儿，眼神却并未聚焦于孩子，而是投向正在倒酒的男子。这种疏离感通过细腻的排线表现出来：衣褶的阴影处理得极为克制，面部表情在暗部中若隐若现，仿佛被生活的疲惫笼罩。"
+    },
+    {
+      "work_id": "cma-122771",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面焦点在于前景男子的姿态：他慵懒地陷在扶手椅中，双腿交叠，手中的报纸并未真正阅读，眼神却飘向虚空。这种漫不经心的肢体语言，配合身后女子吸烟的随意动作，生动刻画了百无聊赖的纨绔子弟形象。加瓦尔尼利用石..."
+    },
+    {
+      "work_id": "met-438779",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "勒南兄弟是 17 世纪法国画坛的异数。在巴洛克戏剧性主宰欧洲之时，他们选择将目光投向沉默的底层。这幅作于 1640 年代的小幅铜板画，是勒南风格成熟期的代表。不同于同时代画家对神话或权贵的迷恋，勒南让..."
+    },
+    {
+      "work_id": "cma-152447",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "画面中两位女性身着华丽的和服，色彩鲜艳，图案精致。前景中的女性穿着黑色底带有花卉图案的和服，红色内衬显得格外醒目。她的姿态优雅，目光低垂，流露出一种含蓄的美感。背景中的女性则穿着红色和服，两人形成鲜明..."
+    },
+    {
+      "work_id": "cma-132015",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "杜堇是明代成化、弘治年间的人物画名家，以工笔重彩见长，常取材于历史典故与文人轶事。此作描绘北宋隐逸诗人林逋月夜漫步的情景，是典型的「高士图」。在杜堇的传世作品中，这类将人物置于宏大山水背景中的立轴，展..."
+    },
+    {
+      "work_id": "cma-132015",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "神态"
+      ],
+      "preview": "画面最耐看处在于人物衣纹的处理。杜堇使用了极为精细的「铁线描」，线条匀净流畅，精准地勾勒出宽袍大袖在行走中的垂坠感与褶皱。这种严谨的工笔技法与背景中写意挥洒的梅枝、淡墨渲染的山石形成了鲜明对比。人物面..."
+    },
+    {
+      "work_id": "cma-150045",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "迪普莱西是 19 世纪法国现实主义浪潮中一位被低估的画家。不同于库尔贝的宏大叙事，他专注于描绘工匠阶层的私密空间。这幅作于 1860 年代的作品，将视线从宏大的历史现场拉回逼仄的居室，记录了工业化前夕..."
+    },
+    {
+      "work_id": "cma-148358",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "画面右下角的几竿修竹是视觉重心，也是全画最见功力的部分。画家以极淡的墨色勾勒竹竿，笔触挺拔而略带颤抖，仿佛承受着雨水的重量；竹叶则用浓墨侧锋扫出，呈现出被风雨打湿后的垂坠感。这种干湿浓淡的强烈对比，精..."
+    },
+    {
+      "work_id": "cma-173240",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面最精彩处在于对丝绸质感的处理——深蓝绿色的裙装在暗色背景中显得厚重而富有光泽，衣褶的走向暗示了身体的姿态。领口处白色的蕾丝衬里笔触松动，与光滑的面部形成肌理对比。"
+    },
+    {
+      "work_id": "cma-152410",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面最精彩处在于衣纹的处理——画家以极粗犷、近乎书法的浓墨线条勾勒外袍轮廓，笔势顿挫有力，与内衬清淡的石青色形成强烈反差。这种“减笔”画法舍弃了繁琐的服饰细节，仅用几块大面积的墨色渲染出人物盘坐的体量..."
+    },
+    {
+      "work_id": "cma-139815",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面最耐看之处在于右侧前景那棵盘根错节的枯树与远处平静湖面的对比。树根的肌理刻画得粗砺而具体，仿佛能触摸到树皮的粗糙质感，这种对自然细节的执着是哈德逊河派的典型特征。视线顺着树干向左延伸，湖面上微小的..."
+    },
+    {
+      "work_id": "cma-146213",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "顾盼"
+      ],
+      "preview": "画面最精彩处在于那只回首顾盼的豹子。它并未像传统瑞兽那样正襟危坐，而是呈现出一种警觉的松弛感。注意其背部斑点的处理——并非机械排列的圆圈，而是随肌肉起伏有着微妙的浓淡变化。金箔底色的运用极为克制，仅作..."
+    },
+    {
+      "work_id": "met-436706",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面最精彩处在对质感的区分处理。请看右侧桌案上的织物——安格尔用细碎的笔触描绘出繁复的东方花纹，色彩浓郁且带有厚度；相比之下，勒布朗的面部却平滑如瓷，几乎看不见笔触。这种「面部抛光、衣饰写意」的反差，..."
+    },
+    {
+      "work_id": "met-436885",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情",
+        "视线"
+      ],
+      "preview": "画面中，左侧的三位人物姿态各异，尤其是前景中那位身着金色长袍、红色靴子的女子，她的姿态和表情充满了戏剧性。右侧窗内的女子则显得沉思，与左侧的热闹形成对比。这种构图不仅增强了画面的层次感，也引导观者的视..."
+    },
+    {
+      "work_id": "cma-136692",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "哈斯尔廷是哈德逊河画派第二代中的异类，他是最早一批长期旅居罗马的美国画家。这幅作于 1856 年的《索伦托天然桥》是他意大利时期的代表作，记录了他对地中海地貌的痴迷。不同于同辈画家对美洲荒野的宏大叙事..."
+    },
+    {
+      "work_id": "cma-148078",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面的趣味集中在右侧老人的形象上。画家仅用几笔浓淡相间的墨线就勾勒出宽袍大袖的轮廓，衣纹处理极其概括，甚至显得有些潦草。最精彩的是面部，那一抹朱砂色晕染出的酒糟鼻，配合微微上翘的嘴角，瞬间立住了一个玩..."
+    },
+    {
+      "work_id": "cma-172781",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面采用极具张力的垂直构图，将视线强行拉向高处。最值得玩味的是瀑布的处理：画家没有使用留白，而是用细密平行的墨线勾勒水流，这种“排线法”赋予了瀑布一种丝绸般的质感与重量感。配合山石上干涩的擦，水的柔与..."
+    },
+    {
+      "work_id": "cma-159034",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "伍德豪斯活跃于 19 世纪中后期的美国，这幅作于 1869 年的画作处于美国西部扩张与浪漫主义风景画并行的时期。它不属于哈德逊河画派那种宏大的自然崇拜，而是将视线聚焦于具体的边疆叙事，记录了当时白人与..."
+    },
+    {
+      "work_id": "cma-159034",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "面部",
+        "眼"
+      ],
+      "preview": "画面最耐看的是右侧猎人的面部刻画——胡须根根分明，眼神警惕地望向画外，手中的长枪并未放下，这种紧绷的肢体语言暗示了荒野生存的危机感。与之相对，站立的印第安向导姿态舒展，羽毛头饰色彩鲜艳，两人一静一动，..."
+    },
+    {
+      "work_id": "cma-109507",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面最精彩处在于对金属质感的处理。注意胸甲上的高光——并非死板的银白，而是融合了环境色的冷灰与暖褐。委罗内塞用极薄的釉染层叠出钢板的厚度，边缘处甚至能感到金属的冰冷触感。手中细长的指挥棒打破了盔甲的封..."
+    },
+    {
+      "work_id": "cma-136682",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态",
+        "眼"
+      ],
+      "preview": "托马斯·劳伦斯是英国摄政时期最耀眼的肖像画家，以捕捉上流社会人物的优雅神态著称。这幅作于 1794 年的巨幅肖像，描绘了凯瑟琳·格雷夫人，正值画家风格成熟期。他摒弃了雷诺兹式的厚重堆砌，转而追求一种轻..."
+    },
+    {
+      "work_id": "cma-148301",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情"
+      ],
+      "preview": "画面中，绿色帷幔下的床榻、精致的家具和人物服饰都体现了画家对细节的极致追求。尤其是前景中抱着婴儿的女子，她的表情温柔而专注，衣褶的处理细腻入微，显示出画家高超的技艺。"
+    },
+    {
+      "work_id": "cma-170235",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "睛"
+      ],
+      "preview": "画面左侧的光线处理值得玩味：阳光穿过窗棂，在红衣模特和白色丝绸裙摆上投下高光，这种对质感的迷恋是洛可可的典型特征。右下角正在清洗调色板的学徒是点睛之笔，他低头的专注与周围高谈阔论的宾客形成反差，暗示了..."
+    },
+    {
+      "work_id": "cma-99429",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "罗伯特·费克是北美殖民地时期最重要的肖像画家之一，活跃于波士顿与纽波特。这幅 1748 年的作品处于他风格的成熟期，展示了当时新兴商业精英的典型形象。费克虽未受过正统学院训练，却凭借对人物神态的敏锐捕..."
+    },
+    {
+      "work_id": "cma-110953",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼睛",
+        "眼",
+        "睛"
+      ],
+      "preview": "库尔贝是现实主义画派的旗手，主张只画眼睛所见之物。这幅作于 1872 年后的海景，是他流亡瑞士期间的作品。此时的他已远离巴黎的政治漩涡，笔下的诺曼底海岸少了几分早年的激进，多了一份沉郁的静观。"
+    },
+    {
+      "work_id": "cma-172603",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "眼",
+        "睑"
+      ],
+      "preview": "画面最耐看的是女子手中的提灯与面部——提灯方正规整，透出暖黄微光，照亮了她低垂的眼睑与半张侧脸。这种「借光」手法在浮世绘中并不多见，春满用极细的墨线勾勒五官，再以淡彩层层晕染，使皮肤呈现出近乎透明的质..."
+    },
+    {
+      "work_id": "cma-166505",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "丹卢是法国大革命时期的肖像画家，以捕捉人物神态见长。这幅作于1794-95年的《母女肖像》是他流亡伦敦期间的作品，展现了他在动荡年代中对家庭温情的关注。"
+    },
+    {
+      "work_id": "cma-130982",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "小豪梅·费雷尔是 15 世纪加泰罗尼亚晚期哥特风格的代表人物。这幅《耶稣降生》创作于 1457 年左右，处于中世纪向文艺复兴过渡的节点。画作保留了中世纪祭坛画的庄严程式，但在人物神态的刻画上，已显露出..."
+    },
+    {
+      "work_id": "cma-130982",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "画面最耐看的是圣母与圣婴之间的互动。圣母身着饰有金色皇冠纹样的深蓝长袍，身体前倾，双手合十，目光低垂凝视马槽中的婴儿。这种姿态打破了早期圣像画中圣母正襟危坐的僵硬感，流露出一种近乎凡人的母性温柔。"
+    },
+    {
+      "work_id": "cma-109628",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面右侧的花束是视觉重心，红橙色的花朵在灰蓝背景衬托下格外醒目。花瓣的笔触厚重而松动，与左侧水果光滑的质感形成对比。桌布的褶皱处理得极具雕塑感，引导视线在画面中流动。这种细腻的笔触和色彩对比，使得画面..."
+    },
+    {
+      "work_id": "cma-169684",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "这是维热 - 勒布伦 19 岁时的早期作品，画的是作曲家勒穆瓦纳。此时她尚未成为玛丽·安托瓦内特的御用画师，笔触间还保留着洛可可的轻快，但已显露出对人物神态的敏锐捕捉。这幅画是她职业生涯起步阶段的见证..."
+    },
+    {
+      "work_id": "cma-169684",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "眼"
+      ],
+      "preview": "画面最精彩的是那条蓝绿色丝巾——画家用了极薄的釉染技法，让丝绸的透明感与褶皱的光泽几乎触手可及。勒穆瓦纳眼角的细纹、微微上扬的嘴角，都被处理得既真实又体面。深色背景突出了面部，光线从左上方打来，鼻梁的..."
+    },
+    {
+      "work_id": "cma-143772",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "作为哈德逊河画派的奠基人，杜兰德在 1840 年代末完成了从雕版师到风景画家的关键转型。这幅作于 1849 年前后的作品，正是他践行「忠实于自然」宣言的实证。不同于托马斯·科尔那种充满戏剧性寓意的宏大..."
+    },
+    {
+      "work_id": "cma-143772",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面右侧的砂岩断崖是视觉重心，也是杜兰德笔触最精彩之处。他利用厚涂法堆叠出岩石粗糙的颗粒感，红褐色的岩层与灰白色的沉积纹理交错，显示出他对地质结构的严谨考究。前景中那棵倾斜的枯树并非随意点缀，其扭曲的..."
+    },
+    {
+      "work_id": "cma-170783",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "视线聚焦于画面中部的猎手——他身着醒目的朱红长袍，正高举手臂释放猎鹰。这一瞬间的动势被精准捕捉，与周围静止的岩石形成强烈反差。画家以极细的墨线勾勒山石轮廓，再用淡彩层层罩染，这种“皴法”虽源自东方，却..."
+    },
+    {
+      "work_id": "cma-130967",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼"
+      ],
+      "preview": "拉法埃利是印象派圈子里的异类，他不像莫奈那样痴迷于纯粹的光色实验，而是执着于描绘巴黎的市井生活与城市变迁。这幅作于 19 世纪末的作品，记录了他眼中塞纳河畔的日常。虽然常被归入印象派，但他对建筑结构的..."
+    },
+    {
+      "work_id": "cma-127046",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面最精彩处在于猿猴的毛发处理——并非一根根勾勒，而是用淡墨层层晕染，利用纸张的吸水性制造出毛茸茸的质感。猿猴倒挂树枝，眼神灵动，前爪紧握枝条的力度感清晰可见。银杏叶的赭石色与猿猴的灰白形成冷暖对比，..."
+    },
+    {
+      "work_id": "cma-151031",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "画面左侧，高士倚石而卧，神态闲适。华嵒用笔极为松动，衣纹线条简练流畅，与身后山石粗犷的皴擦形成对比。右下角的侍童与几丛细竹，平衡了构图，也点出了“观鱼”的主题。"
+    },
+    {
+      "work_id": "cma-117893",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部"
+      ],
+      "preview": "画面最精彩处在于胡须的处理——画家并未将其画成死板的色块，而是用灰白与赭石色交织的细碎笔触，模拟出毛发蓬松且略带卷曲的质感。这种松动的运笔与面部受光处厚涂的肌理形成呼应，让这位老者在深沉的背景中显得呼..."
+    },
+    {
+      "work_id": "cma-160050",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线"
+      ],
+      "preview": "画面最精彩处在于衣纹的处理——大面积留白的僧袍仅以极淡的墨线勾勒轮廓，却在领口与袖口处施以厚重的黑漆描金。这种强烈的黑白对比突出了人物的庄严，让观者视线聚焦于法师手中紧握的经卷与念珠。"
+    },
+    {
+      "work_id": "cma-128365",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "眼"
+      ],
+      "preview": "画面最精彩之处在于对光线的克制运用。光源来自左上方，柔和地扫过女子的前额与鼻梁，而在眼窝与颈部留下细腻的阴影。请看她右肩处的皮草边缘，画家利用极细的笔触堆叠出毛发的蓬松感，与光滑的面部肌肤形成强烈的质..."
+    },
+    {
+      "work_id": "cma-149565",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "视线"
+      ],
+      "preview": "画面最精彩处在于那件深色大衣的处理——科林特用刮刀般的笔触堆叠出厚重的肌理，并在灰黑底色上大胆扫过几道红蓝线条，暗示衣料的反光与褶皱。这种粗粝的质感与面部相对细腻的刻画形成张力，让观者视线在粗糙衣物与..."
+    },
+    {
+      "work_id": "cma-152433",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "面部",
+        "表情"
+      ],
+      "preview": "北尾铁斋是江户时代晚期浮世绘的重要画师，以描绘吉原游廓的游女（花魁）闻名。这幅双折屏风作于 19 世纪初，属于典型的“美人画”题材。不同于喜多川歌麿对面部表情的极致特写，铁斋更擅长通过人物姿态与衣纹的..."
+    },
+    {
+      "work_id": "cma-148958",
+      "region": "clothing",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "目光"
+      ],
+      "preview": "蒙金是法国新古典主义时期的画家，以风俗画和肖像画见长。这幅作于 1823 年的《好奇者》处于他职业生涯的晚期，展现了当时巴黎市民生活的侧面。作品没有宏大的历史叙事，而是将目光投向了日常生活中的瞬间，体..."
+    },
+    {
+      "work_id": "cma-148958",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "视线",
+        "目光"
+      ],
+      "preview": "画面的趣味中心在于右下角那个攀爬梯子的人。他背对观众，身体前倾，极力想要越过墙头窥探墙内的景象。这种动态的构图引导观众的视线跟随他的目光，去想象墙后那个被树木遮蔽的秘密花园。墙上的铭文暗示了这是一所女..."
+    },
+    {
+      "work_id": "cma-137412",
+      "region": "torso_neck",
+      "paragraph_index": 0,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "神态"
+      ],
+      "preview": "这幅作品出自 16 世纪莫卧儿宫廷的《鹦鹉故事七十则》手稿，由画家斯拉瓦纳绘制。作为阿克巴大帝早期画坊的产物，它代表了波斯细密画传统与印度本土审美在印度的初次深度融合。斯拉瓦纳是当时画坊中的核心人物，..."
+    },
+    {
+      "work_id": "cma-137412",
+      "region": "torso_neck",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "眼神",
+        "眼"
+      ],
+      "preview": "画面最精彩之处在于左侧悬挂的鹦鹉笼与女子的手势互动。鹦鹉虽被囚于笼中，却通过眼神与姿态主导着叙事节奏。女子侧身倾听，一手轻抬，仿佛在回应鹦鹉的讲述。背景中粉色砖墙与绿色帷幔的色彩对比鲜明，几何纹样的地..."
+    },
+    {
+      "work_id": "cma-126243",
+      "region": "clothing",
+      "paragraph_index": 1,
+      "type": "face_term_in_non_face_region",
+      "terms_found": [
+        "表情"
+      ],
+      "preview": "画面中，乌云密布的天空与汹涌的海浪形成了强烈的对比，闪电划破黑暗，照亮了岩石和人物。前景中的人物姿态各异，有的惊恐，有的指向远方，增加了画面的紧张感和叙事性。细节上，岩石的质感和海浪的动感被细腻地表现..."
+    }
+  ]
+}

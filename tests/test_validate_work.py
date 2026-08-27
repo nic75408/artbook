@@ -57,7 +57,7 @@ def make_work(**overrides):
         },
         "palette": ["#342c24", "#857461"],
         "essay": _essay(),
-        "detailCrop": {"cx": 0.46, "cy": 0.22, "r": 0.16},
+        "detailCrop": {"cx": 0.46, "cy": 0.22, "r": 0.16, "region": "face"},
     }
     w.update(overrides)
     return w
@@ -170,6 +170,13 @@ class TestValidateWork(unittest.TestCase):
                             for e in validate_work(make_work(detailCrop={"cx": 0.5, "cy": 0.5, "r": 0.5}))))
         self.assertTrue(any("detailCrop 非法" in e
                             for e in validate_work(make_work(detailCrop={"cx": "x", "cy": 0.5, "r": 0.2}))))
+        # 非法 region 值 → 报错
+        self.assertTrue(any("detailCrop.region 非法值" in e
+                            for e in validate_work(make_work(detailCrop={"cx": 0.5, "cy": 0.5, "r": 0.15, "region": "invalid_region"}))))
+        # 有效 region 值 → 通过
+        self.assertEqual(validate_work(make_work(detailCrop={"cx": 0.5, "cy": 0.5, "r": 0.15, "region": "face"})), [])
+        self.assertEqual(validate_work(make_work(detailCrop={"cx": 0.5, "cy": 0.5, "r": 0.15, "region": "clothing"})), [])
+        self.assertEqual(validate_work(make_work(detailCrop={"cx": 0.5, "cy": 0.5, "r": 0.15, "region": "whole_work"})), [])
 
     def test_multiple_errors_reported(self):
         errs = validate_work(make_work(title_zh="", tags=["肖像"], palette=None))

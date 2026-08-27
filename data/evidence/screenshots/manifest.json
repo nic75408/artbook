@@ -1,0 +1,301 @@
+{
+  "generated_at": "2026-08-26T20:18:21.924391",
+  "base_url": "http://127.0.0.1:8888",
+  "viewports": [
+    {
+      "name": "iphone14pro",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "iphonese",
+      "width": 375,
+      "height": 667
+    },
+    {
+      "name": "android",
+      "width": 360,
+      "height": 800
+    }
+  ],
+  "samples": [
+    {
+      "id": "met-435868",
+      "screenshots": [
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-435868_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-435868_android_360x800.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-435868_iphone14pro_390x844.png"
+        }
+      ]
+    },
+    {
+      "id": "met-39931",
+      "screenshots": [
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-39931_iphonese_375x667.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-39931_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-39931_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "met-437202",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-437202_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-437202_android_360x800.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-437202_iphonese_375x667.png"
+        }
+      ]
+    },
+    {
+      "id": "met-436838",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-436838_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-436838_android_360x800.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-436838_iphonese_375x667.png"
+        }
+      ]
+    },
+    {
+      "id": "met-437216",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-437216_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-437216_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-437216_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "met-435875",
+      "screenshots": [
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-435875_android_360x800.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-435875_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-435875_iphonese_375x667.png"
+        }
+      ]
+    },
+    {
+      "id": "met-436284",
+      "screenshots": [
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-436284_android_360x800.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-436284_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-436284_iphonese_375x667.png"
+        }
+      ]
+    },
+    {
+      "id": "cma-120230",
+      "screenshots": [
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "cma-120230_iphonese_375x667.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "cma-120230_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "cma-120230_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "cma-95087",
+      "screenshots": [
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "cma-95087_iphonese_375x667.png"
+        },
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "cma-95087_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "cma-95087_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "cma-160726_whole_work",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "cma-160726_whole_work_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "cma-160726_whole_work_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "cma-160726_whole_work_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "cma-101974_torso_neck",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "cma-101974_torso_neck_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "cma-101974_torso_neck_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "cma-101974_torso_neck_android_360x800.png"
+        }
+      ]
+    },
+    {
+      "id": "met-436000_background",
+      "screenshots": [
+        {
+          "viewport": "iphone14pro",
+          "width": 390,
+          "height": 844,
+          "filename": "met-436000_background_iphone14pro_390x844.png"
+        },
+        {
+          "viewport": "iphonese",
+          "width": 375,
+          "height": 667,
+          "filename": "met-436000_background_iphonese_375x667.png"
+        },
+        {
+          "viewport": "android",
+          "width": 360,
+          "height": 800,
+          "filename": "met-436000_background_android_360x800.png"
+        }
+      ]
+    }
+  ],
+  "total_screenshots": 36,
+  "output_dir": "/Users/david/人文/艺术手册/artbook/.worktrees/t_f306353b/data/evidence/screenshots"
+}

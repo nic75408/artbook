@@ -9,13 +9,13 @@ export async function mount(el, { id }) {
   try {
     work = await data.getWork(id);
   } catch {
-    el.innerHTML = `<div class="empty"><div class="wordmark brand-title">艺术手册</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark">艺术手册</div>
       <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate(`#/work/${id}`));
     return;
   }
   if (!work) {
-    el.innerHTML = `<div class="empty"><div class="wordmark brand-title">艺术手册</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark">艺术手册</div>
       <p>作品数据缺失</p></div>`;
     return;
   }
@@ -28,34 +28,6 @@ function render(el, w) {
 
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
-  
-  // 构建作者行：ARTIST 标签 + 中文名（链接）+ 英文名 —— 仅当至少有一个作者字段存在时显示
-  const artistLine = (w.artist_zh || w.artist_en) ? `\n    <div class="work-meta-row artist-line">\n      <span class="work-meta-label">ARTIST</span>\n      <span class="work-meta-value">\n        ${w.artist_zh ? `<a class="artist-link" href="#/artist/${encodeURIComponent(w.artist_id || '')}">${esc(w.artist_zh)}</a>` : ''}${w.artist_en ? `<span class="artist-en meta-text">${esc(w.artist_en)}</span>` : ''}\n      </span>\n    </div>` : '';
-
-  // 构建年代/材质/尺寸行：统一使用 DATE / MEDIUM / SIZE 标签
-  const dateLine = w.date_display ? `
-    <div class="work-meta-row">
-      <span class="work-meta-label">DATE</span>
-      <span class="work-meta-value meta-text">${esc(w.date_display)}</span>
-    </div>` : '';
-  
-  const mediumLine = w.medium_zh ? `
-    <div class="work-meta-row">
-      <span class="work-meta-label">MEDIUM</span>
-      <span class="work-meta-value meta-text">${esc(w.medium_zh)}</span>
-    </div>` : '';
-  
-  const sizeLine = w.dimensions ? `
-    <div class="work-meta-row">
-      <span class="work-meta-label">SIZE</span>
-      <span class="work-meta-value meta-text">${esc(w.dimensions)}</span>
-    </div>` : '';
-  
-  const museumLine = creditMuseum ? `
-    <div class="work-meta-row">
-      <span class="work-meta-label">MUSEUM</span>
-      <span class="work-meta-value credit-name meta-text">${esc(creditMuseum)}</span>
-    </div>` : '';
 
   el.innerHTML = `
   <div class="detail">
@@ -66,7 +38,7 @@ function render(el, w) {
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
 
-    <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
+    <!-- 作品信息块：紧邻主图，标签+图像组合 -->
     <div class="artwork-info-card">
       <!-- H1: 作品名 -->
       <h1 class="work-title">
@@ -74,36 +46,59 @@ function render(el, w) {
         ${w.title_en && w.title_en !== w.title_zh ? `<span class="work-title-en">${esc(w.title_en)}</span>` : ''}
       </h1>
 
-      <!-- 次要字段：作者、年代、材质、尺寸、馆藏 -->
+      <!-- 次要字段：作者、年代、材质、馆藏 -->
       <div class="work-meta-compact">
-        ${artistLine}
-        ${dateLine}
-        ${mediumLine}
-        ${sizeLine}
-        ${museumLine}
+        <div class="work-meta-row">
+          <span class="work-meta-label">创作者</span>
+          <span class="work-meta-value">
+            <a class="artist-link" href="#/artist/${encodeURIComponent(w.artist_id)}">${esc(w.artist_zh)}</a>
+            <span class="artist-en">${esc(w.artist_en)}</span>
+          </span>
+        </div>
+        <div class="work-meta-row">
+          <span class="work-meta-label">创作年代</span>
+          <span class="work-meta-value">${esc(w.date_display || '不详')}</span>
+        </div>
+        ${w.medium_zh ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">作品材质</span>
+          <span class="work-meta-value">${esc(w.medium_zh)}</span>
+        </div>
+        ` : ''}
+        ${w.dimensions ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">实际尺寸</span>
+          <span class="work-meta-value">${esc(w.dimensions)}</span>
+        </div>
+        ` : ''}
+        ${creditMuseum ? `
+        <div class="work-meta-row">
+          <span class="work-meta-label">在馆收藏</span>
+          <span class="work-meta-value credit-name">${esc(creditMuseum)}</span>
+        </div>
+        ` : ''}
       </div>
     </div>
 
     <div class="detail-body">
       <div class="tags">${[w.movement_zh, ...(w.tags || [])].filter(Boolean)
-        .map((t) => `<button class="tag-pill meta-text" data-tag="${esc(t)}">${esc(t)}</button>`)
+        .map((t) => `<button class="tag-pill" data-tag="${esc(t)}">${esc(t)}</button>`)
         .join("")}</div>
 
-      <!-- H2: 赏析标题 -->
-      <h2 class="section-title work-title">本篇章赏析</h2>
+      <!-- H2: 赏析标题（本篇章赏析） -->
+      <h2 class="section-title">本篇章赏析</h2>
 
-      <!-- 正文赏析：分为整体印象与局部细节两个小节 -->
-      <div class="essay"></div>
+      <!-- 局部解析标题（动态渲染） -->
+      <div class="region-label" id="region-label"></div>
 
-      <div class="credit meta-text">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
+      <!-- 正文赏析：带段落标识 -->
+      <div class="essay" id="essay-container"></div>
+
+      <div class="credit">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
         <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
-      
-      <!-- 底部工具区：收藏画作 + 下载原图 -->
-      <div class="action-row" id="tool-row">
+      <div class="action-row">
         <button class="action-btn fav-tool" id="fav-act">${icons.bookmark} 收藏</button>
-        <button class="action-btn download-btn" id="download-act">${icons.download} 下载原图</button>
       </div>
-      
       <div class="related" id="related">
         <h2 class="section-title">相关推荐</h2>
         <div class="related-scroll" id="related-scroll"></div>
@@ -130,50 +125,72 @@ function render(el, w) {
     b.addEventListener("click", () => navigate(`#/tag/${encodeURIComponent(b.dataset.tag)}`))
   );
 
-  // 赏析 + 圆形细节图：将文案分为「整体印象」与「局部细节」两个小节
-  const essayEl = el.querySelector(".essay");
-  const essay = w.essay || [];
-  
-  if (essay.length >= 1) {
-    // 第一小节：整体印象
-    const section1 = document.createElement("div");
-    section1.className = "essay-section";
-    section1.innerHTML = `<h3 class="essay-section-title">整体印象</h3>`;
-    const p1 = document.createElement("p");
-    p1.className = "body-text";
-    p1.textContent = essay[0];
-    section1.appendChild(p1);
-    essayEl.appendChild(section1);
+  // 赏析 + 圆形细节图（第 2 段之后插入）
+  const essayEl = el.querySelector("#essay-container");
+  const regionLabelEl = el.querySelector("#region-label");
+  const detailCrop = w.detailCrop || {};
+  const region = detailCrop.region || "whole_work";
+
+  // 映射 region 到标签文本
+  const regionLabels = {
+    face: "局部赏析：面部表情",
+    torso_neck: "局部赏析：身体姿态",
+    clothing: "局部赏析：衣物纹理",
+    background: "局部赏析：背景环境",
+    whole_work: "整体印象"
+  };
+
+  // 渲染局部标签（仅当非 whole_work 时显示在图上方）
+  if (region !== "whole_work") {
+    regionLabelEl.textContent = regionLabels[region] || regionLabels.whole_work;
+    regionLabelEl.style.display = "block";
+  } else {
+    regionLabelEl.style.display = "none";
   }
-  
-  if (essay.length >= 2) {
-    // 在第 2 段之后插入圆形细节图
-    const crop = document.createElement("div");
-    crop.className = "detail-crop";
-    const bg = data.cropToBackground(w.detailCrop, ratio);
-    crop.style.backgroundImage = `url("${w.image.full}")`;
-    crop.style.backgroundSize = bg.size;
-    crop.style.backgroundPosition = bg.pos;
-    essayEl.appendChild(crop);
-    
-    // 第二小节：局部细节
-    const section2 = document.createElement("div");
-    section2.className = "essay-section";
-    section2.innerHTML = `<h3 class="essay-section-title">局部细节</h3>`;
-    const p2 = document.createElement("p");
-    p2.className = "body-text";
-    p2.textContent = essay[1];
-    section2.appendChild(p2);
-    essayEl.appendChild(section2);
-  }
-  
-  // 剩余段落（如果有）归入局部细节小节
-  for (let i = 2; i < essay.length; i++) {
+
+  // 段落小标题配置
+  const paragraphLabels = [
+    "整体印象",
+    regionLabels[region] || "局部细节",
+    "技法解读",
+    "收尾点睛"
+  ];
+
+  (w.essay || []).forEach((p, i) => {
+    // 添加段落小标题
+    if (i < paragraphLabels.length) {
+      const labelEl = document.createElement("div");
+      labelEl.className = "paragraph-label";
+      labelEl.textContent = paragraphLabels[i];
+      essayEl.appendChild(labelEl);
+    }
+
     const pEl = document.createElement("p");
     pEl.className = "body-text";
-    pEl.textContent = essay[i];
+    pEl.textContent = p;
     essayEl.appendChild(pEl);
-  }
+
+    // 第 2 段后插入圆形细节图
+    if (i === 1 && (w.essay || []).length >= 2) {
+      const cropContainer = document.createElement("div");
+      cropContainer.className = "detail-crop-container";
+
+      const cropLabel = document.createElement("div");
+      cropLabel.className = "crop-label";
+      cropLabel.textContent = regionLabels[region] || "局部赏析";
+      cropContainer.appendChild(cropLabel);
+
+      const crop = document.createElement("div");
+      crop.className = "detail-crop";
+      const bg = data.cropToBackground(w.detailCrop, ratio);
+      crop.style.backgroundImage = `url("${w.image.full}")`;
+      crop.style.backgroundSize = bg.size;
+      crop.style.backgroundPosition = bg.pos;
+      cropContainer.appendChild(crop);
+
+      essayEl.appendChild(cropContainer);
+    }
+  });
 
   // 收藏按钮
   const favBtn = el.querySelector("#fav-act");
@@ -194,29 +211,6 @@ function render(el, w) {
       return;
     }
     paintFav();
-  });
-  
-  // 下载原图按钮
-  const downloadBtn = el.querySelector("#download-act");
-  downloadBtn.addEventListener("click", async () => {
-    try {
-      toast("正在准备下载…");
-      const res = await fetch(w.image.full);
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `${w.title_zh}.jpg`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      toast("下载已开始");
-    } catch {
-      // 降级：直接打开原图
-      window.open(w.image.full, "_blank");
-      toast("已在新窗口打开原图");
-    }
   });
 
   // 相关推荐

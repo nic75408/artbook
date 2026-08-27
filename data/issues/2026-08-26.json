@@ -46,7 +46,8 @@
       "detailCrop": {
         "cx": 0.42,
         "cy": 0.48,
-        "r": 0.15
+        "r": 0.15,
+        "region": "whole_work"
       }
     },
     {
@@ -93,7 +94,8 @@
       "detailCrop": {
         "cx": 0.28,
         "cy": 0.25,
-        "r": 0.12
+        "r": 0.12,
+        "region": "face"
       }
     },
     {
@@ -140,7 +142,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.68,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -187,7 +190,8 @@
       "detailCrop": {
         "cx": 0.5,
         "cy": 0.45,
-        "r": 0.18
+        "r": 0.18,
+        "region": "whole_work"
       }
     },
     {
@@ -234,7 +238,8 @@
       "detailCrop": {
         "cx": 0.15,
         "cy": 0.65,
-        "r": 0.12
+        "r": 0.12,
+        "region": "clothing"
       }
     },
     {
@@ -281,7 +286,8 @@
       "detailCrop": {
         "cx": 0.35,
         "cy": 0.65,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -327,7 +333,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.48,
-        "r": 0.15
+        "r": 0.15,
+        "region": "whole_work"
       }
     },
     {
@@ -374,7 +381,8 @@
       "detailCrop": {
         "cx": 0.42,
         "cy": 0.35,
-        "r": 0.18
+        "r": 0.18,
+        "region": "whole_work"
       }
     },
     {
@@ -421,7 +429,8 @@
       "detailCrop": {
         "cx": 0.72,
         "cy": 0.68,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -467,7 +476,8 @@
       "detailCrop": {
         "cx": 0.78,
         "cy": 0.45,
-        "r": 0.12
+        "r": 0.12,
+        "region": "torso_neck"
       }
     },
     {
@@ -514,7 +524,8 @@
       "detailCrop": {
         "cx": 0.85,
         "cy": 0.75,
-        "r": 0.12
+        "r": 0.12,
+        "region": "clothing"
       }
     },
     {
@@ -561,7 +572,8 @@
       "detailCrop": {
         "cx": 0.28,
         "cy": 0.72,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -608,7 +620,8 @@
       "detailCrop": {
         "cx": 0.48,
         "cy": 0.42,
-        "r": 0.12
+        "r": 0.12,
+        "region": "torso_neck"
       }
     },
     {
@@ -654,7 +667,8 @@
       "detailCrop": {
         "cx": 0.48,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -701,7 +715,8 @@
       "detailCrop": {
         "cx": 0.62,
         "cy": 0.82,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -749,7 +764,8 @@
       "detailCrop": {
         "cx": 0.35,
         "cy": 0.45,
-        "r": 0.12
+        "r": 0.12,
+        "region": "torso_neck"
       }
     },
     {
@@ -797,7 +813,8 @@
       "detailCrop": {
         "cx": 0.72,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -844,7 +861,8 @@
       "detailCrop": {
         "cx": 0.68,
         "cy": 0.65,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -891,7 +909,8 @@
       "detailCrop": {
         "cx": 0.75,
         "cy": 0.75,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -937,7 +956,8 @@
       "detailCrop": {
         "cx": 0.28,
         "cy": 0.65,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -984,7 +1004,8 @@
       "detailCrop": {
         "cx": 0.5,
         "cy": 0.18,
-        "r": 0.15
+        "r": 0.15,
+        "region": "face"
       }
     },
     {
@@ -1030,7 +1051,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.48,
-        "r": 0.12
+        "r": 0.12,
+        "region": "torso_neck"
       }
     },
     {
@@ -1077,7 +1099,8 @@
       "detailCrop": {
         "cx": 0.78,
         "cy": 0.45,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -1125,7 +1148,8 @@
       "detailCrop": {
         "cx": 0.46,
         "cy": 0.22,
-        "r": 0.16
+        "r": 0.16,
+        "region": "face"
       }
     },
     {
@@ -1172,7 +1196,8 @@
       "detailCrop": {
         "cx": 0.22,
         "cy": 0.45,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -1218,7 +1243,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.65,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -1266,7 +1292,8 @@
       "detailCrop": {
         "cx": 0.75,
         "cy": 0.65,
-        "r": 0.2
+        "r": 0.2,
+        "region": "clothing"
       }
     },
     {
@@ -1312,7 +1339,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -1360,8 +1388,53 @@
       "detailCrop": {
         "cx": 0.75,
         "cy": 0.35,
-        "r": 0.2
+        "r": 0.2,
+        "region": "torso_neck"
       }
+    },
+    {
+      "id": "met-436000",
+      "source": "met",
+      "sourceId": "436000",
+      "title_zh": "风景习作",
+      "title_en": "Landscape Study",
+      "dimensions": "50 × 70 cm",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436000",
+      "detailCrop": {
+        "cx": 0.6,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
+      },
+      "essay": [
+        "这幅作品展现了画家对自然风景的敏锐观察。画面采用水平构图，前景的草地与远处的山峦形成层次分明的空间关系。色彩处理上，画家运用了冷暖对比，前景的暖绿色调与背景的冷蓝色调相互呼应，营造出深远的空气透视效果。",
+        "画面最精彩之处在于背景中远山的处理。画家用薄涂法层层叠加，让山体呈现出朦胧的蓝灰色调，边缘模糊而柔和，这种\"空气透视\"技法成功营造了空间深度。注意山脊线的处理：笔触轻盈而概括，与前景细致的草地形成鲜明对比，这种虚实对比让画面更具呼吸感。"
+      ],
+      "tags": [
+        "landscape",
+        "background",
+        "impressionism"
+      ],
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "artist_en": "Test Artist",
+      "artist_zh": "测试画家",
+      "artist_id": "test-artist",
+      "artist_nationality_zh": "测试",
+      "artist_years": "测试年份",
+      "date_display": "1850",
+      "year": 1850,
+      "medium_zh": "布面油画",
+      "movement_zh": "测试流派",
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-14345-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+        "ratio": 0.778
+      },
+      "palette": [
+        "#251b0c",
+        "#4d4531"
+      ]
     }
   ]
 }

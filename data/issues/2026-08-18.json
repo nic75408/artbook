@@ -45,7 +45,8 @@
       "detailCrop": {
         "cx": 0.62,
         "cy": 0.78,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -92,7 +93,8 @@
       "detailCrop": {
         "cx": 0.72,
         "cy": 0.35,
-        "r": 0.15
+        "r": 0.15,
+        "region": "face"
       }
     },
     {
@@ -139,7 +141,8 @@
       "detailCrop": {
         "cx": 0.72,
         "cy": 0.58,
-        "r": 0.12
+        "r": 0.12,
+        "region": "clothing"
       }
     },
     {
@@ -185,7 +188,8 @@
       "detailCrop": {
         "cx": 0.5,
         "cy": 0.35,
-        "r": 0.25
+        "r": 0.25,
+        "region": "whole_work"
       }
     },
     {
@@ -232,7 +236,8 @@
       "detailCrop": {
         "cx": 0.35,
         "cy": 0.45,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -278,7 +283,8 @@
       "detailCrop": {
         "cx": 0.48,
         "cy": 0.65,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -325,7 +331,8 @@
       "detailCrop": {
         "cx": 0.46,
         "cy": 0.22,
-        "r": 0.16
+        "r": 0.16,
+        "region": "face"
       }
     },
     {
@@ -372,7 +379,8 @@
       "detailCrop": {
         "cx": 0.28,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -419,7 +427,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.58,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -466,7 +475,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.88,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -513,7 +523,8 @@
       "detailCrop": {
         "cx": 0.35,
         "cy": 0.25,
-        "r": 0.18
+        "r": 0.18,
+        "region": "face"
       }
     },
     {
@@ -561,7 +572,8 @@
       "detailCrop": {
         "cx": 0.48,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -607,7 +619,8 @@
       "detailCrop": {
         "cx": 0.58,
         "cy": 0.62,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -654,7 +667,8 @@
       "detailCrop": {
         "cx": 0.25,
         "cy": 0.45,
-        "r": 0.2
+        "r": 0.2,
+        "region": "torso_neck"
       }
     },
     {
@@ -701,7 +715,8 @@
       "detailCrop": {
         "cx": 0.28,
         "cy": 0.45,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -748,7 +763,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.35,
-        "r": 0.15
+        "r": 0.15,
+        "region": "whole_work"
       }
     },
     {
@@ -795,7 +811,8 @@
       "detailCrop": {
         "cx": 0.68,
         "cy": 0.48,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -841,7 +858,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.28,
-        "r": 0.18
+        "r": 0.18,
+        "region": "whole_work"
       }
     },
     {
@@ -887,7 +905,8 @@
       "detailCrop": {
         "cx": 0.5,
         "cy": 0.85,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -933,7 +952,8 @@
       "detailCrop": {
         "cx": 0.35,
         "cy": 0.45,
-        "r": 0.2
+        "r": 0.2,
+        "region": "torso_neck"
       }
     },
     {
@@ -980,7 +1000,8 @@
       "detailCrop": {
         "cx": 0.64,
         "cy": 0.36,
-        "r": 0.12
+        "r": 0.12,
+        "region": "face"
       }
     },
     {
@@ -1027,7 +1048,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.58,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -1074,7 +1096,8 @@
       "detailCrop": {
         "cx": 0.18,
         "cy": 0.45,
-        "r": 0.15
+        "r": 0.15,
+        "region": "torso_neck"
       }
     },
     {
@@ -1122,7 +1145,8 @@
       "detailCrop": {
         "cx": 0.72,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -1169,7 +1193,8 @@
       "detailCrop": {
         "cx": 0.38,
         "cy": 0.65,
-        "r": 0.15
+        "r": 0.15,
+        "region": "clothing"
       }
     },
     {
@@ -1216,7 +1241,8 @@
       "detailCrop": {
         "cx": 0.62,
         "cy": 0.48,
-        "r": 0.18
+        "r": 0.18,
+        "region": "whole_work"
       }
     },
     {
@@ -1262,7 +1288,8 @@
       "detailCrop": {
         "cx": 0.78,
         "cy": 0.35,
-        "r": 0.18
+        "r": 0.18,
+        "region": "face"
       }
     },
     {
@@ -1309,7 +1336,8 @@
       "detailCrop": {
         "cx": 0.42,
         "cy": 0.62,
-        "r": 0.18
+        "r": 0.18,
+        "region": "clothing"
       }
     },
     {
@@ -1355,7 +1383,8 @@
       "detailCrop": {
         "cx": 0.58,
         "cy": 0.55,
-        "r": 0.18
+        "r": 0.18,
+        "region": "torso_neck"
       }
     },
     {
@@ -1401,7 +1430,8 @@
       "detailCrop": {
         "cx": 0.52,
         "cy": 0.28,
-        "r": 0.12
+        "r": 0.12,
+        "region": "face"
       }
     }
   ]
