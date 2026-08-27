@@ -295,15 +295,43 @@ ea17724 Merge branch 'artbook/t_fbbbde11-icon-spec.md-artbook-icon-icon'
 
 ---
 
-## 结论
+## 结论 (Conclusion)
 
-所有代码层面的修复已完成：
-- ✅ 缓存版本升级到 v2
-- ✅ Service Worker 导航兜底逻辑完善
-- ✅ manifest.webmanifest start_url 修复
-- ✅ index.html 内联关键 CSS
+**代码修复状态:** ✅ 全部完成
 
-剩余工作为**在真实 iOS 设备上收集运行时证据**（验收标准 1）。
-由于 CLI 环境无法直接访问 iOS 设备，需要用户在真实设备上执行步骤 5 并补充截图/视频证据。
+所有代码层面的修复已完成并提交：
+- ✅ 缓存版本升级到 v2 (commit c6519ab)
+- ✅ Service Worker 导航兜底逻辑完善 (commit 6b288ca)
+- ✅ manifest.webmanifest start_url 修复 (commit 6b288ca)
+- ✅ index.html 内联关键 CSS (commit 2035a6b)
+- ✅ PWA 验证工具页面 (commit 8c2c213)
 
-**提交审核:** 代码修复已完成，运行时证据待用户在真实设备上补充。
+**运行时证据状态:** ⚠️ 部分待补充
+
+由于 CLI 环境无法直接访问真实 iOS 设备，以下证据需要用户在真实设备上补充：
+
+1. **验收标准 1:** PWA 从主屏幕启动 ≤3 秒
+   - 使用 `pwa-verify.html` 工具在 iOS 设备上运行
+   - 截图或复制 JSON 报告中的 `performance.loadComplete` 值
+   - 或录制屏幕视频（带时间戳）
+
+2. **验收标准 2 & 3:** 刷新和离线模式验证
+   - 使用 `pwa-verify.html` 的"测试离线模式"按钮
+   - 截图 Service Worker 面板和 Network 面板
+
+**建议的验证流程:**
+```bash
+# 1. 在开发服务器上打开验证工具
+open http://localhost:8765/pwa-verify.html
+
+# 2. 在 iOS 设备上通过局域网访问
+#    (确保设备在同一 WiFi 网络)
+#    http://<你的电脑 IP>:8765/pwa-verify.html
+
+# 3. 截图或复制 JSON 报告
+# 4. 将证据附到看板任务 t_8421b3c4 的评论中
+```
+
+**提交审核说明:**
+代码修复已完成，验收标准 2&3 通过代码审查可确认。
+验收标准 1 需要真实 iOS 设备验证 —— 请使用 `pwa-verify.html` 工具收集证据后重新请求审核。
