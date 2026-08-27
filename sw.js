@@ -177,7 +177,15 @@ self.addEventListener("fetch", (e) => {
     e.respondWith(
       networkFirst(req, "./index.html").then((res) => {
         if (res && res.ok) return res;
-        return caches.match("./offline.html");
+        // networkFirst 失败（离线且无缓存）→ 回退 offline.html
+        return caches.match("./offline.html").then((offline) => {
+          if (offline) return offline;
+          // 极端情况：offline.html 也缺失 → 返回一个最小 HTML 避免白屏
+          return new Response(
+            "<!doctype html><meta charset='utf-8'><title>艺术手册</title><style>body{font-family:system-ui,sans-serif;text-align:center;padding:20vh 20px;background:#F5F1EA;color:#1D1B16}</style><body><h1>艺术手册</h1><p>加载失败，请检查网络连接</p>",
+            { status: 200, headers: { "Content-Type": "text/html; charset=utf-8" } }
+          );
+        });
       })
     );
     return;
