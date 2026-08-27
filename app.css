@@ -380,7 +380,11 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 /* ============================================================ 详情页头部 */
 
 .detail-hero { position: relative; }
-.detail-hero .ph { position: relative; width: 100%; }
+.detail-hero .ph {
+  position: relative;
+  width: 100%;
+  background: var(--bg-card);  /* letterbox 背景 */
+}
 .detail-hero img {
   position: absolute;
   inset: 0;
