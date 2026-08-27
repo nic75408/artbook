@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-08-27T07:50:12.661Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "url": "http://localhost:8765/",
+  "tests": [
+    {
+      "name": "Initial Load (Mobile Viewport 390x844)",
+      "domContentLoaded": "57ms",
+      "loadComplete": "552ms",
+      "backgroundColor": "rgb(245, 241, 234)",
+      "hasViewElement": true,
+      "screenshot": "pwa-mobile-load-390x844.png",
+      "passed": true
+    },
+    {
+      "name": "Hard Refresh",
+      "refreshTime": "48ms",
+      "screenshot": "pwa-refresh-390x844.png",
+      "passed": true
+    }
+  ],
+  "pageStructure": {
+    "title": "艺术手册",
+    "hasViewport": true,
+    "hasManifest": true,
+    "hasInlineCSS": true,
+    "themeColor": "#F5F1EA",
+    "appleWebAppTitle": "艺术手册"
+  },
+  "manifest": {
+    "valid": true,
+    "name": "艺术手册",
+    "start_url": "./",
+    "display": "standalone",
+    "theme_color": "#F5F1EA"
+  },
+  "serviceWorker": {
+    "exists": true,
+    "httpStatus": 200
+  },
+  "offlinePage": {
+    "exists": true,
+    "httpStatus": 200
+  }
+}
