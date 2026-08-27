@@ -60,11 +60,10 @@ export async function mount(el) {
 }
 
 function slideHTML(w, date) {
-  const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
   return `
   <section class="slide" data-id="${esc(w.id)}" data-issue="${date}">
     <div class="frame" style="--r:${w.image.ratio}">
-      <div class="ph" style="${ph}">
+      <div class="ph">
         <img data-src="${esc(w.image.feed)}" alt="${esc(w.title_zh)}" loading="lazy" decoding="async">
       </div>
     </div>

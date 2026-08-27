@@ -65,7 +65,7 @@ test.describe('画作长宽比适配体系', () => {
       const thumb = await relCards[0].$('.th');
       expect(thumb).toBeTruthy();
 
-      // 验证 aspect-ratio 是否为 3:4 (0.75)
+      // 验证 aspect-ratio 是否为 3:4 (宽/高 = 3/4, 即 高/宽 = 4/3 ≈ 1.333)
       const aspectRatio = await page.evaluate(el => {
         const style = getComputedStyle(el);
         const ratio = style.aspectRatio;
@@ -73,14 +73,14 @@ test.describe('画作长宽比适配体系', () => {
         // 解析 "3 / 4" 或 "0.75"
         if (ratio.includes('/')) {
           const [w, h] = ratio.split('/').map(s => parseFloat(s.trim()));
-          return h / w;
+          return h / w;  // 返回 高/宽
         }
         return parseFloat(ratio);
       }, thumb);
 
-      // 允许一定误差（因为可能是计算后的值）
-      expect(aspectRatio).toBeGreaterThan(0.7);
-      expect(aspectRatio).toBeLessThan(0.8);
+      // 期望值应该是 4/3 ≈ 1.333 (允许误差)
+      expect(aspectRatio).toBeGreaterThan(1.25);
+      expect(aspectRatio).toBeLessThan(1.45);
     }
   });
 
