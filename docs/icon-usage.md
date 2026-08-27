@@ -172,16 +172,22 @@ The `icons` object is preserved with getters that call the new `Icon()` componen
 - [x] No hardcoded hex colors in SVG
 
 ### ✅ Visual & Layout
-- [ ] Desktop (1440×900) — icons render clearly
-- [ ] Mobile (390×844) — icons render clearly
-- [ ] Icon + text alignment within 2px
-- [ ] Dark/light mode contrast meets WCAG AA
+- [x] Desktop (1440×900) — icons render clearly
+- [x] Mobile (390×844) — icons render clearly
+- [x] Icon + text alignment within 2px
+- [x] Dark/light mode contrast meets WCAG AA
 
 ### ✅ Non-breaking Changes
-- [ ] No new JS errors in console
-- [ ] No missing SVG resource warnings
-- [ ] Existing tests pass
-- [ ] No style regressions
+- [x] No new JS errors in console
+- [x] No missing SVG resource warnings (root-relative paths)
+- [x] Existing tests pass
+- [x] No style regressions
+
+### ✅ Fixes Applied (2026-08-27 Round 2)
+- [x] Added `icons/ICON-SPEC.md` from parent task t_113c4dd8
+- [x] Fixed fetch path: `icons/svg/` → `/icons/svg/` (root-relative)
+- [x] Fixed stroke-width logic: use DOMParser instead of regex replacement
+- [x] Removed dangling `nav-filter` mapping (reserved for future)
 
 ---
 
@@ -213,5 +219,5 @@ The `icons` object is preserved with getters that call the new `Icon()` componen
 ---
 
 **Branch:** `artbook/t_fbbbde11-icon-spec.md-artbook-icon-icon`
-**Commit:** pending
-**PR:** pending
+**Commit:** 95edb6e (round 2 fixes)
+**PR:** ready for review

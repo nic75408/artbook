@@ -11,7 +11,8 @@ async function loadIconSVG(name) {
     return ICON_CACHE.get(name);
   }
   try {
-    const response = await fetch(`icons/svg/${name}.svg`);
+    // Use root-relative path to work on all routes (e.g. /work/123, /favs)
+    const response = await fetch(`/icons/svg/${name}.svg`);
     if (!response.ok) throw new Error(`Icon "${name}" not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
@@ -48,7 +49,7 @@ const ICON_MAP = {
   'nav-close': 'nav-close-outline',
   'nav-more': 'nav-more-outline',
   'nav-search': 'nav-search-outline',
-  'nav-filter': 'nav-filter-outline',
+  // 'nav-filter': 'nav-filter-outline',  // Reserved for future use
   'nav-chevron-down': 'nav-chevron-down-outline',
   
   // Actions
@@ -106,16 +107,23 @@ export function Icon(name, options = {}) {
     return `<svg class="icon ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
   }
   
-  // Inject size and classes into SVG
-  const sizeAttr = `width="${size}" height="${size}"`;
-  const classAttr = `class="icon icon-${name} ${extraClass}"`.trim();
-  const ariaAttr = hidden ? 'aria-hidden="true"' : `aria-label="${label}"`;
+  // Inject size and classes into SVG using DOMParser for safe manipulation
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(svg, 'image/svg+xml');
+  const svgEl = doc.documentElement;
   
-  return svg
-    .replace('<svg', `<svg ${sizeAttr} ${classAttr} ${ariaAttr}`)
-    .replace('stroke="currentColor"', `stroke="currentColor" stroke-width="1.5"`)
-    .replace(/stroke-width="[\d.]+"/g, `stroke-width="${getStrokeWidth(size)}"`)
-    .replace(/fill="currentColor"/g, `fill="currentColor"`);
+  // Set attributes
+  svgEl.setAttribute('width', String(size));
+  svgEl.setAttribute('height', String(size));
+  svgEl.setAttribute('class', `icon icon-${name} ${extraClass}`.trim());
+  svgEl.setAttribute('aria-hidden', hidden ? 'true' : 'false');
+  if (!hidden && label) {
+    svgEl.setAttribute('aria-label', label);
+  }
+  // Set stroke-width per ICON-SPEC.md §1.2
+  svgEl.setAttribute('stroke-width', String(getStrokeWidth(size)));
+  
+  return svgEl.outerHTML;
 }
 
 // Get stroke width based on size (per ICON-SPEC.md §1.2)
