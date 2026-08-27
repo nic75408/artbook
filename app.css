@@ -482,9 +482,11 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
 .related h2 {
   font-size: 20px;
   font-weight: 700;
-  padding: 0 var(--page-gutter) 14px;
+  padding: 0 0 14px;
   max-width: var(--content-max);
   margin: 0 auto;
+  /* 标题左边界与版心对齐基准一致 */
+  padding-left: var(--page-gutter);
 }
 .related-scroll {
   display: flex;
@@ -492,6 +494,9 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   overflow-x: auto;
   padding: 0 var(--page-gutter) 8px;
   scrollbar-width: none;
+  /* 推荐区整体与版心对齐 */
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 .related-scroll::-webkit-scrollbar { display: none; }
 .rel-card { flex: 0 0 140px; }
@@ -500,11 +505,16 @@ svg.icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-w
   border: 1px solid var(--line);
   background: var(--bg-card);
   display: block;
+  /* 缩略图容器使用 aspect-ratio 确保统一比例 */
+  aspect-ratio: 3 / 4;
+  position: relative;
 }
 .rel-card .th .ph, .card .th .ph {
-  position: relative;
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
+  height: 100%;
 }
 .rel-card .th img, .card .th img {
   position: absolute;
