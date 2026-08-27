@@ -220,16 +220,21 @@ function render(el, w) {
       el.querySelector("#related").style.display = "none";
       return;
     }
-    scroll.innerHTML = list.map((r) => `
+    // 内容非空兜底：确保推荐卡片始终有可显示的文案（SPE §7.4）
+    scroll.innerHTML = list.map((r) => {
+      const displayTitle = (r.t || '').trim() || '佚名作品';
+      const displayArtist = (r.a || '').trim() || '未知艺术家';
+      return `
       <button class="rel-card" data-go="${esc(r.id)}">
         <span class="th" style="--r:${r.ratio || 1}">
           <span class="ph" style="aspect-ratio:calc(1/${r.ratio || 1})">
-            <img data-src="${esc(r.th)}" alt="${esc(r.t)}" loading="lazy" decoding="async">
+            <img data-src="${esc(r.th)}" alt="${esc(displayTitle)}" loading="lazy" decoding="async">
           </span>
         </span>
-        <span class="a">${esc(r.a)}</span>
-        <span class="t">${esc(r.t)}</span>
-      </button>`).join("");
+        <span class="a">${esc(displayArtist)}</span>
+        <span class="t">${esc(displayTitle)}</span>
+      </button>`;
+    }).join("");
     scroll.querySelectorAll(".rel-card").forEach((card) =>
       card.addEventListener("click", () => navigate(`#/work/${card.dataset.go}`))
     );

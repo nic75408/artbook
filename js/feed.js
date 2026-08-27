@@ -60,17 +60,26 @@ export async function mount(el) {
 }
 
 function slideHTML(w, date) {
+  // 内容非空校验：缺失关键字段时使用兜底文案（SPE §7.4）
+  const title = w.title_zh || '';
+  const artist = w.artist_zh || '';
+  const imageUrl = w.image?.feed || '';
+  
+  // 如果标题和作者都为空，使用兜底文案（作品 ID 不应暴露给用户）
+  const displayTitle = title.trim() || '佚名作品';
+  const displayArtist = artist.trim() || '未知艺术家';
+  
   const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
   return `
   <section class="slide" data-id="${esc(w.id)}" data-issue="${date}">
     <div class="frame" style="--r:${w.image.ratio}">
       <div class="ph" style="${ph}">
-        <img data-src="${esc(w.image.feed)}" alt="${esc(w.title_zh)}" loading="lazy" decoding="async">
+        <img data-src="${esc(imageUrl)}" alt="${esc(displayTitle)}" loading="lazy" decoding="async">
       </div>
     </div>
     <div class="names">
-      <div class="artist-zh work-title">${esc(w.artist_zh)}</div>
-      <div class="title-en meta-text">${esc(w.title_en)}</div>
+      <div class="artist-zh work-title">${esc(displayTitle)}</div>
+      <div class="title-en meta-text">${esc(displayArtist)}</div>
     </div>
     <button class="learn-btn" data-go="${esc(w.id)}" aria-label="了解更多">${learnBtnSVG(w.id)}</button>
   </section>`;

@@ -70,11 +70,21 @@ export async function getWork(id) {
 }
 
 // 相关推荐（SPE §7.4）：同画家 → 同流派 → tags 交集 ≥2 → 年代差 ≤30
+// 内容非空校验：只返回具有非空标题/作者/缩略图的作品，避免推荐卡片空白
 export async function related(id, limit = 8) {
   await loadCatalog();
   const me = catalogById.get(id);
   if (!me) return [];
-  const works = (catalogCache.works || []).filter((w) => w.id !== id);
+  
+  // 内容非空过滤：确保推荐作品有完整的展示字段
+  const isValidWork = (w) => {
+    if (!w.t || !String(w.t).trim()) return false;      // 标题非空
+    if (!w.a || !String(w.a).trim()) return false;      // 作者非空
+    if (!w.th || !String(w.th).trim()) return false;    // 缩略图非空
+    return true;
+  };
+  
+  const works = (catalogCache.works || []).filter((w) => w.id !== id && isValidWork(w));
   const out = [];
   const used = new Set();
   const artistCount = {};
