@@ -2,7 +2,7 @@
 import { WORDMARK } from "../config.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
-import { esc, icons, learnBtnSVG } from "./ui.js";
+import { esc, icons, Icon, learnBtnSVG } from "./ui.js";
 
 const POS_KEY = "artbook.feedpos";
 let scroller = null;
@@ -18,7 +18,7 @@ export async function mount(el) {
   el.innerHTML = `
     <header class="feed-header">
       <div class="wordmark brand-title">${esc(WORDMARK)}</div>
-      <button id="goto-favs" aria-label="收藏夹" title="收藏夹">${icons.bookmark}<span>收藏夹</span></button>
+      <button id="goto-favs" aria-label="收藏夹" title="收藏夹">${Icon('action-bookmark-outline', { size: 16, hidden: true })}<span>收藏夹</span></button>
     </header>
     <div class="feed-scroller"></div>
     <button class="date-capsule" id="date-capsule" aria-label="选择日期"></button>
@@ -188,7 +188,7 @@ function rebindSlides(from) {
 
 function updateCapsule(date) {
   document.getElementById("date-capsule").innerHTML =
-    `${esc(data.dateCapsule(date))} ${icons.chevronDown}`;
+    `${esc(data.dateCapsule(date))} ${Icon('nav-chevron-down', { size: 16, hidden: true })}`;
 }
 
 function openDateSheet() {

@@ -2,7 +2,7 @@
 import * as data from "./data.js";
 import { back, navigate } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
-import { esc, icons, toast } from "./ui.js";
+import { esc, icons, Icon, toast } from "./ui.js";
 
 export async function mount(el, { id }) {
   let work;
@@ -35,7 +35,7 @@ function render(el, w) {
       <div class="ph" style="${ph};aspect-ratio:calc(1/${ratio})">
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" decoding="async">
       </div>
-      <button class="detail-close" aria-label="关闭">${icons.x}</button>
+      <button class="detail-close" aria-label="关闭">${Icon('nav-close', { size: 20, hidden: true })}</button>
     </div>
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
@@ -92,9 +92,9 @@ function render(el, w) {
       <div class="essay"></div>
 
       <div class="credit meta-text">图片与元数据来自 ${esc(w.credit)}。赏析由 AI 生成，仅供个人学习参考。
-        <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${icons.external}</a></div>
+        <a href="${esc(w.sourceUrl)}" target="_blank" rel="noopener">源站页面 ${Icon('action-external', { size: 12, hidden: true })}</a></div>
       <div class="action-row">
-        <button class="action-btn fav-tool" id="fav-act">${icons.bookmark} 收藏</button>
+        <button class="action-btn fav-tool" id="fav-act">${Icon('action-bookmark-outline', { size: 16, hidden: true })} 收藏</button>
       </div>
       <div class="related" id="related">
         <h2 class="section-title">相关推荐</h2>
@@ -145,10 +145,10 @@ function render(el, w) {
   const paintFav = () => {
     if (isFav(w.id)) {
       favBtn.classList.add("on");
-      favBtn.innerHTML = `${icons.bookmarkFilled} 已收藏`;
+      favBtn.innerHTML = `${Icon('action-bookmark-filled', { size: 16, hidden: true })} 已收藏`;
     } else {
       favBtn.classList.remove("on");
-      favBtn.innerHTML = `${icons.bookmark} 收藏`;
+      favBtn.innerHTML = `${Icon('action-bookmark-outline', { size: 16, hidden: true })} 收藏`;
     }
   };
   paintFav();
