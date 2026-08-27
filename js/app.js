@@ -3,8 +3,11 @@ import { registerSW } from "./sw-reg.js";
 import { initRouter, register } from "./router.js";
 import { mount as feed } from "./feed.js";
 import { mount as detail } from "./detail.js";
-import { mountArtist, mountTag } from "./collection.js";
 import { mount as favs } from "./favorites.js";
+import { preloadIcons } from "./ui.js";
+
+// 预加载关键图标，确保首屏渲染不闪烁
+preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });
 
 register(/^\/$/, { mount: feed });
 register(/^\/work\/(?<id>[^/]+)$/, { mount: detail });

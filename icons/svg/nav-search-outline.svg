@@ -1,0 +1,5 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- nav-search: circular lens with handle at 45° -->
+  <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <line x1="16" y1="16" x2="21" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

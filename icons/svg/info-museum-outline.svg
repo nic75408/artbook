@@ -1,0 +1,8 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- info-museum-label: low column with pediment -->
+  <path d="M4 8l8-4 8 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="6" y="8" width="2" height="12" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <rect x="11" y="8" width="2" height="12" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <rect x="16" y="8" width="2" height="12" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <line x1="4" y1="20" x2="20" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
