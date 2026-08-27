@@ -234,7 +234,7 @@ console.log("== PREFETCH_ISSUES ==");
 
   const { done } = fireMessage(sandbox, {
     type: "PREFETCH_ISSUES",
-    dates: ["2026-08-25", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-23", "2026-08-22", "2026-08-21"],
+    dates: ["2026-08-25", "2026-08-24", "2026-08-25", "2026-08-27", "2026-08-23", "2026-08-22", "2026-08-21"],
   });
   await done;
 
@@ -247,11 +247,11 @@ console.log("== PREFETCH_ISSUES ==");
   assert(!has("/data/issues/2026-08-22.json"), "限量: 2026-08-22 未预取（超 PREFETCH_MAX=4）");
   assert(!has("/data/issues/2026-08-21.json"), "限量: 2026-08-21 未预取（超 PREFETCH_MAX=4）");
 
-  // 2026-08-26 已在 install 时缓存 → 跳过，不再 fetch
+  // 2026-08-27 已在 install 时缓存 → 跳过，不再 fetch
   const issueFetches = fetchFn.calls.filter((u) => u.includes("/data/issues/"));
   assert(
-    !issueFetches.includes(ORIGIN + "/data/issues/2026-08-26.json"),
-    "已缓存期文件跳过重取（2026-08-26 无网络请求）"
+    !issueFetches.includes(ORIGIN + "/data/issues/2026-08-27.json"),
+    "已缓存期文件跳过重取（2026-08-27 无网络请求）"
   );
   assert(issueFetches.length === 3, `实际只拉 3 个缺失期文件（拉取 ${issueFetches.length} 个）`);
 }

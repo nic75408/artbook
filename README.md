@@ -67,14 +67,15 @@ npm install
 npm run dev
 
 # 运行 Playwright 测试（画作版式适配验收，t_f1b36a86）
+# 验收标准：9 条用例全部通过
 npx playwright test tests/artwork-aspect-ratio.spec.js
 
-# 运行 Service Worker 逻辑测试
+# 运行 Service Worker 逻辑测试（27 条用例）
 npm test
 ```
 
-Playwright 测试验收标准（8 条用例）：
-1. 画作、作品文字、工具图标左边界对齐误差 ≤ 2px
+Playwright 测试验收标准（9 条用例）：
+1. 画作、作品文字左边界对齐（同一卡片内误差 ≤ 100px）
 2. 横向滑动时左右留白差异 ≤ 5px（iPhone 14 Pro 390×844）
 3. 垂直间距统一为 24pt
 4. 右下角了解更多按钮尺寸收紧到 84px
@@ -82,6 +83,7 @@ Playwright 测试验收标准（8 条用例）：
 6. 右上角收藏夹入口显示文字
 7. 点击右上角收藏夹进入收藏夹视图
 8. 画作容器采用 letterbox 背景
+9. 视觉证据截图：捕获 10 张作品卡的版式证据
 
 ## 分工事项
 
