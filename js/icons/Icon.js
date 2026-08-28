@@ -10,10 +10,12 @@ async function loadIconSVG(name) {
   if (ICON_CACHE.has(name)) {
     return ICON_CACHE.get(name);
   }
+  // Map alias to actual filename (e.g., 'nav-home' → 'nav-home-outline')
+  const fileName = ICON_MAP[name] || name;
   try {
-    // Use root-relative path to work on all routes (e.g. /work/123, /favs)
-    const response = await fetch(`/icons/svg/${name}.svg`);
-    if (!response.ok) throw new Error(`Icon "${name}" not found`);
+    // Use relative path to work on all deployment paths (e.g. /artbook/, /work/123)
+    const response = await fetch(`icons/svg/${fileName}.svg`);
+    if (!response.ok) throw new Error(`Icon "${name}" (${fileName}.svg) not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
     return svg;
