@@ -17,7 +17,8 @@ async function loadIconSVG(name) {
     const response = await fetch(`icons/svg/${fileName}.svg`);
     if (!response.ok) throw new Error(`Icon "${name}" (${fileName}.svg) not found`);
     const svg = await response.text();
-    ICON_CACHE.set(name, svg);
+    // Cache using fileName (real filename) so getIconSVG can find it
+    ICON_CACHE.set(fileName, svg);
     return svg;
   } catch (e) {
     console.warn(`Icon load error: ${name} — ${e.message}`);
