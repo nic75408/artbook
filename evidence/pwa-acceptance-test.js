@@ -2,6 +2,19 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * PWA 白屏修复验收测试脚本
+ * 
+ * 运行前准备:
+ * 1. 安装依赖：npm install
+ * 2. 启动本地服务器：npm run start-test (或 http-server -p 8080 .)
+ * 3. 运行测试：npm run test:pwa (或 node evidence/pwa-acceptance-test.js)
+ * 
+ * 依赖:
+ * - @playwright/test: Playwright 浏览器自动化框架
+ * - http-server: 轻量级 HTTP 服务器
+ */
+
 const EVIDENCE_DIR = '/Users/david/人文/艺术手册/artbook/.worktrees/t_8421b3c4/evidence';
 const PORT = 8080;
 

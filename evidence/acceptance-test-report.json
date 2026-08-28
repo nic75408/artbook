@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-28T06:32:20.620Z",
+  "timestamp": "2026-08-28T07:01:21.112Z",
   "acceptanceCriteria": [
     {
       "id": 1,
       "description": "首屏在 3 秒内渲染出正常页面内容",
-      "domContentLoaded": "51ms",
-      "loadComplete": "847ms",
+      "domContentLoaded": "55ms",
+      "loadComplete": "876ms",
       "backgroundColor": "rgb(245, 241, 234)",
       "hasViewElement": true,
       "hasContent": true,
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "description": "刷新 PWA 页面不会出现白屏或 JavaScript 报错",
-      "refreshTime": "35ms",
+      "refreshTime": "28ms",
       "consoleErrors": 4,
       "jsExecutionErrors": 0,
       "hasViewAfterRefresh": true,
