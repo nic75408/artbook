@@ -30,6 +30,8 @@ module.exports = defineConfig({
     port: 8888,
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
+    // 等待服务器返回 200 后再开始测试
+    ready: /.*server started.*/,
   },
   
   use: {
