@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-27T07:50:12.661Z",
+  "timestamp": "2026-08-28T06:19:15.993Z",
   "viewport": {
     "width": 390,
     "height": 844
@@ -8,8 +8,8 @@
   "tests": [
     {
       "name": "Initial Load (Mobile Viewport 390x844)",
-      "domContentLoaded": "57ms",
-      "loadComplete": "552ms",
+      "domContentLoaded": "58ms",
+      "loadComplete": "554ms",
       "backgroundColor": "rgb(245, 241, 234)",
       "hasViewElement": true,
       "screenshot": "pwa-mobile-load-390x844.png",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Hard Refresh",
-      "refreshTime": "48ms",
+      "refreshTime": "10ms",
       "screenshot": "pwa-refresh-390x844.png",
       "passed": true
     }

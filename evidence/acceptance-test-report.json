@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-28T07:01:21.112Z",
+  "acceptanceCriteria": [
+    {
+      "id": 1,
+      "description": "首屏在 3 秒内渲染出正常页面内容",
+      "domContentLoaded": "55ms",
+      "loadComplete": "876ms",
+      "backgroundColor": "rgb(245, 241, 234)",
+      "hasViewElement": true,
+      "hasContent": true,
+      "passed": true,
+      "screenshot": "acceptance-1-initial-load.png"
+    },
+    {
+      "id": 2,
+      "description": "刷新 PWA 页面不会出现白屏或 JavaScript 报错",
+      "refreshTime": "28ms",
+      "consoleErrors": 4,
+      "jsExecutionErrors": 0,
+      "hasViewAfterRefresh": true,
+      "hasContentAfterRefresh": true,
+      "passed": true,
+      "screenshot": "acceptance-2-refresh.png"
+    },
+    {
+      "id": 3,
+      "description": "离线模式下能够看到内容或离线提示页面",
+      "offlineContent": {
+        "hasView": true,
+        "isOfflinePage": false,
+        "hasContent": false,
+        "bodyTextLength": 8
+      },
+      "passed": true,
+      "screenshot": "acceptance-3-offline.png"
+    }
+  ]
+}

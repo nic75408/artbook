@@ -1,6 +1,6 @@
 # PWA 桌面端自动化验证报告
 
-**生成时间:** 2026-08-27T07:50:12.661Z
+**生成时间:** 2026-08-28T06:19:15.993Z
 **测试环境:** Playwright Chromium (headless)
 **视口:** 390x844 (iPhone 12/13/14)
 **URL:** http://localhost:8765/
@@ -8,14 +8,14 @@
 ## 测试结果
 
 ### ✅ Initial Load (Mobile Viewport 390x844)
-- **domContentLoaded:** 57ms
-- **loadComplete:** 552ms
+- **domContentLoaded:** 58ms
+- **loadComplete:** 554ms
 - **backgroundColor:** rgb(245, 241, 234)
 - **hasViewElement:** true
 ![Screenshot](evidence/pwa-mobile-load-390x844.png)
 
 ### ✅ Hard Refresh
-- **refreshTime:** 48ms
+- **refreshTime:** 10ms
 ![Screenshot](evidence/pwa-refresh-390x844.png)
 
 
