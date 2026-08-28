@@ -148,26 +148,87 @@ function render(el, w) {
     regionLabelEl.style.display = "none";
   }
 
-  // 段落小标题配置
-  const paragraphLabels = [
-    "整体印象",
-    regionLabels[region] || "局部细节",
-    "技法解读",
-    "收尾点睛"
-  ];
+  // 段落类型 → 小标题文案映射（遵循 essay-headings-spec.md）
+  const headingMap = {
+    overview: "整体印象",
+    detail: (region) => {
+      // 根据 detailCrop.region 决定具体局部文案
+      const regionLabels = {
+        face: "面部",
+        torso_neck: "身体姿态",
+        clothing: "衣物纹理",
+        background: "背景环境"
+      };
+      const regionText = regionLabels[region] || "细节";
+      return `局部细节：${regionText}`;
+    },
+    technique: "技法解读",
+    closure: "收尾点睛"
+  };
+
+  // 判断是否需要渲染小标题
+  // 规则：
+  // 1. 单段 overview（字符串或 type=overview）→ 不渲染
+  // 2. 多段场景：渲染对应类型的小标题，但同一文案不重复
+  const shouldRenderHeading = (para, index, allParas, renderedHeadings) => {
+    const type = typeof para === 'string' ? 'overview' : (para.type || 'overview');
+    const getter = headingMap[type];
+    if (!getter) return false;
+    
+    const headingText = typeof getter === 'function' ? getter(region) : getter;
+    
+    // 单段 overview 场景：不渲染
+    if (allParas.length === 1 && type === 'overview') {
+      return false;
+    }
+    
+    // 去重：同一小标题文案在同一篇赏析中只出现一次
+    if (renderedHeadings.has(headingText)) {
+      return false;
+    }
+    
+    return true;
+  };
+
+  // 获取段落类型
+  const getParaType = (para) => {
+    if (typeof para === 'string') return 'overview';
+    return para.type || 'overview';
+  };
+
+  // 获取小标题文案
+  const getHeadingText = (para, i) => {
+    const type = getParaType(para);
+    const getter = headingMap[type];
+    if (!getter) return null;
+    if (typeof getter === 'function') {
+      // detail 类型需要 region 信息
+      return getter(region);
+    }
+    return getter;
+  };
+
+  // 追踪已渲染的小标题文案（去重）
+  const renderedHeadings = new Set();
 
   (w.essay || []).forEach((p, i) => {
-    // 添加段落小标题
-    if (i < paragraphLabels.length) {
-      const labelEl = document.createElement("div");
-      labelEl.className = "paragraph-label";
-      labelEl.textContent = paragraphLabels[i];
-      essayEl.appendChild(labelEl);
+    const allParas = w.essay || [];
+    
+    // 判断是否渲染此段落的小标题
+    if (shouldRenderHeading(p, i, allParas, renderedHeadings)) {
+      const headingText = getHeadingText(p, i);
+      if (headingText) {
+        const labelEl = document.createElement("div");
+        labelEl.className = "paragraph-label";
+        labelEl.textContent = headingText;
+        essayEl.appendChild(labelEl);
+        renderedHeadings.add(headingText);
+      }
     }
 
     const pEl = document.createElement("p");
     pEl.className = "body-text";
-    pEl.textContent = p;
+    pEl.textContent = typeof p === 'string' ? p : p.text;
     essayEl.appendChild(pEl);
 
     // 第 2 段后插入圆形细节图
