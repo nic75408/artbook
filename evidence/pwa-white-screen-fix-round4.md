@@ -223,8 +223,9 @@ window.addEventListener("unhandledrejection", (e) => {
 
 - **Merge commit:** `e935016`
 - **Push to origin/main:** ✅ Success
-- **GitHub Actions Pages build:** 等待中...
+- **GitHub Actions Pages build:** ✅ 部署完成 (last-modified: Fri, 28 Aug 2026 06:02:16 GMT)
 - **生产环境 URL:** `https://nic75408.github.io/artbook/`
+- **SW 文件 ETag:** `6a912468-2137` (已更新)
 
 ---
 
@@ -356,13 +357,14 @@ GitHub Pages 有 10 分钟的 HTTP 缓存：
 - ✅ 添加 mobile-web-app-capable meta 标签
 
 **生产环境验证:**
-- ⏳ 等待 GitHub Pages 部署完成
+- ✅ GitHub Pages 部署完成 (last-modified: Fri, 28 Aug 2026 06:02:16 GMT)
+- ✅ SW 文件已更新 (ETag: 6a912468-2137)
 - ⏳ 等待用户在真实 iOS 设备上验证
 
 **部署信息:**
-- Merge commit: `e935016`
+- Merge commit: `a0d0b4c` (包含 Round 4 证据文档)
 - Push to origin/main: ✅ Success
-- GitHub Pages build: 等待中...
+- GitHub Pages build: ✅ 完成
 - 生产环境 URL: `https://nic75408.github.io/artbook/`
 
 **运行时证据状态:** 
@@ -370,10 +372,17 @@ GitHub Pages 有 10 分钟的 HTTP 缓存：
 
 ---
 
-**提交证据方式:**
-将上述截图/视频放到 `evidence/` 目录下，并在本文件中引用：
-```markdown
-**证据:** `evidence/pwa-ios-launch-round4-20260828.mp4`
-**证据:** `evidence/pwa-ios-console-logs-round4.png`
-**证据:** `evidence/pwa-ios-offline-round4.png`
-```
+**用户行动要求:**
+
+请按照"用户验证步骤 (Round 4)"部分操作：
+1. 删除旧 PWA（长按图标 → 删除 App）
+2. 重新安装 PWA（Safari 打开 → 分享 → 添加到主屏幕）
+3. 从主屏幕启动 PWA，观察是否仍然白屏
+4. 如果可能，连接 Mac 查看 Console 日志（Safari → 开发 → 选择 iPhone → artbook 页面）
+5. 提供截图或屏幕录制证据
+
+**如果修复成功，应该看到:**
+- 立即显示背景色 (#F5F1EA)，无白屏
+- Console 日志：`[SW] Registered: ...` 和 `[SW] Activated and claimed: artbook-app-v2`
+
+**如果仍然白屏，Console 会显示错误日志，帮助进一步诊断。**
