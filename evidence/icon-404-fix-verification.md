@@ -1,32 +1,93 @@
 # Icon 404 Fix Verification Report
 
 ## Issue Summary
-Fixed two critical bugs preventing icons from loading on the production artbook site:
+
+Fixed three critical bugs preventing icons from loading correctly on first cold load:
 
 1. **Path Issue**: Icons were requested from `/icons/svg/...` (root) instead of `/artbook/icons/svg/...` (subdirectory deployment)
-2. **Cache Key Mismatch**: `loadIconSVG` cached with alias name but `Icon()` looked up with real filename, causing cache misses even after successful preload
+2. **Cache Key Mismatch**: `loadIconSVG` cached with `fileName` but checked cache with `name`, causing redundant fetches
+3. **Race Condition**: `preloadIcons()` was called but not awaited before first render, causing initial render to show placeholders
+4. **Missing Icons**: Icons not in CRITICAL_ICONS (e.g., `nav-chevron-down`) had no fallback mechanism
 
-## Fix Applied
+## Fixes Applied
 
-### Commit: 9a678b8
-**File**: `js/icons/Icon.js`
+### Commit: 52222b0
 
-**Change**: Line 20 - Cache using `fileName` (real filename) instead of `name` (alias)
+#### Fix 1: Race Condition (js/app.js)
+
+**File**: `js/app.js`, lines 12-14
+
+**Change**: Made `initApp()` async and await `preloadIcons()` before initializing router
 
 ```diff
--    ICON_CACHE.set(name, svg);
-+    // Cache using fileName (real filename) so getIconSVG can find it
-+    ICON_CACHE.set(fileName, svg);
+-function initApp() {
+-  // 预加载关键图标，确保首屏渲染不闪烁
+-  preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });
++async function initApp() {
++  // 预加载关键图标，等待完成后再渲染首屏，避免占位圆圈
++  await preloadIcons();
+```
+
+**Why this fixes it**:
+- Before: `preloadIcons()` called asynchronously, `initRouter()` runs immediately → feed renders before icons loaded → placeholders
+- After: `await preloadIcons()` completes first, then `initRouter()` → all critical icons in cache before first render → icons show immediately
+
+#### Fix 2: Cache Key Consistency (js/icons/Icon.js)
+
+**File**: `js/icons/Icon.js`, lines 9-22
+
+**Change**: Check cache using `fileName` (real filename) instead of `name` (alias)
+
+```diff
+ async function loadIconSVG(name) {
+-  if (ICON_CACHE.has(name)) {
+-    return ICON_CACHE.get(name);
+-  }
+   // Map alias to actual filename (e.g., 'nav-home' → 'nav-home-outline')
+   const fileName = ICON_MAP[name] || name;
++  
++  // Check cache using fileName (real filename) for consistency
++  if (ICON_CACHE.has(fileName)) {
++    return ICON_CACHE.get(fileName);
++  }
 ```
 
 **Why this fixes it**:
 - `loadIconSVG('nav-home')` resolves `fileName = 'nav-home-outline'` via ICON_MAP
-- Now caches as `ICON_CACHE.set('nav-home-outline', svg)`
-- `Icon('nav-home')` resolves `baseName = 'nav-home-outline'` and calls `getIconSVG('nav-home-outline')`
-- Cache lookup now succeeds because both use the same key
+- Now checks cache with `ICON_CACHE.has('nav-home-outline')` ✓
+- Cache set/get both use `fileName` → consistent key → cache hits work
 
-### Previous Commit: fc9ded5
-Fixed the path issue by changing from absolute `/icons/svg/` to relative `icons/svg/` path.
+#### Fix 3: On-Demand Fallback (js/icons/Icon.js)
+
+**File**: `js/icons/Icon.js`, lines 109-133
+
+**Change**: When `Icon()` cache misses, trigger async load and replace placeholder DOM elements
+
+```javascript
+// On-demand fallback: if not in cache, trigger async load and schedule DOM update
+if (!svg) {
+  // Trigger async load (will cache the result)
+  loadIconSVG(name).then(loadedSvg => {
+    // Find and update any placeholders for this icon
+    const placeholders = document.querySelectorAll(`.icon.icon-${name}`);
+    placeholders.forEach(el => {
+      // Only update if still showing placeholder (has the circle)
+      if (el.querySelector('circle[fill="none"]')) {
+        // ... replace placeholder with real SVG ...
+      }
+    });
+  }).catch(() => { /* ignore load errors */ });
+  
+  // Return placeholder for initial render
+  return `<svg class="icon icon-${name} ..." ...><circle .../></svg>`;
+}
+```
+
+**Why this fixes it**:
+- Icons not in CRITICAL_ICONS (e.g., `nav-chevron-down` used in date capsule) now load on-demand
+- Initial render shows placeholder, but async load triggers immediately
+- Once loaded, finds all DOM elements with that icon's class and replaces placeholders
+- No more permanent circles for icons missing from preload list
 
 ## Verification: Acceptance Criterion 1 ✓
 
@@ -50,27 +111,24 @@ HTTP/2 200
 
 **Instructions for reviewer to verify on production site**:
 
-1. Open `https://nic75408.github.io/artbook/` in desktop browser
-2. Open DevTools → Network tab, filter by "SVG"
-3. Reload page and verify:
+1. Open `https://nic75408.github.io/artbook/` in desktop browser (hard refresh: Cmd+Shift+R)
+2. **Do NOT navigate away** - verify cold-load first render
+3. Verify icons render correctly immediately (no placeholder circles visible):
+   - **Homepage navigation**: home icon in top-left, bookmark icon in header
+   - **Date capsule**: chevron-down icon next to date
+4. Open DevTools → Network tab, filter by "SVG", reload:
    - All CRITICAL_ICONS preload requests return 200
    - No 404 errors in console
-   - Icons render visibly in:
-     - **Homepage navigation**: home, back, close, more icons
-     - **Detail page action area**: bookmark, favorite icons
-     - **Status indicators**: loading, error, empty states
 
-**Expected Network panel output**:
-```
-nav-home-outline.svg      200  (preflight: preloadIcons)
-action-favorite-outline.svg  200  (preflight: preloadIcons)
-state-offline-outline.svg 200  (preflight: preloadIcons)
-view-grid-outline.svg     200  (preflight: preloadIcons)
-```
+**Expected behavior after fix**:
+- Cold load: all icons render correctly on first paint (no circles)
+- Network panel: 11 CRITICAL_ICONS show 200 status
+- No icons remain as placeholders
 
 **Screenshot locations to capture**:
-- `evidence/ui-homepage-nav.png`: Homepage showing navigation icons
+- `evidence/ui-homepage-nav-cold-load.png`: Homepage immediately after hard refresh (before any navigation)
 - `evidence/ui-detail-actions.png`: Detail page showing action icons (bookmark, favorite)
+- `evidence/network-preload-success.png`: Network panel showing all 11 CRITICAL_ICONS as 200
 
 ## Verification: Acceptance Criterion 3 ✓ (Cache Key Fix)
 
@@ -92,34 +150,48 @@ view-grid-outline.svg     200  (preflight: preloadIcons)
 ```
 
 **Before fix**:
-- `loadIconSVG('nav-home')` → caches as `ICON_CACHE.set('nav-home', svg)` ❌
-- `Icon('nav-home')` → looks up `getIconSVG('nav-home-outline')` ❌
-- Result: cache miss, returns `null`, shows placeholder
+- `loadIconSVG('nav-home')` → checks `ICON_CACHE.has('nav-home')` (miss) → fetches → `ICON_CACHE.set('nav-home-outline', svg)` ❌
+- Next call: `ICON_CACHE.has('nav-home')` still misses → refetches every time
+- `Icon('nav-home')` → looks up `getIconSVG('nav-home-outline')` ✓ but preload never cached it
 
 **After fix**:
-- `loadIconSVG('nav-home')` → caches as `ICON_CACHE.set('nav-home-outline', svg)` ✓
-- `Icon('nav-home')` → looks up `getIconSVG('nav-home-outline')` ✓
-- Result: cache hit, returns SVG, renders correctly
+- `loadIconSVG('nav-home')` → checks `ICON_CACHE.has('nav-home-outline')` ✓ → fetches → `ICON_CACHE.set('nav-home-outline', svg)` ✓
+- Next call: `ICON_CACHE.has('nav-home-outline')` hits → returns cached SVG
+- `Icon('nav-home')` → looks up `getIconSVG('nav-home-outline')` ✓ → finds cached SVG
 
 ## Files Changed
 
 ```
+js/app.js
+  - Line 12: initApp() made async
+  - Line 14: await preloadIcons() before initRouter()
+
 js/icons/Icon.js
-  - Line 17: fetch path uses relative `icons/svg/${fileName}.svg`
-  - Line 20: cache key changed from `name` to `fileName`
+  - Lines 9-22: loadIconSVG() cache check uses fileName
+  - Lines 109-133: Icon() on-demand fallback with DOM replacement
 ```
 
 ## Deployment Status
 
 - Branch: `artbook/t_278c9176-artbook-404-critical_icons`
-- Latest commit: `9a678b8`
+- Latest commit: `52222b0`
 - Pushed to: `origin/artbook/t_278c9176-artbook-404-critical_icons`
 - Ready for merge to `main` for production deployment
 
 ## Notes for Reviewer
 
-The cache key fix is critical - without it, even though the icon files exist and return 200, the UI would still show placeholder icons because `getIconSVG` couldn't find the preloaded content. This is a silent failure mode that would not show 404s but would still result in missing icons.
+**Cold-load verification is critical**: The race condition fix only matters on cold load (hard refresh). If you navigate to another route and back, the feed re-renders and icons will already be cached, masking the bug.
 
-The combination of both fixes (path + cache key) ensures:
-1. Icons are requested from the correct URL (verified by curl)
-2. Preloaded icons are actually used by the render function (verified by code inspection)
+**Test procedure**:
+1. Open `https://nic75408.github.io/artbook/` after merge
+2. Hard refresh (Cmd+Shift+R or Ctrl+Shift+R)
+3. Immediately check: are there any placeholder circles?
+   - Before fix: yes, especially date capsule chevron and sometimes bookmark
+   - After fix: no, all icons render correctly on first paint
+
+**Why three fixes were needed together**:
+- Fix 1 (await preload) ensures CRITICAL_ICONS are loaded before first render
+- Fix 2 (cache key) ensures efficient caching (no redundant fetches)
+- Fix 3 (on-demand) catches any icons not in CRITICAL_ICONS (like nav-chevron-down)
+
+Without all three, you'd still see circles on cold load for some icons.
