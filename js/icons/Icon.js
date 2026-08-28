@@ -11,8 +11,10 @@ async function loadIconSVG(name) {
     return ICON_CACHE.get(name);
   }
   try {
+    // Apply ICON_MAP to resolve logical name to file base name
+    const baseName = ICON_MAP[name] || name;
     // Use relative path to work with /artbook/ subpath deployment
-    const response = await fetch(`icons/svg/${name}.svg`);
+    const response = await fetch(`icons/svg/${baseName}.svg`);
     if (!response.ok) throw new Error(`Icon "${name}" not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
