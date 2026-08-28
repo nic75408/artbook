@@ -11,8 +11,8 @@ async function loadIconSVG(name) {
     return ICON_CACHE.get(name);
   }
   try {
-    // Use root-relative path to work on all routes (e.g. /work/123, /favs)
-    const response = await fetch(`/icons/svg/${name}.svg`);
+    // Use relative path based on current module's location (works in /artbook/ subpath deployment)
+    const response = await fetch(new URL(`../icons/svg/${name}.svg`, import.meta.url).href);
     if (!response.ok) throw new Error(`Icon "${name}" not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
