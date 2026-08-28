@@ -28,7 +28,7 @@ async function loadIconSVG(name) {
 
 // Preload critical icons for immediate use
 const CRITICAL_ICONS = [
-  'nav-home', 'nav-back', 'nav-close', 'nav-more',
+  'nav-home', 'nav-back', 'nav-close', 'nav-more', 'nav-chevron-down',
   'action-bookmark-outline', 'action-bookmark-filled',
   'action-favorite-outline', 'action-favorite-filled',
   'state-loading-outline', 'state-error-outline', 'state-empty-outline'
