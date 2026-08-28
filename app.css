@@ -22,6 +22,9 @@
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
   --safe-r: env(safe-area-inset-right, 0px);
+  /* --pad-t/--pad-b: top/bottom padding for artwork height calculation (SPE §5) */
+  --pad-t: 20px;
+  --pad-b: 20px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
