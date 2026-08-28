@@ -11,11 +11,12 @@ async function loadIconSVG(name) {
     return ICON_CACHE.get(name);
   }
   try {
-    // Apply ICON_MAP to resolve logical name to file base name
+    // Apply icon mapping to get actual filename (e.g., 'nav-home' → 'nav-home-outline')
     const baseName = ICON_MAP[name] || name;
-    // Use relative path to work with /artbook/ subpath deployment
-    const response = await fetch(`icons/svg/${baseName}.svg`);
-    if (!response.ok) throw new Error(`Icon "${name}" not found`);
+    // Use relative path based on current module's location (works in /artbook/ subpath deployment)
+    // js/icons/Icon.js -> ../../icons/svg/ to reach repo root icons/ directory
+    const response = await fetch(new URL(`../../icons/svg/${baseName}.svg`, import.meta.url).href);
+    if (!response.ok) throw new Error(`Icon "${name}" (${baseName}.svg) not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
     return svg;
@@ -31,7 +32,8 @@ const CRITICAL_ICONS = [
   'nav-home', 'nav-back', 'nav-close', 'nav-more', 'nav-chevron-down',
   'action-bookmark-outline', 'action-bookmark-filled',
   'action-favorite-outline', 'action-favorite-filled',
-  'state-loading-outline', 'state-error-outline', 'state-empty-outline'
+  'state-loading-outline', 'state-error-outline', 'state-empty-outline',
+  'nav-chevron-down'  // date-capsule button
 ];
 
 export async function preloadIcons() {
@@ -40,6 +42,7 @@ export async function preloadIcons() {
 
 // Synchronous icon lookup (for use after preload)
 function getIconSVG(name) {
+  // Cache is keyed by logical name (e.g., 'nav-chevron-down'), not filename
   return ICON_CACHE.get(name) || null;
 }
 
@@ -101,16 +104,13 @@ export function Icon(name, options = {}) {
     hidden = true
   } = options;
   
-  // Get cached SVG using logical name (same key as preloadIcons uses)
-  const svg = getIconSVG(name);
+  const baseName = ICON_MAP[name] || name;
+  const svg = getIconSVG(name);  // Cache is keyed by logical name, not filename
   
   if (!svg) {
     // Return placeholder if icon not preloaded
     return `<svg class="icon ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
   }
-  
-  // Apply ICON_MAP to resolve logical name to file base name for rendering
-  const baseName = ICON_MAP[name] || name;
   
   // Inject size and classes into SVG using DOMParser for safe manipulation
   const parser = new DOMParser();
