@@ -158,6 +158,9 @@ self.addEventListener("activate", (e) => {
     caches.keys()
       .then((keys) => Promise.all(keys.filter((k) => k !== CACHE_APP).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
+      .then(() => {
+        console.log("[SW] Activated and claimed:", CACHE_APP);
+      })
   );
 });
 
