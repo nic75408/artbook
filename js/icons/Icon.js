@@ -11,10 +11,12 @@ async function loadIconSVG(name) {
     return ICON_CACHE.get(name);
   }
   try {
+    // Apply icon mapping to get actual filename (e.g., 'nav-home' → 'nav-home-outline')
+    const baseName = ICON_MAP[name] || name;
     // Use relative path based on current module's location (works in /artbook/ subpath deployment)
     // js/icons/Icon.js -> ../../icons/svg/ to reach repo root icons/ directory
-    const response = await fetch(new URL(`../../icons/svg/${name}.svg`, import.meta.url).href);
-    if (!response.ok) throw new Error(`Icon "${name}" not found`);
+    const response = await fetch(new URL(`../../icons/svg/${baseName}.svg`, import.meta.url).href);
+    if (!response.ok) throw new Error(`Icon "${name}" (${baseName}.svg) not found`);
     const svg = await response.text();
     ICON_CACHE.set(name, svg);
     return svg;
@@ -30,7 +32,8 @@ const CRITICAL_ICONS = [
   'nav-home', 'nav-back', 'nav-close', 'nav-more',
   'action-bookmark-outline', 'action-bookmark-filled',
   'action-favorite-outline', 'action-favorite-filled',
-  'state-loading-outline', 'state-error-outline', 'state-empty-outline'
+  'state-loading-outline', 'state-error-outline', 'state-empty-outline',
+  'nav-chevron-down'  // date-capsule button
 ];
 
 export async function preloadIcons() {
@@ -39,6 +42,7 @@ export async function preloadIcons() {
 
 // Synchronous icon lookup (for use after preload)
 function getIconSVG(name) {
+  // Cache is keyed by logical name (e.g., 'nav-chevron-down'), not filename
   return ICON_CACHE.get(name) || null;
 }
 
@@ -101,7 +105,7 @@ export function Icon(name, options = {}) {
   } = options;
   
   const baseName = ICON_MAP[name] || name;
-  const svg = getIconSVG(baseName);
+  const svg = getIconSVG(name);  // Cache is keyed by logical name, not filename
   
   if (!svg) {
     // Return placeholder if icon not preloaded
