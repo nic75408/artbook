@@ -101,13 +101,16 @@ export function Icon(name, options = {}) {
     hidden = true
   } = options;
   
-  const baseName = ICON_MAP[name] || name;
-  const svg = getIconSVG(baseName);
+  // Get cached SVG using logical name (same key as preloadIcons uses)
+  const svg = getIconSVG(name);
   
   if (!svg) {
     // Return placeholder if icon not preloaded
     return `<svg class="icon ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
   }
+  
+  // Apply ICON_MAP to resolve logical name to file base name for rendering
+  const baseName = ICON_MAP[name] || name;
   
   // Inject size and classes into SVG using DOMParser for safe manipulation
   const parser = new DOMParser();
