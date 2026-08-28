@@ -1,4 +1,7 @@
 // 共享 UI 小件：toast、内联图标（Feather 线性风格，stroke 1.5，SPE §7.2）、DOM 工具
+// 重新导出 Icon 组件以便 feed.js 等文件使用
+export { Icon } from './icons/Icon.js';
+export { preloadIcons } from './icons/Icon.js';
 export function toast(msg) {
   const t = document.getElementById("toast");
   t.textContent = msg;
