@@ -64,6 +64,12 @@ python pipeline/generate.py --date 2026-08-13 --dry-run   # 完整执行但不�
 | LLM key 与仓库 Secrets | 项目 owner |
 | iPhone 添加主屏 + 真机验收 | 项目 owner |
 
+## 设计规范
+
+- **DESIGN.md** — 基础视觉系统（色彩、字体、间距、圆角、阴影）
+- **artwork-aspect-ratio-spec.md** — 画作长宽比处理规范（Option 2：原比例 + letterbox）
+- **Artwork-Aspect-Ratio-DESIGN-EXT.md** — 画作布局 token 扩展规范
+
 ## 已知限制（v1 接受）
 
 - 博物馆图床链接长期失效 → 展示占位 + 源站链接，不做回扫
