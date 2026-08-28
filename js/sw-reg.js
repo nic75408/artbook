@@ -9,11 +9,28 @@ const VERSION_URL = "version.json";
 
 export function registerSW() {
   if (!("serviceWorker" in navigator)) return;
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {
-      /* 注册失败不阻塞页面 */
+  
+  // iOS PWA 修复：立即注册 SW，不要等 load 事件
+  // iOS 从主屏幕启动时，load 事件可能延迟或不触发
+  const swUrl = "sw.js";
+  
+  navigator.serviceWorker.register(swUrl, { scope: "./" })
+    .then((registration) => {
+      console.log("[SW] Registered:", registration.scope);
+      // 页面加载完成后探针版本
+      if (document.readyState === "complete") {
+        probeVersion();
+      } else {
+        window.addEventListener("load", () => probeVersion());
+      }
+    })
+    .catch((err) => {
+      console.log("[SW] Registration failed:", err);
     });
-    probeVersion();
+  
+  // 监听 SW 激活，确保新 SW 接管
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    console.log("[SW] Controller changed - page will reload");
   });
 }
 
