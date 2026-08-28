@@ -10784,6 +10784,495 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1988.105.o/1988.105.o_web.jpg",
       "ratio": 0.689
+    },
+    {
+      "id": "cma-119697",
+      "issue": "2026-08-29",
+      "t": "贝尔克海滩的船只",
+      "a": "爱德华·马奈",
+      "aid": "edouard-manet-french-1832-1883",
+      "y": 1873,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "光影",
+        "帆船"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1940.534/1940.534_web.jpg",
+      "ratio": 0.602
+    },
+    {
+      "id": "cma-149663",
+      "issue": "2026-08-29",
+      "t": "维纳斯的喷泉",
+      "a": "弗朗索瓦·布歇",
+      "aid": "francois-boucher-french-1703-1770",
+      "y": 1756,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "洛可可",
+        "18世纪",
+        "法国",
+        "色彩",
+        "喷泉"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.55/1979.55_web.jpg",
+      "ratio": 1.08
+    },
+    {
+      "id": "cma-148965",
+      "issue": "2026-08-29",
+      "t": "乡村节庆",
+      "a": "大卫·特尼尔斯",
+      "aid": "david-teniers-flemish-1610-1690",
+      "y": 1646,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "乡村生活",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.122/1977.122_web.jpg",
+      "ratio": 0.525
+    },
+    {
+      "id": "cma-159727",
+      "issue": "2026-08-29",
+      "t": "古木寒泉图",
+      "a": "文徵明",
+      "aid": "wen-zhengming-chinese-1470-1559",
+      "y": 1551,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "中国",
+        "水墨",
+        "文人画",
+        "明代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.102/1997.102_web.jpg",
+      "ratio": 2.453
+    },
+    {
+      "id": "cma-173480",
+      "issue": "2026-08-29",
+      "t": "苹果花",
+      "a": "马丁·约翰逊·希德",
+      "aid": "martin-johnson-heade-american-1819-1904",
+      "y": 1873,
+      "mv": "美国哈德逊河画派",
+      "tags": [
+        "静物",
+        "花卉",
+        "19世纪",
+        "美国",
+        "光影",
+        "质感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.687/1915.687_web.jpg",
+      "ratio": 1.166
+    },
+    {
+      "id": "cma-142293",
+      "issue": "2026-08-29",
+      "t": "圣母与圣子向圣方济各显现",
+      "a": "卢卡·焦尔达诺",
+      "aid": "luca-giordano-italian-1634-1705",
+      "y": 1680,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "动态",
+        "神迹"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.125/1966.125_web.jpg",
+      "ratio": 1.223
+    },
+    {
+      "id": "cma-152428",
+      "issue": "2026-08-29",
+      "t": "美人图",
+      "a": "藤丸",
+      "aid": "fujimaro-japanese-d-1830",
+      "y": 1810,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "江户时代",
+        "母子"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.256/1985.256_web.jpg",
+      "ratio": 2.909
+    },
+    {
+      "id": "cma-128371",
+      "issue": "2026-08-29",
+      "t": "林间池塘",
+      "a": "让 - 巴蒂斯特 - 卡米耶·柯罗",
+      "aid": "jean-baptiste-camille-corot-french-1796-1875",
+      "y": 1860,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松画派",
+        "氛围",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.330/1951.330_web.jpg",
+      "ratio": 0.753
+    },
+    {
+      "id": "cma-170819",
+      "issue": "2026-08-29",
+      "t": "祖莱哈在宫殿中及与约瑟夫在一起的老年形象（正面），出自阿卜杜勒 - 拉赫曼·贾米的《五宝》",
+      "a": "穆什菲克",
+      "aid": "mushfiq-indian-active-early-1600s",
+      "y": 1603,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "装饰性",
+        "宗教题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.315.1.a/2013.315.1.a_web.jpg",
+      "ratio": 1.768
+    },
+    {
+      "id": "cma-137335",
+      "issue": "2026-08-29",
+      "t": "女子肖像",
+      "a": "圣家族大师",
+      "aid": "master-of-the-holy-kinship-german",
+      "y": 1490,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "德国",
+        "早期文艺复兴",
+        "宗教",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.259/1962.259_web.jpg",
+      "ratio": 1.436
+    },
+    {
+      "id": "cma-153412",
+      "issue": "2026-08-29",
+      "t": "水浒图：快活林",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1700,
+      "mv": "南画",
+      "tags": [
+        "叙事画",
+        "18世纪",
+        "日本",
+        "文学题材",
+        "水墨",
+        "山水人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.95/1986.95_web.jpg",
+      "ratio": 3.333
+    },
+    {
+      "id": "cma-115050",
+      "issue": "2026-08-29",
+      "t": "风暴云",
+      "a": "约翰·亨利·特瓦赫特曼",
+      "aid": "john-henry-twachtman-american-1853-1902",
+      "y": 1880,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "海景",
+        "19世纪",
+        "美国",
+        "色调主义",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1935.217/1935.217_web.jpg",
+      "ratio": 0.603
+    },
+    {
+      "id": "cma-132836",
+      "issue": "2026-08-29",
+      "t": "四季山水册·叶 E",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "新安画派",
+        "笔墨",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.3/1955.302.3_web.jpg",
+      "ratio": 1.327
+    },
+    {
+      "id": "cma-80329",
+      "issue": "2026-08-29",
+      "t": "午餐（安妮特与祖母）",
+      "a": "爱德华·维亚尔",
+      "aid": "edouard-vuillard-french-1868-1940",
+      "y": 1899,
+      "mv": "纳比派",
+      "tags": [
+        "室内",
+        "19世纪",
+        "法国",
+        "纳比派",
+        "图案",
+        "家庭"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.118/2020.118_web.jpg",
+      "ratio": 0.928
+    },
+    {
+      "id": "cma-101355",
+      "issue": "2026-08-29",
+      "t": "露台上的皇家野餐",
+      "a": "穆罕默德·阿里",
+      "aid": "muhammad-ali-persian-active-1590-1620",
+      "y": 1620,
+      "mv": "波斯细密画",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "波斯",
+        "细密画",
+        "宫廷",
+        "萨法维王朝"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1966/1920.1966_web.jpg",
+      "ratio": 1.603
+    },
+    {
+      "id": "cma-131336",
+      "issue": "2026-08-29",
+      "t": "常春藤巷",
+      "a": "深江芦洲",
+      "aid": "fukae-roshu-japanese-1699-1757",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "风景",
+        "18世纪",
+        "日本",
+        "琳派",
+        "装饰性",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.127/1954.127_web.jpg",
+      "ratio": 0.497
+    },
+    {
+      "id": "cma-149617",
+      "issue": "2026-08-29",
+      "t": "摹古册：五柳先生",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "高古奇骇",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "高古奇骇",
+        "线条",
+        "陶渊明"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.12/1979.27.2.12_web.jpg",
+      "ratio": 1.003
+    },
+    {
+      "id": "cma-97171",
+      "issue": "2026-08-29",
+      "t": "牧羊人的崇拜",
+      "a": "汉斯·莱昂哈德·绍费莱因",
+      "aid": "hans-leonhard-schaufelein-german",
+      "y": 1510,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "叙事",
+        "圣经故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.807/1916.807_web.jpg",
+      "ratio": 1.017
+    },
+    {
+      "id": "cma-148864",
+      "issue": "2026-08-29",
+      "t": "兰亭雅集图屏风",
+      "a": "圆山应举",
+      "aid": "maruyama-okyo-japanese-1733-1795",
+      "y": 1700,
+      "mv": "圆山派",
+      "tags": [
+        "雅集",
+        "18世纪",
+        "日本",
+        "汉画风格",
+        "屏风画",
+        "兰亭"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.1/1977.1_web.jpg",
+      "ratio": 0.377
+    },
+    {
+      "id": "cma-171153",
+      "issue": "2026-08-29",
+      "t": "熔炉",
+      "a": "卡尔·加特纳",
+      "aid": "carl-gaertner-american-1898-1952",
+      "y": 1924,
+      "mv": "美国现实主义",
+      "tags": [
+        "工业",
+        "雪景",
+        "20世纪",
+        "美国",
+        "克利夫兰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.66/2013.66_web.jpg",
+      "ratio": 0.854
+    },
+    {
+      "id": "cma-152409",
+      "issue": "2026-08-29",
+      "t": "葡萄图",
+      "a": "菅井梅关",
+      "aid": "sugai-baikan-japanese-1784-1844",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "静物",
+        "19世纪",
+        "日本",
+        "南画",
+        "笔墨",
+        "花鸟"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.247/1985.247_web.jpg",
+      "ratio": 2.32
+    },
+    {
+      "id": "cma-149618",
+      "issue": "2026-08-29",
+      "t": "摹古画册：罗汉（仿贯休）",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "中国",
+        "罗汉",
+        "变形",
+        "高古游丝描"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.13/1979.27.2.13_web.jpg",
+      "ratio": 1.128
+    },
+    {
+      "id": "cma-97421",
+      "issue": "2026-08-29",
+      "t": "“老帕特”，独立的乞丐",
+      "a": "塞缪尔·洛维特·沃尔多",
+      "aid": "samuel-lovett-waldo-american-1783-1861",
+      "y": 1819,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "风俗画",
+        "性格研究"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.998/1916.998_web.jpg",
+      "ratio": 1.311
+    },
+    {
+      "id": "cma-128950",
+      "issue": "2026-08-29",
+      "t": "白衣观音像",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1200,
+      "mv": "不详",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "日本",
+        "佛教绘画",
+        "宁静",
+        "白描"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.540/1951.540_web.jpg",
+      "ratio": 2.022
+    },
+    {
+      "id": "cma-144286",
+      "issue": "2026-08-29",
+      "t": "仿董巨山水图",
+      "a": "龚贤",
+      "aid": "gong-xian-chinese-1599-1689",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "仿古",
+        "气势",
+        "金陵画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.123/1969.123_web.jpg",
+      "ratio": 3.615
+    },
+    {
+      "id": "cma-99450",
+      "issue": "2026-08-29",
+      "t": "文殊菩萨像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "佛教绘画",
+      "tags": [
+        "佛教",
+        "菩萨",
+        "18世纪",
+        "中国",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1020/1919.1020_web.jpg",
+      "ratio": 1.748
     }
   ]
 }

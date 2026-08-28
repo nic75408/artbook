@@ -2954,6 +2954,125 @@
       "years": "不详",
       "nationality_zh": "日本",
       "bio_zh": "江户时代浮世绘画家，以精细的绢本役者绘见长，笔触细腻度优于同期木刻版画。"
+    },
+    "martin-johnson-heade-american-1819-1904": {
+      "name_zh": "马丁·约翰逊·希德",
+      "name_en": "Martin Johnson Heade (American, 1819–1904)",
+      "years": "1819–1904",
+      "nationality_zh": "美国",
+      "bio_zh": "美国哈德逊河画派画家，以描绘沼泽、兰花与热带鸟类闻名，静物画技艺精湛。"
+    },
+    "dasavanta-indian-d-1584": {
+      "name_zh": "达萨万塔",
+      "name_en": "Dasavanta (Indian, d. 1584)",
+      "years": "不详–1584",
+      "nationality_zh": "印度",
+      "bio_zh": "莫卧儿帝国阿克巴时期杰出画家，以擅长描绘动物动态及融合波斯与印度风格著称。"
+    },
+    "luca-giordano-italian-1634-1705": {
+      "name_zh": "卢卡·焦尔达诺",
+      "name_en": "Luca Giordano (Italian, 1634–1705)",
+      "years": "1634–1705",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利巴洛克晚期画家，以惊人的作画速度和多产著称，人称“闪电卢卡”，风格融合威尼斯色彩与罗马构图。"
+    },
+    "fujimaro-japanese-d-1830": {
+      "name_zh": "藤丸",
+      "name_en": "Fujimaro (Japanese, d. 1830)",
+      "years": "不详–1830",
+      "nationality_zh": "日本",
+      "bio_zh": "江户时代后期浮世绘画家，以美人画见长，作品传世较少，风格雅致。"
+    },
+    "mushfiq-indian-active-early-1600s": {
+      "name_zh": "穆什菲克",
+      "name_en": "Mushfiq (Indian, active early 1600s)",
+      "years": "活跃于 17 世纪初",
+      "nationality_zh": "印度",
+      "bio_zh": "穆什菲克，17 世纪初印度莫卧儿宫廷画师，以细密画闻名，擅长叙事性题材与装饰性构图。"
+    },
+    "master-of-the-holy-kinship-german": {
+      "name_zh": "圣家族大师",
+      "name_en": "Master of the Holy Kinship (German)",
+      "years": "不详",
+      "nationality_zh": "德国",
+      "bio_zh": "15 世纪末科隆地区匿名画家，以宗教题材见长，风格融合哥特式与早期文艺复兴特征。"
+    },
+    "john-henry-twachtman-american-1853-1902": {
+      "name_zh": "约翰·亨利·特瓦赫特曼",
+      "name_en": "John Henry Twachtman (American, 1853–1902)",
+      "years": "1853–1902",
+      "nationality_zh": "美国",
+      "bio_zh": "美国色调主义代表画家，以捕捉雪景与静谧氛围著称，是连接美国传统风景画与印象派的重要桥梁。"
+    },
+    "muhammad-ali-persian-active-1590-1620": {
+      "name_zh": "穆罕默德·阿里",
+      "name_en": "Muhammad Ali (Persian, active 1590–1620)",
+      "years": "活跃于 1590–1620",
+      "nationality_zh": "波斯",
+      "bio_zh": "波斯萨法维王朝细密画家，活跃于伊斯法罕宫廷，擅长描绘宫廷生活与建筑场景。"
+    },
+    "fukae-roshu-japanese-1699-1757": {
+      "name_zh": "深江芦洲",
+      "name_en": "Fukae Roshū (Japanese, 1699–1757)",
+      "years": "1699–1757",
+      "nationality_zh": "日本",
+      "bio_zh": "深江芦洲（1699–1757），日本江户时代琳派画家，以装饰性屏风画闻名，继承尾形光琳风格并融入个人诗意表达。"
+    },
+    "ture-nikolaus-cederstrom-swedish-1843-1924": {
+      "name_zh": "图雷·尼古拉斯·塞德斯特伦",
+      "name_en": "Ture Nikolaus Cederström (Swedish, 1843–1924)",
+      "years": "1843–1924",
+      "nationality_zh": "瑞典",
+      "bio_zh": "瑞典象征主义画家，以描绘静谧的宗教场景和富有隐喻的光影效果著称。"
+    },
+    "hans-leonhard-schaufelein-german": {
+      "name_zh": "汉斯·莱昂哈德·绍费莱因",
+      "name_en": "Hans Leonhard Schäufelein (German)",
+      "years": "1480/85–1540",
+      "nationality_zh": "德国",
+      "bio_zh": "德国文艺复兴画家，丢勒弟子，以细腻的线条和叙事性宗教画著称，活跃于纽伦堡与奥格斯堡。"
+    },
+    "maruyama-okyo-japanese-1733-1795": {
+      "name_zh": "圆山应举",
+      "name_en": "Maruyama Ōkyo (Japanese, 1733–1795)",
+      "years": "1733–1795",
+      "nationality_zh": "日本",
+      "bio_zh": "江户时代京都画坛革新者，圆山派创始人，主张写生与装饰并重。"
+    },
+    "carl-gaertner-american-1898-1952": {
+      "name_zh": "卡尔·加特纳",
+      "name_en": "Carl Gaertner (American, 1898–1952)",
+      "years": "1898–1952",
+      "nationality_zh": "美国",
+      "bio_zh": "美国现实主义画家，克利夫兰画派核心成员，以描绘工业景观与雪景著称。"
+    },
+    "sugai-baikan-japanese-1784-1844": {
+      "name_zh": "菅井梅关",
+      "name_en": "Sugai Baikan (Japanese, 1784–1844)",
+      "years": "1784–1844",
+      "nationality_zh": "日本",
+      "bio_zh": "江户后期南画家，大阪画坛代表人物，擅长花鸟与文人画题材。"
+    },
+    "yao-tingmei-chinese-active-mid-1300s": {
+      "name_zh": "姚廷美",
+      "name_en": "Yao Tingmei (Chinese, active mid-1300s)",
+      "years": "活跃于 14 世纪中期",
+      "nationality_zh": "中国",
+      "bio_zh": "元代画家，活跃于 14 世纪中期，传世作品极少，以《有余闲图》闻名。"
+    },
+    "samuel-lovett-waldo-american-1783-1861": {
+      "name_zh": "塞缪尔·洛维特·沃尔多",
+      "name_en": "Samuel Lovett Waldo (American, 1783–1861)",
+      "years": "1783–1861",
+      "nationality_zh": "美国",
+      "bio_zh": "美国肖像画家，曾任美国国家设计学院首任院长，以细腻的性格描绘和学院派技法闻名。"
+    },
+    "gong-xian-chinese-1599-1689": {
+      "name_zh": "龚贤",
+      "name_en": "Gong Xian (Chinese, 1599–1689)",
+      "years": "1599–1689",
+      "nationality_zh": "中国",
+      "bio_zh": "明末清初画家，金陵八家之首，以积墨法著称，风格沉郁厚重。"
     }
   }
 }
