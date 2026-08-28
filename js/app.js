@@ -9,9 +9,9 @@ import { preloadIcons } from "./ui.js";
 
 // iOS PWA 关键修复：等待 DOM 就绪后再初始化路由
 // iOS PWA 从主屏幕启动时，模块执行时机可能早于 DOM 构建完成
-function initApp() {
-  // 预加载关键图标，确保首屏渲染不闪烁
-  preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });
+async function initApp() {
+  // 预加载关键图标，等待完成后再渲染首屏，避免占位圆圈
+  await preloadIcons();
 
   register(/^\/$/, { mount: feed });
   register(/^\/work\/(?<id>[^/]+)$/, { mount: detail });

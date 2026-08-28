@@ -7,11 +7,14 @@ const ICON_CACHE = new Map();
 
 // Load SVG content from file (cached)
 async function loadIconSVG(name) {
-  if (ICON_CACHE.has(name)) {
-    return ICON_CACHE.get(name);
-  }
   // Map alias to actual filename (e.g., 'nav-home' → 'nav-home-outline')
   const fileName = ICON_MAP[name] || name;
+  
+  // Check cache using fileName (real filename) for consistency
+  if (ICON_CACHE.has(fileName)) {
+    return ICON_CACHE.get(fileName);
+  }
+  
   try {
     // Use relative path to work on all deployment paths (e.g. /artbook/, /work/123)
     const response = await fetch(`icons/svg/${fileName}.svg`);
@@ -103,11 +106,35 @@ export function Icon(name, options = {}) {
   } = options;
   
   const baseName = ICON_MAP[name] || name;
-  const svg = getIconSVG(baseName);
+  let svg = getIconSVG(baseName);
   
+  // On-demand fallback: if not in cache, trigger async load and schedule DOM update
   if (!svg) {
-    // Return placeholder if icon not preloaded
-    return `<svg class="icon ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
+    // Trigger async load (will cache the result)
+    loadIconSVG(name).then(loadedSvg => {
+      // Find and update any placeholders for this icon
+      const placeholders = document.querySelectorAll(`.icon.icon-${name}`);
+      placeholders.forEach(el => {
+        // Only update if still showing placeholder (has the circle)
+        if (el.querySelector('circle[fill="none"]')) {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(loadedSvg, 'image/svg+xml');
+          const svgEl = doc.documentElement;
+          svgEl.setAttribute('width', String(size));
+          svgEl.setAttribute('height', String(size));
+          svgEl.setAttribute('class', `icon icon-${name} ${extraClass}`.trim());
+          svgEl.setAttribute('aria-hidden', hidden ? 'true' : 'false');
+          if (!hidden && label) {
+            svgEl.setAttribute('aria-label', label);
+          }
+          svgEl.setAttribute('stroke-width', String(getStrokeWidth(size)));
+          el.replaceWith(svgEl);
+        }
+      });
+    }).catch(() => { /* ignore load errors */ });
+    
+    // Return placeholder for initial render
+    return `<svg class="icon icon-${name} ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
   }
   
   // Inject size and classes into SVG using DOMParser for safe manipulation
