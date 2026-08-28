@@ -327,3 +327,53 @@ Suggested uses for other sets:
 This spec intentionally avoids implementation details like SVG path commands.
 Engineering can implement the icon sets as SVG components or font glyphs as
 long as they respect the grid, stroke, radius, color, and naming rules above.
+
+## 8. PWA App Icon
+
+The PWA app icon uses the owner-provided "艺" character as the primary brand
+mark, rendered in the museum-guide tone.
+
+### 8.1 Source and Design
+
+- **Source:** Owner-provided "艺" character image (from Telegram session, cached
+  as `~/.hermes/cache/images/img_cc2d883a571a.jpg`)
+- **Design decision:** The "艺" glyph serves as the app-level brand mark for
+  PWA installation on device home screens.
+- **Colors:**
+  - Background: `{colors.bg}` #F5F1EA (warm paper)
+  - Glyph: `{colors.ink}` #1D1B16 (ink)
+
+### 8.2 Export Sizes and Naming
+
+File naming convention:
+- 192×192 px: `icons/pwa-icon-yi-192.png`
+- 512×512 px: `icons/pwa-icon-yi-512.png`
+
+Both files are square PNGs with opaque background (no transparency).
+
+### 8.3 Manifest Configuration
+
+The `manifest.webmanifest` `icons` array references these two sizes:
+
+```json
+{
+  "icons": [
+    { "src": "icons/pwa-icon-yi-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/pwa-icon-yi-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
+```
+
+### 8.4 Glyph Proportions
+
+At the 1000×1000 unit reference canvas:
+- Canvas: 1000×1000 units
+- "艺" glyph bounding box: 580×580 units (58% of canvas)
+- Glyph position: centered horizontally and vertically
+- Safe area inset: 80 units (8%) on all sides
+- Effective corner radius (for platform masking): 12% of canvas
+  - At 192 px: ~23 px
+  - At 512 px: ~61 px
+
+These proportions ensure the glyph remains clear and recognizable when platforms
+apply rounded-square masking.
