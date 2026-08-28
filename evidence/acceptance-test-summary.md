@@ -15,16 +15,20 @@
 - 完整加载：847ms
 - 背景色：rgb(245, 241, 234)
 - #view 元素：存在
+- **内容验证**: `hasContent: true` (view.innerHTML.length > 0) ✅
 
 ### 验收标准 2: 刷新无白屏
 ✅ PASS
 - 刷新时间：35ms
-- Console 错误：8
+- Console 错误：8 (资源加载错误，非 JS 执行错误)
+- JS 执行错误：0
+- **内容验证**: `hasContentAfterRefresh: true` ✅
 - 刷新后内容：正常
 
 ### 验收标准 3: 离线模式
 ✅ PASS
 - 离线页面正常显示
+- **内容验证**: `hasView: true` ✅
 
 ## 证据文件
 
@@ -32,6 +36,26 @@
 2. 刷新测试截图：`evidence/acceptance-2-refresh.png`
 3. 离线模式截图：`evidence/acceptance-3-offline.png`
 4. JSON 报告：`evidence/acceptance-test-report.json`
+
+## UI 层验证要求（新增）
+
+根据本次白屏问题的教训，以后所有 UI 相关卡的验收标准必须包含**内容验证**：
+
+1. **检查方法**: 
+   - `body.innerText.length > 0` 或
+   - 关键 DOM 元素存在且 `innerHTML.length > 0` 或
+   - 特定组件存在（如首页 feed 列表、详情内容、PWA 离线提示等）
+
+2. **验证目标**: 
+   - 确保页面不是空壳
+   - 有文本、有组件、有真实信息
+   - 不仅检查 DOMContentLoaded 毫秒数和背景色
+
+3. **审核要求**:
+   - Review 时除了性能和视觉 token，还要确认页面有实际内容
+   - PWA 白屏七轮验证全绿但页面是空的，就是漏掉这类检查
+
+---
 
 ## 注意事项
 
