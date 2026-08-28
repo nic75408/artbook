@@ -198,7 +198,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  /* 左对齐基准，元素通过 margin-left 控制对齐 */
+  align-items: center;  /* 居中布局，确保内容不溢出 */
   justify-content: center;
   padding: var(--pad-t) var(--page-gutter) var(--pad-b);
   max-width: var(--content-max);
@@ -213,7 +213,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   max-width: 100%;
   position: relative;
   /* 画框左边距与版心对齐基准一致 */
-  margin-left: calc(var(--align-origin) - var(--page-gutter));
+  margin-left: 0;
 }
 .frame .ph {
   position: relative;
@@ -240,8 +240,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: 24px;
   text-align: left;
   padding: 0;
-  /* 作品文字左边界与画框左边距对齐 */
-  margin-left: calc(var(--align-origin) - var(--page-gutter));
+  /* 作品文字左边界与画框左边距对齐（居中布局下无需额外 margin） */
+  margin-left: 0;
+  width: 100%;
+  max-width: 280px;  /* 与画作最大宽度一致 */
 }
 .slide .artist-zh { font-size: 30px; font-weight: 700; line-height: 1.3; }
 .slide .title-en {
