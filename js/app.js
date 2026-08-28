@@ -7,16 +7,28 @@ import { mount as detail } from "./detail.js";
 import { mount as favs } from "./favorites.js";
 import { preloadIcons } from "./ui.js";
 
-// 预加载关键图标，确保首屏渲染不闪烁
-preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });
+// iOS PWA 关键修复：等待 DOM 就绪后再初始化路由
+// iOS PWA 从主屏幕启动时，模块执行时机可能早于 DOM 构建完成
+function initApp() {
+  // 预加载关键图标，确保首屏渲染不闪烁
+  preloadIcons().catch(() => { /* 图标加载失败不影响主流程 */ });
 
-register(/^\/$/, { mount: feed });
-register(/^\/work\/(?<id>[^/]+)$/, { mount: detail });
-register(/^\/artist\/(?<aid>[^/]+)$/, { mount: (el, p) => mountArtist(el, p.aid) });
-register(/^\/tag\/(?<tag>.+)$/, { mount: (el, p) => mountTag(el, decodeURIComponent(p.tag)) });
-register(/^\/favs$/, { mount: favs });
+  register(/^\/$/, { mount: feed });
+  register(/^\/work\/(?<id>[^/]+)$/, { mount: detail });
+  register(/^\/artist\/(?<aid>[^/]+)$/, { mount: (el, p) => mountArtist(el, p.aid) });
+  register(/^\/tag\/(?<tag>.+)$/, { mount: (el, p) => mountTag(el, decodeURIComponent(p.tag)) });
+  register(/^\/favs$/, { mount: favs });
 
-initRouter();
+  initRouter();
+}
+
+// 立即注册 SW（不阻塞页面），但路由初始化要等 DOM 就绪
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initApp);
+} else {
+  initApp();
+}
+
 registerSW();
 
 // iOS PWA 错误处理：捕获未处理的 Promise rejection
