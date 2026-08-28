@@ -187,6 +187,35 @@ The layout is mobile-first:
 Safe-area env variables are used in paddings to keep controls away from device
 notches and home indicators.
 
+## Artwork Responsive Layout
+
+All artwork images (feed slides and detail page hero) must respect bounded responsive
+rules to prevent overflow on mobile cold load:
+
+### Feed page (`.slide .frame .ph`)
+
+- **Maximum width:** `min(280px, 86vw, calc((100dvh - pad-t - pad-b - 200px) / ratio))`
+  - 280px = content-max (340px) - page-gutter (22px × 2) - frame border/padding
+  - Ensures artwork never exceeds the content column regardless of viewport
+- **Aspect ratio:** Respected via `aspect-ratio: calc(1 / var(--r))` where `--r` is
+  height/width from the artwork data
+- **Height constraint:** Calculated from available viewport height minus:
+  - `--pad-t`: top safe area + header space (56px + safe-t)
+  - `--pad-b`: bottom safe area + caption/button space (120px + safe-b)
+  - 200px: reserved for frame borders, titles, and breathing room
+
+### Detail page (`.detail-hero .ph`)
+
+- **Maximum width:** `min(100%, 340px)` — constrained by content-max
+- **Aspect ratio:** Respected via inline `aspect-ratio: calc(1 / var(--r))`
+- **Object-fit:** `contain` to ensure full artwork visibility without cropping
+
+### Universal rules
+
+- All artwork containers use `max-width: var(--content-max)` and `margin: 0 auto`
+- Left alignment基准 is `--align-origin: var(--page-gutter)` for visual consistency
+- Frame borders (1px) and padding (8px) are included in the width calculation
+
 ## Components
 
 Components map to CSS blocks in `app.css`:
