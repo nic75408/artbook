@@ -297,18 +297,60 @@ ea17724 Merge branch 'artbook/t_fbbbde11-icon-spec.md-artbook-icon-icon'
 
 ## 结论 (Conclusion)
 
-**代码修复状态:** ✅ 全部完成
+**代码修复状态:** ✅ 全部完成并已部署到生产环境
 
-所有代码层面的修复已完成并提交：
-- ✅ 缓存版本升级到 v2 (commit c6519ab)
-- ✅ Service Worker 导航兜底逻辑完善 (commit 6b288ca)
-- ✅ manifest.webmanifest start_url 修复 (commit 6b288ca)
-- ✅ index.html 内联关键 CSS (commit 2035a6b)
-- ✅ PWA 验证工具页面 (commit 8c2c213)
+所有代码层面的修复已完成并提交到 main 分支：
+- ✅ 缓存版本升级到 v2 (commit c6519ab) - **已部署**
+- ✅ Service Worker 导航兜底逻辑完善 (commit 6b288ca) - **已部署**
+- ✅ manifest.webmanifest start_url 修复 (commit 6b288ca) - **已部署**
+- ✅ index.html 内联关键 CSS (commit 2035a6b) - **已部署**
+- ✅ PWA 验证工具页面 (commit 8c2c213) - **已部署**
+
+**生产环境验证:**
+- ✅ https://nic75408.github.io/artbook/sw.js → `CACHE_APP = "artbook-app-v2"`
+- ✅ https://nic75408.github.io/artbook/manifest.webmanifest → `"start_url": "./"`
+- ✅ https://nic75408.github.io/artbook/index.html → 内联关键 CSS 已注入
+
+**部署信息:**
+- Merge commit: `fb8ef1c`
+- GitHub Actions run: `33146229115` (pages build and deployment - success)
+- 部署时间：2026-08-28T05:55:32Z
 
 **运行时证据状态:** 
 - ✅ 桌面端自动化验证完成 (commit 472d3ad 新增证据)
-- ⚠️ 真实 iOS 设备 PWA 启动测试需要用户在 HTTPS 环境下进行
+- ⚠️ 真实 iOS 设备 PWA 启动测试需要用户重新安装 PWA 后验证
+
+---
+
+## 📱 用户验证步骤 (iOS 设备) - 生产环境已修复
+
+**重要：用户需要先删除旧 PWA 再重新安装，因为旧 Service Worker 缓存可能还在。**
+
+**验证步骤:**
+
+1. **删除旧 PWA**
+   - 长按主屏幕上的 artbook 图标
+   - 点击"删除 App"
+   - 确认删除
+
+2. **重新安装 PWA**
+   - 在 Safari 中打开：`https://nic75408.github.io/artbook/`
+   - 点击底部 Safari 分享按钮（方框 + 向上箭头）
+   - 向下滑动，点击"添加到主屏幕"
+   - 确认添加
+
+3. **测试启动性能 (验收标准 1)**
+   - 完全关闭 Safari（从 App Switcher 划掉）
+   - 从**主屏幕点击 artbook PWA 图标**启动
+   - 用另一台设备录制屏幕或秒表计时
+   - 记录从点击图标到看到第一个非白屏画面的时间
+
+**预期结果:** ≤ 3 秒内显示背景色 (#F5F1EA) 和内容，无白屏
+
+4. **测试离线模式 (验收标准 3)**
+   - 开启飞行模式
+   - 从主屏幕启动 PWA
+   - 应显示缓存内容或 offline.html，无白屏
 
 ---
 
