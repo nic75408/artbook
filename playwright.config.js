@@ -27,11 +27,9 @@ module.exports = defineConfig({
   // 自动启动本地服务器
   webServer: {
     command: 'npx http-server -p 8888 .',
-    port: 8888,
+    url: 'http://localhost:8888/index.html',
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
-    // 等待服务器返回 200 后再开始测试
-    ready: /.*server started.*/,
   },
   
   use: {
