@@ -4,12 +4,19 @@ const { defineConfig, devices } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
   timeout: 30000,
+  // 自动启动本地服务器用于测试
+  webServer: {
+    command: 'python3 -m http.server 8888',
+    port: 8888,
+    timeout: 10000,
+    reuseExistingServer: true,
+  },
   expect: {
     timeout: 5000,
   },
   use: {
-    // 基础 URL 设置为当前目录（通过 file:// 协议访问）
-    baseURL: 'file://' + process.cwd() + '/',
+    // 基础 URL 设置为本地服务器
+    baseURL: 'http://localhost:8888/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },

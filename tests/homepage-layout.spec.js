@@ -7,13 +7,13 @@
 
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'http://localhost:8888';
 const IPHONE_14_PRO = { width: 390, height: 844 };
 
 test.describe('首页布局验证 - 视觉一致性证据', () => {
   test.beforeEach(async ({ page }) => {
     await page.setViewportSize(IPHONE_14_PRO);
-    await page.goto(BASE_URL + '/index.html');
+    // baseURL 由 playwright.config.js 提供（http://localhost:8888/）
+    await page.goto('index.html');
     // 等待首屏内容加载（JS 渲染后）
     await page.waitForSelector('.slide', { timeout: 10000 });
   });
