@@ -32,7 +32,7 @@ function render(el, w) {
   <div class="detail">
     <div class="detail-hero">
       <div class="ph" style="aspect-ratio:calc(1/${ratio})">
-        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" decoding="async">
+        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
