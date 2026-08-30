@@ -152,12 +152,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* 顶部右上收藏夹入口：轻量线框图标，弱化对比，语义明确 */
 .feed-header button {
   pointer-events: auto;
-  color: rgba(15, 23, 42, 0.55);
+  /* 调整为暖色调：使用全局色板的 bg-card + ink-2 + gold */
+  color: var(--ink-2);
   padding: 6px 12px;
   border-radius: 999px;
-  border: 1px solid rgba(15, 23, 42, 0.15);
-  background: rgba(248, 250, 252, 0.85);
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--line);
+  background: var(--bg-card);
+  box-shadow: 0 2px 8px rgba(29, 27, 22, 0.08);
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -266,8 +267,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .learn-btn {
   position: absolute;
   right: calc(18px + var(--safe-r));
-  bottom: calc(14px + var(--safe-b));
-  /* 尺寸收紧：直径从 96px 减小到 84px（约 12.5%） */
+  /* 底部位置上提：避免与日期胶囊重叠（date-capsule bottom: 14px+safe-b）
+     learn-btn 高 84px，需保证 bottom + 84px 不与 date-capsule (高约 36px) 重叠
+     设为 60px+safe-b，则顶部延伸到 144px，date-capsule 顶部约 50px，两者不重叠 */
+  bottom: calc(60px + var(--safe-b));
   width: 84px;
   height: 84px;
   z-index: 5;
@@ -567,15 +570,17 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   gap: 12px;
 }
 .action-row .fav-tool {
-  /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
+  /* 遵循 DESIGN.md fav-tool-button 规范：bg-card 背景，低对比描边 */
+  background: var(--bg-card);
   border-color: rgba(140, 109, 63, 0.5);
-  color: rgba(29, 27, 22, 0.7);
+  color: var(--ink);
   font-size: 15px;
   padding: 10px 24px;
 }
 .action-row .fav-tool.on {
-  background: rgba(140, 109, 63, 0.12);
-  color: var(--gold);
+  /* 激活状态：金色背景，bg-card 文字 */
+  background: var(--gold);
+  color: var(--bg-card);
   border-color: var(--gold);
 }
 .action-row .fav-tool svg { width: 16px; height: 16px; }
@@ -595,8 +600,9 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* 下载按钮样式与收藏按钮一致 */
 .action-row .download-btn {
+  background: var(--bg-card);
   border-color: rgba(140, 109, 63, 0.5);
-  color: rgba(29, 27, 22, 0.7);
+  color: var(--ink);
   font-size: 15px;
   padding: 10px 24px;
 }
