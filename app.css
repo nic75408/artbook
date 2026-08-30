@@ -464,6 +464,17 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .detail-hero img.loaded { opacity: 1; }
 
+/* 出血布局：针对特定作品（如《阿谢尔森林的彩虹》） */
+.detail-hero-bleed {
+  max-width: none;
+  margin: 0;
+  padding: 0 calc(8px + var(--safe-l)) 0 calc(8px + var(--safe-r));
+}
+.detail-hero-bleed .ph {
+  max-width: none;
+  width: 100%;
+}
+
 /* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
 .detail-close {
   position: fixed;
