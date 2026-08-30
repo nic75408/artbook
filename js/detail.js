@@ -24,20 +24,23 @@ export async function mount(el, { id }) {
 
 function render(el, w) {
   const ratio = w.image.ratio || 1;
+  
+  // 判断是否为目标作品（出血布局）
+  const isBleedLayout = w.id === "cma-104168"; // 《阿谢尔森林的彩虹》
 
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
 
   el.innerHTML = `
-  <div class="detail">
-    <div class="detail-hero">
+  <div class="detail${isBleedLayout ? ' detail-bleed' : ''}">
+    <div class="detail-hero${isBleedLayout ? ' detail-hero-bleed' : ''}">
       <div class="ph" style="aspect-ratio:calc(1/${ratio})">
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
 
-    <!-- 作品信息块：紧邻主图，标签+图像组合 -->
+    <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
       <!-- H1: 作品名 -->
       <h1 class="work-title">
@@ -320,7 +323,7 @@ function render(el, w) {
   });
 }
 
-// 相关作品可能横跨多期：把缺失的期文件预取进 SW 缓存（去重+限量在 SW 内做），
+// 相关作品可能横跨多期：把缺失的期文件预取进 SW 缓存（去重 + 限量在 SW 内做），
 // 用户点开第二幅作品时数据已在缓存，秒开且离线可用。失败静默（无 SW/离线）。
 function prefetchRelatedIssues(list) {
   const dates = [...new Set((list || []).map((r) => r.issue).filter(Boolean))];
