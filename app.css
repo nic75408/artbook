@@ -227,7 +227,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 
-/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，使用 --space-sm） */
+/* 画框感：直角 + 1px 描边 + 统一内边距（视觉 fine-tune，使用 --space-sm） */
 .frame {
   background: var(--bg-card);
   border: 1px solid var(--line);
@@ -236,7 +236,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   position: relative;
   /* 画框左边距与版心对齐基准一致 */
   margin-left: var(--align-origin);
-  border-radius: var(--rounded-card, 8px);
+  border-radius: 0;
 }
 .frame .ph {
   position: relative;
