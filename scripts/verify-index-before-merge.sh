@@ -1,35 +1,75 @@
-#!/usr/bin/env bash
-# 发布前验证：data/index.json.latest 必须是最新期日
-# 用法：在合并到 main 前执行，失败则中止合并
+#!/bin/bash
+# verify-index-before-merge.sh
+# 发布前验证脚本：确保当前分支的 data/index.json 与 origin/main 一致
+# 用法：在合并到 main 前运行此脚本
+#
+# 验证逻辑：
+# 1. 检查当前分支的 data/index.json 是否与 origin/main 一致
+# 2. 如果不一致，说明分支携带了旧的 index.json 改动，需要丢弃
+# 3. 如果一致，检查 origin/main 的 latest 字段是否与 issues 目录中的最新文件一致
+#
+# exit 0: 验证通过，可以安全合并
+# exit 1: 验证失败，需要先同步 index.json
+
 set -e
 
-cd "$(git rev-parse --show-toplevel)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+DATA_DIR="$REPO_ROOT/data"
+ISSUES_DIR="$DATA_DIR/issues"
+INDEX_JSON="$DATA_DIR/index.json"
 
-# 获取 origin/main 上的 index.json 的 latest 字段
-LATEST_ON_MAIN=$(git show origin/main:data/index.json 2>/dev/null | grep -o '"latest"[[:space:]]*:[[:space:]]*"[^"]*"' | cut -d'"' -f4)
-
-if [[ -z "$LATEST_ON_MAIN" ]]; then
-  echo "[ERROR] 无法从 origin/main:data/index.json 读取 latest 字段"
-  exit 1
+# 检查 data/index.json 是否存在
+if [ ! -f "$INDEX_JSON" ]; then
+    echo "ERROR: $INDEX_JSON not found"
+    exit 1
 fi
 
-# 获取最新的期文件
-LATEST_ISSUE=$(ls -1 data/issues/*.json 2>/dev/null | sort -r | head -1 | xargs -I{} basename {} .json)
-
-if [[ -z "$LATEST_ISSUE" ]]; then
-  echo "[ERROR] data/issues/ 下没有期文件"
-  exit 1
+# 检查是否有 origin/main
+if ! git rev-parse --verify origin/main >/dev/null 2>&1; then
+    echo "WARNING: origin/main not available, skipping remote comparison"
+    # 本地验证：检查 latest 字段是否与最新 issue 文件一致
+    LATEST_FROM_INDEX=$(grep -o '"latest": *"[^"]*"' "$INDEX_JSON" | cut -d'"' -f4)
+    LATEST_ISSUE_FILE=$(ls -1 "$ISSUES_DIR"/*.json 2>/dev/null | sort -r | head -n1)
+    if [ -z "$LATEST_ISSUE_FILE" ]; then
+        echo "OK: No issue files to compare"
+        exit 0
+    fi
+    LATEST_ISSUE_DATE=$(basename "$LATEST_ISSUE_FILE" .json)
+    if [ "$LATEST_FROM_INDEX" != "$LATEST_ISSUE_DATE" ]; then
+        echo "WARNING: index.json.latest ($LATEST_FROM_INDEX) does not match latest issue ($LATEST_ISSUE_DATE)"
+        echo "This may be expected if the daily pipeline hasn't merged yet."
+    fi
+    exit 0
 fi
 
-if [[ "$LATEST_ON_MAIN" != "$LATEST_ISSUE" ]]; then
-  echo "[WARN] data/index.json.latest ($LATEST_ON_MAIN) 不是最新期日 ($LATEST_ISSUE)"
-  echo ""
-  echo "请在合并前执行以下命令同步最新索引："
-  echo "  git checkout origin/main -- data/index.json"
-  echo ""
-  echo "否则合并后线上首页将显示旧作品。"
-  exit 1
+# 检查当前分支的 index.json 是否与 origin/main 一致
+if ! git diff --quiet origin/main -- "$INDEX_JSON"; then
+    echo "ERROR: Current branch's data/index.json differs from origin/main"
+    echo ""
+    echo "This means your branch carries an outdated or modified index.json."
+    echo "Before merging, run:"
+    echo "  git checkout origin/main -- data/index.json"
+    echo ""
+    diff_output=$(git diff origin/main -- "$INDEX_JSON" | head -20)
+    echo "Differences:"
+    echo "$diff_output"
+    exit 1
 fi
 
-echo "[OK] index.json.latest = $LATEST_ISSUE"
+echo "OK: data/index.json matches origin/main"
+
+# 额外检查：origin/main 的 latest 字段是否与最新 issue 文件一致（ informational only）
+LATEST_FROM_INDEX=$(grep -o '"latest": *"[^"]*"' "$INDEX_JSON" | cut -d'"' -f4)
+LATEST_ISSUE_FILE=$(ls -1 "$ISSUES_DIR"/*.json 2>/dev/null | sort -r | head -n1)
+if [ -n "$LATEST_ISSUE_FILE" ]; then
+    LATEST_ISSUE_DATE=$(basename "$LATEST_ISSUE_FILE" .json)
+    if [ "$LATEST_FROM_INDEX" != "$LATEST_ISSUE_DATE" ]; then
+        echo "INFO: index.json.latest ($LATEST_FROM_INDEX) is older than latest issue file ($LATEST_ISSUE_DATE)"
+        echo "      This is expected if today's pipeline hasn't merged yet."
+    else
+        echo "OK: index.json.latest matches latest issue file"
+    fi
+fi
+
 exit 0

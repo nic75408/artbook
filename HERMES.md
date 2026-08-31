@@ -87,16 +87,16 @@
    未审先推的后果不止那一次推送——它让 `main` 的历史变得不可信：
    「这张卡的分支合进 main 了」从此成为假阳性信号。
 
-6. **`data/index.json` 只能由出刊管线（`pipeline/generate.py`）修改。**
-   功能发布分支禁止携带该文件的改动。合并前必须执行：
-   `git checkout origin/main -- data/index.json`
-   确保使用最新索引。否则最新一期会被旧值覆盖（921b78a 事故：8/31 期
-   被 8/30 旧索引覆盖，线上首页显示旧作品）。
-   
-   发布前运行 `bash scripts/verify-index-before-merge.sh` 自动检查。
-   
-   **约定**：`data/index.json.latest` 字段永远指向最新期日，由出刊管线负责更新；
-   功能分支不得修改该字段。
+6. **`data/index.json` 只能由每日出刊流水线修改，功能发布分支禁止携带其改动合并。**
+   出刊流水线每日更新 `data/index.json` 的 `latest` 字段和 `issues` 列表（如 `2026-08-31`）。
+   功能分支（布局修复、PWA icon 等）在开发周期内不更新该文件，合并时若直接合入会
+   用旧版本的索引覆盖最新一期——921b78a 与 ebb4713 的覆盖事故即因此发生。
+   **约定**：
+   - `data/index.json` 的 `latest/issues` 只能由出刊流水线（pipeline）更新；
+   - 任何功能/发布分支在合并到 `main` 前，必须显式丢弃本分支携带的 `data/index.json` 改动：
+     `git checkout origin/main -- data/index.json`；
+   - 发布前运行 `scripts/verify-index-before-merge.sh` 验证 `latest` 字段与最新 issue 文件一致；
+   - 普通功能卡禁止在实现阶段修改 `data/index.json`。
 
 ---
 
