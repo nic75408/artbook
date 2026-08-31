@@ -23,7 +23,6 @@ export async function mount(el, { id }) {
 }
 
 function render(el, w) {
-  const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
   const ratio = w.image.ratio || 1;
 
   // 构建在馆信息
@@ -31,9 +30,9 @@ function render(el, w) {
 
   el.innerHTML = `
   <div class="detail">
-    <div class="detail-hero" style="${ph}">
-      <div class="ph" style="${ph};aspect-ratio:calc(1/${ratio})">
-        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" decoding="async">
+    <div class="detail-hero">
+      <div class="ph" style="aspect-ratio:calc(1/${ratio})">
+        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>

@@ -197,7 +197,7 @@ console.log("== install 预缓存 ==");
   const sandbox = loadSW(fetchFn);
   await fireInstall(sandbox);
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open("artbook-app-v2");
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
 
@@ -208,9 +208,9 @@ console.log("== install 预缓存 ==");
   assert(has("/app.css"), "shell: app.css 已缓存");
   assert(has("/js/app.js"), "shell: js/app.js 已缓存");
   assert(has("/js/detail.js"), "shell: js/detail.js 已缓存");
-  assert(has("/data/index.json"), "核心数据: index.json 已缓存");
-  assert(has("/data/catalog.json"), "核心数据: catalog.json 已缓存");
-  assert(has("/data/artists.json"), "核心数据: artists.json 已缓存");
+  assert(has("/data/index.json"), "核心数据：index.json 已缓存");
+  assert(has("/data/catalog.json"), "核心数据：catalog.json 已缓存");
+  assert(has("/data/artists.json"), "核心数据：artists.json 已缓存");
   assert(
     has(`/data/issues/${idx.latest}.json`),
     `最新一期 data/issues/${idx.latest}.json 已缓存`
@@ -232,26 +232,36 @@ console.log("== PREFETCH_ISSUES ==");
   await fireInstall(sandbox);
   fetchFn.calls.length = 0;
 
+  // 读真实 index.json 获取最新日期，构造测试数据
+  const idx = JSON.parse(readFileSync(new URL("data/index.json", ROOT), "utf8"));
+  const latest = idx.latest; // e.g. "2026-08-28"
+  const [y, m, d] = latest.split("-").map(Number);
+  const prev1 = `${String(y).padStart(4, "0")}-${String(m).padStart(2, "0")}-${String(d - 1).padStart(2, "0")}`;
+  const prev2 = `${String(y).padStart(4, "0")}-${String(m).padStart(2, "0")}-${String(d - 2).padStart(2, "0")}`;
+  const prev3 = `${String(y).padStart(4, "0")}-${String(m).padStart(2, "0")}-${String(d - 3).padStart(2, "0")}`;
+  const prev4 = `${String(y).padStart(4, "0")}-${String(m).padStart(2, "0")}-${String(d - 4).padStart(2, "0")}`;
+  const prev5 = `${String(y).padStart(4, "0")}-${String(m).padStart(2, "0")}-${String(d - 5).padStart(2, "0")}`;
+
   const { done } = fireMessage(sandbox, {
     type: "PREFETCH_ISSUES",
-    dates: ["2026-08-25", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-23", "2026-08-22", "2026-08-21"],
+    dates: [prev1, prev2, prev1, latest, prev3, prev4, prev5], // 含重复 + 已缓存的 latest
   });
   await done;
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open("artbook-app-v2");
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
-  assert(has("/data/issues/2026-08-25.json"), "预取: 2026-08-25 已缓存");
-  assert(has("/data/issues/2026-08-24.json"), "预取: 2026-08-24 已缓存");
-  assert(has("/data/issues/2026-08-23.json"), "预取: 2026-08-23 已缓存");
-  assert(!has("/data/issues/2026-08-22.json"), "限量: 2026-08-22 未预取（超 PREFETCH_MAX=4）");
-  assert(!has("/data/issues/2026-08-21.json"), "限量: 2026-08-21 未预取（超 PREFETCH_MAX=4）");
+  assert(has(`/data/issues/${prev1}.json`), `预取：${prev1} 已缓存`);
+  assert(has(`/data/issues/${prev2}.json`), `预取：${prev2} 已缓存`);
+  assert(has(`/data/issues/${prev3}.json`), `预取：${prev3} 已缓存`);
+  assert(!has(`/data/issues/${prev4}.json`), `限量：${prev4} 未预取（超 PREFETCH_MAX=4）`);
+  assert(!has(`/data/issues/${prev5}.json`), `限量：${prev5} 未预取（超 PREFETCH_MAX=4）`);
 
-  // 2026-08-26 已在 install 时缓存 → 跳过，不再 fetch
+  // latest 已在 install 时缓存 → 跳过，不再 fetch
   const issueFetches = fetchFn.calls.filter((u) => u.includes("/data/issues/"));
   assert(
-    !issueFetches.includes(ORIGIN + "/data/issues/2026-08-26.json"),
-    "已缓存期文件跳过重取（2026-08-26 无网络请求）"
+    !issueFetches.includes(ORIGIN + `/data/issues/${latest}.json`),
+    `已缓存期文件跳过重取（${latest} 无网络请求）`
   );
   assert(issueFetches.length === 3, `实际只拉 3 个缺失期文件（拉取 ${issueFetches.length} 个）`);
 }
@@ -268,14 +278,18 @@ console.log("== 离线数据请求 ==");
   fetchFn.setNetworkDown(true); // 断网
 
   const res = await fetchResponse(sandbox, ORIGIN + "/data/catalog.json");
-  assert(res.status === 200, "离线: catalog.json 从缓存 200 返回");
+  assert(res.status === 200, "离线：catalog.json 从缓存 200 返回");
   const body = await res.clone().json();
-  assert(Array.isArray(body.works) && body.works.length > 0, "离线: catalog 内容完整可解析");
+  assert(Array.isArray(body.works) && body.works.length > 0, "离线：catalog 内容完整可解析");
 
-  const res2 = await fetchResponse(sandbox, ORIGIN + "/data/issues/2026-08-26.json");
-  assert(res2.status === 200, "离线: 最新一期从缓存 200 返回");
+  // 读真实 index.json 获取最新日期
+  const idx = JSON.parse(readFileSync(new URL("data/index.json", ROOT), "utf8"));
+  const latest = idx.latest;
+
+  const res2 = await fetchResponse(sandbox, ORIGIN + `/data/issues/${latest}.json`);
+  assert(res2 && res2.status === 200, `离线：最新一期（${latest}）从缓存 200 返回`);
   const issue = await res2.clone().json();
-  assert(Array.isArray(issue.works) && issue.works.length > 0, "离线: 期文件内容完整可解析（详情页可渲染）");
+  assert(Array.isArray(issue.works) && issue.works.length > 0, "离线：期文件内容完整可解析（详情页可渲染）");
 }
 
 // ============================================================
@@ -319,10 +333,10 @@ console.log("== VERSION_CHANGED 回归 ==");
   });
   await done;
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open("artbook-app-v2");
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
-  assert(has("/data/catalog.json"), "刷新: catalog.json 仍在缓存");
+  assert(has("/data/catalog.json"), "刷新：catalog.json 仍在缓存");
   assert(replies.some((m) => m.type === "VERSION_REFRESHED"), "回执: VERSION_REFRESHED 已发给页面");
 }
 
