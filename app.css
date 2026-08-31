@@ -227,7 +227,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 
-/* 画框感：直角 + 1px 描边 + 8px 白色内衬 */
+/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，不纳入 token） */
 .frame {
   background: var(--bg-card);
   border: 1px solid var(--line);
@@ -362,7 +362,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* H1: 作品名层级 — 醒目、与品牌标题协调 */
 .artwork-info-card .work-title {
-  margin: 0 0 18px 0;
+  margin: 0 0 var(--space-lg) 0;
   padding: 0;
   font-family: var(--serif-zh);
   font-weight: 700;
@@ -447,13 +447,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   font-size: var(--text-section);
   font-weight: 700;
   color: var(--ink);
-  margin: var(--section-v) 0 12px 0;
+  margin: var(--section-v) 0 var(--space-md) 0;
   padding: 0;
   line-height: 1.4;
 }
 
 .related .section-title {
-  margin: 0 0 14px 0;
+  margin: 0 0 var(--grid-gap) 0;
 }
 
 /* ============================================================ 赏析小节：整体印象 vs 局部细节 */
@@ -981,13 +981,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 @media (max-width: 375px) {
   .region-label {
     font-size: 12px;
-    padding: 5px 10px;
-    margin: 10px 0 6px;
+    padding: var(--space-xs) var(--space-md);
+    margin: var(--space-md) 0 var(--space-xs);
   }
 
   .paragraph-label {
     font-size: 12px;
-    margin: 16px 0 6px;
+    margin: var(--space-xl) 0 var(--space-xs);
   }
 
   .detail-crop-container .crop-label {
@@ -1006,18 +1006,18 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 @media (max-width: 360px) {
   .region-label {
     font-size: 12px;
-    padding: 4px 8px;
-    margin: 8px 0 6px;
+    padding: var(--space-xs) var(--space-sm);
+    margin: var(--space-sm) 0 var(--space-xs);
   }
 
   .paragraph-label {
     font-size: 11px;
-    margin: 14px 0 4px;
+    margin: 14px 0 var(--space-xs);
   }
 
   .detail-crop-container .crop-label {
     font-size: 11px;
-    margin-bottom: 8px;
+    margin-bottom: var(--space-sm);
   }
 
   .detail-crop {
@@ -1028,7 +1028,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   }
 
   .detail-crop-container {
-    margin: 20px auto;
+    margin: var(--space-xl) auto;
   }
   
   .sheet .issue-row {
