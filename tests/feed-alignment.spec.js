@@ -8,7 +8,7 @@
 import { test, expect } from '@playwright/test';
 
 const IPHONE_14_PRO = { width: 390, height: 844 };
-const BASE_URL = 'http://localhost:8888';
+const BASE_URL = 'http://localhost:8080';
 
 test.describe('首页作品卡版心对齐', () => {
   test.beforeEach(async ({ page }) => {

@@ -8,6 +8,8 @@
   },
   "scripts": {
     "start-test": "http-server -p 8080 .",
-    "test:pwa": "node evidence/pwa-acceptance-test.js"
+    "test:pwa": "node evidence/pwa-acceptance-test.js",
+    "test:feed": "npx playwright test tests/feed-alignment.spec.js --project=chromium",
+    "test:aspect": "npx playwright test tests/artwork-aspect-ratio.spec.js --project=chromium"
   }
 }

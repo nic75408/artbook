@@ -9,7 +9,7 @@
 import { test, expect } from '@playwright/test';
 
 const IPHONE_14_PRO = { width: 390, height: 844 };
-const BASE_URL = 'http://localhost:8888';
+const BASE_URL = 'http://localhost:8080';
 
 test.describe('画作长宽比适配体系', () => {
   test.beforeEach(async ({ page }) => {
