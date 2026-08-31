@@ -11613,7 +11613,7 @@
     },
     {
       "id": "cma-157243",
-      "issue": "2026-08-30",
+      "issue": "2026-08-31",
       "t": "约翰·斯科维尔",
       "a": "埃兹拉·艾姆斯",
       "aid": "ezra-ames-american-born-the-thirteen-colonies-1768-1836",
@@ -11779,7 +11779,7 @@
     },
     {
       "id": "cma-86096",
-      "issue": "2026-08-30",
+      "issue": "2026-08-31",
       "t": "布袋图",
       "a": "德忠",
       "aid": "tokuchu-japanese-late-1400s",
@@ -11795,6 +11795,511 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2015.497/2015.497_web.jpg",
       "ratio": 1.483
+    },
+    {
+      "id": "cma-163546",
+      "issue": "2026-08-31",
+      "t": "雷神图屏风",
+      "a": "俵屋宗达",
+      "aid": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "y": 1600,
+      "mv": "琳派",
+      "tags": [
+        "神怪",
+        "17世纪",
+        "日本",
+        "动态构图",
+        "金地屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2004.86/2004.86_web.jpg",
+      "ratio": 0.463
+    },
+    {
+      "id": "cma-97145",
+      "issue": "2026-08-31",
+      "t": "圣安德烈殉道",
+      "a": "圭多·雷尼",
+      "aid": "guido-reni-italian-1575-1642",
+      "y": 1600,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "光影戏剧",
+        "殉道"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.784/1916.784_web.jpg",
+      "ratio": 1.199
+    },
+    {
+      "id": "cma-156615",
+      "issue": "2026-08-31",
+      "t": "田间劳作的女性",
+      "a": "温斯洛·霍默",
+      "aid": "winslow-homer-american-1836-1910",
+      "y": 1867,
+      "mv": "现实主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "美国",
+        "现实主义",
+        "户外光影",
+        "劳动"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.315/1992.315_web.jpg",
+      "ratio": 0.529
+    },
+    {
+      "id": "cma-169764",
+      "issue": "2026-08-31",
+      "t": "尼古拉·路易·法雷特",
+      "a": "马丁·德雷林",
+      "aid": "martin-drolling-french-1752-1817",
+      "y": 1812,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "新古典主义",
+        "细腻肤质"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.71.1/2011.71.1_web.jpg",
+      "ratio": 1.365
+    },
+    {
+      "id": "cma-152436",
+      "issue": "2026-08-31",
+      "t": "花魁",
+      "a": "怀月堂安度",
+      "aid": "kaigetsudo-ando-japanese-c-1671-1743",
+      "y": 1700,
+      "mv": "浮世绘",
+      "tags": [
+        "仕女",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "装饰色彩",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.264/1985.264_web.jpg",
+      "ratio": 2.703
+    },
+    {
+      "id": "cma-150068",
+      "issue": "2026-08-31",
+      "t": "狮子",
+      "a": "朱塞佩·巴尔德里吉",
+      "aid": "giuseppe-baldrighi-italian-1723-1803",
+      "y": 1750,
+      "mv": "洛可可",
+      "tags": [
+        "动物",
+        "18世纪",
+        "意大利",
+        "洛可可",
+        "毛发质感",
+        "猛兽"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.274/1980.274_web.jpg",
+      "ratio": 1.247
+    },
+    {
+      "id": "cma-79572",
+      "issue": "2026-08-31",
+      "t": "岩石与波浪",
+      "a": "狩野元信",
+      "aid": "kano-motonobu-japanese-c-1476-1559",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "海景",
+        "16世纪",
+        "日本",
+        "水墨",
+        "金泥"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.462/2015.462_web.jpg",
+      "ratio": 1.887
+    },
+    {
+      "id": "cma-133296",
+      "issue": "2026-08-31",
+      "t": "埃索普斯河的灰色日子",
+      "a": "贾斯珀·F·克罗普西",
+      "aid": "jasper-f-cropsey-american-1823-1900",
+      "y": 1882,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "氛围营造",
+        "秋季"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.669/1955.669_web.jpg",
+      "ratio": 0.63
+    },
+    {
+      "id": "cma-149605",
+      "issue": "2026-08-31",
+      "t": "摹古画册：高士图",
+      "a": "陈洪",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "山水",
+        "17世纪",
+        "中国",
+        "明代",
+        "高士"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.1/1979.27.1.1_web.jpg",
+      "ratio": 1.151
+    },
+    {
+      "id": "cma-154263",
+      "issue": "2026-08-31",
+      "t": "乞丐",
+      "a": "平福穗庵",
+      "aid": "hirafuku-suian-japanese-1844-1890",
+      "y": 1871,
+      "mv": "写实主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "日本",
+        "写实主义",
+        "社会题材",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.73/1988.73_web.jpg",
+      "ratio": 1.954
+    },
+    {
+      "id": "cma-156809",
+      "issue": "2026-08-31",
+      "t": "四季山水图屏风",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1668,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "日本",
+        "四季叙事",
+        "屏风画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.394.1/1992.394.1_web.jpg",
+      "ratio": 0.473
+    },
+    {
+      "id": "cma-170735",
+      "issue": "2026-08-31",
+      "t": "女士肖像",
+      "a": "约翰·海因里希·诺伊曼",
+      "aid": "johann-heinrich-neumann-german-1801-1879",
+      "y": 1874,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "德国",
+        "浪漫主义",
+        "眼神刻画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.256/2013.256_web.jpg",
+      "ratio": 1.241
+    },
+    {
+      "id": "cma-160728",
+      "issue": "2026-08-31",
+      "t": "道场山图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "明代",
+        "青绿山水",
+        "佛教建筑",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.13/1998.78.13_web.jpg",
+      "ratio": 0.923
+    },
+    {
+      "id": "cma-156856",
+      "issue": "2026-08-31",
+      "t": "幽灵与油灯",
+      "a": "谷文一",
+      "aid": "tani-bun-ichi-japanese-1787-1818",
+      "y": 1810,
+      "mv": "浮世绘",
+      "tags": [
+        "神怪",
+        "19世纪",
+        "日本",
+        "怪谈",
+        "夜间光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.71/1992.71_web.jpg",
+      "ratio": 2.163
+    },
+    {
+      "id": "cma-143241",
+      "issue": "2026-08-31",
+      "t": "花卉册：秋葵",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代院体",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "没骨法",
+        "色彩晕染",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.c/1967.193.c_web.jpg",
+      "ratio": 0.723
+    },
+    {
+      "id": "cma-109030",
+      "issue": "2026-08-31",
+      "t": "赫尔墨斯与婴儿狄奥尼索斯",
+      "a": "亚瑟·B·戴维斯",
+      "aid": "arthur-b-davies-american-1862-1928",
+      "y": 1907,
+      "mv": "象征主义",
+      "tags": [
+        "神话",
+        "20世纪",
+        "美国",
+        "象征主义",
+        "梦幻色调",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.198/1927.198_web.jpg",
+      "ratio": 0.432
+    },
+    {
+      "id": "cma-151024",
+      "issue": "2026-08-31",
+      "t": "古木诗意图册",
+      "a": "华嵒",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "扬州画派",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "诗画合一",
+        "册页小品",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68/1982.68_web.jpg",
+      "ratio": 0.85
+    },
+    {
+      "id": "cma-150084",
+      "issue": "2026-08-31",
+      "t": "高架铁路建设：万塞讷大道上的桥梁",
+      "a": "保罗·德西雷·特鲁耶贝尔",
+      "aid": "paul-desire-trouillebert-french-1829-1900",
+      "y": 1888,
+      "mv": "印象派前奏",
+      "tags": [
+        "城市",
+        "19世纪",
+        "法国",
+        "工业题材",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.289/1980.289_web.jpg",
+      "ratio": 0.684
+    },
+    {
+      "id": "cma-160957",
+      "issue": "2026-08-31",
+      "t": "竹林孤鹤图",
+      "a": "陶宏",
+      "aid": "tao-hong-chinese-active-c-1610-1640",
+      "y": 1600,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "中国",
+        "孤傲意境",
+        "构图极简",
+        "明代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.224/1999.224_web.jpg",
+      "ratio": 0.929
+    },
+    {
+      "id": "cma-152425",
+      "issue": "2026-08-31",
+      "t": "花魁",
+      "a": "池田铁山",
+      "aid": "ikeda-eisen-japanese-1790-1848",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "仕女",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "服饰纹理",
+        "樱花"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.253/1985.253_web.jpg",
+      "ratio": 2.769
+    },
+    {
+      "id": "cma-164624",
+      "issue": "2026-08-31",
+      "t": "苏轼与潘郎",
+      "a": "云谷等颜",
+      "aid": "unkoku-togan-japanese-1547-1618",
+      "y": 1600,
+      "mv": "汉画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "汉画",
+        "叙事性",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2006.135/2006.135_web.jpg",
+      "ratio": 0.87
+    },
+    {
+      "id": "cma-154909",
+      "issue": "2026-08-31",
+      "t": "深山幽谷狼图",
+      "a": "吉村芳岭",
+      "aid": "yoshimura-horyu-japanese-1874-1950",
+      "y": 1912,
+      "mv": "近代日本画",
+      "tags": [
+        "动物",
+        "20世纪",
+        "日本",
+        "近代日本画",
+        "动态捕捉",
+        "狼"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.474/1989.474_web.jpg",
+      "ratio": 2.769
+    },
+    {
+      "id": "cma-95337",
+      "issue": "2026-08-31",
+      "t": "园林高士图",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1888,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "中国",
+        "晚清",
+        "群像构图",
+        "山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1103/1916.1103_web.jpg",
+      "ratio": 1.957
+    },
+    {
+      "id": "cma-173683",
+      "issue": "2026-08-31",
+      "t": "欣曼·B·赫尔伯特",
+      "a": "约翰·哈里森·维特",
+      "aid": "john-harrison-witt-american-1840-1901",
+      "y": 1870,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "维多利亚式",
+        "庄重感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.696/1915.696_web.jpg",
+      "ratio": 1.265
+    },
+    {
+      "id": "cma-129860",
+      "issue": "2026-08-31",
+      "t": "宋范宽画山水",
+      "a": "范宽",
+      "aid": "fan-kuan-chinese-active-c-990-c-1030",
+      "y": 1506,
+      "mv": "北宋山水画",
+      "tags": [
+        "山水",
+        "14-17世纪",
+        "中国",
+        "扇面",
+        "深远法",
+        "摹本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.284/1952.284_web.jpg",
+      "ratio": 0.997
+    },
+    {
+      "id": "cma-152411",
+      "issue": "2026-08-31",
+      "t": "花魁",
+      "a": "松野周延",
+      "aid": "matsuno-chikanobu-japanese-active-1716-35",
+      "y": 1716,
+      "mv": "浮世绘",
+      "tags": [
+        "仕女",
+        "18世纪",
+        "日本",
+        "早期浮世绘",
+        "姿态优雅",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.249/1985.249_web.jpg",
+      "ratio": 2.284
+    },
+    {
+      "id": "cma-150734",
+      "issue": "2026-08-31",
+      "t": "无光酒宴",
+      "a": "富冈铁斋",
+      "aid": "tomioka-tessai-japanese-1836-1924",
+      "y": 1850,
+      "mv": "南画",
+      "tags": [
+        "风俗",
+        "19-20世纪",
+        "日本",
+        "南画",
+        "墨趣",
+        "骷髅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.156/1982.156_web.jpg",
+      "ratio": 0.699
     }
   ]
 }
