@@ -81,10 +81,24 @@ async function measureLayout() {
 
   // 测量详情页
   console.log('\n=== 详情页布局验证 ===\n');
-  await page.click('.frame');
-  // 等待 hash 路由变化和详情页渲染
+  
+  // 直接使用 catalog 中存在的作品 ID（避免 issue 文件与 catalog 不一致）
+  const testWorkId = 'met-435809'; // 收割者 - 勃鲁盖尔
+  await page.goto(`${BASE_URL}/index.html#/work/${testWorkId}`);
   await page.waitForFunction(() => location.hash.startsWith('#/work/'), { timeout: 5000 });
-  await page.waitForSelector('#view .detail-hero', { timeout: 5000 });
+  console.log(`hash 已变为：${await page.evaluate(() => location.hash)}`);
+  
+  // 等待足够长时间让异步 mount 完成（包括可能的缓存读取）
+  await page.waitForTimeout(2000);
+  
+  // 检查 #view 内是否有内容
+  const viewContent = await page.evaluate(() => document.querySelector('#view').innerHTML);
+  console.log(`#view 内容长度：${viewContent.length} chars`);
+  console.log(`#view 前 200 字符：${viewContent.substring(0, 200)}`);
+  
+  // 等待 .detail-hero 渲染完成（数据加载后）
+  await page.waitForSelector('#view .detail-hero img', { timeout: 10000 });
+  console.log('.detail-hero img 已渲染');
 
   // 详情页 content-max
   const detailContentMax = await page.evaluate(() => {
