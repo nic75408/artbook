@@ -150,6 +150,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   line-height: 1.5;
 }
 /* 顶部右上收藏夹入口：轻量线框图标，弱化对比，语义明确 */
+/* DESIGN.md token: feed-header-button (行 85-88) */
 .feed-header button {
   pointer-events: auto;
   color: rgba(15, 23, 42, 0.55);
@@ -162,9 +163,16 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   display: flex;
   align-items: center;
   gap: 4px;
+  transition: all 0.2s ease;
 }
 .feed-header button svg { width: 16px; height: 16px; stroke-width: 1.5; }
-.feed-header button:hover { color: var(--ink-2); }
+.feed-header button:hover { 
+  color: var(--ink-2);
+  background: rgba(248, 250, 252, 0.95);
+}
+.feed-header button:active {
+  transform: scale(0.98);
+}
 
 /* 统一内容容器约束：使用 CSS 变量控制页边距与最大宽度 */
 .content-container {
@@ -263,6 +271,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 /* 右下圆形「了解更多」按钮 + 环形文字 */
+/* DESIGN.md token: learn-button (行 95-97) */
 .learn-btn {
   position: absolute;
   right: calc(18px + var(--safe-r));
@@ -271,6 +280,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   width: 84px;
   height: 84px;
   z-index: 5;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.learn-btn:hover {
+  transform: scale(1.05);
+}
+.learn-btn:active {
+  transform: scale(0.98);
 }
 .learn-btn svg { width: 84px; height: 84px; overflow: visible; }
 .learn-btn .ring-path circle { fill: none; stroke: var(--gold); stroke-width: 1.5; }
@@ -281,6 +298,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* 底部日期胶囊 */
+/* DESIGN.md token: date-capsule (行 91-94) */
 .date-capsule {
   position: fixed;
   left: 50%;
@@ -296,6 +314,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   display: flex;
   align-items: center;
   gap: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.date-capsule:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.date-capsule:active {
+  transform: translateX(-50%) scale(0.98);
 }
 
 /* 结束页 */
@@ -465,6 +492,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .detail-hero img.loaded { opacity: 1; }
 
 /* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
+/* DESIGN.md token: detail-close (行 98-101) */
 .detail-close {
   position: fixed;
   top: calc(12px + var(--safe-t));
@@ -480,11 +508,21 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   justify-content: center;
   color: var(--ink);
   z-index: 30;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.detail-close:hover {
+  background: rgba(245, 241, 234, 0.95);
+  box-shadow: 0 4px 12px rgba(29, 27, 22, 0.15);
+}
+.detail-close:active {
+  transform: scale(0.95);
 }
 
 .detail-body { padding: 12px var(--page-gutter) 0; max-width: var(--content-max); margin: 0 auto; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 0 14px; }
+/* 标签按钮：参考 related-card token (DESIGN.md 行 118-119) */
 .tag-pill {
   font-size: 13px;
   color: var(--ink-2);
@@ -492,6 +530,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   border-radius: 999px;
   padding: 5px 14px;
   background: var(--bg-card);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.tag-pill:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.tag-pill:active {
+  transform: scale(0.98);
 }
 
 /* 局部标签（region-label） */
@@ -566,20 +613,50 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   padding: 18px 0 30px; 
   gap: 12px;
 }
+/* DESIGN.md token: fav-tool-button (行 102-105) */
 .action-row .fav-tool {
-  /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
-  border-color: rgba(140, 109, 63, 0.5);
+  /* 收藏工具按钮：使用 bg-card 底色，正常态描边弱化 */
+  background: var(--bg-card);
+  border: 1px solid rgba(140, 109, 63, 0.5);
   color: rgba(29, 27, 22, 0.7);
   font-size: 15px;
   padding: 10px 24px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
-.action-row .fav-tool.on {
-  background: rgba(140, 109, 63, 0.12);
+.action-row .fav-tool:hover {
+  border-color: var(--gold);
   color: var(--gold);
+}
+.action-row .fav-tool:active {
+  transform: scale(0.98);
+}
+/* DESIGN.md token: fav-tool-button-on (行 106-109) */
+.action-row .fav-tool.on {
+  /* 已收藏态：金色填充，反白文字 */
+  background: var(--gold);
+  color: var(--bg-card);
   border-color: var(--gold);
 }
+.action-row .fav-tool.on:hover {
+  opacity: 0.9;
+}
+.action-row .fav-tool.on:active {
+  transform: scale(0.98);
+}
 .action-row .fav-tool svg { width: 16px; height: 16px; }
+/* 禁用状态 */
+.action-row .fav-tool:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
+/* DESIGN.md token: action-button (行 110-113) */
 .action-btn {
   display: flex;
   align-items: center;
@@ -589,20 +666,61 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   color: var(--gold);
   font-size: 16px;
   padding: 12px 32px;
+  background: var(--bg-card);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
-.action-btn.on { background: var(--gold); color: var(--bg-card); }
+.action-btn:hover {
+  opacity: 0.85;
+}
+.action-btn:active {
+  transform: scale(0.98);
+}
+/* DESIGN.md token: action-button-on (行 114-117) */
+.action-btn.on { 
+  background: var(--gold); 
+  color: var(--bg-card); 
+}
+.action-btn.on:hover {
+  opacity: 0.9;
+}
+.action-btn.on:active {
+  transform: scale(0.98);
+}
 .action-btn.on svg { fill: currentColor; }
+/* 禁用状态 */
+.action-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
-/* 下载按钮样式与收藏按钮一致 */
+/* 下载按钮样式与 action-button token 一致 (DESIGN.md 行 110-113) */
 .action-row .download-btn {
-  border-color: rgba(140, 109, 63, 0.5);
-  color: rgba(29, 27, 22, 0.7);
-  font-size: 15px;
-  padding: 10px 24px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--gold);
+  border-radius: 999px;
+  color: var(--gold);
+  font-size: 16px;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 .action-row .download-btn:hover {
-  border-color: var(--gold);
-  color: var(--gold);
+  background: var(--gold);
+  color: var(--bg-card);
+  opacity: 0.9;
+}
+.action-row .download-btn:active {
+  transform: scale(0.98);
+}
+.action-row .download-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .related { 
@@ -633,7 +751,17 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 .related-scroll::-webkit-scrollbar { display: none; }
-.rel-card { flex: 0 0 140px; }
+.rel-card { 
+  flex: 0 0 140px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.rel-card:hover {
+  transform: translateY(-2px);
+}
+.rel-card:active {
+  transform: translateY(0);
+}
 .rel-card .th {
   width: 140px;
   border: 1px solid var(--line);
@@ -720,7 +848,18 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   gap: 10px;
   padding: calc(12px + var(--safe-t)) calc(18px + var(--safe-r)) 10px calc(8px + var(--safe-l));
 }
-.page-header button { padding: 8px; color: var(--ink); }
+.page-header button { 
+  padding: 8px; 
+  color: var(--ink);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.page-header button:hover {
+  opacity: 0.7;
+}
+.page-header button:active {
+  transform: scale(0.95);
+}
 .page-header .title { font-size: 20px; font-weight: 700; }
 
 .page-intro { padding: 8px var(--page-gutter) 18px; max-width: var(--content-max); margin: 0 auto; }
@@ -745,6 +884,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   break-inside: avoid;
   margin-bottom: 22px;
   display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
+.card:active {
+  transform: translateY(0);
 }
 .card .th {
   border: 1px solid var(--line);
@@ -820,6 +967,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   font-size: 17px;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.sheet .issue-row:hover {
+  background: rgba(140, 109, 63, 0.05);
+}
+.sheet .issue-row:active {
+  background: rgba(140, 109, 63, 0.1);
 }
 .sheet .issue-row:last-child { border-bottom: none; }
 
