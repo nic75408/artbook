@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "http-server -p 8888 -c-1",
-    "test": "node tests/sw_prefetch_logic.test.mjs",
+    "test": "npm run test:unit && npm run test:playwright",
+    "test:unit": "node tests/sw_prefetch_logic.test.mjs",
     "test:playwright": "playwright test",
     "test:feed": "npx playwright test tests/feed-alignment.spec.js --project=chromium",
     "test:aspect": "npx playwright test tests/artwork-aspect-ratio.spec.js --project=chromium"

@@ -12,7 +12,7 @@
 import { test, expect } from '@playwright/test';
 
 const IPHONE_14_PRO = { width: 390, height: 844 };
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = process.env.BASE_URL || 'http://localhost:8888';
 
 test.describe('画作版式适配', () => {
   test.beforeEach(async ({ page }) => {

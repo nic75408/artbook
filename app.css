@@ -167,15 +167,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   color: var(--ink-2);
   line-height: 1.5;
 }
-/* 顶部右上收藏夹入口：与底部日期胶囊视觉统一 */
+/* 顶部右上收藏夹入口：轻量线框图标，轻量对比，语义明确 */
 .feed-header button {
   pointer-events: auto;
-  color: var(--ink-2);
+  color: rgba(15, 23, 42, 0.55);
   padding: var(--space-xs) var(--space-md);
   border-radius: var(--rounded-pill, 999px);
-  border: 1px solid var(--line);
-  background: var(--bg);
-  box-shadow: none;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  background: rgba(248, 250, 252, 0.85);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
   font-family: var(--sans-zh);
   font-size: var(--text-meta);
   display: flex;
@@ -227,16 +227,16 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 
-/* 画框感：直角 + 1px 描边 + 统一内边距（视觉 fine-tune，使用 --space-sm） */
+/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，使用 --space-sm） */
 .frame {
   background: var(--bg-card);
   border: 1px solid var(--line);
   padding: var(--space-sm);
   max-width: 100%;
   position: relative;
-  /* 画框左边距与版心对齐基准一致 */
-  margin-left: var(--align-origin);
-  border-radius: 0;
+  /* 画框左边界与版心对齐（margin-left = --page-gutter） */
+  margin-left: var(--page-gutter);
+  border-radius: var(--rounded-card, 8px);
 }
 .frame .ph {
   position: relative;
@@ -261,10 +261,9 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .slide .names {
   /* 统一垂直节奏：品牌→画作 24pt、画作→作品信息 24pt */
   margin-top: var(--section-v);
+  margin-left: var(--page-gutter);  /* 标题左边界与画框对齐（--page-gutter = 22px） */
   text-align: left;
-  padding: 0;
-  /* 作品文字左边界与画框左边距对齐（版心基准） */
-  margin-left: var(--align-origin);
+  padding: 0 var(--space-sm);  /* 左右内边距与画框内衬一致，确保文字与图片左对齐 */
   width: 100%;
   max-width: 280px;  /* 与画作最大宽度一致 */
 }
@@ -288,14 +287,11 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 /* 右下圆形「了解更多」按钮 + 环形文字 */
-/* 位置调整：按钮移到画作下方、与画作左侧对齐，避免与日期胶囊重叠 */
 .learn-btn {
   position: absolute;
-  /* 左边界与画框/作品文字对齐基准一致 */
-  left: var(--align-origin);
-  /* 底部位置：在日期胶囊上方，保持足够垂直间距 */
-  bottom: calc(80px + var(--safe-b));
-  /* 尺寸：直径 84px */
+  right: calc(18px + var(--safe-r));
+  bottom: calc(14px + var(--safe-b));
+  /* 尺寸收紧：直径从 96px 减小到 84px（约 12.5%） */
   width: 84px;
   height: 84px;
   z-index: 5;
@@ -303,8 +299,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .learn-btn svg { width: 84px; height: 84px; overflow: visible; }
 .learn-btn .ring-path circle { fill: none; stroke: var(--gold); stroke-width: 1.5; }
 .learn-btn .ring-text { fill: var(--ink-2); font-size: 10.5px; letter-spacing: 0.3em; }
-/* 圆心位置：transform-origin 固定在 SVG 中心 (96/2=48) */
-.learn-btn .ring-rotor { transform-origin: 48px 48px; animation: spin 20s linear infinite; }
+/* 圆心位置调整：transform-origin 跟随新尺寸 (84/2=42) */
+.learn-btn .ring-rotor { transform-origin: 42px 42px; animation: spin 20s linear infinite; }
 .learn-btn .arrow { stroke: var(--gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
