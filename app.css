@@ -18,6 +18,7 @@
   --text-meta: 14px;
   --page-gutter: 22px;
   --content-max: 340px;
+  --section-v: 24px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
@@ -201,7 +202,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* 居中布局，确保内容不溢出 */
+  align-items: flex-start;  /* 左对齐，确保画框和文字左边界一致 */
   justify-content: center;
   padding: var(--pad-t) var(--page-gutter) var(--pad-b);
   max-width: var(--content-max);
@@ -423,7 +424,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* ============================================================ 赏析小节：整体印象 vs 局部细节 */
 
 .essay-section {
-  margin-bottom: 20px;
+  margin-bottom: var(--section-v);
 }
 
 .essay-section-title {
@@ -543,8 +544,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .detail-crop {
   width: 72vw;
   height: 72vw;
-  max-width: 340px;
-  max-height: 340px;
+  max-width: var(--content-max);
+  max-height: var(--content-max);
   border-radius: 50%;
   margin: 0 auto;
   border: 1px solid var(--line);
