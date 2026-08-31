@@ -131,7 +131,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: calc(14px + var(--safe-t)) calc(20px + var(--safe-r)) 0 calc(20px + var(--safe-l));
+  padding: calc(var(--space-md) + var(--safe-t)) calc(var(--space-xl) + var(--safe-r)) 0 calc(var(--space-xl) + var(--safe-l));
   z-index: 20;
   pointer-events: none;
 }
@@ -227,11 +227,11 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 
-/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，不纳入 token） */
+/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，使用 --space-sm） */
 .frame {
   background: var(--bg-card);
   border: 1px solid var(--line);
-  padding: 8px;
+  padding: var(--space-sm);
   max-width: 100%;
   position: relative;
   /* 画框左边距与版心对齐基准一致 */
@@ -349,12 +349,12 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情 */
 
-.detail { padding-bottom: calc(48px + var(--safe-b)); }
+.detail { padding-bottom: calc(var(--space-xl) + var(--safe-b)); }
 
 /* ============================================================ 作品信息块：紧邻主图的标题与元信息 */
 
 .artwork-info-card {
-  padding: var(--page-gutter) var(--page-gutter) 8px;
+  padding: var(--page-gutter) var(--page-gutter) var(--space-sm);
   background: var(--bg);
   max-width: var(--content-max);
   margin: 0 auto;
@@ -505,7 +505,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .detail-hero-bleed {
   max-width: none;
   margin: 0;
-  padding: 0 calc(8px + var(--safe-l)) 0 calc(8px + var(--safe-r));
+  padding: 0 calc(var(--space-sm) + var(--safe-l)) 0 calc(var(--space-sm) + var(--safe-r));
 }
 .detail-hero-bleed .ph {
   max-width: none;
@@ -1012,7 +1012,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
   .paragraph-label {
     font-size: 11px;
-    margin: 14px 0 var(--space-xs);
+    margin: var(--space-md) 0 var(--space-xs);
   }
 
   .detail-crop-container .crop-label {
@@ -1055,8 +1055,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* 适配动态岛和刘海屏的安全区域 */
 @supports (padding-top: env(safe-area-inset-top)) {
   .region-label {
-    margin-left: max(0px, calc(var(--safe-l) - 12px));
-    margin-right: max(0px, calc(var(--safe-r) - 12px));
+    margin-left: max(0px, calc(var(--safe-l) - var(--space-md)));
+    margin-right: max(0px, calc(var(--safe-r) - var(--space-md)));
   }
   
   .sheet {
