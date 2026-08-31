@@ -234,7 +234,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   padding: var(--space-sm);
   max-width: 100%;
   position: relative;
-  /* 画框左边界与版心对齐（.slide 的 padding-left 已定义版心边距） */
+  /* 画框左边界与版心对齐（margin-left = --page-gutter） */
+  margin-left: var(--page-gutter);
   border-radius: var(--rounded-card, 8px);
 }
 .frame .ph {
@@ -260,6 +261,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .slide .names {
   /* 统一垂直节奏：品牌→画作 24pt、画作→作品信息 24pt */
   margin-top: var(--section-v);
+  margin-left: var(--page-gutter);  /* 标题左边界与画框对齐（--page-gutter = 22px） */
   text-align: left;
   padding: 0 var(--space-sm);  /* 左右内边距与画框内衬一致，确保文字与图片左对齐 */
   width: 100%;
