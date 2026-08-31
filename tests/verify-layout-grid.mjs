@@ -55,21 +55,25 @@ async function measureLayout() {
   });
   console.log(`4. section-v (画作到题名间距): ${sectionV}px (期望: 24px)`);
 
-  // 测量画框左边距
+  // 测量画框左边距（相对于 .slide 内容区）
   const frameLeft = await page.evaluate(() => {
+    const slide = document.querySelector('.slide');
     const frame = document.querySelector('.slide .frame');
-    const box = frame.getBoundingClientRect();
-    return box.left;
+    const slideRect = slide.getBoundingClientRect();
+    const frameRect = frame.getBoundingClientRect();
+    return frameRect.left - slideRect.left;
   });
-  console.log(`5. 画框左边界 X 坐标: ${frameLeft}px (期望: ≈22px，与 page-gutter 一致)`);
+  console.log(`5. 画框左边界距离 .slide 左边缘：${frameLeft}px (期望：≈22px，与 page-gutter 一致)`);
 
-  // 测量题名区左边距
+  // 测量题名区左边距（相对于 .slide 内容区）
   const namesLeft = await page.evaluate(() => {
+    const slide = document.querySelector('.slide');
     const names = document.querySelector('.slide .names');
-    const box = names.getBoundingClientRect();
-    return box.left;
+    const slideRect = slide.getBoundingClientRect();
+    const namesRect = names.getBoundingClientRect();
+    return namesRect.left - slideRect.left;
   });
-  console.log(`6. 题名区左边界 X 坐标: ${namesLeft}px (期望: ≈22px，与画框对齐)`);
+  console.log(`6. 题名区左边界距离 .slide 左边缘：${namesLeft}px (期望：≈22px，与画框对齐)`);
 
   // 验证对齐误差
   const alignmentError = Math.abs(frameLeft - namesLeft);
@@ -95,13 +99,15 @@ async function measureLayout() {
   });
   console.log(`9. 详情页 page-gutter: ${detailPageGutter}px (期望: 22px)`);
 
-  // 相关推荐区左对齐
+  // 相关推荐区左对齐（相对于 .detail-body 内容区）
   const relatedLeft = await page.evaluate(() => {
+    const detailBody = document.querySelector('.detail-body');
     const scroll = document.querySelector('.related-scroll');
-    const box = scroll.getBoundingClientRect();
-    return box.left;
+    const bodyRect = detailBody.getBoundingClientRect();
+    const scrollRect = scroll.getBoundingClientRect();
+    return scrollRect.left - bodyRect.left;
   });
-  console.log(`10. 相关推荐区左边界 X 坐标: ${relatedLeft}px (期望: ≈22px)`);
+  console.log(`10. 相关推荐区左边界距离 .detail-body 左边缘：${relatedLeft}px (期望：≈22px)`);
 
   // 捕获详情页布局证据截图（可选）
   try {
