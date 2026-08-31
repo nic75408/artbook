@@ -7,18 +7,21 @@ const ICON_CACHE = new Map();
 
 // Load SVG content from file (cached)
 async function loadIconSVG(name) {
-  if (ICON_CACHE.has(name)) {
-    return ICON_CACHE.get(name);
+  // Map alias to actual filename (e.g., 'nav-home' → 'nav-home-outline')
+  const fileName = ICON_MAP[name] || name;
+  
+  // Check cache using fileName (real filename) for consistency
+  if (ICON_CACHE.has(fileName)) {
+    return ICON_CACHE.get(fileName);
   }
+  
   try {
-    // Apply icon mapping to get actual filename (e.g., 'nav-home' → 'nav-home-outline')
-    const baseName = ICON_MAP[name] || name;
-    // Use relative path based on current module's location (works in /artbook/ subpath deployment)
-    // js/icons/Icon.js -> ../../icons/svg/ to reach repo root icons/ directory
-    const response = await fetch(new URL(`../../icons/svg/${baseName}.svg`, import.meta.url).href);
-    if (!response.ok) throw new Error(`Icon "${name}" (${baseName}.svg) not found`);
+    // Use relative path to work on all deployment paths (e.g. /artbook/, /work/123)
+    const response = await fetch(`icons/svg/${fileName}.svg`);
+    if (!response.ok) throw new Error(`Icon "${name}" (${fileName}.svg) not found`);
     const svg = await response.text();
-    ICON_CACHE.set(name, svg);
+    // Cache using fileName (real filename) so getIconSVG can find it
+    ICON_CACHE.set(fileName, svg);
     return svg;
   } catch (e) {
     console.warn(`Icon load error: ${name} — ${e.message}`);
@@ -29,11 +32,10 @@ async function loadIconSVG(name) {
 
 // Preload critical icons for immediate use
 const CRITICAL_ICONS = [
-  'nav-home', 'nav-back', 'nav-close', 'nav-more', 'nav-chevron-down',
+  'nav-home', 'nav-back', 'nav-close', 'nav-more',
   'action-bookmark-outline', 'action-bookmark-filled',
   'action-favorite-outline', 'action-favorite-filled',
-  'state-loading-outline', 'state-error-outline', 'state-empty-outline',
-  'nav-chevron-down'  // date-capsule button
+  'state-loading-outline', 'state-error-outline', 'state-empty-outline'
 ];
 
 export async function preloadIcons() {
@@ -42,7 +44,6 @@ export async function preloadIcons() {
 
 // Synchronous icon lookup (for use after preload)
 function getIconSVG(name) {
-  // Cache is keyed by logical name (e.g., 'nav-chevron-down'), not filename
   return ICON_CACHE.get(name) || null;
 }
 
@@ -105,11 +106,35 @@ export function Icon(name, options = {}) {
   } = options;
   
   const baseName = ICON_MAP[name] || name;
-  const svg = getIconSVG(name);  // Cache is keyed by logical name, not filename
+  let svg = getIconSVG(baseName);
   
+  // On-demand fallback: if not in cache, trigger async load and schedule DOM update
   if (!svg) {
-    // Return placeholder if icon not preloaded
-    return `<svg class="icon ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
+    // Trigger async load (will cache the result)
+    loadIconSVG(name).then(loadedSvg => {
+      // Find and update any placeholders for this icon
+      const placeholders = document.querySelectorAll(`.icon.icon-${name}`);
+      placeholders.forEach(el => {
+        // Only update if still showing placeholder (has the circle)
+        if (el.querySelector('circle[fill="none"]')) {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(loadedSvg, 'image/svg+xml');
+          const svgEl = doc.documentElement;
+          svgEl.setAttribute('width', String(size));
+          svgEl.setAttribute('height', String(size));
+          svgEl.setAttribute('class', `icon icon-${name} ${extraClass}`.trim());
+          svgEl.setAttribute('aria-hidden', hidden ? 'true' : 'false');
+          if (!hidden && label) {
+            svgEl.setAttribute('aria-label', label);
+          }
+          svgEl.setAttribute('stroke-width', String(getStrokeWidth(size)));
+          el.replaceWith(svgEl);
+        }
+      });
+    }).catch(() => { /* ignore load errors */ });
+    
+    // Return placeholder for initial render
+    return `<svg class="icon icon-${name} ${extraClass}" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="${hidden}"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>`;
   }
   
   // Inject size and classes into SVG using DOMParser for safe manipulation
