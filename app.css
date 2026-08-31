@@ -228,10 +228,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .frame .ph {
   position: relative;
-  /* ratio 为高/宽（SPE §5）。宽度上限 = min(280px, 86vw, 可用高度 × (宽/高))，
+  /* ratio 为高/宽（SPE §5）。宽度上限 = min(280px, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2))),
      保证图片 + 画框 + 题名总高 ≤ 100dvh，单屏独占不溢出。
      280px = content-max (340px) - page-gutter (22px×2) - frame 边框与内衬 */
-  width: min(280px, 86vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2)));
+  width: min(280px, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2)));
   aspect-ratio: calc(1 / var(--r, 1.2));
   background: var(--bg-card);
 }
