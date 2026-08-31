@@ -167,15 +167,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   color: var(--ink-2);
   line-height: 1.5;
 }
-/* 顶部右上收藏夹入口：轻量线框图标，轻量对比，语义明确 */
+/* 顶部右上收藏夹入口：与底部日期胶囊视觉统一 */
 .feed-header button {
   pointer-events: auto;
-  color: rgba(15, 23, 42, 0.55);
+  color: var(--ink-2);
   padding: var(--space-xs) var(--space-md);
   border-radius: var(--rounded-pill, 999px);
-  border: 1px solid rgba(15, 23, 42, 0.15);
-  background: rgba(248, 250, 252, 0.85);
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--line);
+  background: var(--bg);
+  box-shadow: none;
   font-family: var(--sans-zh);
   font-size: var(--text-meta);
   display: flex;
