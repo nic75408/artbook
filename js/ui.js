@@ -41,6 +41,7 @@ export function learnBtnSVG(id) {
       <text class="ring-text"><textPath href="#${pid}" textLength="${circumference}" lengthAdjust="spacingAndGlyphs">了解更多 · 了解更多 · 了解更多</textPath></text>
     </g>
     <circle class="ring-path" cx="48" cy="48" r="33"/>
-    <path class="arrow" d="M 42 38 l 12 10 -12 10"/>
+    <!-- 箭头：以 (48,48) 为中心，箭头从左侧指向右侧 -->
+    <path class="arrow" d="M 40 42 l 12 6 -12 6"/>
   </svg>`;
 }
