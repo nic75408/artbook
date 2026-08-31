@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "http-server -p 8888 -c-1",
     "test": "node tests/sw_prefetch_logic.test.mjs",
-    "test:playwright": "playwright test",
-    "test:pwa": "node evidence/pwa-acceptance-test.js"
+    "test:playwright": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",
