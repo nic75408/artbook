@@ -201,7 +201,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* 居中布局，确保内容不溢出 */
+  align-items: flex-start;  /* 左对齐布局，确保内容以版心为基准 */
   justify-content: center;
   padding: var(--pad-t) var(--page-gutter) var(--pad-b);
   max-width: var(--content-max);
@@ -216,7 +216,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   max-width: 100%;
   position: relative;
   /* 画框左边距与版心对齐基准一致 */
-  margin-left: 0;
+  margin-left: var(--align-origin);
 }
 .frame .ph {
   position: relative;
@@ -243,8 +243,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: 24px;
   text-align: left;
   padding: 0;
-  /* 作品文字左边界与画框左边距对齐（居中布局下无需额外 margin） */
-  margin-left: 0;
+  /* 作品文字左边界与画框左边距对齐（版心基准） */
+  margin-left: var(--align-origin);
   width: 100%;
   max-width: 280px;  /* 与画作最大宽度一致 */
 }
@@ -642,9 +642,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   /* 推荐区整体与版心对齐 */
   max-width: var(--content-max);
   margin: 0 auto;
+  /* 第一个卡片的左边界与版心对齐 */
+  justify-content: flex-start;
 }
 .related-scroll::-webkit-scrollbar { display: none; }
-.rel-card { flex: 0 0 140px; }
+.rel-card { 
+  flex: 0 0 140px;
+  display: flex;
+  flex-direction: column;
+}
 .rel-card .th {
   width: 140px;
   border: 1px solid var(--line);
@@ -688,6 +694,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  /* 标题左边界与画作左边界对齐 */
+  padding-left: 0;
 }
 
 /* ============================================================ 全屏看图 */
