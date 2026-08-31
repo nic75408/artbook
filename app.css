@@ -215,8 +215,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   padding: 8px;
   max-width: 100%;
   position: relative;
-  /* 画框左边距与版心对齐基准一致 */
-  margin-left: var(--align-origin);
+  /* 画框左边界与 .slide 的 padding 左边缘对齐（无需额外 margin） */
 }
 .frame .ph {
   position: relative;
@@ -243,8 +242,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: 24px;
   text-align: left;
   padding: 0;
-  /* 作品文字左边界与画框左边距对齐（版心基准） */
-  margin-left: var(--align-origin);
+  /* 作品文字左边界与 .slide 的 padding 左边缘对齐（无需额外 margin） */
   width: 100%;
   max-width: 280px;  /* 与画作最大宽度一致 */
 }
