@@ -13,7 +13,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const EVIDENCE_DIR = path.join(__dirname, 'evidence');
 
 const IPHONE_14_PRO = { width: 390, height: 844 };
-const BASE_URL = 'http://localhost:8080';
+let BASE_URL = 'http://localhost:8080';
+let SERVER_PORT = 8080;
 
 async function measureLayout() {
   const browser = await chromium.launch();
@@ -179,40 +180,94 @@ async function measureLayout() {
 
 // 启动本地服务器并运行测试
 import { spawn } from 'child_process';
+import net from 'net';
 
-function startServer() {
+// 查找可用端口（从指定端口开始尝试）
+async function findAvailablePort(startPort = 8080) {
   return new Promise((resolve, reject) => {
-    const server = spawn('npx', ['http-server', '-p', '8080', '.'], {
+    const server = net.createServer();
+    server.listen(startPort, '127.0.0.1', () => {
+      server.close(() => resolve(startPort));
+    });
+    server.on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        resolve(startPort + 1); // 递归尝试下一个端口
+      } else {
+        reject(err);
+      }
+    });
+  });
+}
+
+function startServer(port) {
+  return new Promise((resolve, reject) => {
+    const server = spawn('npx', ['http-server', '-p', String(port), '.'], {
       cwd: path.join(__dirname, '..'),
       stdio: ['ignore', 'pipe', 'pipe']
     });
 
+    let started = false;
+    
     server.stdout.on('data', (data) => {
       const output = data.toString();
       if (output.includes('Hit CTRL-C to stop the server')) {
+        started = true;
         resolve(server);
       }
     });
 
     server.stderr.on('data', (data) => {
-      console.error(data.toString());
+      const errOutput = data.toString();
+      if (errOutput.includes('EADDRINUSE') && !started) {
+        reject(new Error(`端口 ${port} 已被占用`));
+      }
     });
 
+    // 超时处理
     setTimeout(() => {
-      resolve(server);
-    }, 2000);
+      if (!started) {
+        reject(new Error(`服务器启动超时，可能端口 ${port} 不可用`));
+      }
+    }, 5000);
   });
 }
 
 async function main() {
   let server;
+  let attempts = 0;
+  const maxAttempts = 10;
+  
   try {
-    console.log('启动本地服务器...');
-    server = await startServer();
-    console.log('服务器已启动在 http://localhost:8080\n');
+    while (attempts < maxAttempts) {
+      try {
+        console.log(`查找可用端口 (尝试 ${attempts + 1}/${maxAttempts})...`);
+        SERVER_PORT = await findAvailablePort(8080 + attempts);
+        BASE_URL = `http://localhost:${SERVER_PORT}`;
+        console.log(`使用端口：${SERVER_PORT}\n`);
+        
+        console.log('启动本地服务器...');
+        server = await startServer(SERVER_PORT);
+        console.log(`服务器已启动在 ${BASE_URL}\n`);
+        break; // 服务器启动成功，退出循环
+      } catch (err) {
+        if (err.message.includes('已被占用') || err.message.includes('超时')) {
+          attempts++;
+          console.log(`端口不可用，准备尝试下一个端口...\n`);
+          if (server) {
+            server.kill();
+            server = null;
+          }
+        } else {
+          throw err; // 其他错误直接抛出
+        }
+      }
+    }
+    
+    if (!server) {
+      throw new Error(`无法在 8080-${8080 + maxAttempts - 1} 范围内找到可用端口`);
+    }
     
     const passed = await measureLayout();
-    
     process.exit(passed ? 0 : 1);
   } catch (error) {
     console.error('验证失败:', error);
