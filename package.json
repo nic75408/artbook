@@ -1,13 +1,16 @@
 {
   "name": "artbook",
   "version": "1.0.0",
-  "description": "Artbook PWA",
-  "devDependencies": {
-    "@playwright/test": "^1.45.0",
-    "http-server": "^14.1.1"
-  },
+  "description": "艺术手册 Artbook - 每日更新 30 幅艺术史杰作的私人画册 PWA",
+  "private": true,
   "scripts": {
-    "start-test": "http-server -p 8080 .",
+    "dev": "http-server -p 8888 -c-1",
+    "test": "node tests/sw_prefetch_logic.test.mjs",
+    "test:playwright": "playwright test",
     "test:pwa": "node evidence/pwa-acceptance-test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "http-server": "^14.1.1"
   }
 }
