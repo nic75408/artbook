@@ -59,7 +59,7 @@ export async function mount(el) {
   }
 }
 
-function slideHTML(w, date) {
+function slideHTML(w, date, priority = false) {
   // 内容非空校验：缺失关键字段时使用兜底文案（SPE §7.4）
   const title = w.title_zh || '';
   const artist = w.artist_zh || '';
@@ -70,11 +70,14 @@ function slideHTML(w, date) {
   const displayArtist = artist.trim() || '未知艺术家';
   
   const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
+  // 优先级加载：前 3 幅作品立即加载，其余懒加载
+  const loadingAttr = priority ? 'loading="eager"' : 'loading="lazy"';
+  const fetchPriority = priority ? 'fetchpriority="high"' : '';
   return `
   <section class="slide" data-id="${esc(w.id)}" data-issue="${date}">
     <div class="frame" style="--r:${w.image.ratio}">
       <div class="ph" style="${ph}">
-        <img data-src="${esc(imageUrl)}" alt="${esc(displayTitle)}" loading="lazy" decoding="async">
+        <img data-src="${esc(imageUrl)}" alt="${esc(displayTitle)}" ${loadingAttr} ${fetchPriority} decoding="async">
       </div>
     </div>
     <div class="names">
@@ -89,10 +92,14 @@ function buildSlides() {
   scroller.innerHTML = "";
   totalSlides = 0;
   endShown = false;
+  let globalIndex = 0;
   for (const { date, works } of loaded) {
     for (const w of works) {
-      scroller.insertAdjacentHTML("beforeend", slideHTML(w, date));
+      // 前 3 幅作品使用优先级加载
+      const priority = globalIndex < 3;
+      scroller.insertAdjacentHTML("beforeend", slideHTML(w, date, priority));
       totalSlides++;
+      globalIndex++;
     }
   }
   scroller.querySelectorAll(".slide").forEach((s, i) => {
