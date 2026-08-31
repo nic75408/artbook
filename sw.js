@@ -15,7 +15,7 @@
  * - 页面发 PREFETCH_ISSUES → 预取相关作品的跨期期文件（第二幅作品首开秒出、离线可用）
  * - 预取只补缺失、限量（PREFETCH_MAX）、失败静默，不拖累 install / 页面
  */
-const CACHE_APP = "artbook-app-v2";
+const CACHE_APP = "artbook-app-v3";
 const DATA_RE = /\/data\//;
 const CORE_DATA = ["./data/index.json", "./data/catalog.json", "./data/artists.json"];
 // 跨期预取上限（t_dac8f66a）：相关作品最多横跨 4 期（同画家档上限），每期 ~70KB
