@@ -94,6 +94,9 @@
    被 8/30 旧索引覆盖，线上首页显示旧作品）。
    
    发布前运行 `bash scripts/verify-index-before-merge.sh` 自动检查。
+   
+   **约定**：`data/index.json.latest` 字段永远指向最新期日，由出刊管线负责更新；
+   功能分支不得修改该字段。
 
 ---
 
