@@ -87,6 +87,14 @@
    未审先推的后果不止那一次推送——它让 `main` 的历史变得不可信：
    「这张卡的分支合进 main 了」从此成为假阳性信号。
 
+6. **`data/index.json` 只能由出刊管线（`pipeline/generate.py`）修改。**
+   功能发布分支禁止携带该文件的改动。合并前必须执行：
+   `git checkout origin/main -- data/index.json`
+   确保使用最新索引。否则最新一期会被旧值覆盖（921b78a 事故：8/31 期
+   被 8/30 旧索引覆盖，线上首页显示旧作品）。
+   
+   发布前运行 `bash scripts/verify-index-before-merge.sh` 自动检查。
+
 ---
 
 ## 验证怎么做才算数
