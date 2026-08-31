@@ -6,50 +6,42 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   testDir: './tests',
-  
-  // 测试超时时间
-  timeout: 30 * 1000,
-  
-  // 每个测试用例的超时时间
-  expect: {
-    timeout: 5000
-  },
-  
-  // 失败后重试次数
-  retries: 0,
-  
-  // 并行工作数
-  workers: 1,
-  
-  // 报告器
+  /* Run tests in files in parallel */
+  fullyParallel: false,
+  /* Fail the build on CI if you accidentally left test.only in the source code. */
+  forbidOnly: !!process.env.CI,
+  /* Retry on CI only */
+  retries: process.env.CI ? 2 : 0,
+  /* Opt out of parallel tests on CI. */
+  workers: process.env.CI ? 1 : undefined,
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'list',
-  
-  // 自动启动本地服务器
-  webServer: {
-    command: 'npx http-server -p 8888 .',
-    url: 'http://localhost:8888/index.html',
-    timeout: 120 * 1000,
-    reuseExistingServer: !process.env.CI,
-  },
-  
+  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    // 基础 URL（与 webServer 端口一致）
-    baseURL: 'http://localhost:8888',
-    
-    // 收集追踪信息以便调试
-    trace: 'retain-on-failure',
-    
-    // 失败时截图
-    screenshot: 'only-on-failure',
+    /* Base URL to use in actions like `await page.goto('/')`. */
+    // baseURL: 'http://localhost:8888',
+
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'on-first-retry',
   },
 
-  // 移动端设备配置
+  /* Configure projects for major browsers */
   projects: [
     {
-      name: 'Mobile',
-      use: {
+      name: 'Mobile Chrome',
+      use: { 
         ...devices['iPhone 14 Pro'],
+        serviceWorkers: 'block',  // 禁用 Service Worker 以排除干扰
       },
     },
   ],
+
+  /* Start local dev server before starting the tests */
+  webServer: {
+    command: 'npx http-server -p 8888 -c-1 .',
+    port: 8888,
+    timeout: 30000,
+    reuseExistingServer: !process.env.CI,
+    ignoreHTTPSErrors: true,
+  },
 });

@@ -5,7 +5,7 @@ import { initRouter, register } from "./router.js";
 import { mount as feed } from "./feed.js";
 import { mount as detail } from "./detail.js";
 import { mount as favs } from "./favorites.js";
-import { preloadIcons } from "./ui.js";
+import { preloadIcons } from "./icons/Icon.js";
 
 // iOS PWA 关键修复：等待 DOM 就绪后再初始化路由
 // iOS PWA 从主屏幕启动时，模块执行时机可能早于 DOM 构建完成

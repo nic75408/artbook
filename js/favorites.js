@@ -2,7 +2,8 @@
 // 本文件同时提供收藏逻辑与 #/favs 收藏页视图。
 import * as data from "./data.js";
 import { back, navigate } from "./router.js";
-import { esc, icons, Icon } from "./ui.js";
+import { esc, icons } from "./ui.js";
+import { Icon } from "./icons/Icon.js";
 
 const KEY = "artbook.favs";
 
