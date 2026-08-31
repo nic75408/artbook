@@ -26,7 +26,12 @@ function render(el, w) {
   const ratio = w.image.ratio || 1;
   
   // 判断是否为目标作品（出血布局）
-  const isBleedLayout = w.id === "cma-104168"; // 《阿谢尔森林的彩虹》
+  // 使用出血布局的作品：适合沉浸式观看的大幅作品
+  const BLEED_LAYOUT_IDS = new Set([
+    "cma-104168", // 《阿谢尔森林的彩虹》
+    "cma-150353", // 《古城废墟》
+  ]);
+  const isBleedLayout = BLEED_LAYOUT_IDS.has(w.id);
 
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
