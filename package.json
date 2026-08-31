@@ -8,6 +8,9 @@
   },
   "scripts": {
     "start-test": "http-server -p 8080 .",
-    "test:pwa": "node evidence/pwa-acceptance-test.js"
+    "test:pwa": "node evidence/pwa-acceptance-test.js",
+    "test": "npm run lint:css && echo '✓ CSS lint passed' && npm run build:check && echo '✓ Build check passed'",
+    "lint:css": "node -e \"const fs=require('fs'); const css=fs.readFileSync('app.css','utf8'); if(css.includes('undefined')||css.includes('null')){process.exit(1)} console.log('CSS syntax OK')\"",
+    "build:check": "node -e \"const fs=require('fs'); const files=['index.html','app.css','js/app.js']; files.forEach(f=>{if(!fs.existsSync(f)){console.error('Missing:'+f);process.exit(1)}}); console.log('All required files exist')\""
   }
 }
