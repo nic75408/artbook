@@ -90,9 +90,6 @@ function render(el, w) {
       <!-- H2: 赏析标题（本篇章赏析） -->
       <h2 class="section-title">本篇章赏析</h2>
 
-      <!-- 局部解析标题（动态渲染） -->
-      <div class="region-label" id="region-label"></div>
-
       <!-- 正文赏析：带段落标识 -->
       <div class="essay" id="essay-container"></div>
 
@@ -129,11 +126,10 @@ function render(el, w) {
 
   // 赏析 + 圆形细节图（第 2 段之后插入）
   const essayEl = el.querySelector("#essay-container");
-  const regionLabelEl = el.querySelector("#region-label");
   const detailCrop = w.detailCrop || {};
   const region = detailCrop.region || "whole_work";
 
-  // 映射 region 到标签文本
+  // 映射 region 到标签文本（仅用于圆形细节图的 crop-label）
   const regionLabels = {
     face: "局部赏析：面部表情",
     torso_neck: "局部赏析：身体姿态",
@@ -141,14 +137,6 @@ function render(el, w) {
     background: "局部赏析：背景环境",
     whole_work: "整体印象"
   };
-
-  // 渲染局部标签（仅当非 whole_work 时显示在图上方）
-  if (region !== "whole_work") {
-    regionLabelEl.textContent = regionLabels[region] || regionLabels.whole_work;
-    regionLabelEl.style.display = "block";
-  } else {
-    regionLabelEl.style.display = "none";
-  }
 
   // 段落类型 → 小标题文案映射（遵循 essay-headings-spec.md）
   const headingMap = {
