@@ -92,7 +92,7 @@
    功能分支（布局修复、PWA icon 等）在开发周期内不更新该文件，合并时若直接合入会
    用旧版本的索引覆盖最新一期——921b78a 与 ebb4713 的覆盖事故即因此发生。
    **约定**：
-   - `data/index.json.latest` 和 `data/index.json.issues` 只能由出刊流水线（pipeline）更新；
+   - `data/index.json` 的 `latest/issues` 只能由出刊流水线（pipeline）更新；
    - 任何功能/发布分支在合并到 `main` 前，必须显式丢弃本分支携带的 `data/index.json` 改动：
      `git checkout origin/main -- data/index.json`；
    - 发布前运行 `scripts/verify-index-before-merge.sh` 验证 `latest` 字段与最新 issue 文件一致；
