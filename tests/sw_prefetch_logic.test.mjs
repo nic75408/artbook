@@ -16,6 +16,10 @@ const ROOT = new URL("../", import.meta.url);
 const SW_SRC = readFileSync(new URL("sw.js", ROOT), "utf8");
 const ORIGIN = "http://localhost:8080";
 
+// 从 sw.js 源码中提取 CACHE_APP 常量（避免硬编码版本号）
+const CACHE_APP_MATCH = SW_SRC.match(/const CACHE_APP\s*=\s*"([^"]+)"/);
+const CACHE_APP = CACHE_APP_MATCH ? CACHE_APP_MATCH[1] : "artbook-app-v1";
+
 // ---------- fake CacheStorage ----------
 class FakeCache {
   constructor(name) {
@@ -197,7 +201,7 @@ console.log("== install 预缓存 ==");
   const sandbox = loadSW(fetchFn);
   await fireInstall(sandbox);
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open(CACHE_APP);
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
 
@@ -234,11 +238,11 @@ console.log("== PREFETCH_ISSUES ==");
 
   const { done } = fireMessage(sandbox, {
     type: "PREFETCH_ISSUES",
-    dates: ["2026-08-25", "2026-08-24", "2026-08-25", "2026-08-27", "2026-08-23", "2026-08-22", "2026-08-21"],
+    dates: ["2026-08-25", "2026-08-24", "2026-08-25", "2026-08-31", "2026-08-23", "2026-08-22", "2026-08-21"],
   });
   await done;
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open(CACHE_APP);
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
   assert(has("/data/issues/2026-08-25.json"), "预取: 2026-08-25 已缓存");
@@ -247,11 +251,11 @@ console.log("== PREFETCH_ISSUES ==");
   assert(!has("/data/issues/2026-08-22.json"), "限量: 2026-08-22 未预取（超 PREFETCH_MAX=4）");
   assert(!has("/data/issues/2026-08-21.json"), "限量: 2026-08-21 未预取（超 PREFETCH_MAX=4）");
 
-  // 2026-08-27 已在 install 时缓存 → 跳过，不再 fetch
+  // 2026-08-31 已在 install 时缓存 → 跳过，不再 fetch
   const issueFetches = fetchFn.calls.filter((u) => u.includes("/data/issues/"));
   assert(
-    !issueFetches.includes(ORIGIN + "/data/issues/2026-08-27.json"),
-    "已缓存期文件跳过重取（2026-08-27 无网络请求）"
+    !issueFetches.includes(ORIGIN + "/data/issues/2026-08-31.json"),
+    "已缓存期文件跳过重取（2026-08-31 无网络请求）"
   );
   assert(issueFetches.length === 3, `实际只拉 3 个缺失期文件（拉取 ${issueFetches.length} 个）`);
 }
@@ -272,7 +276,7 @@ console.log("== 离线数据请求 ==");
   const body = await res.clone().json();
   assert(Array.isArray(body.works) && body.works.length > 0, "离线: catalog 内容完整可解析");
 
-  const res2 = await fetchResponse(sandbox, ORIGIN + "/data/issues/2026-08-27.json");
+  const res2 = await fetchResponse(sandbox, ORIGIN + "/data/issues/2026-08-31.json");
   assert(res2.status === 200, "离线：最新一期从缓存 200 返回");
   const issue = await res2.clone().json();
   assert(Array.isArray(issue.works) && issue.works.length > 0, "离线：期文件内容完整可解析（详情页可渲染）");
@@ -319,7 +323,7 @@ console.log("== VERSION_CHANGED 回归 ==");
   });
   await done;
 
-  const cache = await fakeCaches.open("artbook-app-v1");
+  const cache = await fakeCaches.open(CACHE_APP);
   const keys = await cache.keys();
   const has = (u) => keys.includes(ORIGIN + u);
   assert(has("/data/catalog.json"), "刷新: catalog.json 仍在缓存");

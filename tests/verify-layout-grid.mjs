@@ -82,7 +82,9 @@ async function measureLayout() {
   // 测量详情页
   console.log('\n=== 详情页布局验证 ===\n');
   await page.click('.frame');
-  await page.waitForSelector('.detail-hero', { timeout: 5000 });
+  // 等待 hash 路由变化和详情页渲染
+  await page.waitForFunction(() => location.hash.startsWith('#/work/'), { timeout: 5000 });
+  await page.waitForSelector('#view .detail-hero', { timeout: 5000 });
 
   // 详情页 content-max
   const detailContentMax = await page.evaluate(() => {
