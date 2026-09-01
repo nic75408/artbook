@@ -240,29 +240,38 @@ test('关闭按钮仍可返回上级', async ({ page }) => {
   expect(await page.evaluate(() => location.hash)).not.toContain('/work/');
 });
 
-test('单幅日期：不渲染页码、不挂翻页手势', async ({ page, request, baseURL }) => {
-  // 注意：route 必须在任何 page.goto 之前注册 —— data.js 的 issueCache 是模块级内存缓存，
-  // 先访问首页会把真实期文件读进内存，之后再拦截网络已经来不及。
-  // 所以期号/作品 id 用 Playwright 的 request（页面外）取。
-  const idx = await (await request.get(new URL('data/index.json', baseURL).href)).json();
-  const iss = await (await request.get(new URL(`data/issues/${idx.latest}.json`, baseURL).href)).json();
-  const workId = iss.works[0].id;
+// SW 必须屏蔽：sw.js 用 skipWaiting() + clients.claim() 在本次加载中就夺取当前页控制权，
+// 而它的 DATA_RE = /\/data\// 会接管所有期文件请求 —— Playwright 的 page.route
+// 拦不住 Service Worker 发出的请求。夺权时机是竞态，于是本例的 mock 时灵时不灵：
+// 夺权早了浏览器拿到真实 30 幅期文件（.folio 变成 1），或造成取数状态不一致
+// （详情页渲染成「作品数据缺失」）。30 次压测复现 3 次，两种表现都源于此。
+test.describe('单幅日期（屏蔽 SW，保证期文件 mock 不被 SW 旁路）', () => {
+  test.use({ serviceWorkers: 'block' });
 
-  await page.route(`**/data/issues/${idx.latest}.json`, async (route) => {
-    const res = await route.fetch();
-    const json = await res.json();
-    json.works = json.works.slice(0, 1);
-    await route.fulfill({ json });
+  test('单幅日期：不渲染页码、不挂翻页手势', async ({ page, request, baseURL }) => {
+    // 注意：route 必须在任何 page.goto 之前注册 —— data.js 的 issueCache 是模块级内存缓存，
+    // 先访问首页会把真实期文件读进内存，之后再拦截网络已经来不及。
+    // 所以期号/作品 id 用 Playwright 的 request（页面外）取。
+    const idx = await (await request.get(new URL('data/index.json', baseURL).href)).json();
+    const iss = await (await request.get(new URL(`data/issues/${idx.latest}.json`, baseURL).href)).json();
+    const workId = iss.works[0].id;
+
+    // 直接用页面外已取到的 iss 构造响应，不用 route.fetch() 再走一次网络往返。
+    await page.route(`**/data/issues/${idx.latest}.json`, async (route) => {
+      await route.fulfill({ json: { ...iss, works: iss.works.slice(0, 1) } });
+    });
+
+    await page.goto(`./#/work/${workId}`);
+    // 与本文件 gotoIssueWork 的等待语义一致用 attached：详情页头图容器一挂载即可断言，
+    // 不必等外部 CDN 大图解码完成（visible 会把图片加载时间也算进用例预算）。
+    await page.waitForSelector('.detail .detail-hero', { state: 'attached' });
+    await expect(page.locator('.folio')).toHaveCount(0);
+    await swipe(page, -150);
+    await page.waitForTimeout(600);
+    // 未翻页、未出现边界提示（手势根本没挂）
+    expect(await page.evaluate(() => location.hash)).toBe(`#/work/${workId}`);
+    await expect(page.locator('.detail-end-notice')).toHaveCount(0);
   });
-
-  await page.goto(`./#/work/${workId}`);
-  await page.waitForSelector('.detail .detail-hero');
-  await expect(page.locator('.folio')).toHaveCount(0);
-  await swipe(page, -150);
-  await page.waitForTimeout(600);
-  // 未翻页、未出现边界提示（手势根本没挂）
-  expect(await page.evaluate(() => location.hash)).toBe(`#/work/${workId}`);
-  await expect(page.locator('.detail-end-notice')).toHaveCount(0);
 });
 
 test('prefers-reduced-motion: reduce 时过渡降为 30ms、羽箭隐藏', async ({ browser }) => {
