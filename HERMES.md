@@ -116,6 +116,20 @@
    `apple-mobile-web-app-status-bar-style` 与 `viewport-fit=cover`，
    而不是继续在 CSS 里翻 padding。
 
+8. **`page.route` 拦不住 Service Worker 发出的请求 → 测试 mock 时灵时不灵。**
+   `sw.js` 用 `skipWaiting()` + `clients.claim()`，会在**同一次加载中**就夺取当前页的
+   控制权；而它的 `DATA_RE = /\/data\//` 接管所有 `data/` 请求。
+   于是任何用 `page.route` mock 期文件的用例都存在竞态：SW 夺权早了，浏览器拿到的是
+   **真实**期文件，mock 完全被旁路。
+   `tests/detail-swipe.spec.js` 的「单幅日期」用例因此偶发失败（30 次压测复现 3 次），
+   而且**两种表现看起来毫不相干**：
+   - `.folio` 期望 0 实得 1（拿到真实的 30 幅期文件）
+   - 详情页渲染成「作品数据缺失」并把 `waitForSelector` 拖到用例超时
+   后者极具欺骗性——看起来像「关闭按钮无法定位」或「网络慢」，
+   会把人引向加超时、换 selector 这类治标方向。
+   **正解**：凡是要 mock 同源 `data/` 请求的用例，必须 `test.use({ serviceWorkers: 'block' })`。
+   加超时、换 selector 都只是降低复现率，不解决旁路本身。
+
 ---
 
 ## 验证怎么做才算数
