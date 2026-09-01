@@ -1,10 +1,15 @@
 // 详情页左右滑动切换同日期作品（t_13662686）
 // 逐条量 SPEC-detail-swipe.md §6「关键数值汇总」与 §7 验收清单。
 const { test, expect } = require('@playwright/test');
+const { stubExternalImages } = require('./helpers/stub-external-images');
 
 const VIEWPORT = { width: 390, height: 844 };
 
 async function gotoIssueWork(page, offset = 0) {
+  // 断掉外部 CDN 图片的真实网络往返（并行跑全套时会把页面自身的 data fetch
+  // 挤到超时，详见 helpers/stub-external-images.js 的注释）。
+  // 必须在第一次 goto 之前注册。
+  await stubExternalImages(page);
   // 取最新一期的第 offset 幅作品，直接深链进详情页
   await page.goto('./');
   const info = await page.evaluate(async () => {
@@ -255,6 +260,7 @@ test('单幅日期：不渲染页码、不挂翻页手势', async ({ page, reque
   const iss = await (await request.get(new URL(`data/issues/${idx.latest}.json`, baseURL).href)).json();
   const workId = iss.works[0].id;
 
+  await stubExternalImages(page);
   await page.route(`**/data/issues/${idx.latest}.json`, async (route) => {
     const res = await route.fetch();
     const json = await res.json();

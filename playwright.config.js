@@ -35,6 +35,23 @@ module.exports = defineConfig({
     baseURL: BASE_URL,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    /* 关掉 Service Worker（真实事故：t_ac61cb9a Round-2 被打回）。
+       原因链：
+         1. 每个用例都开全新 context → 每次都重新注册 sw.js；
+         2. sw.js install 时 best-effort 预取博物馆图片（prefetchImages），
+            目标是 openaccess-cdn.clevelandart.org / images.metmuseum.org 真外网；
+         3. 且 SW 的 fetch handler 用 networkFirst 接管全部同源请求 ——
+            SW 自己被那几十路跨洋图片请求拖住时，页面的
+            fetch('data/issues/*.json') 也跟着排队。
+       并行 3 个 worker 跑全套时，随机某个用例的详情页就渲染不出来，
+       `.detail-hero` / `.folio` 等满 30s 超时。
+       关键鉴别特征：每次挂的用例都不同，且在 origin/main 上同样复现
+       （main 连跑 4 次挂 3 次）—— 是环境竞态，不是某次样式改动的回归。
+       注意 page.route 拦不住这个：Playwright 的路由不拦截 SW 发起的请求。
+       这些 .spec.js 无一断言 SW 行为（grep serviceWorker 全为 0），
+       SW 与离线能力由 tests/sw-cache-offline.test.mjs 单独覆盖，
+       故此处屏蔽 SW 不损失任何覆盖率。 */
+    serviceWorkers: 'block',
   },
 
   /* Configure projects for major browsers */
