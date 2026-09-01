@@ -1,6 +1,11 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
+// 端口由 scripts/run-playwright.mjs 动态分配（避开机器上其他 worktree 的
+// http-server）。直接 `npx playwright test` 时回落到 8888。
+const PORT = Number(process.env.ARTBOOK_TEST_PORT) || 8888;
+const BASE_URL = process.env.BASE_URL || `http://127.0.0.1:${PORT}`;
+
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
@@ -19,7 +24,7 @@ module.exports = defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'http://localhost:8888',
+    baseURL: BASE_URL,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
@@ -40,12 +45,15 @@ module.exports = defineConfig({
     },
   ],
 
-  /* Start local dev server before starting the tests */
+  /* Start local dev server before starting the tests.
+     - url（而非 port）：Playwright 会真发一次 HTTP 请求确认拿到 2xx/3xx，
+       光能建 TCP 连接不算就绪，杜绝「陌生进程占端口 → 全量 ERR_EMPTY_RESPONSE」。
+     - reuseExistingServer: false：永远起自己的服务器，绝不复用来路不明的进程。 */
   webServer: {
-    command: 'npx http-server -p 8888 -c-1 .',
-    port: 8888,
-    timeout: 30000,
-    reuseExistingServer: !process.env.CI,
+    command: `npx http-server -p ${PORT} -c-1 --silent .`,
+    url: `${BASE_URL}/index.html`,
+    timeout: 60000,
+    reuseExistingServer: false,
     ignoreHTTPSErrors: true,
   },
 });
