@@ -7,9 +7,9 @@
     "dev": "http-server -p 8888 -c-1",
     "test": "npm run test:unit && npm run test:playwright",
     "test:unit": "node tests/sw_prefetch_logic.test.mjs",
-    "test:playwright": "playwright test",
-    "test:feed": "npx playwright test tests/feed-alignment.spec.js --project=chromium",
-    "test:aspect": "npx playwright test tests/artwork-aspect-ratio.spec.js --project=chromium"
+    "test:playwright": "node scripts/run-playwright.mjs",
+    "test:feed": "node scripts/run-playwright.mjs tests/feed-alignment.spec.js --project=chromium",
+    "test:aspect": "node scripts/run-playwright.mjs tests/artwork-aspect-ratio.spec.js --project=chromium"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",

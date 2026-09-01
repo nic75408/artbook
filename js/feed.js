@@ -2,7 +2,7 @@
 import { WORDMARK } from "../config.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
-import { esc, icons, learnBtnSVG } from "./ui.js";
+import { esc, icons } from "./ui.js";
 import { Icon } from "./icons/Icon.js";
 
 const POS_KEY = "artbook.feedpos";
@@ -85,7 +85,11 @@ function slideHTML(w, date, priority = false) {
       <div class="artist-zh work-title">${esc(displayTitle)}</div>
       <div class="title-en meta-text">${esc(displayArtist)}</div>
     </div>
-    <button class="learn-btn" data-go="${esc(w.id)}" aria-label="了解更多">${learnBtnSVG(w.id)}</button>
+    <a class="learn-inline" data-go="${esc(w.id)}" href="#/work/${esc(w.id)}" aria-label="了解更多，查看详情">
+      <span class="learn-inline__en">Continue reading</span>
+      <span class="learn-inline__rule" aria-hidden="true"></span>
+      <span class="learn-inline__zh">了解更多</span>
+    </a>
   </section>`;
 }
 
@@ -110,7 +114,8 @@ function buildSlides() {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
-    s.querySelector(".learn-btn").addEventListener("click", (ev) => {
+    s.querySelector(".learn-inline").addEventListener("click", (ev) => {
+      ev.preventDefault();
       ev.stopPropagation();
       savePos();
       navigate(`#/work/${sw.work.id}`);
@@ -195,7 +200,8 @@ function rebindSlides(from) {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
-    s.querySelector(".learn-btn").addEventListener("click", (ev) => {
+    s.querySelector(".learn-inline").addEventListener("click", (ev) => {
+      ev.preventDefault();
       ev.stopPropagation();
       savePos();
       navigate(`#/work/${sw.work.id}`);

@@ -92,9 +92,12 @@ components:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink-2}"
     rounded: "{rounded.pill}"
-  learn-button:
+  learn-inline:
     backgroundColor: "transparent"
     textColor: "{colors.gold}"
+    secondaryTextColor: "{colors.ink-2}"
+    ruleColor: "{colors.gold}"
+    ruleOpacity: 0.6
   detail-close:
     backgroundColor: "rgba(245, 241, 234, 0.88)"
     textColor: "{colors.ink}"
@@ -239,8 +242,14 @@ Components map to CSS blocks in `app.css`:
   a framed image, Chinese artist name, and English title in gold.
 - **Date capsule (`.date-capsule`):** Fixed pill in the bottom center with secondary
   text color on bg.
-- **Learn more button (`.learn-btn`):** Circular ring with rotating text and arrow
-  using gold and secondary ink.
+- **Learn more inline link (`.learn-inline`):** A gallery-label style text link
+  rendered below the artwork+title module, centered on the slide's main axis.
+  Composed of a Georgia italic gold "Continue reading" line, a 48px gold hairline
+  rule (opacity 0.6), and a wide-tracked (0.3em) Songti SC "了 解 更 多" line in
+  secondary ink. No button container, no shadow, no rotation. Active state
+  stretches the rule to 64px and darkens the Chinese line to primary ink.
+  Replaces the previous circular black-fill learn button (decommissioned
+  2026-09-01).
 - **Detail close (`.detail-close`):** Fixed circular button at top-right with light
   bg and subtle shadow.
 - **Favorite tool (`.action-row .fav-tool`):** Pill button downgraded to a secondary
@@ -293,3 +302,20 @@ Components map to CSS blocks in `app.css`:
 - **Content width and spacing constraints:** `--content-max: 340px` and
   `--page-gutter: 22px` form the base layout grid for all screens, including
   feed, detail, and grid views.
+- **2026-09-01 — Feed layout module centering:** `.slide` uses
+  `align-items: center` and both `.frame` and `.slide .names` drop their
+  `margin-left: var(--page-gutter)` so the artwork+title module centers
+  relative to the viewport (previously offset ~28px to the left on iPhone 390).
+  Text still left-aligns to the artwork's inner left edge, matching Chinese
+  editorial convention.
+- **2026-09-01 — Learn-more = gallery-label text link:** Product/design owner
+  called out the black-fill circular learn button as visually clashing with the
+  museum tone. After a three-variant self-adjudicated review (see
+  `sketches/README.md`), the decision is the inline serif text-link variant:
+  no button container, Georgia italic "Continue reading" + hairline rule +
+  spaced Songti SC "了 解 更 多", using only `--gold` and `--ink-2`. Component
+  token: `components.learn-inline`.
+- **2026-09-01 — Two-tier interaction language:** Primary actions use pill
+  controls (`.fav-btn`, `.date-capsule`, `.action-btn`); secondary content
+  navigation uses text links (currently only `.learn-inline`). Different
+  visual families are intentional: the tier is the language.

@@ -8,7 +8,7 @@
 import { test, expect } from '@playwright/test';
 
 const IPHONE_14_PRO = { width: 390, height: 844 };
-const BASE_URL = process.env.BASE_URL || 'http://localhost:8888';
+const BASE_URL = process.env.BASE_URL || `http://127.0.0.1:${process.env.ARTBOOK_TEST_PORT || 8888}`;
 const PAGE_GUTTER = 22;
 
 // catalog.json 中真实存在的作品，覆盖三种画幅比例
