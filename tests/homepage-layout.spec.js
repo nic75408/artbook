@@ -3,7 +3,8 @@
 // 验证 390px 视口下（iPhone 14 Pro）：
 // 1. 画作外框内边距统一（8px）
 // 2. 标题基线对齐（margin-left 与画框一致）
-// 3. 截图证据
+// 3. 画框为直角边框（border-radius: 0）
+// 4. 截图证据
 
 import { test, expect } from '@playwright/test';
 
@@ -64,6 +65,23 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     expect(frameMargin).toBe('22px');
     expect(namesMargin).toBe('22px');
     expect(frameMargin).toBe(namesMargin);
+  });
+
+  test('画框为直角边框（border-radius: 0）', async ({ page }) => {
+    // 获取所有 .frame 元素
+    const frames = await page.$$('.frame');
+    expect(frames.length).toBeGreaterThan(0);
+
+    // 验证每个画框的 border-radius 为 0
+    for (let i = 0; i < frames.length; i++) {
+      const frame = frames[i];
+      const borderRadius = await frame.evaluate(el => {
+        return window.getComputedStyle(el).borderRadius;
+      });
+
+      // 验证画框为直角
+      expect(borderRadius).toBe('0px');
+    }
   });
 
   test('首页视觉一致性截图', async ({ page }) => {

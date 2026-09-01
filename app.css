@@ -236,7 +236,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   position: relative;
   /* 画框左边界与版心对齐（margin-left = --page-gutter） */
   margin-left: var(--page-gutter);
-  border-radius: var(--rounded-card, 8px);
+  border-radius: 0;
 }
 .frame .ph {
   position: relative;
