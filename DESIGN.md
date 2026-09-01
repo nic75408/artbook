@@ -99,9 +99,20 @@ components:
     ruleColor: "{colors.gold}"
     ruleOpacity: 0.6
   detail-close:
-    backgroundColor: "rgba(245, 241, 234, 0.88)"
+    backgroundColor: "rgba(245, 241, 234, 0.55)"
+    borderColor: "rgba(29, 27, 22, 0.08)"
+    backdropFilter: "blur(14px)"
+    boxShadow: "0 1px 4px rgba(29, 27, 22, 0.06)"
     textColor: "{colors.ink}"
     rounded: "50%"
+    activeBackgroundColor: "rgba(245, 241, 234, 0.85)"
+  folio:
+    backgroundColor: "rgba(245, 241, 234, 0.55)"
+    borderColor: "rgba(29, 27, 22, 0.08)"
+    backdropFilter: "blur(14px)"
+    idxColor: "{colors.ink}"
+    sepColor: "{colors.gold}"
+    totalColor: "{colors.ink-2}"
   fav-tool-button:
     backgroundColor: "{colors.bg-card}"
     textColor: "rgba(29, 27, 22, 1)"
@@ -250,8 +261,19 @@ Components map to CSS blocks in `app.css`:
   stretches the rule to 64px and darkens the Chinese line to primary ink.
   Replaces the previous circular black-fill learn button (decommissioned
   2026-09-01).
-- **Detail close (`.detail-close`):** Fixed circular button at top-right with light
-  bg and subtle shadow.
+- **Detail close (`.detail-close`):** Fixed circular button at top-right, 40×40,
+  with a **frosted-glass** background: `rgba(245,241,234,0.55)` + `backdrop-filter: blur(14px)`
+  and a faint 1px `rgba(29,27,22,0.08)` border. Shadow reduced to
+  `0 1px 4px rgba(29,27,22,0.06)` so the control no longer reads as a "sticker"
+  on top of the hero image. `:active` state raises background α back to 0.85
+  (touch feedback for iPhone; no `:hover`-only state). Text color stays
+  `colors.ink` — the near-black icon glyph carries the contrast, so WCAG 1.4.11
+  (≥ 3:1 for UI components) holds on both light and dark artworks.
+- **Folio (`.folio`):** Top-left rectangular pill showing `<idx> / <total>`,
+  **strictly symmetric with `.detail-close`**: identical background α (0.55),
+  border α (0.08), and blur (14px). Interior mixes Georgia italic gold slash
+  (`colors.gold`) with Songti SC numerals in `colors.ink` / `colors.ink-2`.
+  `pointer-events: none` so it never blocks the swipe gesture underneath.
 - **Favorite tool (`.action-row .fav-tool`):** Pill button downgraded to a secondary
   tool with reduced contrast and small icon.
 - **Primary action (`.action-btn`):** Gold-outlined pill that fills with gold on
@@ -319,3 +341,21 @@ Components map to CSS blocks in `app.css`:
   controls (`.fav-btn`, `.date-capsule`, `.action-btn`); secondary content
   navigation uses text links (currently only `.learn-inline`). Different
   visual families are intentional: the tier is the language.
+- **2026-09-01 — Detail top-controls α lowered to 0.55 + 14px blur (frosted glass):**
+  Product/design owner asked for lower opacity on the top-left folio and
+  top-right close button to reduce visual occlusion of the artwork.
+  Three-variant self-adjudicated review (A α 0.70, B α 0.55, C α 0.35) with
+  Playwright iPhone 390×844 screenshots on both a light artwork
+  (Cleveland 1941.647, palette lum 226) and a dark artwork
+  (Cleveland 1977.37, palette lum 8). A was indistinguishable from the
+  current 0.88 — didn't solve the ask. C crossed the readability floor:
+  the gold Georgia italic `/` and `30` fell below WCAG 1.4.11's 3:1 UI-component
+  contrast on the dark artwork (measured ~2.1:1). **B selected.** Both controls
+  keep identical α / border / blur to preserve the diagonal symmetry
+  established as the detail-page top anchor. Icon glyph and text colors are
+  unchanged; readability is carried by the near-black glyph + 14px backdrop
+  blur that flattens high-frequency painting texture. Evidence:
+  `sketches/detail-close-opacity/` (three-variant board, README) and
+  `evidence/detail-close-opacity/` (eight iPhone screenshots + overview).
+  A `prefers-reduced-transparency: reduce` fallback restores α 0.85 and
+  removes the blur.
