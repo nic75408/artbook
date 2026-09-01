@@ -12858,6 +12858,525 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1932.119.13.b/1932.119.13.b_web.jpg",
       "ratio": 0.457
+    },
+    {
+      "id": "cma-129386",
+      "issue": "2026-09-02",
+      "t": "十字架上的基督",
+      "a": "埃尔·格列柯",
+      "aid": "el-greco-spanish-1541-1614",
+      "y": 1605,
+      "mv": "矫饰主义",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "西班牙",
+        "ElGreco"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.222/1952.222_web.jpg",
+      "ratio": 1.727
+    },
+    {
+      "id": "cma-135592",
+      "issue": "2026-09-02",
+      "t": "龙虎图屏风",
+      "a": "雪村周继",
+      "aid": "sesson-shukei-japanese-c-1492-c-1577",
+      "y": 1546,
+      "mv": "禅画",
+      "tags": [
+        "水墨",
+        "动物",
+        "16世纪",
+        "日本",
+        "屏风",
+        "禅宗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.136/1959.136_web.jpg",
+      "ratio": 1.001
+    },
+    {
+      "id": "cma-159502",
+      "issue": "2026-09-02",
+      "t": "召唤",
+      "a": "威廉·阿道夫·布格罗",
+      "aid": "william-adolphe-bouguereau-french-1825-1905",
+      "y": 1896,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "学院派",
+        "19世纪",
+        "法国",
+        "布格罗",
+        "少女"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.272/1996.272_web.jpg",
+      "ratio": 1.481
+    },
+    {
+      "id": "cma-110566",
+      "issue": "2026-09-02",
+      "t": "寓言人物",
+      "a": "贝尔纳多·斯特罗齐",
+      "aid": "bernardo-strozzi-italian-1581-1644",
+      "y": 1636,
+      "mv": "巴洛克",
+      "tags": [
+        "寓言",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "热那亚画派",
+        "女性形象"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.133/1929.133_web.jpg",
+      "ratio": 1.452
+    },
+    {
+      "id": "cma-112831",
+      "issue": "2026-09-02",
+      "t": "黄光",
+      "a": "拉尔夫·A·布莱克洛克",
+      "aid": "ralph-a-blakelock-american-1847-1919",
+      "y": 1905,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "色调主义",
+        "19世纪",
+        "美国",
+        "光影",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1931.440/1931.440_web.jpg",
+      "ratio": 0.569
+    },
+    {
+      "id": "cma-136295",
+      "issue": "2026-09-02",
+      "t": "三马图",
+      "a": "任仁发",
+      "aid": "ren-renfa-chinese-1254-1328",
+      "y": 1320,
+      "mv": "元代院体",
+      "tags": [
+        "人马",
+        "工笔",
+        "元代",
+        "中国",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.181/1960.181_web.jpg",
+      "ratio": 0.122
+    },
+    {
+      "id": "cma-173180",
+      "issue": "2026-09-02",
+      "t": "圣佩德罗修道院（雪之圣母）",
+      "a": "弗雷德里克·埃德温·丘奇",
+      "aid": "frederic-edwin-church-american-1826-1900",
+      "y": 1879,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "哈德逊河派",
+        "19世纪",
+        "美国",
+        "宗教建筑",
+        "山地"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.684/1915.684_web.jpg",
+      "ratio": 0.643
+    },
+    {
+      "id": "cma-141200",
+      "issue": "2026-09-02",
+      "t": "达摩渡江图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1300,
+      "mv": "禅画",
+      "tags": [
+        "宗教",
+        "水墨",
+        "14世纪",
+        "中国",
+        "达摩",
+        "禅宗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.44/1964.44_web.jpg",
+      "ratio": 4.072
+    },
+    {
+      "id": "cma-103997",
+      "issue": "2026-09-02",
+      "t": "威尼斯少女",
+      "a": "弗兰克·杜维尼克",
+      "aid": "frank-duveneck-american-1848-1919",
+      "y": 1880,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "现实主义",
+        "19世纪",
+        "美国",
+        "威尼斯",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.173/1922.173_web.jpg",
+      "ratio": 1.413
+    },
+    {
+      "id": "cma-110952",
+      "issue": "2026-09-02",
+      "t": "风景",
+      "a": "乔治·因尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1888,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "色调主义",
+        "19世纪",
+        "美国",
+        "田园",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.464/1929.464_web.jpg",
+      "ratio": 0.823
+    },
+    {
+      "id": "cma-135432",
+      "issue": "2026-09-02",
+      "t": "虎图",
+      "a": "牧溪",
+      "aid": "fachang-muqi-chinese-1220-1280",
+      "y": 1250,
+      "mv": "禅画",
+      "tags": [
+        "动物",
+        "水墨",
+        "南宋",
+        "中国",
+        "牧溪",
+        "禅宗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.427.2/1958.427.2_web.jpg",
+      "ratio": 2.951
+    },
+    {
+      "id": "cma-125944",
+      "issue": "2026-09-02",
+      "t": "葡萄园",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1725,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "洛可可",
+        "18世纪",
+        "法国",
+        "田园",
+        "装饰画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.176.3/1948.176.3_web.jpg",
+      "ratio": 1.857
+    },
+    {
+      "id": "cma-149396",
+      "issue": "2026-09-02",
+      "t": "艺术家在罗马美第奇别墅的房间",
+      "a": "莱昂·柯涅",
+      "aid": "leon-cogniet-french-1794-1880",
+      "y": 1817,
+      "mv": "新古典主义",
+      "tags": [
+        "室内",
+        "自画像",
+        "19世纪",
+        "法国",
+        "罗马",
+        "美第奇别墅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.51/1978.51_web.jpg",
+      "ratio": 1.216
+    },
+    {
+      "id": "cma-109242",
+      "issue": "2026-09-02",
+      "t": "秋景与池塘",
+      "a": "亚历山大·H·怀恩特",
+      "aid": "alexander-h-wyant-american-1836-1892",
+      "y": 1875,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "秋景",
+        "哈德逊河画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.390/1927.390_web.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "cma-145719",
+      "issue": "2026-09-02",
+      "t": "《劫波经》与卡拉卡查里亚故事（正面）；婆罗门善提夜叉（背面）",
+      "a": "德瓦钱德拉",
+      "aid": "devachandra-indian",
+      "y": 1279,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "印度",
+        "耆那教",
+        "手稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.122/1971.122_web.jpg",
+      "ratio": 0.371
+    },
+    {
+      "id": "cma-155624",
+      "issue": "2026-09-02",
+      "t": "花瓶花卉与草虫、水族及庭石图",
+      "a": "冈部小波",
+      "aid": "okabe-ko-japanese",
+      "y": 1800,
+      "mv": "日本画",
+      "tags": [
+        "静物",
+        "19世纪",
+        "日本",
+        "花卉",
+        "岩谷小波",
+        "明治时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1990.68/1990.68_web.jpg",
+      "ratio": 2.206
+    },
+    {
+      "id": "cma-138542",
+      "issue": "2026-09-02",
+      "t": "溪山道隐图（仿倪瓒）",
+      "a": "陆治",
+      "aid": "lu-zhi-chinese-1496-1576",
+      "y": 1567,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "中国",
+        "文人画",
+        "仿倪瓒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.43/1962.43_web.jpg",
+      "ratio": 2.189
+    },
+    {
+      "id": "cma-108180",
+      "issue": "2026-09-02",
+      "t": "通往港口",
+      "a": "乔治·G·阿多梅特",
+      "aid": "george-g-adomeit-american-born-kingdom-of-prussia-now-lithuania-1879-1967",
+      "y": 1925,
+      "mv": "美国印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "港口",
+        "城镇风光"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.801/1925.801_web.jpg",
+      "ratio": 0.897
+    },
+    {
+      "id": "cma-160300",
+      "issue": "2026-09-02",
+      "t": "关羽刮骨疗毒图",
+      "a": "葛饰应为",
+      "aid": "katsushika-oi-japanese-c-1800-after-1857",
+      "y": 1840,
+      "mv": "浮世绘",
+      "tags": [
+        "叙事",
+        "浮世绘风格",
+        "19世纪",
+        "日本",
+        "历史题材",
+        "葛饰应为"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.178/1998.178_web.jpg",
+      "ratio": 2.05
+    },
+    {
+      "id": "cma-97154",
+      "issue": "2026-09-02",
+      "t": "圣母与圣子、施洗者圣约翰及天使",
+      "a": "皮耶特罗·德尔·多内洛",
+      "aid": "pietro-del-donzello-italian-1452-1509",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "15世纪",
+        "意大利",
+        "圣母",
+        "圆形画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.792/1916.792_web.jpg",
+      "ratio": 1.036
+    },
+    {
+      "id": "cma-159730",
+      "issue": "2026-09-02",
+      "t": "云壑松阴图",
+      "a": "王鉴",
+      "aid": "wang-jian-chinese-1598-1677",
+      "y": 1660,
+      "mv": "清初正统派",
+      "tags": [
+        "山水",
+        "清代",
+        "中国",
+        "松树",
+        "仿古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.105/1997.105_web.jpg",
+      "ratio": 2.255
+    },
+    {
+      "id": "cma-117794",
+      "issue": "2026-09-02",
+      "t": "小骑士",
+      "a": "乔治·德·福雷斯特·布鲁什",
+      "aid": "george-de-forest-brush-american-1855-1941",
+      "y": 1904,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "儿童",
+        "20世纪",
+        "美国",
+        "学院派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.41/1938.41_web.jpg",
+      "ratio": 1.315
+    },
+    {
+      "id": "cma-142664",
+      "issue": "2026-09-02",
+      "t": "七月",
+      "a": "奥托·H·巴赫",
+      "aid": "otto-h-bacher-american-1856-1909",
+      "y": 1893,
+      "mv": "印象派",
+      "tags": [
+        "人体",
+        "户外",
+        "19世纪",
+        "美国",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.387/1966.387_web.jpg",
+      "ratio": 1.586
+    },
+    {
+      "id": "cma-157228",
+      "issue": "2026-09-02",
+      "t": "宁静的饮水处——辽阔无边的畜牧场景",
+      "a": "阿尔万·费舍尔",
+      "aid": "alvan-fisher-american-1792-1863",
+      "y": 1816,
+      "mv": "美国风景画",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "畜牧",
+        "田园",
+        "哈德逊河派先驱"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.106/1994.106_web.jpg",
+      "ratio": 0.707
+    },
+    {
+      "id": "cma-141220",
+      "issue": "2026-09-02",
+      "t": "加尔瓦略山与加尔都西会修士",
+      "a": "让·德·博梅",
+      "aid": "jean-de-beaumetz-french-c-1335-1396",
+      "y": 1389,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "受难",
+        "14世纪",
+        "法国",
+        "加尔都西会"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.454/1964.454_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "cma-95204",
+      "issue": "2026-09-02",
+      "t": "风竹图",
+      "a": "马元",
+      "aid": "ma-yu-chinese-active-1706-1724",
+      "y": 1724,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "清代",
+        "中国",
+        "竹子",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.96/1915.96_web.jpg",
+      "ratio": 2.387
+    },
+    {
+      "id": "cma-109974",
+      "issue": "2026-09-02",
+      "t": "他的第一位模特——拉塞尔小姐",
+      "a": "威廉·莫里斯·亨特",
+      "aid": "william-morris-hunt-american-1824-1879",
+      "y": 1873,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "工作室",
+        "侧颜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.581/1928.581_web.jpg",
+      "ratio": 1.583
+    },
+    {
+      "id": "cma-155066",
+      "issue": "2026-09-02",
+      "t": "布袋与道教仙人：布袋",
+      "a": "久友信",
+      "aid": "kyuseki-tomonobu-japanese-1653-1721",
+      "y": 1650,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "布袋",
+        "道教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.8.2/1989.8.2_web.jpg",
+      "ratio": 2.356
     }
   ]
 }
