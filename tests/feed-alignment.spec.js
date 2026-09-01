@@ -17,38 +17,29 @@ test.describe('首页作品卡版心对齐', () => {
     await page.waitForSelector('.slide', { timeout: 5000 });
   });
 
-  test('画作、作品文字、工具图标左边界对齐', async ({ page }) => {
+  test('画作模块相对视口居中（DESIGN.md 2026-09-01 拍板）', async ({ page }) => {
     const slides = await page.$$('.slide');
     expect(slides.length).toBeGreaterThanOrEqual(1);
 
-    const measurements = [];
+    const vw = page.viewportSize().width;
     for (let i = 0; i < Math.min(slides.length, 10); i++) {
       const slide = slides[i];
       const frame = await slide.$('.frame');
       const names = await slide.$('.names');
-      const learnBtn = await slide.$('.learn-btn');
+      const learn = await slide.$('.learn-inline');
+      if (!(frame && names && learn)) continue;
 
-      if (frame && names && learnBtn) {
-        const frameBox = await frame.boundingBox();
-        const namesBox = await names.boundingBox();
-        const btnBox = await learnBtn.boundingBox();
+      const frameBox = await frame.boundingBox();
+      const namesBox = await names.boundingBox();
+      const learnBox = await learn.boundingBox();
 
-        // 记录左边界 X 坐标
-        measurements.push({
-          slideIndex: i,
-          frameLeft: frameBox.x,
-          namesLeft: namesBox.x,
-          // learn-btn 是右下角按钮，不参与左对齐检查
-        });
-      }
-    }
-
-    // 验证所有卡片的左边界一致（误差 ≤ 2px）
-    if (measurements.length > 0) {
-      const leftValues = measurements.map(m => m.frameLeft);
-      const minLeft = Math.min(...leftValues);
-      const maxLeft = Math.max(...leftValues);
-      expect(maxLeft - minLeft).toBeLessThanOrEqual(2);
+      // 画框左右留白相等 → 相对视口居中（误差 ≤ 2px）
+      expect(Math.abs(frameBox.x - (vw - (frameBox.x + frameBox.width)))).toBeLessThanOrEqual(2);
+      // 题名块居中且宽 min(280px, 86vw) → 视口 390 时左右各 55px
+      expect(Math.abs(namesBox.x - (vw - (namesBox.x + namesBox.width)))).toBeLessThanOrEqual(2);
+      expect(namesBox.width).toBeCloseTo(Math.min(280, vw * 0.86), 0);
+      // 「了解更多」文字链居中
+      expect(Math.abs((learnBox.x + learnBox.width / 2) - vw / 2)).toBeLessThanOrEqual(2);
     }
   });
 
@@ -91,13 +82,42 @@ test.describe('首页作品卡版心对齐', () => {
     expect(namesMarginTop).toBe(24);
   });
 
-  test('右下角了解更多按钮尺寸收紧到 84px', async ({ page }) => {
-    const learnBtn = await page.$('.learn-btn');
-    expect(learnBtn).toBeTruthy();
+  test('「了解更多」为居中内联展签文字链（无黑圆盘按钮）', async ({ page }) => {
+    // 旧的 .learn-btn 黑色圆盘已移除
+    expect(await page.$('.learn-btn')).toBeNull();
 
-    const btnBox = await learnBtn.boundingBox();
-    expect(btnBox.width).toBe(84);
-    expect(btnBox.height).toBe(84);
+    const link = await page.$('.learn-inline');
+    expect(link).toBeTruthy();
+    expect(await link.evaluate((el) => el.tagName)).toBe('A');
+
+    // 相对视口水平居中（误差 ≤ 2px）
+    const box = await link.boundingBox();
+    const vw = page.viewportSize().width;
+    expect(Math.abs((box.x + box.width / 2) - vw / 2)).toBeLessThanOrEqual(2);
+
+    // 规格数值：横线 48×1px、英文 15px、中文 13px letter-spacing 0.3em
+    const m = await page.evaluate(() => {
+      const rule = document.querySelector('.learn-inline__rule');
+      const en = document.querySelector('.learn-inline__en');
+      const zh = document.querySelector('.learn-inline__zh');
+      const cs = getComputedStyle;
+      return {
+        ruleW: rule.getBoundingClientRect().width,
+        ruleH: rule.getBoundingClientRect().height,
+        ruleOpacity: cs(rule).opacity,
+        enSize: cs(en).fontSize,
+        enStyle: cs(en).fontStyle,
+        zhSize: cs(zh).fontSize,
+        zhSpacing: cs(zh).letterSpacing,
+      };
+    });
+    expect(m.ruleW).toBeCloseTo(48, 0);
+    expect(m.ruleH).toBeCloseTo(1, 0);
+    expect(parseFloat(m.ruleOpacity)).toBeCloseTo(0.6, 2);
+    expect(m.enSize).toBe('15px');
+    expect(m.enStyle).toBe('italic');
+    expect(m.zhSize).toBe('13px');
+    expect(parseFloat(m.zhSpacing)).toBeCloseTo(3.9, 1); // 0.3em × 13px
   });
 
   test('首页无左下角收藏按钮', async ({ page }) => {

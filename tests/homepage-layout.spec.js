@@ -45,8 +45,7 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     }
   });
 
-  test('标题与画框左边界对齐', async ({ page }) => {
-    // 获取第一个作品卡的画框和标题容器
+  test('画框与题名均相对视口居中（不再左推 --page-gutter）', async ({ page }) => {
     const firstSlide = await page.$('.slide');
     expect(firstSlide).toBeTruthy();
 
@@ -55,16 +54,24 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     expect(frame).toBeTruthy();
     expect(names).toBeTruthy();
 
-    // 获取画框和标题的 margin-left
+    // 两处 margin-left 已按 DESIGN.md 2026-09-01 拍板删除
     const [frameMargin, namesMargin] = await Promise.all([
       frame.evaluate(el => window.getComputedStyle(el).marginLeft),
       names.evaluate(el => window.getComputedStyle(el).marginLeft),
     ]);
+    expect(frameMargin).toBe('0px');
+    expect(namesMargin).toBe('0px');
 
-    // 验证标题左边界与画框对齐（都是 22px，即 --page-gutter）
-    expect(frameMargin).toBe('22px');
-    expect(namesMargin).toBe('22px');
-    expect(frameMargin).toBe(namesMargin);
+    // .slide 主轴改为 center
+    const alignItems = await firstSlide.evaluate(el => window.getComputedStyle(el).alignItems);
+    expect(alignItems).toBe('center');
+
+    // 左右留白相等
+    const vw = page.viewportSize().width;
+    for (const el of [frame, names]) {
+      const b = await el.boundingBox();
+      expect(Math.abs(b.x - (vw - (b.x + b.width)))).toBeLessThanOrEqual(2);
+    }
   });
 
   test('画框为直角边框（border-radius: 0）', async ({ page }) => {

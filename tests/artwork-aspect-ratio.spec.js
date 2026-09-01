@@ -34,7 +34,7 @@ test.describe('画作版式适配', () => {
       const slide = slides[i];
       const frame = await slide.$('.frame');
       const names = await slide.$('.names');
-      const learnBtn = await slide.$('.learn-btn');
+      const learnBtn = await slide.$('.learn-inline');
 
       if (frame && names && learnBtn) {
         const frameBox = await frame.boundingBox();
@@ -96,13 +96,42 @@ test.describe('画作版式适配', () => {
     expect(namesMarginTop).toBe(24);
   });
 
-  test('右下角了解更多按钮尺寸收紧到 84px', async ({ page }) => {
-    const learnBtn = await page.$('.learn-btn');
-    expect(learnBtn).toBeTruthy();
+  test('「了解更多」为居中内联展签文字链（无黑圆盘按钮）', async ({ page }) => {
+    // 旧的 .learn-btn 黑色圆盘已移除
+    expect(await page.$('.learn-btn')).toBeNull();
 
-    const btnBox = await learnBtn.boundingBox();
-    expect(btnBox.width).toBe(84);
-    expect(btnBox.height).toBe(84);
+    const link = await page.$('.learn-inline');
+    expect(link).toBeTruthy();
+    expect(await link.evaluate((el) => el.tagName)).toBe('A');
+
+    // 相对视口水平居中（误差 ≤ 2px）
+    const box = await link.boundingBox();
+    const vw = page.viewportSize().width;
+    expect(Math.abs((box.x + box.width / 2) - vw / 2)).toBeLessThanOrEqual(2);
+
+    // 规格数值：横线 48×1px、英文 15px、中文 13px letter-spacing 0.3em
+    const m = await page.evaluate(() => {
+      const rule = document.querySelector('.learn-inline__rule');
+      const en = document.querySelector('.learn-inline__en');
+      const zh = document.querySelector('.learn-inline__zh');
+      const cs = getComputedStyle;
+      return {
+        ruleW: rule.getBoundingClientRect().width,
+        ruleH: rule.getBoundingClientRect().height,
+        ruleOpacity: cs(rule).opacity,
+        enSize: cs(en).fontSize,
+        enStyle: cs(en).fontStyle,
+        zhSize: cs(zh).fontSize,
+        zhSpacing: cs(zh).letterSpacing,
+      };
+    });
+    expect(m.ruleW).toBeCloseTo(48, 0);
+    expect(m.ruleH).toBeCloseTo(1, 0);
+    expect(parseFloat(m.ruleOpacity)).toBeCloseTo(0.6, 2);
+    expect(m.enSize).toBe('15px');
+    expect(m.enStyle).toBe('italic');
+    expect(m.zhSize).toBe('13px');
+    expect(parseFloat(m.zhSpacing)).toBeCloseTo(3.9, 1); // 0.3em × 13px
   });
 
   test('首页无左下角收藏按钮', async ({ page }) => {
