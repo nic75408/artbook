@@ -65,7 +65,8 @@ async function measureDetailPage() {
       },
       related: {
         left: relatedRect.left,
-        leftOffsetFromBody: relatedRect.left - bodyRect.left
+        paddingLeft: parseFloat(getComputedStyle(relatedScroll).paddingLeft) || 0,
+        paddingRight: parseFloat(getComputedStyle(relatedScroll).paddingRight) || 0
       },
       elements: {
         title: { left: titleRect.left },
@@ -89,15 +90,16 @@ async function measureDetailPage() {
   console.log(`  - 左内边距：${measurements.view.paddingLeft}px`);
   
   console.log('\n.detail-hero:');
-  console.log(`  - 宽度：${measurements.hero.width}px (期望：390px, 满视口)`);
-  console.log(`  - 左边界：${measurements.hero.left}px (期望：0, 满视口布局)`);
+  console.log(`  - 宽度：${measurements.hero.width}px (期望：390px, 满视口出血)`);
+  console.log(`  - 左边界：${measurements.hero.left}px (期望：0, 完全贴边)`);
   
   console.log('\n.detail-body:');
   console.log(`  - 左内边距：${measurements.body.paddingLeft}px (期望：22px)`);
   
   console.log('\n.related-scroll:');
-  console.log(`  - 左边界：${measurements.related.left}px`);
-  console.log(`  - 距离 .detail-body 左边缘：${measurements.related.leftOffsetFromBody}px (期望：≈22px)`);
+  console.log(`  - 左边界：${measurements.related.left}px (期望：0，模块自身贴边)`);
+  console.log(`  - 左内边距：${measurements.related.paddingLeft}px (期望：22px)`);
+  console.log(`  - 右内边距：${measurements.related.paddingRight}px (期望：0px，右侧贴边)`);
   
   console.log('\n元素左对齐测量 (相对于视口左边):');
   console.log(`  - 标题 .work-title 左边界：${measurements.elements.title.left}px`);
@@ -105,14 +107,14 @@ async function measureDetailPage() {
   console.log(`  - 信息块 .work-meta-compact 左边界：${measurements.elements.info.left}px`);
   console.log(`  - 小标题 .section-title 左边界：${measurements.elements.sectionTitle.left}px`);
   
-  // 计算对齐误差（相对于 detail-body 的 padding）
+  // 对齐基准：视口左缘 + page-gutter（页面级贴边后，各模块内边距即为版心基准）
   const baseLeft = measurements.body.paddingLeft;
-  console.log('\n左对齐误差 (相对于 .detail-body padding-left):');
+  console.log('\n左对齐误差 (相对于 page-gutter 基准):');
   console.log(`  - 标题误差：${Math.abs(measurements.elements.title.left - baseLeft)}px (期望：≤2px)`);
   console.log(`  - 作者误差：${Math.abs(measurements.elements.artist.left - baseLeft)}px (期望：≤2px)`);
   console.log(`  - 信息误差：${Math.abs(measurements.elements.info.left - baseLeft)}px (期望：≤2px)`);
   console.log(`  - 小标题误差：${Math.abs(measurements.elements.sectionTitle.left - baseLeft)}px (期望：≤2px)`);
-  console.log(`  - 相关推荐误差：${Math.abs(measurements.related.leftOffsetFromBody - baseLeft)}px (期望：≤2px)`);
+  console.log(`  - 相关推荐误差：${Math.abs(measurements.related.paddingLeft - baseLeft)}px (期望：≤2px)`);
   
   // 验证所有对齐
   const allAligned = 
@@ -120,7 +122,9 @@ async function measureDetailPage() {
     Math.abs(measurements.elements.artist.left - baseLeft) <= 2 &&
     Math.abs(measurements.elements.info.left - baseLeft) <= 2 &&
     Math.abs(measurements.elements.sectionTitle.left - baseLeft) <= 2 &&
-    Math.abs(measurements.related.leftOffsetFromBody - baseLeft) <= 2;
+    Math.abs(measurements.related.paddingLeft - baseLeft) <= 2 &&
+    measurements.hero.left === 0 &&
+    measurements.related.paddingRight === 0;
   
   console.log(`\n${allAligned ? '✓ 所有元素左对齐符合规范 (page-gutter: 22px)' : '✗ 存在对齐偏差'}`);
   

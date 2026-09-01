@@ -24,21 +24,13 @@ export async function mount(el, { id }) {
 
 function render(el, w) {
   const ratio = w.image.ratio || 1;
-  
-  // 判断是否为目标作品（出血布局）
-  // 使用出血布局的作品：适合沉浸式观看的大幅作品
-  const BLEED_LAYOUT_IDS = new Set([
-    "cma-104168", // 《阿谢尔森林的彩虹》
-    "cma-150353", // 《古城废墟》
-  ]);
-  const isBleedLayout = BLEED_LAYOUT_IDS.has(w.id);
 
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
 
   el.innerHTML = `
-  <div class="detail${isBleedLayout ? ' detail-bleed' : ''}">
-    <div class="detail-hero${isBleedLayout ? ' detail-hero-bleed' : ''}">
+  <div class="detail">
+    <div class="detail-hero">
       <div class="ph" style="aspect-ratio:calc(1/${ratio})">
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
       </div>
@@ -103,10 +95,12 @@ function render(el, w) {
       <div class="action-row">
         <button class="action-btn fav-tool" id="fav-act">${icons.bookmark} 收藏</button>
       </div>
-      <div class="related" id="related">
-        <h2 class="section-title">相关推荐</h2>
-        <div class="related-scroll" id="related-scroll"></div>
-      </div>
+    </div>
+
+    <!-- 相关推荐：独立模块，左侧对齐版心、右侧贴边可滑出屏幕 -->
+    <div class="related" id="related">
+      <h2 class="section-title">相关推荐</h2>
+      <div class="related-scroll" id="related-scroll"></div>
     </div>
   </div>`;
 

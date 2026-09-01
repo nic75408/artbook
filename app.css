@@ -349,6 +349,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情 */
 
+/* 页面级贴边：详情页不设左右 padding，也不设版心约束，
+   各模块自行用 --page-gutter 管自己的内边距（头图则完全出血） */
 .detail { padding-bottom: calc(var(--space-xl) + var(--safe-b)); }
 
 /* ============================================================ 作品信息块：紧邻主图的标题与元信息 */
@@ -356,8 +358,6 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .artwork-info-card {
   padding: var(--page-gutter) var(--page-gutter) var(--space-sm);
   background: var(--bg);
-  max-width: var(--content-max);
-  margin: 0 auto;
 }
 
 /* H1: 作品名层级 — 醒目、与品牌标题协调 */
@@ -479,15 +479,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情页头部 */
 
+/* 头图出血：左右完全贴边，铺满屏幕宽度（页面级贴边 + 模块自管内边距） */
 .detail-hero { 
   position: relative; 
-  max-width: var(--content-max);
-  margin: 0 auto;
+  width: 100%;
 }
 .detail-hero .ph { 
   position: relative; 
   width: 100%;
-  max-width: var(--content-max);
   background: var(--bg-card);  /* letterbox 背景 */
 }
 .detail-hero img {
@@ -501,16 +500,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .detail-hero img.loaded { opacity: 1; }
 
-/* 出血布局：针对特定作品（如《阿谢尔森林的彩虹》） */
-.detail-hero-bleed {
-  max-width: none;
-  margin: 0;
-  padding: 0 calc(var(--space-sm) + var(--safe-l)) 0 calc(var(--space-sm) + var(--safe-r));
-}
-.detail-hero-bleed .ph {
-  max-width: none;
-  width: 100%;
-}
+/* 出血布局已统一：所有头图默认全宽出血，
+   原 .detail-hero-bleed / .detail-bleed 专用类已废弃并移除 */
 
 /* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
 .detail-close {
@@ -530,7 +521,9 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   z-index: 30;
 }
 
-.detail-body { padding: var(--space-md) var(--page-gutter) 0; max-width: var(--content-max); margin: 0 auto; }
+/* 正文区：模块自管左右内边距（页面级贴边，无版心居中） */
+.detail-body { padding: var(--space-md) var(--page-gutter) 0; }
+
 
 .tags { 
   display: flex; 
@@ -667,32 +660,32 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   color: var(--gold);
 }
 
+/* 相关推荐：左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘 */
 .related { 
   padding-top: var(--grid-gap); 
   padding-left: 0;
 }
+/* 标题左边界与卡片列表、正文版心一致（22px）。
+   注意：本规则特异性（0,2,0）高于 .related h2（0,1,1），
+   gutter 必须写在这里才生效——写在 .related h2 上会被这条覆盖。 */
 .related .section-title {
   margin: 0 0 var(--grid-gap) 0;
-  padding-left: 0;
+  padding-left: var(--page-gutter);
 }
 .related h2 {
   font-size: var(--text-work);
   font-weight: 700;
   padding: 0 0 var(--grid-gap);
-  max-width: var(--content-max);
-  margin: 0 auto;
-  /* 标题左边界与版心对齐基准一致 */
+  margin: 0;
   padding-left: var(--page-gutter);
 }
 .related-scroll {
   display: flex;
   gap: var(--grid-gap);
   overflow-x: auto;
-  padding: 0 var(--page-gutter) var(--space-sm);
+  /* 左侧 page-gutter 内边距、右侧贴边（0）：最后一张卡可被屏幕右缘裁切 */
+  padding: 0 0 var(--space-sm) var(--page-gutter);
   scrollbar-width: none;
-  /* 推荐区整体与版心对齐 */
-  max-width: var(--content-max);
-  margin: 0 auto;
   /* 第一个卡片的左边界与版心对齐 */
   justify-content: flex-start;
 }
