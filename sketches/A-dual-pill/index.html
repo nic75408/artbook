@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Artbook · Sketch A · 双胶囊底栏</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../themes/tokens.css">
+<style>
+  /* 方案 A · 「了解更多」= 与日期胶囊同族的米色胶囊
+     位置：画作下方（作者名之下），左右居中；日期胶囊仍固定于视口底部
+     动作层级：胶囊 = 二级动作；主要动作仍是「点画框进详情」 */
+
+  .learn-pill {
+    /* 相对于 .slide 的 flex 布局，跟着 .names 一起水平居中 */
+    margin-top: 20px;              /* 与作者行的呼吸 */
+    align-self: center;            /* 相对 slide 主轴居中 */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: var(--rounded-pill);
+    padding: 8px 18px;
+
+    font-family: var(--sans-zh);
+    font-size: var(--text-meta);
+    letter-spacing: 0.06em;
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: color 200ms, border-color 200ms, background 200ms;
+  }
+  .learn-pill:active {
+    background: var(--bg-card);
+    border-color: var(--gold);
+    color: var(--ink);
+  }
+  .learn-pill .chev {
+    width: 14px; height: 14px;
+    stroke: var(--gold);
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* 说明浮层（视觉板专用，不进生产） */
+  .callout {
+    position: absolute; right: 12px; top: 12px;
+    max-width: 200px;
+    font-family: var(--sans-zh); font-size: 11px; line-height: 1.5;
+    color: var(--ink-2); background: rgba(253,251,247,0.9);
+    border: 1px solid var(--line); padding: 8px 10px; border-radius: 4px;
+    z-index: 50;
+  }
+</style>
+</head>
+<body>
+
+<div class="viewport">
+  <div class="viewport-label">A · DUAL PILL · 390×844</div>
+
+  <header class="feed-header">
+    <div class="wordmark">艺术手册</div>
+    <button class="fav-btn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      收藏夹
+    </button>
+  </header>
+
+  <section class="slide">
+    <div class="frame">
+      <div class="ph"></div>
+    </div>
+    <div class="names">
+      <div class="artist-zh">雷神图屏风</div>
+      <div class="title-en">俵屋宗达</div>
+    </div>
+    <button class="learn-pill" aria-label="了解更多">
+      了解更多
+      <svg class="chev" viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </section>
+
+  <button class="date-capsule">
+    2026/08/31
+    <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+
+  <div class="callout">
+    <b>A · 双胶囊底栏</b><br>
+    「了解更多」= 米色胶囊，与收藏夹按钮 / 日期胶囊完全同族<br>
+    画作模块整体相对视口居中<br>
+    黑圆盘 + 环绕字 + 旋转 全部移除
+  </div>
+</div>
+
+</body>
+</html>

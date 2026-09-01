@@ -1,0 +1,164 @@
+/* Artbook 设计系统 tokens（DESIGN.md 提取，与 app.css :root 一致） */
+:root {
+  /* colors */
+  --bg: #F5F1EA;
+  --bg-card: #FDFBF7;
+  --ink: #1D1B16;
+  --ink-2: #6B6558;
+  --gold: #8C6D3F;
+  --line: #E4DDD0;
+
+  /* typography families */
+  --serif-zh: "Songti SC", "Noto Serif CJK SC", serif;
+  --serif-en: Georgia, "Times New Roman", serif;
+  --sans-zh: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+
+  /* type scale */
+  --text-brand: 22px;      /* .brand-title */
+  --text-work: 20px;       /* .work-title (feed) */
+  --text-artwork-zh: 26px; /* .work-title-zh (detail) */
+  --text-artwork-en: 17px; /* .work-title-en */
+  --text-body: 16px;
+  --text-meta: 14px;
+  --text-xs: 12px;
+
+  /* spacing */
+  --page-gutter: 22px;
+  --content-max: 340px;
+  --section-v: 24px;
+  --space-xs: 6px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+
+  /* radii */
+  --rounded-pill: 999px;
+  --rounded-card: 8px;
+}
+
+/* 视觉板通用重置：给 iPhone 390×844 视口 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; }
+body {
+  font-family: var(--sans-zh);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  min-height: 100dvh;
+}
+
+/* 视觉板容器：模拟 iPhone 390×844 viewport 上的一屏 */
+.viewport {
+  width: 390px;
+  min-height: 844px;
+  margin: 20px auto;
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.viewport-label {
+  position: absolute; top: 4px; left: 8px;
+  font-size: 10px; color: var(--ink-2); opacity: 0.5;
+  font-family: var(--sans-zh); letter-spacing: 0.1em;
+  z-index: 100;
+}
+
+/* --- 通用组件：header / brand / frame / names / date-capsule --- */
+.feed-header {
+  position: absolute; top: 0; left: 0; right: 0;
+  padding: 18px 22px 0;
+  display: flex; justify-content: space-between; align-items: center;
+  z-index: 10;
+}
+.wordmark {
+  font-family: var(--serif-zh);
+  font-size: var(--text-brand);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--ink);
+}
+.fav-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px;
+  background: rgba(248, 250, 252, 0.85);
+  border: 1px solid var(--line);
+  border-radius: var(--rounded-pill);
+  font-family: var(--sans-zh);
+  font-size: var(--text-meta);
+  color: rgba(15, 23, 42, 0.55);
+}
+.fav-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.6; }
+
+.slide {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center;              /* ← 核心：模块相对视口居中 */
+  justify-content: center;
+  padding: 72px 22px 140px;
+}
+.frame {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  padding: 8px;
+  width: min(280px, 86vw);          /* 与 app.css .frame .ph 一致 */
+}
+.frame .ph {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(120deg, #d4b573 0%, #b8925a 30%, #8a6b3f 55%, #4a3722 100%);
+  position: relative;
+}
+/* 装饰性画作占位（示意雷神图屏风的金地墨色） */
+.frame .ph::before {
+  content: "";
+  position: absolute; left: 20%; top: 20%; width: 40%; height: 40%;
+  background: radial-gradient(circle, rgba(255,240,220,0.7) 0%, rgba(120,60,30,0.4) 50%, transparent 100%);
+  border-radius: 50%;
+  filter: blur(2px);
+}
+.frame .ph::after {
+  content: "";
+  position: absolute; right: 15%; top: 40%; width: 30%; height: 20%;
+  background: linear-gradient(90deg, transparent, rgba(20,10,5,0.7), transparent);
+  transform: skewX(-15deg);
+}
+
+.names {
+  margin-top: var(--section-v);
+  width: min(280px, 86vw);          /* 与 .frame 同宽，跟随居中 */
+  text-align: left;                 /* 文字左对齐仍保留，模块整体居中 */
+  padding: 0 8px;                   /* 与 frame 内衬对齐 */
+}
+.artist-zh {
+  font-family: var(--serif-zh);
+  font-size: var(--text-work);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+.title-en {
+  font-family: var(--sans-zh);
+  font-size: var(--text-meta);
+  color: var(--gold);
+  margin-top: var(--space-xs);
+  line-height: 1.4;
+}
+
+.date-capsule {
+  position: absolute; left: 50%;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  font-family: var(--sans-zh);
+  font-size: 15px;
+  color: var(--ink-2);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--rounded-pill);
+  padding: 6px 16px;
+  z-index: 21;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.date-capsule svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 1.6; }
