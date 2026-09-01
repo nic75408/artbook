@@ -206,13 +206,24 @@ rules to prevent overflow on mobile cold load:
 
 ### Detail page (`.detail-hero .ph`)
 
-- **Maximum width:** `min(100%, 340px)` — constrained by content-max
+- **Width:** `100%` of the viewport — **full bleed, no content-max constraint**.
+  The detail page uses "page-level bleed + per-module padding": the page itself has
+  no horizontal padding, the hero bleeds edge to edge, and every other module
+  (`.artwork-info-card`, `.detail-body`, `.related`) applies its own
+  `var(--page-gutter)` padding.
 - **Aspect ratio:** Respected via inline `aspect-ratio: calc(1 / var(--r))`
 - **Object-fit:** `contain` to ensure full artwork visibility without cropping
 
+### Detail page related-works rail (`.related-scroll`)
+
+- **Padding:** `0 0 var(--space-sm) var(--page-gutter)` — left edge aligns to the
+  22px gutter, right side is flush (0) so the rail can scroll out past the screen
+  edge, signalling more content.
+
 ### Universal rules
 
-- All artwork containers use `max-width: var(--content-max)` and `margin: 0 auto`
+- Feed-page artwork containers use `max-width: var(--content-max)` and `margin: 0 auto`.
+  The detail-page hero is the deliberate exception: it is full-bleed.
 - Left alignment基准 is `--align-origin: var(--page-gutter)` for visual consistency
 - Frame borders (1px) and padding (8px) are included in the width calculation
 

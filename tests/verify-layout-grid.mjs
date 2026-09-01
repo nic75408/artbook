@@ -101,12 +101,16 @@ async function measureLayout() {
   await page.waitForSelector('#view .detail-hero img', { timeout: 10000 });
   console.log('.detail-hero img 已渲染');
 
-  // 详情页 content-max
-  const detailContentMax = await page.evaluate(() => {
+  // 详情页头图：页面级贴边，铺满视口宽（卡 t_a9d35e89 改版）
+  const detailHeroWidth = await page.evaluate(() => {
     const hero = document.querySelector('.detail-hero');
     return hero.offsetWidth;
   });
-  console.log(`8. 详情页 content-max: ${detailContentMax}px (期望: 340px)`);
+  const detailHeroLeft = await page.evaluate(() => {
+    return document.querySelector('.detail-hero').getBoundingClientRect().left;
+  });
+  console.log(`8. 详情页头图宽度：${detailHeroWidth}px (期望：390px, 满视口出血)`);
+  console.log(`   详情页头图左边界：${detailHeroLeft}px (期望：0, 完全贴边)`);
 
   // 详情页 page-gutter
   const detailPageGutter = await page.evaluate(() => {
@@ -116,15 +120,17 @@ async function measureLayout() {
   });
   console.log(`9. 详情页 page-gutter: ${detailPageGutter}px (期望: 22px)`);
 
-  // 相关推荐区左对齐（相对于 .detail-body 内容区）
+  // 相关推荐区左边界（改版后：模块自管内边距，直接对齐视口 page-gutter）
   const relatedLeft = await page.evaluate(() => {
-    const detailBody = document.querySelector('.detail-body');
     const scroll = document.querySelector('.related-scroll');
-    const bodyRect = detailBody.getBoundingClientRect();
-    const scrollRect = scroll.getBoundingClientRect();
-    return scrollRect.left - bodyRect.left;
+    return parseFloat(getComputedStyle(scroll).paddingLeft);
   });
-  console.log(`10. 相关推荐区左边界距离 .detail-body 左边缘：${relatedLeft}px (期望：≈22px)`);
+  console.log(`10. 相关推荐区左内边距：${relatedLeft}px (期望：22px)`);
+  const relatedRight = await page.evaluate(() => {
+    const scroll = document.querySelector('.related-scroll');
+    return parseFloat(getComputedStyle(scroll).paddingRight);
+  });
+  console.log(`11. 相关推荐区右内边距：${relatedRight}px (期望：0px，右侧贴边)`);
 
   // 捕获详情页布局证据截图（可选）
   try {
@@ -155,9 +161,11 @@ async function measureLayout() {
     { name: '画框左边界', actual: frameLeft, expected: 22, tolerance: 1 },
     { name: '题名区左边界', actual: namesLeft, expected: 22, tolerance: 1 },
     { name: '对齐误差', actual: alignmentError, expected: 0, max: 2 },
-    { name: '详情页 content-max', actual: detailContentMax, expected: 340, tolerance: 0 },
+    { name: '详情页头图宽度', actual: detailHeroWidth, expected: 390, tolerance: 0 },
+    { name: '详情页头图左边界', actual: detailHeroLeft, expected: 0, tolerance: 0 },
     { name: '详情页 page-gutter', actual: detailPageGutter, expected: 22, tolerance: 0 },
-    { name: '相关推荐区左边界', actual: relatedLeft, expected: 22, tolerance: 1 },
+    { name: '相关推荐区左内边距', actual: relatedLeft, expected: 22, tolerance: 0 },
+    { name: '相关推荐区右内边距', actual: relatedRight, expected: 0, tolerance: 0 },
   ];
 
   let allPassed = true;
