@@ -688,6 +688,128 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   color: var(--gold);
 }
 
+/* ============================================================ 详情页手势翻页（t_13662686） */
+
+/* 页码 folio：左上米底半透明胶囊，Georgia 斜体 + Songti SC 分隔号 */
+.folio {
+  position: fixed;
+  top: calc(12px + var(--safe-t));
+  left: calc(12px + var(--safe-l));
+  z-index: 25;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  /* 与 .detail-close 完全同底色，构成左右上对角对称 */
+  background: rgba(245, 241, 234, 0.88);
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  border-radius: 2px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  font-family: var(--serif-en);
+  font-style: italic;
+  color: var(--gold);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  pointer-events: none;   /* 不阻挡下层手势 */
+}
+.folio-idx {
+  font-family: var(--serif-zh);
+  font-style: normal;
+  color: var(--ink);
+  font-size: 15px;
+}
+.folio-sep {
+  opacity: 0.5;
+  margin: 0 2px;
+}
+.folio-total {
+  font-family: var(--serif-zh);
+  font-style: normal;
+  color: var(--ink-2);
+  font-size: 13px;
+}
+
+/* 手势拖动中的方向羽箭：金色，右缘或左缘半圆胶囊 */
+.detail-swipe-hint {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 26;
+  width: 44px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-family: var(--serif-en);
+  font-size: 22px;
+  background: rgba(253, 251, 247, 0.88);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+.detail-swipe-hint.right {
+  right: 0;
+  border-radius: 30px 0 0 30px;
+}
+.detail-swipe-hint.left {
+  left: 0;
+  border-radius: 0 30px 30px 0;
+}
+
+/* 到头 / 到尾软胶囊：底部深墨，1.8s 淡出 */
+.detail-end-notice {
+  position: fixed;
+  bottom: calc(30px + var(--safe-b));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 45;
+  background: rgba(29, 27, 22, 0.82);
+  color: rgba(253, 251, 247, 0.95);
+  font-family: var(--sans-zh);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  padding: 10px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
+}
+.detail-end-notice.visible {
+  opacity: 1;
+}
+
+/* 淡入淡出层：作用于 .detail 整体，由 JS 通过 style.opacity 控制拖动中的中间态；
+   命中翻页时用 .fade-out / .fade-in 触发 240ms 过渡。 */
+.detail.fade-out {
+  opacity: 0;
+  transition: opacity 240ms ease;
+}
+.detail.fade-in {
+  opacity: 0;
+  animation: detail-fade-in 240ms 40ms ease forwards;
+}
+@keyframes detail-fade-in {
+  to { opacity: 1; }
+}
+
+/* 可访问性：降级为硬切。
+   注意 !important：文件末尾（约 1109 行）有一条全局
+   `*{transition-duration:0.001s!important}` 的 reduced-motion 兜底，
+   不加 !important 的话这里的 30ms 量出来会是 0.001s，
+   与 SPEC-detail-swipe.md §6 规定的 30ms 不符。 */
+@media (prefers-reduced-motion: reduce) {
+  .detail.fade-out { transition-duration: 30ms !important; }
+  .detail.fade-in { animation-duration: 30ms !important; animation-delay: 0ms !important; }
+  .detail-swipe-hint { display: none; }
+  .detail-end-notice { transition-duration: 30ms !important; }
+}
+
 /* 相关推荐：左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘 */
 .related { 
   padding-top: var(--grid-gap); 

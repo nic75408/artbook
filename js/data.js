@@ -146,3 +146,16 @@ export function dateCapsule(date) {
   const [y, m, d] = date.split("-");
   return `${y}/${m}/${d}`;
 }
+
+// 同期作品序列（t_13662686）：返回给定作品所在期的所有作品 id，
+// 与期文件 works[] 的顺序一致，用于详情页左右滑动切换。
+// 已加载的期从内存缓存返回；未加载时先 loadIssue 再返回。
+export async function siblingsInIssue(id) {
+  await loadCatalog();
+  const entry = catalogById.get(id);
+  if (!entry) return { ids: [], index: -1, issue: null };
+  const issue = await loadIssue(entry.issue);
+  const ids = (issue.works || []).map((w) => w.id);
+  const index = ids.indexOf(id);
+  return { ids, index, issue: entry.issue };
+}

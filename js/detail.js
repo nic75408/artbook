@@ -4,6 +4,10 @@ import { back, navigate } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast } from "./ui.js";
 
+// t_13662686：同期序列，mount 时刷新。用模块级变量而非闭包，
+// 是因为切换到下一幅时 render 会重跑，闭包每次会重置，需要跨 render 保持序列。
+let siblingCtx = { ids: [], index: -1, issue: null };
+
 export async function mount(el, { id }) {
   let work;
   try {
@@ -19,6 +23,14 @@ export async function mount(el, { id }) {
       <p>作品数据缺失</p></div>`;
     return;
   }
+
+  // t_13662686：加载同期序列，为手势翻页与页码渲染做准备
+  try {
+    siblingCtx = await data.siblingsInIssue(id);
+  } catch {
+    siblingCtx = { ids: [], index: -1, issue: null };
+  }
+
   render(el, work);
 }
 
@@ -36,6 +48,14 @@ function render(el, w) {
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
+
+    ${siblingCtx.ids.length > 1 ? `
+    <div class="folio" aria-live="polite" aria-label="当前作品位置">
+      <span class="folio-idx">${siblingCtx.index + 1}</span>
+      <span class="folio-sep">／</span>
+      <span class="folio-total">${siblingCtx.ids.length}</span>
+    </div>
+    ` : ''}
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
@@ -308,6 +328,191 @@ function render(el, w) {
     box.innerHTML = `<button class="action-btn" id="rel-retry">暂时加载不出来 · 重试</button>`;
     el.querySelector("#rel-retry").addEventListener("click", () => navigate(`#/work/${w.id}`));
   });
+
+  // t_13662686：详情页左右滑动切换同日期作品
+  attachSwipeGesture(el);
+}
+
+function wait(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+// t_13662686：页内数据切换（不走 router）
+// 不用 navigate(#/work/<nextId>)：router.js 的 handle() 会重置 #view.innerHTML
+// 并重跑 main 的 enter 动画，打断淡入淡出。就地重渲染 + history.replaceState
+// 保持深链正确，返回按钮仍能回到 feed（栈里的 #/ 未被污染）。
+// direction: -1 = 上一幅（右滑），+1 = 下一幅（左滑）
+async function switchTo(el, direction) {
+  const { ids, index } = siblingCtx;
+  const next = index + direction;
+  if (next < 0 || next >= ids.length) {
+    showEndNotice(el, direction < 0 ? "今日推荐已到首幅" : "今日推荐已到末幅");
+    return;
+  }
+  const nextId = ids[next];
+  // 淡出当前 detail 层（240ms）
+  const layer = el.querySelector(".detail");
+  if (!layer) return;
+  layer.classList.add("fade-out");
+  await wait(240);
+  // 加载新数据（大概率命中缓存）
+  let nextWork = null;
+  try {
+    nextWork = await data.getWork(nextId);
+  } catch {
+    nextWork = null;
+  }
+  if (!nextWork) {
+    layer.classList.remove("fade-out");
+    return;
+  }
+  siblingCtx.index = next;
+  // 就地重渲染
+  render(el, nextWork);
+  // 滚回顶部（无动画，避免与淡入叠加）
+  window.scrollTo({ top: 0, behavior: "instant" });
+  const newLayer = el.querySelector(".detail");
+  if (newLayer) {
+    newLayer.classList.add("fade-in");
+    requestAnimationFrame(() => {
+      newLayer.classList.remove("fade-in");
+    });
+  }
+  // 更新 URL（不触发路由）
+  history.replaceState(null, "", `#/work/${nextId}`);
+}
+
+// 手势语义：画面不做水平位移，只做 opacity 反馈；命中翻页则触发 240ms 淡入淡出。
+// 事件绑在 el（<main id="view">）上，因为 .detail 会被 render 重建；
+// 每次 render 都会重挂，所以先解绑旧监听器再挂新的。
+function attachSwipeGesture(el) {
+  if (el._swipeCleanup) el._swipeCleanup();
+  el._swipeCleanup = null;
+  if (siblingCtx.ids.length <= 1) return;
+
+  const detail = el.querySelector(".detail");
+  if (!detail) return;
+  const relatedScroll = el.querySelector(".related-scroll");
+
+  let sx = 0, sy = 0, dx = 0, dy = 0, tStart = 0;
+  let tracking = false;      // 已通过方向判定，正在跟踪
+  let disqualified = false;  // 已被判定为纵向滚动或起点落在相关推荐区，本次手势忽略
+
+  const THRESHOLD_DIST = 60;        // px，翻页最小位移
+  const THRESHOLD_VELOCITY = 0.35;  // px/ms，翻页最小释放速度
+  const DIR_JUDGE_DIST = 8;         // px，方向判定阈值
+  const MAX_FADE = 0.65;            // 最大透明度衰减
+
+  const onStart = (e) => {
+    // 相关推荐区起点：直接放弃（避免和横滑冲突）
+    if (relatedScroll && relatedScroll.contains(e.target)) {
+      disqualified = true;
+      return;
+    }
+    // 图片查看器打开时不接管
+    if (document.querySelector(".viewer")) {
+      disqualified = true;
+      return;
+    }
+    sx = e.clientX; sy = e.clientY;
+    dx = 0; dy = 0;
+    tStart = performance.now();
+    tracking = false;
+    disqualified = false;
+  };
+
+  const onMove = (e) => {
+    if (disqualified) return;
+    dx = e.clientX - sx;
+    dy = e.clientY - sy;
+    if (!tracking) {
+      // 未判定方向：等到累计移动 >= 8px 再判定
+      if (Math.hypot(dx, dy) < DIR_JUDGE_DIST) return;
+      if (Math.abs(dy) > Math.abs(dx)) {
+        // 纵向占优 → 让页面自然滚动，本次手势不接管
+        disqualified = true;
+        return;
+      }
+      tracking = true;
+    }
+    // 已进入跟踪：只调 opacity，不动 transform
+    const fade = Math.min(Math.abs(dx) / THRESHOLD_DIST, MAX_FADE);
+    detail.style.opacity = String(1 - fade);
+    // 显示方向侧羽箭
+    showSwipeHint(el, dx < 0 ? "right" : "left");
+  };
+
+  const onEnd = () => {
+    if (disqualified || !tracking) {
+      detail.style.opacity = "";
+      hideSwipeHint(el);
+      return;
+    }
+    hideSwipeHint(el);
+    const dt = performance.now() - tStart;
+    const velocity = Math.abs(dx) / Math.max(dt, 1);
+    const hit = Math.abs(dx) >= THRESHOLD_DIST || velocity >= THRESHOLD_VELOCITY;
+    if (hit) {
+      // 命中：dx < 0（左滑）→ 下一幅 → direction = +1
+      detail.style.opacity = ""; // switchTo 内自己控制淡入淡出
+      switchTo(el, dx < 0 ? +1 : -1);
+    } else {
+      // 未命中：回弹到 opacity 1，240ms
+      detail.style.transition = "opacity 240ms ease";
+      detail.style.opacity = "1";
+      setTimeout(() => {
+        detail.style.transition = "";
+        detail.style.opacity = "";
+      }, 260);
+    }
+    tracking = false;
+  };
+
+  el.addEventListener("pointerdown", onStart, { passive: true });
+  el.addEventListener("pointermove", onMove, { passive: true });
+  el.addEventListener("pointerup", onEnd, { passive: true });
+  el.addEventListener("pointercancel", onEnd, { passive: true });
+
+  el._swipeCleanup = () => {
+    el.removeEventListener("pointerdown", onStart);
+    el.removeEventListener("pointermove", onMove);
+    el.removeEventListener("pointerup", onEnd);
+    el.removeEventListener("pointercancel", onEnd);
+  };
+}
+
+function showSwipeHint(el, side) {
+  let hint = el.querySelector(".detail-swipe-hint");
+  if (!hint) {
+    const host = el.querySelector(".detail");
+    if (!host) return;
+    hint = document.createElement("div");
+    hint.className = "detail-swipe-hint";
+    host.appendChild(hint);
+  }
+  hint.classList.remove("left", "right");
+  hint.classList.add(side);
+  hint.textContent = side === "right" ? "→" : "←";
+  hint.style.opacity = "1";
+}
+
+function hideSwipeHint(el) {
+  const hint = el.querySelector(".detail-swipe-hint");
+  if (hint) hint.style.opacity = "0";
+}
+
+function showEndNotice(el, text) {
+  let n = el.querySelector(".detail-end-notice");
+  if (n) n.remove();
+  const host = el.querySelector(".detail");
+  if (!host) return;
+  n = document.createElement("div");
+  n.className = "detail-end-notice";
+  n.textContent = text;
+  host.appendChild(n);
+  requestAnimationFrame(() => n.classList.add("visible"));
+  setTimeout(() => {
+    n.classList.remove("visible");
+    setTimeout(() => n.remove(), 300);
+  }, 1500);
 }
 
 // 相关作品可能横跨多期：把缺失的期文件预取进 SW 缓存（去重 + 限量在 SW 内做），
