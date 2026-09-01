@@ -11,6 +11,14 @@ const BASE_URL = process.env.BASE_URL || `http://127.0.0.1:${PORT}`;
  */
 module.exports = defineConfig({
   testDir: './tests',
+  /* 只收集 .spec.js 作为 Playwright 用例。
+     tests/ 下还有若干独立的 Node 脚本（*.test.mjs / perf-*.mjs），
+     它们由 npm scripts 直接用 node 运行、并会调用 process.exit()。
+     Playwright 默认的 testMatch 会把 *.test.mjs 也当成用例文件去 import，
+     那些脚本的顶层代码就在「收集阶段」被执行 —— 一旦其中调用 process.exit()，
+     整个 runner 会被静默杀死，结果是「0 个用例、退出码 0」的假绿
+     （t_a450af65 踩到：28 个真实用例被整体跳过而 CI 显示通过）。 */
+  testMatch: '**/*.spec.js',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */

@@ -124,18 +124,44 @@ function render(el, w) {
     </div>
   </div>`;
 
-  // 大图
+  // 大图渐进加载（t_a450af65）：
+  // 先挂 feed 尺寸的图 —— 它在首页就已加载并被 SW 缓存，几乎必然瞬间出图，
+  // 详情页不再有「白框等大图」的空窗；随后在后台换成 print 尺寸的全分辨率图，
+  // 加载完成才替换 src，用户看到的是「立刻有图 → 悄悄变清晰」。
+  // 离线时 print 图必然失败，但 feed 图来自缓存，画面依然完整（验收标准 5）。
+  // 不预缓存 print 图是有意为之：单张约 4.9MB，一期 30 张要 146MB，不该占用户磁盘。
   const hero = el.querySelector(".detail-hero");
   const img = hero.querySelector("img");
-  const src = img.dataset.src;
   delete img.dataset.src;
-  img.src = src;
+
+  const feedSrc = w.image.feed || w.image.full;
+  const fullSrc = w.image.full;
+  img.src = feedSrc;
+  if (img.complete && img.naturalWidth > 0) img.classList.add("loaded");
   img.addEventListener("load", () => img.classList.add("loaded"), { once: true });
+
+  // 后台升级到全分辨率图；失败（离线/源站问题）则保留 feed 图，不打扰用户
+  if (fullSrc && fullSrc !== feedSrc) {
+    const upgrade = new Image();
+    upgrade.decoding = "async";
+    upgrade.addEventListener("load", () => {
+      img.src = fullSrc;
+      img.classList.add("loaded");
+    });
+    upgrade.src = fullSrc;
+  }
+
+  // 连 feed 图都加载不出来才显示兜底文案
   img.addEventListener("error", () => {
+    if (img.src === fullSrc && feedSrc !== fullSrc) {
+      img.src = feedSrc; // 全分辨率图失效 → 退回 feed 图
+      return;
+    }
     img.remove();
     hero.querySelector(".ph").innerHTML = `<p style="padding:48px 20px;font-size:15px;color:var(--ink-2)">原图暂不可用</p>`;
   });
-  img.addEventListener("click", () => openViewer(w.image.full));
+  // 点击看大图：优先用已加载到的最高分辨率
+  img.addEventListener("click", () => openViewer(img.src));
   el.querySelector(".detail-close").addEventListener("click", () => back());
 
   // 标签

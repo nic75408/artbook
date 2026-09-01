@@ -14,12 +14,26 @@
  * - install 时 best-effort 预缓存核心数据 + 最新一期 → 详情页数据首开即缓存命中
  * - 页面发 PREFETCH_ISSUES → 预取相关作品的跨期期文件（第二幅作品首开秒出、离线可用）
  * - 预取只补缺失、限量（PREFETCH_MAX）、失败静默，不拖累 install / 页面
+ * 首屏提速（t_a450af65）：
+ * - 博物馆 CDN 图片改为「缓存优先 + no-cors 不透明响应」写入独立图片缓存，
+ *   离线时详情页/首页能连图一起显示（验收标准 5 要求文字+图片都在）
+ * - 页面发 PREFETCH_IMAGES → 后台预缓存当期 feed 图片
  */
-const CACHE_APP = "artbook-app-v7";
+const CACHE_APP = "artbook-app-v8";
+// 图片单独一个缓存桶：数量多、体积大，需要独立的容量上限与淘汰策略，
+// 不能和 App Shell 混在一起（否则清理 shell 会误删图片，反之亦然）
+const CACHE_IMG = "artbook-img-v1";
+// 图片缓存条目上限：当期 30 幅 feed 图 + 详情大图 + 相关推荐缩略图，
+// 留足余量的同时避免无限增长吃满用户磁盘配额
+const IMG_CACHE_MAX = 160;
 const DATA_RE = /\/data\//;
 const CORE_DATA = ["./data/index.json", "./data/catalog.json", "./data/artists.json"];
 // 跨期预取上限（t_dac8f66a）：相关作品最多横跨 4 期（同画家档上限），每期 ~70KB
 const PREFETCH_MAX = 4;
+// 单次图片预取上限（t_a450af65）：一期 30 幅，留一点余量
+const PREFETCH_IMG_MAX = 40;
+// 博物馆图片 CDN 白名单：只有这些跨域来源才进图片缓存
+const IMG_HOSTS = ["openaccess-cdn.clevelandart.org", "images.metmuseum.org"];
 
 const APP_SHELL = [
   "./",
@@ -37,6 +51,8 @@ const APP_SHELL = [
   "./js/favorites.js",
   "./js/ui.js",
   "./js/sw-reg.js",
+  "./js/icons/Icon.js",
+  "./js/icons/inline.js",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-512-maskable.png",
@@ -124,6 +140,58 @@ async function prefetchData(path) {
   }
 }
 
+// ---- 博物馆图片缓存（t_a450af65）----
+// 图片来自不带 CORS 头的第三方 CDN（克利夫兰不发 Access-Control-Allow-Origin），
+// 因此只能用 no-cors 发请求、拿到 opaque 响应。opaque 响应无法读 status，
+// 只要 fetch 没抛异常就当作可缓存 —— 这是浏览器对不透明响应的唯一可用契约。
+function isMuseumImage(url) {
+  return IMG_HOSTS.includes(url.hostname);
+}
+
+// 缓存优先：命中即返回（离线也能出图）；未命中走网络并写回缓存。
+// 图片是内容寻址的（URL 变即内容变），不需要重新验证。
+async function imageCacheFirst(req) {
+  const cache = await caches.open(CACHE_IMG);
+  const hit = await cache.match(req);
+  if (hit) return hit;
+  const res = await fetch(req);
+  // opaque 响应 status 恒为 0：不能用 res.ok 判断，拿到就存
+  if (res && (res.ok || res.type === "opaque")) {
+    cache.put(req, res.clone()).then(() => trimImageCache()).catch(() => {});
+  }
+  return res;
+}
+
+// 容量控制：超过上限时按插入顺序淘汰最旧的条目（Cache Storage 的 keys() 保序）
+async function trimImageCache() {
+  try {
+    const cache = await caches.open(CACHE_IMG);
+    const keys = await cache.keys();
+    const excess = keys.length - IMG_CACHE_MAX;
+    for (let i = 0; i < excess; i++) await cache.delete(keys[i]);
+  } catch {
+    /* 容量控制失败不影响功能 */
+  }
+}
+
+// 后台预取当期 feed 图片：首屏渲染完成后由页面触发，
+// 让用户往下滑时图片已在本地，且断网后仍能看图（验收标准 5）。
+// 已缓存的跳过；no-cors 拉取；失败静默。
+async function prefetchImages(urls) {
+  const cache = await caches.open(CACHE_IMG);
+  const list = [...new Set((urls || []).filter(Boolean))].slice(0, PREFETCH_IMG_MAX);
+  for (const url of list) {
+    try {
+      if (await cache.match(url)) continue;
+      const res = await fetch(new Request(url, { mode: "no-cors", credentials: "omit" }));
+      if (res && (res.ok || res.type === "opaque")) await cache.put(url, res.clone());
+    } catch {
+      /* 单张失败不影响其余 */
+    }
+  }
+  await trimImageCache();
+}
+
 // 首次安装即预缓存核心数据 + 最新一期（best-effort）：
 // 详情页数据（catalog + 期文件）首开即缓存命中，秒出且离线可用
 async function precacheCoreData() {
@@ -156,7 +224,15 @@ self.addEventListener("install", (e) => {
 self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE_APP).map((k) => caches.delete(k))))
+      // 保留图片缓存桶：它有自己的版本号与淘汰策略，
+      // 不该因为 App Shell 升版本就被整个清空（否则每次发版用户都要重下所有图）
+      .then((keys) =>
+        Promise.all(
+          keys
+            .filter((k) => k !== CACHE_APP && k !== CACHE_IMG)
+            .map((k) => caches.delete(k))
+        )
+      )
       .then(() => self.clients.claim())
       .then(() => {
         console.log("[SW] Activated and claimed:", CACHE_APP);
@@ -168,7 +244,12 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
-  if (url.origin !== location.origin) return; // 跨域图片等一律放行，SW 不缓存
+  if (url.origin !== location.origin) {
+    // 博物馆图片：缓存优先，离线可用（t_a450af65）。
+    // 其余跨域请求一律放行，SW 不介入。
+    if (isMuseumImage(url)) e.respondWith(imageCacheFirst(req));
+    return;
+  }
 
   if (DATA_RE.test(url.pathname)) {
     e.respondWith(swrData(req));
@@ -220,5 +301,10 @@ self.addEventListener("message", (e) => {
   if (msg.type === "PREFETCH_ISSUES" && Array.isArray(msg.dates)) {
     const dates = [...new Set(msg.dates)].filter(Boolean).slice(0, PREFETCH_MAX);
     e.waitUntil(Promise.all(dates.map((d) => prefetchData(`./data/issues/${d}.json`))));
+    return;
+  }
+  // 首屏渲染完成后，页面把当期 feed 图片清单发过来后台预缓存（t_a450af65）
+  if (msg.type === "PREFETCH_IMAGES" && Array.isArray(msg.urls)) {
+    e.waitUntil(prefetchImages(msg.urls));
   }
 });

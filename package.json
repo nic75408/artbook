@@ -4,12 +4,17 @@
   "description": "艺术手册 Artbook - 每日更新 30 幅艺术史杰作的私人画册 PWA",
   "private": true,
   "scripts": {
-    "dev": "http-server -p 8888 -c-1",
+    "dev": "http-server -p 8888 -c-1 .",
     "test": "npm run test:unit && npm run test:playwright",
-    "test:unit": "node tests/sw_prefetch_logic.test.mjs",
+    "test:unit": "node tests/sw_prefetch_logic.test.mjs && node tests/icons-inline-sync.test.mjs",
     "test:playwright": "node scripts/run-playwright.mjs",
     "test:feed": "node scripts/run-playwright.mjs tests/feed-alignment.spec.js --project=chromium",
-    "test:aspect": "node scripts/run-playwright.mjs tests/artwork-aspect-ratio.spec.js --project=chromium"
+    "test:aspect": "node scripts/run-playwright.mjs tests/artwork-aspect-ratio.spec.js --project=chromium",
+    "gen:icons": "node scripts/gen-inline-icons.mjs",
+    "serve:h2": "node scripts/serve-h2.mjs --port 8443",
+    "perf:cold": "node tests/perf-cold-load.mjs",
+    "perf:detail": "node tests/perf-detail-nav.mjs",
+    "test:offline": "node tests/sw-cache-offline.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",
