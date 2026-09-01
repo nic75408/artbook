@@ -3,7 +3,12 @@
 //        Icon('nav-home', { size: 24, class: 'my-icon' })
 //        Returns inline SVG string for template injection
 
-const ICON_CACHE = new Map();
+import { INLINE_ICON_SVG } from "./inline.js";
+
+// 首屏零请求（t_a450af65）：UI 同步渲染路径用到的图标在模块求值时就已在缓存里，
+// Icon() 首次调用即命中真身，不会返回占位圆圈，也不需要任何网络往返。
+// 其余图标仍按需 fetch（走下面的 loadIconSVG）。
+const ICON_CACHE = new Map(Object.entries(INLINE_ICON_SVG));
 
 // Load SVG content from file (cached)
 async function loadIconSVG(name) {
@@ -30,16 +35,21 @@ async function loadIconSVG(name) {
   }
 }
 
-// Preload critical icons for immediate use
-const CRITICAL_ICONS = [
-  'nav-home', 'nav-back', 'nav-close', 'nav-more',
-  'action-bookmark-outline', 'action-bookmark-filled',
-  'action-favorite-outline', 'action-favorite-filled',
-  'state-loading-outline', 'state-error-outline', 'state-empty-outline'
-];
+// 首屏之后可能用到的图标预热清单。
+// 注意：这里只该放「UI 真的会用到、但没内联」的图标。
+// 原先这份清单有 11 个，其中 7 个全站没有任何 Icon() 调用引用——
+// 纯粹白白发 7 个请求、占满 HTTP/1.1 连接数（t_a450af65）。
+// 目前 UI 用到的图标已全部内联（见 js/icons/inline.js），
+// 故本清单为空，preloadIcons() 自然成为零请求的空操作。
+// 将来新增 Icon() 调用时，tests/icons-inline-sync.test.mjs 会要求把它加进内联清单。
+const CRITICAL_ICONS = [];
 
+// 后台预热剩余关键图标（t_a450af65）。
+// 已内联的图标直接跳过；调用方不应 await 本函数——它只是为「稍后可能用到」的
+// 图标暖缓存，首屏渲染绝不能挂在它上面（那正是原先白屏 400ms 的成因）。
 export async function preloadIcons() {
-  await Promise.all(CRITICAL_ICONS.map(loadIconSVG));
+  const pending = CRITICAL_ICONS.filter((name) => !ICON_CACHE.has(ICON_MAP[name] || name));
+  await Promise.all(pending.map((name) => loadIconSVG(name).catch(() => null)));
 }
 
 // Synchronous icon lookup (for use after preload)

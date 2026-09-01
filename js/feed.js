@@ -40,6 +40,10 @@ export async function mount(el) {
     if (saved && allDates.includes(saved.issue)) startDate = saved.issue;
     const issue = await data.loadIssue(startDate);
     loaded = [{ date: startDate, works: issue.works || [] }];
+    // 首屏主图预加载（t_a450af65）：LCP 元素是第一幅作品的图，
+    // 它的 URL 直到期数据解析完才知道。这里一拿到数据就立刻插 <link rel=preload>，
+    // 让图片请求与后续的建 DOM / 布局并行，而不是等 DOM 建完才开始下载。
+    preloadHeroImage(loaded[0].works[0]);
     buildSlides();
     updateCapsule(startDate);
     scroller.addEventListener("scroll", onScroll, { passive: true });
@@ -51,6 +55,11 @@ export async function mount(el) {
       scroller.scrollTop = 0;
     }
     ensureImages(currentIndex);
+    // 后台缓存当期图片供离线使用。必须等首屏主图下载完再开始，
+    // 否则 30 张图的预取会和首屏主图抢带宽（同 ensureImages 的理由）。
+    afterImageSettled(scroller.querySelector(".slide img"), () =>
+      prefetchIssueImages(loaded[0].works)
+    );
   } catch (e) {
     el.querySelector(".feed-scroller").innerHTML = `
       <div class="empty"><div class="wordmark brand-title">${esc(WORDMARK)}</div>
@@ -58,6 +67,24 @@ export async function mount(el) {
       <button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate("#/"));
   }
+}
+
+// 首屏主图预加载：把 LCP 图片的下载提前到「数据刚到手」这一刻，
+// 不必等 DOM 构建完成。重复插入由 id 去重，切换期次时替换为新的一张。
+function preloadHeroImage(work) {
+  const url = work?.image?.feed;
+  if (!url) return;
+  const ID = "hero-preload";
+  const existing = document.getElementById(ID);
+  if (existing && existing.href === url) return;
+  existing?.remove();
+  const link = document.createElement("link");
+  link.id = ID;
+  link.rel = "preload";
+  link.as = "image";
+  link.href = url;
+  link.fetchPriority = "high";
+  document.head.appendChild(link);
 }
 
 function slideHTML(w, date, priority = false) {
@@ -71,9 +98,11 @@ function slideHTML(w, date, priority = false) {
   const displayArtist = artist.trim() || '未知艺术家';
   
   const ph = w.palette?.[0] ? `background:${w.palette[0]}` : "";
-  // 优先级加载：前 3 幅作品立即加载，其余懒加载
+  // 加载优先级（t_a450af65）：一屏只显示一幅作品，所以只有第 1 幅是 LCP 元素，
+  // 它独占 high 优先级；其余作品即便预加载也是「还没滑到」的，用 low 让出带宽。
+  // 原先前 3 幅都是 eager+high，两幅看不见的图和 LCP 抢带宽，实测把 LCP 拖到 6.4s。
   const loadingAttr = priority ? 'loading="eager"' : 'loading="lazy"';
-  const fetchPriority = priority ? 'fetchpriority="high"' : '';
+  const fetchPriority = priority ? 'fetchpriority="high"' : 'fetchpriority="low"';
   return `
   <section class="slide" data-id="${esc(w.id)}" data-issue="${date}">
     <div class="frame" style="--r:${w.image.ratio}">
@@ -100,8 +129,8 @@ function buildSlides() {
   let globalIndex = 0;
   for (const { date, works } of loaded) {
     for (const w of works) {
-      // 前 3 幅作品使用优先级加载
-      const priority = globalIndex < 3;
+      // 只有首幅是首屏可见的 LCP 元素，独占 eager + high 优先级
+      const priority = globalIndex === 0;
       scroller.insertAdjacentHTML("beforeend", slideHTML(w, date, priority));
       totalSlides++;
       globalIndex++;
@@ -147,16 +176,49 @@ function onScroll() {
 
 function ensureImages(center) {
   const slides = scroller.querySelectorAll(".slide");
+  if (!slides.length) return;
+
+  // 先把当前这幅挂上 src（必须先于相邻幅处理，否则下面的 afterCurrentImage
+  // 会因为「当前幅还没 src」而误判为已完成，直接放行相邻幅去抢带宽）
+  const centerImg = slides[center]?.querySelector("img");
+  if (centerImg && centerImg.dataset.src !== undefined) {
+    const src = centerImg.dataset.src;
+    delete centerImg.dataset.src;
+    centerImg.addEventListener("load", () => centerImg.classList.add("loaded"), { once: true });
+    centerImg.src = src;
+  }
+
+  // 相邻幅只是预取，用户还没滑到 —— 等当前这幅下载完再开始。
+  // fetchpriority 只影响发起顺序，一旦同时在飞就照样平分带宽
+  // （t_a450af65 实测：3 张共 839KB，在 1.6Mbps 下把首屏主图的下载
+  //   从 1.7s 拖到 4.2s）。
   for (let i = 0; i < slides.length; i++) {
+    if (i === center) continue;
     const img = slides[i].querySelector("img");
     if (!img || img.dataset.src === undefined) continue;
-    if (Math.abs(i - center) <= 2) {
-      const src = img.dataset.src;
-      delete img.dataset.src;
-      img.src = src;
-      img.addEventListener("load", () => img.classList.add("loaded"), { once: true });
-    }
+    if (Math.abs(i - center) > 2) continue;
+    const src = img.dataset.src;
+    delete img.dataset.src;
+    img.addEventListener("load", () => img.classList.add("loaded"), { once: true });
+    afterImageSettled(centerImg, () => {
+      if (img.isConnected && !img.src) img.src = src;
+    });
   }
+}
+
+// 等指定图片加载完（或已完成 / 失败）后，在空闲时机执行 fn。
+// 图片不存在或已解码完成则直接排队，不会永久挂起。
+function afterImageSettled(img, fn) {
+  const run = () => {
+    if ("requestIdleCallback" in window) requestIdleCallback(fn, { timeout: 1500 });
+    else setTimeout(fn, 100);
+  };
+  if (!img || !img.getAttribute("src") || (img.complete && img.naturalWidth > 0)) {
+    run();
+    return;
+  }
+  img.addEventListener("load", run, { once: true });
+  img.addEventListener("error", run, { once: true });
 }
 
 function maybeLoadNextIssue() {
@@ -257,6 +319,27 @@ function jumpToIssue(date) {
     ensureImages(0);
     savePos();
   });
+}
+
+// 当期 feed 图片后台预缓存（t_a450af65）：
+// 首屏渲染完成后把当期图片 URL 交给 SW，让它在后台写进图片缓存。
+// 用户往下滑时图片已在本地，断网后也能连图显示（验收标准 5）。
+// 用 requestIdleCallback 让出主线程，绝不与首屏渲染抢资源；无 SW 环境静默跳过。
+function prefetchIssueImages(works) {
+  const urls = (works || []).map((w) => w.image?.feed).filter(Boolean);
+  if (!urls.length) return;
+  const send = () => {
+    navigator.serviceWorker?.ready
+      .then((reg) => {
+        const target = reg.active || navigator.serviceWorker.controller;
+        target?.postMessage({ type: "PREFETCH_IMAGES", urls });
+      })
+      .catch(() => {
+        /* 无 SW 环境：跳过 */
+      });
+  };
+  if ("requestIdleCallback" in window) requestIdleCallback(send, { timeout: 3000 });
+  else setTimeout(send, 500);
 }
 
 function readPos() {

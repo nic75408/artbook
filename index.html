@@ -17,6 +17,28 @@
   <link rel="icon" href="icons/pwa-icon-yi-192.png" type="image/png">
   <link rel="apple-touch-icon" href="icons/pwa-icon-yi-192.png">
   <link rel="stylesheet" href="app.css">
+
+  <!-- 首屏关键链路预声明（t_a450af65）
+       原先首屏要串行走 7 层往返：html → app.js → 二级模块 → 三级模块
+       → 图标 → index.json → 期文件 → 图片，100ms RTT 下白屏约 1.3s。
+       浏览器只有解析完上一层才知道下一层要什么，所以这里把整个模块图和
+       首屏数据提前声明出来，让它们与 app.js 并行下载，把层数压到最少。
+       路径一律相对（站点部署在 /artbook/ 子路径，根相对路径会 404）。 -->
+  <link rel="modulepreload" href="js/app.js">
+  <link rel="modulepreload" href="js/router.js">
+  <link rel="modulepreload" href="js/feed.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/ui.js">
+  <link rel="modulepreload" href="js/icons/Icon.js">
+  <link rel="modulepreload" href="js/icons/inline.js">
+  <link rel="modulepreload" href="js/sw-reg.js">
+  <link rel="modulepreload" href="config.js">
+  <!-- 首屏数据：与模块图并行拉取，不必等整个模块图求值完才发出请求 -->
+  <link rel="preload" href="data/index.json" as="fetch" crossorigin="anonymous">
+  <!-- 画作图片来自博物馆 CDN：提前握手，省掉 DNS + TLS 的往返 -->
+  <link rel="preconnect" href="https://openaccess-cdn.clevelandart.org" crossorigin>
+  <link rel="preconnect" href="https://images.metmuseum.org" crossorigin>
+
   <style>/* 内联关键 CSS，避免首屏白屏 */
     #view{min-height:100dvh;background:#F5F1EA}
     body{margin:0;background:#F5F1EA;color:#1D1B16;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
