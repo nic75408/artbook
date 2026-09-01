@@ -98,6 +98,24 @@
    - 发布前运行 `scripts/verify-index-before-merge.sh` 验证 `latest` 字段与最新 issue 文件一致；
    - 普通功能卡禁止在实现阶段修改 `data/index.json`。
 
+7. **详情页头图顶部的米色空白条不在 CSS 里 —— 那是 iOS 系统状态栏。**
+   `.detail` / `.detail-hero` 的 `padding-top`、`margin-top` 本来就是 0，
+   Playwright 量出的 `getBoundingClientRect().top` 一直等于 0，
+   在 CSS 里怎么找都找不到那段间距。
+   真正的成因是 `index.html` 的
+   `<meta name="apple-mobile-web-app-status-bar-style" content="default">`：
+   standalone 模式下 iOS 会在 webview 上方画一条**不透明**系统状态栏，
+   底色取自 `<meta name="theme-color">`（`#F5F1EA`，正是那条米色）。
+   唯一让内容延伸到状态栏后面的开关是把它改成 `black-translucent`。
+   **代价**：iOS 只有 `default` / `black` / `black-translucent` 三档，
+   没有「透明 + 黑字」——`black-translucent` 的状态栏符号恒为白色，
+   在暖纸米色底的首页/收藏夹上对比度偏低（取证见
+   `evidence/sideeffect-feed-white-statusbar.png`）。
+   教训：**桌面 Chromium 测不出这一类"间距"**，因为它根本没有系统状态栏；
+   凡是「顶部/底部莫名多一条」而 CSS 量出来是 0 的，先怀疑
+   `apple-mobile-web-app-status-bar-style` 与 `viewport-fit=cover`，
+   而不是继续在 CSS 里翻 padding。
+
 ---
 
 ## 验证怎么做才算数
