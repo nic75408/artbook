@@ -84,6 +84,51 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     }
   });
 
+  test('画作图片为直角（border-radius: 0）', async ({ page }) => {
+    // 获取所有 .frame img 元素
+    const images = await page.$$('.frame img');
+    expect(images.length).toBeGreaterThan(0);
+
+    // 验证每个图片的 border-radius 为 0
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      const borderRadius = await img.evaluate(el => {
+        return window.getComputedStyle(el).borderRadius;
+      });
+
+      // 验证图片为直角
+      expect(borderRadius).toBe('0px');
+    }
+  });
+
+  test('画作图片四向 padding 像素一致', async ({ page }) => {
+    // 获取所有 .frame 元素
+    const frames = await page.$$('.frame');
+    expect(frames.length).toBeGreaterThan(0);
+
+    // 验证每个画框内图片的四向 padding 一致
+    for (let i = 0; i < frames.length; i++) {
+      const frame = frames[i];
+      const img = await frame.$('img');
+      if (!img) continue;
+
+      const padding = await img.evaluate(el => {
+        const computed = window.getComputedStyle(el);
+        return {
+          paddingLeft: computed.paddingLeft,
+          paddingRight: computed.paddingRight,
+          paddingTop: computed.paddingTop,
+          paddingBottom: computed.paddingBottom,
+        };
+      });
+
+      // 验证图片四向 padding 一致（都是 0px，因为图片 fill 整个容器）
+      expect(padding.paddingLeft).toBe(padding.paddingRight);
+      expect(padding.paddingTop).toBe(padding.paddingBottom);
+      expect(padding.paddingLeft).toBe(padding.paddingTop);
+    }
+  });
+
   test('首页视觉一致性截图', async ({ page }) => {
     // 截取首页完整截图作为视觉证据
     const screenshot = await page.screenshot({ fullPage: true });
