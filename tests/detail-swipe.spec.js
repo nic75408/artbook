@@ -56,6 +56,9 @@ test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe',
       pointerEvents: f.pointerEvents,
       bg: f.backgroundColor,
       closeBg: cs.backgroundColor,
+      blur: f.backdropFilter || f.webkitBackdropFilter,
+      closeBlur: cs.backdropFilter || cs.webkitBackdropFilter,
+      closeShadow: cs.boxShadow,
       border: f.border,
       closeBorder: cs.border,
       idxSize: g('.folio-idx').fontSize,
@@ -74,10 +77,14 @@ test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe',
   // 与 .detail-close 对角对称：同 top、左右间距相等
   expect(m.top).toBeCloseTo(m.closeTop, 1);
   expect(m.left).toBeCloseTo(m.closeRightGap, 1);
-  // 同底色同边框
+  // 同底色同边框（t_ace5cc6b 定稿 B 案：α 0.55 / 边框 α 0.08 / blur 14px）
   expect(m.bg).toBe(m.closeBg);
-  expect(m.bg).toBe('rgba(245, 241, 234, 0.88)');
+  expect(m.bg).toBe('rgba(245, 241, 234, 0.55)');
   expect(m.border).toBe(m.closeBorder);
+  expect(m.border).toBe('1px solid rgba(29, 27, 22, 0.08)');
+  expect(m.blur).toBe('blur(14px)');
+  expect(m.closeBlur).toBe('blur(14px)');
+  expect(m.closeShadow).toBe('rgba(29, 27, 22, 0.06) 0px 1px 4px 0px');
   // 字号 15 / 14 / 13
   expect(m.idxSize).toBe('15px');
   expect(m.sepSize).toBe('14px');

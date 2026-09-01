@@ -1,0 +1,81 @@
+{
+  "BASE": "http://127.0.0.1:8137/artbook/",
+  "picks": [
+    {
+      "tag": "dark",
+      "id": "cma-149587",
+      "lum": 21.760999999999996,
+      "measured": {
+        "close": {
+          "background": "rgba(245, 241, 234, 0.55)",
+          "border": "1px solid rgba(29, 27, 22, 0.08)",
+          "backdropFilter": "blur(14px)",
+          "boxShadow": "rgba(29, 27, 22, 0.06) 0px 1px 4px 0px",
+          "color": "rgb(29, 27, 22)",
+          "rect": {
+            "top": 12,
+            "left": 338,
+            "w": 40,
+            "h": 40
+          }
+        },
+        "folio": {
+          "background": "rgba(245, 241, 234, 0.55)",
+          "border": "1px solid rgba(29, 27, 22, 0.08)",
+          "backdropFilter": "blur(14px)",
+          "boxShadow": "none",
+          "color": "rgb(140, 109, 63)",
+          "rect": {
+            "top": 12,
+            "left": 12,
+            "w": 79.875,
+            "h": 31
+          }
+        }
+      }
+    },
+    {
+      "tag": "light",
+      "id": "cma-151026",
+      "lum": 215.5364,
+      "measured": {
+        "close": {
+          "background": "rgba(245, 241, 234, 0.55)",
+          "border": "1px solid rgba(29, 27, 22, 0.08)",
+          "backdropFilter": "blur(14px)",
+          "boxShadow": "rgba(29, 27, 22, 0.06) 0px 1px 4px 0px",
+          "color": "rgb(29, 27, 22)",
+          "rect": {
+            "top": 12,
+            "left": 338,
+            "w": 40,
+            "h": 40
+          }
+        },
+        "folio": {
+          "background": "rgba(245, 241, 234, 0.55)",
+          "border": "1px solid rgba(29, 27, 22, 0.08)",
+          "backdropFilter": "blur(14px)",
+          "boxShadow": "none",
+          "color": "rgb(140, 109, 63)",
+          "rect": {
+            "top": 12,
+            "left": 12,
+            "w": 79.875,
+            "h": 31
+          }
+        }
+      }
+    }
+  ],
+  "fallback": {
+    "close": {
+      "background": "rgba(245, 241, 234, 0.85)",
+      "backdropFilter": "none"
+    },
+    "folio": {
+      "background": "rgba(245, 241, 234, 0.85)",
+      "backdropFilter": "none"
+    }
+  }
+}
