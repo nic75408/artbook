@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Artbook · Sketch B · 内联展签文字链</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../themes/tokens.css">
+<style>
+  /* 方案 B · 「了解更多」= 美术馆展签下方的小字导览
+     去掉一切按钮容器，只留一行居中的衬线金字 + 细横线
+     动作层级：最弱容器；最强字体气质（衬线金字） */
+
+  .learn-inline {
+    margin-top: 28px;
+    align-self: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .learn-inline .txt {
+    font-family: var(--serif-en);
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .learn-inline .txt-zh {
+    font-family: var(--serif-zh);
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    color: var(--ink-2);
+    margin-left: 0.3em;      /* 补偿字距开头 */
+    line-height: 1;
+  }
+  .learn-inline .rule {
+    width: 48px;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.6;
+  }
+  .learn-inline:active .rule {
+    width: 64px;
+    opacity: 1;
+    transition: width 200ms, opacity 200ms;
+  }
+  .learn-inline:active .txt-zh { color: var(--ink); }
+
+  /* 说明浮层 */
+  .callout {
+    position: absolute; right: 12px; top: 12px;
+    max-width: 200px;
+    font-family: var(--sans-zh); font-size: 11px; line-height: 1.5;
+    color: var(--ink-2); background: rgba(253,251,247,0.9);
+    border: 1px solid var(--line); padding: 8px 10px; border-radius: 4px;
+    z-index: 50;
+  }
+</style>
+</head>
+<body>
+
+<div class="viewport">
+  <div class="viewport-label">B · INLINE SERIF · 390×844</div>
+
+  <header class="feed-header">
+    <div class="wordmark">艺术手册</div>
+    <button class="fav-btn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      收藏夹
+    </button>
+  </header>
+
+  <section class="slide">
+    <div class="frame">
+      <div class="ph"></div>
+    </div>
+    <div class="names">
+      <div class="artist-zh">雷神图屏风</div>
+      <div class="title-en">俵屋宗达</div>
+    </div>
+
+    <a class="learn-inline" href="#" aria-label="了解更多">
+      <span class="txt">Continue reading</span>
+      <span class="rule"></span>
+      <span class="txt-zh">了 解 更 多</span>
+    </a>
+  </section>
+
+  <button class="date-capsule">
+    2026/08/31
+    <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+
+  <div class="callout">
+    <b>B · 展签文字链</b><br>
+    无按钮容器，纯文字导览<br>
+    衬线英文 + 金色细线 + 疏字距中文<br>
+    最像美术馆展签下方"了解更多 →"的排字<br>
+    交互面积：整行；击中即入详情
+  </div>
+</div>
+
+</body>
+</html>

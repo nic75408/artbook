@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Artbook · Sketch C · 极细描边圆按钮</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../themes/tokens.css">
+<style>
+  /* 方案 C · 保留圆的几何，去掉一切"重"元素
+     40px 米色圆 + 1px 金色描边 + 细 chevron，一枚"提示"而非"命令"
+     动作层级：中；比 A 更弱一档，比 B 更强一档 */
+
+  .learn-ring {
+    margin-top: 24px;
+    align-self: center;
+
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1px solid var(--gold);
+    display: inline-flex; align-items: center; justify-content: center;
+
+    cursor: pointer;
+    transition: background 200ms, border-color 200ms, transform 200ms;
+    position: relative;
+  }
+  .learn-ring .chev {
+    width: 16px; height: 16px;
+    stroke: var(--gold);
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  /* 环外双细线的美术馆点缀（可选，非默认）*/
+  .learn-ring::after {
+    content: "";
+    position: absolute; inset: -6px;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .learn-ring:active {
+    background: var(--gold);
+    transform: scale(0.96);
+  }
+  .learn-ring:active .chev { stroke: var(--bg-card); }
+
+  /* 说明浮层 */
+  .callout {
+    position: absolute; right: 12px; top: 12px;
+    max-width: 200px;
+    font-family: var(--sans-zh); font-size: 11px; line-height: 1.5;
+    color: var(--ink-2); background: rgba(253,251,247,0.9);
+    border: 1px solid var(--line); padding: 8px 10px; border-radius: 4px;
+    z-index: 50;
+  }
+</style>
+</head>
+<body>
+
+<div class="viewport">
+  <div class="viewport-label">C · HAIRLINE RING · 390×844</div>
+
+  <header class="feed-header">
+    <div class="wordmark">艺术手册</div>
+    <button class="fav-btn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      收藏夹
+    </button>
+  </header>
+
+  <section class="slide">
+    <div class="frame">
+      <div class="ph"></div>
+    </div>
+    <div class="names">
+      <div class="artist-zh">雷神图屏风</div>
+      <div class="title-en">俵屋宗达</div>
+    </div>
+
+    <button class="learn-ring" aria-label="了解更多">
+      <svg class="chev" viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </section>
+
+  <button class="date-capsule">
+    2026/08/31
+    <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+
+  <div class="callout">
+    <b>C · 极细描边圆</b><br>
+    保留旧版圆形几何，去掉黑填色 / 环绕字 / 旋转<br>
+    44px 米底 + 1px 金环 + 6px 外再一圈细线<br>
+    像一枚印章式的"入口"，克制而有个性
+  </div>
+</div>
+
+</body>
+</html>
