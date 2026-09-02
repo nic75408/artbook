@@ -67,12 +67,16 @@ function render(el, w) {
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
-      <!-- R1: Folio 是定位元数据，随作品信息卡呈现（t_51a886ed 定稿 A 案） -->
+      <!-- t_6fe0245e：数字页码 folio → 迷你滑轨，位于信息卡首元素，单幅不渲染 -->
       ${siblingCtx.ids.length > 1 ? `
-      <div class="folio" aria-live="polite" aria-label="当前作品位置">
-        <span class="folio-idx">${siblingCtx.index + 1}</span>
-        <span class="folio-sep">／</span>
-        <span class="folio-total">${siblingCtx.ids.length}</span>
+      <div class="detail-scrubber"
+           role="progressbar"
+           aria-valuemin="1" aria-valuemax="${siblingCtx.ids.length}"
+           aria-valuenow="${siblingCtx.index + 1}"
+           aria-label="当前作品位置">
+        <div class="detail-scrubber__track"></div>
+        <div class="detail-scrubber__dot"
+             style="left: ${(siblingCtx.index / (siblingCtx.ids.length - 1)) * 100}%"></div>
       </div>
       ` : ''}
 
