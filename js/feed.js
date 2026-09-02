@@ -6,7 +6,9 @@ import { navigate } from "./router.js";
 import { esc, icons } from "./ui.js";
 import { Icon } from "./icons/Icon.js";
 
-const POS_KEY = "artbook.feedpos";
+// 导出给 detail.js（t_e578fc0d §6.3）：详情页每次切换作品都要写这个 key，
+// 与首页滚动时写入的 key 保持同一个常量，不新造 key。
+export const POS_KEY = "artbook.feedpos";
 let scroller = null;
 let allDates = [];            // index.json issues（倒序）
 let loaded = [];              // [{date, works}]

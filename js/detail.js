@@ -1,13 +1,19 @@
 // 详情视图（SPE §7.4）：大图、全屏缩放、元数据表、圆形细节、赏析、相关推荐
+// t_e578fc0d：跨日期连续浏览 + 下拉退出 + 首页定位（SPEC docs/detail-navigation-spec.md B 案）
 import * as data from "./data.js";
 import { back, navigate } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast } from "./ui.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
+import { POS_KEY } from "./feed.js";
 
 // t_13662686：同期序列，mount 时刷新。用模块级变量而非闭包，
 // 是因为切换到下一幅时 render 会重跑，闭包每次会重置，需要跨 render 保持序列。
 let siblingCtx = { ids: [], index: -1, issue: null };
+
+// t_e578fc0d §4：跨日期序列上下文。issues 是 index.json.issues（倒序，最新在前），
+// issueIdx 是 siblingCtx.issue 在其中的位置。
+let crossCtx = { issues: [], issueIdx: -1 };
 
 export async function mount(el, { id }) {
   let work;
@@ -32,6 +38,15 @@ export async function mount(el, { id }) {
     siblingCtx = { ids: [], index: -1, issue: null };
   }
 
+  // t_e578fc0d §4：加载跨期上下文，为边界跨期翻页做准备
+  try {
+    const idx = await data.loadIndex();
+    const issues = idx.issues || [];
+    crossCtx = { issues, issueIdx: issues.indexOf(siblingCtx.issue) };
+  } catch {
+    crossCtx = { issues: [], issueIdx: -1 };
+  }
+
   render(el, work);
 }
 
@@ -45,7 +60,7 @@ function render(el, w) {
   <div class="detail">
     <div class="detail-hero">
       <div class="ph" style="aspect-ratio:calc(1/${ratio})">
-        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
+        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async" draggable="false">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
@@ -210,19 +225,19 @@ function render(el, w) {
     const type = typeof para === 'string' ? 'overview' : (para.type || 'overview');
     const getter = headingMap[type];
     if (!getter) return false;
-    
+
     const headingText = typeof getter === 'function' ? getter(region) : getter;
-    
+
     // 单段 overview 场景：不渲染
     if (allParas.length === 1 && type === 'overview') {
       return false;
     }
-    
+
     // 去重：同一小标题文案在同一篇赏析中只出现一次
     if (renderedHeadings.has(headingText)) {
       return false;
     }
-    
+
     return true;
   };
 
@@ -249,7 +264,7 @@ function render(el, w) {
 
   (w.essay || []).forEach((p, i) => {
     const allParas = w.essay || [];
-    
+
     // 判断是否渲染此段落的小标题
     if (shouldRenderHeading(p, i, allParas, renderedHeadings)) {
       const headingText = getHeadingText(p, i);
@@ -356,11 +371,58 @@ function render(el, w) {
     el.querySelector("#rel-retry").addEventListener("click", () => navigate(`#/work/${w.id}`));
   });
 
-  // t_13662686：详情页左右滑动切换同日期作品
-  attachSwipeGesture(el);
+  // t_13662686 + t_e578fc0d：详情页左右滑动切换（同/跨日期）+ 下拉退出
+  attachGestures(el);
 }
 
 function wait(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+function reducedMotion() {
+  return typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+// 缩短所有转场时长到 30ms（reduced-motion 兜底，CSS 侧同步用 !important 压时长）
+function dur(ms) {
+  return reducedMotion() ? 30 : ms;
+}
+
+// 跨期上下文：更早的一期（issues 列表里 index+1）
+function nextIssueDate() {
+  if (crossCtx.issueIdx < 0) return null;
+  return crossCtx.issues[crossCtx.issueIdx + 1] || null;
+}
+// 跨期上下文：更新的一期（issues 列表里 index-1）
+function prevIssueDate() {
+  if (crossCtx.issueIdx < 0) return null;
+  return crossCtx.issues[crossCtx.issueIdx - 1] || null;
+}
+
+function abbrevDate(dateStr) {
+  const parts = (dateStr || "").split("-").map(Number);
+  if (parts.length < 3) return dateStr || "";
+  return `${parts[1]}/${parts[2]}`;
+}
+
+function fullDate(dateStr) {
+  const parts = (dateStr || "").split("-").map(Number);
+  if (parts.length < 3) return dateStr || "";
+  return `${parts[1]} 月 ${parts[2]} 日`;
+}
+
+// t_e578fc0d §6.3：详情页每次成功切换到新作品都要写这条契约，
+// 值是新作品在 index.json 扁平序列中的位置（getFeedIndex），
+// 让退出后首页能停在「刚才看到的那一幅」。隐私模式下 setItem 抛错静默失败（§6.4）。
+function savePosAfterSwitch(workId, issue) {
+  data.getFeedIndex(workId).then((flatIndex) => {
+    if (flatIndex < 0) return;
+    try {
+      sessionStorage.setItem(POS_KEY, JSON.stringify({ issue, index: flatIndex }));
+    } catch {
+      /* 隐私模式，忽略 */
+    }
+  }).catch(() => { /* 查不到扁平位置：不更新，保留上一次的记录 */ });
+}
 
 // t_13662686：页内数据切换（不走 router）
 // 不用 navigate(#/work/<nextId>)：router.js 的 handle() 会重置 #view.innerHTML
@@ -370,17 +432,27 @@ function wait(ms) { return new Promise((r) => setTimeout(r, ms)); }
 async function switchTo(el, direction) {
   const { ids, index } = siblingCtx;
   const next = index + direction;
-  if (next < 0 || next >= ids.length) {
+  if (next >= 0 && next < ids.length) {
+    await switchWithinIssue(el, next);
+    return;
+  }
+  // 已到同期边界：尝试跨日期（t_e578fc0d §4.1）
+  const targetDate = direction > 0 ? nextIssueDate() : prevIssueDate();
+  if (!targetDate) {
     showEndNotice(el, direction < 0 ? "今日推荐已到首幅" : "今日推荐已到末幅");
     return;
   }
+  await switchAcrossIssue(el, targetDate, direction);
+}
+
+// 场景一 · 同日期切换（冻结数值，见 SPEC §3）：240ms 淡出 → 换数据 → 240ms 淡入（40ms 延迟）
+async function switchWithinIssue(el, next) {
+  const { ids } = siblingCtx;
   const nextId = ids[next];
-  // 淡出当前 detail 层（240ms）
   const layer = el.querySelector(".detail");
   if (!layer) return;
   layer.classList.add("fade-out");
-  await wait(240);
-  // 加载新数据（大概率命中缓存）
+  await wait(dur(240));
   let nextWork = null;
   try {
     nextWork = await data.getWork(nextId);
@@ -392,7 +464,6 @@ async function switchTo(el, direction) {
     return;
   }
   siblingCtx.index = next;
-  // 就地重渲染
   render(el, nextWork);
   // 滚回顶部（无动画，避免与淡入叠加）
   window.scrollTo({ top: 0, behavior: "instant" });
@@ -403,46 +474,122 @@ async function switchTo(el, direction) {
       newLayer.classList.remove("fade-in");
     });
   }
-  // 更新 URL（不触发路由）
   history.replaceState(null, "", `#/work/${nextId}`);
+  savePosAfterSwitch(nextId, siblingCtx.issue);
 }
 
-// 手势语义：画面不做水平位移，只做 opacity 反馈；命中翻页则触发 240ms 淡入淡出。
+// 场景二 · 跨日期连续浏览（新增，SPEC §4）：480ms 换册转场 + 中央金色日期条
+async function switchAcrossIssue(el, targetDate, direction) {
+  const layer = el.querySelector(".detail");
+  if (!layer) return;
+  layer.classList.add("dateflip-out");
+  const banner = showDateFlipBanner(el, targetDate);
+  await wait(dur(80));
+
+  let issue = null;
+  try {
+    issue = await data.loadIssue(targetDate);
+  } catch {
+    issue = null;
+  }
+  const ids = (issue && issue.works || []).map((w) => w.id);
+  if (!ids.length) {
+    layer.classList.remove("dateflip-out");
+    banner?.remove();
+    showEndNotice(el, direction < 0 ? "今日推荐已到首幅" : "今日推荐已到末幅");
+    return;
+  }
+  const targetIndex = direction > 0 ? 0 : ids.length - 1;
+  const nextId = ids[targetIndex];
+  let nextWork = null;
+  try {
+    nextWork = await data.getWork(nextId);
+  } catch {
+    nextWork = null;
+  }
+  if (!nextWork) {
+    layer.classList.remove("dateflip-out");
+    banner?.remove();
+    return;
+  }
+
+  siblingCtx = { ids, index: targetIndex, issue: targetDate };
+  crossCtx.issueIdx = crossCtx.issues.indexOf(targetDate);
+
+  render(el, nextWork);
+  window.scrollTo({ top: 0, behavior: "instant" });
+  const newLayer = el.querySelector(".detail");
+  if (newLayer) {
+    newLayer.classList.add("dateflip-in");
+    if (reducedMotion()) {
+      setTimeout(() => newLayer.classList.remove("dateflip-in"), dur(30));
+    } else {
+      newLayer.addEventListener("animationend", () => newLayer.classList.remove("dateflip-in"), { once: true });
+    }
+  }
+  history.replaceState(null, "", `#/work/${nextId}`);
+  savePosAfterSwitch(nextId, targetDate);
+}
+
+// 手势语义：画面不做水平位移，只做 opacity 反馈；命中翻页则触发淡入淡出转场。
+// 下滑手势（t_e578fc0d §5）：轻位移 + 轻透明衰减跟手，命中则触发退出转场。
 // 事件绑在 el（<main id="view">）上，因为 .detail 会被 render 重建；
 // 每次 render 都会重挂，所以先解绑旧监听器再挂新的。
-function attachSwipeGesture(el) {
+// 判定顺序（SPEC §2）：起点校验 → 方向判定阈值 8px → 主导轴判定 → 分派，不允许中途换轨。
+function attachGestures(el) {
   if (el._swipeCleanup) el._swipeCleanup();
   el._swipeCleanup = null;
-  if (siblingCtx.ids.length <= 1) return;
 
   const detail = el.querySelector(".detail");
   if (!detail) return;
   const relatedScroll = el.querySelector(".related-scroll");
+  // 防御性检查：siblingCtx 必须有 ids 才能启用横向手势
+  const hasHorizontal = siblingCtx && siblingCtx.ids && siblingCtx.ids.length > 1;
 
-  let sx = 0, sy = 0, dx = 0, dy = 0, tStart = 0;
-  let tracking = false;      // 已通过方向判定，正在跟踪
-  let disqualified = false;  // 已被判定为纵向滚动或起点落在相关推荐区，本次手势忽略
+  let sx = 0, sy = 0, dx = 0, dy = 0, tStart = 0, startScrollY = 0;
+  let axis = null;           // null | 'h' | 'v' —— 已判定的手势轴，判定后不换轨
+  let disqualified = false;  // 本次手势起点不合法或已被让渡给页面默认行为
 
-  const THRESHOLD_DIST = 60;        // px，翻页最小位移
-  const THRESHOLD_VELOCITY = 0.35;  // px/ms，翻页最小释放速度
-  const DIR_JUDGE_DIST = 8;         // px，方向判定阈值
-  const MAX_FADE = 0.65;            // 最大透明度衰减
+  const THRESHOLD_DIST = 60;             // px，同期翻页最小位移
+  const THRESHOLD_VELOCITY = 0.35;       // px/ms，同期翻页最小释放速度
+  const THRESHOLD_DIST_CROSS = 96;       // px，跨期翻页最小位移（§4.1）
+  const THRESHOLD_VELOCITY_CROSS = 0.42; // px/ms，跨期翻页最小释放速度（§4.1）
+  const DIR_JUDGE_DIST = 8;              // px，方向判定阈值
+  const MAX_FADE = 0.65;                 // 最大透明度衰减
+
+  const PULL_DIST = 96;      // px，下拉退出最小位移（§5.1）
+  const PULL_VELOCITY = 0.45;// px/ms，下拉退出最小释放速度（§5.1）
+  const PULL_OPACITY_SPAN = 240; // px，opacity 衰减到 0 的位移跨度（§5.2）
+  const PULL_DAMP = 0.5;     // 阻尼系数（§5.2）
+  const PULL_MAX_TY = 48;    // px，跟手位移上限（§5.2）
+
+  const isTransitioning = () =>
+    detail.classList.contains("fade-out") || detail.classList.contains("fade-in") ||
+    detail.classList.contains("dateflip-out") || detail.classList.contains("dateflip-in") ||
+    detail.classList.contains("exiting");
 
   const onStart = (e) => {
-    // 相关推荐区起点：直接放弃（避免和横滑冲突）
-    if (relatedScroll && relatedScroll.contains(e.target)) {
+    // 图片查看器打开时不接管
+    if (document.querySelector(".viewer")) {
       disqualified = true;
       return;
     }
-    // 图片查看器打开时不接管
-    if (document.querySelector(".viewer")) {
+    // 转场进行中：忽略新手势（SPEC §2）
+    if (isTransitioning()) {
+      disqualified = true;
+      return;
+    }
+    // 相关推荐区起点：直接放弃（避免和横滑冲突）
+    if (relatedScroll && relatedScroll.contains(e.target)) {
       disqualified = true;
       return;
     }
     sx = e.clientX; sy = e.clientY;
     dx = 0; dy = 0;
     tStart = performance.now();
-    tracking = false;
+    // iOS Safari 橡皮筋回弹可能让 scrollY 短暂为负数，视同 0（§5.5）
+    startScrollY = Math.max(window.scrollY, 0);
+    axis = null;
     disqualified = false;
   };
 
@@ -450,47 +597,101 @@ function attachSwipeGesture(el) {
     if (disqualified) return;
     dx = e.clientX - sx;
     dy = e.clientY - sy;
-    if (!tracking) {
-      // 未判定方向：等到累计移动 >= 8px 再判定
+    if (axis === null) {
       if (Math.hypot(dx, dy) < DIR_JUDGE_DIST) return;
       if (Math.abs(dy) > Math.abs(dx)) {
-        // 纵向占优 → 让页面自然滚动，本次手势不接管
-        disqualified = true;
-        return;
+        // 纵向占优：只有起点已在顶部且向下滑才接管为退出手势，
+        // 否则让给页面正常滚动（§5.5 实现提示：pointerdown 时读一次 scrollY，
+        // 不在 pointermove 中反复读取）
+        if (startScrollY <= 0 && dy > 0) {
+          axis = "v";
+        } else {
+          disqualified = true;
+          return;
+        }
+      } else {
+        if (!hasHorizontal) {
+          disqualified = true;
+          return;
+        }
+        axis = "h";
       }
-      tracking = true;
     }
-    // 已进入跟踪：只调 opacity，不动 transform
-    const fade = Math.min(Math.abs(dx) / THRESHOLD_DIST, MAX_FADE);
-    detail.style.opacity = String(1 - fade);
-    // 显示方向侧羽箭
-    showSwipeHint(el, dx < 0 ? "right" : "left");
+
+    if (axis === "h") {
+      const atBoundary = (dx < 0 && siblingCtx.index === siblingCtx.ids.length - 1) ||
+                          (dx > 0 && siblingCtx.index === 0);
+      const thresholdDist = atBoundary ? THRESHOLD_DIST_CROSS : THRESHOLD_DIST;
+      const fade = Math.min(Math.abs(dx) / thresholdDist, MAX_FADE);
+      detail.style.opacity = String(1 - fade);
+      if (atBoundary && Math.abs(dx) > THRESHOLD_DIST) {
+        // 60px → 96px 窗口：羽箭放大 + 显示目标日期（§4.5）
+        const t = Math.min(Math.max((Math.abs(dx) - THRESHOLD_DIST) / (THRESHOLD_DIST_CROSS - THRESHOLD_DIST), 0), 1);
+        const w = 44 + t * (54 - 44);
+        const h = 60 + t * (84 - 60);
+        const targetDate = dx < 0 ? nextIssueDate() : prevIssueDate();
+        showSwipeHint(el, dx < 0 ? "right" : "left", {
+          width: w, height: h,
+          dateText: targetDate ? abbrevDate(targetDate) : null,
+        });
+      } else {
+        showSwipeHint(el, dx < 0 ? "right" : "left");
+      }
+    } else if (axis === "v") {
+      const d = Math.max(dy, 0);
+      const ty = Math.min(d * PULL_DAMP, PULL_MAX_TY);
+      const op = Math.max(0.55, 1 - d / PULL_OPACITY_SPAN);
+      detail.style.transform = `translate3d(0, ${ty}px, 0)`;
+      detail.style.opacity = String(op);
+    }
   };
 
   const onEnd = () => {
-    if (disqualified || !tracking) {
+    if (disqualified || axis === null) {
       detail.style.opacity = "";
+      detail.style.transform = "";
       hideSwipeHint(el);
+      axis = null;
       return;
     }
-    hideSwipeHint(el);
-    const dt = performance.now() - tStart;
-    const velocity = Math.abs(dx) / Math.max(dt, 1);
-    const hit = Math.abs(dx) >= THRESHOLD_DIST || velocity >= THRESHOLD_VELOCITY;
-    if (hit) {
-      // 命中：dx < 0（左滑）→ 下一幅 → direction = +1
-      detail.style.opacity = ""; // switchTo 内自己控制淡入淡出
-      switchTo(el, dx < 0 ? +1 : -1);
-    } else {
-      // 未命中：回弹到 opacity 1，240ms
-      detail.style.transition = "opacity 240ms ease";
-      detail.style.opacity = "1";
-      setTimeout(() => {
-        detail.style.transition = "";
+    if (axis === "h") {
+      hideSwipeHint(el);
+      const dt = performance.now() - tStart;
+      const velocity = Math.abs(dx) / Math.max(dt, 1);
+      const atBoundary = (dx < 0 && siblingCtx.index === siblingCtx.ids.length - 1) ||
+                          (dx > 0 && siblingCtx.index === 0);
+      const thresholdDist = atBoundary ? THRESHOLD_DIST_CROSS : THRESHOLD_DIST;
+      const thresholdVelocity = atBoundary ? THRESHOLD_VELOCITY_CROSS : THRESHOLD_VELOCITY;
+      const hit = Math.abs(dx) >= thresholdDist || velocity >= thresholdVelocity;
+      if (hit) {
         detail.style.opacity = "";
-      }, 260);
+        switchTo(el, dx < 0 ? +1 : -1);
+      } else {
+        detail.style.transition = "opacity 240ms ease";
+        detail.style.opacity = "1";
+        setTimeout(() => {
+          detail.style.transition = "";
+          detail.style.opacity = "";
+        }, 260);
+      }
+    } else if (axis === "v") {
+      const dt = performance.now() - tStart;
+      const d = Math.max(dy, 0);
+      const vy = d / Math.max(dt, 1);
+      const hit = d >= PULL_DIST || vy >= PULL_VELOCITY;
+      if (hit) {
+        exitDetail(el);
+      } else {
+        // 未命中：回弹（§5.3）
+        detail.style.transition = "opacity 240ms cubic-bezier(0.16, 1, 0.3, 1), transform 240ms cubic-bezier(0.16, 1, 0.3, 1)";
+        detail.style.opacity = "";
+        detail.style.transform = "";
+        setTimeout(() => {
+          detail.style.transition = "";
+        }, 260);
+      }
     }
-    tracking = false;
+    axis = null;
   };
 
   el.addEventListener("pointerdown", onStart, { passive: true });
@@ -506,7 +707,45 @@ function attachSwipeGesture(el) {
   };
 }
 
-function showSwipeHint(el, side) {
+// 场景三 · 下拉退出详情页（新增，SPEC §5.4）：书页合起 —— 向下轻沉 24px + 缓慢透出，320ms
+function parseTranslateY(transformStr) {
+  const m = /translate3d\(0,\s*([-\d.]+)px/.exec(transformStr || "");
+  return m ? parseFloat(m[1]) : 0;
+}
+
+async function exitDetail(el) {
+  const detail = el.querySelector(".detail");
+  if (!detail) return;
+  detail.classList.add("exiting"); // 阻断 pointer 事件（§5.4）
+  const currentTy = parseTranslateY(detail.style.transform);
+  detail.style.transition = `opacity ${dur(320)}ms cubic-bezier(0.32, 0.72, 0, 1), transform ${dur(320)}ms cubic-bezier(0.32, 0.72, 0, 1)`;
+  requestAnimationFrame(() => {
+    detail.style.opacity = "0";
+    detail.style.transform = `translate3d(0, ${currentTy + 24}px, 0)`;
+  });
+  await wait(dur(320));
+  back();
+}
+
+// 跨期中央金色日期条（§4.4）：仅在跨期时短暂出现，480ms 淡入-停留-淡出
+function showDateFlipBanner(el, dateStr) {
+  const host = el.querySelector(".detail");
+  if (!host) return null;
+  const banner = document.createElement("div");
+  banner.className = "date-flip-banner";
+  banner.textContent = fullDate(dateStr);
+  host.appendChild(banner);
+  if (reducedMotion()) {
+    // 无 opacity 动画，直接切换 + 短暂显示
+    banner.classList.add("reduced");
+    setTimeout(() => banner.remove(), dur(480));
+  } else {
+    banner.addEventListener("animationend", () => banner.remove(), { once: true });
+  }
+  return banner;
+}
+
+function showSwipeHint(el, side, opts = {}) {
   let hint = el.querySelector(".detail-swipe-hint");
   if (!hint) {
     const host = el.querySelector(".detail");
@@ -517,13 +756,20 @@ function showSwipeHint(el, side) {
   }
   hint.classList.remove("left", "right");
   hint.classList.add(side);
-  hint.textContent = side === "right" ? "→" : "←";
+  const arrow = side === "right" ? "→" : "←";
+  hint.textContent = opts.dateText ? (side === "right" ? `${opts.dateText} ${arrow}` : `${arrow} ${opts.dateText}`) : arrow;
   hint.style.opacity = "1";
+  hint.style.width = opts.width != null ? `${opts.width}px` : "";
+  hint.style.height = opts.height != null ? `${opts.height}px` : "";
 }
 
 function hideSwipeHint(el) {
   const hint = el.querySelector(".detail-swipe-hint");
-  if (hint) hint.style.opacity = "0";
+  if (hint) {
+    hint.style.opacity = "0";
+    hint.style.width = "";
+    hint.style.height = "";
+  }
 }
 
 function showEndNotice(el, text) {
