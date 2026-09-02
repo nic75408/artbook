@@ -1,0 +1,296 @@
+{
+  "BASE": "http://127.0.0.1:8934/",
+  "VARIANTS": {
+    "A": "ZCOOL XiaoWei（细长瘦金骨）",
+    "B": "Ma Shan Zheng（毛笔挥洒）",
+    "C": "LXGW WenKai（霞鹜文楷·清雅）"
+  },
+  "picks": [
+    {
+      "tag": "scroll-narrow",
+      "id": "cma-141200",
+      "source": "cma",
+      "sourceId": "141200",
+      "sourceUrl": "https://clevelandart.org/art/1964.44",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Bodhidharma Crossing the Yangzi on a Reed",
+      "title_zh": "达摩渡江图",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详",
+      "date_display": "1300s",
+      "year": 1300,
+      "medium_zh": "纸本水墨立轴",
+      "dimensions": "Painting only: 91.1 x 36.5 cm (35 7/8 x 14 3/8 in.); Overall: 175 x 38.5 cm (68 7/8 x 15 3/16 in.); Overall with knobs: 175 x 43 cm (68 7/8 x 16 15/16 in.)",
+      "movement_zh": "禅画",
+      "tags": [
+        "宗教",
+        "水墨",
+        "14世纪",
+        "中国",
+        "达摩",
+        "禅宗"
+      ],
+      "palette": [
+        "#b39c79",
+        "#726250"
+      ],
+      "essay": [
+        "这幅 14 世纪的中国佚名作品，是典型的禅宗人物画。在宋元时期，禅画往往不追求形似，而重在通过极简的笔墨传达人物的精神气质。此作描绘禅宗初祖达摩渡江的传说，属于当时流行的宗教题材，体现了文人画与禅宗思想结合后的审美趣味。",
+        "画面最精彩处在于衣纹的处理。画家仅用寥寥数笔枯淡的墨线，便勾勒出宽大僧袍的垂坠感与随风飘动的动态。这种“减笔”画法（Reduced Stroke）极其考验功力，线条看似随意潦草，实则精准地表现了布料的质感与身体的体积，留白处更暗示了江水的浩渺。",
+        "若以严谨的解剖学审视，人物比例略显失调，头部过大，身躯被衣物完全掩盖。但这正是禅画的特质：它不在乎肉身的真实，只在乎神韵的传达。这种对“形”的有意忽略，恰恰是为了突出达摩作为苦行僧那种超脱世俗、专注内心的精神状态。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "ratio": 4.072
+    },
+    {
+      "tag": "square",
+      "id": "cma-135592",
+      "source": "cma",
+      "sourceId": "135592",
+      "sourceUrl": "https://clevelandart.org/art/1959.136",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Dragon and Tiger",
+      "title_zh": "龙虎图屏风",
+      "artist_en": "Sesson Shūkei (Japanese, c. 1492–c. 1577)",
+      "artist_zh": "雪村周继",
+      "artist_id": "sesson-shukei-japanese-c-1492-c-1577",
+      "artist_nationality_zh": "日本",
+      "artist_years": "约 1492–约 1577",
+      "date_display": "c. 1546–56",
+      "year": 1546,
+      "medium_zh": "纸本水墨",
+      "dimensions": "Each: 157.3 x 339 cm (61 15/16 x 133 7/16 in.); Framed: 172.3 x 354 cm (67 13/16 x 139 3/8 in.)",
+      "movement_zh": "禅画",
+      "tags": [
+        "水墨",
+        "动物",
+        "16世纪",
+        "日本",
+        "屏风",
+        "禅宗"
+      ],
+      "palette": [
+        "#7d7562",
+        "#b3a68c"
+      ],
+      "essay": [
+        "雪村周继是室町时代水墨画的集大成者，其画风承袭了相阿弥的遗韵，又融入了禅宗的狂逸之气。这组《龙虎图屏风》作于其艺术成熟期，既是当时武家宅邸中常见的镇宅装饰，也是日本水墨画从模仿中国宋元风格转向本土化表达的关键见证。",
+        "画面看点在于对“气”的视觉化处理。上方龙身隐没于泼墨渲染的云雾之中，仅以劲健的线条勾勒爪牙，利用大面积留白营造出翻腾的动态；下方猛虎则用干笔皴擦出皮毛的粗砺质感，与周围湿润的墨色竹林形成强烈的干湿对比，张力十足。",
+        "尽管雪村试图通过龙虎对峙展现阴阳平衡的宇宙观，但两扇屏风在气势上略显失衡：龙的笔墨过于狂放导致形体松散，而虎的刻画虽精细却稍显呆板，缺乏猛兽应有的爆发力。这种技法上的不统一，折射出当时水墨画在写意与写实间的摇摆。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.72,
+        "r": 0.18,
+        "region": "clothing"
+      },
+      "ratio": 1.001
+    },
+    {
+      "tag": "portrait-tall",
+      "id": "cma-129386",
+      "source": "cma",
+      "sourceId": "129386",
+      "sourceUrl": "https://clevelandart.org/art/1952.222",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Christ on the Cross",
+      "title_zh": "十字架上的基督",
+      "artist_en": "El Greco (Spanish, 1541–1614)",
+      "artist_zh": "埃尔·格列柯",
+      "artist_id": "el-greco-spanish-1541-1614",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1541–1614",
+      "date_display": "c. 1600–1610",
+      "year": 1605,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 221 x 144 x 10 cm (87 x 56 11/16 x 3 15/16 in.); Unframed: 193 x 116 cm (76 x 45 11/16 in.)",
+      "movement_zh": "矫饰主义",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "西班牙",
+        "ElGreco"
+      ],
+      "palette": [
+        "#2b2a23",
+        "#525143"
+      ],
+      "essay": [
+        "埃尔·格列柯是西班牙矫饰主义的代表人物，以独特的拉长人物和戏剧性光影著称。此作《十字架上的基督》创作于其晚年，体现了他对宗教题材的深刻理解和艺术风格的成熟。",
+        "画面中，基督的身体被拉长，呈现出一种超现实的美感。他的肌肉线条清晰，皮肤在昏暗的背景下显得格外苍白，仿佛散发着神圣的光芒。这种处理方式不仅突出了基督的神圣性，也增强了画面的戏剧效果。",
+        "尽管埃尔·格列柯的技法令人赞叹，但这种过度拉长的人物形象有时显得不自然，甚至有些怪异。然而，正是这种独特的风格使他在艺术史上独树一帜，成为后世艺术家的重要参考。",
+        "这幅作品展示了埃尔·格列柯对宗教情感的深刻表达，以及他在艺术形式上的大胆创新。通过这种独特的视觉语言，他成功地将观众带入了一个充满神秘与敬畏的世界，让人感受到基督受难的庄严与神圣。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.4,
+        "r": 0.2,
+        "region": "torso_neck"
+      },
+      "ratio": 1.727
+    },
+    {
+      "tag": "landscape",
+      "id": "cma-112831",
+      "source": "cma",
+      "sourceId": "112831",
+      "sourceUrl": "https://clevelandart.org/art/1931.440",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Yellow Light",
+      "title_zh": "黄光",
+      "artist_en": "Ralph A. Blakelock (American, 1847–1919)",
+      "artist_zh": "拉尔夫·A·布莱克洛克",
+      "artist_id": "ralph-a-blakelock-american-1847-1919",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1847–1919",
+      "date_display": "before 1905",
+      "year": 1905,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 35.5 x 61 cm (14 x 24 in.)",
+      "movement_zh": "色调主义",
+      "tags": [
+        "风景",
+        "色调主义",
+        "19世纪",
+        "美国",
+        "光影",
+        "黄昏"
+      ],
+      "palette": [
+        "#aa9871",
+        "#60503b"
+      ],
+      "essay": [
+        "布莱克洛克是美国色调主义的关键人物，其作品常以极简的色阶构建出深邃的冥想空间。这幅《黄光》创作于他晚年，彼时他虽深受精神疾病困扰，却仍保持着对光线与氛围的敏锐捕捉。画作摒弃了哈德逊河画派宏大的叙事，转而追求一种近乎抽象的情绪表达。",
+        "画面最精彩之处在于占据三分之二的天空处理。画家并未使用平滑的晕染，而是用刮刀与干笔在厚重的颜料层上反复堆叠、擦拭，制造出一种类似古老壁画剥落的肌理。这种浑浊而温暖的赭黄色调，既像是日落余晖，又似记忆中的泛黄旧照，赋予了风景一种超越时间的朦胧感。",
+        "然而，这种极致的氛围营造也付出了代价：地面的树木与植被被压缩成模糊的剪影，缺乏具体的形态支撑，显得过于概念化。这种‘重气氛、轻结构’的处理，虽强化了神秘感，却也暴露了画家在具象造型上的某种逃避或力不从心，让画面在崇高与空洞之间徘徊。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.25,
+        "region": "background"
+      },
+      "ratio": 0.569
+    }
+  ],
+  "results": [
+    {
+      "variant": "A",
+      "label": "ZCOOL XiaoWei（细长瘦金骨）",
+      "tag": "scroll-narrow",
+      "id": "cma-141200",
+      "ratio": 4.072,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/A-scroll-narrow.png",
+      "md5": "dc301d73ab918595eb725f1d222fe1ea"
+    },
+    {
+      "variant": "A",
+      "label": "ZCOOL XiaoWei（细长瘦金骨）",
+      "tag": "square",
+      "id": "cma-135592",
+      "ratio": 1.001,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/A-square.png",
+      "md5": "f9e1e27b1c1709d9aae8175c5a77e77a"
+    },
+    {
+      "variant": "A",
+      "label": "ZCOOL XiaoWei（细长瘦金骨）",
+      "tag": "portrait-tall",
+      "id": "cma-129386",
+      "ratio": 1.727,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/A-portrait-tall.png",
+      "md5": "5cd74e928fc15b30fa584707d55c74d2"
+    },
+    {
+      "variant": "A",
+      "label": "ZCOOL XiaoWei（细长瘦金骨）",
+      "tag": "landscape",
+      "id": "cma-112831",
+      "ratio": 0.569,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/A-landscape.png",
+      "md5": "e09598adff3b491ac6c6441377be1b5d"
+    },
+    {
+      "variant": "B",
+      "label": "Ma Shan Zheng（毛笔挥洒）",
+      "tag": "scroll-narrow",
+      "id": "cma-141200",
+      "ratio": 4.072,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/B-scroll-narrow.png",
+      "md5": "2aff524013ea4351609380b17cb50dc7"
+    },
+    {
+      "variant": "B",
+      "label": "Ma Shan Zheng（毛笔挥洒）",
+      "tag": "square",
+      "id": "cma-135592",
+      "ratio": 1.001,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/B-square.png",
+      "md5": "eb048f05fcc12799fd6f3993a879fbf0"
+    },
+    {
+      "variant": "B",
+      "label": "Ma Shan Zheng（毛笔挥洒）",
+      "tag": "portrait-tall",
+      "id": "cma-129386",
+      "ratio": 1.727,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/B-portrait-tall.png",
+      "md5": "9aa5a5c352dbe6e86e34a854341e27b0"
+    },
+    {
+      "variant": "B",
+      "label": "Ma Shan Zheng（毛笔挥洒）",
+      "tag": "landscape",
+      "id": "cma-112831",
+      "ratio": 0.569,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/B-landscape.png",
+      "md5": "da861292d3a49bd7aa9713b12972bd25"
+    },
+    {
+      "variant": "C",
+      "label": "LXGW WenKai（霞鹜文楷·清雅）",
+      "tag": "scroll-narrow",
+      "id": "cma-141200",
+      "ratio": 4.072,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/C-scroll-narrow.png",
+      "md5": "6d297a0759f6e8a4c32291c8f0db0531"
+    },
+    {
+      "variant": "C",
+      "label": "LXGW WenKai（霞鹜文楷·清雅）",
+      "tag": "square",
+      "id": "cma-135592",
+      "ratio": 1.001,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/C-square.png",
+      "md5": "0df0eb10f8949ed92786ec5fb55f46a6"
+    },
+    {
+      "variant": "C",
+      "label": "LXGW WenKai（霞鹜文楷·清雅）",
+      "tag": "portrait-tall",
+      "id": "cma-129386",
+      "ratio": 1.727,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/C-portrait-tall.png",
+      "md5": "737387a9b1c82cefa6c74e4aa0b20a7c"
+    },
+    {
+      "variant": "C",
+      "label": "LXGW WenKai（霞鹜文楷·清雅）",
+      "tag": "landscape",
+      "id": "cma-112831",
+      "ratio": 0.569,
+      "path": "/Users/david/人文/艺术手册/artbook/.worktrees/t_e05a68be/evidence/homepage-4items-3variants/C-landscape.png",
+      "md5": "7958be30c075190d80fb25e8b0961d79"
+    }
+  ]
+}

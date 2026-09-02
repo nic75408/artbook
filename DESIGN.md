@@ -30,15 +30,20 @@ typography:
     # DEPRECATED: use brand-wordmark instead
     alias: "{typography.brand-wordmark}"
   brand-wordmark:
-    fontFamily: "PingFang SC, Helvetica Neue, sans-serif"
-    fontSize: 18px
+    # t_e05a68be (2026-09-02): switched from PingFang SC to LXGW WenKai Lite Light
+    # 楷体 (self-hosted 1.6KB subset of only "艺术手册" four glyphs at fonts/lxgw-wenkai-lite-brand.woff2).
+    # PWA offline works via APP_SHELL cache. Fallback: Songti SC.
+    fontFamily: "LXGW WenKai Lite, Songti SC, Noto Serif CJK SC, serif"
+    fontSize: 24px
     fontWeight: 300
-    lineHeight: 1.3
-    letterSpacing: "0.25em"
+    lineHeight: 1.4
+    letterSpacing: "0.18em"
   brand-mark:
-    # DEPRECATED: use brand-emblem + brand-wordmark lockup
-    alias: "{components.brand-lockup}"
+    # DEPRECATED: use brand-wordmark directly (emblem removed t_e05a68be)
+    alias: "{typography.brand-wordmark}"
   brand-emblem:
+    # DEPRECATED t_e05a68be: 印章 icon removed per owner feedback. API kept in
+    # BrandEmblem.js for potential future reuse (launch splash, favicon variants).
     kind: svg-emblem
     source: "js/icons/BrandEmblem.js"
     size: 36px
@@ -86,9 +91,10 @@ typography:
 
 components:
   brand-lockup:
-    kind: horizontal
-    emblemGap: 10px
-    align: "center"
+    # t_e05a68be: emblem removed. Text-only wordmark, left-aligned to page-gutter.
+    kind: text-only
+    emblemGap: 0
+    align: "left"
   app-root:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink}"
@@ -108,11 +114,18 @@ components:
   slide-frame:
     backgroundColor: "{colors.bg-card}"
   artwork-slide:
+    # t_e05a68be (2026-09-02): content width widened 280→320px, names centered,
+    # frame padding 8→6px, learn-inline gap 28→44px, whole slide is a hotzone.
     verticalCenterPadding: 60px
-    contentWidth: min(280px, 86vw)
+    contentWidth: min(320px, 92vw)
     frameMargin: 0 auto
-    namesWidth: min(280px, 86vw)
-    namesTextAlign: left
+    framePadding: 6px
+    frameDisplay: inline-block
+    namesWidth: min(320px, 92vw)
+    namesTextAlign: center
+    learnInlineMarginTop: 44px
+    hotzoneScope: whole-slide
+    hotzoneExcludes: [feed-header, date-capsule]
   date-capsule:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink-2}"
@@ -233,8 +246,11 @@ rules to prevent overflow on mobile cold load:
 
 ### Feed page (`.slide .frame .ph`)
 
-- **Maximum width:** `min(280px, 86vw, calc((100dvh - pad-t - pad-b - 200px) / ratio))`
-  - 280px = content-max (340px) - page-gutter (22px × 2) - frame border/padding
+- **Maximum width:** `min(320px, 92vw, calc((100dvh - pad-t - pad-b - 220px) / ratio))`
+  - 320px = raised from 280px in t_e05a68be to reduce excessive side margin on
+    ultra-narrow scrolls (e.g. Chinese hanging scrolls, ratio 4+): side margin
+    goes from `(390-280)/2=55px` down to `(390-320)/2=35px`, matching the
+    top/bottom breathing space so all four sides read as equal.
   - Ensures artwork never exceeds the content column regardless of viewport
 - **Aspect ratio:** Respected via `aspect-ratio: calc(1 / var(--r))` where `--r` is
   height/width from the artwork data
@@ -264,7 +280,10 @@ rules to prevent overflow on mobile cold load:
 - Feed-page artwork containers use `max-width: var(--content-max)` and `margin: 0 auto`.
   The detail-page hero is the deliberate exception: it is full-bleed.
 - Left alignment基准 is `--align-origin: var(--page-gutter)` for visual consistency
-- Frame borders (1px) and padding (8px) are included in the width calculation
+- Frame borders (1px) and padding (6px) are included in the width calculation.
+  `.frame` uses `display: inline-block` so it shrink-wraps `.ph`'s computed
+  width — the previous `block` behaviour left an internal white gutter above
+  landscape (`.ph` height-limited, width < wrapper) artworks.
 
 ## Components
 
@@ -272,10 +291,23 @@ Components map to CSS blocks in `app.css`:
 
 - **Toast (`#toast`):** Fixed, centered pill at bottom, dark ink background and light
   text for legible transient messages.
-- **Feed header (`.feed-header`):** Fixed at top with brand wordmark and a subtle
-  icon button rendered as a pill with soft shadow.
+- **Feed header (`.feed-header`):** Fixed at top with brand wordmark (楷体
+  "艺术手册" in LXGW WenKai Lite Light 24px) left-aligned to `--page-gutter`
+  (22px), and a subtle icon button (bookmark shortcut) rendered as a pill
+  with soft shadow on the right. Since t_e05a68be (2026-09-02) the seal
+  emblem previously bundled by `BrandLockup` is removed — the wordmark alone
+  carries the identity via the calligraphy typeface.
 - **Artwork slide (`.slide`, `.frame`, `.names`):** A full-height section composed of
-  a framed image, Chinese artist name, and English title in gold.
+  a framed image, Chinese artist name, and English title in gold. Since
+  t_e05a68be (2026-09-02): content width `min(320px, 92vw)` (raised from 280px);
+  the frame is `display: inline-block` with `padding: 6px` so it shrink-wraps
+  the image and never trails an internal white gutter; `.names` centers with
+  `text-align: center` (matched to the artwork-centering aesthetic); the
+  `.learn-inline` link sits `44px` below `.names` for clear breathing room;
+  the whole slide is a tap hotzone (`cursor: pointer` + JS click delegation
+  in `feed.js`), with only `.feed-header` (bookmark shortcut) and
+  `.date-capsule` (date picker) excluded — clicks anywhere else on a slide
+  navigate to that artwork's detail page.
 - **Date capsule (`.date-capsule`):** Fixed pill in the bottom center with secondary
   text color on bg.
 - **Learn more inline link (`.learn-inline`):** A gallery-label style text link
@@ -441,3 +473,50 @@ Components map to CSS blocks in `app.css`:
   `margin: 0 auto` for unified width baseline. Evidence:
   `sketches-layout-redesign/001-centered-vertical.html`, `sketches-layout-redesign/002-museum-label.html`,
   `sketches-layout-redesign/003-unified-width.html`, and `sketches-layout-redesign/SPEC.md`.
+- **2026-09-02 — Homepage 4-item revision (t_e05a68be):** Product/design owner
+  gave four grouped feedback items on the homepage, taken from a hand-annotated
+  iPhone screenshot: (1) top-left title area — drop the seal emblem, keep only
+  the "艺术手册" wordmark, in a "thin & elongated calligraphy" font (瘦金体式),
+  left-aligned to page gutter (not the 20px `--space-xl` that had it misaligned
+  with the artwork edge); (2) frame refinement — narrow-scroll artworks like
+  达摩渡江图 (ratio 4.07) had 55px side gutters, out of proportion with the
+  top/bottom breathing; (3) `Continue reading / 了解更多` sat too tight below
+  artwork/artist — add real breathing space; (4) tap hotzone expansion — the
+  whole slide should be tappable (only the fav-shortcut and date-capsule stay
+  as functional controls). Three-variant self-adjudicated review on the
+  wordmark font (the one item where a font choice needed evaluation, other
+  three items are contract-driven numeric changes): **A** ZCOOL XiaoWei (Google
+  Fonts CDN, script-black), **B** Ma Shan Zheng (毛笔行书), **C** LXGW WenKai
+  Lite Light (霞鹜文楷·清雅, self-hosted). Playwright iPhone 390×844 across four
+  aspect ratios (narrow scroll 4.07, square 1.00, tall portrait 1.73, landscape
+  0.57). Scores (瘦金-similarity / calligraphy-feel / restraint / palette-fit):
+  A 5/6/6/6=23; B 3/8/3/6=20; **C 8/7/9/8=32 selected**. C's楷 rendering
+  carries the requested "细长, 有书法韵味" while its Light weight (300) keeps
+  the museum-guide restraint the wordmark contest with the artwork; C is
+  self-hosted as a 1.6KB WOFF2 subset of only the four brand glyphs
+  (`fonts/lxgw-wenkai-lite-brand.woff2`, pyftsubset from the LXGW WenKai Lite
+  15MB TTF, unicode-range U+827A,U+672F,U+624B,U+518C), added to `APP_SHELL`
+  in `sw.js v13` so PWA offline first-paint keeps the wordmark. A rejected —
+  ZCOOL XiaoWei at 26px reads as art-heavy black rather than a subtle wordmark;
+  B rejected — Ma Shan Zheng's brush-splash character sizing (艺 large, 术 small)
+  breaks the restrained masthead tone. Numeric changes on the other three
+  items: `.feed-header` left padding aligned to `--page-gutter` (22px, was
+  20px); `.frame-wrapper` width `min(280px, 86vw) → min(320px, 92vw)`;
+  `.frame` padding `8px → 6px` and `display: inline-block` (fixes landscape
+  internal white gutter); `.slide .names` `text-align: left → center`, width
+  also 320px; `.learn-inline` `margin-top: 28px → 44px`; `.slide` gains
+  `cursor: pointer` and `feed.js` `buildSlides/rebindSlides` delegate click
+  to the whole slide (`.learn-inline` keeps `preventDefault` on its anchor,
+  no `stopPropagation` so the bubble reaches slide-level `navigate`). Values
+  verified via Playwright real-device screenshots + computed-style probe:
+  `wordmark { fontFamily: LXGW WenKai Lite, 24px, weight 300, letterSpacing
+  4.32px (=0.18em), left=22px, LXGW loaded=true }`, `frame.w=137.77|320|305.83|
+  320` (narrow-scroll shrink-wrap works), `names.textAlign=center` on all four,
+  `learn.marginTop=44px` on all four, `slide.cursor=pointer`, and a synthetic
+  slide-click navigated to `#/work/<id>`. Prior emblem (t_b6d76c90 double-square)
+  API kept in `js/icons/BrandEmblem.js` in case a later screen needs it
+  (launch splash, favicon variants) — call-site removed in `BrandLockup()`,
+  which now returns only the wordmark span. Evidence:
+  `evidence/homepage-4items-3variants/` (12 screenshots + manifest.json for
+  three-variant comparison) and `evidence/t_e05a68be-final/` (4 real screenshots
+  + manifest.json for on-branch verification).

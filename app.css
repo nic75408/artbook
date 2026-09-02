@@ -131,29 +131,46 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: calc(var(--space-md) + var(--safe-t)) calc(var(--space-xl) + var(--safe-r)) 0 calc(var(--space-xl) + var(--safe-l));
+  /* t_e05a68be：左内边距对齐 slide 内容基准线 --page-gutter (22px) + safe-l
+     原先为 --space-xl (20px)，与画作左沿不齐；调整后 wordmark 与画作左对齐 */
+  padding: calc(var(--space-md) + var(--safe-t)) calc(var(--page-gutter) + var(--safe-r)) 0 calc(var(--page-gutter) + var(--safe-l));
   z-index: 20;
   pointer-events: none;
 }
 .feed-header .wordmark {
-  /* legacy — 保留兼容；实际渲染由 .brand-mark 组件承担 */
+  /* legacy — 保留兼容；实际渲染由 .brand-lockup__wordmark 组件承担 */
   font-family: var(--serif-zh);
   font-weight: 700;
   font-size: var(--text-brand);
   letter-spacing: 0.12em;
 }
 
+/* ============================================================ Brand Wordmark @font-face
+   t_e05a68be 定稿方案 C：LXGW WenKai Lite Light（霞鹜文楷·清雅版）
+   只子集「艺术手册」四个字，本地打包 1.6 KB，PWA 离线可用；
+   不含其他字，其它文本自动 fallback 到 var(--serif-zh) (Songti SC / Noto Serif CJK)。
+   @font-face 必须在 :root 之后、组件类之前，字体加载才能在首屏首个渲染时命中。 */
+@font-face {
+  font-family: 'LXGW WenKai Lite';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./fonts/lxgw-wenkai-lite-brand.woff2') format('woff2');
+  /* 只声明品牌四字的 unicode-range，避免浏览器为其它中文误加载本字体 */
+  unicode-range: U+827A, U+672F, U+624B, U+518C;
+}
+
 /* ============================================================ Brand Lockup
-   品牌印章 + 字标组合（BrandEmblem.js BrandLockup，t_29588b3e 方案 B 定稿）
-   DESIGN.md components.brand-lockup: kind=horizontal, emblemGap=10px, align=center
-   DESIGN.md typography.brand-wordmark: PingFang SC 18px/300 letterSpacing 0.25em */
+   t_e05a68be：赤拔反馈去掉印章 icon，只保留文字（LXGW WenKai Lite 楷体）。
+   emblem 相关 CSS 保留以兼容 endpage/empty 场景未来若需重启 */
 .brand-lockup {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;              /* text-only 版：无 emblem，gap 归零 */
   color: var(--ink);
 }
 .brand-lockup__emblem {
+  /* 兼容保留；BrandLockup 已不生成此节点，此规则仅在旧引用点存在 */
   display: inline-flex;
   width: 36px;
   height: 36px;
@@ -162,13 +179,16 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .brand-lockup__emblem svg { display: block; width: 100%; height: 100%; }
 .brand-lockup__wordmark {
-  font-family: var(--sans-zh);
-  font-size: 18px;
+  /* 品牌字标（DESIGN.md typography.brand-wordmark 2026-09-02 更新）：
+     LXGW WenKai Lite Light 24px，字距 0.18em，字体不加载时 fallback Songti SC */
+  font-family: 'LXGW WenKai Lite', var(--serif-zh);
+  font-size: 24px;
   font-weight: 300;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.18em;
   color: var(--ink);
+  line-height: 1.4;
 }
-/* 空态/endpage 中较小场景的等比缩放 */
+/* 空态/endpage 中较小场景的等比缩放（emblem 已废用，只影响 wordmark） */
 .empty .brand-lockup__emblem,
 .endpage .brand-lockup__emblem {
   width: 28px;
@@ -176,7 +196,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .empty .brand-lockup__wordmark,
 .endpage .brand-lockup__wordmark {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /* ============================================================ Brand Wordmark
@@ -309,33 +329,51 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   padding: var(--pad-t) var(--page-gutter) var(--pad-b);
   max-width: var(--content-max);
   margin: 0 auto;
+  /* t_e05a68be 热区扩大：整幅 slide 是可点击区域（feed.js 委托 click 到 navigate），
+     光标提示 pointer；实际热区排除 fixed 的 feed-header 与 date-capsule */
+  cursor: pointer;
 }
 
-/* 画作容器：统一宽度基准，画作在此宽度内居中（方案 C，DESIGN.md components.artwork-slide） */
+/* 画作容器：统一宽度基准，画作在此宽度内居中
+   t_e05a68be：宽度改为 100%（跟随 slide 内部可用宽度 = content-max 340 - gutter 22×2 = 296px）
+   在 iPhone 390×844 下，296px 让极窄卷轴（ratio 4.072 达摩渡江图）的画作宽度
+   增加 ~1.06 倍（对比之前 280px 硬上限），两侧留白从 (390-280)/2=55px 减到
+   (390-296)/2=47px，同时保证 slide 版心（340px）不被撑破 */
 .frame-wrapper {
-  width: min(280px, 86vw);
+  width: 100%;
+  max-width: 320px;    /* 上限：小屏（<364px）时不受 92vw 限制；标准 iPhone 390 下自动被 slide 296px 约束 */
   margin: 0 auto;
+  cursor: pointer;
+  text-align: center;  /* 让 .frame（inline-block）横向居中 */
 }
 
-/* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，使用 --space-sm） */
+/* 画框感：直角 + 1px 描边 + 6px 白色内衬
+   t_e05a68be：内衬由 8px 收到 6px（--space-sm - 2），描边更精致，
+   避免大留白下画框显得"粗狂"（赤拔原话）；
+   display: inline-block + max-width: 100% 让 .frame 收缩包裹 .ph 的实际宽度，
+   横幅画作 .ph 因高度受限选用了更小的 width 时，.frame 不残留内侧白条 */
 .frame {
   background: var(--bg-card);
   border: 1px solid var(--line);
-  padding: var(--space-sm);
+  padding: 6px;
   max-width: 100%;
   position: relative;
-  /* 画框由 .frame-wrapper 的 margin:0 auto 居中 */
+  /* 画框由 .frame-wrapper 的 text-align:center 让 inline-block 居中 */
   border-radius: 0;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 0;  /* 消除 inline-block 内 .ph 的 baseline gap */
 }
 .frame .ph {
   position: relative;
-  /* ratio 为高/宽（SPE §5）。宽度上限 = min(280px, 86vw, 可用高度 × (宽/高))，
+  /* ratio 为高/宽（SPE §5）。宽度上限 = min(320px, 92vw, 可用高度 × (宽/高))，
      保证图片 + 画框 + 题名总高 ≤ 100dvh，单屏独占不溢出。
-     280px = content-max (340px) - page-gutter (22px×2) - frame 边框与内衬 */
-  width: min(280px, 86vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2)));
+     t_e05a68be：上限 280→320px（同 .frame-wrapper），减去项 200→220px
+     补偿 learn-inline margin-top 加大 16px（28→44） + 画框内衬 -2px × 2 */
+  width: min(320px, 92vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 220px) / var(--r, 1.2)));
   aspect-ratio: calc(1 / var(--r, 1.2));
   background: var(--bg-card);
-  margin: 0 auto;  /* 窄画在 280px 容器内居中（方案 C） */
+  margin: 0 auto;  /* 窄画在 320px 容器内居中 */
 }
 .frame img {
   position: absolute;
@@ -350,11 +388,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .frame img.loaded { opacity: 1; }
 
 .slide .names {
-  /* 统一垂直节奏：品牌→画作 24pt、画作→作品信息 24pt */
+  /* 统一垂直节奏：品牌→画作 24pt、画作→作品信息 24pt
+     t_e05a68be：text-align 由 left 改 center（赤拔要求居中），
+     宽度同步 .frame-wrapper：100% + max-width 320px（跟随 slide 内容宽度） */
   margin-top: var(--section-v);
-  text-align: left;
-  padding: 0 var(--space-sm);  /* 左右内边距与画框内衬一致，确保文字与图片左对齐 */
-  width: min(280px, 86vw);  /* 与画作最大宽度一致，文字不随画作宽度浮动（方案 C） */
+  text-align: center;
+  padding: 0 var(--space-sm);
+  width: 100%;
+  max-width: 320px;
 }
 .slide .artist-zh { 
   font-family: var(--serif-zh);
@@ -372,12 +413,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  max-width: 86vw;
+  max-width: 92vw;
 }
 
 /* 「了解更多」内联展签文字链 —— 见 DESIGN.md §Components / learn-inline */
 .learn-inline {
-  margin-top: 28px;
+  /* t_e05a68be：与画作名称的间距由 28px 加大到 44px，赤拔要求"明显的呼吸空间" */
+  margin-top: 44px;
   align-self: center;          /* 相对 .slide 的 align-items:center 主轴居中 */
   display: inline-flex;
   flex-direction: column;
