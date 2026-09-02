@@ -93,18 +93,35 @@ async function swipe(page, dx, dy = 0, { durationMs = 400, steps = 12, startY = 
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
+async function currentFolio(page) {
+  return await page.evaluate(() => {
+    const el = document.querySelector('.detail-folio-mark');
+    if (!el) return null;
+    const m = el.textContent.match(/(\d+)/);
+    return m ? Number(m[1]) : null;
+  });
+}
+async function folioTotal(page) {
+  return await page.evaluate(() => {
+    const el = document.querySelector('.detail-folio-mark');
+    if (!el) return null;
+    const nums = [...el.textContent.matchAll(/(\d+)/g)].map((x) => Number(x[1]));
+    return nums.length >= 2 ? nums[1] : null;
+  });
+}
+
 test('最新一期末幅左滑 96px+：跨期进入前一期第 1 幅，folio 重置，480ms 内完成', async ({ page }) => {
   const info = await fetchInfo(page);
   const lastId = info.latestIds[info.latestIds.length - 1];
   await gotoWork(page, lastId);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', String(info.latestIds.length));
+  expect(await currentFolio(page)).toBe(info.latestIds.length);
 
   await swipe(page, -150);
   await page.waitForTimeout(700);
 
   expect(await page.evaluate(() => location.hash)).toBe(`#/work/${info.secondIds[0]}`);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '1');
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuemax', String(info.secondIds.length));
+  expect(await currentFolio(page)).toBe(1);
+  expect(await folioTotal(page)).toBe(info.secondIds.length);
 });
 
 test('60px 到 96px 之间：羽箭形态改变（宽高扩大 + 显示目标日期缩略文案）', async ({ page }) => {
@@ -145,7 +162,7 @@ test('最新一期首幅右滑：没有更新的一期，保留"已到首幅"提
   await gotoWork(page, info.latestIds[0]);
   await swipe(page, 150);
   await expect(page.locator('.detail-end-notice')).toHaveText('今日推荐已到首幅');
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '1');
+  expect(await currentFolio(page)).toBe(1);
 });
 
 test('顶部下拉 96px+：退出详情返回首页', async ({ page }) => {
@@ -235,7 +252,7 @@ test('跨期/下拉退出后，首页停在刚才切换到的那一幅（feed:po
   // 跨期到 secondDate 第 1 幅
   await swipe(page, -150);
   await page.waitForTimeout(700);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '1');
+  expect(await currentFolio(page)).toBe(1);
 
   const pos = await page.evaluate(() => JSON.parse(sessionStorage.getItem('artbook.feedpos')));
   expect(pos.issue).toBe(info.secondDate);

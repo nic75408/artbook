@@ -167,13 +167,16 @@ components:
     idxColor: "{colors.ink}"
     sepColor: "{colors.gold}"
     totalColor: "{colors.ink-2}"
-  detail-scrubber:
-    # 2026-09-02 t_6fe0245e — replaces numeric folio "N / total" inside .artwork-info-card.
-    # Sub-colors (track/dot/halo) and geometry (thickness, dot size) live in the Components
-    # prose section — the YAML schema only carries whitelist props.
+  detail-folio-mark:
+    # 2026-09-02 t_8d4351d6 — replaces .detail-scrubber inside .artwork-info-card.
+    # A typographic page-number label "NN · total" rendered with Kaiti SC, not a
+    # graphical position indicator. Sub-props (letter-spacing, tabular-nums,
+    # separator α) live in the Components prose section — the YAML schema only
+    # carries whitelisted props.
     backgroundColor: "transparent"
-    height: 8px
-    width: "100%"
+    textColor: "rgba(29, 27, 22, 0.42)"
+    fontFamily: "Kaiti SC, STKaiti, KaiTi, serif"
+    fontSize: 12px
   fav-tool-button:
     backgroundColor: "{colors.bg-card}"
     textColor: "rgba(29, 27, 22, 1)"
@@ -359,29 +362,51 @@ Components map to CSS blocks in `app.css`:
   (touch feedback for iPhone; no `:hover`-only state). Text color stays
   `colors.ink` — the near-black icon glyph carries the contrast, so WCAG 1.4.11
   (≥ 3:1 for UI components) holds on both light and dark artworks.
-- **Folio (`.folio`) — DEPRECATED for multi-work sequences (2026-09-02, t_6fe0245e):**
-  The numeric "N / total" pill is hidden via `display: none` inside
-  `.artwork-info-card` and superseded by `.detail-scrubber`. The token entry is
-  retained only as fallback for single-artwork date pages that still use a
-  standalone folio (currently none). Do not add new call sites.
-- **Detail scrubber (`.detail-scrubber`) — replaces numeric folio (2026-09-02,
-  t_6fe0245e; visual upgrade 2026-09-02, t_645b44c2):** A pointer-events-none
-  position indicator rendered as the first child of `.artwork-info-card` when
-  `siblingCtx.ids.length > 1`. **50% container width centered** (via
-  `margin: 0 auto`), 12px tall, `margin-bottom: 14px` (--group-title-body).
-  Interior: a **3px** `rgba(29,27,22,0.10)` horizontal track (radius 1.5px) and
-  a **12×12** `colors.gold` dot with a **3px `bg-card` halo plus
-  `0 1px 3px rgba(29,27,22,0.18)` drop shadow**. Dot position is
-  `left: (index / (total - 1)) * 100%` with `translate(-50%, -50%)` so the
-  first work snaps to 0% and the last snaps to 100% **of the short track**.
-  Intent: **暗示性位置指示器**, not a precise progress bar — the reduced width
-  and elevated dot presence tell the user "you can slide" without implying a
-  100%-completion goal, aligned with the restrained museum-guide tone. ARIA:
-  `role="progressbar"`, `aria-valuemin=1`, `aria-valuemax=total`,
-  `aria-valuenow=index+1`, `aria-label="当前作品位置"`.
-  `prefers-reduced-transparency: reduce` swaps to solid `#FDFBF7` halo.
-  Single-work fallback: the scrubber is not rendered — no empty box residue
-  (guarded by `.detail-scrubber:empty { display: none }`).
+- **Folio (`.folio`) — DEPRECATED for multi-work sequences (2026-09-02, t_6fe0245e;
+  still deprecated after t_8d4351d6):** The numeric "N / total" pill is hidden
+  via `display: none` inside `.artwork-info-card` and superseded by
+  `.detail-folio-mark` (see below). Token retained only as fallback for
+  single-artwork date pages that still use a standalone folio (currently none).
+  Do not add new call sites.
+- **Detail scrubber (`.detail-scrubber`) — REMOVED (2026-09-02, t_8d4351d6):**
+  The mini position slider introduced by t_6fe0245e and visually upgraded by
+  t_645b44c2 (50% width, 3px track, 12px gold dot with halo) was removed
+  wholesale. Product/design owner reviewed the upgraded version and rejected
+  the visual language entirely: "太丑了，如果没法做好看就去掉吧". Root cause
+  analysis (see Decision Log 2026-09-02 t_8d4351d6): the component uses a
+  **control vocabulary** (gold dot = interactive color, halo = tappable
+  affordance, horizontal track = drag surface) while being `pointer-events:
+  none`, producing a semantic–visual mismatch that reads as a "mini audio
+  scrubber" instead of a museum-guide position hint. Three-variant
+  self-adjudicated review chose A over B (keep-nothing) and C (hidden
+  ex-libris ticks) 118/107/81. Replacement: `.detail-folio-mark`.
+- **Detail folio mark (`.detail-folio-mark`) — replaces .detail-scrubber
+  (2026-09-02, t_8d4351d6):** A **typographic** page-number label rendered
+  as the first child of `.artwork-info-card` when `siblingCtx.ids.length > 1`.
+  Text content: `${zeroPad2(index+1)} · ${total}` — e.g. `01 · 28`, `14 · 28`,
+  `28 · 28` — with a middle-dot separator, no slash. Zero-padding on the
+  current-index only (not on total) keeps `01` and `28` visually the same
+  width, avoiding a "1/28"→"14/28" reflow. Type: **Kaiti SC 12px** (楷体系
+  serif; falls back to `STKaiti`/`KaiTi`/`serif`), **weight 400**, line-height
+  1.2, **letter-spacing 0.24em** (2.88px at 12px — wide but not stretched),
+  **color `rgba(29, 27, 22, 0.42)`** (deep-ink at α 0.42, reads as
+  restraint-grade caption). Separator `·` α is dropped to **0.28** (a hair
+  lighter than the digits) so the whole text reads as one printed label
+  rather than "digits divided by a mark". Layout: `display: block`,
+  `margin: 0 auto var(--group-title-body) auto` (14px bottom gap to title —
+  identical to the previous scrubber's slot), `text-align: center`,
+  `padding-inline-start: 0.24em` to visually center the last glyph against
+  the first (letter-spacing pushes trailing content right by one unit).
+  `font-variant-numeric: tabular-nums` keeps the label width stable across
+  index changes so nothing jumps when you swipe. `pointer-events: none` —
+  never a target. ARIA: `role="doc-pagenumber"` (WAI-ARIA DPUB, the exact
+  semantic role for a printed folio) with `aria-label="第 N 幅，共 total 幅"`;
+  no `role="progressbar"`, because it is a static label, not a control.
+  Single-work fallback: not rendered at all (guarded in JS, no CSS `:empty`
+  hack). Design intent: with the scrubber's shape-language gone, position
+  information now speaks in the same voice as the title (both Kaiti) and
+  the essay body, at a strictly lower visual weight — the reader reaches
+  the title first, and the "14 · 28" reads as a chapter marker beneath it.
 - **Detail-page spacing hierarchy (2026-09-02, t_6fe0245e; revised t_645b44c2):**
   The detail page composes eight vertical rhythm levels (see `spacing` tokens:
   `group-inner-tight` 8, `group-inner` 12, `group-title-body` 14, `paragraph`
@@ -723,3 +748,37 @@ Components map to CSS blocks in `app.css`:
   updated to assert the new selectors and null-check the removed ones;
   `sw.js` `CACHE_APP` v16→v17. Evidence attached: four full-viewport
   iPhone screenshots with token overlays.
+- **2026-09-02 — Detail scrubber removed, replaced with typographic folio mark
+  (t_8d4351d6):** After the t_645b44c2 visual upgrade shipped, product/design
+  owner reviewed it and rejected the entire visual language: "太丑了，如果没法
+  做好看就去掉吧". Diagnosis on Playwright iPhone 12 (390×844) screenshot of
+  `#/work/cma-145719` (page 14/28): the upgraded scrubber (50% width, 3px
+  track, 12px gold dot with 3px halo) reads as a **miniature iOS Music/Podcast
+  scrubber** — the dot's gold tint and halo mimic a tappable thumb, the
+  horizontal track mimics a drag surface, yet the component is
+  `pointer-events: none`. The width reduction (100% → 50%) hoped to demote it
+  from "progress bar" to "position hint" but did not address the underlying
+  problem: **it uses control vocabulary for a static label**. Root cause is
+  category-of-language, not thickness or width. Three-way self-adjudicated
+  review of replacements (A printed page-number glyph "NN · total" in Kaiti
+  SC 12px α 0.42 letter-spacing 0.24em / B remove entirely / C hidden 4-tick
+  ex-libris strip 32×6px in the info-card top-right): scored on
+  {克制度, 信息传达, 语义正确性, 与现有系统一致, 边界情形稳健} × 25 each,
+  totaling **A 118 / B 107 / C 81 out of 125**. A chosen. Falsification
+  notes: B (nothing) loses the "at 28/28 you've reached the end" signal
+  that keeps users from thinking swipe is broken at boundaries; C's 4-tick
+  strip visually collided with the iOS wifi-signal icon convention (four
+  ascending horizontal marks with one highlighted) — verified on
+  Playwright screenshot of both first- and 14th-work positions, the ticks
+  are legible but read as connectivity, not location. Implementation:
+  new class `.detail-folio-mark` replaces `.detail-scrubber` inside
+  `.artwork-info-card`; text `${zeroPad2(index+1)} · ${total}` with
+  middle-dot separator (α 0.28) and body digits α 0.42; Kaiti SC serif at
+  12px / letter-spacing 0.24em / tabular-nums for stable width across
+  index changes; `role="doc-pagenumber"` (WAI-ARIA DPUB, correct semantic
+  for a printed folio) instead of `role="progressbar"`; single-work: not
+  rendered. SW `CACHE_APP` bumped v16→v17. Tests updated: 3 spec files
+  swap `.detail-scrubber[aria-valuenow]` assertions for a text-content
+  reader (`currentFolio()` regex-extracts the current index from
+  `.detail-folio-mark`). Sketch evidence: `sketches/t_8d4351d6/{baseline,
+  A,B,C}-{p1,p14}-{full,strip}.png`.

@@ -71,16 +71,14 @@ function render(el, w) {
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
-      <!-- t_6fe0245e：数字页码 folio → 迷你滑轨，位于信息卡首元素，单幅不渲染 -->
+      <!-- t_6fe0245e：数字 folio → 迷你滑轨；t_8d4351d6：滑轨 → 印刷页码字符「NN · total」
+           位于信息卡首元素，单幅不渲染。role=doc-pagenumber 是印刷页码的语义角色，
+           与之前的 role=progressbar 不同——它是"静态标注"，不是"进度控件"。 -->
       ${siblingCtx.ids.length > 1 ? `
-      <div class="detail-scrubber"
-           role="progressbar"
-           aria-valuemin="1" aria-valuemax="${siblingCtx.ids.length}"
-           aria-valuenow="${siblingCtx.index + 1}"
-           aria-label="当前作品位置">
-        <div class="detail-scrubber__track"></div>
-        <div class="detail-scrubber__dot"
-             style="left: ${(siblingCtx.index / (siblingCtx.ids.length - 1)) * 100}%"></div>
+      <div class="detail-folio-mark"
+           role="doc-pagenumber"
+           aria-label="第 ${siblingCtx.index + 1} 幅，共 ${siblingCtx.ids.length} 幅">
+        ${String(siblingCtx.index + 1).padStart(2, '0')} <span class="detail-folio-mark__sep" aria-hidden="true">·</span> ${siblingCtx.ids.length}
       </div>
       ` : ''}
 

@@ -50,8 +50,7 @@ const m = await page.evaluate(() => {
     favBtn: box(favBtn),
     related: box(related),
     detailBody: box(q('.detail-body')),
-    scrubberBox: box(q('.detail-scrubber')),
-    scrubberDot: box(q('.detail-scrubber__dot')),
+    folioMark: box(q('.detail-folio-mark')),
   };
 });
 

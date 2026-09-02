@@ -1,16 +1,24 @@
 // 详情页左右滑动切换同日期作品（t_13662686）
-// 逐条量 SPEC-detail-swipe.md §6「关键数值汇总」与 §7 验收清单。
+// t_8d4351d6：scrubber → 印刷页码字符「NN · total」，断言从 aria-valuenow 换成文本内容
 const { test, expect } = require('@playwright/test');
 const { stubExternalImages } = require('./helpers/stub-external-images');
 
 const VIEWPORT = { width: 390, height: 844 };
 
+// t_8d4351d6：读取当前印刷页码字符的位置数字（去掉前导 0 与分隔符）
+// 格式：`NN · total`，返回 NN 的数值
+async function currentFolio(page) {
+  return await page.evaluate(() => {
+    const el = document.querySelector('.detail-folio-mark');
+    if (!el) return null;
+    // 文本 "14 · 28" → 取第一个数字
+    const m = el.textContent.match(/(\d+)/);
+    return m ? Number(m[1]) : null;
+  });
+}
+
 async function gotoIssueWork(page, offset = 0) {
-  // 断掉外部 CDN 图片的真实网络往返（并行跑全套时会把页面自身的 data fetch
-  // 挤到超时，详见 helpers/stub-external-images.js 的注释）。
-  // 必须在第一次 goto 之前注册。
   await stubExternalImages(page);
-  // 取最新一期的第 offset 幅作品，直接深链进详情页
   await page.goto('./');
   const info = await page.evaluate(async () => {
     const idx = await (await fetch('data/index.json', { cache: 'no-cache' })).json();
@@ -21,15 +29,11 @@ async function gotoIssueWork(page, offset = 0) {
   await page.goto(`./#/work/${id}`);
   await page.waitForSelector('.detail .detail-hero', { state: 'attached' });
   if (info.ids.length > 1) {
-    await page.waitForSelector('.detail-scrubber', { state: 'attached' });
+    await page.waitForSelector('.detail-folio-mark', { state: 'attached' });
   }
   return { ...info, id };
 }
 
-// t_e578fc0d §4：跨日期连续浏览上线后，「最新一期」的首/末幅边界只有
-// 首幅（无更新的一期）仍会弹「已到首幅」；末幅边界改为跨入更老一期
-// （见 detail-cross-issue.spec.js）。真正「已到末幅」只在 index.json
-// 最老一期（issues 数组最后一项）的最后一幅才会出现——此处专用这个夹具。
 async function gotoOldestIssueLastWork(page) {
   await page.goto('./');
   const info = await page.evaluate(async () => {
@@ -42,13 +46,11 @@ async function gotoOldestIssueLastWork(page) {
   await page.goto(`./#/work/${id}`);
   await page.waitForSelector('.detail .detail-hero', { state: 'attached' });
   if (info.ids.length > 1) {
-    await page.waitForSelector('.detail-scrubber', { state: 'attached' });
+    await page.waitForSelector('.detail-folio-mark', { state: 'attached' });
   }
   return { ...info, id };
 }
 
-// 用 pointer 事件模拟一次水平拖动。durationMs 控制释放速度；
-// durationMs=0 表示不插等待，用于测「快速轻扫」的速度分支。
 async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, startX = 195 } = {}) {
   await page.mouse.move(startX, startY);
   await page.mouse.down();
@@ -57,82 +59,72 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
     if (durationMs > 0) await page.waitForTimeout(durationMs / steps);
   }
   await page.mouse.up();
-  // 等待 pointerup 事件处理和手势完成
   await page.waitForTimeout(50);
 }
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
-// t_6750bb80：迷你滑轨视觉升级（按 t_645b44c2 设计规格）：
-// 3px track + 12px 金色圆点 + 3px halo（box-shadow）+ 居中，位于信息卡首元素，
-// dot 位置公式 x = index/(total-1)*100%，pointer-events: none 不挡手势。
-test('数字页码折迷你滑轨：track/dot 几何 + 位置公式 + pointer-events none', async ({ page }) => {
+// t_8d4351d6：印刷页码字符（folio mark）替换迷你滑轨。
+// 数值规格：楷体 Kaiti SC 12px / letter-spacing 0.24em / color rgba(29,27,22,0.42) /
+// text-align center / font-variant-numeric tabular-nums / pointer-events none
+// 单幅不渲染。文本内容 = `${zeroPad2(index+1)} · ${total}`。
+test('印刷页码字符：文本格式 + 几何 + 视觉规格 + pointer-events none', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
-  const scrubber = page.locator('.detail-scrubber');
-  await expect(scrubber).toHaveAttribute('role', 'progressbar');
-  await expect(scrubber).toHaveAttribute('aria-valuenow', '1');
-  await expect(scrubber).toHaveAttribute('aria-valuemax', String(info.ids.length));
+  const mark = page.locator('.detail-folio-mark');
+  await expect(mark).toHaveAttribute('role', 'doc-pagenumber');
+  // 文本："01 · 28"（total 位数按实际，不 zero-pad）
+  const text = (await mark.textContent()).replace(/\s+/g, ' ').trim();
+  expect(text).toBe(`01 · ${info.ids.length}`);
 
   const m = await page.evaluate(() => {
-    const s = getComputedStyle(document.querySelector('.detail-scrubber'));
-    const track = getComputedStyle(document.querySelector('.detail-scrubber__track'));
-    const dot = getComputedStyle(document.querySelector('.detail-scrubber__dot'));
-    const dotRect = document.querySelector('.detail-scrubber__dot').getBoundingClientRect();
-    const trackRect = document.querySelector('.detail-scrubber__track').getBoundingClientRect();
+    const el = document.querySelector('.detail-folio-mark');
+    const s = getComputedStyle(el);
+    const r = el.getBoundingClientRect();
     return {
       pointerEvents: s.pointerEvents,
-      trackHeight: track.height,
-      trackColor: track.backgroundColor,
-      dotWidth: dot.width,
-      dotHeight: dot.height,
-      dotColor: dot.backgroundColor,
-      dotBoxShadow: dot.boxShadow,
-      dotCenterX: dotRect.left + dotRect.width / 2,
-      trackLeft: trackRect.left,
-      trackWidth: trackRect.width,
+      fontFamily: s.fontFamily,
+      fontSize: s.fontSize,
+      letterSpacing: s.letterSpacing,
+      color: s.color,
+      textAlign: s.textAlign,
+      fontVariantNumeric: s.fontVariantNumeric,
+      display: s.display,
       viewportWidth: window.innerWidth,
-      scrubberLeft: document.querySelector('.detail-scrubber').getBoundingClientRect().left,
-      scrubberRight: document.querySelector('.detail-scrubber').getBoundingClientRect().right,
+      markLeft: r.left,
+      markRight: r.right,
+      markCenter: r.left + r.width / 2,
     };
   });
   expect(m.pointerEvents).toBe('none');
-  expect(m.trackHeight).toBe('3px');
-  expect(m.dotWidth).toBe('12px');
-  expect(m.dotHeight).toBe('12px');
-  expect(m.dotColor).toBe('rgb(140, 109, 63)'); // --gold
-  expect(m.dotBoxShadow).toContain('3px'); // halo 半径 3px
-  // 第 1 幅：index 0 → x = 0% → dot 中心落在 track 左端
-  expect(m.dotCenterX).toBeCloseTo(m.trackLeft, 0);
-  // 轨道宽度约为 viewport 的 44%（缩短、含蓄）
-  const ratio = m.trackWidth / m.viewportWidth;
-  expect(ratio).toBeGreaterThan(0.35);
-  expect(ratio).toBeLessThan(0.55);
-  // 居中：左右留白相等
-  const leftGap = m.scrubberLeft;
-  const rightGap = m.viewportWidth - m.scrubberRight;
-  expect(Math.abs(leftGap - rightGap)).toBeLessThan(2);
+  expect(m.fontSize).toBe('12px');
+  // letter-spacing 0.24em @ 12px = 2.88px
+  expect(m.letterSpacing).toBe('2.88px');
+  // 深棕 α 0.42
+  expect(m.color).toBe('rgba(29, 27, 22, 0.42)');
+  expect(m.textAlign).toBe('center');
+  expect(m.fontVariantNumeric).toContain('tabular-nums');
+  expect(m.display).toBe('block');
+  // 楷体系字体：Kaiti SC/STKaiti/KaiTi 优先，回退 serif
+  expect(m.fontFamily.toLowerCase()).toMatch(/kaiti|stkaiti/);
+  // text-align center：块占满父宽（padding 除外），文字视觉居中
+  // 视觉中心 ≈ 视口中心（padding-inline-start 0.24em 补偿字距在真机对齐；此处允许 6px 误差）
+  expect(Math.abs(m.markCenter - m.viewportWidth / 2)).toBeLessThan(8);
 });
 
-test('迷你滑轨：切到第 14 幅时圆点位置随公式更新', async ({ page }) => {
+test('印刷页码字符：切到第 14 幅时文本更新为 "14 · total"', async ({ page }) => {
   const info = await gotoIssueWork(page, 13);
-  const pos = await page.evaluate(() => {
-    const dotRect = document.querySelector('.detail-scrubber__dot').getBoundingClientRect();
-    const trackRect = document.querySelector('.detail-scrubber__track').getBoundingClientRect();
-    return {
-      dotCenterX: dotRect.left + dotRect.width / 2,
-      trackLeft: trackRect.left,
-      trackWidth: trackRect.width,
-    };
-  });
-  const expectedRatio = 13 / (info.ids.length - 1);
-  const actualRatio = (pos.dotCenterX - pos.trackLeft) / pos.trackWidth;
-  expect(actualRatio).toBeCloseTo(expectedRatio, 1);
+  const text = (await page.locator('.detail-folio-mark').textContent()).replace(/\s+/g, ' ').trim();
+  expect(text).toBe(`14 · ${info.ids.length}`);
+  // tabular-nums：宽度稳定，切换不跳动（对比 01 vs 14）
+  const w14 = await page.evaluate(() => document.querySelector('.detail-folio-mark').getBoundingClientRect().width);
+  await gotoIssueWork(page, 0);
+  const w01 = await page.evaluate(() => document.querySelector('.detail-folio-mark').getBoundingClientRect().width);
+  expect(Math.abs(w14 - w01)).toBeLessThan(1);
 });
 
 
 test('左滑 60px+ 切换到下一幅，页码 +1、URL 更新、滚回顶部', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
-  // 先向下滚一段，验证切换后回到顶部
   await page.evaluate(() => window.scrollTo(0, 600));
   await page.waitForTimeout(100);
   expect(await page.evaluate(() => window.scrollY)).toBeGreaterThan(100);
@@ -140,17 +132,17 @@ test('左滑 60px+ 切换到下一幅，页码 +1、URL 更新、滚回顶部', 
   await swipe(page, -120);
   await page.waitForTimeout(700);
 
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '2');
+  expect(await currentFolio(page)).toBe(2);
   expect(await page.evaluate(() => location.hash)).toBe(`#/work/${info.ids[1]}`);
   expect(await page.evaluate(() => window.scrollY)).toBeLessThanOrEqual(1);
 });
 
 test('右滑切换到上一幅', async ({ page }) => {
   const info = await gotoIssueWork(page, 2);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '3');
+  expect(await currentFolio(page)).toBe(3);
   await swipe(page, 120);
   await page.waitForTimeout(700);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '2');
+  expect(await currentFolio(page)).toBe(2);
   expect(await page.evaluate(() => location.hash)).toBe(`#/work/${info.ids[1]}`);
 });
 
@@ -172,41 +164,33 @@ test('第 1 幅右滑：软胶囊「今日推荐已到首幅」，画面不切�
   expect(style.pos).toBe('fixed');
   expect(style.transition).toBe('0.3s');
   expect(style.zIndex).toBe('45');
-  // 页码未变
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '1');
-  // 1500ms 全显 + 300ms 淡出 → 1.9s 后 DOM 已移除
+  expect(await currentFolio(page)).toBe(1);
   await page.waitForTimeout(1900);
   await expect(notice).toHaveCount(0);
 });
 
 test('最后一幅左滑：软胶囊「今日推荐已到末幅」，画面不切换', async ({ page }) => {
-  // t_e578fc0d：跨期上线后「最新一期末幅」左滑会跨入更老一期（见
-  // detail-cross-issue.spec.js），真正到底（无更老一期）要用最老一期的末幅。
   const info = await gotoOldestIssueLastWork(page);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', String(info.ids.length));
+  expect(await currentFolio(page)).toBe(info.ids.length);
   await swipe(page, -120);
   await expect(page.locator('.detail-end-notice')).toHaveText('今日推荐已到末幅');
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', String(info.ids.length));
+  expect(await currentFolio(page)).toBe(info.ids.length);
 });
 
 test('拖动 60px 时 opacity 衰减到 0.35（1 − min(Δx/60, 0.65)）', async ({ page }) => {
   await gotoIssueWork(page, 0);
   await page.mouse.move(195, 500);
   await page.mouse.down();
-  // 30px：1 − 30/60 = 0.5
   await page.mouse.move(165, 500);
   await page.mouse.move(165, 500);
   const at30 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at30)).toBeCloseTo(0.5, 2);
-  // 60px：1 − 0.65（封顶）= 0.35
   await page.mouse.move(135, 500);
   const at60 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at60)).toBeCloseTo(0.35, 2);
-  // 120px：仍封顶 0.35
   await page.mouse.move(75, 500);
   const at120 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at120)).toBeCloseTo(0.35, 2);
-  // 羽箭：左滑显示右缘箭头
   const hint = await page.evaluate(() => {
     const h = document.querySelector('.detail-swipe-hint');
     const s = getComputedStyle(h);
@@ -220,7 +204,7 @@ test('拖动 60px 时 opacity 衰减到 0.35（1 − min(Δx/60, 0.65)）', asyn
   expect(hint.text).toBe('→');
   expect(hint.cls).toContain('right');
   expect(hint.opacity).toBe('1');
-  expect(hint.color).toBe('rgb(140, 109, 63)'); // --gold
+  expect(hint.color).toBe('rgb(140, 109, 63)');
   expect(hint.fontSize).toBe('22px');
   expect(hint.w).toBeCloseTo(44, 1);
   expect(hint.h).toBeCloseTo(60, 1);
@@ -231,7 +215,6 @@ test('拖动 60px 时 opacity 衰减到 0.35（1 − min(Δx/60, 0.65)）', asyn
 
 test('未命中阈值（慢速 40px）：不切换，240ms 回弹到 opacity 1', async ({ page }) => {
   await gotoIssueWork(page, 1);
-  // 40px < 60px，且用 900ms 走完 → 速度 ≈0.044 px/ms < 0.35
   await swipe(page, -40, { durationMs: 900, steps: 10 });
   const t = await page.evaluate(() => {
     const s = document.querySelector('.detail').style;
@@ -240,7 +223,7 @@ test('未命中阈值（慢速 40px）：不切换，240ms 回弹到 opacity 1',
   expect(Number(t.opacity)).toBe(1);
   expect(t.transition).toContain('240ms');
   await page.waitForTimeout(400);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '2'); // 未切换
+  expect(await currentFolio(page)).toBe(2); // 未切换
   expect(await page.evaluate(() => document.querySelector('.detail').style.opacity)).toBe('');
 });
 
@@ -248,7 +231,7 @@ test('快速轻扫（40px 短时释放，速度 ≥0.35 px/ms）也能命中', a
   await gotoIssueWork(page, 0);
   await swipe(page, -40, { durationMs: 0, steps: 2 });
   await page.waitForTimeout(700);
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '2');
+  expect(await currentFolio(page)).toBe(2);
 });
 
 test('相关推荐区内横滑只横向滚动，不触发翻页', async ({ page }) => {
@@ -260,8 +243,7 @@ test('相关推荐区内横滑只横向滚动，不触发翻页', async ({ page 
   const b2 = await page.locator('.related-scroll').boundingBox();
   await swipe(page, -150, { startX: b2.x + b2.width - 30, startY: b2.y + b2.height / 2 });
   await page.waitForTimeout(700);
-  // 页码不变 = 未翻页
-  await expect(page.locator('.detail-scrubber')).toHaveAttribute('aria-valuenow', '2');
+  expect(await currentFolio(page)).toBe(2);
   expect(box).not.toBeNull();
 });
 
@@ -281,36 +263,24 @@ test('关闭按钮仍可返回上级', async ({ page }) => {
   expect(await page.evaluate(() => location.hash)).not.toContain('/work/');
 });
 
-// SW 必须屏蔽：sw.js 用 skipWaiting() + clients.claim() 在本次加载中就夺取当前页控制权，
-// 而它的 DATA_RE = /\/data\// 会接管所有期文件请求 —— Playwright 的 page.route
-// 拦不住 Service Worker 发出的请求。夺权时机是竞态，于是本例的 mock 时灵时不灵：
-// 夺权早了浏览器拿到真实 30 幅期文件（.detail-scrubber 会渲染出来），或造成取数状态不一致
-// （详情页渲染成「作品数据缺失」）。30 次压测复现 3 次，两种表现都源于此。
 test.describe('单幅日期（屏蔽 SW，保证期文件 mock 不被 SW 旁路）', () => {
   test.use({ serviceWorkers: 'block' });
 
-  test('单幅日期：不渲染滑轨、不挂翻页手势', async ({ page, request, baseURL }) => {
-    // 注意：route 必须在任何 page.goto 之前注册 —— data.js 的 issueCache 是模块级内存缓存，
-    // 先访问首页会把真实期文件读进内存，之后再拦截网络已经来不及。
-    // 所以期号/作品 id 用 Playwright 的 request（页面外）取。
+  test('单幅日期：不渲染折页码字符、不挂翻页手势', async ({ page, request, baseURL }) => {
     await stubExternalImages(page);
     const idx = await (await request.get(new URL('data/index.json', baseURL).href)).json();
     const iss = await (await request.get(new URL(`data/issues/${idx.latest}.json`, baseURL).href)).json();
     const workId = iss.works[0].id;
 
-    // 直接用页面外已取到的 iss 构造响应，不用 route.fetch() 再走一次网络往返。
     await page.route(`**/data/issues/${idx.latest}.json`, async (route) => {
       await route.fulfill({ json: { ...iss, works: iss.works.slice(0, 1) } });
     });
 
     await page.goto(`./#/work/${workId}`);
-    // 与本文件 gotoIssueWork 的等待语义一致用 attached：详情页头图容器一挂载即可断言，
-    // 不必等外部 CDN 大图解码完成（visible 会把图片加载时间也算进用例预算）。
     await page.waitForSelector('.detail .detail-hero', { state: 'attached' });
-    await expect(page.locator('.detail-scrubber')).toHaveCount(0);
+    await expect(page.locator('.detail-folio-mark')).toHaveCount(0);
     await swipe(page, -150);
     await page.waitForTimeout(600);
-    // 未翻页、未出现边界提示（手势根本没挂）
     expect(await page.evaluate(() => location.hash)).toBe(`#/work/${workId}`);
     await expect(page.locator('.detail-end-notice')).toHaveCount(0);
   });

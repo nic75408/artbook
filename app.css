@@ -713,55 +713,39 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   background: rgba(245, 241, 234, 0.85);
 }
 
-/* t_6fe0245e：数字页码 folio 弃用，改用 .detail-scrubber 迷你滑轨。
-   t_645b44c2 (2026-09-02) 视觉升级：从 100% 宽 · 2px track · 8px dot
-   → 50% 宽居中 · 3px track · 12px 金色 dot 带米色 halo。
-   目的：赤拔反馈原方案「太简陋」；缩到 50% + 加粗 track + 放大 dot
-   把滑轨从「精确进度条」降级为「暗示性位置指示器」，跟美术馆导览克制调性对齐。
-   token 保留仅作单幅日期页兜底，不再新增调用点。 */
+/* t_6fe0245e：数字页码 folio 弃用（.folio pill）。
+   t_8d4351d6 (2026-09-02)：.detail-scrubber 迷你滑轨（t_645b44c2 升级过一版）
+   也整体弃用——赤拔反馈「太丑，做不好就去掉」。三案自评（118/107/81）后定稿 A：
+   替换为 .detail-folio-mark 印刷页码字符「NN · total」，楷体、居中、克制。
+   放弃图形化指示器 = 抛弃"控件语汇"（dot+halo 读作按钮、宽度暗示进度），
+   改用"画册页脚编号"语言，与美术馆导览调性、品牌 wordmark 楷体呼应。 */
 .folio { display: none !important; }
 .artwork-info-card .folio { display: none !important; }
 
-/* t_6fe0245e：迷你滑轨 —— .artwork-info-card 内首元素。
-   t_645b44c2 (2026-09-02)：宽度从 100% 收到 50% 居中，
-   高度从 8px 升到 12px 容纳更大 dot；margin-bottom 保持 --group-title-body (14px)。
-   pointer-events:none，纯指示器不接受手势。 */
-.artwork-info-card .detail-scrubber {
+/* t_8d4351d6：印刷页码字符（Folio mark）—— .artwork-info-card 内首元素。
+   与标题《作品名》的 Kaiti SC 呼应，字号 12/字距 0.24em/深棕 α 0.42。
+   role=doc-pagenumber 表明"静态标签"语义；单幅不渲染。 */
+.artwork-info-card .detail-folio-mark {
   display: block;
-  width: 50%;
-  height: 12px;
   margin: 0 auto var(--group-title-body) auto;
-  position: relative;
+  text-align: center;
+  font-family: 'Kaiti SC', 'STKaiti', 'KaiTi', serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.24em;
+  color: rgba(29, 27, 22, 0.42);
   pointer-events: none;
+  /* 左右加同等 letter-spacing 补偿：`14 · 28` 视觉上不左偏 */
+  padding-inline-start: 0.24em;
+  /* 数字选用 tabular-nums 保证「01 · 28」和「14 · 28」宽度一致，不跳动 */
+  font-variant-numeric: tabular-nums;
 }
-.artwork-info-card .detail-scrubber__track {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 3px;
-  background: rgba(29, 27, 22, 0.10);
-  border-radius: 1.5px;
-  transform: translateY(-50%);
+.artwork-info-card .detail-folio-mark__sep {
+  /* 中点分隔符稍降低亮度，弱化"数字/数字"的分数读感 */
+  color: rgba(29, 27, 22, 0.28);
+  margin: 0 0.15em;
 }
-.artwork-info-card .detail-scrubber__dot {
-  position: absolute;
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--gold);
-  box-shadow: 0 0 0 3px var(--bg-card), 0 1px 3px rgba(29, 27, 22, 0.18);
-  transform: translate(-50%, -50%);
-  /* left 值由 JS 计算：(index / (total - 1)) * 100% — 相对短轨道 */
-}
-@media (prefers-reduced-transparency: reduce) {
-  .artwork-info-card .detail-scrubber__dot {
-    box-shadow: 0 0 0 3px #FDFBF7, 0 1px 3px rgba(29, 27, 22, 0.18);
-  }
-}
-/* 单幅（total === 1）：JS 不渲染 scrubber，此规则作为兜底防空盒 */
-.artwork-info-card .detail-scrubber:empty { display: none; }
 
 /* R4: 超宽头图旋转 90°（ratio <= 0.4，即宽/高 >= 2.5 触发）
    --r 由 detail.js 内联写入 .detail-hero，值含义是"高/宽"（原图，未旋转）。
@@ -971,7 +955,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情页手势翻页（t_13662686） */
 
-/* R1: Folio 已弃用（t_6fe0245e：替换为 .detail-scrubber 迷你滑轨，见本文件 672 行附近）。
+/* R1: Folio 已弃用（t_6fe0245e：替换为 .detail-scrubber 迷你滑轨；
+   t_8d4351d6：.detail-scrubber 又被 .detail-folio-mark 印刷页码字符替换）。
    规则保留 display:none 以防止任何遗留调用点意外显示。 */
 .folio { display: none !important; }
 .artwork-info-card .folio { display: none !important; }
