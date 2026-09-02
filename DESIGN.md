@@ -439,5 +439,5 @@ Components map to CSS blocks in `app.css`:
   `justify-content: center` + `padding: 60px var(--page-gutter)` for vertical
   centering; `.frame` and `.names` both use `width: min(280px, 86vw)` +
   `margin: 0 auto` for unified width baseline. Evidence:
-  `sketches/001-centered-vertical.html`, `sketches/002-museum-label.html`,
-  `sketches/003-unified-width.html`, and `sketches/SPEC.md`.
+  `sketches-layout-redesign/001-centered-vertical.html`, `sketches-layout-redesign/002-museum-label.html`,
+  `sketches-layout-redesign/003-unified-width.html`, and `sketches-layout-redesign/SPEC.md`.
