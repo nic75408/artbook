@@ -130,6 +130,8 @@ components:
   artwork-slide:
     # t_e05a68be (2026-09-02): content width widened 280→320px, names centered,
     # frame padding 8→6px, learn-inline gap 28→44px, whole slide is a hotzone.
+    # t_23059633 (2026-09-03): learn-inline gap 44→36px (single-line rewrite,
+    # 「组内一致，组外由 fixed date-capsule 承担」).
     verticalCenterPadding: 60px
     contentWidth: min(320px, 92vw)
     frameMargin: 0 auto
@@ -137,7 +139,7 @@ components:
     frameDisplay: inline-block
     namesWidth: min(320px, 92vw)
     namesTextAlign: center
-    learnInlineMarginTop: 44px
+    learnInlineMarginTop: 36px
     hotzoneScope: whole-slide
     hotzoneExcludes: [feed-header, date-capsule]
   date-capsule:
@@ -145,11 +147,11 @@ components:
     textColor: "{colors.ink-2}"
     rounded: "{rounded.pill}"
   learn-inline:
+    # t_23059633 (2026-09-03) — 断舍派：单行「了 解 更 多 ›」。
+    # 详细 sub-color 与 geometry（chevron color/size/opacity、zh letterSpacing 0.32em、
+    # active state chevron +3px translate）见 Components prose；schema 只塞合法 sub-token。
     backgroundColor: "transparent"
-    textColor: "{colors.gold}"
-    secondaryTextColor: "{colors.ink-2}"
-    ruleColor: "{colors.gold}"
-    ruleOpacity: 0.6
+    textColor: "{colors.ink-2}"
   detail-close:
     backgroundColor: "rgba(245, 241, 234, 0.55)"
     borderColor: "rgba(29, 27, 22, 0.08)"
@@ -331,14 +333,24 @@ Components map to CSS blocks in `app.css`:
   navigate to that artwork's detail page.
 - **Date capsule (`.date-capsule`):** Fixed pill in the bottom center with secondary
   text color on bg.
-- **Learn more inline link (`.learn-inline`):** A gallery-label style text link
-  rendered below the artwork+title module, centered on the slide's main axis.
-  Composed of a Georgia italic gold "Continue reading" line, a 48px gold hairline
-  rule (opacity 0.6), and a wide-tracked (0.3em) Songti SC "了 解 更 多" line in
-  secondary ink. No button container, no shadow, no rotation. Active state
-  stretches the rule to 64px and darkens the Chinese line to primary ink.
-  Replaces the previous circular black-fill learn button (decommissioned
-  2026-09-01).
+- **Learn more inline link (`.learn-inline`) — refactored 2026-09-03, t_23059633:**
+  A gallery-label style text link rendered below the artwork+title module,
+  centered on the slide's main axis. **Single-line composition (方案 B 断舍派):**
+  a wide-tracked (0.32em) Songti SC "了 解 更 多" line at 14px in secondary ink,
+  followed by a Georgia gold chevron "›" at 16px (α 0.85) as the sole accent.
+  Sits `36px` below `.names` (down from 44px) — the tighter authored-content
+  gap treats artist name and action as one semantic group, letting the fixed
+  `.date-capsule` chrome layer carry the visual "outside" boundary. Active
+  state slides the chevron `+3px` right and raises its opacity to 1, plus
+  darkens the Chinese line to primary ink. No button container, no hairline
+  rule, no double-language label. Rationale: on the real iPhone 390×844
+  the previous 48×1px α0.6 gold hairline was optically cut by the italic
+  `g/n` descenders of "Continue reading" and read as an underline (not a
+  divider), and the English + Chinese pair carried identical semantics
+  (both mean "enter detail") — the double-language treatment was decoration,
+  not information. Component token: `components.learn-inline`. Replaces the
+  three-line variant defined 2026-09-01 (t_4c2a874b) and refined 2026-09-02
+  (t_e05a68be, margin-top 44px).
 - **Detail close (`.detail-close`):** Fixed circular button at top-right, 40×40,
   with a **frosted-glass** background: `rgba(245,241,234,0.55)` + `backdrop-filter: blur(14px)`
   and a faint 1px `rgba(29,27,22,0.08)` border. Shadow reduced to
@@ -655,8 +667,59 @@ Components map to CSS blocks in `app.css`:
   visibly downgraded from "progress bar" to "position hint" while
   preserving the JS `(index/(total-1))*100%` placement math relative to the
   short track. SW `CACHE_APP` bumped v15→v16. Falsified alternatives A
-  (12/12/22 too tight — credit reads as glued to action) and C (16/16/28 —
+  Falsified alternatives A (12/12/22 too tight — credit reads as glued to action) and C (16/16/28 —
   16px on essay→credit still feels cramped against the essay's 1.9 line-height).
   Falsified scrubber s2 (segments, 30 works blows out horizontally) and s3
   (dots, same 30-count spatial problem). Evidence: `tests/evidence/sketches-
   t_645b44c2/{before,A-tight,B-airy,C-medium,final}` + `scrubber/{s1,s2,s3}`.
+- **2026-09-03 — Homepage bottom action-area single-line rewrite (t_23059633):**
+  Product/design owner asked for a systemic pass on homepage rhythm and
+  polish. Real-device audit on iPhone 390×844 (via `artbook-prod-firstpaint.png`,
+  automated smoke shot) identified three converging problems in the bottom
+  action area: (1) the 48×1px α0.6 gold hairline rule between
+  "Continue reading" and "了 解 更 多" was optically **cut by the italic
+  g/n descenders**, reading as an underline of the English line rather than
+  a divider — the semantic separation defined 2026-09-01 (t_4c2a874b) had
+  visually collapsed; (2) the English + Chinese pair carried **identical
+  semantics** (both mean "enter detail") — double-language treatment on a
+  functional label is decoration, not information, and diverges from
+  Tate/MoMA-style single-language gallery signage; (3) bottom stack density
+  reached **5 layers in 175px** (title / artist / EN / rule / ZH / date-capsule),
+  reversing the intended breathing rhythm — the largest gap (55px) sat
+  between artist and CR (least related), while the smallest gap (25px)
+  sat between CR and 了解更多 (identical semantics). Three-variant
+  self-adjudicated review, rendered as **Playwright CSS-injection frames on
+  the live production site** (single source of design truth = the real
+  running app, per MEMORY-recorded practice; see
+  `sketches/t_23059633/render-variants.mjs`,
+  `evidence/t_23059633/{00-before,01-A-precision,02-B-reduction,03-C-fusion}.png`):
+  **A** precision — keep bilingual, thicken/widen the rule (72×1.5px α0.9),
+  shrink EN to 14px, ZH to 12px; **B** reduction — delete EN and rule,
+  keep single "了 解 更 多 ›" (Songti 14px 0.32em ink-2 + Georgia 16px gold
+  chevron α0.85); **C** fusion — inline single row with 4px gold dot
+  separator. **Scores (breathing / museum-signage fit / gold-accent weight /
+  top-bottom symmetry / cost):** A 6/7/8/7/med = 28; **B 9/9/9/9/low = 45**;
+  C 5/4/6/6/med = 24. **B selected.** Rationale: (a) a single functional
+  label per action is the first-principles version of "one action, one
+  affordance"; (b) the chevron carries the same visual weight the hairline
+  aspired to but as a **verb** (points forward) rather than decoration —
+  gold accent is preserved, semantics improved; (c) top-bottom symmetry
+  established — one "收藏夹" pill up top, one "了 解 更 多 ›" text-link at
+  the bottom (both single, both restrained); (d) `.learn-inline`
+  `margin-top` compresses `44px → 36px` because artist name and action now
+  read as one authored-content group, with the fixed `.date-capsule` chrome
+  layer carrying the outer boundary — realigns the reversed rhythm.
+  Losing variants archived to `evidence/t_23059633/` with token annotations
+  overlaid on each frame. Numeric changes: `js/feed.js` slideHTML replaced
+  `learn-inline__en` + `learn-inline__rule` spans with a single
+  `learn-inline__zh` span (aria-hidden); `.learn-inline` becomes
+  `flex-direction: row` + `align-items: baseline` + `gap: 6px` +
+  `padding: 10px 24px`; `.learn-inline__zh` `font-size: 13px → 14px`,
+  `letter-spacing: 0.3em → 0.32em`, `margin-left: 0.3em → 0.32em`;
+  `.learn-inline__chevron` Georgia 16px gold α 0.85 with `+3px translateX`
+  active state (mirrors detail-page hover-→-active adaptation for touch,
+  per SOUL.md rule "hover is not a mobile state"); tests
+  `tests/artwork-aspect-ratio.spec.js:99` and `tests/feed-alignment.spec.js:89`
+  updated to assert the new selectors and null-check the removed ones;
+  `sw.js` `CACHE_APP` v16→v17. Evidence attached: four full-viewport
+  iPhone screenshots with token overlays.
