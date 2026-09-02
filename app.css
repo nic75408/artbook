@@ -35,6 +35,13 @@
   --space-lg: 18px;
   --space-xl: 20px;
   --space-2xl: 26px;
+  /* Detail-page Gestalt hierarchy tokens（DESIGN.md 2026-09-02, t_6fe0245e） */
+  --group-inner-tight: 8px;
+  --group-inner: 12px;
+  --group-title-body: 14px;
+  --paragraph: 18px;
+  --group-cross: 32px;
+  --module-gap: 48px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
@@ -517,13 +524,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* ============================================================ 作品信息块：紧邻主图的标题与元信息 */
 
 .artwork-info-card {
-  padding: var(--page-gutter) var(--page-gutter) var(--space-sm);
+  padding: 20px var(--page-gutter) var(--space-sm);
   background: var(--bg);
 }
 
 /* H1: 作品名层级 — 醒目、与品牌标题协调 */
 .artwork-info-card .work-title {
-  margin: 0 0 var(--space-lg) 0;
+  /* t_6fe0245e：题名→元数据组内间距，from 32px(18+14) 收到 12px */
+  margin: 0 0 var(--group-inner) 0;
   padding: 0;
   font-family: var(--serif-zh);
   font-weight: 700;
@@ -549,7 +557,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* 次要字段：轻量级、紧凑 — 带标签版本 */
 .artwork-info-card .work-meta-compact {
-  margin-top: var(--grid-gap);
+  margin-top: 0;
 }
 
 .artwork-info-card .work-meta-row {
@@ -613,6 +621,12 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   line-height: 1.4;
 }
 
+/* t_6fe0245e：赏析 H2 → 正文与段间稍收（was 24/12） */
+.detail-body .section-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .related .section-title {
   margin: 0 0 var(--grid-gap) 0;
 }
@@ -669,17 +683,109 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* 出血布局已统一：所有头图默认全宽出血，
    原 .detail-hero-bleed / .detail-bleed 专用类已废弃并移除 */
 
-/* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */\n.detail-close {\n  position: fixed;\n  top: calc(12px + var(--safe-t));\n  right: calc(12px + var(--safe-r));\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  /* 磨砂玻璃：降低对画作的遮挡（t_ace5cc6b 定稿 B 案） */\n  background: rgba(245, 241, 234, 0.55);\n  border: 1px solid rgba(29, 27, 22, 0.08);\n  backdrop-filter: blur(14px);\n  -webkit-backdrop-filter: blur(14px);\n  box-shadow: 0 1px 4px rgba(29, 27, 22, 0.06);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: var(--ink);\n  z-index: 30;\n  transition: background 100ms ease;\n}\n/* 触摸反馈（移动端无 hover）：按下时底色回到 α 0.85 */\n.detail-close:active {\n  background: rgba(245, 241, 234, 0.85);\n}\n\n/* R1: Folio 移入信息卡后不再使用 fixed 定位（原 .folio 规则废弃） */\n.folio { display: none !important; }\n\n/* R1: 信息卡内的 folio 样式（与 .detail-close 对称的磨砂玻璃） */\n.artwork-info-card .folio {\n  display: inline-flex;\n  align-items: baseline;\n  gap: 4px;\n  height: 28px;\n  padding: 0 12px;\n  border-radius: 14px;\n  background: rgba(255, 255, 255, 0.70);\n  backdrop-filter: blur(14px);\n  -webkit-backdrop-filter: blur(14px);\n  font-family: var(--serif-en);\n  font-style: italic;\n  color: var(--gold);\n  font-size: 13px;\n  font-weight: 500;\n  letter-spacing: 0.08em;\n  margin-bottom: var(--space-sm); /* 12px — 与下方题名间距 */\n}\n.artwork-info-card .folio-idx {\n  font-family: var(--serif-zh);\n  font-style: normal;\n  color: var(--ink);\n  font-size: 13px;\n}\n.artwork-info-card .folio-sep {\n  opacity: 0.5;\n  margin: 0 2px;\n}\n.artwork-info-card .folio-total {\n  font-family: var(--serif-zh);\n  font-style: normal;\n  color: var(--ink-2);\n  font-size: 13px;\n}\n\n/* R4: 超宽头图旋转 90°（w/h >= 2.5 触发） */\n.detail-hero.detail-hero-ultra-wide {\n  aspect-ratio: auto;\n  height: 65dvh; /* 头图占视口 65% 高度，留出信息卡空间 */\n  position: relative;\n}\n.detail-hero.detail-hero-ultra-wide .ph {\n  /* 容器反转 aspect-ratio: 原 w/h=ratio → 旋转后 h/w=1/ratio */\n  aspect-ratio: calc(1 / var(--r)); /* --r = w/h, 所以 1/--r = h/w */\n  width: auto;\n  height: 100%;\n  margin: 0 auto;\n}\n.detail-hero.detail-hero-ultra-wide img {\n  /* 旋转 90° */\n  transform: rotate(90deg);\n  transform-origin: center;\n  object-fit: contain;\n  width: 100%;\n  height: 100%;\n}
+/* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
+.detail-close {
+  position: fixed;
+  top: calc(12px + var(--safe-t));
+  right: calc(12px + var(--safe-r));
+  left: auto;
+  bottom: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* 磨砂玻璃：降低对画作的遮挡（t_ace5cc6b 定稿 B 案） */
+  background: rgba(245, 241, 234, 0.55);
+  border: 1px solid rgba(29, 27, 22, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 4px rgba(29, 27, 22, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  z-index: 30;
+  transition: background 100ms ease;
+}
+/* 触摸反馈（移动端无 hover）：按下时底色回到 α 0.85 */
+.detail-close:active {
+  background: rgba(245, 241, 234, 0.85);
+}
+
+/* t_6fe0245e：数字页码 folio 弃用，改用 .detail-scrubber 迷你滑轨。
+   token 保留仅作单幅日期页兜底，不再新增调用点。 */
+.folio { display: none !important; }
+.artwork-info-card .folio { display: none !important; }
+
+/* t_6fe0245e：迷你滑轨 —— .artwork-info-card 内首元素，占位 8px + margin-bottom 14px。
+   pointer-events:none，纯指示器不接受手势。 */
+.artwork-info-card .detail-scrubber {
+  display: block;
+  width: 100%;
+  height: 8px;
+  margin: 0 0 var(--group-title-body) 0;
+  position: relative;
+  pointer-events: none;
+}
+.artwork-info-card .detail-scrubber__track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background: rgba(29, 27, 22, 0.10);
+  border-radius: 1px;
+  transform: translateY(-50%);
+}
+.artwork-info-card .detail-scrubber__dot {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 0 2px rgba(245, 241, 234, 0.9);
+  transform: translate(-50%, -50%);
+  /* left 值由 JS 计算：(index / (total - 1)) * 100% */
+}
+@media (prefers-reduced-transparency: reduce) {
+  .artwork-info-card .detail-scrubber__dot {
+    box-shadow: 0 0 0 2px #FDFBF7;
+  }
+}
+/* 单幅（total === 1）：JS 不渲染 scrubber，此规则作为兜底防空盒 */
+.artwork-info-card .detail-scrubber:empty { display: none; }
+
+/* R4: 超宽头图旋转 90°（w/h >= 2.5 触发） */
+.detail-hero.detail-hero-ultra-wide {
+  aspect-ratio: auto;
+  height: 65dvh; /* 头图占视口 65% 高度，留出信息卡空间 */
+  position: relative;
+}
+.detail-hero.detail-hero-ultra-wide .ph {
+  /* 容器反转 aspect-ratio: 原 w/h=ratio → 旋转后 h/w=1/ratio */
+  aspect-ratio: calc(1 / var(--r)); /* --r = w/h, 所以 1/--r = h/w */
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+.detail-hero.detail-hero-ultra-wide img {
+  /* 旋转 90° */
+  transform: rotate(90deg);
+  transform-origin: center;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
 
 /* 正文区：模块自管左右内边距（页面级贴边，无版心居中） */
-.detail-body { padding: var(--space-md) var(--page-gutter) 0; }
+.detail-body { padding: var(--space-sm) var(--page-gutter) 0; }
 
 
 .tags { 
   display: flex; 
   flex-wrap: wrap; 
   gap: var(--space-sm); 
-  padding: var(--space-md) 0 var(--section-v); 
+  padding: 0 0 20px; 
 }
 .tag-pill {
   font-family: var(--sans-zh);
@@ -716,13 +822,16 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: 0;
 }
 
-.essay { padding: var(--space-xs) 0 var(--space-md); }
+.essay { padding: 0 0 var(--space-md); }
 .essay .body-text {
   font-family: var(--sans-zh);
   font-size: var(--text-md);
   line-height: 1.9;
-  margin-bottom: var(--card-stack);
+  margin-bottom: var(--paragraph);
   letter-spacing: 0.02em;
+}
+.essay .body-text:last-child {
+  margin-bottom: 0;
 }
 
 /* 圆形细节图包装容器 */
@@ -753,7 +862,25 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   background-repeat: no-repeat;
 }
 
-.credit {\n  font-family: var(--sans-zh);\n  font-size: var(--text-xs);\n  color: var(--ink-2);\n  line-height: 1.8;\n  padding: var(--space-lg) 0;\n}\n.credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }\n\n/* R2: 间距层级 — credit 与收藏按钮 24px，收藏按钮与相关推荐 48px */\n.detail-body .credit {\n  margin-bottom: var(--space-md); /* 16px — credit 自身底部留白 */\n}\n.action-row {\n  margin-top: var(--space-md); /* 16px — 与 credit 的 margin-bottom 合计 24px */\n  margin-bottom: var(--space-lg); /* 24px — 与相关推荐的间距 = 24+24=48px */\n}
+.credit {
+  font-family: var(--sans-zh);
+  font-size: var(--text-xs);
+  color: var(--ink-2);
+  line-height: 1.8;
+  padding-top: var(--space-lg);
+  padding-bottom: 0;
+  /* t_6fe0245e：正文末段 → credit 用 group-cross(32px)，
+     使 credit + 收藏读作独立的辅助操作层，而非正文的拖尾句 */
+  margin-top: var(--group-cross);
+}
+.credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
+
+.action-row {
+  /* t_6fe0245e：credit → 收藏按钮属同一辅助层内部，用 group-inner(12px) */
+  margin-top: var(--group-inner);
+  margin-bottom: 0;
+  padding-bottom: var(--space-sm);
+}
 
 .action-row .fav-tool {
   /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
@@ -799,44 +926,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情页手势翻页（t_13662686） */
 
-/* R1: Folio 移入信息卡内，不再使用 fixed 定位（t_51a886ed 定稿） */
-/* 旧的 .folio fixed 样式已废弃，仅保留给单幅日期场景（无 folio） */
-.folio { display: none; }
-
-/* 新 Folio：信息卡内的定位元数据胶囊 */
-.artwork-info-card .folio {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 28px;
-  padding: 0 12px;
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.70);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--ink);
-  margin-bottom: var(--space-md); /* 12px — 与下方题名间距 */
-  pointer-events: none;   /* 不阻挡下层手势 */
-}
-.artwork-info-card .folio-idx {
-  font-family: var(--serif-zh);
-  font-weight: 600;
-  color: var(--ink);
-  font-size: 15px;
-}
-.artwork-info-card .folio-sep {
-  opacity: 0.5;
-  margin: 0 2px;
-  color: var(--gold);
-}
-.artwork-info-card .folio-total {
-  font-family: var(--serif-zh);
-  font-weight: 400;
-  color: var(--ink-2);
-  font-size: 13px;
-}
+/* R1: Folio 已弃用（t_6fe0245e：替换为 .detail-scrubber 迷你滑轨，见本文件 672 行附近）。
+   规则保留 display:none 以防止任何遗留调用点意外显示。 */
+.folio { display: none !important; }
+.artwork-info-card .folio { display: none !important; }
 
 /* 手势拖动中的方向羽箭：金色，右缘或左缘半圆胶囊 */
 .detail-swipe-hint {
@@ -986,10 +1079,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   }
 }
 
-/* 相关推荐：左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘 */
+/* 相关推荐：模块间最大间距 48 + hairline 分隔线（t_6fe0245e）。
+   左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘 */
 .related { 
-  padding-top: var(--grid-gap); 
+  padding-top: var(--module-gap); 
   padding-left: 0;
+  border-top: 1px solid rgba(29, 27, 22, 0.06);
+  margin-top: 0;
 }
 /* 标题左边界与卡片列表、正文版心一致（22px）。
    注意：本规则特异性（0,2,0）高于 .related h2（0,1,1），

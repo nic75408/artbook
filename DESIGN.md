@@ -19,6 +19,13 @@ spacing:
   grid-gap: 14px        # gap between masonry grid cards
   card-stack: 22px      # vertical gap between stacked cards
   section-v: 24px       # default vertical spacing between sections
+  # ── Detail-page Gestalt hierarchy (2026-09-02, t_6fe0245e) ──
+  group-inner-tight: 8px    # within-group (meta rows, tight fields)
+  group-inner: 12px         # within-group standard (title→meta, credit→action)
+  group-title-body: 14px    # heading→its own content
+  paragraph: 18px           # essay paragraph rhythm
+  group-cross: 32px         # between related groups (essay→credit helper-layer)
+  module-gap: 48px          # between top-level modules (helper-layer→related)
 
 rounded:
   pill: 999px
@@ -151,6 +158,13 @@ components:
     idxColor: "{colors.ink}"
     sepColor: "{colors.gold}"
     totalColor: "{colors.ink-2}"
+  detail-scrubber:
+    # 2026-09-02 t_6fe0245e — replaces numeric folio "N / total" inside .artwork-info-card.
+    # Sub-colors (track/dot/halo) and geometry (thickness, dot size) live in the Components
+    # prose section — the YAML schema only carries whitelist props.
+    backgroundColor: "transparent"
+    height: 8px
+    width: "100%"
   fav-tool-button:
     backgroundColor: "{colors.bg-card}"
     textColor: "rgba(29, 27, 22, 1)"
@@ -326,11 +340,35 @@ Components map to CSS blocks in `app.css`:
   (touch feedback for iPhone; no `:hover`-only state). Text color stays
   `colors.ink` — the near-black icon glyph carries the contrast, so WCAG 1.4.11
   (≥ 3:1 for UI components) holds on both light and dark artworks.
-- **Folio (`.folio`):** Top-left rectangular pill showing `<idx> / <total>`,
-  **strictly symmetric with `.detail-close`**: identical background α (0.55),
-  border α (0.08), and blur (14px). Interior mixes Georgia italic gold slash
-  (`colors.gold`) with Songti SC numerals in `colors.ink` / `colors.ink-2`.
-  `pointer-events: none` so it never blocks the swipe gesture underneath.
+- **Folio (`.folio`) — DEPRECATED for multi-work sequences (2026-09-02, t_6fe0245e):**
+  The numeric "N / total" pill is hidden via `display: none` inside
+  `.artwork-info-card` and superseded by `.detail-scrubber`. The token entry is
+  retained only as fallback for single-artwork date pages that still use a
+  standalone folio (currently none). Do not add new call sites.
+- **Detail scrubber (`.detail-scrubber`) — replaces numeric folio (2026-09-02,
+  t_6fe0245e):** A pointer-events-none progress indicator rendered as the first
+  child of `.artwork-info-card` when `siblingCtx.ids.length > 1`. Full card width
+  (296px in the 340px content column), 8px tall, `margin-bottom: 14px`.
+  Interior: a 2px `rgba(29,27,22,0.10)` horizontal track (radius 1px) and an
+  8×8 `colors.gold` dot with a 2px `rgba(245,241,234,0.9)` halo. Dot position
+  is `left: (index / (total - 1)) * 100%` with `translate(-50%, -50%)` so the
+  first work snaps to 0% and the last snaps to 100%. ARIA: `role="progressbar"`,
+  `aria-valuemin=1`, `aria-valuemax=total`, `aria-valuenow=index+1`,
+  `aria-label="当前作品位置"`. `prefers-reduced-transparency: reduce` swaps
+  the translucent halo for a solid `#FDFBF7` (bg-card). Single-work fallback:
+  the scrubber is not rendered — no empty box residue (guarded by
+  `.detail-scrubber:empty { display: none }`).
+- **Detail-page spacing hierarchy (2026-09-02, t_6fe0245e):** The detail
+  page composes six vertical rhythm levels (see `spacing` tokens
+  `group-inner-tight` 8px, `group-inner` 12px, `group-title-body` 14px,
+  `paragraph` 18px, `group-cross` 32px, `module-gap` 48px). The two
+  load-bearing moments are (a) essay-end → `.credit` uses `group-cross`
+  (32px) so `.credit` + `.action-row` read as a distinct helper-operations
+  group rather than a trailing sentence of the essay; and (b) `.action-row`
+  → `.related` uses `module-gap` (48px) plus a 1px `rgba(29,27,22,0.06)`
+  hairline `border-top` on `.related`, marking the top-level module boundary.
+  Within the helper group, `.credit` → `.action-row` uses `group-inner`
+  (12px). See Decision Log 2026-09-02 for full before/after table.
 - **Favorite tool (`.action-row .fav-tool`):** Pill button downgraded to a secondary
   tool with reduced contrast and small icon.
 - **Primary action (`.action-btn`):** Gold-outlined pill that fills with gold on
@@ -520,3 +558,43 @@ Components map to CSS blocks in `app.css`:
   `evidence/homepage-4items-3variants/` (12 screenshots + manifest.json for
   three-variant comparison) and `evidence/t_e05a68be-final/` (4 real screenshots
   + manifest.json for on-branch verification).
+- **2026-09-02 — Detail-page close-button top-right + numeric folio → scrubber (t_6fe0245e):**
+  Product/design owner asked (a) move the close X from bottom-left (below
+  artwork) to top-right, over the artwork, using the existing α 0.55 + blur
+  14px frosted-glass language (t_ace5cc6b), and (b) replace the "9 / 28"
+  numeric folio with a minimalist scrubber that shows overall position without
+  claiming extra space. Three-variant self-adjudicated review of scrubber
+  placement (A card-inner top band, B floating capsule between hero and card,
+  C in-hero bottom frosted band). Playwright iPhone 390×844 screenshots at
+  page 1 of 28 and page 14 of 28. **A selected 17/9/13**: container ownership
+  is unambiguous (`.artwork-info-card` interior element, taking over the folio
+  slot); geometry is decoupled from artwork luminance so the gold dot's
+  visibility is stable across light and dark works; and — decisive — B reuses
+  the `.detail-close` frosted-capsule vocabulary that the design system reserves
+  for tappable controls (`.detail-close`, `.date-capsule`, `.fav-tool`),
+  which would mis-signal a pointer-events-none indicator as a control. C failed
+  visibility on the same light-sky region behind the current El Greco hero:
+  the 2px gold hairline dropped below the 3:1 UI-component contrast floor
+  (WCAG 1.4.11) at the dot position. New component `components.detail-scrubber`
+  with prose in Components section; folio marked deprecated for multi-work
+  sequences. Evidence: `sketches/t_6fe0245e/` (before-full, after-full,
+  after-firstpaint, after-bottom, A/B/C-page1, A/B/C-page14, refine-A1/A2/A3
+  × 3 positions, README, spec.css).
+- **2026-09-02 — Detail-page Gestalt spacing rework (t_6fe0245e follow-up):**
+  Product/design owner reported "essay body, favorite button, and related
+  section spacing has all degraded — need whole-page pass". Root cause on
+  Playwright fullPage measurement of `#/work/cma-129386` (2794px doc height):
+  three Gestalt violations. (1) `.credit` → `#fav-act` = 0px, so the favorite
+  button read as a trailing part of the credit line rather than an action.
+  (2) `.action-row` → `.related` = 28px (14+14 padding coincidence), too
+  weak for a top-level module boundary. (3) `.work-title` mb 18 + `.work-meta-compact`
+  mt 14 = 32px inside a single info card, breaking within-card cohesion.
+  Fix: new spacing tokens establish six ordered rhythm levels
+  (`group-inner-tight` 8, `group-inner` 12, `group-title-body` 14, `paragraph`
+  18, `group-cross` 32, `module-gap` 48). Key applications: `.credit` gets
+  `margin-top: 32px` (essay→helper-layer group-cross), `.action-row` gets
+  `margin-top: 12px` (credit→action group-inner), `.related` gets
+  `padding-top: 48px` + `border-top: 1px rgba(29,27,22,0.06)` (top-level
+  module gap + hairline). Title→meta compressed to 12px. Full 13-row
+  before/after table in `sketches/t_6fe0245e/README.md`. No new tokens outside
+  `spacing:`; component blocks unchanged apart from folio/scrubber described above.
