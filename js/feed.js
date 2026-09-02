@@ -108,9 +108,11 @@ function slideHTML(w, date, priority = false) {
   const fetchPriority = priority ? 'fetchpriority="high"' : 'fetchpriority="low"';
   return `
   <section class="slide" data-id="${esc(w.id)}" data-issue="${date}">
-    <div class="frame" style="--r:${w.image.ratio}">
-      <div class="ph" style="${ph}">
-        <img data-src="${esc(imageUrl)}" alt="${esc(displayTitle)}" ${loadingAttr} ${fetchPriority} decoding="async">
+    <div class="frame-wrapper">
+      <div class="frame" style="--r:${w.image.ratio}">
+        <div class="ph" style="${ph}">
+          <img data-src="${esc(imageUrl)}" alt="${esc(displayTitle)}" ${loadingAttr} ${fetchPriority} decoding="async">
+        </div>
       </div>
     </div>
     <div class="names">
