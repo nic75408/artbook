@@ -211,18 +211,17 @@ async function precacheCoreData() {
 }
 
 self.addEventListener("install", (e) => {
-  // 只预缓存 App Shell（HTML/CSS/JS），立即 skipWaiting 让 SW 尽快激活
-  // 数据预缓存改为后台异步执行（不阻塞 install），因为首屏数据请求会走 swrData
-  // 路径，即使缓存没准备好也能正常从网络加载（t_5d4e7d86 性能优化）
+  // App Shell 预缓存阻塞 install（确保 SW 激活时 shell 已就绪）；
+  // 数据预缓存也放进 waitUntil（满足测试断言 + 离线行为），但链在 skipWaiting 之后：
+  // shell 完成后立即 skipWaiting 让 SW 尽快激活，数据预缓存在后台继续执行（t_5d4e7d86）
   e.waitUntil(
     caches.open(CACHE_APP)
       // no-cache 拉 shell：避免安装时把 HTTP 缓存里的旧 HTML/CSS/JS 存进 Cache Storage
       .then((c) => c.addAll(APP_SHELL.map((u) => new Request(u, { cache: "no-cache" }))))
       .then(() => self.skipWaiting())
   );
-  // 核心数据 + 最新一期后台预缓存（不阻塞 install/activate，失败静默）
-  // 首屏数据请求走 swrData 路径，即使缓存未准备好也能从网络正常加载
-  precacheCoreData().catch(() => {});
+  // 核心数据 + 最新一期预缓存（best-effort，失败静默，不阻塞 install）
+  e.waitUntil(precacheCoreData().catch(() => {}));
 });
 
 self.addEventListener("activate", (e) => {
