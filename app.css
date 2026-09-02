@@ -639,7 +639,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 .related .section-title {
-  margin: 0 0 var(--grid-gap) 0;
+  margin: 0 0 10px 0;
 }
 
 /* ============================================================ 赏析小节：整体印象 vs 局部细节 */
@@ -827,7 +827,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: var(--space-xs) var(--space-md);
-  background: var(--bg-card);
+  background: var(--bg);
 }
 
 /* 局部标签（region-label） */
@@ -905,20 +905,20 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   line-height: 1.8;
   padding-top: 0;
   padding-bottom: 0;
-  /* t_645b44c2 (2026-09-02)：正文末段 → credit 用 --helper-layer (20px)。
-     与下方 .action-row margin-top 相等，把 credit + 收藏按钮读作
-     一个「辅助层」内部两处等距节奏（组内一致）。
-     旧值 --group-cross (32px) 让上下红框对不齐，见 Decision Log。 */
-  margin-top: var(--helper-layer);
+  /* t_93b43c1c-icon (2026-09-02): helper-layer 间距翻转 —— 辅助层到上方内容 (essay) 的距离
+     必须大于到下方内容 (.related) 的距离。essay→helper 用 --helper-to-module (36px)，
+     helper→related 用 --helper-layer (20px)，实现 36 > 20 的「上大于下」节奏。 */
+  margin-top: var(--helper-to-module);
 }
 .credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
 
 .action-row {
-  /* t_645b44c2 (2026-09-02)：credit → 收藏按钮同为 --helper-layer (20px)，
-     与上一行 credit.margin-top 完全一致，实现「组内一致」。
-     text-align:center 让按钮在辅助层水平居中（原为 start）。 */
-  margin-top: var(--helper-layer);
-  margin-bottom: 0;
+  /* t_93b43c1c-icon (2026-09-02): helper-layer 间距翻转 —— 辅助层到上方内容 (essay) 的距离
+     必须大于到下方内容 (.related) 的距离。credit→action 同为 --helper-to-module (36px)，
+     与上一行 credit.margin-top 完全一致，实现辅助层内部等距；
+     .action-row→.related 用 --helper-layer (20px) 作为层外间距。 */
+  margin-top: var(--helper-to-module);
+  margin-bottom: var(--helper-layer);
   padding-bottom: 0;
   text-align: center;
 }
@@ -926,22 +926,30 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .action-row .fav-tool {
   /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题。
      t_645b44c2 (2026-09-02)：display 从默认 flex 改为 inline-flex，
-     配合父容器 text-align:center 实现水平居中（否则 flex 会撑满行宽）。 */
+     配合父容器 text-align:center 实现水平居中（否则 flex 会撑满行宽）。
+     t_93b43c1c-icon：纯图标按钮，40×40px 胶囊，与 .date-capsule 风格一致。 */
   display: inline-flex;
   align-items: center;
-  gap: var(--space-sm);
-  font-family: var(--sans-zh);
-  border-color: rgba(140, 109, 63, 0.5);
+  justify-content: center;
+  gap: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(140, 109, 63, 0.5);
+  background: transparent;
   color: rgba(29, 27, 22, 0.7);
-  font-size: var(--text-sm);
-  padding: var(--space-md) var(--space-xl);
+  font-size: 0;
+  padding: 0;
+}
+.action-row .fav-tool svg {
+  width: 20px;
+  height: 20px;
 }
 .action-row .fav-tool.on {
   background: rgba(140, 109, 63, 0.12);
   color: var(--gold);
   border-color: var(--gold);
 }
-.action-row .fav-tool svg { width: 16px; height: 16px; }
 
 .action-btn {
   display: flex;
@@ -1125,14 +1133,12 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   }
 }
 
-/* 相关推荐：辅助层 → 顶层模块的距离（helper-to-module 36px），t_645b44c2 去掉 hairline。
-   左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘。
-   t_645b44c2 (2026-09-02)：赤拔要求这段间距 ≥ 红框 × 1.5；
-   36 / 20 = 1.80，同时移除原有 1px hairline（视觉过于粗糙且不需要）。
-   历史：t_6fe0245e 曾用 --module-gap (48px) + hairline；现降到 36px 且无 hairline，
-   靠空间本身分隔即可，符合美术馆导览克制调性。 */
+/* 相关推荐：t_93b43c1c-icon (2026-09-02) helper-layer 间距翻转 —— helper-layer → related
+   用 --helper-layer (20px)，与 helper-layer 内部间距 (essay→credit, credit→action) 一致，
+   实现「辅助层到上方内容」= 36px > 「辅助层到下一模块」= 20px 的「上大于下」节奏。
+   去掉 hairline，靠空间本身分隔即可。 */
 .related { 
-  padding-top: var(--helper-to-module); 
+  padding-top: var(--helper-layer); 
   padding-left: 0;
   margin-top: 0;
 }
@@ -1140,7 +1146,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
    注意：本规则特异性（0,2,0）高于 .related h2（0,1,1），
    gutter 必须写在这里才生效——写在 .related h2 上会被这条覆盖。 */
 .related .section-title {
-  margin: 0 0 var(--grid-gap) 0;
+  margin: 0 0 10px 0;
   padding-left: var(--page-gutter);
 }
 .related h2 {
