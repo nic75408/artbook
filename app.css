@@ -583,31 +583,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* 出血布局已统一：所有头图默认全宽出血，
    原 .detail-hero-bleed / .detail-bleed 专用类已废弃并移除 */
 
-/* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
-.detail-close {
-  position: fixed;
-  top: calc(12px + var(--safe-t));
-  right: calc(12px + var(--safe-r));
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  /* 磨砂玻璃：降低对画作的遮挡（t_ace5cc6b 定稿 B 案） */
-  background: rgba(245, 241, 234, 0.55);
-  border: 1px solid rgba(29, 27, 22, 0.08);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  box-shadow: 0 1px 4px rgba(29, 27, 22, 0.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink);
-  z-index: 30;
-  transition: background 100ms ease;
-}
-/* 触摸反馈（移动端无 hover）：按下时底色回到 α 0.85 */
-.detail-close:active {
-  background: rgba(245, 241, 234, 0.85);
-}
+/* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */\n.detail-close {\n  position: fixed;\n  top: calc(12px + var(--safe-t));\n  right: calc(12px + var(--safe-r));\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  /* 磨砂玻璃：降低对画作的遮挡（t_ace5cc6b 定稿 B 案） */\n  background: rgba(245, 241, 234, 0.55);\n  border: 1px solid rgba(29, 27, 22, 0.08);\n  backdrop-filter: blur(14px);\n  -webkit-backdrop-filter: blur(14px);\n  box-shadow: 0 1px 4px rgba(29, 27, 22, 0.06);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: var(--ink);\n  z-index: 30;\n  transition: background 100ms ease;\n}\n/* 触摸反馈（移动端无 hover）：按下时底色回到 α 0.85 */\n.detail-close:active {\n  background: rgba(245, 241, 234, 0.85);\n}\n\n/* R1: Folio 移入信息卡后不再使用 fixed 定位（原 .folio 规则废弃） */\n.folio { display: none !important; }\n\n/* R1: 信息卡内的 folio 样式（与 .detail-close 对称的磨砂玻璃） */\n.artwork-info-card .folio {\n  display: inline-flex;\n  align-items: baseline;\n  gap: 4px;\n  height: 28px;\n  padding: 0 12px;\n  border-radius: 14px;\n  background: rgba(255, 255, 255, 0.70);\n  backdrop-filter: blur(14px);\n  -webkit-backdrop-filter: blur(14px);\n  font-family: var(--serif-en);\n  font-style: italic;\n  color: var(--gold);\n  font-size: 13px;\n  font-weight: 500;\n  letter-spacing: 0.08em;\n  margin-bottom: var(--space-sm); /* 12px — 与下方题名间距 */\n}\n.artwork-info-card .folio-idx {\n  font-family: var(--serif-zh);\n  font-style: normal;\n  color: var(--ink);\n  font-size: 13px;\n}\n.artwork-info-card .folio-sep {\n  opacity: 0.5;\n  margin: 0 2px;\n}\n.artwork-info-card .folio-total {\n  font-family: var(--serif-zh);\n  font-style: normal;\n  color: var(--ink-2);\n  font-size: 13px;\n}\n\n/* R4: 超宽头图旋转 90°（w/h >= 2.5 触发） */\n.detail-hero.detail-hero-ultra-wide {\n  aspect-ratio: auto;\n  height: 65dvh; /* 头图占视口 65% 高度，留出信息卡空间 */\n  position: relative;\n}\n.detail-hero.detail-hero-ultra-wide .ph {\n  /* 容器反转 aspect-ratio: 原 w/h=ratio → 旋转后 h/w=1/ratio */\n  aspect-ratio: calc(1 / var(--r)); /* --r = w/h, 所以 1/--r = h/w */\n  width: auto;\n  height: 100%;\n  margin: 0 auto;\n}\n.detail-hero.detail-hero-ultra-wide img {\n  /* 旋转 90° */\n  transform: rotate(90deg);\n  transform-origin: center;\n  object-fit: contain;\n  width: 100%;\n  height: 100%;\n}
 
 /* 正文区：模块自管左右内边距（页面级贴边，无版心居中） */
 .detail-body { padding: var(--space-md) var(--page-gutter) 0; }
@@ -691,21 +667,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   background-repeat: no-repeat;
 }
 
-.credit {
-  font-family: var(--sans-zh);
-  font-size: var(--text-xs);
-  color: var(--ink-2);
-  line-height: 1.8;
-  padding: var(--space-lg) 0;
-}
-.credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
+.credit {\n  font-family: var(--sans-zh);\n  font-size: var(--text-xs);\n  color: var(--ink-2);\n  line-height: 1.8;\n  padding: var(--space-lg) 0;\n}\n.credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }\n\n/* R2: 间距层级 — credit 与收藏按钮 24px，收藏按钮与相关推荐 48px */\n.detail-body .credit {\n  margin-bottom: var(--space-md); /* 16px — credit 自身底部留白 */\n}\n.action-row {\n  margin-top: var(--space-md); /* 16px — 与 credit 的 margin-bottom 合计 24px */\n  margin-bottom: var(--space-lg); /* 24px — 与相关推荐的间距 = 24+24=48px */\n}
 
-.action-row { 
-  display: flex; 
-  justify-content: flex-start; 
-  padding: var(--space-lg) 0 var(--section-v); 
-  gap: var(--space-md);
-}
 .action-row .fav-tool {
   /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
   font-family: var(--sans-zh);
@@ -750,42 +713,41 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ 详情页手势翻页（t_13662686） */
 
-/* 页码 folio：左上米底半透明胶囊，Georgia 斜体 + Songti SC 分隔号 */
-.folio {
-  position: fixed;
-  top: calc(12px + var(--safe-t));
-  left: calc(12px + var(--safe-l));
-  z-index: 25;
-  display: flex;
-  align-items: baseline;
-  gap: 4px;
-  /* 与 .detail-close 完全同底色，构成左右上对角对称（t_ace5cc6b 定稿 B 案） */
-  background: rgba(245, 241, 234, 0.55);
-  border: 1px solid rgba(29, 27, 22, 0.08);
-  padding: 4px 10px;
-  border-radius: 2px;
+/* R1: Folio 移入信息卡内，不再使用 fixed 定位（t_51a886ed 定稿） */
+/* 旧的 .folio fixed 样式已废弃，仅保留给单幅日期场景（无 folio） */
+.folio { display: none; }
+
+/* 新 Folio：信息卡内的定位元数据胶囊 */
+.artwork-info-card .folio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.70);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  font-family: var(--serif-en);
-  font-style: italic;
-  color: var(--gold);
-  font-size: 14px;
-  letter-spacing: 0.08em;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: var(--space-md); /* 12px — 与下方题名间距 */
   pointer-events: none;   /* 不阻挡下层手势 */
 }
-.folio-idx {
+.artwork-info-card .folio-idx {
   font-family: var(--serif-zh);
-  font-style: normal;
+  font-weight: 600;
   color: var(--ink);
   font-size: 15px;
 }
-.folio-sep {
+.artwork-info-card .folio-sep {
   opacity: 0.5;
   margin: 0 2px;
+  color: var(--gold);
 }
-.folio-total {
+.artwork-info-card .folio-total {
   font-family: var(--serif-zh);
-  font-style: normal;
+  font-weight: 400;
   color: var(--ink-2);
   font-size: 13px;
 }
@@ -994,9 +956,13 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: contain; /* 默认 contain — 竖幅画作完整显示 */
   opacity: 0;
   transition: opacity 300ms ease;
+}
+/* R3: 横幅画作 (w/h >= 1.25) 改用 cover 裁切 */
+.rel-card .th img[data-landscape="true"], .card .th img[data-landscape="true"] {
+  object-fit: cover;
 }
 .rel-card .th img.loaded { opacity: 1; }
 .rel-card .a, .rel-card .t, .card .a, .card .t { display: block; }
