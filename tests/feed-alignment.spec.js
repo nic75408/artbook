@@ -99,29 +99,28 @@ test.describe('首页作品卡版心对齐', () => {
     const vw = page.viewportSize().width;
     expect(Math.abs((box.x + box.width / 2) - vw / 2)).toBeLessThanOrEqual(2);
 
-    // t_23059633 定稿方案 B（断舍派）：单行「了 解 更 多 ›」
-    // 已删除 __en / __rule，改为 __zh + __chevron 单行内联
-    expect(await page.$('.learn-inline__en')).toBeNull();
+    // t_d087905d：撤销 t_23059633 单行改版，恢复中英文双行格式，无 chevron
+    expect(await page.$('.learn-inline__chevron')).toBeNull();
     expect(await page.$('.learn-inline__rule')).toBeNull();
 
-    // 规格数值：中文 Songti 14px letter-spacing 0.32em ink-2 / chevron Georgia 16px 金 α0.85
+    // 规格数值：英文 Georgia italic 15px letter-spacing 0.08em 金 / 中文 Songti 17px letter-spacing 0.1em ink-2
     const m = await page.evaluate(() => {
+      const en = document.querySelector('.learn-inline__en');
       const zh = document.querySelector('.learn-inline__zh');
-      const chev = document.querySelector('.learn-inline__chevron');
       const cs = getComputedStyle;
       return {
+        enText: en.textContent,
+        enSize: cs(en).fontSize,
+        zhText: zh.textContent,
         zhSize: cs(zh).fontSize,
         zhSpacing: cs(zh).letterSpacing,
-        chevSize: cs(chev).fontSize,
-        chevOpacity: cs(chev).opacity,
-        chevText: chev.textContent,
       };
     });
-    expect(m.zhSize).toBe('14px');
-    expect(parseFloat(m.zhSpacing)).toBeCloseTo(4.48, 1); // 0.32em × 14px
-    expect(m.chevSize).toBe('16px');
-    expect(parseFloat(m.chevOpacity)).toBeCloseTo(0.85, 2);
-    expect(m.chevText).toBe('›');
+    expect(m.enText).toBe('Continue reading');
+    expect(m.enSize).toBe('15px');
+    expect(m.zhText).toBe('了解更多');
+    expect(m.zhSize).toBe('17px');
+    expect(parseFloat(m.zhSpacing)).toBeCloseTo(1.7, 1); // 0.1em × 17px
   });
 
   test('首页无左下角收藏按钮', async ({ page }) => {

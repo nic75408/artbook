@@ -139,7 +139,7 @@ components:
     frameDisplay: inline-block
     namesWidth: min(320px, 92vw)
     namesTextAlign: center
-    learnInlineMarginTop: 36px
+    learnInlineMarginTop: 44px
     hotzoneScope: whole-slide
     hotzoneExcludes: [feed-header, date-capsule]
   date-capsule:
@@ -147,9 +147,9 @@ components:
     textColor: "{colors.ink-2}"
     rounded: "{rounded.pill}"
   learn-inline:
-    # t_23059633 (2026-09-03) — 断舍派：单行「了 解 更 多 ›」。
-    # 详细 sub-color 与 geometry（chevron color/size/opacity、zh letterSpacing 0.32em、
-    # active state chevron +3px translate）见 Components prose；schema 只塞合法 sub-token。
+    # t_d087905d (2026-09-03) — 恢复中英文双行格式（撤销 t_23059633 单行改版，
+    # 赤拔判定单行版不如原双行有艺术感）。无 chevron，无 hairline。
+    # 详细 sub-color 与 geometry 见 Components prose；schema 只塞合法 sub-token。
     backgroundColor: "transparent"
     textColor: "{colors.ink-2}"
   detail-close:
@@ -336,24 +336,21 @@ Components map to CSS blocks in `app.css`:
   navigate to that artwork's detail page.
 - **Date capsule (`.date-capsule`):** Fixed pill in the bottom center with secondary
   text color on bg.
-- **Learn more inline link (`.learn-inline`) — refactored 2026-09-03, t_23059633:**
-  A gallery-label style text link rendered below the artwork+title module,
-  centered on the slide's main axis. **Single-line composition (方案 B 断舍派):**
-  a wide-tracked (0.32em) Songti SC "了 解 更 多" line at 14px in secondary ink,
-  followed by a Georgia gold chevron "›" at 16px (α 0.85) as the sole accent.
-  Sits `36px` below `.names` (down from 44px) — the tighter authored-content
-  gap treats artist name and action as one semantic group, letting the fixed
-  `.date-capsule` chrome layer carry the visual "outside" boundary. Active
-  state slides the chevron `+3px` right and raises its opacity to 1, plus
-  darkens the Chinese line to primary ink. No button container, no hairline
-  rule, no double-language label. Rationale: on the real iPhone 390×844
-  the previous 48×1px α0.6 gold hairline was optically cut by the italic
-  `g/n` descenders of "Continue reading" and read as an underline (not a
-  divider), and the English + Chinese pair carried identical semantics
-  (both mean "enter detail") — the double-language treatment was decoration,
-  not information. Component token: `components.learn-inline`. Replaces the
-  three-line variant defined 2026-09-01 (t_4c2a874b) and refined 2026-09-02
-  (t_e05a68be, margin-top 44px).
+- **Learn more inline link (`.learn-inline`) — reverted 2026-09-03, t_d087905d
+  (back from the t_23059633 single-line rewrite):** A gallery-label style text
+  link rendered below the artwork+title module, centered on the slide's main
+  axis. **Bilingual two-line composition:** first line "Continue reading" in
+  italic Georgia gold serif at 15px (letter-spacing 0.08em), second line
+  "了解更多" in Songti SC secondary ink at 17px (letter-spacing 0.1em), no
+  chevron accent, no hairline rule, no button container. Sits `44px` below
+  `.names`. Rationale: 赤拔 judged the single-line "了 解 更 多 ›" rewrite as
+  visually flatter than the original bilingual pairing — the two-line
+  composition reads as intentional gallery-label typography (the italic
+  English line above a wider Chinese line), which the single accent chevron
+  did not replicate. Component token: `components.learn-inline`. Supersedes
+  the 2026-09-03 single-line variant (t_23059633); restores the geometry of
+  the three-line variant defined 2026-09-01 (t_4c2a874b) and refined
+  2026-09-02 (t_e05a68be, margin-top 44px), minus the hairline rule.
 - **Detail close (`.detail-close`):** Fixed circular button at top-right, 40×40,
   with a **frosted-glass** background: `rgba(245,241,234,0.55)` + `backdrop-filter: blur(14px)`
   and a faint 1px `rgba(29,27,22,0.08)` border. Shadow reduced to

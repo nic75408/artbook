@@ -121,8 +121,8 @@ function slideHTML(w, date, priority = false) {
       <div class="title-en meta-text">${esc(displayArtist)}</div>
     </div>
     <a class="learn-inline" data-go="${esc(w.id)}" href="#/work/${esc(w.id)}" aria-label="了解更多，查看详情">
-      <span class="learn-inline__zh">了 解 更 多</span>
-      <span class="learn-inline__chevron" aria-hidden="true">›</span>
+      <span class="learn-inline__en">Continue reading</span>
+      <span class="learn-inline__zh">了解更多</span>
     </a>
   </section>`;
 }
