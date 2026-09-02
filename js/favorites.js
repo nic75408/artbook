@@ -4,6 +4,7 @@ import * as data from "./data.js";
 import { back, navigate } from "./router.js";
 import { esc, icons } from "./ui.js";
 import { Icon } from "./icons/Icon.js";
+import { BrandWordmark } from "./icons/BrandWordmark.js";
 
 const KEY = "artbook.favs";
 
@@ -68,7 +69,7 @@ export async function mount(el) {
   const body = el.querySelector("#fav-body");
   if (!favs.length) {
     body.innerHTML = `<div class="empty">
-      <div class="wordmark brand-title">艺术手册</div>
+      <div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
       <p>还没有收藏。在画作下点亮书签，它会出现在这里。</p>
     </div>`;
     return;

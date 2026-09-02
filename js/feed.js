@@ -1,5 +1,6 @@
 // Feed 视图（SPE §7.3）：竖滑 snap、跨期连播、懒加载、日期胶囊、位置记忆
 import { WORDMARK } from "../config.js";
+import { BrandWordmark } from "./icons/BrandWordmark.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
 import { esc, icons } from "./ui.js";
@@ -18,7 +19,7 @@ export async function mount(el) {
   el.classList.add("feed");
   el.innerHTML = `
     <header class="feed-header">
-      <div class="wordmark brand-title">${esc(WORDMARK)}</div>
+      <div class="wordmark brand-mark">${BrandWordmark({ withSeal: true })}</div>
       <button id="goto-favs" aria-label="收藏夹" title="收藏夹">${Icon('action-bookmark-outline', { size: 16, hidden: true })}<span>收藏夹</span></button>
     </header>
     <div class="feed-scroller"></div>
@@ -62,7 +63,7 @@ export async function mount(el) {
     );
   } catch (e) {
     el.querySelector(".feed-scroller").innerHTML = `
-      <div class="empty"><div class="wordmark brand-title">${esc(WORDMARK)}</div>
+      <div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
       <p>暂时加载不出来</p>
       <button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate("#/"));
@@ -231,7 +232,7 @@ function maybeLoadNextIssue() {
     endShown = true;
     scroller.insertAdjacentHTML(
       "beforeend",
-      `<section class="endpage"><div class="wordmark">${esc(WORDMARK)}</div><p>已经翻到最早的一期了</p></section>`
+      `<section class="endpage"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div><p>已经翻到最早的一期了</p></section>`
     );
     return;
   }

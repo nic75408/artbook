@@ -136,10 +136,57 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   pointer-events: none;
 }
 .feed-header .wordmark {
+  /* legacy — 保留兼容；实际渲染由 .brand-mark 组件承担 */
   font-family: var(--serif-zh);
   font-weight: 700;
   font-size: var(--text-brand);
   letter-spacing: 0.12em;
+}
+
+/* ============================================================ Brand Wordmark
+   品牌字标组件（BrandWordmark.js 配套） — 替代旧的 .brand-title 字体规则
+   在字标出现处，容器上加 .brand-mark 类；旧 .brand-title / .wordmark
+   保留兼容别名（同时使用不冲突）。 */
+.brand-mark {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 6px;
+  color: var(--ink);
+  line-height: 0; /* 消除 inline SVG 的 baseline 白线 */
+}
+.brand-mark__chars {
+  display: inline-block;
+  width: 128px;
+  height: 32px;
+}
+.brand-mark__chars svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.brand-mark__seal {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-bottom: 3px; /* 对齐字标下缘 */
+}
+.brand-mark__seal svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* 空态/endpage 中较小场景的等比缩放 */
+.empty .brand-mark__chars,
+.endpage .brand-mark__chars {
+  width: 96px;
+  height: 24px;
+}
+.empty .brand-mark__seal,
+.endpage .brand-mark__seal {
+  width: 11px;
+  height: 11px;
+  margin-bottom: 2px;
 }
 
 /* 统一文本层级类 */
