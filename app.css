@@ -383,7 +383,12 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
      保证图片 + 画框 + 题名总高 ≤ 100dvh，单屏独占不溢出。
      t_e05a68be：上限 280→320px（同 .frame-wrapper），减去项 200→220px
      补偿 learn-inline margin-top 加大 16px（28→44） + 画框内衬 -2px × 2 */
-  width: min(320px, 92vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 220px) / var(--r, 1.2)));
+  /* t_c51d0e75：320px/92vw 上限原意是"整幅画框（含 6px 内衬+1px 描边）不超过
+     wrapper 的 320px"，但 .frame 是 inline-block 收缩包裹 .ph，.ph 若直接取
+     320px/92vw 会让 .frame 的内容宽度撑到 320+14(padding+border)，突破
+     frame-wrapper 的 max-width:320px 约束而右侧溢出（横幅画作如《黄光》实测复现）。
+     需要预先扣掉画框自身的 padding+border（6px×2 + 1px×2 = 14px） */
+  width: min(calc(320px - 14px), calc(92vw - 14px), calc((100dvh - var(--pad-t) - var(--pad-b) - 220px) / var(--r, 1.2)));
   aspect-ratio: calc(1 / var(--r, 1.2));
   background: var(--bg-card);
   margin: 0 auto;  /* 窄画在 320px 容器内居中 */
@@ -767,26 +772,42 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 /* 单幅（total === 1）：JS 不渲染 scrubber，此规则作为兜底防空盒 */
 .artwork-info-card .detail-scrubber:empty { display: none; }
 
-/* R4: 超宽头图旋转 90°（w/h >= 2.5 触发） */
+/* R4: 超宽头图旋转 90°（ratio <= 0.4，即宽/高 >= 2.5 触发）
+   --r 由 detail.js 内联写入 .detail-hero，值含义是"高/宽"（原图，未旋转）。
+   t_c51d0e75 修正：此前 .ph 用 aspect-ratio:calc(1/--r) 与未旋转态完全相同
+   （因为 .ph 平时的内联 aspect-ratio 本就是 calc(1/ratio)），旋转后容器形状
+   没有反转，.ph 撑到原图导出宽度（如三马图 4496px）、img 也跟着溢出视口。
+   正确关系：原图 宽/高 = 1/--r；旋转 90° 后可见框的 宽/高 = 原图 高/宽 = --r。
+   所以 .ph 的 aspect-ratio 必须直接取 var(--r)，不取倒数。
+   img 本身仍是"卧倒"的原始画面（宽 = 容器高、高 = 容器宽 × --r，与原图比例
+   1/--r 一致），旋转前用 65dvh 这个已知常量算好尺寸，再用 rotate(90deg) 转正，
+   避免 width:100%/height:100% 在旋转后因宽高不等而让内容溢出容器边界。 */
 .detail-hero.detail-hero-ultra-wide {
   aspect-ratio: auto;
   height: 65dvh; /* 头图占视口 65% 高度，留出信息卡空间 */
   position: relative;
+  overflow: hidden;
 }
 .detail-hero.detail-hero-ultra-wide .ph {
-  /* 容器反转 aspect-ratio: 原 w/h=ratio → 旋转后 h/w=1/ratio */
-  aspect-ratio: calc(1 / var(--r)); /* --r = w/h, 所以 1/--r = h/w */
+  aspect-ratio: var(--r); /* 旋转后可见框 宽/高 = 原图 高/宽 = --r */
   width: auto;
   height: 100%;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 .detail-hero.detail-hero-ultra-wide img {
-  /* 旋转 90° */
-  transform: rotate(90deg);
+  /* 旋转前按原图比例（1/--r = 宽/高）铺满，宽取 .ph 的高（65dvh），
+     高 = 65dvh × --r；旋转 90° 后视觉上宽高互换，正好填满 .ph 的
+     var(--r) 宽高比容器，两侧不再溢出 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65dvh;
+  height: calc(65dvh * var(--r));
+  transform: translate(-50%, -50%) rotate(90deg);
   transform-origin: center;
   object-fit: contain;
-  width: 100%;
-  height: 100%;
 }
 
 /* 正文区：模块自管左右内边距（页面级贴边，无版心居中） */
