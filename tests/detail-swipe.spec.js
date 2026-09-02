@@ -59,7 +59,11 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
-test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe', async ({ page }) => {
+// t_51a886ed R1 定稿：folio 是定位元数据，不再是页面级 fixed 悬浮胶囊，
+// 而是移入 .artwork-info-card 内部、随作品信息一起滚动的行内胶囊
+// （t_9a0a5a41 修复：js/detail.js 的渲染位置改回卡内，让
+// .artwork-info-card .folio 这套样式规则生效，不再被裸 .folio{display:none}命中）。
+test('folio 页码：内容 N／30，随信息卡渲染（非 fixed 悬浮），磨砂玻璃胶囊', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
   const folio = page.locator('.folio');
   await expect(folio).toHaveAttribute('aria-live', 'polite');
@@ -70,58 +74,34 @@ test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe',
   const m = await page.evaluate(() => {
     const g = (s) => getComputedStyle(document.querySelector(s));
     const f = g('.folio');
-    const r = document.querySelector('.folio').getBoundingClientRect();
-    const c = document.querySelector('.detail-close').getBoundingClientRect();
-    const cs = g('.detail-close');
+    const inCard = !!document.querySelector('.artwork-info-card .folio');
     return {
       pos: f.position,
-      left: r.left,
-      top: r.top,
-      closeTop: c.top,
-      closeRightGap: window.innerWidth - c.right,
+      inCard,
+      display: f.display,
       pointerEvents: f.pointerEvents,
       bg: f.backgroundColor,
-      closeBg: cs.backgroundColor,
       blur: f.backdropFilter || f.webkitBackdropFilter,
-      closeBlur: cs.backdropFilter || cs.webkitBackdropFilter,
-      closeShadow: cs.boxShadow,
-      border: f.border,
-      closeBorder: cs.border,
-      idxSize: g('.folio-idx').fontSize,
-      sepSize: f.fontSize,
-      totalSize: g('.folio-total').fontSize,
+      borderRadius: f.borderRadius,
+      height: f.height,
       idxColor: g('.folio-idx').color,
-      sepColor: f.color,
       totalColor: g('.folio-total').color,
-      zIndex: f.zIndex,
     };
   });
-  expect(m.pos).toBe('fixed');
-  // top / left = 12px + safe-inset（桌面 Chromium safe-inset 为 0）
-  expect(m.left).toBeCloseTo(12, 1);
-  expect(m.top).toBeCloseTo(12, 1);
-  // 与 .detail-close 对角对称：同 top、左右间距相等
-  expect(m.top).toBeCloseTo(m.closeTop, 1);
-  expect(m.left).toBeCloseTo(m.closeRightGap, 1);
-  // 同底色同边框（t_ace5cc6b 定稿 B 案：α 0.55 / 边框 α 0.08 / blur 14px）
-  expect(m.bg).toBe(m.closeBg);
-  expect(m.bg).toBe('rgba(245, 241, 234, 0.55)');
-  expect(m.border).toBe(m.closeBorder);
-  expect(m.border).toBe('1px solid rgba(29, 27, 22, 0.08)');
+  // 不再是页面级 fixed 悬浮：随 .artwork-info-card 一起在文档流内渲染
+  expect(m.inCard).toBe(true);
+  expect(m.pos).not.toBe('fixed');
+  expect(m.display).toBe('inline-flex');
+  // 磨砂玻璃胶囊：t_51a886ed 定稿数值（.artwork-info-card .folio）
+  expect(m.bg).toBe('rgba(255, 255, 255, 0.7)');
   expect(m.blur).toBe('blur(14px)');
-  expect(m.closeBlur).toBe('blur(14px)');
-  expect(m.closeShadow).toBe('rgba(29, 27, 22, 0.06) 0px 1px 4px 0px');
-  // 字号 15 / 14 / 13
-  expect(m.idxSize).toBe('15px');
-  expect(m.sepSize).toBe('14px');
-  expect(m.totalSize).toBe('13px');
-  // 色值：--ink / --gold / --ink-2
+  expect(m.borderRadius).toBe('14px');
+  expect(m.height).toBe('28px');
+  // 色值：--ink / --ink-2
   expect(m.idxColor).toBe('rgb(29, 27, 22)');
-  expect(m.sepColor).toBe('rgb(140, 109, 63)');
   expect(m.totalColor).toBe('rgb(107, 101, 88)');
   // 不阻挡手势
   expect(m.pointerEvents).toBe('none');
-  expect(m.zIndex).toBe('25');
 });
 
 test('左滑 60px+ 切换到下一幅，页码 +1、URL 更新、滚回顶部', async ({ page }) => {
