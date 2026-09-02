@@ -42,6 +42,12 @@
   --paragraph: 18px;
   --group-cross: 32px;
   --module-gap: 48px;
+  /* Detail-page helper-layer tokens (t_645b44c2, 2026-09-02)：
+     credit + 收藏按钮读作独立辅助层，内部两处间距一致（helper-layer），
+     该辅助层到下一顶层模块 .related 的距离（helper-to-module）> helper-layer × 1.5，
+     实现赤拔要求的「组内一致，组外大于组内」格式塔。 */
+  --helper-layer: 20px;
+  --helper-to-module: 36px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
@@ -712,17 +718,23 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 /* t_6fe0245e：数字页码 folio 弃用，改用 .detail-scrubber 迷你滑轨。
+   t_645b44c2 (2026-09-02) 视觉升级：从 100% 宽 · 2px track · 8px dot
+   → 50% 宽居中 · 3px track · 12px 金色 dot 带米色 halo。
+   目的：赤拔反馈原方案「太简陋」；缩到 50% + 加粗 track + 放大 dot
+   把滑轨从「精确进度条」降级为「暗示性位置指示器」，跟美术馆导览克制调性对齐。
    token 保留仅作单幅日期页兜底，不再新增调用点。 */
 .folio { display: none !important; }
 .artwork-info-card .folio { display: none !important; }
 
-/* t_6fe0245e：迷你滑轨 —— .artwork-info-card 内首元素，占位 8px + margin-bottom 14px。
+/* t_6fe0245e：迷你滑轨 —— .artwork-info-card 内首元素。
+   t_645b44c2 (2026-09-02)：宽度从 100% 收到 50% 居中，
+   高度从 8px 升到 12px 容纳更大 dot；margin-bottom 保持 --group-title-body (14px)。
    pointer-events:none，纯指示器不接受手势。 */
 .artwork-info-card .detail-scrubber {
   display: block;
-  width: 100%;
-  height: 8px;
-  margin: 0 0 var(--group-title-body) 0;
+  width: 50%;
+  height: 12px;
+  margin: 0 auto var(--group-title-body) auto;
   position: relative;
   pointer-events: none;
 }
@@ -731,25 +743,25 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   left: 0;
   right: 0;
   top: 50%;
-  height: 2px;
+  height: 3px;
   background: rgba(29, 27, 22, 0.10);
-  border-radius: 1px;
+  border-radius: 1.5px;
   transform: translateY(-50%);
 }
 .artwork-info-card .detail-scrubber__dot {
   position: absolute;
   top: 50%;
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--gold);
-  box-shadow: 0 0 0 2px rgba(245, 241, 234, 0.9);
+  box-shadow: 0 0 0 3px var(--bg-card), 0 1px 3px rgba(29, 27, 22, 0.18);
   transform: translate(-50%, -50%);
-  /* left 值由 JS 计算：(index / (total - 1)) * 100% */
+  /* left 值由 JS 计算：(index / (total - 1)) * 100% — 相对短轨道 */
 }
 @media (prefers-reduced-transparency: reduce) {
   .artwork-info-card .detail-scrubber__dot {
-    box-shadow: 0 0 0 2px #FDFBF7;
+    box-shadow: 0 0 0 3px #FDFBF7, 0 1px 3px rgba(29, 27, 22, 0.18);
   }
 }
 /* 单幅（total === 1）：JS 不渲染 scrubber，此规则作为兜底防空盒 */
@@ -822,7 +834,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: 0;
 }
 
-.essay { padding: 0 0 var(--space-md); }
+/* t_645b44c2 (2026-09-02)：底部 padding 归零。原为 var(--space-md)=12px，
+   与 .credit margin-top 叠加导致「正文→credit」间距 = 12+32 = 44px，
+   与「credit→收藏」间距不一致。归零后由 .credit margin-top 单独控制。 */
+.essay { padding: 0; }
 .essay .body-text {
   font-family: var(--sans-zh);
   font-size: var(--text-md);
@@ -867,23 +882,33 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   font-size: var(--text-xs);
   color: var(--ink-2);
   line-height: 1.8;
-  padding-top: var(--space-lg);
+  padding-top: 0;
   padding-bottom: 0;
-  /* t_6fe0245e：正文末段 → credit 用 group-cross(32px)，
-     使 credit + 收藏读作独立的辅助操作层，而非正文的拖尾句 */
-  margin-top: var(--group-cross);
+  /* t_645b44c2 (2026-09-02)：正文末段 → credit 用 --helper-layer (20px)。
+     与下方 .action-row margin-top 相等，把 credit + 收藏按钮读作
+     一个「辅助层」内部两处等距节奏（组内一致）。
+     旧值 --group-cross (32px) 让上下红框对不齐，见 Decision Log。 */
+  margin-top: var(--helper-layer);
 }
 .credit a { color: var(--gold); border-bottom: 1px solid var(--gold); }
 
 .action-row {
-  /* t_6fe0245e：credit → 收藏按钮属同一辅助层内部，用 group-inner(12px) */
-  margin-top: var(--group-inner);
+  /* t_645b44c2 (2026-09-02)：credit → 收藏按钮同为 --helper-layer (20px)，
+     与上一行 credit.margin-top 完全一致，实现「组内一致」。
+     text-align:center 让按钮在辅助层水平居中（原为 start）。 */
+  margin-top: var(--helper-layer);
   margin-bottom: 0;
-  padding-bottom: var(--space-sm);
+  padding-bottom: 0;
+  text-align: center;
 }
 
 .action-row .fav-tool {
-  /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题 */
+  /* 降级为辅助工具：低对比描边、小尺寸，不抢主图与标题。
+     t_645b44c2 (2026-09-02)：display 从默认 flex 改为 inline-flex，
+     配合父容器 text-align:center 实现水平居中（否则 flex 会撑满行宽）。 */
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
   font-family: var(--sans-zh);
   border-color: rgba(140, 109, 63, 0.5);
   color: rgba(29, 27, 22, 0.7);
@@ -1079,12 +1104,15 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   }
 }
 
-/* 相关推荐：模块间最大间距 48 + hairline 分隔线（t_6fe0245e）。
-   左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘 */
+/* 相关推荐：辅助层 → 顶层模块的距离（helper-to-module 36px），t_645b44c2 去掉 hairline。
+   左侧对齐版心（22px），右侧贴边 —— 卡片可向右滑出屏幕边缘。
+   t_645b44c2 (2026-09-02)：赤拔要求这段间距 ≥ 红框 × 1.5；
+   36 / 20 = 1.80，同时移除原有 1px hairline（视觉过于粗糙且不需要）。
+   历史：t_6fe0245e 曾用 --module-gap (48px) + hairline；现降到 36px 且无 hairline，
+   靠空间本身分隔即可，符合美术馆导览克制调性。 */
 .related { 
-  padding-top: var(--module-gap); 
+  padding-top: var(--helper-to-module); 
   padding-left: 0;
-  border-top: 1px solid rgba(29, 27, 22, 0.06);
   margin-top: 0;
 }
 /* 标题左边界与卡片列表、正文版心一致（22px）。

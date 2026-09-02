@@ -21,11 +21,18 @@ spacing:
   section-v: 24px       # default vertical spacing between sections
   # ── Detail-page Gestalt hierarchy (2026-09-02, t_6fe0245e) ──
   group-inner-tight: 8px    # within-group (meta rows, tight fields)
-  group-inner: 12px         # within-group standard (title→meta, credit→action)
+  group-inner: 12px         # within-group standard (title→meta)
   group-title-body: 14px    # heading→its own content
   paragraph: 18px           # essay paragraph rhythm
-  group-cross: 32px         # between related groups (essay→credit helper-layer)
-  module-gap: 48px          # between top-level modules (helper-layer→related)
+  group-cross: 32px         # between related groups (deprecated for essay→credit, see t_645b44c2)
+  module-gap: 48px          # between top-level modules
+  # ── Detail-page helper-layer (2026-09-02, t_645b44c2) ──
+  # credit + 收藏按钮读作独立辅助层；层内两处间距一致 (helper-layer)，
+  # 层到下一顶层模块 (.related) 的距离 helper-to-module > helper-layer × 1.5，
+  # 实现「组内一致，组外大于组内」格式塔。取代原 essay→credit=group-cross(32)、
+  # credit→action=group-inner(12) 的不等值组合。
+  helper-layer: 20px        # essay→credit == credit→action (within helper layer)
+  helper-to-module: 36px    # helper layer → .related (top-level module boundary)
 
 rounded:
   pill: 999px
@@ -346,31 +353,43 @@ Components map to CSS blocks in `app.css`:
   retained only as fallback for single-artwork date pages that still use a
   standalone folio (currently none). Do not add new call sites.
 - **Detail scrubber (`.detail-scrubber`) — replaces numeric folio (2026-09-02,
-  t_6fe0245e):** A pointer-events-none progress indicator rendered as the first
-  child of `.artwork-info-card` when `siblingCtx.ids.length > 1`. Full card width
-  (296px in the 340px content column), 8px tall, `margin-bottom: 14px`.
-  Interior: a 2px `rgba(29,27,22,0.10)` horizontal track (radius 1px) and an
-  8×8 `colors.gold` dot with a 2px `rgba(245,241,234,0.9)` halo. Dot position
-  is `left: (index / (total - 1)) * 100%` with `translate(-50%, -50%)` so the
-  first work snaps to 0% and the last snaps to 100%. ARIA: `role="progressbar"`,
-  `aria-valuemin=1`, `aria-valuemax=total`, `aria-valuenow=index+1`,
-  `aria-label="当前作品位置"`. `prefers-reduced-transparency: reduce` swaps
-  the translucent halo for a solid `#FDFBF7` (bg-card). Single-work fallback:
-  the scrubber is not rendered — no empty box residue (guarded by
-  `.detail-scrubber:empty { display: none }`).
-- **Detail-page spacing hierarchy (2026-09-02, t_6fe0245e):** The detail
-  page composes six vertical rhythm levels (see `spacing` tokens
-  `group-inner-tight` 8px, `group-inner` 12px, `group-title-body` 14px,
-  `paragraph` 18px, `group-cross` 32px, `module-gap` 48px). The two
-  load-bearing moments are (a) essay-end → `.credit` uses `group-cross`
-  (32px) so `.credit` + `.action-row` read as a distinct helper-operations
-  group rather than a trailing sentence of the essay; and (b) `.action-row`
-  → `.related` uses `module-gap` (48px) plus a 1px `rgba(29,27,22,0.06)`
-  hairline `border-top` on `.related`, marking the top-level module boundary.
-  Within the helper group, `.credit` → `.action-row` uses `group-inner`
-  (12px). See Decision Log 2026-09-02 for full before/after table.
-- **Favorite tool (`.action-row .fav-tool`):** Pill button downgraded to a secondary
-  tool with reduced contrast and small icon.
+  t_6fe0245e; visual upgrade 2026-09-02, t_645b44c2):** A pointer-events-none
+  position indicator rendered as the first child of `.artwork-info-card` when
+  `siblingCtx.ids.length > 1`. **50% container width centered** (via
+  `margin: 0 auto`), 12px tall, `margin-bottom: 14px` (--group-title-body).
+  Interior: a **3px** `rgba(29,27,22,0.10)` horizontal track (radius 1.5px) and
+  a **12×12** `colors.gold` dot with a **3px `bg-card` halo plus
+  `0 1px 3px rgba(29,27,22,0.18)` drop shadow**. Dot position is
+  `left: (index / (total - 1)) * 100%` with `translate(-50%, -50%)` so the
+  first work snaps to 0% and the last snaps to 100% **of the short track**.
+  Intent: **暗示性位置指示器**, not a precise progress bar — the reduced width
+  and elevated dot presence tell the user "you can slide" without implying a
+  100%-completion goal, aligned with the restrained museum-guide tone. ARIA:
+  `role="progressbar"`, `aria-valuemin=1`, `aria-valuemax=total`,
+  `aria-valuenow=index+1`, `aria-label="当前作品位置"`.
+  `prefers-reduced-transparency: reduce` swaps to solid `#FDFBF7` halo.
+  Single-work fallback: the scrubber is not rendered — no empty box residue
+  (guarded by `.detail-scrubber:empty { display: none }`).
+- **Detail-page spacing hierarchy (2026-09-02, t_6fe0245e; revised t_645b44c2):**
+  The detail page composes eight vertical rhythm levels (see `spacing` tokens:
+  `group-inner-tight` 8, `group-inner` 12, `group-title-body` 14, `paragraph`
+  18, **`helper-layer` 20**, `group-cross` 32, **`helper-to-module` 36**,
+  `module-gap` 48). The two load-bearing moments at the essay bottom are
+  (a) `.essay { padding-bottom: 0 }` so essay-container has no bottom flush,
+  and `.credit` uses `margin-top: var(--helper-layer)` (20px) — same as
+  `.action-row` `margin-top: var(--helper-layer)` — making credit + 收藏按钮
+  read as a two-element helper layer with **strictly equal internal spacing**;
+  and (b) `.action-row` → `.related` uses `padding-top: var(--helper-to-module)`
+  (36px) with **no hairline `border-top`** — the 36/20 = 1.80 ratio ≥ 1.5 makes
+  the module boundary read via whitespace alone, honoring 「组内一致，组外大于
+  组内」without a visible line. See Decision Log 2026-09-02 for full
+  before/after table.
+- **Favorite tool (`.action-row .fav-tool`) — centered helper (2026-09-02,
+  t_645b44c2):** Pill button downgraded to a secondary tool with reduced
+  contrast and small icon; **horizontally centered** inside `.action-row`
+  via parent `text-align: center` + `display: inline-flex` on the button
+  itself (the default `display: flex` would stretch it full-width and defeat
+  the centering).
 - **Primary action (`.action-btn`):** Gold-outlined pill that fills with gold on
   active state.
 - **Related cards (`.related`, `.rel-card`):** Horizontal scroll of small framed
@@ -598,3 +617,46 @@ Components map to CSS blocks in `app.css`:
   module gap + hairline). Title→meta compressed to 12px. Full 13-row
   before/after table in `sketches/t_6fe0245e/README.md`. No new tokens outside
   `spacing:`; component blocks unchanged apart from folio/scrubber described above.
+- **2026-09-02 — Detail-page essay-to-related bottom spacing + fav-tool centering
+  + scrubber visual upgrade (t_645b44c2):** Product/design owner reviewed the
+  live detail page bottom and flagged three issues on the marked-up screenshot
+  (see task attachments): (1) the two gaps essay-end→credit and credit→
+  收藏按钮 are visually unequal — 44px vs 12px — although both should read as
+  one "helper layer" with uniform internal rhythm; (2) 收藏按钮 is left-aligned
+  and reads as attached to credit rather than as a centered helper action;
+  (3) the hairline `border-top` on `.related` plus a 0px collapsed gap makes
+  the module boundary feel abrupt yet under-spaced. In a follow-up, the
+  scrubber was also called out as "too plain" (2px track + 8px dot, full-width)
+  — the ask being an "暗示性" (suggestive) indicator, not a precise progress
+  bar (owner: "宽度小一些... 不需要精确的全宽进度条").
+  Playwright measurement on `#/work/cma-129386` (iPhone 12, 390×844) confirmed
+  before-state: red_top=44, red_bot=12, yellow(action→related-title)=49,
+  scrubber-width=346px (full container). Root cause of the unequal reds:
+  `.essay { padding-bottom: 12px }` stacked with `.credit { margin-top: 32px }`
+  produced 44px above the credit block, while credit→action was governed
+  independently by `.action-row { margin-top: 12px }`. Fix (three-variant
+  self-adjudicated review, B chosen 44/33 vs A 33 vs C 38): introduce
+  **`--helper-layer: 20px`** and **`--helper-to-module: 36px`** spacing tokens;
+  set `.essay { padding: 0 }`, `.credit { margin-top: var(--helper-layer);
+  padding-top: 0 }`, `.action-row { margin-top: var(--helper-layer);
+  text-align: center; padding-bottom: 0 }`, `.action-row .fav-tool
+  { display: inline-flex }` (overrides the base `.action-btn { display: flex }`
+  so the pill doesn't stretch), and `.related { padding-top:
+  var(--helper-to-module) }` **removing the 1px hairline `border-top`**.
+  After-state: red_top=20, red_bot=20 (equal ✓), yellow=36 (36/20=1.80 ≥1.5 ✓),
+  fav-tool centered (btnLeft=125, btnRight=125 ✓). Scrubber upgrade (three
+  candidate visuals self-adjudicated: short-track 44/52 vs 5-segment capsules
+  52 [but ruled out because each issue has 30 works, making 30 tiny segments
+  unreadable] vs 5-dot 49 [same 30-count problem]): short-track wins by
+  practical constraint. New values: `.detail-scrubber { width: 50%;
+  margin: 0 auto; height: 12px }`, track `height: 3px; radius: 1.5px`,
+  dot `12×12; box-shadow: 0 0 0 3px var(--bg-card), 0 1px 3px
+  rgba(29,27,22,0.18)`. Result: scrubber width 173px (~44% of 390 viewport),
+  visibly downgraded from "progress bar" to "position hint" while
+  preserving the JS `(index/(total-1))*100%` placement math relative to the
+  short track. SW `CACHE_APP` bumped v15→v16. Falsified alternatives A
+  (12/12/22 too tight — credit reads as glued to action) and C (16/16/28 —
+  16px on essay→credit still feels cramped against the essay's 1.9 line-height).
+  Falsified scrubber s2 (segments, 30 works blows out horizontally) and s3
+  (dots, same 30-count spatial problem). Evidence: `tests/evidence/sketches-
+  t_645b44c2/{before,A-tight,B-airy,C-medium,final}` + `scrubber/{s1,s2,s3}`.
