@@ -42,7 +42,7 @@ function render(el, w) {
 
   el.innerHTML = `
   <div class="detail">
-    <div class="detail-hero">
+    <div class="detail-hero ${ratio >= 2.5 ? 'detail-hero-ultra-wide' : ''}" style="--r: ${ratio}">
       <div class="ph" style="aspect-ratio:calc(1/${ratio})">
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async">
       </div>
@@ -50,15 +50,19 @@ function render(el, w) {
     </div>
 
     ${siblingCtx.ids.length > 1 ? `
-    <div class="folio" aria-live="polite" aria-label="当前作品位置">
-      <span class="folio-idx">${siblingCtx.index + 1}</span>
-      <span class="folio-sep">／</span>
-      <span class="folio-total">${siblingCtx.ids.length}</span>
-    </div>
+    <!-- R1: Folio 移入信息卡内，不再使用 fixed 定位 -->
     ` : ''}
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
+      ${siblingCtx.ids.length > 1 ? `
+      <!-- R1: Folio 作为定位元数据，移入信息卡顶部 -->
+      <div class="folio" aria-label="当前作品位置">
+        <span class="folio-idx">${siblingCtx.index + 1}</span>
+        <span class="folio-sep">／</span>
+        <span class="folio-total">${siblingCtx.ids.length}</span>
+      </div>
+      ` : ''}
       <!-- H1: 作品名 -->
       <h1 class="work-title">
         <span class="work-title-zh">${esc(w.title_zh)}</span>
@@ -320,11 +324,13 @@ function render(el, w) {
     scroll.innerHTML = list.map((r) => {
       const displayTitle = (r.t || '').trim() || '佚名作品';
       const displayArtist = (r.a || '').trim() || '未知艺术家';
+      // R3: 智能裁剪 — 横幅 (w/h >= 1.25) cover / 竖幅 contain
+      const isLandscape = (r.ratio || 1) >= 1.25;
       return `
       <button class="rel-card" data-go="${esc(r.id)}">
         <span class="th" style="--r:${r.ratio || 1}">
           <span class="ph" style="aspect-ratio:calc(1/${r.ratio || 1})">
-            <img data-src="${esc(r.th)}" alt="${esc(displayTitle)}" loading="lazy" decoding="async">
+            <img data-src="${esc(r.th)}" alt="${esc(displayTitle)}" loading="lazy" decoding="async" data-landscape="${isLandscape}">
           </span>
         </span>
         <span class="a">${esc(displayArtist)}</span>
