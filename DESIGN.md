@@ -27,19 +27,26 @@ rounded:
 
 typography:
   brand-title:
-    fontFamily: "Songti SC, Noto Serif CJK SC, serif"
-    fontSize: 22px
-    fontWeight: 700
+    # DEPRECATED: use brand-wordmark instead
+    alias: "{typography.brand-wordmark}"
+  brand-wordmark:
+    fontFamily: "PingFang SC, Helvetica Neue, sans-serif"
+    fontSize: 18px
+    fontWeight: 300
     lineHeight: 1.3
-    letterSpacing: "0.12em"
+    letterSpacing: "0.25em"
   brand-mark:
-    kind: svg-wordmark
-    source: "js/icons/BrandWordmark.js"
-    charSize: 32px
-    charWidth: 128px
-    sealSize: 14px
-    sealColor: "{colors.gold}"
-    gap: 6px
+    # DEPRECATED: use brand-emblem + brand-wordmark lockup
+    alias: "{components.brand-lockup}"
+  brand-emblem:
+    kind: svg-emblem
+    source: "js/icons/BrandEmblem.js"
+    size: 36px
+    borderThickness: 2px
+    innerBorderThickness: 1px
+    dotSize: 4px
+    dotPosition: "top-right 4px"
+    color: "{colors.gold}"
   work-title:
     fontFamily: "Songti SC, Noto Serif CJK SC, serif"
     fontSize: 20px
@@ -78,6 +85,10 @@ typography:
     letterSpacing: "0em"
 
 components:
+  brand-lockup:
+    kind: horizontal
+    emblemGap: 10px
+    align: "center"
   app-root:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink}"
@@ -96,6 +107,12 @@ components:
     rounded: "{rounded.pill}"
   slide-frame:
     backgroundColor: "{colors.bg-card}"
+  artwork-slide:
+    verticalCenterPadding: 60px
+    contentWidth: min(280px, 86vw)
+    frameMargin: 0 auto
+    namesWidth: min(280px, 86vw)
+    namesTextAlign: left
   date-capsule:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink-2}"
@@ -390,3 +407,37 @@ Components map to CSS blocks in `app.css`:
   `js/favorites.js` (1), `js/detail.js` (2). Evidence:
   `sketches/brand-wordmark/` (three variants + shoot.mjs) and
   `evidence/t_a58c1d32/` (six iPhone 390×844 screenshots).
+- **2026-09-02 — Brand emblem = graphic seal (Kaiti SC replaced):**
+  Product/design owner evaluated the Kaiti SC path-baked wordmark (t_a58c1d32)
+  as "too ordinary, not artistic enough". Three-variant self-adjudicated review
+  (A Slim Gold Script calligraphy, B Graphic Emblem abstract seal, C Bilingual
+  editorial Artbook + Chinese). iPhone 390×844 screenshots on the current
+  homepage layout. **B selected**: double-square emblem (36px/2px outer +
+  20px/1px inner) with top-right dot (4px) creates a distinctive abstract
+  "艺" seal symbol; pure CSS/SVG has zero font dependency = perfect offline
+  support (core deployment constraint); modern museum identity (MoMA/Tate style)
+  differentiates from traditional calligraphy routes. A rejected — calligraphy
+  fonts risk blurry rendering at small sizes on low-DPI screens; C rejected —
+  English-first weakens Chinese user recognition. New components
+  `components.brand-emblem` / `brand-wordmark` / `brand-lockup`; legacy
+  `typography.brand-mark` / `brand-title` retained as compatibility aliases.
+  Evidence: `sketches/brand-wordmark-v2/` (three variants + comparison.html).
+- **2026-09-02 — Feed artwork card layout = unified content width + artwork centering:**
+  Product/design owner asked to fix two issues: (1) artwork sits "too high" on
+  the screen, (2) artist/title text alignment looks odd on narrow vs wide
+  artworks. Three-variant self-adjudicated review (A vertical centering with
+  text width following artwork, B museum-label overlay on artwork bottom,
+  C unified 280px content width with artwork centered inside). Playwright
+  iPhone 390×844 screenshots on three aspect ratios (narrow vertical 200×280,
+  square 280×280, wide horizontal 400×200). **C selected**: unified content
+  width ensures consistent left-align origin (`--page-gutter`), controls line
+  length to ≤75 characters (WCAG 1.4.8 best practice), and maintains
+  compatibility with existing layout tokens (`--content-max: 340px`,
+  `--page-gutter: 22px`). A rejected — text width varies with artwork, no
+  unified rhythm. B rejected — occludes artwork bottom 15-20%, contrast risk
+  on light artworks, higher dev cost. New spec: `.slide` uses
+  `justify-content: center` + `padding: 60px var(--page-gutter)` for vertical
+  centering; `.frame` and `.names` both use `width: min(280px, 86vw)` +
+  `margin: 0 auto` for unified width baseline. Evidence:
+  `sketches/001-centered-vertical.html`, `sketches/002-museum-label.html`,
+  `sketches/003-unified-width.html`, and `sketches/SPEC.md`.
