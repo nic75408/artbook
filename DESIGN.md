@@ -32,6 +32,14 @@ typography:
     fontWeight: 700
     lineHeight: 1.3
     letterSpacing: "0.12em"
+  brand-mark:
+    kind: svg-wordmark
+    source: "js/icons/BrandWordmark.js"
+    charSize: 32px
+    charWidth: 128px
+    sealSize: 14px
+    sealColor: "{colors.gold}"
+    gap: 6px
   work-title:
     fontFamily: "Songti SC, Noto Serif CJK SC, serif"
     fontSize: 20px
@@ -359,3 +367,26 @@ Components map to CSS blocks in `app.css`:
   `evidence/detail-close-opacity/` (eight iPhone screenshots + overview).
   A `prefers-reduced-transparency: reduce` fallback restores α 0.85 and
   removes the blur.
+- **2026-09-02 — Brand wordmark = static SVG glyphs (Kaiti SC path-baked):**
+  Product/design owner asked for an artistic treatment of the top-left
+  "艺术手册" wordmark instead of default system font. Three-variant self-
+  adjudicated review (A tuned Songti + gold dot + English subtitle, B path-
+  baked Kaiti SC SVG + gold seal, C ZCOOL XiaoWei web font + gold rule).
+  Playwright iPhone 390×844 screenshots on the current homepage layout with
+  the same El Greco artwork tile as visual context. **B selected**: kaiti-
+  regular carries authentic Chinese art-catalog/museum inscription lineage;
+  path-baked SVG (5.5 KB inline, extracted with fontTools) has zero font
+  loading = zero FOUT = works offline (aligns with 部署事实 4 CDN pitfall).
+  A rejected — the Songti-based main mark remains too close to the default
+  system font the owner wanted to leave behind; the mark itself doesn't
+  break out of "system font feel". C rejected — web font FOUT risk on real
+  iPhone with airplane-mode/offline scenarios (owner's actual test posture),
+  and the extra gold horizontal rule felt over-designed for a 44px header.
+  A's Georgia italic English subtitle wording archived as reusable element
+  for future og-image / share card; C's 44px gold rule archived as future
+  section-divider vocabulary. New component `.brand-mark` and
+  `js/icons/BrandWordmark.js`; legacy `.brand-title` retained as compatibility
+  alias. Six call sites migrated in `js/feed.js` (3), `js/collection.js` (1),
+  `js/favorites.js` (1), `js/detail.js` (2). Evidence:
+  `sketches/brand-wordmark/` (three variants + shoot.mjs) and
+  `evidence/t_a58c1d32/` (six iPhone 390×844 screenshots).
