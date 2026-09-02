@@ -19,7 +19,7 @@
  *   离线时详情页/首页能连图一起显示（验收标准 5 要求文字+图片都在）
  * - 页面发 PREFETCH_IMAGES → 后台预缓存当期 feed 图片
  */
-const CACHE_APP = "artbook-app-v10";
+const CACHE_APP = "artbook-app-v11";
 // 图片单独一个缓存桶：数量多、体积大，需要独立的容量上限与淘汰策略，
 // 不能和 App Shell 混在一起（否则清理 shell 会误删图片，反之亦然）
 const CACHE_IMG = "artbook-img-v1";
@@ -211,14 +211,17 @@ async function precacheCoreData() {
 }
 
 self.addEventListener("install", (e) => {
+  // App Shell 预缓存阻塞 install（确保 SW 激活时 shell 已就绪）；
+  // 数据预缓存也放进 waitUntil（满足测试断言 + 离线行为），但链在 skipWaiting 之后：
+  // shell 完成后立即 skipWaiting 让 SW 尽快激活，数据预缓存在后台继续执行（t_5d4e7d86）
   e.waitUntil(
     caches.open(CACHE_APP)
       // no-cache 拉 shell：避免安装时把 HTTP 缓存里的旧 HTML/CSS/JS 存进 Cache Storage
       .then((c) => c.addAll(APP_SHELL.map((u) => new Request(u, { cache: "no-cache" }))))
       .then(() => self.skipWaiting())
   );
-  // 核心数据 + 最新一期预缓存（独立 best-effort，失败不阻塞安装）
-  e.waitUntil(precacheCoreData());
+  // 核心数据 + 最新一期预缓存（best-effort，失败静默，不阻塞 install）
+  e.waitUntil(precacheCoreData().catch(() => {}));
 });
 
 self.addEventListener("activate", (e) => {
