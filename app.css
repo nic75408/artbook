@@ -436,52 +436,43 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* 「了解更多」内联展签文字链 —— 见 DESIGN.md §Components / learn-inline */
 .learn-inline {
-  /* t_e05a68be：与画作名称的间距由 28px 加大到 44px，赤拔要求"明显的呼吸空间" */
-  margin-top: 44px;
+  /* t_23059633：与.names 的间距由 44px 压缩到 36px，艺术家名与行动现读作同一 authored-content group */
+  margin-top: 36px;
   align-self: center;          /* 相对 .slide 的 align-items:center 主轴居中 */
   display: inline-flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
   gap: 6px;
-  padding: 8px 20px;           /* 扩大点击热区，不产生视觉容器 */
+  padding: 10px 24px;          /* 扩大点击热区，不产生视觉容器 */
   cursor: pointer;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-.learn-inline__en {
-  font-family: var(--serif-en);
-  font-size: 15px;
-  font-style: italic;
-  letter-spacing: 0.08em;
-  color: var(--gold);
-  line-height: 1;
-}
-.learn-inline__rule {
-  display: block;
-  width: 48px;
-  height: 1px;
-  background: var(--gold);
-  opacity: 0.6;
-  transition: width 200ms ease, opacity 200ms ease;
-}
 .learn-inline__zh {
   font-family: var(--serif-zh);
-  font-size: 13px;
-  letter-spacing: 0.3em;
+  font-size: 14px;
+  letter-spacing: 0.32em;
   color: var(--ink-2);
-  margin-left: 0.3em;          /* 补偿疏字距导致的视觉左偏 */
   line-height: 1;
   font-weight: 400;
 }
-.learn-inline:active .learn-inline__rule {
-  width: 64px;
+.learn-inline__chevron {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: var(--gold);
+  opacity: 0.85;
+  line-height: 1;
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+.learn-inline:active .learn-inline__chevron {
+  transform: translateX(3px);
   opacity: 1;
 }
 .learn-inline:active .learn-inline__zh {
   color: var(--ink);
 }
 @media (prefers-reduced-motion: reduce) {
-  .learn-inline__rule { transition: none; }
+  .learn-inline__chevron { transition: none; }
 }
 
 /* 底部日期胶囊 */
