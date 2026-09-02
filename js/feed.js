@@ -193,6 +193,10 @@ function ensureImages(center) {
     const src = centerImg.dataset.src;
     delete centerImg.dataset.src;
     centerImg.addEventListener("load", () => centerImg.classList.add("loaded"), { once: true });
+    // 首屏主图请求失败（瞬时网络抖动/CDN 波动）不能就此永久停在 opacity:0——
+    // 没有 error 处理时用户看到的是深色空框，且没有任何重试机会（t_2d30c40f）。
+    // 重试一次：短暂延迟后重新赋值触发新请求，仍失败则放弃（不无限重试）。
+    retryOnError(centerImg, src);
     centerImg.src = src;
     // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成
     if (centerImg.complete && centerImg.naturalWidth > 0) {
@@ -212,6 +216,7 @@ function ensureImages(center) {
     const src = img.dataset.src;
     delete img.dataset.src;
     img.addEventListener("load", () => img.classList.add("loaded"), { once: true });
+    retryOnError(img, src);
     // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成
     if (img.complete && img.naturalWidth > 0) {
       img.classList.add("loaded");
@@ -221,6 +226,20 @@ function ensureImages(center) {
       if (img.isConnected && !img.src) img.src = src;
     });
   }
+}
+
+// 单次自动重试：请求失败（瞬时网络抖动/CDN 波动）时，短暂延迟后用带
+// cache-buster 的 URL 重新发起一次请求；仍失败则放弃（error 监听已 once，
+// 不会无限重试）。不重试会让画作永久停在 opacity:0 的深色空框（t_2d30c40f）。
+function retryOnError(img, originalSrc) {
+  const onError = () => {
+    setTimeout(() => {
+      if (!img.isConnected) return;
+      const sep = originalSrc.includes("?") ? "&" : "?";
+      img.src = `${originalSrc}${sep}_retry=${Date.now()}`;
+    }, 800);
+  };
+  img.addEventListener("error", onError, { once: true });
 }
 
 // 等指定图片加载完（或已完成 / 失败）后，在空闲时机执行 fn。
