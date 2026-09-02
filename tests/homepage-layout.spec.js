@@ -1,7 +1,7 @@
 // 艺术手册 - 首页布局验证测试
 // 验收标准第 3 条视觉验证证据
 // 验证 390px 视口下（iPhone 14 Pro）：
-// 1. 画作外框内边距统一（8px）
+// 1. 画作外框内边距统一（6px，t_e05a68be 收紧自 8px）
 // 2. 标题基线对齐（margin-left 与画框一致）
 // 3. 画框为直角边框（border-radius: 0）
 // 4. 截图证据
@@ -19,7 +19,7 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     await page.waitForSelector('.slide', { timeout: 10000 });
   });
 
-  test('画作外框内边距统一为 8px', async ({ page }) => {
+  test('画作外框内边距统一为 6px（t_e05a68be：8→6px 精致化）', async ({ page }) => {
     // 获取所有 .frame 元素
     const frames = await page.$$('.frame');
     expect(frames.length).toBeGreaterThan(0);
@@ -37,11 +37,11 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
         };
       });
 
-      // 验证画框内边距统一为 8px
-      expect(style.paddingLeft).toBe('8px');
-      expect(style.paddingRight).toBe('8px');
-      expect(style.paddingTop).toBe('8px');
-      expect(style.paddingBottom).toBe('8px');
+      // 验证画框内边距统一为 6px（t_e05a68be，DESIGN.md components.artwork-slide.framePadding）
+      expect(style.paddingLeft).toBe('6px');
+      expect(style.paddingRight).toBe('6px');
+      expect(style.paddingTop).toBe('6px');
+      expect(style.paddingBottom).toBe('6px');
     }
   });
 
@@ -49,29 +49,46 @@ test.describe('首页布局验证 - 视觉一致性证据', () => {
     const firstSlide = await page.$('.slide');
     expect(firstSlide).toBeTruthy();
 
-    const frame = await firstSlide.$('.frame');
+    // t_e05a68be：.frame 改为 inline-block（收缩包裹 .ph 以修横幅内白条），
+    // 视口居中由 .frame-wrapper（block）承担；名称容器 .names 直接居中。
+    const wrapper = await firstSlide.$('.frame-wrapper');
     const names = await firstSlide.$('.names');
-    expect(frame).toBeTruthy();
+    expect(wrapper).toBeTruthy();
     expect(names).toBeTruthy();
 
-    // 两处 margin-left 已按 DESIGN.md 2026-09-01 拍板删除
-    const [frameMargin, namesMargin] = await Promise.all([
-      frame.evaluate(el => window.getComputedStyle(el).marginLeft),
+    // wrapper 与 names 都用 margin: 0 auto 相对 slide 居中（t_e05a68be）
+    const [wrapperMargin, namesMargin] = await Promise.all([
+      wrapper.evaluate(el => window.getComputedStyle(el).marginLeft),
       names.evaluate(el => window.getComputedStyle(el).marginLeft),
     ]);
-    expect(frameMargin).toBe('0px');
-    expect(namesMargin).toBe('0px');
+    // margin-left: auto 计算成的像素值随宽度变化，这里断言其等价形式：左右外边距一致
+    const [wrapperCentered, namesCentered] = await Promise.all([
+      wrapper.evaluate(el => {
+        const cs = getComputedStyle(el);
+        return Math.abs(parseFloat(cs.marginLeft) - parseFloat(cs.marginRight)) < 1;
+      }),
+      names.evaluate(el => {
+        const cs = getComputedStyle(el);
+        return Math.abs(parseFloat(cs.marginLeft) - parseFloat(cs.marginRight)) < 1;
+      }),
+    ]);
+    expect(wrapperCentered).toBe(true);
+    expect(namesCentered).toBe(true);
 
     // .slide 主轴改为 center
     const alignItems = await firstSlide.evaluate(el => window.getComputedStyle(el).alignItems);
     expect(alignItems).toBe('center');
 
-    // 左右留白相等
+    // 视口居中：wrapper 与 names 两侧到视口边界的距离对称
     const vw = page.viewportSize().width;
-    for (const el of [frame, names]) {
+    for (const el of [wrapper, names]) {
       const b = await el.boundingBox();
       expect(Math.abs(b.x - (vw - (b.x + b.width)))).toBeLessThanOrEqual(2);
     }
+
+    // t_e05a68be 新增：names.textAlign 应为 center（赤拔要求画作名与作者居中）
+    const namesTextAlign = await names.evaluate(el => window.getComputedStyle(el).textAlign);
+    expect(namesTextAlign).toBe('center');
   });
 
   test('画框为直角边框（border-radius: 0）', async ({ page }) => {

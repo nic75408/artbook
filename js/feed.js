@@ -145,15 +145,18 @@ function buildSlides() {
   scroller.querySelectorAll(".slide").forEach((s, i) => {
     const sw = slideWorkAt(i);
     s.dataset.issue = sw.issue;
-    s.querySelector(".frame").addEventListener("click", () => {
+    // 热区扩大（t_e05a68be）：整个 slide 都是可点击区域，进入详情页。
+    // 只排除 .feed-header（右上角收藏夹）与 .date-capsule（日期选择器），
+    // 这两个是 slide 外的 fixed 元素，不在这里挂事件。
+    // .learn-inline 的 anchor 默认 navigation 用 preventDefault 拦住，避免
+    // 与 slide-click 触发两次；.frame 上没有独立事件，交给 slide 委托。
+    s.addEventListener("click", () => {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
     s.querySelector(".learn-inline").addEventListener("click", (ev) => {
       ev.preventDefault();
-      ev.stopPropagation();
-      savePos();
-      navigate(`#/work/${sw.work.id}`);
+      // 不 stopPropagation：让事件冒泡到 slide 上的 listener 完成一次 navigate
     });
   });
 }
@@ -264,15 +267,13 @@ function rebindSlides(from) {
     const s = slides[i];
     const sw = slideWorkAt(i);
     if (!sw) continue;
-    s.querySelector(".frame").addEventListener("click", () => {
+    // 与 buildSlides 相同的热区绑定：整幅 slide 可点，learn-inline 只拦默认导航
+    s.addEventListener("click", () => {
       savePos();
       navigate(`#/work/${sw.work.id}`);
     });
     s.querySelector(".learn-inline").addEventListener("click", (ev) => {
       ev.preventDefault();
-      ev.stopPropagation();
-      savePos();
-      navigate(`#/work/${sw.work.id}`);
     });
   }
 }

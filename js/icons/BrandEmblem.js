@@ -31,13 +31,18 @@ export function BrandEmblemInline() {
 `.trim();
 }
 
-// Brand Lockup — emblem + wordmark（方案 B 定稿，t_29588b3e）
-// DESIGN.md components.brand-lockup: kind=horizontal, emblemGap=10px, align=center
-// DESIGN.md typography.brand-wordmark: PingFang SC 18px/300 letterSpacing 0.25em
+// Brand Lockup（t_e05a68be：赤拔反馈"去掉印章 icon，只留文字"，定稿方案 C - LXGW WenKai）
+// 曾在 t_29588b3e/t_b6d76c90 定稿过双层方框印章 emblem；用户 iPhone 实测
+// 后认为方形印章视觉上跟画作画框争夺焦点，且"艺术手册"四个字自身书法韵味
+// 已经足够承担识别度。现在 lockup 只输出 wordmark，字体走本地打包 LXGW
+// WenKai Lite Light（fonts/lxgw-wenkai-lite-brand.woff2，只子集品牌四字 1.6KB）。
+// 保留 emblem 相关导出 API 以便未来场景复用（如启动动画、favicon 变体）。
+// DESIGN.md components.brand-lockup: kind=text-only, align=left, gap=0
+// DESIGN.md typography.brand-wordmark: LXGW WenKai Lite 24px/300 letterSpacing 0.18em
 // Usage: import { BrandLockup } from './icons/BrandEmblem.js';
 //        BrandLockup()                       // 默认「艺术手册」
 //        BrandLockup({ label: '艺术手册' })   // 显式指定文案
 export function BrandLockup({ label = "艺术手册" } = {}) {
   const safeLabel = String(label).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
-  return `<span class="brand-lockup__emblem">${BrandEmblemInline()}</span><span class="brand-lockup__wordmark">${safeLabel}</span>`;
+  return `<span class="brand-lockup__wordmark">${safeLabel}</span>`;
 }

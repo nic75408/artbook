@@ -17,27 +17,31 @@ test.describe('首页作品卡版心对齐', () => {
     await page.waitForSelector('.slide', { timeout: 5000 });
   });
 
-  test('画作模块相对视口居中（DESIGN.md 2026-09-01 拍板）', async ({ page }) => {
+  test('画作模块相对视口居中（DESIGN.md 2026-09-02 t_e05a68be 更新）', async ({ page }) => {
     const slides = await page.$$('.slide');
     expect(slides.length).toBeGreaterThanOrEqual(1);
 
     const vw = page.viewportSize().width;
+    // t_e05a68be：.frame 改为 inline-block（收缩包裹 .ph），视口居中由 .frame-wrapper 承担；
+    // .names 宽度改为 100% + max-width 320px（跟随 slide 内容宽度 = 340-22×2 = 296px）。
+    // 名称/作者文字改为居中显示。
     for (let i = 0; i < Math.min(slides.length, 10); i++) {
       const slide = slides[i];
-      const frame = await slide.$('.frame');
+      const wrapper = await slide.$('.frame-wrapper');
       const names = await slide.$('.names');
       const learn = await slide.$('.learn-inline');
-      if (!(frame && names && learn)) continue;
+      if (!(wrapper && names && learn)) continue;
 
-      const frameBox = await frame.boundingBox();
+      const wrapperBox = await wrapper.boundingBox();
       const namesBox = await names.boundingBox();
       const learnBox = await learn.boundingBox();
 
-      // 画框左右留白相等 → 相对视口居中（误差 ≤ 2px）
-      expect(Math.abs(frameBox.x - (vw - (frameBox.x + frameBox.width)))).toBeLessThanOrEqual(2);
-      // 题名块居中且宽 min(280px, 86vw) → 视口 390 时左右各 55px
+      // 画框容器左右留白相等 → 相对视口居中（误差 ≤ 2px）
+      expect(Math.abs(wrapperBox.x - (vw - (wrapperBox.x + wrapperBox.width)))).toBeLessThanOrEqual(2);
+      // 题名块居中，宽度受 slide 内容宽度约束（290-296px in viewport 390）
       expect(Math.abs(namesBox.x - (vw - (namesBox.x + namesBox.width)))).toBeLessThanOrEqual(2);
-      expect(namesBox.width).toBeCloseTo(Math.min(280, vw * 0.86), 0);
+      expect(namesBox.width).toBeLessThanOrEqual(320);
+      expect(namesBox.width).toBeGreaterThanOrEqual(280);
       // 「了解更多」文字链居中
       expect(Math.abs((learnBox.x + learnBox.width / 2) - vw / 2)).toBeLessThanOrEqual(2);
     }
