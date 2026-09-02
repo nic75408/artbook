@@ -592,6 +592,13 @@ def main():
     try:
         subprocess.run(["git", "add", "data", "pipeline/seen.json", "version.json"], cwd=ROOT, check=True)
         subprocess.run(["git", "commit", "-m", f"issue: {date}"], cwd=ROOT, check=True)
+        # t_5dbb1b56：push 前先 rebase 到最新 origin/main，防止本地 main 落后于
+        # 已合并的 worktree 分支导致 push 被 non-fast-forward 拒绝（9/2 t_88c9c62d 事故）。
+        # --autostash 保护 add 之后但尚未 commit 的意外脏文件（正常流程此时应已全部 commit）。
+        subprocess.run(
+            ["git", "pull", "--rebase", "--autostash", "origin", "main"],
+            cwd=ROOT, check=True,
+        )
         subprocess.run(["git", "push"], cwd=ROOT, check=True)
     except Exception as e:
         log(f"[git] 提交/推送失败: {e}")
