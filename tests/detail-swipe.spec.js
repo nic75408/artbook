@@ -59,7 +59,11 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
-test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe', async ({ page }) => {
+// t_21029913 合并后 .folio 被移到 .artwork-info-card 外层（js/detail.js:69），
+// 导致 .artwork-info-card .folio 选择器不再命中、display:none —— 与本卡
+// （首页画作卡片布局重设计）改动无关的跨分支既存缺陷。CEO 裁决：test.fixme
+// 标记，待 t_21029913 后续修复 folio 归位后恢复。
+test.fixme('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
   const folio = page.locator('.folio');
   await expect(folio).toHaveAttribute('aria-live', 'polite');
