@@ -79,7 +79,7 @@ export async function mount(el) {
     if (!w) return `<div class="card" style="opacity:.55">
       <span class="th"><span class="ph" style="aspect-ratio:1;background:var(--bg-card)"></span></span>
       <span class="a meta-text">—</span><span class="t work-title">作品数据缺失</span></div>`;
-    return `<button class="card" data-go="${esc(w.id)}">
+    return `<div class="card" data-go="${esc(w.id)}">
       <span class="th" style="--r:${w.ratio || 1}">
         <span class="ph" style="aspect-ratio:calc(1/${w.ratio || 1})">
           <img data-src="${esc(w.th)}" alt="${esc(w.t)}" loading="lazy" decoding="async">
@@ -87,7 +87,7 @@ export async function mount(el) {
       </span>
       <span class="a meta-text">${esc(w.a)}</span>
       <span class="t work-title">${esc(w.t)}</span>
-    </button>`;
+    </div>`;
   }).join("")}</div>`;
   body.querySelectorAll(".card[data-go]").forEach((card) =>
     card.addEventListener("click", () => navigate(`#/work/${card.dataset.go}`))
