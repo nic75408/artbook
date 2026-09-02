@@ -420,6 +420,7 @@ function attachSwipeGesture(el) {
   let sx = 0, sy = 0, dx = 0, dy = 0, tStart = 0;
   let tracking = false;      // 已通过方向判定，正在跟踪
   let disqualified = false;  // 已被判定为纵向滚动或起点落在相关推荐区，本次手势忽略
+  let ended = false;         // 本次手势已结束（防止重复 pointerup）
 
   const THRESHOLD_DIST = 60;        // px，翻页最小位移
   const THRESHOLD_VELOCITY = 0.35;  // px/ms，翻页最小释放速度
@@ -428,7 +429,9 @@ function attachSwipeGesture(el) {
 
   const onStart = (e) => {
     // 相关推荐区起点：直接放弃（避免和横滑冲突）
-    if (relatedScroll && relatedScroll.contains(e.target)) {
+    // 用 elementFromPoint 找实际坐标下的元素，因为 e.target 可能是 #view（事件派发目标）
+    const elemAtPoint = document.elementFromPoint(e.clientX, e.clientY);
+    if (relatedScroll && (relatedScroll.contains(elemAtPoint) || elemAtPoint === relatedScroll)) {
       disqualified = true;
       return;
     }
@@ -442,6 +445,7 @@ function attachSwipeGesture(el) {
     tStart = performance.now();
     tracking = false;
     disqualified = false;
+    ended = false;
   };
 
   const onMove = (e) => {
@@ -466,6 +470,8 @@ function attachSwipeGesture(el) {
   };
 
   const onEnd = () => {
+    if (ended) return; // 防止重复 pointerup（测试可能手动再触发一次）
+    ended = true;
     if (disqualified || !tracking) {
       detail.style.opacity = "";
       hideSwipeHint(el);
