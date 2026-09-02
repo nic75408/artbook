@@ -166,25 +166,25 @@ test('最后一幅左滑：软胶囊「今日推荐已到末幅」，画面不�
 
 test('拖动 60px 时 opacity 衰减到 0.35（1 − min(Δx/60, 0.65)）', async ({ page }) => {
   await gotoIssueWork(page, 0);
-  // 点击在头图区域中央（y=300），避免点在 .related-scroll 内导致 disqualified
+  // 用 mouse API 模拟拖动，分步移动确保 pointermove 被触发
   await page.mouse.move(195, 300);
   await page.mouse.down();
-  // 30px：1 − 30/60 = 0.5 — 分步移动确保 pointermove 被触发
+  // 30px：分步移动
   await page.mouse.move(180, 300);
   await page.mouse.move(165, 300);
-  await page.waitForTimeout(10);
+  await page.waitForTimeout(50);
   const at30 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at30)).toBeCloseTo(0.5, 2);
-  // 60px：1 − 0.65（封顶）= 0.35
+  // 60px
   await page.mouse.move(150, 300);
   await page.mouse.move(135, 300);
-  await page.waitForTimeout(10);
+  await page.waitForTimeout(50);
   const at60 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at60)).toBeCloseTo(0.35, 2);
-  // 120px：仍封顶 0.35
+  // 120px
   await page.mouse.move(105, 300);
   await page.mouse.move(75, 300);
-  await page.waitForTimeout(10);
+  await page.waitForTimeout(50);
   const at120 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at120)).toBeCloseTo(0.35, 2);
   // 羽箭：左滑显示右缘箭头
