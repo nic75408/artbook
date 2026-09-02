@@ -65,16 +65,17 @@ function render(el, w) {
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
     </div>
 
-    ${siblingCtx.ids.length > 1 ? `
-    <div class="folio" aria-live="polite" aria-label="当前作品位置">
-      <span class="folio-idx">${siblingCtx.index + 1}</span>
-      <span class="folio-sep">／</span>
-      <span class="folio-total">${siblingCtx.ids.length}</span>
-    </div>
-    ` : ''}
-
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
+      <!-- R1: Folio 是定位元数据，随作品信息卡呈现（t_51a886ed 定稿 A 案） -->
+      ${siblingCtx.ids.length > 1 ? `
+      <div class="folio" aria-live="polite" aria-label="当前作品位置">
+        <span class="folio-idx">${siblingCtx.index + 1}</span>
+        <span class="folio-sep">／</span>
+        <span class="folio-total">${siblingCtx.ids.length}</span>
+      </div>
+      ` : ''}
+
       <!-- H1: 作品名 -->
       <h1 class="work-title">
         <span class="work-title-zh">${esc(w.title_zh)}</span>
