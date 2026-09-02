@@ -187,3 +187,26 @@ export async function siblingsInIssue(id) {
   const index = ids.indexOf(id);
   return { ids, index, issue: entry.issue };
 }
+
+// 扁平索引反查（t_e578fc0d §7）：返回 workId 在 index.json 扁平序列
+// （issues[] 倒序拼接，最新一期第 1 幅 = 0）中的位置，找不到返回 -1。
+// 实现：从最新一期起依次 loadIssue 累计 works.length，直到命中所属 issue。
+// 已加载的期走缓存（O(1)），首次调用会预热沿途尚未加载的期。
+export async function getFeedIndex(workId) {
+  const idx = await loadIndex();
+  const issues = idx.issues || [];
+  let acc = 0;
+  for (const date of issues) {
+    let issue;
+    try {
+      issue = await loadIssue(date);
+    } catch {
+      continue; // 期文件缺失：跳过，不中断查找（与 feed.js 的容错一致）
+    }
+    const ids = (issue.works || []).map((w) => w.id);
+    const i = ids.indexOf(workId);
+    if (i !== -1) return acc + i;
+    acc += ids.length;
+  }
+  return -1;
+}

@@ -24,6 +24,25 @@ async function gotoIssueWork(page, offset = 0) {
   return { ...info, id };
 }
 
+// t_e578fc0d §4：跨日期连续浏览上线后，「最新一期」的首/末幅边界只有
+// 首幅（无更新的一期）仍会弹「已到首幅」；末幅边界改为跨入更老一期
+// （见 detail-cross-issue.spec.js）。真正「已到末幅」只在 index.json
+// 最老一期（issues 数组最后一项）的最后一幅才会出现——此处专用这个夹具。
+async function gotoOldestIssueLastWork(page) {
+  await page.goto('./');
+  const info = await page.evaluate(async () => {
+    const idx = await (await fetch('data/index.json', { cache: 'no-cache' })).json();
+    const oldestDate = idx.issues[idx.issues.length - 1];
+    const iss = await (await fetch(`data/issues/${oldestDate}.json`, { cache: 'no-cache' })).json();
+    return { ids: iss.works.map((w) => w.id), date: oldestDate };
+  });
+  const id = info.ids[info.ids.length - 1];
+  await page.goto(`./#/work/${id}`);
+  await page.waitForSelector('.detail .detail-hero', { state: 'attached' });
+  await page.waitForSelector('.folio', { state: 'attached' });
+  return { ...info, id };
+}
+
 // 用 pointer 事件模拟一次水平拖动。durationMs 控制释放速度；
 // durationMs=0 表示不插等待，用于测「快速轻扫」的速度分支。
 async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, startX = 195 } = {}) {
@@ -34,6 +53,8 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
     if (durationMs > 0) await page.waitForTimeout(durationMs / steps);
   }
   await page.mouse.up();
+  // 等待 pointerup 事件处理和手势完成
+  await page.waitForTimeout(50);
 }
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
@@ -153,7 +174,9 @@ test('第 1 幅右滑：软胶囊「今日推荐已到首幅」，画面不切�
 });
 
 test('最后一幅左滑：软胶囊「今日推荐已到末幅」，画面不切换', async ({ page }) => {
-  const info = await gotoIssueWork(page, -1);
+  // t_e578fc0d：跨期上线后「最新一期末幅」左滑会跨入更老一期（见
+  // detail-cross-issue.spec.js），真正到底（无更老一期）要用最老一期的末幅。
+  const info = await gotoOldestIssueLastWork(page);
   await expect(page.locator('.folio-idx')).toHaveText(String(info.ids.length));
   await swipe(page, -120);
   await expect(page.locator('.detail-end-notice')).toHaveText('今日推荐已到末幅');
