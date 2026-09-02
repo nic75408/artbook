@@ -3,6 +3,7 @@ import * as data from "./data.js";
 import { back, navigate } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast } from "./ui.js";
+import { BrandWordmark } from "./icons/BrandWordmark.js";
 
 // t_13662686：同期序列，mount 时刷新。用模块级变量而非闭包，
 // 是因为切换到下一幅时 render 会重跑，闭包每次会重置，需要跨 render 保持序列。
@@ -13,13 +14,13 @@ export async function mount(el, { id }) {
   try {
     work = await data.getWork(id);
   } catch {
-    el.innerHTML = `<div class="empty"><div class="wordmark">艺术手册</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
       <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate(`#/work/${id}`));
     return;
   }
   if (!work) {
-    el.innerHTML = `<div class="empty"><div class="wordmark">艺术手册</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
       <p>作品数据缺失</p></div>`;
     return;
   }

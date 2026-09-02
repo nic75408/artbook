@@ -2,6 +2,7 @@
 import * as data from "./data.js";
 import { back, navigate } from "./router.js";
 import { esc, icons } from "./ui.js";
+import { BrandWordmark } from "./icons/BrandWordmark.js";
 
 async function loadCatalogSafe() {
   try {
@@ -47,7 +48,7 @@ function bindGrid(el) {
 }
 
 function failState(el, cb) {
-  el.innerHTML = `<div class="empty"><div class="wordmark brand-title">艺术手册</div>
+  el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
     <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
   el.querySelector("#retry").addEventListener("click", cb);
 }
