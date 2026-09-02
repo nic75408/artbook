@@ -63,8 +63,8 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
-// t_6fe0245e：数字页码 folio → 迷你滑轨 .detail-scrubber。规格：
-// 2px track + 8px 金色圆点 + 2px 白色 halo，位于信息卡首元素，
+// t_6750bb80：迷你滑轨视觉升级（按 t_645b44c2 设计规格）：
+// 3px track + 12px 金色圆点 + 3px halo（box-shadow）+ 居中，位于信息卡首元素，
 // dot 位置公式 x = index/(total-1)*100%，pointer-events: none 不挡手势。
 test('数字页码折迷你滑轨：track/dot 几何 + 位置公式 + pointer-events none', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
@@ -90,15 +90,27 @@ test('数字页码折迷你滑轨：track/dot 几何 + 位置公式 + pointer-ev
       dotCenterX: dotRect.left + dotRect.width / 2,
       trackLeft: trackRect.left,
       trackWidth: trackRect.width,
+      viewportWidth: window.innerWidth,
+      scrubberLeft: document.querySelector('.detail-scrubber').getBoundingClientRect().left,
+      scrubberRight: document.querySelector('.detail-scrubber').getBoundingClientRect().right,
     };
   });
   expect(m.pointerEvents).toBe('none');
-  expect(m.trackHeight).toBe('2px');
-  expect(m.dotWidth).toBe('8px');
-  expect(m.dotHeight).toBe('8px');
+  expect(m.trackHeight).toBe('3px');
+  expect(m.dotWidth).toBe('12px');
+  expect(m.dotHeight).toBe('12px');
   expect(m.dotColor).toBe('rgb(140, 109, 63)'); // --gold
+  expect(m.dotBoxShadow).toContain('3px'); // halo 半径 3px
   // 第 1 幅：index 0 → x = 0% → dot 中心落在 track 左端
   expect(m.dotCenterX).toBeCloseTo(m.trackLeft, 0);
+  // 轨道宽度约为 viewport 的 44%（缩短、含蓄）
+  const ratio = m.trackWidth / m.viewportWidth;
+  expect(ratio).toBeGreaterThan(0.35);
+  expect(ratio).toBeLessThan(0.55);
+  // 居中：左右留白相等
+  const leftGap = m.scrubberLeft;
+  const rightGap = m.viewportWidth - m.scrubberRight;
+  expect(Math.abs(leftGap - rightGap)).toBeLessThan(2);
 });
 
 test('迷你滑轨：切到第 14 幅时圆点位置随公式更新', async ({ page }) => {
