@@ -143,6 +143,42 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   letter-spacing: 0.12em;
 }
 
+/* ============================================================ Brand Lockup
+   品牌印章 + 字标组合（BrandEmblem.js BrandLockup，t_29588b3e 方案 B 定稿）
+   DESIGN.md components.brand-lockup: kind=horizontal, emblemGap=10px, align=center
+   DESIGN.md typography.brand-wordmark: PingFang SC 18px/300 letterSpacing 0.25em */
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
+}
+.brand-lockup__emblem {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  flex: none;
+  line-height: 0;
+}
+.brand-lockup__emblem svg { display: block; width: 100%; height: 100%; }
+.brand-lockup__wordmark {
+  font-family: var(--sans-zh);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  color: var(--ink);
+}
+/* 空态/endpage 中较小场景的等比缩放 */
+.empty .brand-lockup__emblem,
+.endpage .brand-lockup__emblem {
+  width: 28px;
+  height: 28px;
+}
+.empty .brand-lockup__wordmark,
+.endpage .brand-lockup__wordmark {
+  font-size: 15px;
+}
+
 /* ============================================================ Brand Wordmark
    品牌字标组件（BrandWordmark.js 配套） — 替代旧的 .brand-title 字体规则
    在字标出现处，容器上加 .brand-mark 类；旧 .brand-title / .wordmark

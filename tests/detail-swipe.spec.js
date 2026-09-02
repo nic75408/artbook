@@ -66,6 +66,7 @@ test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 test.fixme('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
   const folio = page.locator('.folio');
+
   await expect(folio).toHaveAttribute('aria-live', 'polite');
   await expect(page.locator('.folio-idx')).toHaveText('1');
   await expect(page.locator('.folio-sep')).toHaveText('／');
