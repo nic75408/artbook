@@ -491,16 +491,60 @@ function attachSwipeGesture(el) {
     tracking = false;
   };
 
+  // Pointer events (modern browsers, touch devices)
   el.addEventListener("pointerdown", onStart, { passive: true });
   el.addEventListener("pointermove", onMove, { passive: true });
   el.addEventListener("pointerup", onEnd, { passive: true });
   el.addEventListener("pointercancel", onEnd, { passive: true });
+
+  // 触摸设备兼容：Mobile Safari 等可能只触发触摸事件
+  el.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 1) {
+      const touch = e.touches[0];
+      onStart({ clientX: touch.clientX, clientY: touch.clientY, target: e.target });
+    }
+  }, { passive: true });
+  el.addEventListener("touchmove", (e) => {
+    if (e.touches.length === 1) {
+      const touch = e.touches[0];
+      onMove({ clientX: touch.clientX, clientY: touch.clientY });
+      // 已判定为横向滑动时阻止页面滚动
+      if (tracking) {
+        e.preventDefault();
+      }
+    }
+  }, { passive: false });
+  el.addEventListener("touchend", (e) => {
+    if (e.changedTouches.length === 1) {
+      const touch = e.changedTouches[0];
+      onEnd({ clientX: touch.clientX, clientY: touch.clientY });
+    } else {
+      onEnd();
+    }
+  }, { passive: true });
+
+  // Mouse events fallback (Playwright 测试、桌面浏览器)
+  el.addEventListener("mousedown", (e) => {
+    // 左键才触发
+    if (e.button !== 0) return;
+    onStart(e);
+  }, { passive: true });
+  el.addEventListener("mousemove", onMove, { passive: true });
+  el.addEventListener("mouseup", onEnd, { passive: true });
+  el.addEventListener("mouseleave", onEnd, { passive: true });
 
   el._swipeCleanup = () => {
     el.removeEventListener("pointerdown", onStart);
     el.removeEventListener("pointermove", onMove);
     el.removeEventListener("pointerup", onEnd);
     el.removeEventListener("pointercancel", onEnd);
+    el.removeEventListener("touchstart", onStart);
+    el.removeEventListener("touchmove", onMove);
+    el.removeEventListener("touchend", onEnd);
+    el.removeEventListener("mousedown", onStart);
+    el.removeEventListener("mousemove", onMove);
+    el.removeEventListener("mouseup", onEnd);
+    el.removeEventListener("mouseleave", onEnd);
   };
 }
 
