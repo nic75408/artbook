@@ -52,14 +52,18 @@ export async function mount(el, { id }) {
 
 function render(el, w) {
   const ratio = w.image.ratio || 1;
+  // R4（DETAIL-SPEC）：超宽横幅（ratio <= 0.4，即宽/高 >= 2.5）头图旋转 90°
+  // 变竖版展示，避免画作被压成一条细横带。CSS 侧 .detail-hero-ultra-wide
+  // 依赖内联 --r 自定义属性（不是 .ph 的 aspect-ratio 内联值）来反转比例。
+  const isUltraWide = ratio <= 0.4;
 
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
 
   el.innerHTML = `
   <div class="detail">
-    <div class="detail-hero">
-      <div class="ph" style="aspect-ratio:calc(1/${ratio})">
+    <div class="detail-hero${isUltraWide ? ' detail-hero-ultra-wide' : ''}" ${isUltraWide ? `style="--r:${ratio}"` : ''}>
+      <div class="ph" style="${isUltraWide ? '' : `aspect-ratio:calc(1/${ratio})`}">
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async" draggable="false">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
