@@ -256,9 +256,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 .slide {
   /* --pad-t/--pad-b 供 .ph 尺寸预排复用：图片最大高度 = 100dvh - 上下内边距 - 画框与题名预留。
-     底部 120px 让题名区始终高于右下「了解更多」按钮（顶部 110px）与日期胶囊，避免文字被按钮压住 */
-  --pad-t: calc(56px + var(--safe-t));
-  --pad-b: calc(120px + var(--safe-b));
+     方案 C 定稿（t_d67668be / DESIGN.md components.artwork-slide）：上下留白统一为 60px，
+     避免画作紧贴状态栏，同时给底部「了解更多」与日期胶囊留出呼吸空间 */
+  --pad-t: calc(60px + var(--safe-t));
+  --pad-b: calc(60px + var(--safe-b));
   /* 版心对齐基准：所有内部元素以 --align-origin 为左边界基准线 */
   --align-origin: var(--page-gutter);
   height: 100dvh;
@@ -274,6 +275,12 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin: 0 auto;
 }
 
+/* 画作容器：统一宽度基准，画作在此宽度内居中（方案 C，DESIGN.md components.artwork-slide） */
+.frame-wrapper {
+  width: min(280px, 86vw);
+  margin: 0 auto;
+}
+
 /* 画框感：直角 + 1px 描边 + 8px 白色内衬（视觉 fine-tune，使用 --space-sm） */
 .frame {
   background: var(--bg-card);
@@ -281,7 +288,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   padding: var(--space-sm);
   max-width: 100%;
   position: relative;
-  /* 画框由 .slide 的 align-items:center 居中，不再左推（原 margin-left 已删） */
+  /* 画框由 .frame-wrapper 的 margin:0 auto 居中 */
   border-radius: 0;
 }
 .frame .ph {
@@ -292,6 +299,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   width: min(280px, 86vw, calc((100dvh - var(--pad-t) - var(--pad-b) - 200px) / var(--r, 1.2)));
   aspect-ratio: calc(1 / var(--r, 1.2));
   background: var(--bg-card);
+  margin: 0 auto;  /* 窄画在 280px 容器内居中（方案 C） */
 }
 .frame img {
   position: absolute;
@@ -310,7 +318,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   margin-top: var(--section-v);
   text-align: left;
   padding: 0 var(--space-sm);  /* 左右内边距与画框内衬一致，确保文字与图片左对齐 */
-  width: min(280px, 86vw);  /* 与画作最大宽度一致 */
+  width: min(280px, 86vw);  /* 与画作最大宽度一致，文字不随画作宽度浮动（方案 C） */
 }
 .slide .artist-zh { 
   font-family: var(--serif-zh);
