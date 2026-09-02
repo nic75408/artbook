@@ -38,9 +38,9 @@ async function swipe(page, dx, { durationMs = 400, steps = 12, startY = 500, sta
 
 test.use({ viewport: VIEWPORT, hasTouch: true, isMobile: true });
 
-test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe', async ({ page }) => {
+test('folio 页码：内容 N／30，移入信息卡内（R1 新规格）', async ({ page }) => {
   const info = await gotoIssueWork(page, 0);
-  const folio = page.locator('.folio');
+  const folio = page.locator('.artwork-info-card .folio');
   await expect(folio).toHaveAttribute('aria-live', 'polite');
   await expect(page.locator('.folio-idx')).toHaveText('1');
   await expect(page.locator('.folio-sep')).toHaveText('／');
@@ -48,59 +48,63 @@ test('folio 页码：内容 N／30，字号 15/14/13，色值与位置 12+safe',
 
   const m = await page.evaluate(() => {
     const g = (s) => getComputedStyle(document.querySelector(s));
-    const f = g('.folio');
-    const r = document.querySelector('.folio').getBoundingClientRect();
-    const c = document.querySelector('.detail-close').getBoundingClientRect();
-    const cs = g('.detail-close');
+    const f = g('.artwork-info-card .folio');
+    const r = document.querySelector('.artwork-info-card .folio').getBoundingClientRect();
     return {
       pos: f.position,
-      left: r.left,
-      top: r.top,
-      closeTop: c.top,
-      closeRightGap: window.innerWidth - c.right,
-      pointerEvents: f.pointerEvents,
+      display: f.display,
+      height: r.height,
+      width: r.width,
       bg: f.backgroundColor,
-      closeBg: cs.backgroundColor,
       blur: f.backdropFilter || f.webkitBackdropFilter,
-      closeBlur: cs.backdropFilter || cs.webkitBackdropFilter,
-      closeShadow: cs.boxShadow,
-      border: f.border,
-      closeBorder: cs.border,
+      borderRadius: f.borderRadius,
+      padding: f.padding,
+      paddingTop: f.paddingTop,
+      paddingRight: f.paddingRight,
+      paddingBottom: f.paddingBottom,
+      paddingLeft: f.paddingLeft,
       idxSize: g('.folio-idx').fontSize,
-      sepSize: f.fontSize,
+      idxWeight: g('.folio-idx').fontWeight,
+      sepSize: g('.folio-sep').fontSize,
       totalSize: g('.folio-total').fontSize,
       idxColor: g('.folio-idx').color,
-      sepColor: f.color,
+      sepColor: g('.folio-sep').color,
       totalColor: g('.folio-total').color,
-      zIndex: f.zIndex,
+      fontSize: f.fontSize,
+      fontWeight: f.fontWeight,
+      marginBottom: f.marginBottom,
+      pointerEvents: f.pointerEvents,
     };
   });
-  expect(m.pos).toBe('fixed');
-  // top / left = 12px + safe-inset（桌面 Chromium safe-inset 为 0）
-  expect(m.left).toBeCloseTo(12, 1);
-  expect(m.top).toBeCloseTo(12, 1);
-  // 与 .detail-close 对角对称：同 top、左右间距相等
-  expect(m.top).toBeCloseTo(m.closeTop, 1);
-  expect(m.left).toBeCloseTo(m.closeRightGap, 1);
-  // 同底色同边框（t_ace5cc6b 定稿 B 案：α 0.55 / 边框 α 0.08 / blur 14px）
-  expect(m.bg).toBe(m.closeBg);
-  expect(m.bg).toBe('rgba(245, 241, 234, 0.55)');
-  expect(m.border).toBe(m.closeBorder);
-  expect(m.border).toBe('1px solid rgba(29, 27, 22, 0.08)');
+  // R1 新规格：inline-flex，在信息卡内
+  expect(m.pos).toBe('static'); // inline 元素，默认 static
+  expect(m.display).toBe('inline-flex');
+  expect(m.height).toBeCloseTo(28, 1);
+  // background: rgba(255, 255, 255, 0.70)
+  expect(m.bg).toBe('rgba(255, 255, 255, 0.7)');
   expect(m.blur).toBe('blur(14px)');
-  expect(m.closeBlur).toBe('blur(14px)');
-  expect(m.closeShadow).toBe('rgba(29, 27, 22, 0.06) 0px 1px 4px 0px');
-  // 字号 15 / 14 / 13
+  expect(m.borderRadius).toBe('14px');
+  // padding: 0 12px
+  expect(m.paddingTop).toBe('0px');
+  expect(m.paddingBottom).toBe('0px');
+  expect(m.paddingLeft).toBe('12px');
+  expect(m.paddingRight).toBe('12px');
+  // 字号：13px
+  expect(m.fontSize).toBe('13px');
+  expect(m.fontWeight).toBe('500');
+  // 字号细节：idx 15px, sep 13px, total 13px
   expect(m.idxSize).toBe('15px');
-  expect(m.sepSize).toBe('14px');
+  expect(m.idxWeight).toBe('600');
+  expect(m.sepSize).toBe('13px');
   expect(m.totalSize).toBe('13px');
   // 色值：--ink / --gold / --ink-2
   expect(m.idxColor).toBe('rgb(29, 27, 22)');
   expect(m.sepColor).toBe('rgb(140, 109, 63)');
   expect(m.totalColor).toBe('rgb(107, 101, 88)');
+  // margin-bottom: 12px (var(--space-md))
+  expect(m.marginBottom).toBe('12px');
   // 不阻挡手势
   expect(m.pointerEvents).toBe('none');
-  expect(m.zIndex).toBe('25');
 });
 
 test('左滑 60px+ 切换到下一幅，页码 +1、URL 更新、滚回顶部', async ({ page }) => {
@@ -162,19 +166,25 @@ test('最后一幅左滑：软胶囊「今日推荐已到末幅」，画面不�
 
 test('拖动 60px 时 opacity 衰减到 0.35（1 − min(Δx/60, 0.65)）', async ({ page }) => {
   await gotoIssueWork(page, 0);
-  await page.mouse.move(195, 500);
+  // 点击在头图区域中央（y=300），避免点在 .related-scroll 内导致 disqualified
+  await page.mouse.move(195, 300);
   await page.mouse.down();
-  // 30px：1 − 30/60 = 0.5
-  await page.mouse.move(165, 500);
-  await page.mouse.move(165, 500);
+  // 30px：1 − 30/60 = 0.5 — 分步移动确保 pointermove 被触发
+  await page.mouse.move(180, 300);
+  await page.mouse.move(165, 300);
+  await page.waitForTimeout(10);
   const at30 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at30)).toBeCloseTo(0.5, 2);
   // 60px：1 − 0.65（封顶）= 0.35
-  await page.mouse.move(135, 500);
+  await page.mouse.move(150, 300);
+  await page.mouse.move(135, 300);
+  await page.waitForTimeout(10);
   const at60 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at60)).toBeCloseTo(0.35, 2);
   // 120px：仍封顶 0.35
-  await page.mouse.move(75, 500);
+  await page.mouse.move(105, 300);
+  await page.mouse.move(75, 300);
+  await page.waitForTimeout(10);
   const at120 = await page.evaluate(() => document.querySelector('.detail').style.opacity);
   expect(Number(at120)).toBeCloseTo(0.35, 2);
   // 羽箭：左滑显示右缘箭头

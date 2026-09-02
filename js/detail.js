@@ -55,14 +55,7 @@ function render(el, w) {
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
-      ${siblingCtx.ids.length > 1 ? `
-      <!-- R1: Folio 作为定位元数据，移入信息卡顶部 -->
-      <div class="folio" aria-label="当前作品位置">
-        <span class="folio-idx">${siblingCtx.index + 1}</span>
-        <span class="folio-sep">／</span>
-        <span class="folio-total">${siblingCtx.ids.length}</span>
-      </div>
-      ` : ''}
+      ${siblingCtx.ids.length > 1 ? `\n      <!-- R1: Folio 作为定位元数据，移入信息卡顶部 -->\n      <div class="folio" aria-live="polite" aria-label="当前作品位置">\n        <span class="folio-idx">${siblingCtx.index + 1}</span>\n        <span class="folio-sep">／</span>\n        <span class="folio-total">${siblingCtx.ids.length}</span>\n      </div>\n      ` : ''}
       <!-- H1: 作品名 -->
       <h1 class="work-title">
         <span class="work-title-zh">${esc(w.title_zh)}</span>
