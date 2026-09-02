@@ -194,6 +194,10 @@ function ensureImages(center) {
     delete centerImg.dataset.src;
     centerImg.addEventListener("load", () => centerImg.classList.add("loaded"), { once: true });
     centerImg.src = src;
+    // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成
+    if (centerImg.complete && centerImg.naturalWidth > 0) {
+      centerImg.classList.add("loaded");
+    }
   }
 
   // 相邻幅只是预取，用户还没滑到 —— 等当前这幅下载完再开始。
@@ -208,6 +212,11 @@ function ensureImages(center) {
     const src = img.dataset.src;
     delete img.dataset.src;
     img.addEventListener("load", () => img.classList.add("loaded"), { once: true });
+    // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成
+    if (img.complete && img.naturalWidth > 0) {
+      img.classList.add("loaded");
+      continue;
+    }
     afterImageSettled(centerImg, () => {
       if (img.isConnected && !img.src) img.src = src;
     });
