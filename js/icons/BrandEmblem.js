@@ -30,3 +30,14 @@ export function BrandEmblemInline() {
 </svg>
 `.trim();
 }
+
+// Brand Lockup — emblem + wordmark（方案 B 定稿，t_29588b3e）
+// DESIGN.md components.brand-lockup: kind=horizontal, emblemGap=10px, align=center
+// DESIGN.md typography.brand-wordmark: PingFang SC 18px/300 letterSpacing 0.25em
+// Usage: import { BrandLockup } from './icons/BrandEmblem.js';
+//        BrandLockup()                       // 默认「艺术手册」
+//        BrandLockup({ label: '艺术手册' })   // 显式指定文案
+export function BrandLockup({ label = "艺术手册" } = {}) {
+  const safeLabel = String(label).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  return `<span class="brand-lockup__emblem">${BrandEmblemInline()}</span><span class="brand-lockup__wordmark">${safeLabel}</span>`;
+}
