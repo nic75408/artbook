@@ -19,12 +19,23 @@ const lazy = (loader) => async (el, params) => {
 
 const loadDetail = () => import("./detail.js");
 const loadFavorites = () => import("./favorites.js");
+const loadCollection = () => import("./collection.js");
 
 function initApp() {
   register(/^\/$/, { mount: feed });
   register(/^\/work\/(?<id>[^/]+)$/, { mount: lazy(loadDetail) });
-  register(/^\/artist\/(?<aid>[^/]+)$/, { mount: (el, p) => mountArtist(el, p.aid) });
-  register(/^\/tag\/(?<tag>.+)$/, { mount: (el, p) => mountTag(el, decodeURIComponent(p.tag)) });
+  register(/^\/artist\/(?<aid>[^/]+)$/, {
+    mount: async (el, p) => {
+      const { mountArtist } = await loadCollection();
+      return mountArtist(el, decodeURIComponent(p.aid));
+    }
+  });
+  register(/^\/tag\/(?<tag>.+)$/, {
+    mount: async (el, p) => {
+      const { mountTag } = await loadCollection();
+      return mountTag(el, decodeURIComponent(p.tag));
+    }
+  });
   register(/^\/favs$/, { mount: lazy(loadFavorites) });
 
   initRouter();
@@ -35,6 +46,7 @@ function initApp() {
   const warm = () => {
     loadDetail().catch(() => {});
     loadFavorites().catch(() => {});
+    loadCollection().catch(() => {});
     preloadIcons().catch(() => {});
   };
   if ("requestIdleCallback" in window) requestIdleCallback(warm, { timeout: 2000 });
