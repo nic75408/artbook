@@ -1,10 +1,10 @@
-// 已看作品追踪（SPE §7.4）：localStorage["artbook.viewed"] = [{id, at}]
+// 已看作品追踪（SPE §7.4）：localStorage["artbook.viewed"] = ["id1","id2",...]
 // 用于相关推荐去重：用户已看过的作品不应重复出现在推荐列表中
-// 实现方案 B（t_f2d585b6，2026-09-03）：180 条上限 + 90 天过期滑动窗口
+// 规格（CEO 拍板，2026-09-03）：看过就永久不推荐，不设条数上限、不设过期。
+// artbook 总画作量在几百级别，即使全部看完也只有几百个 ID（几 KB），
+// localStorage 完全承受得住。
 
 const KEY = "artbook.viewed";
-const MAX_VIEWED = 180;        // 最多 180 条（约 6 个月，每日一件）
-const EXPIRY_DAYS = 90;        // 90 天后视为过期，可再次推荐
 
 function read() {
   try {
@@ -23,49 +23,24 @@ function write(list) {
   }
 }
 
-// 检查某作品是否已看（在有效期内）
+// 检查某作品是否已看
 export function isViewed(id) {
-  const list = read();
-  const now = Date.now();
-  const expiryMs = EXPIRY_DAYS * 24 * 60 * 60 * 1000;
-  return list.some((v) => v.id === id && (now - new Date(v.at).getTime()) < expiryMs);
+  return read().includes(id);
 }
 
-// 记录某作品为已看
+// 记录某作品为已看（去重追加，已存在则直接返回）
 export function markViewed(id) {
   const list = read();
-  const now = new Date().toISOString();
-  
-  // 如果已存在，更新它的时间戳（移到末尾）
-  const idx = list.findIndex((v) => v.id === id);
-  if (idx >= 0) {
-    list.splice(idx, 1);
+  if (list.includes(id)) {
+    return { ok: true, count: list.length };
   }
-  
-  // 添加到末尾
-  list.push({ id, at: now });
-  
-  // 清理过期记录（>90 天）+ 超出容量限制（FIFO）
-  const nowMs = Date.now();
-  const expiryMs = EXPIRY_DAYS * 24 * 60 * 60 * 1000;
-  const filtered = list.filter((v) => (nowMs - new Date(v.at).getTime()) < expiryMs);
-  
-  // 如果过滤后仍超出容量，从头部删除最旧的
-  if (filtered.length > MAX_VIEWED) {
-    filtered.splice(0, filtered.length - MAX_VIEWED);
-  }
-  
-  return { ok: write(filtered), count: filtered.length };
+  list.push(id);
+  return { ok: write(list), count: list.length };
 }
 
 // 获取已看作品 ID 列表（用于批量过滤）
 export function viewedIds() {
-  const list = read();
-  const now = Date.now();
-  const expiryMs = EXPIRY_DAYS * 24 * 60 * 60 * 1000;
-  return list
-    .filter((v) => (now - new Date(v.at).getTime()) < expiryMs)
-    .map((v) => v.id);
+  return read();
 }
 
 // 清除所有已看记录（用于调试或用户重置）
