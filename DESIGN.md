@@ -504,6 +504,124 @@ Components map to CSS blocks in `app.css`:
 - **Motion reduction:** `@media (prefers-reduced-motion: reduce)` collapses
   animations and transitions to near-zero, and disables the learn button spin.
 
+## Gestures & Navigation (t_1bfbf0ed, 2026-09-03)
+
+All navigation and gesture affordances follow Apple's iOS Human Interface
+Guidelines. artbook is a **push-stack** application — every second-level page
+(detail / favorites / collection) is a push from a parent view (feed or another
+push page), never a modal sheet. Two view types stand apart:
+
+1. **Modal-in-place (`.viewer`, full-screen image zoomer):** dismissed by
+   single-tap (Photos.app parity — a drag gesture would conflict with pan/zoom).
+2. **Modal sheet (`.sheet`, date-picker bottom sheet):** dismissed by tapping
+   the backdrop or Cancel. A future revision may add HIG-standard vertical-swipe
+   dismiss; not part of the current spec.
+
+### Mental model rule (HIG «Sheets» + «Gestures»)
+
+A view is either **push** (stack pop, back arrow, edge swipe from the leading
+side) **or modal** (Cancel/Done, vertical swipe dismiss). Never both — HIG
+explicitly forbids showing both a Back button and a dismiss affordance on the
+same view. artbook decides: every second-level page is push.
+
+### Back-arrow contract
+
+- **Icon:** `nav-back` (20px chevron-left glyph).
+- **Container:** `components.page-header-back` — 40×40 frosted capsule
+  (α 0.55 + backdrop-filter blur 14px), fixed top-left at
+  `top: calc(12px + var(--safe-t))`, `left: calc(12px + var(--safe-l))`.
+- **Sites:** detail (`.detail-back`), favorites, artist page, tag page.
+  The former detail-page `✕` close icon has been removed (t_a312968d).
+- **Action:** `back()` — a single `history.back()` call. Same handler for all
+  entry contexts (feed / favorites / collection / related). The `folioCtx`
+  bridge in `router.js` handles source-aware navigation, not the back arrow.
+- **`✕` policy:** The close-cross glyph is reserved for future modal-sheet
+  presentations only. It must not be reintroduced on any push page.
+
+### Edge-swipe contract — leading edge only
+
+**Trigger:** touch/pointer start with `x <= 30px` (left edge, in LTR), followed
+by rightward movement with `deltaX >= 80px` and `|deltaX| > |deltaY|`.
+**Action:** `back()`. **Sites:** detail, favorites, artist, tag.
+
+This is the standard iOS `UIScreenEdgePanGestureRecognizer` behavior — the same
+gesture Safari, Mail, Notes, Messages, Photos and the App Store use for
+navigation-controller pop. artbook users bring this muscle memory from every
+other iOS app; the gesture must **originate from the left edge and travel
+rightward**, not the other way around.
+
+The `t_a312968d` implementation (2026-09-03 morning) inverted this direction —
+right-edge origin + leftward motion — as an authoring error. This spec
+supersedes that direction. See Decision Log 2026-09-03 t_1bfbf0ed for the full
+correction record and engineering hand-off list.
+
+### Detail-page pull-to-return (formerly «pull to exit»)
+
+**Trigger:** pointer start with `scrollY === 0` and downward motion `dy > 0`,
+axis judged vertical, then release with either travel `dy >= 96px` or velocity
+`vy >= 0.45 px/ms`. **Action:** `back()`. **Named as *return*, not *exit* or
+*dismiss*** — the destination is `history.back()`, the same as tapping the
+back arrow. This is a *supplementary* shortcut gesture in the HIG sense
+(«Custom gestures» → «shortcut gestures to supplement standard gestures, not
+replace them»), paralleling Twitter/X's tweet-detail pull-down-to-back.
+
+**Rationale for naming:** iOS's downward-swipe dismiss belongs specifically to
+modal sheets, and detail is not a sheet (see «Mental model rule» above).
+Calling this gesture «退出/exit» leaks modal-dismiss semantics into a push
+view. Everywhere in prose, JS comments, and DESIGN.md, prefer «下拉返回上一屏»
+/ «pull-to-return». The function name `exitDetail()` is retained because its
+scope is «the detail page's fade-out animation», not a semantic claim.
+
+### List-page pull gesture policy
+
+Favorites, artist and tag pages **do not** attach a top-pull-to-return gesture.
+Reasons:
+
+1. They are scrollable list surfaces; users bring pull-to-refresh expectations
+   from every other iOS list, and any top-pull action risks conflicting with
+   that muscle memory even when refresh isn't wired up.
+2. They lack the visual metaphor detail has — detail's hero image reads as a
+   «closable book»; a two-column masonry grid does not.
+3. iOS itself does not universally attach top-pull-to-back to push views. Mail
+   list → mail detail has no such gesture; Photos detail does, but that's
+   because Photos detail is modal-in-place, not push.
+
+Left-edge swipe + back arrow are the sole return affordances on list pages.
+
+### Horizontal swipe (detail only) — timeline navigation, not «exit»
+
+Detail-page horizontal swipes navigate within the current `folioCtx`:
+
+- **feed entry:** left/right swipe = next/prev artwork (cross-issue continuous
+  play at boundaries with a 96px + 0.42 px/ms threshold; last artwork of the
+  newest issue shows «已到最新», first of the oldest shows «已到最早»).
+- **non-feed entry (favorites / collection / related):** left/right swipe =
+  next/prev by list order; at the list boundary the gesture escalates to a
+  three-stage «exit hint» that at 120px travel or 0.55 px/ms velocity
+  triggers `back()`.
+
+The «boundary exit» here is a *return* to the source list (same as the back
+arrow), not a modal dismiss. Naming convention same as pull-to-return: prefer
+«返回来源页».
+
+### Page transitions
+
+- **push (enter):** 200 ms fade-in (`#view.enter`). No horizontal slide.
+  Rationale: hash-routed SPA with a single `#view` mount point makes true
+  push-transition (two views coexisting with a horizontal slide) expensive;
+  fade is a neutral simplification that doesn't compete with the gesture's
+  own directional cue.
+- **pop (leave):** fade-out. The 24 px downward drift used by `exitDetail()`
+  when the pull-to-return gesture triggers is a *gesture completion*
+  animation (motion follows the finger), not a systemic pop direction.
+- **modal (viewer / sheet):** viewer fades in and out; sheet slides up from
+  bottom, matching iOS bottom-sheet convention.
+
+### Full matrix
+
+See `evidence/t_1bfbf0ed/GESTURE-MATRIX.md` for the complete
+4 pages × 6 gesture types × trigger conditions × current-vs-spec table.
+
 ## Do's and Don'ts
 
 - **Do** keep new components within the warm paper + ink + gold palette defined in
@@ -521,6 +639,34 @@ Components map to CSS blocks in `app.css`:
 
 ## Decision Log
 
+- **2026-09-03 — t_1bfbf0ed — iOS HIG gesture-and-navigation reconciliation:**
+  Product/design owner (赤拔) requested a full pass over gestures and navigation
+  interactions against Apple's Human Interface Guidelines, kicked off by the
+  question «detail-page pull-down should probably *exit* the detail page, and
+  the same logic applies elsewhere — please sort this out». Analysis in
+  `evidence/t_1bfbf0ed/HIG-ANALYSIS.md`: artbook is a pure push-stack app
+  (feed root + detail/favorites/collection push children); no view is a
+  true modal sheet, so HIG's «avoid Back-and-dismiss on the same view» rule
+  forces one choice per view. Detail-page pull-down is therefore a *return*
+  (a shortcut for back-arrow) rather than an «exit» — same destination as the
+  back button, just a second gesture entry point. Renamed spec-wide. Two
+  material changes: (E1) **edge-swipe direction correction**: t_a312968d had
+  the edge gesture backwards — right-edge origin + leftward motion, while every
+  iOS system app (Safari, Mail, Notes, Messages, Photos, App Store) uses
+  left-edge origin + rightward motion via `UIScreenEdgePanGestureRecognizer`.
+  This spec supersedes that direction. Implementation touches
+  `js/router.js:18,32,46` (attachEdgeSwipeBack) and `js/detail.js:654-659,
+  666-675,746-756` (edge-back axis branch); tests updated accordingly. (E2)
+  **naming discipline**: the top-pull gesture and the boundary-exit gesture
+  are now consistently «pull-to-return» / «boundary return», not «exit» or
+  «dismiss» (those terms belong to modal sheets). The `exitDetail()` function
+  name is retained as an animation-scope name only. Three-variant self-
+  adjudicated review on the edge-direction correction (A left-edge-to-right,
+  B keep-current, C bidirectional): **A wins 33 / B 20 / C 18** (依据符合度 /
+  用户预期 / 实现代价 / 一致性). Full gesture matrix in
+  `evidence/t_1bfbf0ed/GESTURE-MATRIX.md`. Engineering hand-off: two items
+  (E1 direction correction + E2 doc/comment rename) — creates a follow-up
+  engineer card.
 - **2026-09-03 — t_f2d585b6 / t_e3c4e706 — Related-work deduplication (viewed
   tracking):** Product/design owner requirement: "推荐过的内容不能重复推荐".
   Initial three-variant review picked Plan B (90-day sliding window + 180-item
