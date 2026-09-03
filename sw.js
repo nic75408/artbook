@@ -19,7 +19,7 @@
  *   离线时详情页/首页能连图一起显示（验收标准 5 要求文字+图片都在）
  * - 页面发 PREFETCH_IMAGES → 后台预缓存当期 feed 图片
  */
-const CACHE_APP = "artbook-app-v25";
+const CACHE_APP = "artbook-app-v26";
 // 图片单独一个缓存桶：数量多、体积大，需要独立的容量上限与淘汰策略，
 // 不能和 App Shell 混在一起（否则清理 shell 会误删图片，反之亦然）
 const CACHE_IMG = "artbook-img-v1";

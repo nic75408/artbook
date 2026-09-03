@@ -289,6 +289,42 @@ The layout is mobile-first:
 Safe-area env variables are used in paddings to keep controls away from device
 notches and home indicators.
 
+### Density rules on the detail page (t_4945d720, 2026-09-03)
+
+The detail page carries the highest information density of the app: hero →
+folio → title → 5-row meta table → tags → chapter heading → essay stack in the
+first 1.5 screens. Density rules that apply above the `.essay` fold:
+
+- **Hero → info-card**: `padding-top: 32px` on `.artwork-info-card` (was 20px).
+  Provides a "colophon-like" breathing space between the hero image and the
+  first line of typography (folio mark), so the transition reads as page-turn
+  rather than clipped overlay.
+- **Title → meta**: `.work-meta-compact { margin-top: 18px }` (was 0). Pulls the
+  meta table away from the title as a discrete information layer, not a
+  subtitle.
+- **Meta rows**: `.work-meta-row { padding: 8px 0 }` (was 4px). Row-to-row gap
+  16px instead of 8px — 5 stacked rows read as five layers, not a spreadsheet.
+- **Tags → chapter heading**: `.tags { gap: 10px; padding: 0 0 32px }`. Tag row
+  is a discrete helper layer with its own margin to the next module boundary.
+- **Chapter heading rhythm**: `.detail-body .section-title { margin: 28px 0
+  14px }`. Above → below asymmetric (28 > 14) — heading claims space from the
+  paragraph above it, sits close to the body it introduces.
+- **Paragraph label rhythm**: `.paragraph-label { margin-top: 26px }` (was 20).
+  Sub-headings within an essay chapter get real breathing above.
+- **Essay paragraph rhythm**: `.essay .body-text { line-height: 1.95;
+  margin-bottom: 22px }` (was 1.9 / 18px). Longer body text with 20+ Chinese
+  chars per line needs 1.95 line-height for eye-comfort on the tightly bound
+  346px column.
+- **Related rail gap**: `.related-scroll { gap: 22px }` (was `var(--grid-gap)`
+  = 14). Horizontal scroll cards read individually rather than as a strip.
+
+**Not touched (already good):**
+- Global `--page-gutter: 22px` — feed and grid pages are not dense.
+- Grid gap `--grid-gap: 14px` for `.grid` (favorites/collection two-column) —
+  card thumbnails are square and tall enough that 14px gap reads with breathing.
+- Helper-layer system (t_645b44c2, t_93b43c1c-icon): `essay → credit →
+  action-row → related` = 36 / 20 / 20 / 36 stays.
+
 ## Artwork Responsive Layout
 
 All artwork images (feed slides and detail page hero) must respect bounded responsive
@@ -485,6 +521,25 @@ Components map to CSS blocks in `app.css`:
 
 ## Decision Log
 
+- **2026-09-03 — t_4945d720 — Detail-page density reduction (breathing pass):**
+  Product/design owner: "整体设计留白不足，信息密度可以再降低一些". Baseline audit
+  showed the density problem was concentrated on the detail page's first fold:
+  hero → folio → title → 5-row meta → tags → chapter heading stacked in half a
+  screen with 8px row-gaps that read like a spreadsheet. Feed and grid pages
+  were already breathing-fine. Three variants self-adjudicated (see
+  `evidence/t_4945d720/THREE-VARIANTS-DECISION.md`):
+  A (global gutter enlargement) scored 15/25 — added no perceptible effect on
+  feed and shrank the frame; C (introduce 8px `--rhythm-N` token layer) scored
+  16/25 — conflicted with the existing semantic tokens (`group-inner`,
+  `paragraph`, `module-gap`) and doubled the spacing vocabulary. B (surgical
+  detail-page pass) won 24/25: no global tokens changed; only the density hot
+  spots relaxed — `.artwork-info-card` padding-top 20→32, work-meta-row padding
+  4→8 (row-gap 8→16), work-meta-compact margin-top 0→18, tags gap 8→10 and
+  padding-bottom 20→32, essay line-height 1.9→1.95 and mb 18→22,
+  section-title 20/10→28/14, paragraph-label mt 20→26, related-scroll gap
+  14→22. See `Layout & Spacing → Density rules on the detail page` for the full
+  rulebook. Evidence: `evidence/t_4945d720/{baseline,final}-*.png` (6 pairs at
+  390×844), design.md lint 0 error.
 - **2026-08-26 — Direction B chosen (Museum guide):** Product/design owner selected
   the museum guide visual direction over a Notion-like minimal page. This locked
   in the warm paper background (`#F5F1EA`), serif Chinese headings, and generous
