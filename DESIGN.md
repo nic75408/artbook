@@ -521,7 +521,23 @@ Components map to CSS blocks in `app.css`:
 
 ## Decision Log
 
-- **2026-09-03 — t_4945d720 — Detail-page density reduction (breathing pass):**
+- **2026-09-03 — t_f2d585b6 — Related-work deduplication (viewed tracking):**
+  Product/design owner requirement: "推荐过的内容不能重复推荐". Three-variant
+  self-adjudicated review for the tracking mechanism:
+  A (simple timestamp list, 300 items FIFO) scored 41/45 — minimal code, fully
+  consistent with favorites.js pattern; B (sliding window with 90-day expiry,
+  180 items max) scored 41/45 — balances "no repeat" with "content cycling",
+  aligns with the daily-issue rhythm (180 days ≈ 6 months cycle); C (layered
+  priority: 30d absolute block, 30-90d downweight, 90d+ normal) scored 23/45 —
+  over-engineering for current "dedup only" need. **B selected**: 90-day expiry
+  matches art-appreciation cycles (a painting seen 3 months ago still feels
+  fresh), 180-item cap keeps localStorage footprint minimal (~5KB), data
+  structure consistent with favorites.js for potential future "viewed+faved"
+ 联动. Implementation: new `js/viewed.js` module (`markViewed()`, `isViewed()`,
+  `viewedIds()`, `clearViewed()`), `data.related()` filters out viewed IDs,
+  `detail.js` calls `markViewed(w.id)` on render. Evidence: code commit in
+  worktree branch, localStorage schema `{id, at}` with 90-day sliding window.
+- **2026-09-03 — t_4945d720 — Detail-page density reduction (breathing pass):****
   Product/design owner: "整体设计留白不足，信息密度可以再降低一些". Baseline audit
   showed the density problem was concentrated on the detail page's first fold:
   hero → folio → title → 5-row meta → tags → chapter heading stacked in half a

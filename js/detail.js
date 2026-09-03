@@ -6,6 +6,7 @@ import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast, Icon } from "./ui.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
 import { POS_KEY } from "./feed.js";
+import { markViewed } from "./viewed.js";
 
 // t_13662686：同期序列，mount 时刷新。用模块级变量而非闭包，
 // 是因为切换到下一幅时 render 会重跑，闭包每次会重置，需要跨 render 保持序列。
@@ -168,6 +169,10 @@ function render(el, w) {
   // 加载完成才替换 src，用户看到的是「立刻有图 → 悄悄变清晰」。
   // 离线时 print 图必然失败，但 feed 图来自缓存，画面依然完整（验收标准 5）。
   // 不预缓存 print 图是有意为之：单张约 4.9MB，一期 30 张要 146MB，不该占用户磁盘。
+  
+  // t_f2d585b6（2026-09-03）：记录当前作品为已看，用于相关推荐去重
+  markViewed(w.id);
+  
   const hero = el.querySelector(".detail-hero");
   const img = hero.querySelector("img");
   delete img.dataset.src;

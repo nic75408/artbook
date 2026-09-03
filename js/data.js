@@ -99,6 +99,9 @@ export async function getWork(id) {
 
 // 相关推荐（SPE §7.4）：同画家 → 同流派 → tags 交集 ≥2 → 年代差 ≤30
 // 内容非空校验：只返回具有非空标题/作者/缩略图的作品，避免推荐卡片空白
+// t_f2d585b6（2026-09-03）：去重机制——用户已看过的作品（90 天内）不重复推荐
+import { viewedIds } from "./viewed.js";
+
 export async function related(id, limit = 8) {
   await loadCatalog();
   const me = catalogById.get(id);
@@ -112,7 +115,10 @@ export async function related(id, limit = 8) {
     return true;
   };
   
-  const works = (catalogCache.works || []).filter((w) => w.id !== id && isValidWork(w));
+  // 已看作品 ID 集合（90 天内），用于去重
+  const viewedSet = new Set(viewedIds());
+  
+  const works = (catalogCache.works || []).filter((w) => w.id !== id && isValidWork(w) && !viewedSet.has(w.id));
   const out = [];
   const used = new Set();
   const artistCount = {};
