@@ -1,7 +1,7 @@
 // 收藏（SPE §7.6）：localStorage["artbook.favs"] = [{id, at}]
 // 本文件同时提供收藏逻辑与 #/favs 收藏页视图。
 import * as data from "./data.js";
-import { back, navigate } from "./router.js";
+import { back, navigate, writeFolioCtx } from "./router.js";
 import { esc, icons } from "./ui.js";
 import { Icon } from "./icons/Icon.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
@@ -90,7 +90,15 @@ export async function mount(el) {
     </div>`;
   }).join("")}</div>`;
   body.querySelectorAll(".card[data-go]").forEach((card) =>
-    card.addEventListener("click", () => navigate(`#/work/${card.dataset.go}`))
+    card.addEventListener("click", () => {
+      writeFolioCtx({
+        source: "favorites",
+        ids: favs.map((f) => f.id),
+        entryId: card.dataset.go,
+        meta: { title: "我的收藏夹" },
+      });
+      navigate(`#/work/${card.dataset.go}`);
+    })
   );
   const io = new IntersectionObserver((entries) => {
     entries.forEach((en) => {

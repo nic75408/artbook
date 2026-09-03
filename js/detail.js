@@ -1,7 +1,7 @@
 // 详情视图（SPE §7.4）：大图、全屏缩放、元数据表、圆形细节、赏析、相关推荐
 // t_e578fc0d：跨日期连续浏览 + 下拉退出 + 首页定位（SPEC docs/detail-navigation-spec.md B 案）
 import * as data from "./data.js";
-import { back, navigate } from "./router.js";
+import { back, navigate, readFolioCtx, writeFolioCtx } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast } from "./ui.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
@@ -9,7 +9,8 @@ import { POS_KEY } from "./feed.js";
 
 // t_13662686：同期序列，mount 时刷新。用模块级变量而非闭包，
 // 是因为切换到下一幅时 render 会重跑，闭包每次会重置，需要跨 render 保持序列。
-let siblingCtx = { ids: [], index: -1, issue: null };
+// t_b944f6c5 §3.2：新增 source/meta——由进入路径决定的 folio 归属与展示元数据。
+let siblingCtx = { ids: [], index: -1, issue: null, source: "feed", meta: null };
 
 // t_e578fc0d §4：跨日期序列上下文。issues 是 index.json.issues（倒序，最新在前），
 // issueIdx 是 siblingCtx.issue 在其中的位置。
@@ -32,18 +33,39 @@ export async function mount(el, { id }) {
   }
 
   // t_13662686：加载同期序列，为手势翻页与页码渲染做准备
-  try {
-    siblingCtx = await data.siblingsInIssue(id);
-  } catch {
-    siblingCtx = { ids: [], index: -1, issue: null };
+  // t_b944f6c5 §3.2：先看有没有外部传入的 folio 上下文（收藏夹/相关推荐/聚合页
+  // click handler 在 navigate 前写入），命中且确实包含当前 id 才采用；
+  // 否则回退到 feed 默认语义（data.siblingsInIssue）。
+  const ctx = readFolioCtx();
+  if (ctx && ctx.entryId === id && Array.isArray(ctx.ids) && ctx.ids.includes(id)) {
+    siblingCtx = {
+      ids: ctx.ids,
+      index: ctx.ids.indexOf(id),
+      issue: null,
+      source: ctx.source || "feed",
+      meta: ctx.meta || null,
+    };
+  } else {
+    try {
+      const s = await data.siblingsInIssue(id);
+      siblingCtx = { ...s, source: "feed", meta: null };
+    } catch {
+      siblingCtx = { ids: [], index: -1, issue: null, source: "feed", meta: null };
+    }
   }
 
-  // t_e578fc0d §4：加载跨期上下文，为边界跨期翻页做准备
-  try {
-    const idx = await data.loadIndex();
-    const issues = idx.issues || [];
-    crossCtx = { issues, issueIdx: issues.indexOf(siblingCtx.issue) };
-  } catch {
+  // t_e578fc0d §4：加载跨期上下文，为边界跨期翻页做准备。
+  // t_b944f6c5 §3.3：跨期逻辑只在 feed 语义下有意义——非 feed 入口留空 issues，
+  // nextIssueDate()/prevIssueDate() 自然恒返回 null。
+  if (siblingCtx.source === "feed") {
+    try {
+      const idx = await data.loadIndex();
+      const issues = idx.issues || [];
+      crossCtx = { issues, issueIdx: issues.indexOf(siblingCtx.issue) };
+    } catch {
+      crossCtx = { issues: [], issueIdx: -1 };
+    }
+  } else {
     crossCtx = { issues: [], issueIdx: -1 };
   }
 
@@ -78,7 +100,7 @@ function render(el, w) {
       <div class="detail-folio-mark"
            role="doc-pagenumber"
            aria-label="第 ${siblingCtx.index + 1} 幅，共 ${siblingCtx.ids.length} 幅">
-        ${String(siblingCtx.index + 1).padStart(2, '0')} <span class="detail-folio-mark__sep" aria-hidden="true">·</span> ${siblingCtx.ids.length}
+        ${folioPrefixHTML(siblingCtx.source)}${String(siblingCtx.index + 1).padStart(2, '0')} <span class="detail-folio-mark__sep" aria-hidden="true">·</span> ${siblingCtx.ids.length}
       </div>
       ` : ''}
 
@@ -355,7 +377,15 @@ function render(el, w) {
       </button>`;
     }).join("");
     scroll.querySelectorAll(".rel-card").forEach((card) =>
-      card.addEventListener("click", () => navigate(`#/work/${card.dataset.go}`))
+      card.addEventListener("click", () => {
+        writeFolioCtx({
+          source: "related",
+          ids: list.map((r) => r.id),
+          entryId: card.dataset.go,
+          meta: { title: "相关推荐" },
+        });
+        navigate(`#/work/${card.dataset.go}`);
+      })
     );
     const io = new IntersectionObserver((entries) => {
       entries.forEach((en) => {
@@ -385,6 +415,21 @@ function render(el, w) {
 }
 
 function wait(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+// t_b944f6c5 §4：折角标记的 source 前缀。收藏/相关固定文案；聚合页按 grouping
+// 前缀区分"画家"还是"标签"。feed 语义（默认）不加前缀，维持现状。
+function folioPrefixHTML(source) {
+  const meta = siblingCtx.meta || {};
+  let label = null;
+  if (source === "favorites") label = "收藏";
+  else if (source === "related") label = "相关";
+  else if (source === "collection") {
+    const grouping = meta.grouping || "";
+    label = grouping.startsWith("artist:") ? "画家" : grouping.startsWith("tag:") ? "标签" : null;
+  }
+  if (!label) return "";
+  return `<span class="detail-folio-mark__prefix">${esc(label)} ·</span> `;
+}
 
 function reducedMotion() {
   return typeof window.matchMedia === "function" &&
@@ -572,6 +617,10 @@ function attachGestures(el) {
   const PULL_DAMP = 0.5;     // 阻尼系数（§5.2）
   const PULL_MAX_TY = 48;    // px，跟手位移上限（§5.2）
 
+  const EXIT_STAGE1 = 60;    // px，t_b944f6c5 §5.1：0-60 回弹阶段终点
+  const EXIT_CONFIRM = 120;  // px，t_b944f6c5 §5.1：≥120 确认退出阈值
+  const EXIT_VELOCITY = 0.55;// px/ms，t_b944f6c5 §5.1：释放速度确认阈值
+
   const isTransitioning = () =>
     detail.classList.contains("fade-out") || detail.classList.contains("fade-in") ||
     detail.classList.contains("dateflip-out") || detail.classList.contains("dateflip-in") ||
@@ -630,6 +679,27 @@ function attachGestures(el) {
     if (axis === "h") {
       const atBoundary = (dx < 0 && siblingCtx.index === siblingCtx.ids.length - 1) ||
                           (dx > 0 && siblingCtx.index === 0);
+      // t_b944f6c5 §5：非 feed 入口没有跨期语义，边界继续滑直接进入退出手势
+      // 三段式反馈（showExitHint）；feed 语义维持既有跨期/到头到尾逻辑不变。
+      const targetDate = atBoundary ? (dx < 0 ? nextIssueDate() : prevIssueDate()) : null;
+      // t_b944f6c5 §3.3/§5：非 feed 语义的入口无跨期概念，边界继续滑直接是退出手势；
+      // feed 语义即使真到头/到尾（没有更多期）仍走既有 showEndNotice，不动。
+      const isExitBoundary = atBoundary && siblingCtx.source !== "feed";
+      if (isExitBoundary) {
+        hideSwipeHint(el);
+        const absdx = Math.abs(dx);
+        const opacity = Math.max(1 - Math.min(absdx, EXIT_STAGE1) / EXIT_STAGE1 * 0.5, 0.5);
+        detail.style.opacity = String(opacity);
+        const side = dx > 0 ? "left" : "right"; // 右滑(dx>0)在首幅→X 出现在左侧；左滑在末幅→X 出现在右侧
+        if (absdx >= EXIT_STAGE1) {
+          const t = Math.min((absdx - EXIT_STAGE1) / (EXIT_CONFIRM - EXIT_STAGE1), 1);
+          showExitHint(el, side, { intensity: t, confirmed: absdx >= EXIT_CONFIRM });
+        } else {
+          hideExitHint(el);
+        }
+        return;
+      }
+      hideExitHint(el);
       const thresholdDist = atBoundary ? THRESHOLD_DIST_CROSS : THRESHOLD_DIST;
       const fade = Math.min(Math.abs(dx) / thresholdDist, MAX_FADE);
       detail.style.opacity = String(1 - fade);
@@ -638,7 +708,6 @@ function attachGestures(el) {
         const t = Math.min(Math.max((Math.abs(dx) - THRESHOLD_DIST) / (THRESHOLD_DIST_CROSS - THRESHOLD_DIST), 0), 1);
         const w = 44 + t * (54 - 44);
         const h = 60 + t * (84 - 60);
-        const targetDate = dx < 0 ? nextIssueDate() : prevIssueDate();
         showSwipeHint(el, dx < 0 ? "right" : "left", {
           width: w, height: h,
           dateText: targetDate ? abbrevDate(targetDate) : null,
@@ -665,10 +734,30 @@ function attachGestures(el) {
     }
     if (axis === "h") {
       hideSwipeHint(el);
+      hideExitHint(el);
       const dt = performance.now() - tStart;
       const velocity = Math.abs(dx) / Math.max(dt, 1);
       const atBoundary = (dx < 0 && siblingCtx.index === siblingCtx.ids.length - 1) ||
                           (dx > 0 && siblingCtx.index === 0);
+      const targetDate = atBoundary ? (dx < 0 ? nextIssueDate() : prevIssueDate()) : null;
+      const isExitBoundary = atBoundary && siblingCtx.source !== "feed";
+      if (isExitBoundary) {
+        // t_b944f6c5 §5.1：位移 ≥120px 或速度 ≥0.55px/ms 命中退出
+        const hitExit = Math.abs(dx) >= EXIT_CONFIRM || velocity >= EXIT_VELOCITY;
+        if (hitExit) {
+          detail.style.opacity = "";
+          exitDetail(el);
+        } else {
+          detail.style.transition = "opacity 240ms ease";
+          detail.style.opacity = "1";
+          setTimeout(() => {
+            detail.style.transition = "";
+            detail.style.opacity = "";
+          }, 260);
+        }
+        axis = null;
+        return;
+      }
       const thresholdDist = atBoundary ? THRESHOLD_DIST_CROSS : THRESHOLD_DIST;
       const thresholdVelocity = atBoundary ? THRESHOLD_VELOCITY_CROSS : THRESHOLD_VELOCITY;
       const hit = Math.abs(dx) >= thresholdDist || velocity >= thresholdVelocity;
@@ -779,6 +868,30 @@ function hideSwipeHint(el) {
     hint.style.width = "";
     hint.style.height = "";
   }
+}
+
+// t_b944f6c5 §5.1：folio 首/末幅继续滑的退出提示——40×40 米色雾玻璃 X（同
+// .detail-close 语言）+ "松手退出" 文案，透明度随位移在 0.4→0.9→1.0 三段推进。
+function showExitHint(el, side, { intensity, confirmed }) {
+  let hint = el.querySelector(".detail-exit-hint");
+  if (!hint) {
+    const host = el.querySelector(".detail");
+    if (!host) return;
+    hint = document.createElement("div");
+    hint.className = "detail-exit-hint";
+    hint.innerHTML = `<span class="detail-exit-hint__x">${icons.x}</span><span class="detail-exit-hint__label">松手退出</span>`;
+    host.appendChild(hint);
+  }
+  hint.classList.remove("left", "right");
+  hint.classList.add(side);
+  hint.classList.toggle("confirmed", !!confirmed);
+  const opacity = confirmed ? 1 : 0.4 + Math.max(0, Math.min(intensity, 1)) * 0.5;
+  hint.style.opacity = String(opacity);
+}
+
+function hideExitHint(el) {
+  const hint = el.querySelector(".detail-exit-hint");
+  if (hint) hint.remove();
 }
 
 function showEndNotice(el, text) {
