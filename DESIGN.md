@@ -173,10 +173,34 @@ components:
     # graphical position indicator. Sub-props (letter-spacing, tabular-nums,
     # separator α) live in the Components prose section — the YAML schema only
     # carries whitelisted props.
+    #
+    # 2026-09-03 t_b944f6c5 — a Sans-serif contextual prefix ("收藏 · " /
+    # "相关 · " / "画家 · " / "标签 · ") may precede the "NN · total" digits
+    # to identify the folio source when the user entered from favorites,
+    # related-works, or an artist/tag collection page. Feed entries stay
+    # unprefixed. Prefix typography is described in the Components prose
+    # section (not schema-encoded, to keep sub-tokens whitelisted).
     backgroundColor: "transparent"
     textColor: "rgba(29, 27, 22, 0.42)"
     fontFamily: "Kaiti SC, STKaiti, KaiTi, serif"
     fontSize: 12px
+  collection-page-header:
+    # 2026-09-03 t_b944f6c5 — artist and tag aggregation pages share a sticky
+    # header with a back button + type-label title. Artist pages show the
+    # fixed word "画家"; tag pages show the tag name itself. Typography reuses
+    # `typography.work-title` (Songti SC 20px 700); max-width and ellipsis
+    # rules in the Components prose section.
+    backgroundColor: "{colors.bg}"
+    textColor: "{colors.ink}"
+    typography: "{typography.work-title}"
+  collection-page-grid:
+    # 2026-09-03 t_b944f6c5 — the aggregation-page grid inherits the favorites
+    # two-column masonry (columns:2, column-gap 14px, card-stack 22px). Card
+    # metadata swaps per page type: artist pages show year (not artist name)
+    # under each card; tag pages show artist name under each card. Full grid
+    # rules in docs/collection-page-spec.md §5. Border and typography reused
+    # from the existing `.card .th` conventions (see Components prose).
+    backgroundColor: "{colors.bg-card}"
   fav-tool-button:
     backgroundColor: "{colors.bg-card}"
     textColor: "rgba(29, 27, 22, 1)"
@@ -779,3 +803,72 @@ Components map to CSS blocks in `app.css`:
   reader (`currentFolio()` regex-extracts the current index from
   `.detail-folio-mark`). Sketch evidence: `sketches/t_8d4351d6/{baseline,
   A,B,C}-{p1,p14}-{full,strip}.png`.
+- **2026-09-03 — Detail-page folio context by entry source + edge exit gesture,
+  and collection-page white-screen fix (t_b944f6c5):**
+  Product/design owner asked for three related behaviors: (1) left/right swipe
+  on the detail page should follow **the sequence of the entry path**, not
+  always "same-issue works" — i.e. entering from favorites should swipe through
+  favorites, entering from related-works should swipe through the related list;
+  (2) at the leftmost edge (first work of the folio), a further right-swipe
+  should trigger **exit**; and (3) tag pills and artist links on the detail
+  page must open working aggregation pages (currently white-screen because
+  `js/app.js` never imports `mountTag`/`mountArtist` from `js/collection.js`,
+  though it registers their routes — the classic "import fails silently but
+  the whole module graph halts" pitfall from HERMES.md §1). Three-variant
+  self-adjudicated review, evidence in `sketches/t_b944f6c5/`, scoring on
+  {心理模型 · 视觉克制 · 手势直觉 · 可实现 · 保持既有资产} × 20 each:
+  **B (publication) 94 / A (strong-context) 68 / C (breadcrumb) 64**.
+  **B wins**: feed entries keep their cross-issue paging (the t_e578fc0d
+  cross-issue banner + flip transition stays intact — it *is* the daily-report
+  identity of the product); non-feed entries (favorites / related / collection)
+  get list-terminated folios with an edge-exit affordance. Falsification: A
+  loses the feed's daily-report cross-issue value by treating all sources
+  uniformly; C introduces a persistent top breadcrumb pill that pushes the
+  hero image down 40px and visually collides with the top-right `.detail-close`
+  — violating the museum-guide restraint set on 2026-08-26 and the
+  `.detail-close` treatment on t_ace5cc6b (2026-09-01). Chosen implementation
+  contract:
+
+  * folio context carried via `sessionStorage["artbook.folioCtx"]` (shape
+    `{source, ids[], entryId, meta}`); URL stays `#/work/<id>`; detail.js
+    reads-and-clears on mount. Refresh in a detail page degrades to feed
+    semantics — the deep link stays shareable and self-contained.
+  * `siblingCtx` gains `source` and `meta` fields; the existing cross-issue
+    logic (`nextIssueDate` / `prevIssueDate`) becomes a no-op when
+    `source !== "feed"`.
+  * At the first work of a non-feed folio, a right-swipe past 60px surfaces
+    a left-side 40×40 exit badge (same warm-glass treatment as
+    `.detail-close`) plus a 12px `--ink-2` "松手退出" label; past 120px or
+    velocity ≥ 0.55 px/ms, releasing calls the existing `exitDetail(el)`.
+    The symmetric behavior applies at the last work for non-feed folios
+    (right-side badge). Feed folio boundary behavior is unchanged.
+  * The `.detail-folio-mark` line ("NN · total") gains an optional
+    Sans-serif prefix — `收藏 · ` / `相关 · ` / `画家 · ` / `标签 · ` —
+    at 11px `--ink-2` with letter-spacing 0.06em, margin-right 6px from
+    the Kaiti page-number digits. Feed source: no prefix (unchanged).
+    Aria label ("第 N 幅，共 M 幅") remains prefix-free.
+  * Collection page (tag / artist) fix ships as **one import line** in
+    `js/app.js` plus the click-handler that writes `folioCtx` before
+    `navigate(#/work/...)`. Tag page's header title is the tag name
+    itself (no "标签" prefix on the header, because the whole page is
+    that tag); artist page keeps the fixed "画家" title because the
+    intro block already shows the artist's name in full. Artist-page
+    grid cards show **year** instead of artist name under each card
+    (removing 47× visual redundancy on a single-artist page); tag-page
+    grid cards keep artist name. Full grid tokens inherit favorites'
+    two-column masonry (`columns:2`, `column-gap 14px`, `card-stack
+    22px`); grid image `object-fit: contain` preserves aspect ratio
+    (already set in `.card .th img`, verified in app.css line 1315).
+
+  DESIGN.md schema: three new component blocks — `detail-folio-mark`
+  gains a comment paragraph for the prefix, `collection-page-header` and
+  `collection-page-grid` are new (whitelisted sub-tokens only: color,
+  background, fontFamily, fontSize; per-page prose differences described
+  in `docs/collection-page-spec.md`). Full interaction spec:
+  `docs/detail-navigation-context-spec.md` (14-item acceptance checklist
+  covering all three sources × boundary behaviors × 折角 prefix); page
+  visual spec: `docs/collection-page-spec.md` (12-item acceptance
+  checklist covering header, intro, grid, and the folioCtx handoff).
+  Sketch evidence: `sketches/t_b944f6c5/{A-strong-context,B-publication,
+  C-breadcrumb}.html` + `evidence/*.png` renders + `EVAL.md`
+  scoring.

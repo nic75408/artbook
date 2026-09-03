@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=390, initial-scale=1">
+<title>方案 B · 出版物派（推荐）</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #F5F1EA;
+    --bg-card: #FDFBF7;
+    --ink: #1D1B16;
+    --ink-2: #6B6558;
+    --gold: #8C6D3F;
+    --line: rgba(29,27,22,0.12);
+    --serif-zh: "Songti SC", "Noto Serif CJK SC", serif;
+    --sans-zh: "PingFang SC", "Noto Sans CJK SC", sans-serif;
+    --serif-en: "EB Garamond", Georgia, serif;
+    --kaiti: "Kaiti SC", "STKaiti", var(--serif-zh);
+  }
+  body { background: var(--bg); color: var(--ink); font-family: var(--sans-zh); }
+  .frame {
+    display: grid; grid-template-columns: repeat(3, 390px); gap: 32px;
+    padding: 40px; align-items: start;
+    background: #2A2622; color: #F5F1EA; min-height: 100vh;
+  }
+  .device {
+    width: 390px; height: 844px; background: var(--bg); position: relative;
+    overflow: hidden; border-radius: 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  }
+  .device__label {
+    color: #C9BFB2; font-family: var(--sans-zh); font-size: 12px;
+    margin-bottom: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .device__caption {
+    color: #C9BFB2; font-family: var(--sans-zh); font-size: 11px;
+    margin-top: 12px; line-height: 1.6; max-width: 390px;
+  }
+  h1.plan-title { color: #F5F1EA; font-family: var(--serif-zh); font-size: 24px;
+    grid-column: 1 / -1; margin-bottom: 8px; }
+  .plan-sub { color: #C9BFB2; font-size: 13px; grid-column: 1 / -1; margin-bottom: 16px; }
+
+  .detail { position: absolute; inset: 0; padding-top: 44px; }
+  .status-bar { position: absolute; top: 0; left: 0; right: 0; height: 44px;
+    background: var(--bg); z-index: 20; }
+  .detail-hero { position: relative; padding: 12px 22px 0; }
+  .detail-hero .ph { aspect-ratio: 1/1.3; background: #3A2E22;
+    border: 1px solid var(--line); position: relative; overflow: hidden; }
+  .detail-hero .ph::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(120deg, #3A2E22 0%, #5A4432 45%, #7B5C3F 75%, #C4A277 100%);
+  }
+  .detail-close {
+    position: absolute; top: 12px; right: 32px; width: 40px; height: 40px;
+    border-radius: 20px; background: rgba(245,241,234,0.55);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    display: grid; place-items: center; color: var(--ink);
+    box-shadow: 0 1px 4px rgba(29,27,22,0.06); z-index: 10;
+    font-size: 18px; font-family: var(--sans-zh);
+  }
+  .info-card { padding: 20px 22px 0; }
+  .folio-mark {
+    font-family: var(--kaiti); font-size: 12px; color: var(--ink-2);
+    letter-spacing: 0.24em; text-align: center; margin-bottom: 12px;
+    display: flex; align-items: baseline; justify-content: center; gap: 6px;
+  }
+  .folio-mark__prefix {
+    font-family: var(--sans-zh); font-size: 11px; color: var(--ink-2);
+    letter-spacing: 0.06em; opacity: 0.85;
+  }
+  .work-title { font-family: var(--serif-zh); font-weight: 700; text-align: center; }
+  .work-title-zh { font-size: 22px; display: block; }
+  .work-title-en { font-family: var(--serif-en); font-style: italic;
+    font-size: 15px; color: var(--gold); display: block; margin-top: 4px; }
+  .meta-compact { margin-top: 20px; }
+  .meta-row { display: flex; justify-content: space-between; padding: 6px 0;
+    border-bottom: 1px dashed var(--line); font-size: 13px; }
+  .meta-label { color: var(--ink-2); }
+  .meta-value { color: var(--ink); }
+
+  /* B 案专有：跨期日期条 + 退出徽章 */
+  .date-flip {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background: var(--gold); color: var(--bg); font-family: var(--serif-zh);
+    font-size: 15px; padding: 10px 18px; letter-spacing: 0.12em;
+    box-shadow: 0 4px 20px rgba(140,109,63,0.3); z-index: 15;
+  }
+  .exit-badge {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 40px; height: 40px; border-radius: 20px;
+    background: rgba(245,241,234,0.9); border: 1px solid var(--ink);
+    display: grid; place-items: center; color: var(--ink); font-size: 20px;
+    box-shadow: 0 1px 4px rgba(29,27,22,0.1); z-index: 15;
+  }
+  .exit-badge.left { left: 24px; }
+  .exit-badge.right { right: 24px; }
+  .exit-label {
+    position: absolute; top: calc(50% + 32px); font-size: 12px; color: var(--ink-2);
+    font-family: var(--sans-zh); white-space: nowrap; z-index: 15;
+  }
+  .exit-label.left { left: 8px; }
+  .exit-label.right { right: 8px; }
+
+  .drag-shadow {
+    position: absolute; inset: 0; background: linear-gradient(90deg,
+      rgba(245,241,234,0) 0%, rgba(245,241,234,0.85) 100%);
+    pointer-events: none;
+  }
+</style></head>
+<body>
+<div class="frame">
+  <h1 class="plan-title">方案 B · 出版物派（推荐 / 定稿）</h1>
+  <p class="plan-sub">首页 feed 保留跨期翻册 · 其余入口边界退出 · 尊重三种入口的心理模型</p>
+
+  <div>
+    <div class="device__label">首页入口 · 右滑边界 · 跨期翻册</div>
+    <div class="device">
+      <div class="status-bar"></div>
+      <div class="detail" style="opacity: 0.8;">
+        <div class="detail-hero"><div class="ph"></div><button class="detail-close">×</button></div>
+        <div class="info-card">
+          <div class="folio-mark"><span>01 · 30</span></div>
+          <h1 class="work-title">
+            <span class="work-title-zh">托比特的治愈</span>
+            <span class="work-title-en">The Healing of Tobit</span>
+          </h1>
+        </div>
+      </div>
+      <div class="date-flip">9 月 2 日</div>
+    </div>
+    <div class="device__caption">首页入口无前缀（"01 · 30"）；到边界继续滑触发跨期日期条与翻册转场（既有 t_e578fc0d 行为，本方案不改）。</div>
+  </div>
+
+  <div>
+    <div class="device__label">收藏夹入口 · 折角前缀"收藏 ·"</div>
+    <div class="device">
+      <div class="status-bar"></div>
+      <div class="detail">
+        <div class="detail-hero"><div class="ph"></div><button class="detail-close">×</button></div>
+        <div class="info-card">
+          <div class="folio-mark">
+            <span class="folio-mark__prefix">收藏 ·</span>
+            <span>03 · 12</span>
+          </div>
+          <h1 class="work-title">
+            <span class="work-title-zh">格尔尼卡</span>
+            <span class="work-title-en">Guernica</span>
+          </h1>
+          <div class="meta-compact">
+            <div class="meta-row"><span class="meta-label">创作者</span><span class="meta-value">巴勃罗·毕加索</span></div>
+            <div class="meta-row"><span class="meta-label">创作年代</span><span class="meta-value">1937</span></div>
+            <div class="meta-row"><span class="meta-label">作品材质</span><span class="meta-value">布面油画</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="device__caption">左右滑按收藏列表顺序翻。前缀"收藏 ·"用 Sans 11px --ink-2，与页码 Kaiti 12px 拉开质感，让归属信息克制不喧宾。</div>
+  </div>
+
+  <div>
+    <div class="device__label">收藏夹首幅右滑 · 边界退出</div>
+    <div class="device">
+      <div class="status-bar"></div>
+      <div class="detail" style="opacity: 0.55;">
+        <div class="detail-hero"><div class="ph"></div><button class="detail-close">×</button></div>
+        <div class="info-card">
+          <div class="folio-mark">
+            <span class="folio-mark__prefix">收藏 ·</span>
+            <span>01 · 12</span>
+          </div>
+          <h1 class="work-title">
+            <span class="work-title-zh">吹笛少年</span>
+            <span class="work-title-en">The Fifer</span>
+          </h1>
+        </div>
+      </div>
+      <div class="drag-shadow"></div>
+      <div class="exit-badge left">←</div>
+      <div class="exit-label left">松手退出</div>
+    </div>
+    <div class="device__caption">非 feed 入口的首幅右滑触发退出（首页首幅是跨期）。退出徽章位置：左中，40×40，与右上关闭按钮呼应；文本"松手退出"12px。</div>
+  </div>
+</div>
+</body></html>
