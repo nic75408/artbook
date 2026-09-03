@@ -38,8 +38,10 @@ function bindGrid(el) {
       if (im && im.dataset.src) {
         const s = im.dataset.src;
         delete im.dataset.src;
-        im.src = s;
         im.addEventListener("load", () => im.classList.add("loaded"), { once: true });
+        im.src = s;
+        // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成（t_76418473）
+        if (im.complete && im.naturalWidth > 0) im.classList.add("loaded");
       }
       io.unobserve(en.target);
     });

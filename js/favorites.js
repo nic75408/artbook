@@ -99,11 +99,28 @@ export async function mount(el) {
       if (im && im.dataset.src) {
         const s = im.dataset.src;
         delete im.dataset.src;
-        im.src = s;
         im.addEventListener("load", () => im.classList.add("loaded"), { once: true });
+        retryOnError(im, s);
+        im.src = s;
+        // 命中强缓存时 load 可能同步触发，监听器还没挂上就已经完成（t_76418473）
+        if (im.complete && im.naturalWidth > 0) im.classList.add("loaded");
       }
       io.unobserve(en.target);
     });
   }, { rootMargin: "300px" });
   body.querySelectorAll(".card[data-go]").forEach((c) => io.observe(c));
+}
+
+// 单次自动重试：请求失败（瞬时网络抖动/CDN 波动）时，短暂延迟后用带
+// cache-buster 的 URL 重新发起一次请求；仍失败则放弃（error 监听已 once，
+// 不会无限重试）。同 feed.js 的同名函数（t_76418473）。
+function retryOnError(img, originalSrc) {
+  const onError = () => {
+    setTimeout(() => {
+      if (!img.isConnected) return;
+      const sep = originalSrc.includes("?") ? "&" : "?";
+      img.src = `${originalSrc}${sep}_retry=${Date.now()}`;
+    }, 800);
+  };
+  img.addEventListener("error", onError, { once: true });
 }
