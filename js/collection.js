@@ -12,29 +12,47 @@ async function loadCatalogSafe() {
   }
 }
 
-function gridHTML(list, opts = {}) {
+function gridHTML(_list) {
+  // 只出骨架，两个空列；卡片由 bindGrid 阶段分列填充
+  return `<div class="grid"><div class="col"></div><div class="col"></div></div>`;
+}
+
+function cardHTML(w, opts = {}) {
   // opts.artistMode：作者聚合页把 .a 从"作者名"换成"年份"（t_b944f6c5 §5.2），
   // 避免整页 N 张卡片重复同一个作者名造成视觉冗余。
   const artistMode = !!opts.artistMode;
-  return `<div class="grid">${list.map((w) => {
-    const metaText = artistMode ? (w.y != null ? String(w.y) : "") : (w.a || "");
-    return `
-    <button class="card" data-go="${esc(w.id)}">
-      <span class="th" style="--r:${w.ratio || 1}">
-        <span class="ph" style="aspect-ratio:calc(1/${w.ratio || 1})">
-          <img data-src="${esc(w.th)}" alt="${esc(w.t)}" loading="lazy" decoding="async">
-        </span>
+  const metaText = artistMode ? (w.y != null ? String(w.y) : "") : (w.a || "");
+  return `<button class="card" data-go="${esc(w.id)}">
+    <span class="th" style="--r:${w.ratio || 1}">
+      <span class="ph" style="aspect-ratio:calc(1/${w.ratio || 1})">
+        <img data-src="${esc(w.th)}" alt="${esc(w.t)}" loading="lazy" decoding="async">
       </span>
-      ${metaText ? `<span class="a meta-text">${esc(metaText)}</span>` : ""}
-      <span class="t work-title"${metaText ? "" : ' style="margin-top:8px"'}>${esc(w.t)}</span>
-    </button>`;
-  }).join("")}</div>`;
+    </span>
+    ${metaText ? `<span class="a meta-text">${esc(metaText)}</span>` : ""}
+    <span class="t work-title"${metaText ? "" : ' style="margin-top:8px"'}>${esc(w.t)}</span>
+  </button>`;
 }
 
-function bindGrid(el, works, folioCtx) {
+// 真瀑布流分列：新卡进入当前较短列。mkCard 可选自定义卡片生成器
+// （favorites.js 需要处理"作品缺失"降级卡片，故不能直接复用 cardHTML）。
+export function fillMasonry(gridEl, list, mkCard = cardHTML) {
+  const cols = gridEl.querySelectorAll(".col");
+  if (!cols.length) return;
+  const heights = [0, 0];
+  list.forEach((w) => {
+    const idx = heights[0] <= heights[1] ? 0 : 1;
+    // 用作品 ratio 估算行高增量（图 + 标题两行 ≈ 0.35 单位）
+    // 单位无关，只用于比高低，不需要真实像素
+    cols[idx].insertAdjacentHTML("beforeend", mkCard(w));
+    heights[idx] += 1 / (w.ratio || 1) + 0.35;
+  });
+}
+
+function bindGrid(el, works, folioCtx, cardOpts = {}) {
   const grid = el.querySelector(".grid");
   if (!grid) return;
   const ids = works.map((w) => w.id);
+  fillMasonry(grid, works, (w) => cardHTML(w, cardOpts));
   grid.querySelectorAll(".card").forEach((card) =>
     card.addEventListener("click", () => {
       writeFolioCtx({
@@ -99,13 +117,13 @@ export async function mountArtist(el, aid) {
       ${artist.bio_zh ? `<div class="bio">${esc(artist.bio_zh)}</div>` : ""}
     </div>` : `
     <div class="page-intro"><div class="name-zh">${esc(aid)}</div></div>`}
-    ${works.length ? gridHTML(works, { artistMode: true }) : `<div class="empty"><p>暂无作品</p></div>`}
+    ${works.length ? gridHTML(works) : `<div class="empty"><p>暂无作品</p></div>`}
   </div>`;
   el.querySelector("#back").addEventListener("click", () => back());
   bindGrid(el, works, {
     title: artist ? `画家：${artist.name_zh}` : `画家：${aid}`,
     grouping: `artist:${aid}`,
-  });
+  }, { artistMode: true });
 }
 
 export async function mountTag(el, tag) {

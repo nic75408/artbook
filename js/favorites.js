@@ -5,6 +5,7 @@ import { back, navigate, writeFolioCtx } from "./router.js";
 import { esc, icons } from "./ui.js";
 import { Icon } from "./icons/Icon.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
+import { fillMasonry } from "./collection.js";
 
 const KEY = "artbook.favs";
 
@@ -74,7 +75,9 @@ export async function mount(el) {
     </div>`;
     return;
   }
-  body.innerHTML = `<div class="grid">${favs.map((f) => {
+  body.innerHTML = `<div class="grid"><div class="col"></div><div class="col"></div></div>`;
+  const grid = body.querySelector(".grid");
+  fillMasonry(grid, favs, (f) => {
     const w = byId.get(f.id);
     if (!w) return `<div class="card" style="opacity:.55">
       <span class="th"><span class="ph" style="aspect-ratio:1;background:var(--bg-card)"></span></span>
@@ -88,7 +91,7 @@ export async function mount(el) {
       <span class="a meta-text">${esc(w.a)}</span>
       <span class="t work-title">${esc(w.t)}</span>
     </div>`;
-  }).join("")}</div>`;
+  });
   body.querySelectorAll(".card[data-go]").forEach((card) =>
     card.addEventListener("click", () => {
       writeFolioCtx({
