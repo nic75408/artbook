@@ -89,6 +89,7 @@ function render(el, w) {
         <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async" draggable="false">
       </div>
       <button class="detail-close" aria-label="关闭">${icons.x}</button>
+      <button class="detail-fav-top" id="fav-top-act" aria-label="收藏" aria-pressed="false">${icons.bookmark}</button>
     </div>
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
@@ -333,26 +334,29 @@ function render(el, w) {
     }
   });
 
-  // 收藏按钮
+  // 收藏按钮：底部文字按钮 + 顶部纯 icon 按钮（t_436a7dc5），两者状态实时同步
   const favBtn = el.querySelector("#fav-act");
+  const favTopBtn = el.querySelector("#fav-top-act");
   const paintFav = () => {
-    if (isFav(w.id)) {
-      favBtn.classList.add("on");
-      favBtn.innerHTML = `${icons.bookmarkFilled} 已收藏`;
-    } else {
-      favBtn.classList.remove("on");
-      favBtn.innerHTML = `${icons.bookmark} 收藏`;
-    }
+    const on = isFav(w.id);
+    favBtn.classList.toggle("on", on);
+    favBtn.innerHTML = on ? `${icons.bookmarkFilled} 已收藏` : `${icons.bookmark} 收藏`;
+    favTopBtn.classList.toggle("on", on);
+    favTopBtn.innerHTML = on ? icons.bookmarkFilled : icons.bookmark;
+    favTopBtn.setAttribute("aria-pressed", String(on));
+    favTopBtn.setAttribute("aria-label", on ? "取消收藏" : "收藏");
   };
   paintFav();
-  favBtn.addEventListener("click", () => {
+  const handleToggle = () => {
     const { ok } = toggleFav(w.id);
     if (!ok) {
       toast("当前浏览器环境无法保存收藏");
       return;
     }
     paintFav();
-  });
+  };
+  favBtn.addEventListener("click", handleToggle);
+  favTopBtn.addEventListener("click", handleToggle);
 
   // 相关推荐
   data.related(w.id).then((list) => {
