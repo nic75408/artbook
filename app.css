@@ -1447,7 +1447,11 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  padding: calc(var(--space-md) + var(--safe-t)) calc(var(--space-lg) + var(--safe-r)) var(--space-md) calc(var(--space-sm) + var(--safe-l));
+  /* t_52fb015a: .page-header__back 是 position:fixed，脱离本容器的文档流，
+     flex 的 gap/排列对它不生效——标题必须自己用左内边距让出按钮占据的
+     视觉区域（按钮 left:12px + width:40px = 52px），否则标题文字会被
+     按钮遮住。52px 按钮区 + safe-l 安全区 + space-sm 呼吸间距 ≈ 60px。 */
+  padding: calc(var(--space-md) + var(--safe-t)) calc(var(--space-lg) + var(--safe-r)) var(--space-md) calc(52px + var(--space-sm) + var(--safe-l));
 }
 .page-header button { 
   padding: var(--space-sm); 
@@ -1461,7 +1465,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: calc(100vw - 96px);
+  max-width: calc(100vw - 52px - var(--space-sm) - var(--safe-l) - var(--space-lg) - var(--safe-r));
 }
 
 .page-intro { padding: var(--space-sm) var(--page-gutter) var(--space-lg); max-width: var(--content-max); margin: 0 auto; }
