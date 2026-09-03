@@ -2,8 +2,8 @@
 // 本文件同时提供收藏逻辑与 #/favs 收藏页视图。
 import * as data from "./data.js";
 import { back, navigate, writeFolioCtx } from "./router.js";
-import { esc, icons } from "./ui.js";
-import { Icon } from "./icons/Icon.js";
+import { esc, Icon } from "./ui.js";
+import { attachEdgeSwipeBack } from "./router.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
 import { fillMasonry } from "./collection.js";
 
@@ -56,16 +56,9 @@ export async function mount(el) {
   }
   const byId = new Map((cat?.works || []).map((w) => [w.id, w]));
   const favs = favList();
-  el.innerHTML = `
-  <div class="page">
-    <header class="page-header">
-      <button id="back" aria-label="返回">${Icon('nav-back', { size: 20, hidden: true })}</button>
-      <div class="title">我的收藏夹</div>
-    </header>
-    <div id="fav-body"></div>
-    <div class="favs-footer">收藏保存在本机浏览器中，清除网站数据会丢失。</div>
-  </div>`;
+  el.innerHTML = `\n  <div class="page">\n    <header class="page-header">\n      <button class="page-header__back" id="back" aria-label="返回">${Icon('nav-back', { size: 20, hidden: true })}</button>\n      <div class="title">我的收藏夹</div>\n    </header>\n    <div id="fav-body"></div>\n    <div class="favs-footer">收藏保存在本机浏览器中，清除网站数据会丢失。</div>\n  </div>`;
   el.querySelector("#back").addEventListener("click", () => back());
+  attachEdgeSwipeBack(el);
 
   const body = el.querySelector("#fav-body");
   if (!favs.length) {

@@ -1,7 +1,9 @@
 // 画家 / 标签聚合页（SPE §7.5）：两列瀑布流网格，数据来自 catalog
 import * as data from "./data.js";
 import { back, navigate, writeFolioCtx } from "./router.js";
-import { esc, icons } from "./ui.js";
+import { esc } from "./ui.js";
+import { Icon } from "./ui.js";
+import { attachEdgeSwipeBack } from "./router.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
 
 async function loadCatalogSafe() {
@@ -103,23 +105,9 @@ export async function mountArtist(el, aid) {
   } catch {
     artist = null;
   }
-  el.innerHTML = `
-  <div class="page">
-    <header class="page-header">
-      <button id="back" aria-label="返回">${icons.chevronLeft}</button>
-      <div class="title">画家</div>
-    </header>
-    ${artist ? `
-    <div class="page-intro">
-      <div class="name-zh">${esc(artist.name_zh)}</div>
-      <div class="name-en">${esc(artist.name_en)}</div>
-      <div class="years">${esc(artist.nationality_zh || "")}${artist.years ? "，" + esc(artist.years) : ""}</div>
-      ${artist.bio_zh ? `<div class="bio">${esc(artist.bio_zh)}</div>` : ""}
-    </div>` : `
-    <div class="page-intro"><div class="name-zh">${esc(aid)}</div></div>`}
-    ${works.length ? gridHTML(works) : `<div class="empty"><p>暂无作品</p></div>`}
-  </div>`;
+  el.innerHTML = `\n  <div class="page">\n    <header class="page-header">\n      <button class="page-header__back" id="back" aria-label="返回">${Icon('nav-back', { size: 20, hidden: true })}</button>\n      <div class="title">画家</div>\n    </header>\n    ${artist ? `\n    <div class="page-intro">\n      <div class="name-zh">${esc(artist.name_zh)}</div>\n      <div class="name-en">${esc(artist.name_en)}</div>\n      <div class="years">${esc(artist.nationality_zh || "")}${artist.years ? "，" + esc(artist.years) : ""}</div>\n      ${artist.bio_zh ? `<div class="bio">${esc(artist.bio_zh)}</div>` : ""}\n    </div>` : `\n    <div class="page-intro"><div class="name-zh">${esc(aid)}</div></div>`}\n    ${works.length ? gridHTML(works) : `<div class="empty"><p>暂无作品</p></div>`}\n  </div>`;
   el.querySelector("#back").addEventListener("click", () => back());
+  attachEdgeSwipeBack(el);
   bindGrid(el, works, {
     title: artist ? `画家：${artist.name_zh}` : `画家：${aid}`,
     grouping: `artist:${aid}`,
@@ -132,15 +120,8 @@ export async function mountTag(el, tag) {
   const works = byYearAsc((cat.works || []).filter(
     (w) => (w.tags || []).includes(tag) || w.mv === tag
   ));
-  el.innerHTML = `
-  <div class="page">
-    <header class="page-header">
-      <button id="back" aria-label="返回">${icons.chevronLeft}</button>
-      <div class="title">${esc(tag)}</div>
-    </header>
-    <div class="page-intro page-intro--tag"><div class="years">${works.length} 幅作品</div></div>
-    ${works.length ? gridHTML(works) : `<div class="empty"><p>暂无作品</p></div>`}
-  </div>`;
+  el.innerHTML = `\n  <div class="page">\n    <header class="page-header">\n      <button class="page-header__back" id="back" aria-label="返回">${Icon('nav-back', { size: 20, hidden: true })}</button>\n      <div class="title">${esc(tag)}</div>\n    </header>\n    <div class="page-intro page-intro--tag"><div class="years">${works.length} 幅作品</div></div>\n    ${works.length ? gridHTML(works) : `<div class="empty"><p>暂无作品</p></div>`}\n  </div>`;
   el.querySelector("#back").addEventListener("click", () => back());
+  attachEdgeSwipeBack(el);
   bindGrid(el, works, { title: `标签：${tag}`, grouping: `tag:${tag}` });
 }

@@ -4,6 +4,66 @@ const routes = new Map(); // pattern(RegExp) -> view {mount, unmount?}
 const stack = [];
 let current = null;
 
+// t_a312968d: 右滑边缘返回手势工具函数（所有二级页面通用）
+// 从右边缘 30px 内开始，向左滑动≥80px 触发返回
+export function attachEdgeSwipeBack(el, { threshold = 80, edgeZone = 30 } = {}) {
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let disqualified = false;
+
+  const onStart = (e) => {
+    const x = e.touches[0].clientX;
+    const y = e.touches[0].clientY;
+    // 只在右边缘 edgeZone 内开始检测
+    if (window.innerWidth - x <= edgeZone) {
+      touchStartX = x;
+      touchStartY = y;
+      disqualified = false;
+    } else {
+      disqualified = true;
+    }
+  };
+
+  const onMove = (e) => {
+    if (disqualified || !touchStartX) return;
+    const deltaX = e.touches[0].clientX - touchStartX;
+    const deltaY = e.touches[0].clientY - touchStartY;
+    // 水平滑动 > 垂直滑动，且向左 ≥ threshold
+    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -threshold) {
+      // 命中返回手势
+    }
+  };
+
+  const onEnd = (e) => {
+    if (disqualified || !touchStartX) {
+      touchStartX = 0;
+      touchStartY = 0;
+      return;
+    }
+    const deltaX = e.changedTouches[0].clientX - touchStartX;
+    const deltaY = e.changedTouches[0].clientY - touchStartY;
+    // 水平滑动 > 垂直滑动，且向左 ≥ threshold
+    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -threshold) {
+      // 触发返回
+      history.back();
+    }
+    touchStartX = 0;
+    touchStartY = 0;
+  };
+
+  el.addEventListener("touchstart", onStart, { passive: true });
+  el.addEventListener("touchmove", onMove, { passive: true });
+  el.addEventListener("touchend", onEnd, { passive: true });
+  el.addEventListener("touchcancel", onEnd, { passive: true });
+
+  return () => {
+    el.removeEventListener("touchstart", onStart);
+    el.removeEventListener("touchmove", onMove);
+    el.removeEventListener("touchend", onEnd);
+    el.removeEventListener("touchcancel", onEnd);
+  };
+}
+
 export function register(pattern, view) {
   routes.set(pattern, view);
 }

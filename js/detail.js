@@ -3,7 +3,7 @@
 import * as data from "./data.js";
 import { back, navigate, readFolioCtx, writeFolioCtx } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
-import { esc, icons, toast } from "./ui.js";
+import { esc, icons, toast, Icon } from "./ui.js";
 import { BrandWordmark } from "./icons/BrandWordmark.js";
 import { POS_KEY } from "./feed.js";
 
@@ -82,15 +82,7 @@ function render(el, w) {
   // 构建在馆信息
   const creditMuseum = w.credit ? w.credit.replace(/,.*$/, '').trim() : '';
 
-  el.innerHTML = `
-  <div class="detail">
-    <div class="detail-hero${isUltraWide ? ' detail-hero-ultra-wide' : ''}" ${isUltraWide ? `style="--r:${ratio}"` : ''}>
-      <div class="ph" style="${isUltraWide ? '' : `aspect-ratio:calc(1/${ratio})`}">
-        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async" draggable="false">
-      </div>
-      <button class="detail-close" aria-label="关闭">${icons.x}</button>
-      <button class="detail-fav-top" id="fav-top-act" aria-label="收藏" aria-pressed="false">${icons.bookmark}</button>
-    </div>
+  el.innerHTML = `\n  <div class="detail">\n    <div class="detail-hero${isUltraWide ? ' detail-hero-ultra-wide' : ''}" ${isUltraWide ? `style="--r:${ratio}"` : ''}>\n      <div class="ph" style="${isUltraWide ? '' : `aspect-ratio:calc(1/${ratio})`}">\n        <img data-src="${esc(w.image.full)}" alt="${esc(w.title_zh)}" loading="eager" fetchpriority="high" decoding="async" draggable="false">\n      </div>\n      <!-- t_a312968d: 关闭按钮废弃，改为左上角统一返回按钮 -->\n      <button class="detail-back" aria-label="返回">${Icon('nav-back-outline', { size: 20, hidden: true })}</button>\n      <button class="detail-fav-top" id="fav-top-act" aria-label="收藏" aria-pressed="false">${icons.bookmark}</button>\n    </div>
 
     <!-- 作品信息块：紧邻主图，标签 + 图像组合 -->
     <div class="artwork-info-card">
@@ -197,7 +189,7 @@ function render(el, w) {
     upgrade.src = fullSrc;
   }
 
-  // 连 feed 图都加载不出来才显示兜底文案
+// 连 feed 图都加载不出来才显示兜底文案
   img.addEventListener("error", () => {
     if (img.src === fullSrc && feedSrc !== fullSrc) {
       img.src = feedSrc; // 全分辨率图失效 → 退回 feed 图
@@ -208,7 +200,8 @@ function render(el, w) {
   });
   // 点击看大图：优先用已加载到的最高分辨率
   img.addEventListener("click", () => openViewer(img.src));
-  el.querySelector(".detail-close").addEventListener("click", () => back());
+  // t_a312968d: 返回按钮事件绑定（图标已在 HTML 模板中生成）
+  el.querySelector(".detail-back").addEventListener("click", () => back());
 
   // 标签
   el.querySelectorAll(".tag-pill").forEach((b) =>

@@ -700,16 +700,20 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
    原 .detail-hero-bleed / .detail-bleed 专用类已废弃并移除 */
 
 /* 常驻关闭按钮：fixed 相对视口，滚动浏览正文时始终可见（SPE §7.4） */
+/* t_a312968d (2026-09-03): .detail-close 废弃，统一用 .detail-back 左箭头返回按钮 */
 .detail-close {
+  display: none !important; /* 向后兼容，废弃 */
+}
+
+/* t_a312968d: 全局统一返回按钮 —— 所有二级页面（详情页、收藏夹页、作者/标签聚合页）
+   40×40 雾玻璃胶囊，左上角 fixed，nav-back-outline 左箭头图标 */
+.page-header__back {
   position: fixed;
   top: calc(12px + var(--safe-t));
-  right: calc(12px + var(--safe-r));
-  left: auto;
-  bottom: auto;
+  left: calc(12px + var(--safe-l));
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /* 磨砂玻璃：降低对画作的遮挡（t_ace5cc6b 定稿 B 案） */
   background: rgba(245, 241, 234, 0.55);
   border: 1px solid rgba(29, 27, 22, 0.08);
   backdrop-filter: blur(14px);
@@ -722,9 +726,43 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
   z-index: 30;
   transition: background 100ms ease;
 }
-/* 触摸反馈（移动端无 hover）：按下时底色回到 α 0.85 */
-.detail-close:active {
+.page-header__back:active {
   background: rgba(245, 241, 234, 0.85);
+}
+.page-header__back svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+}
+
+/* 详情页返回按钮（复用 .page-header__back 样式） */
+.detail-back {
+  /* 样式同 .page-header__back —— fixed 左上角，40×40 雾玻璃胶囊 */
+  position: fixed;
+  top: calc(12px + var(--safe-t));
+  left: calc(12px + var(--safe-l));
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(245, 241, 234, 0.55);
+  border: 1px solid rgba(29, 27, 22, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 4px rgba(29, 27, 22, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  z-index: 30;
+  transition: background 100ms ease;
+}
+.detail-back:active {
+  background: rgba(245, 241, 234, 0.85);
+}
+.detail-back svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
 }
 
 /* t_436a7dc5：详情页顶部收藏 icon 按钮 —— 与 .detail-close 同一视觉语汇
@@ -733,8 +771,8 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .detail-fav-top {
   position: fixed;
   top: calc(12px + var(--safe-t));
-  left: calc(12px + var(--safe-l));
-  right: auto;
+  right: calc(12px + var(--safe-r));
+  left: auto;
   bottom: auto;
   width: 40px;
   height: 40px;

@@ -25,16 +25,16 @@ test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => localStorage.removeItem('artbook.favs'));
 });
 
-test('详情页左上角出现收藏 icon 按钮，40×40 雾玻璃背景，与关闭按钮同一行左右对称', async ({ page }) => {
+test('详情页右上角出现收藏 icon 按钮，40×40 雾玻璃背景，与返回按钮同一行左右对称', async ({ page }) => {
   await gotoIssueWork(page, 0);
   const box = await page.locator('#fav-top-act').boundingBox();
-  const closeBox = await page.locator('.detail-close').boundingBox();
+  const backBox = await page.locator('.detail-back').boundingBox();
   expect(box.width).toBeCloseTo(40, 0);
   expect(box.height).toBeCloseTo(40, 0);
   // 同一行：top 相近
-  expect(Math.abs(box.y - closeBox.y)).toBeLessThan(2);
-  // 左上角：x 应远小于关闭按钮（右上角）
-  expect(box.x).toBeLessThan(closeBox.x);
+  expect(Math.abs(box.y - backBox.y)).toBeLessThan(2);
+  // 右上角：x 应远大于返回按钮（左上角）
+  expect(box.x).toBeGreaterThan(backBox.x);
 
   const style = await page.locator('#fav-top-act').evaluate((el) => {
     const s = getComputedStyle(el);
