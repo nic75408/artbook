@@ -1,5 +1,5 @@
 // 详情视图（SPE §7.4）：大图、全屏缩放、元数据表、圆形细节、赏析、相关推荐
-// t_e578fc0d：跨日期连续浏览 + 下拉退出 + 首页定位（SPEC docs/detail-navigation-spec.md B 案）
+// t_e578fc0d：跨日期连续浏览 + 下拉返回（t_1bfbf0ed 重命名，原「下拉退出」）+ 首页定位（SPEC docs/detail-navigation-spec.md B 案）
 import * as data from "./data.js";
 import { back, navigate, readFolioCtx, writeFolioCtx } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
@@ -412,7 +412,7 @@ function render(el, w) {
     el.querySelector("#rel-retry").addEventListener("click", () => navigate(`#/work/${w.id}`));
   });
 
-  // t_13662686 + t_e578fc0d：详情页左右滑动切换（同/跨日期）+ 下拉退出
+  // t_13662686 + t_e578fc0d：详情页左右滑动切换（同/跨日期）+ 下拉返回
   attachGestures(el);
 }
 
@@ -613,8 +613,8 @@ function attachGestures(el) {
   const DIR_JUDGE_DIST = 8;              // px，方向判定阈值
   const MAX_FADE = 0.65;                 // 最大透明度衰减
 
-  const PULL_DIST = 96;      // px，下拉退出最小位移（§5.1）
-  const PULL_VELOCITY = 0.45;// px/ms，下拉退出最小释放速度（§5.1）
+  const PULL_DIST = 96;      // px，下拉返回最小位移（§5.1）
+  const PULL_VELOCITY = 0.45;// px/ms，下拉返回最小释放速度（§5.1）
   const PULL_OPACITY_SPAN = 240; // px，opacity 衰减到 0 的位移跨度（§5.2）
   const PULL_DAMP = 0.5;     // 阻尼系数（§5.2）
   const PULL_MAX_TY = 48;    // px，跟手位移上限（§5.2）
@@ -651,10 +651,10 @@ function attachGestures(el) {
     startScrollY = Math.max(window.scrollY, 0);
     axis = null;
     disqualified = false;
-    // t_a312968d: 右滑边缘返回手势检测 —— 起点在右边缘 30px 内
+    // t_1bfbf0ed: 左滑边缘返回手势检测 —— 起点在左边缘 30px 内（iOS HIG 标准方向）
     const EDGE_ZONE = 30;
-    if (window.innerWidth - sx <= EDGE_ZONE) {
-      // 右边缘起点，标记为返回手势候选
+    if (sx <= EDGE_ZONE) {
+      // 左边缘起点，标记为返回手势候选
       axis = 'edge-back';
     }
   };
@@ -663,10 +663,10 @@ function attachGestures(el) {
     if (disqualified) return;
     dx = e.clientX - sx;
     dy = e.clientY - sy;
-    // t_a312968d: 右滑边缘返回手势 —— 已在右边缘起点，只检测向左滑动
+    // t_1bfbf0ed: 左滑边缘返回手势 —— 已在左边缘起点，只检测向右滑动
     if (axis === 'edge-back') {
-      // 向左滑动时提供视觉反馈（透明度衰减）
-      if (dx < 0) {
+      // 向右滑动时提供视觉反馈（透明度衰减）
+      if (dx > 0) {
         const EDGE_THRESHOLD = 80;
         const fade = Math.min(Math.abs(dx) / EDGE_THRESHOLD, 0.3);
         detail.style.opacity = String(1 - fade);
@@ -743,11 +743,11 @@ function attachGestures(el) {
   };
 
   const onEnd = () => {
-    // t_a312968d: 右滑边缘返回手势 —— 向左滑动≥80px 触发返回
+    // t_1bfbf0ed: 左滑边缘返回手势 —— 向右滑动≥80px 触发返回
     if (axis === 'edge-back') {
       detail.style.opacity = "";
       const EDGE_THRESHOLD = 80;
-      if (dx < -EDGE_THRESHOLD) {
+      if (dx > EDGE_THRESHOLD) {
         // 触发返回
         back();
       }
@@ -834,7 +834,8 @@ function attachGestures(el) {
   };
 }
 
-// 场景三 · 下拉退出详情页（新增，SPEC §5.4）：书页合起 —— 向下轻沉 24px + 缓慢透出，320ms
+// 场景三 · 下拉返回上一屏（t_1bfbf0ed 重命名，原「下拉退出详情页」，SPEC §5.4）：
+// 书页合起 —— 向下轻沉 24px + 缓慢透出，320ms。函数名 exitDetail() 保留（动画作用域命名）。
 function parseTranslateY(transformStr) {
   const m = /translate3d\(0,\s*([-\d.]+)px/.exec(transformStr || "");
   return m ? parseFloat(m[1]) : 0;

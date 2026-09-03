@@ -4,8 +4,8 @@ const routes = new Map(); // pattern(RegExp) -> view {mount, unmount?}
 const stack = [];
 let current = null;
 
-// t_a312968d: 右滑边缘返回手势工具函数（所有二级页面通用）
-// 从右边缘 30px 内开始，向左滑动≥80px 触发返回
+// t_1bfbf0ed: 左滑边缘返回手势工具函数（所有二级页面通用，iOS HIG 标准方向）
+// 从左边缘 30px 内开始，向右滑动≥80px 触发返回
 export function attachEdgeSwipeBack(el, { threshold = 80, edgeZone = 30 } = {}) {
   let touchStartX = 0;
   let touchStartY = 0;
@@ -14,8 +14,8 @@ export function attachEdgeSwipeBack(el, { threshold = 80, edgeZone = 30 } = {}) 
   const onStart = (e) => {
     const x = e.touches[0].clientX;
     const y = e.touches[0].clientY;
-    // 只在右边缘 edgeZone 内开始检测
-    if (window.innerWidth - x <= edgeZone) {
+    // 只在左边缘 edgeZone 内开始检测
+    if (x <= edgeZone) {
       touchStartX = x;
       touchStartY = y;
       disqualified = false;
@@ -28,8 +28,8 @@ export function attachEdgeSwipeBack(el, { threshold = 80, edgeZone = 30 } = {}) 
     if (disqualified || !touchStartX) return;
     const deltaX = e.touches[0].clientX - touchStartX;
     const deltaY = e.touches[0].clientY - touchStartY;
-    // 水平滑动 > 垂直滑动，且向左 ≥ threshold
-    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -threshold) {
+    // 水平滑动 > 垂直滑动，且向右 ≥ threshold
+    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX > threshold) {
       // 命中返回手势
     }
   };
@@ -42,8 +42,8 @@ export function attachEdgeSwipeBack(el, { threshold = 80, edgeZone = 30 } = {}) 
     }
     const deltaX = e.changedTouches[0].clientX - touchStartX;
     const deltaY = e.changedTouches[0].clientY - touchStartY;
-    // 水平滑动 > 垂直滑动，且向左 ≥ threshold
-    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -threshold) {
+    // 水平滑动 > 垂直滑动，且向右 ≥ threshold
+    if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX > threshold) {
       // 触发返回
       history.back();
     }
