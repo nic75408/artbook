@@ -13940,6 +13940,496 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1915.217/1915.217_web.jpg",
       "ratio": 1.998
+    },
+    {
+      "id": "cma-153368",
+      "issue": "2026-09-04",
+      "t": "公鸡与火鸡的争斗",
+      "a": "梅尔基奥尔·德·洪德库特",
+      "aid": "melchior-de-hondecoeter-dutch-1636-1695",
+      "y": 1680,
+      "mv": "巴洛克",
+      "tags": [
+        "动物",
+        "巴洛克",
+        "17世纪",
+        "荷兰",
+        "动态构图",
+        "庭院"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.59/1986.59_web.jpg",
+      "ratio": 0.821
+    },
+    {
+      "id": "cma-97167",
+      "issue": "2026-09-04",
+      "t": "青年男子肖像",
+      "a": "多索·多西",
+      "aid": "dosso-dossi-italian-c-1490-after-1541",
+      "y": 1530,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "费拉拉画派",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.803/1916.803_web.jpg",
+      "ratio": 1.268
+    },
+    {
+      "id": "cma-147410",
+      "issue": "2026-09-04",
+      "t": "夏夜；冬日",
+      "a": "圆山应举",
+      "aid": "maruyama-okyo-japanese-1733-1795",
+      "y": 1784,
+      "mv": "圆山派",
+      "tags": [
+        "四季",
+        "18世纪",
+        "日本",
+        "装饰艺术",
+        "金银泥",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.156/1973.156_web.jpg",
+      "ratio": 0.927
+    },
+    {
+      "id": "cma-160727",
+      "issue": "2026-09-04",
+      "t": "仙顶",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "中国",
+        "水墨",
+        "构图",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.12/1998.78.12_web.jpg",
+      "ratio": 0.929
+    },
+    {
+      "id": "cma-144496",
+      "issue": "2026-09-04",
+      "t": "静物与哈密瓜",
+      "a": "威廉·梅森·布朗",
+      "aid": "william-mason-brown-american-1828-1898",
+      "y": 1880,
+      "mv": "写实主义",
+      "tags": [
+        "静物",
+        "19世纪",
+        "美国",
+        "质感",
+        "写实",
+        "水果"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.20/1969.20_web.jpg",
+      "ratio": 0.769
+    },
+    {
+      "id": "cma-170809",
+      "issue": "2026-09-04",
+      "t": "阿克巴大帝于 1564 年在马尔瓦监督围捕野象",
+      "a": "法鲁赫·切拉",
+      "aid": "farukh-chela-indian",
+      "y": 1651,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宏大场景",
+        "狩猎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.309.a/2013.309.a_web.jpg",
+      "ratio": 1.495
+    },
+    {
+      "id": "cma-103789",
+      "issue": "2026-09-04",
+      "t": "田园风光",
+      "a": "勒内·梅纳尔",
+      "aid": "rene-menard-french-1862-1930",
+      "y": 1911,
+      "mv": "象征主义",
+      "tags": [
+        "风景",
+        "20世纪",
+        "法国",
+        "象征主义",
+        "氛围",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.83/1921.83_web.jpg",
+      "ratio": 0.705
+    },
+    {
+      "id": "cma-314456",
+      "issue": "2026-09-04",
+      "t": "少女礼赞初升的太阳（苏利耶礼拜）",
+      "a": "乔卡",
+      "aid": "chokha-indian-active-c-1799-1824",
+      "y": 1810,
+      "mv": "拉贾斯坦细密画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "印度",
+        "拉贾斯坦",
+        "民俗",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.151/2018.151_web.jpg",
+      "ratio": 1.411
+    },
+    {
+      "id": "cma-132647",
+      "issue": "2026-09-04",
+      "t": "《圣母升天》草图",
+      "a": "乔瓦尼·巴蒂斯塔·皮亚泽塔",
+      "aid": "giovanni-battista-piazzetta-italian-1682-1754",
+      "y": 1744,
+      "mv": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "草图",
+        "动态",
+        "巴洛克"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.165/1955.165_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-156788",
+      "issue": "2026-09-04",
+      "t": "蒲公英与幼犬图",
+      "a": "俵屋宗达",
+      "aid": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "y": 1620,
+      "mv": "琳派",
+      "tags": [
+        "动物",
+        "17世纪",
+        "日本",
+        "琳派",
+        "装饰性",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.382/1992.382_web.jpg",
+      "ratio": 2.406
+    },
+    {
+      "id": "cma-170795",
+      "issue": "2026-09-04",
+      "t": "巴布尔在加兹尼受其异母弟贾汉吉尔·米尔扎款待",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1744,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "建筑",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.300/2013.300_web.jpg",
+      "ratio": 1.748
+    },
+    {
+      "id": "cma-168366",
+      "issue": "2026-09-04",
+      "t": "白马骑士风景",
+      "a": "让 - 阿希尔·贝努维尔",
+      "aid": "jean-achille-benouville-french-1815-1891",
+      "y": 1846,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "骑马",
+        "椭圆形构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.19/2010.19_web.jpg",
+      "ratio": 0.653
+    },
+    {
+      "id": "cma-140450",
+      "issue": "2026-09-04",
+      "t": "虎丘十二景图册：云岩寺千佛阁与塔",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "15世纪",
+        "中国",
+        "文人画",
+        "塔",
+        "苏州"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.7/1964.371.7_web.jpg",
+      "ratio": 0.769
+    },
+    {
+      "id": "cma-96264",
+      "issue": "2026-09-04",
+      "t": "玛丽·西卡德·大卫肖像",
+      "a": "托马斯·萨利",
+      "aid": "thomas-sully-american-born-england-1783-1872",
+      "y": 1813,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "女性",
+        "红色披肩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1979.2/1916.1979.2_web.jpg",
+      "ratio": 1.29
+    },
+    {
+      "id": "cma-340506",
+      "issue": "2026-09-04",
+      "t": "风竹图",
+      "a": "金镇宇",
+      "aid": "kim-jin-woo-korean-1883-1950",
+      "y": 1934,
+      "mv": "韩国现代水墨",
+      "tags": [
+        "植物",
+        "20世纪",
+        "韩国",
+        "现代",
+        "风力",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2022.91/2022.91_web.jpg",
+      "ratio": 0.423
+    },
+    {
+      "id": "cma-117667",
+      "issue": "2026-09-04",
+      "t": "《八千颂般若波罗蜜多经》手稿第 186 页（正面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "帕拉风格",
+      "tags": [
+        "宗教",
+        "12世纪",
+        "尼泊尔",
+        "手稿",
+        "佛教",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.301.186.a/1938.301.186.a_web.jpg",
+      "ratio": 0.149
+    },
+    {
+      "id": "cma-162090",
+      "issue": "2026-09-04",
+      "t": "海滩习作（背面）",
+      "a": "爱德华·H·波特哈斯特",
+      "aid": "edward-h-potthast-american-1857-1927",
+      "y": 1910,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "光色",
+        "海滩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2001.41.b/2001.41.b_web.jpg",
+      "ratio": 0.794
+    },
+    {
+      "id": "cma-149628",
+      "issue": "2026-09-04",
+      "t": "云山寻寺图",
+      "a": "陈淳",
+      "aid": "chen-chun-chinese-1483-1544",
+      "y": 1522,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "中国",
+        "寻幽",
+        "意境",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.28/1979.28_web.jpg",
+      "ratio": 2.394
+    },
+    {
+      "id": "cma-130980",
+      "issue": "2026-09-04",
+      "t": "天使报喜与耶稣诞生",
+      "a": "小豪梅·费雷尔",
+      "aid": "jaume-ferrer-the-younger-spanish-catalonia-died-c-1460-70",
+      "y": 1457,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "西班牙",
+        "哥特",
+        "叙事",
+        "双联画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.660/1953.660_web.jpg",
+      "ratio": 0.68
+    },
+    {
+      "id": "cma-159736",
+      "issue": "2026-09-04",
+      "t": "芦苇水禽图屏风",
+      "a": "山本梅逸",
+      "aid": "yamamoto-baiitsu-japanese-1783-1856",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "南画",
+        "生态",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.109.2/1997.109.2_web.jpg",
+      "ratio": 0.491
+    },
+    {
+      "id": "cma-170818",
+      "issue": "2026-09-04",
+      "t": "优素福与祖莱哈",
+      "a": "穆什菲克",
+      "aid": "mushfiq-indian-active-early-1600s",
+      "y": 1526,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.315.1/2013.315.1_web.jpg",
+      "ratio": 1.789
+    },
+    {
+      "id": "cma-109248",
+      "issue": "2026-09-04",
+      "t": "玛丽·坎贝尔·斯图尔特",
+      "a": "吉尔伯特·斯图尔特",
+      "aid": "gilbert-stuart-american-born-the-thirteen-colonies-1755-1828",
+      "y": 1815,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "古典",
+        "神态"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.394.2/1927.394.2_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-97147",
+      "issue": "2026-09-04",
+      "t": "受难",
+      "a": "索多马",
+      "aid": "sodoma-italian-1477-1549",
+      "y": null,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "戏剧性",
+        "构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.786/1916.786_web.jpg",
+      "ratio": 1.272
+    },
+    {
+      "id": "cma-314455",
+      "issue": "2026-09-04",
+      "t": "梅瓦尔王比姆·辛格与妃嫔",
+      "a": "乔卡",
+      "aid": "chokha-indian-active-c-1799-1824",
+      "y": 1810,
+      "mv": "拉贾斯坦细密画",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "印度",
+        "拉贾斯坦",
+        "宫廷",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.150/2018.150_web.jpg",
+      "ratio": 1.387
+    },
+    {
+      "id": "cma-148345",
+      "issue": "2026-09-04",
+      "t": "山水册：第四开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "清初文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "小品",
+        "设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.4/1975.64.4_web.jpg",
+      "ratio": 0.919
+    },
+    {
+      "id": "cma-146384",
+      "issue": "2026-09-04",
+      "t": "书法册页",
+      "a": "田能村竹田",
+      "aid": "tanomura-chikuden-japanese-1777-1835",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "书法",
+        "19世纪",
+        "日本",
+        "文人",
+        "墨韵",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.117.1.13/1972.117.1.13_web.jpg",
+      "ratio": 0.768
     }
   ]
 }
