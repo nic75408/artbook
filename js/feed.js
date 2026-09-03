@@ -1,5 +1,5 @@
 // Feed 视图（SPE §7.3）：竖滑 snap、跨期连播、懒加载、日期胶囊、位置记忆
-import { WORDMARK } from "../config.js";
+import { WORDMARK, SUBWORDMARK } from "../config.js";
 import { BrandLockup } from "./icons/BrandEmblem.js";
 import * as data from "./data.js";
 import { navigate } from "./router.js";
@@ -21,7 +21,7 @@ export async function mount(el) {
   el.classList.add("feed");
   el.innerHTML = `
     <header class="feed-header">
-      <div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK })}</div>
+      <div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK, sub: SUBWORDMARK })}</div>
       <button id="goto-favs" aria-label="收藏夹" title="收藏夹">${Icon('action-bookmark-outline', { size: 16, hidden: true })}<span>收藏夹</span></button>
     </header>
     <div class="feed-scroller"></div>

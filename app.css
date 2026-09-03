@@ -159,10 +159,27 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 /* ============================================================ Brand Wordmark @font-face
-   t_e05a68be 定稿方案 C：LXGW WenKai Lite Light（霞鹜文楷·清雅版）
-   只子集「Art Daily」四个字，本地打包 1.6 KB，PWA 离线可用；
-   不含其他字，其它文本自动 fallback 到 var(--serif-zh) (Songti SC / Noto Serif CJK)。
+   t_5206fd7f (2026-09-03) 定稿方案 B · Ink Rubbing：品牌 wordmark 视觉质感升级为
+   书法印刷雕版风。使用 Cormorant SC Regular 600（17c 意大利石刻碑帖风格 small-caps
+   衬线）；只子集大写 "ART DAILY " 7 唯一字母 + 空格，本地打包 2.95 KB，PWA 离线可用。
+   字体子集只含大写字形，wordmark 用 text-transform: uppercase 渲染（见下方
+   .brand-lockup__wordmark），文案本身仍是 config.js 的 "Art Daily"（t_0bb5795e 定的
+   app 名），不改变语义只改变显示大小写。
+
+   历史 @font-face 保留：LXGW WenKai Lite Light「艺术手册」四字，
+   其它页面（offline.html / 空态 fallback）可能仍在用旧字符集。
    @font-face 必须在 :root 之后、组件类之前，字体加载才能在首屏首个渲染时命中。 */
+@font-face {
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./fonts/cormorant-sc-brand.woff2') format('woff2');
+  /* 只声明 "ART DAILY" 7 唯一字母 + 空格 的 unicode-range：
+     A U+0041, D U+0044, I U+0049, L U+004C, R U+0052, T U+0054, Y U+0059,
+     space U+0020。避免浏览器为其它拉丁文本误加载本字体。 */
+  unicode-range: U+0020, U+0041, U+0044, U+0049, U+004C, U+0052, U+0054, U+0059;
+}
 @font-face {
   font-family: 'LXGW WenKai Lite';
   font-style: normal;
@@ -174,13 +191,22 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 
 /* ============================================================ Brand Lockup
-   t_e05a68be：赤拔反馈去掉印章 icon，只保留文字（LXGW WenKai Lite 楷体）。
+   t_5206fd7f 定稿方案 B · Ink Rubbing (墨拓)：
+   - wordmark: "ART DAILY" Cormorant SC 22px/w600 letterSpacing 0.14em
+     + SVG feTurbulence filter 施加飞白 / 边缘磨损 / 墨迹渗透（filter #ink-rubbing
+     在 index.html 顶部 defs 中定义，早于 feed-header 渲染，PWA 离线也可用）
+   - sub:   「每 日 艺 术」Songti SC 10px/w700 letterSpacing 0.5em 金色
+   历史：t_e05a68be 曾把 wordmark 从楷体印章改为 LXGW WenKai Lite 纯字文本；
+        本次改版进一步升级为书法印刷雕版质感，忠实赤拔提供的「天真市集」
+        雕版书法印刷质感参照图。
    emblem 相关 CSS 保留以兼容 endpage/empty 场景未来若需重启 */
 .brand-lockup {
   display: inline-flex;
-  align-items: center;
-  gap: 0;              /* text-only 版：无 emblem，gap 归零 */
+  flex-direction: column;      /* 双行：主字 + 副标题上下堆 */
+  align-items: flex-start;
+  gap: 6px;                    /* 主副标题基线间距（DESIGN.md components.brand-lockup.gap） */
   color: var(--ink);
+  line-height: 1;
 }
 .brand-lockup__emblem {
   /* 兼容保留；BrandLockup 已不生成此节点，此规则仅在旧引用点存在 */
@@ -192,14 +218,37 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 }
 .brand-lockup__emblem svg { display: block; width: 100%; height: 100%; }
 .brand-lockup__wordmark {
-  /* 品牌字标（DESIGN.md typography.brand-wordmark 2026-09-02 更新）：
-     LXGW WenKai Lite Light 24px，字距 0.18em，字体不加载时 fallback Songti SC */
-  font-family: 'LXGW WenKai Lite', var(--serif-zh);
-  font-size: 24px;
-  font-weight: 300;
-  letter-spacing: 0.18em;
+  /* 品牌字标（DESIGN.md typography.brand-wordmark 2026-09-03 定稿方案 B）：
+     Cormorant SC 22px/600 letterSpacing 0.14em；filter=ink-rubbing 施加墨拓质感；
+     字体不加载时 fallback Playfair Display → Georgia → serif（拉丁 fallback 链）。
+     text-transform: uppercase —— 字体子集只含大写字形，文案 "Art Daily" 需大写
+     渲染才能命中子集（否则小写字母 fallback 到 Georgia，与拓印质感断裂）。 */
+  font-family: 'Cormorant SC', 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--ink);
-  line-height: 1.4;
+  line-height: 1;
+  /* SVG filter 引用（filter defs 在 index.html 顶部注入，SSR 无关，纯 CSS 引用）：
+     feTurbulence baseFrequency 0.9 位移字沿 + baseFrequency 0.35 生成飞白 mask。
+     iOS Safari 15+ 完整支持；老 Android 若不支持则回退到"干净衬线"（不影响可读性）。
+     padding 补偿 filter 溢出到容器外的墨点，避免被 clip */
+  filter: url(#ink-rubbing);
+  padding: 2px 1px;
+}
+.brand-lockup__sub {
+  /* 副标题「每 日 艺 术」（DESIGN.md typography.brand-subwordmark 新增）：
+     Songti SC 10px/700 letterSpacing 0.5em 金色。宽字距如钤印，与主字墨色分层。
+     padding-left 0.5em 补偿首字字距，padding-right 0.3em 补偿末字字距，避免被 clip */
+  font-family: var(--serif-zh);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  line-height: 1;
+  padding-left: 0.5em;
+  padding-right: 0.3em;
 }
 /* 空态/endpage 中较小场景的等比缩放（emblem 已废用，只影响 wordmark） */
 .empty .brand-lockup__emblem,
@@ -210,6 +259,10 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 .empty .brand-lockup__wordmark,
 .endpage .brand-lockup__wordmark {
   font-size: 18px;
+}
+.empty .brand-lockup__sub,
+.endpage .brand-lockup__sub {
+  font-size: 9px;
 }
 
 /* ============================================================ Brand Wordmark

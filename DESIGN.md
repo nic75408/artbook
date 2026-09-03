@@ -44,30 +44,38 @@ typography:
     # DEPRECATED: use brand-wordmark instead
     alias: "{typography.brand-wordmark}"
   brand-wordmark:
-    # t_e05a68be (2026-09-02): switched from PingFang SC to LXGW WenKai Lite Light
-    # 楷体 (self-hosted 1.6KB subset of the legacy brand glyphs, retained at
-    # fonts/lxgw-wenkai-lite-brand.woff2 for CJK fallback; t_0bb5795e renamed the
-    # wordmark text to "Art Daily", which now renders via the Latin fallback font).
-    # PWA offline works via APP_SHELL cache. Fallback: Songti SC.
-    fontFamily: "LXGW WenKai Lite, Songti SC, Noto Serif CJK SC, serif"
-    fontSize: 24px
-    fontWeight: 300
-    lineHeight: 1.4
-    letterSpacing: "0.18em"
+    # t_5206fd7f (2026-09-03) 定稿方案 B · Ink Rubbing：品牌 wordmark 视觉质感升级为
+    # 书法印刷雕版风（参照赤拔提供的「天真市集」截图）。使用 Cormorant SC Regular 600
+    # （17c 意大利石刻碑帖风格 small-caps 衬线）；文案沿用 t_0bb5795e 定的 "ART DAILY"，
+    # 只子集 "ART DAILY" 7 唯一字母 + 空格，本地打包 1.26 KB，PWA 离线可用。
+    # Fallback: Playfair Display → Georgia → serif.
+    # SVG filter (ink-rubbing) 属实现细节，见 Decision Log § 2026-09-03；
+    # schema 只塞合法 typography sub-token（fontFamily/fontSize/fontWeight/
+    # lineHeight/letterSpacing/fontFeature/fontVariation）。
+    fontFamily: "Cormorant SC, Playfair Display, Georgia, 'Times New Roman', serif"
+    fontSize: 22px
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "0.14em"
+  brand-subwordmark:
+    # t_5206fd7f (2026-09-03) 新增：副标题「每 日 艺 术」。Songti SC 10px/700
+    # letterSpacing 0.5em。color: {colors.gold}、padding 补偿字距溢出属组件层实
+    # 现细节，见 components.brand-lockup 注释与 Decision Log § 2026-09-03；schema
+    # 只塞合法 typography sub-token。
+    fontFamily: "Songti SC, Noto Serif CJK SC, serif"
+    fontSize: 10px
+    fontWeight: 700
+    lineHeight: 1
+    letterSpacing: "0.5em"
   brand-mark:
     # DEPRECATED: use brand-wordmark directly (emblem removed t_e05a68be)
     alias: "{typography.brand-wordmark}"
-  brand-emblem:
-    # DEPRECATED t_e05a68be: 印章 icon removed per owner feedback. API kept in
-    # BrandEmblem.js for potential future reuse (launch splash, favicon variants).
-    kind: svg-emblem
-    source: "js/icons/BrandEmblem.js"
-    size: 36px
-    borderThickness: 2px
-    innerBorderThickness: 1px
-    dotSize: 4px
-    dotPosition: "top-right 4px"
-    color: "{colors.gold}"
+  # brand-emblem: DEPRECATED t_e05a68be — 印章 icon 已从首页拿掉，API 保留在
+  # js/icons/BrandEmblem.js 供未来复用（启动屏、favicon 变体）。历史规格：
+  #   kind=svg-emblem, source=js/icons/BrandEmblem.js,
+  #   size=36px, borderThickness=2px/1px, dot 4px top-right, color={colors.gold}
+  # 见 Decision Log § 2026-09-02 t_b6d76c90 (印章方案 B 定稿) 与 § 2026-09-02
+  # t_e05a68be (印章下线)。此处不建 typography sub-token，避免 schema 污染。
   work-title:
     fontFamily: "Songti SC, Noto Serif CJK SC, serif"
     fontSize: 20px
@@ -107,10 +115,20 @@ typography:
 
 components:
   brand-lockup:
-    # t_e05a68be: emblem removed. Text-only wordmark, left-aligned to page-gutter.
-    kind: text-only
-    emblemGap: 0
-    align: "left"
+    # t_5206fd7f (2026-09-03) 定稿方案 B · Ink Rubbing (墨拓)：
+    # - wordmark: "ART DAILY" Cormorant SC 22px/w600 letterSpacing 0.14em
+    #   + SVG feTurbulence filter (id=ink-rubbing) 施加飞白/边缘磨损/墨迹渗透
+    # - sub:   「每 日 艺 术」Songti SC 10px/w700 letterSpacing 0.5em
+    #   色值 {colors.gold}；padding-left 0.5em / padding-right 0.3em 补偿字距溢出
+    # - layout: flex column, gap 6px, align-items flex-start
+    # 历史：t_e05a68be 曾把 wordmark 从楷体印章改为 LXGW WenKai Lite 纯字文本；
+    # 本次改版进一步升级为书法印刷雕版质感，忠实赤拔提供的「天真市集」雕
+    # 版书法印刷质感参照图。上述 layout/gap/color/filter 均属组件级实现细节，
+    # 完整推导见 Decision Log § 2026-09-03；schema 只塞合法 component sub-token
+    # （backgroundColor/textColor/typography/rounded/padding/size/height/width）。
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    typography: "{typography.brand-wordmark}"
   app-root:
     backgroundColor: "{colors.bg}"
     textColor: "{colors.ink}"
@@ -1091,3 +1109,30 @@ See `evidence/t_1bfbf0ed/GESTURE-MATRIX.md` for the complete
   Sketch evidence: `sketches/t_b944f6c5/{A-strong-context,B-publication,
   C-breadcrumb}.html` + `evidence/*.png` renders + `EVAL.md`
   scoring.
+- **2026-09-03 — Feed header brand wordmark visual upgrade: ink-rubbing
+  texture on "ART DAILY" + subtitle "每 日 艺 术" (t_4ab2931a, implementing
+  spec from design card t_5206fd7f):** Product/design owner provided a
+  reference screenshot of "天真市集" poster (woodblock-carved calligraphy
+  with heavy ink, feathery edges, and paper texture) and requested the same
+  "书法印刷质感" for the app's brand title. Implemented per t_5206fd7f's
+  self-adjudicated variant review (B "Ink Rubbing" 41/50 vs A 35/50, C
+  31/50): `config.js` wordmark text stays "ART DAILY" (set by t_0bb5795e's
+  app rename) with new `SUBWORDMARK="每 日 艺 术"` export; `js/feed.js`
+  passes both to `BrandLockup()`; `app.css` adds `@font-face` for Cormorant
+  SC (subset to 7 unique glyphs "ART DAILY " + space = 2.95KB WOFF2),
+  `.brand-lockup` becomes `flex-direction: column` with 6px gap,
+  `.brand-lockup__wordmark` gets `filter: url(#ink-rubbing)` + 2px padding
+  for filter overflow, new `.brand-lockup__sub` gets gold color + 0.5em
+  letter-spacing + padding compensation; `index.html` injects inline
+  `<svg><defs><filter id="ink-rubbing">...</filter></defs></svg>` before
+  `<main>` (zero external dependency, PWA offline-ready); `sw.js`
+  `CACHE_APP` bumped (`artdaily-app-v1` → `artdaily-app-v2`) and adds
+  `./fonts/cormorant-sc-brand.woff2` to `APP_SHELL`. DESIGN.md schema:
+  `typography.brand-wordmark` updated to Cormorant SC 22px/600
+  letter-spacing 0.14em (filter is an implementation detail, not a schema
+  token), new `typography.brand-subwordmark` (Songti SC 10px/700
+  letter-spacing 0.5em gold), `components.brand-lockup` switches from the
+  legacy `kind: text-only` shape to the standard component sub-token set
+  (`backgroundColor`/`textColor`/`typography`) matching schema convention.
+  Verification: `bash ~/.hermes/scripts/artbook-prod-smoke.sh` against this
+  branch — see task t_4ab2931a completion for exit code and checks.

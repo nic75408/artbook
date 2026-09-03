@@ -48,9 +48,10 @@
   <link rel="preconnect" href="https://openaccess-cdn.clevelandart.org" crossorigin>
   <link rel="preconnect" href="https://images.metmuseum.org" crossorigin>
 
-  <!-- 品牌字标 web font（t_e05a68be 方案 C：LXGW WenKai Lite 子集品牌四字 1.6KB）：
-       preload 保证首屏「Art Daily」字标即刻用楷体渲染，不出现 FOUT
-       （fallback Songti SC → LXGW WenKai 的字形跳变）；1.6KB 无带宽压力 -->
+  <!-- 品牌字标 web font（t_5206fd7f 方案 B：Cormorant SC 子集 "ART DAILY" 7 字母 2.95KB）：
+       preload 保证首屏「Art Daily」字标即刻用石刻碑帖 SC 渲染，不出现 FOUT。
+       历史 LXGW WenKai Lite 品牌四字子集保留（1.6KB），其它页面空态可能仍在用。 -->
+  <link rel="preload" href="fonts/cormorant-sc-brand.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lxgw-wenkai-lite-brand.woff2" as="font" type="font/woff2" crossorigin>
 
   <style>/* 内联关键 CSS，避免首屏白屏 */
@@ -59,6 +60,28 @@
   </style>
 </head>
 <body>
+  <!-- SVG filter defs：品牌 wordmark 使用的墨拓滤镜（DESIGN.md typography.brand-wordmark
+       方案 B · Ink Rubbing）。必须在使用它的 .brand-lockup__wordmark 之前定义，
+       内联无外网依赖，PWA 离线首屏即可用。宽高 0，绝对定位到 -1px，不占布局。 -->
+  <svg width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="ink-rubbing" x="-5%" y="-15%" width="110%" height="130%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" result="noise"/>
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.4" xChannelSelector="R" yChannelSelector="G" result="displaced"/>
+        <feTurbulence type="fractalNoise" baseFrequency="0.35" numOctaves="1" seed="9" result="grain"/>
+        <feColorMatrix in="grain" type="matrix"
+          values="0 0 0 0 1
+                  0 0 0 0 1
+                  0 0 0 0 1
+                  0 0 0 -1.1 1.15" result="grainMask"/>
+        <feComposite in="displaced" in2="grainMask" operator="in" result="rubbed"/>
+        <feMerge>
+          <feMergeNode in="displaced"/>
+          <feMergeNode in="rubbed"/>
+        </feMerge>
+      </filter>
+    </defs>
+  </svg>
   <main id="view" aria-live="polite"></main>
   <div id="toast" role="status" hidden></div>
   <script type="module" src="js/app.js"></script>
