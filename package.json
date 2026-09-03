@@ -1,7 +1,7 @@
 {
   "name": "artbook",
   "version": "1.0.0",
-  "description": "艺术手册 Artbook - 每日更新 30 幅艺术史杰作的私人画册 PWA",
+  "description": "Art Daily Artbook - 每日更新 30 幅艺术史杰作的私人画册 PWA",
   "private": true,
   "scripts": {
     "dev": "http-server -p 8888 -c-1 .",

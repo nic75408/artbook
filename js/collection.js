@@ -4,7 +4,8 @@ import { back, navigate, writeFolioCtx } from "./router.js";
 import { esc } from "./ui.js";
 import { Icon } from "./ui.js";
 import { attachEdgeSwipeBack } from "./router.js";
-import { BrandWordmark } from "./icons/BrandWordmark.js";
+import { BrandLockup } from "./icons/BrandEmblem.js";
+import { WORDMARK } from "../config.js";
 
 async function loadCatalogSafe() {
   try {
@@ -85,7 +86,7 @@ function bindGrid(el, works, folioCtx, cardOpts = {}) {
 }
 
 function failState(el, cb) {
-  el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
+  el.innerHTML = `<div class="empty"><div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK })}</div>
     <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
   el.querySelector("#retry").addEventListener("click", cb);
 }

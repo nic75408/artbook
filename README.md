@@ -1,4 +1,4 @@
-# 艺术手册 Artbook
+# Art Daily Artbook
 
 每日更新 30 幅艺术史杰作的私人画册 PWA——竖滑浏览、点入赏析、顺藤摸瓜看同画家/同流派作品。
 
@@ -23,7 +23,7 @@ launchd com.artbook.pipeline（每日 05:00）──▶ scripts/run_daily.sh ─
                                        GitHub Pages（main 分支根目录）
 ```
 
-数据 schema 与完整产品规格见仓库所在项目的《艺术手册-SPE.md》。
+数据 schema 与完整产品规格见仓库所在项目的《Art Daily-SPE.md》。
 
 ## 运维说明
 

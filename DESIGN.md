@@ -45,7 +45,9 @@ typography:
     alias: "{typography.brand-wordmark}"
   brand-wordmark:
     # t_e05a68be (2026-09-02): switched from PingFang SC to LXGW WenKai Lite Light
-    # 楷体 (self-hosted 1.6KB subset of only "艺术手册" four glyphs at fonts/lxgw-wenkai-lite-brand.woff2).
+    # 楷体 (self-hosted 1.6KB subset of the legacy brand glyphs, retained at
+    # fonts/lxgw-wenkai-lite-brand.woff2 for CJK fallback; t_0bb5795e renamed the
+    # wordmark text to "Art Daily", which now renders via the Latin fallback font).
     # PWA offline works via APP_SHELL cache. Fallback: Songti SC.
     fontFamily: "LXGW WenKai Lite, Songti SC, Noto Serif CJK SC, serif"
     fontSize: 24px
@@ -378,7 +380,7 @@ Components map to CSS blocks in `app.css`:
 - **Toast (`#toast`):** Fixed, centered pill at bottom, dark ink background and light
   text for legible transient messages.
 - **Feed header (`.feed-header`):** Fixed at top with brand wordmark (楷体
-  "艺术手册" in LXGW WenKai Lite Light 24px) left-aligned to `--page-gutter`
+  "Art Daily" in LXGW WenKai Lite Light 24px) left-aligned to `--page-gutter`
   (22px), and a subtle icon button (bookmark shortcut) rendered as a pill
   with soft shadow on the right. Since t_e05a68be (2026-09-02) the seal
   emblem previously bundled by `BrandLockup` is removed — the wordmark alone
@@ -750,7 +752,7 @@ See `evidence/t_1bfbf0ed/GESTURE-MATRIX.md` for the complete
   removes the blur.
 - **2026-09-02 — Brand wordmark = static SVG glyphs (Kaiti SC path-baked):**
   Product/design owner asked for an artistic treatment of the top-left
-  "艺术手册" wordmark instead of default system font. Three-variant self-
+  "Art Daily" wordmark instead of default system font. Three-variant self-
   adjudicated review (A tuned Songti + gold dot + English subtitle, B path-
   baked Kaiti SC SVG + gold seal, C ZCOOL XiaoWei web font + gold rule).
   Playwright iPhone 390×844 screenshots on the current homepage layout with
@@ -808,7 +810,7 @@ See `evidence/t_1bfbf0ed/GESTURE-MATRIX.md` for the complete
 - **2026-09-02 — Homepage 4-item revision (t_e05a68be):** Product/design owner
   gave four grouped feedback items on the homepage, taken from a hand-annotated
   iPhone screenshot: (1) top-left title area — drop the seal emblem, keep only
-  the "艺术手册" wordmark, in a "thin & elongated calligraphy" font (瘦金体式),
+  the "Art Daily" wordmark, in a "thin & elongated calligraphy" font (瘦金体式),
   left-aligned to page gutter (not the 20px `--space-xl` that had it misaligned
   with the artwork edge); (2) frame refinement — narrow-scroll artworks like
   达摩渡江图 (ratio 4.07) had 55px side gutters, out of proportion with the

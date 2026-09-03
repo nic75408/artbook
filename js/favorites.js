@@ -4,7 +4,8 @@ import * as data from "./data.js";
 import { back, navigate, writeFolioCtx } from "./router.js";
 import { esc, Icon } from "./ui.js";
 import { attachEdgeSwipeBack } from "./router.js";
-import { BrandWordmark } from "./icons/BrandWordmark.js";
+import { BrandLockup } from "./icons/BrandEmblem.js";
+import { WORDMARK } from "../config.js";
 import { fillMasonry } from "./collection.js";
 
 const KEY = "artbook.favs";
@@ -63,7 +64,7 @@ export async function mount(el) {
   const body = el.querySelector("#fav-body");
   if (!favs.length) {
     body.innerHTML = `<div class="empty">
-      <div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
+      <div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK })}</div>
       <p>还没有收藏。在画作下点亮书签，它会出现在这里。</p>
     </div>`;
     return;

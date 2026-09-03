@@ -1,4 +1,4 @@
-/* 艺术手册 —— 视觉规范（SPE §7.2）
+/* Art Daily —— 视觉规范（SPE §7.2）
  * 克制的美术馆调性：米白纸感、衬线字、大留白、慢动效
  */
 
@@ -160,7 +160,7 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
 
 /* ============================================================ Brand Wordmark @font-face
    t_e05a68be 定稿方案 C：LXGW WenKai Lite Light（霞鹜文楷·清雅版）
-   只子集「艺术手册」四个字，本地打包 1.6 KB，PWA 离线可用；
+   只子集「Art Daily」四个字，本地打包 1.6 KB，PWA 离线可用；
    不含其他字，其它文本自动 fallback 到 var(--serif-zh) (Songti SC / Noto Serif CJK)。
    @font-face 必须在 :root 之后、组件类之前，字体加载才能在首屏首个渲染时命中。 */
 @font-face {
