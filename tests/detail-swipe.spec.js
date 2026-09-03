@@ -256,9 +256,9 @@ test('相关推荐缩略图点击仍能跳转（与手势翻页并存）', async
   expect(await page.evaluate(() => location.hash)).toBe(`#/work/${target}`);
 });
 
-test('关闭按钮仍可返回上级', async ({ page }) => {
+test('返回按钮仍可返回上级', async ({ page }) => {
   await gotoIssueWork(page, 0);
-  await page.locator('.detail-close').click();
+  await page.locator('.detail-back').click();
   await page.waitForTimeout(500);
   expect(await page.evaluate(() => location.hash)).not.toContain('/work/');
 });

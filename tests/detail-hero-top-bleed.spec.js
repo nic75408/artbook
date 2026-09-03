@@ -100,7 +100,7 @@ test.describe('详情页头图顶部出血：图片延伸到状态栏后面', ()
           hero: box('#view .detail-hero'),
           ph: box('#view .detail-hero .ph'),
           img: box('#view .detail-hero img'),
-          close: box('#view .detail-close'),
+          back: box('#view .detail-back'),
           scrollWidth: document.documentElement.scrollWidth,
           innerWidth: window.innerWidth,
         };
@@ -119,10 +119,10 @@ test.describe('详情页头图顶部出血：图片延伸到状态栏后面', ()
       // 安全区注入生效才说明「不被 safe-area 推下去」这条真的被测到了
       expect(m.safeT).toBe(`${SAFE_TOP}px`);
 
-      // 标准 2：关闭按钮随安全区下移，完整落在状态栏下方
-      expect(m.close.top).toBeGreaterThanOrEqual(SAFE_TOP);
-      expect(m.close.width).toBeGreaterThan(0);
-      expect(m.close.height).toBeGreaterThan(0);
+      // 标准 2：返回按钮随安全区下移，完整落在状态栏下方
+      expect(m.back.top).toBeGreaterThanOrEqual(SAFE_TOP);
+      expect(m.back.width).toBeGreaterThan(0);
+      expect(m.back.height).toBeGreaterThan(0);
 
       // 标准 3：无横向溢出
       expect(m.scrollWidth).toBe(m.innerWidth);
@@ -130,14 +130,14 @@ test.describe('详情页头图顶部出血：图片延伸到状态栏后面', ()
       expect(m.hero.left).toBe(0);
       expect(m.hero.width).toBe(IPHONE_14_PRO.width);
 
-      // 标准 2 续：关闭按钮真的可点击（未被头图/图片盖住）
-      const cx = Math.round(m.close.left + m.close.width / 2);
-      const cy = Math.round(m.close.top + m.close.height / 2);
-      const hitsClose = await page.evaluate(
-        ([x, y]) => !!document.elementFromPoint(x, y)?.closest('.detail-close'),
+      // 标准 2 续：返回按钮真的可点击（未被头图/图片盖住）
+      const cx = Math.round(m.back.left + m.back.width / 2);
+      const cy = Math.round(m.back.top + m.back.height / 2);
+      const hitsBack = await page.evaluate(
+        ([x, y]) => !!document.elementFromPoint(x, y)?.closest('.detail-back'),
         [cx, cy]
       );
-      expect(hitsClose, '关闭按钮中心点必须命中按钮本身').toBe(true);
+      expect(hitsBack, '返回按钮中心点必须命中按钮本身').toBe(true);
     });
   }
 });

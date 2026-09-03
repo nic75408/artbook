@@ -646,12 +646,28 @@ function attachGestures(el) {
     startScrollY = Math.max(window.scrollY, 0);
     axis = null;
     disqualified = false;
+    // t_a312968d: 右滑边缘返回手势检测 —— 起点在右边缘 30px 内
+    const EDGE_ZONE = 30;
+    if (window.innerWidth - sx <= EDGE_ZONE) {
+      // 右边缘起点，标记为返回手势候选
+      axis = 'edge-back';
+    }
   };
 
   const onMove = (e) => {
     if (disqualified) return;
     dx = e.clientX - sx;
     dy = e.clientY - sy;
+    // t_a312968d: 右滑边缘返回手势 —— 已在右边缘起点，只检测向左滑动
+    if (axis === 'edge-back') {
+      // 向左滑动时提供视觉反馈（透明度衰减）
+      if (dx < 0) {
+        const EDGE_THRESHOLD = 80;
+        const fade = Math.min(Math.abs(dx) / EDGE_THRESHOLD, 0.3);
+        detail.style.opacity = String(1 - fade);
+      }
+      return;
+    }
     if (axis === null) {
       if (Math.hypot(dx, dy) < DIR_JUDGE_DIST) return;
       if (Math.abs(dy) > Math.abs(dx)) {
@@ -722,6 +738,17 @@ function attachGestures(el) {
   };
 
   const onEnd = () => {
+    // t_a312968d: 右滑边缘返回手势 —— 向左滑动≥80px 触发返回
+    if (axis === 'edge-back') {
+      detail.style.opacity = "";
+      const EDGE_THRESHOLD = 80;
+      if (dx < -EDGE_THRESHOLD) {
+        // 触发返回
+        back();
+      }
+      axis = null;
+      return;
+    }
     if (disqualified || axis === null) {
       detail.style.opacity = "";
       detail.style.transform = "";
