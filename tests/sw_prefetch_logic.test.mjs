@@ -318,7 +318,7 @@ console.log("== 离线导航 ==");
   const res = await resPromise;
   assert(res && res.status === 200, "离线: 导航回退缓存 index.html");
   const html = await res.clone().text();
-  assert(html.includes("艺术手册"), "离线: 回退内容为应用壳（含字标）");
+  assert(html.includes("Art Daily"), "离线: 回退内容为应用壳（含字标）");
 }
 
 // ============================================================

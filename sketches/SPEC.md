@@ -243,7 +243,7 @@ s.querySelector(".learn-inline").addEventListener("click", (ev) => {
 
 **卡验收 3**: 按钮新设计与首页整体色调协调
 → 只用 `--gold`（#8C6D3F）和 `--ink-2`（#6B6558），零黑填色、零阴影，
-  与页面已用的衬线大标题（艺术手册 / 雷神图屏风）同一字体族。
+  与页面已用的衬线大标题（Art Daily / 雷神图屏风）同一字体族。
   DESIGN.md `learn-button` token 更新见 §5。
 
 **卡验收 4**: 首页画作卡片和标题居中，下方有一个与页面风格一致的「了解更多」入口

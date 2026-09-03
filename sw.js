@@ -1,4 +1,4 @@
-/* 艺术手册 Service Worker（SPE §7.7）
+/* Art Daily Service Worker（SPE §7.7）
  * App Shell：network-first，失败回缓存
  * data/*.json：stale-while-revalidate
  * 跨域博物馆图片：不拦截不缓存（依赖浏览器 HTTP 缓存）
@@ -19,7 +19,7 @@
  *   离线时详情页/首页能连图一起显示（验收标准 5 要求文字+图片都在）
  * - 页面发 PREFETCH_IMAGES → 后台预缓存当期 feed 图片
  */
-const CACHE_APP = "artbook-app-v29";
+const CACHE_APP = "artdaily-app-v1";
 // 图片单独一个缓存桶：数量多、体积大，需要独立的容量上限与淘汰策略，
 // 不能和 App Shell 混在一起（否则清理 shell 会误删图片，反之亦然）
 const CACHE_IMG = "artbook-img-v1";
@@ -55,7 +55,7 @@ const APP_SHELL = [
   "./js/icons/Icon.js",
   "./js/icons/inline.js",
   // t_e05a68be：品牌字标 web font（LXGW WenKai Lite，子集品牌四字 1.6KB）
-  // 必须进 App Shell，PWA 离线时首屏「艺术手册」才能保持楷体字标
+  // 必须进 App Shell，PWA 离线时首屏「Art Daily」才能保持楷体字标
   "./fonts/lxgw-wenkai-lite-brand.woff2",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -273,7 +273,7 @@ self.addEventListener("fetch", (e) => {
           if (offline) return offline;
           // 极端情况：offline.html 也缺失 → 返回一个最小 HTML 避免白屏
           return new Response(
-            "<!doctype html><meta charset='utf-8'><title>艺术手册</title><style>body{font-family:system-ui,sans-serif;text-align:center;padding:20vh 20px;background:#F5F1EA;color:#1D1B16}</style><body><h1>艺术手册</h1><p>加载失败，请检查网络连接</p>",
+            "<!doctype html><meta charset='utf-8'><title>Art Daily</title><style>body{font-family:system-ui,sans-serif;text-align:center;padding:20vh 20px;background:#F5F1EA;color:#1D1B16}</style><body><h1>Art Daily</h1><p>加载失败，请检查网络连接</p>",
             { status: 200, headers: { "Content-Type": "text/html; charset=utf-8" } }
           );
         });

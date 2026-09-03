@@ -8,7 +8,7 @@
 
 ## 1. 根因确认（先修白屏，再谈视觉）
 
-**问题**：`js/app.js` 注册了路由 `#/artist/*` 和 `#/tag/*`（line 26-27），但**没有 import `mountArtist` / `mountTag`**——ES module 里未定义的引用会让整个 initApp 里的 `register(...)` 抛 `ReferenceError`，导致所有路由失效、首页也进不去（跟艺术手册踩过的坑 §1 是同一类：模块图整段停摆）。
+**问题**：`js/app.js` 注册了路由 `#/artist/*` 和 `#/tag/*`（line 26-27），但**没有 import `mountArtist` / `mountTag`**——ES module 里未定义的引用会让整个 initApp 里的 `register(...)` 抛 `ReferenceError`，导致所有路由失效、首页也进不去（跟Art Daily踩过的坑 §1 是同一类：模块图整段停摆）。
 
 **验证**：任意作品详情页点击"作者名"或"标签 pill"，都会 navigate 到 `#/artist/<aid>` 或 `#/tag/<name>`，但页面白屏，console 报错。
 

@@ -4,7 +4,8 @@ import * as data from "./data.js";
 import { back, navigate, readFolioCtx, writeFolioCtx } from "./router.js";
 import { isFav, toggleFav } from "./favorites.js";
 import { esc, icons, toast, Icon } from "./ui.js";
-import { BrandWordmark } from "./icons/BrandWordmark.js";
+import { BrandLockup } from "./icons/BrandEmblem.js";
+import { WORDMARK } from "../config.js";
 import { POS_KEY } from "./feed.js";
 import { markViewed } from "./viewed.js";
 
@@ -22,13 +23,13 @@ export async function mount(el, { id }) {
   try {
     work = await data.getWork(id);
   } catch {
-    el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK })}</div>
       <p>暂时加载不出来</p><button class="action-btn" id="retry">重试</button></div>`;
     el.querySelector("#retry").addEventListener("click", () => navigate(`#/work/${id}`));
     return;
   }
   if (!work) {
-    el.innerHTML = `<div class="empty"><div class="wordmark brand-mark">${BrandWordmark({ withSeal: false })}</div>
+    el.innerHTML = `<div class="empty"><div class="wordmark brand-lockup">${BrandLockup({ label: WORDMARK })}</div>
       <p>作品数据缺失</p></div>`;
     return;
   }

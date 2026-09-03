@@ -51,7 +51,7 @@ const cacheState = await page.evaluate(async () => {
   return out;
 });
 const allUrls = Object.values(cacheState).flat();
-const appCacheName = Object.keys(cacheState).find((n) => n.startsWith("artbook-app"));
+const appCacheName = Object.keys(cacheState).find((n) => n.startsWith("artdaily-app"));
 const imgCacheName = Object.keys(cacheState).find((n) => n.startsWith("artbook-img"));
 
 // 当期期号从页面数据里取，不硬编码日期（否则明天就失效）
