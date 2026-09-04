@@ -14430,6 +14430,530 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1972.117.1.13/1972.117.1.13_web.jpg",
       "ratio": 0.768
+    },
+    {
+      "id": "cma-135265",
+      "issue": "2026-09-05",
+      "t": "斯特凡尼娜·普里米奇莱·卡拉法，西切拉莱侯爵夫人兼蒙特亚西公爵夫人",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas-french-1834-1917",
+      "y": 1875,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "德加"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.28/1958.28_web.jpg",
+      "ratio": 1.255
+    },
+    {
+      "id": "cma-147607",
+      "issue": "2026-09-05",
+      "t": "鲱鱼静物",
+      "a": "让 - 西梅翁·夏尔丹",
+      "aid": "jean-simeon-chardin-french-1699-1779",
+      "y": 1735,
+      "mv": "洛可可",
+      "tags": [
+        "静物",
+        "18世纪",
+        "法国",
+        "光影",
+        "夏尔丹",
+        "厨房场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.1/1974.1_web.jpg",
+      "ratio": 1.235
+    },
+    {
+      "id": "cma-135430",
+      "issue": "2026-09-05",
+      "t": "龙虎图",
+      "a": "牧溪",
+      "aid": "fachang-muqi-chinese-1220-1280",
+      "y": 1250,
+      "mv": "禅画",
+      "tags": [
+        "水墨",
+        "13世纪",
+        "中国",
+        "禅画",
+        "龙虎",
+        "南宋"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.427/1958.427_web.jpg",
+      "ratio": 1.475
+    },
+    {
+      "id": "cma-128364",
+      "issue": "2026-09-05",
+      "t": "戴耳环的年轻女子",
+      "a": "皮埃尔-奥古斯特·雷诺阿",
+      "aid": "pierre-auguste-renoir-french-1841-1919",
+      "y": 1905,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "法国",
+        "色彩",
+        "雷诺阿",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.324/1951.324_web.jpg",
+      "ratio": 1.203
+    },
+    {
+      "id": "cma-140449",
+      "issue": "2026-09-05",
+      "t": "虎丘十二景图册·剑泉",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "15世纪",
+        "中国",
+        "园林",
+        "苏州",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.6/1964.371.6_web.jpg",
+      "ratio": 0.752
+    },
+    {
+      "id": "cma-124796",
+      "issue": "2026-09-05",
+      "t": "《圣塞巴斯蒂安殉难》习作",
+      "a": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "aid": "giovanni-battista-tiepolo-italian-1696-1770",
+      "y": 1739,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教题材",
+        "18世纪",
+        "意大利",
+        "巴洛克",
+        "素描稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.277/1946.277_web.jpg",
+      "ratio": 1.724
+    },
+    {
+      "id": "cma-157104",
+      "issue": "2026-09-05",
+      "t": "默东低地的塞纳河",
+      "a": "约翰·巴托尔德·琼金",
+      "aid": "johan-barthold-jongkind-dutch-1819-1891",
+      "y": 1865,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "水景",
+        "巴黎郊区"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1993.236/1993.236_web.jpg",
+      "ratio": 0.706
+    },
+    {
+      "id": "cma-137924",
+      "issue": "2026-09-05",
+      "t": "《鹦鹉故事七十则》第八夜：莲花池景",
+      "a": "古吉拉特画派",
+      "aid": "gujarati-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "16世纪",
+        "印度",
+        "叙事",
+        "莲花",
+        "手抄本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.59.a/1962.279.59.a_web.jpg",
+      "ratio": 1.624
+    },
+    {
+      "id": "cma-148366",
+      "issue": "2026-09-05",
+      "t": "莎乐美与施洗者圣约翰的头颅",
+      "a": "雅各布·达克",
+      "aid": "jacob-duck-dutch-c-1600-1667",
+      "y": 1600,
+      "mv": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "17世纪",
+        "荷兰",
+        "戏剧性",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.79/1975.79_web.jpg",
+      "ratio": 1.298
+    },
+    {
+      "id": "cma-122341",
+      "issue": "2026-09-05",
+      "t": "阿吉朗德侯爵夫人肖像",
+      "a": "弗朗索瓦·于贝尔·德鲁埃",
+      "aid": "francois-hubert-drouais-french-1727-1775",
+      "y": 1759,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "贵族",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.638/1942.638_web.jpg",
+      "ratio": 1.237
+    },
+    {
+      "id": "cma-159739",
+      "issue": "2026-09-05",
+      "t": "雪景图",
+      "a": "与谢芜村",
+      "aid": "yosa-buson-japanese-1716-1783",
+      "y": 1770,
+      "mv": "南画",
+      "tags": [
+        "雪景",
+        "18世纪",
+        "日本",
+        "留白",
+        "文人画",
+        "山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.111/1997.111_web.jpg",
+      "ratio": 2.486
+    },
+    {
+      "id": "cma-147522",
+      "issue": "2026-09-05",
+      "t": "逃往埃及途中的休息",
+      "a": "夏尔·普尔松",
+      "aid": "charles-poerson-french-1609-1667",
+      "y": 1640,
+      "mv": "古典主义",
+      "tags": [
+        "宗教题材",
+        "17世纪",
+        "法国",
+        "古典主义",
+        "普桑风格",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.32/1973.32_web.jpg",
+      "ratio": 0.767
+    },
+    {
+      "id": "cma-128390",
+      "issue": "2026-09-05",
+      "t": "施洗者圣约翰",
+      "a": "迪里克·鲍茨",
+      "aid": "dieric-bouts-netherlandish-1415-1475",
+      "y": 1475,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教题材",
+        "15世纪",
+        "尼德兰",
+        "早期文艺复兴",
+        "雕塑感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.354/1951.354_web.jpg",
+      "ratio": 1.561
+    },
+    {
+      "id": "cma-137379",
+      "issue": "2026-09-05",
+      "t": "《鹦鹉故事》第十四夜：以猴肠制琴",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "16世纪",
+        "印度",
+        "神话",
+        "音乐",
+        "莫卧儿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.108.b/1962.279.108.b_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-84662",
+      "issue": "2026-09-05",
+      "t": "橙色的基督",
+      "a": "莫里斯·德尼",
+      "aid": "maurice-denis-french-1870-1943",
+      "y": 1889,
+      "mv": "纳比派",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "法国",
+        "象征主义",
+        "纳比派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.107/2020.107_web.jpg",
+      "ratio": 1.24
+    },
+    {
+      "id": "cma-142474",
+      "issue": "2026-09-05",
+      "t": "圣安德烈受难像，下方为圣方济各与圣保罗",
+      "a": "贝林吉耶罗",
+      "aid": "berlinghiero-italian-before-1242",
+      "y": 1230,
+      "mv": "拜占庭风格",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "意大利",
+        "拜占庭风格",
+        "十字架",
+        "圣徒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.237.b/1966.237.b_web.jpg",
+      "ratio": 3.191
+    },
+    {
+      "id": "cma-173316",
+      "issue": "2026-09-05",
+      "t": "埃迪维尔",
+      "a": "塞缪尔·哈尔佩特",
+      "aid": "samuel-halpert-american-born-russian-empire-now-poland-1884-1930",
+      "y": 1917,
+      "mv": "现代主义",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "哈尔佩特",
+        "乡村"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.1408/1925.1408_web.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "cma-132931",
+      "issue": "2026-09-05",
+      "t": "诸家山水册：溪山泛舟",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "文人画",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.9/1955.37.9_web.jpg",
+      "ratio": 0.754
+    },
+    {
+      "id": "cma-124084",
+      "issue": "2026-09-05",
+      "t": "爱的告白",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1720,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "爱情",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.86/1944.86_web.jpg",
+      "ratio": 1.256
+    },
+    {
+      "id": "cma-144270",
+      "issue": "2026-09-05",
+      "t": "隐士圣保罗",
+      "a": "马蒂亚·普雷蒂",
+      "aid": "mattia-preti-italian-1613-1699",
+      "y": 1663,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "隐士",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.109/1969.109_web.jpg",
+      "ratio": 1.357
+    },
+    {
+      "id": "cma-154005",
+      "issue": "2026-09-05",
+      "t": "四季山水图：秋",
+      "a": "狩野秀赖",
+      "aid": "kano-hideyori-japanese-active-mid-to-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "四季",
+        "16世纪",
+        "日本",
+        "屏风",
+        "狩野派",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.13.3/1988.13.3_web.jpg",
+      "ratio": 2.714
+    },
+    {
+      "id": "cma-122339",
+      "issue": "2026-09-05",
+      "t": "圣母与圣婴及圣徒和捐赠者",
+      "a": "乔瓦尼·巴蒂斯塔·奇马·达·科内利亚诺",
+      "aid": "giovanni-battista-cima-da-conegliano-italian-c-1459-1518",
+      "y": 1515,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "圣母",
+        "圣徒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.636/1942.636_web.jpg",
+      "ratio": 0.708
+    },
+    {
+      "id": "cma-138369",
+      "issue": "2026-09-05",
+      "t": "亚历山德琳-朱莉·德·拉·布特雷小姐",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix-french-1798-1863",
+      "y": 1832,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "德拉克洛瓦"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.3/1962.3_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-151257",
+      "issue": "2026-09-05",
+      "t": "从索尔法塔拉火山口眺望波佐利湾",
+      "a": "菲利普·哈克特",
+      "aid": "philipp-hackert-german-1737-1807",
+      "y": 1803,
+      "mv": "新古典主义",
+      "tags": [
+        "风景",
+        "海景",
+        "18世纪",
+        "德国",
+        "意大利",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.14/1983.14_web.jpg",
+      "ratio": 0.708
+    },
+    {
+      "id": "cma-149880",
+      "issue": "2026-09-05",
+      "t": "百鸟朝凤图",
+      "a": "边文进",
+      "aid": "bian-wenjin-chinese-about-1354-1428",
+      "y": 1412,
+      "mv": "院体画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "中国",
+        "工笔",
+        "边文进",
+        "明代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.12/1980.12_web.jpg",
+      "ratio": 1.627
+    },
+    {
+      "id": "cma-153927",
+      "issue": "2026-09-05",
+      "t": "抹大拉的圣玛丽",
+      "a": "西蒙·武埃",
+      "aid": "simon-vouet-french-1590-1649",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "法国",
+        "巴洛克",
+        "抹大拉",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.108/1988.108_web.jpg",
+      "ratio": 1.265
+    },
+    {
+      "id": "cma-174043",
+      "issue": "2026-09-05",
+      "t": "造船工",
+      "a": "约翰·乔治·布朗",
+      "aid": "john-george-brown-american-born-england-1831-1913",
+      "y": 1904,
+      "mv": "现实主义",
+      "tags": [
+        "风俗画",
+        "20世纪",
+        "美国",
+        "劳动",
+        "肖像",
+        "工匠"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.905/1972.905_web.jpg",
+      "ratio": 0.779
+    },
+    {
+      "id": "cma-147520",
+      "issue": "2026-09-05",
+      "t": "红桃 J 卡片架",
+      "a": "约翰·F·佩托",
+      "aid": "john-f-peto-american-1854-1907",
+      "y": 1895,
+      "mv": "错觉画",
+      "tags": [
+        "静物",
+        "19世纪",
+        "美国",
+        "错觉画",
+        "佩托"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.30/1973.30_web.jpg",
+      "ratio": 1.204
     }
   ]
 }
