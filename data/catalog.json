@@ -14954,6 +14954,550 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1973.30/1973.30_web.jpg",
       "ratio": 1.204
+    },
+    {
+      "id": "cma-127224",
+      "issue": "2026-09-06",
+      "t": "午夜维苏威火山",
+      "a": "阿尔伯特·比尔施塔特",
+      "aid": "albert-bierstadt-american-born-prussia-now-germany-1830-1902",
+      "y": 1868,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "夜景",
+        "火山",
+        "浪漫主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.541/1949.541_web.jpg",
+      "ratio": 0.704
+    },
+    {
+      "id": "cma-144303",
+      "issue": "2026-09-06",
+      "t": "博士来朝",
+      "a": "圭多·雷尼",
+      "aid": "guido-reni-italian-1575-1642",
+      "y": 1642,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "光影",
+        "圣经故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.132/1969.132_web.jpg",
+      "ratio": 1.382
+    },
+    {
+      "id": "cma-132050",
+      "issue": "2026-09-06",
+      "t": "燕子花图屏风",
+      "a": "渡边始兴",
+      "aid": "watanabe-shiko-japanese-1683-1755",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "日本",
+        "装饰性",
+        "屏风",
+        "金地"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.603.2/1954.603.2_web.jpg",
+      "ratio": 0.457
+    },
+    {
+      "id": "cma-140152",
+      "issue": "2026-09-06",
+      "t": "以斯帖、亚哈随鲁与哈曼",
+      "a": "扬·斯蒂恩",
+      "aid": "jan-steen-dutch-1626-1679",
+      "y": 1668,
+      "mv": "巴洛克",
+      "tags": [
+        "圣经题材",
+        "17世纪",
+        "荷兰",
+        "风俗画",
+        "戏剧性",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.153/1964.153_web.jpg",
+      "ratio": 0.754
+    },
+    {
+      "id": "cma-149608",
+      "issue": "2026-09-06",
+      "t": "摹古画册：老子骑牛",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "17世纪",
+        "中国",
+        "水墨",
+        "道家",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.2/1979.27.1.2_web.jpg",
+      "ratio": 1.102
+    },
+    {
+      "id": "cma-155941",
+      "issue": "2026-09-06",
+      "t": "音乐聚会",
+      "a": "雅各布·奥赫特费尔特",
+      "aid": "jacob-ochtervelt-dutch-1634-1682",
+      "y": 1668,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "室内",
+        "17世纪",
+        "荷兰",
+        "音乐",
+        "光影",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.23/1991.23_web.jpg",
+      "ratio": 1.199
+    },
+    {
+      "id": "cma-143141",
+      "issue": "2026-09-06",
+      "t": "凯斯夫人",
+      "a": "欧仁·卡里埃",
+      "aid": "eugene-carriere-french-1849-1906",
+      "y": 1900,
+      "mv": "象征主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "模糊技法",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.126/1967.126_web.jpg",
+      "ratio": 1.207
+    },
+    {
+      "id": "cma-170840",
+      "issue": "2026-09-06",
+      "t": "沙贾汗手持尖晶石与德干长剑",
+      "a": "哈希姆",
+      "aid": "hashim-indian-active-1598-c-1650",
+      "y": 1650,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "皇室",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.328/2013.328_web.jpg",
+      "ratio": 1.447
+    },
+    {
+      "id": "cma-125234",
+      "issue": "2026-09-06",
+      "t": "迪耶普附近的普尔维尔退潮",
+      "a": "克劳德·莫奈",
+      "aid": "claude-monet-french-1840-1926",
+      "y": 1882,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "光色",
+        "诺曼底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.196/1947.196_web.jpg",
+      "ratio": 0.738
+    },
+    {
+      "id": "cma-149417",
+      "issue": "2026-09-06",
+      "t": "幽谷山居图",
+      "a": "菅天柱",
+      "aid": "kan-tenju-japanese-1727-1795",
+      "y": 1767,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "南画",
+        "意境",
+        "隐逸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.7/1978.7_web.jpg",
+      "ratio": 2.866
+    },
+    {
+      "id": "cma-141641",
+      "issue": "2026-09-06",
+      "t": "死亡警示：\"此乃归宿\"",
+      "a": "威廉·迈克尔·哈尼特",
+      "aid": "william-michael-harnett-american-1848-1892",
+      "y": 1879,
+      "mv": "错觉画派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "美国",
+        "错觉画",
+        "质感",
+        "死亡警示"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.235/1965.235_web.jpg",
+      "ratio": 0.744
+    },
+    {
+      "id": "cma-147523",
+      "issue": "2026-09-06",
+      "t": "身着苏利奥特服饰的德米特里乌斯·帕拉蒂亚诺伯爵",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix-french-1798-1863",
+      "y": null,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "异域风情",
+        "浪漫主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.33/1973.33_web.jpg",
+      "ratio": 1.244
+    },
+    {
+      "id": "cma-112626",
+      "issue": "2026-09-06",
+      "t": "以马忤斯的晚餐",
+      "a": "乔瓦尼·巴蒂斯塔·皮亚泽塔",
+      "aid": "giovanni-battista-piazzetta-italian-1682-1754",
+      "y": 1720,
+      "mv": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "明暗对照法",
+        "戏剧性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1931.245/1931.245_web.jpg",
+      "ratio": 0.763
+    },
+    {
+      "id": "cma-154754",
+      "issue": "2026-09-06",
+      "t": "萨基劝说拉达去见克里希纳",
+      "a": "普尔库",
+      "aid": "purkhu-indian-1750-1860",
+      "y": 1820,
+      "mv": "帕哈里绘画",
+      "tags": [
+        "神话",
+        "叙事",
+        "19世纪",
+        "印度",
+        "爱情",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.334/1989.334_web.jpg",
+      "ratio": 0.787
+    },
+    {
+      "id": "cma-122346",
+      "issue": "2026-09-06",
+      "t": "夏洛特与莎拉·卡特雷特-哈迪肖像",
+      "a": "托马斯·劳伦斯",
+      "aid": "thomas-lawrence-british-1769-1830",
+      "y": 1801,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "群像",
+        "优雅",
+        "摄政时期"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.642/1942.642_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-86110",
+      "issue": "2026-09-06",
+      "t": "潇湘八景图之渔村夕照",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1505,
+      "mv": "水墨画",
+      "tags": [
+        "山水",
+        "15世纪",
+        "日本",
+        "水墨",
+        "留白",
+        "潇湘八景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.590/2015.590_web.jpg",
+      "ratio": 1.957
+    },
+    {
+      "id": "cma-145309",
+      "issue": "2026-09-06",
+      "t": "罗马风景",
+      "a": "皮埃尔-亨利·德·瓦朗谢讷",
+      "aid": "pierre-henri-de-valenciennes-french-1750-1819",
+      "y": 1783,
+      "mv": "新古典主义",
+      "tags": [
+        "风景",
+        "18世纪",
+        "法国",
+        "罗马",
+        "户外写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.55/1970.55_web.jpg",
+      "ratio": 0.493
+    },
+    {
+      "id": "cma-143644",
+      "issue": "2026-09-06",
+      "t": "牧羊人的崇拜",
+      "a": "贝尔纳多·卡瓦利诺",
+      "aid": "bernardo-cavallino-italian-1616-1656",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "动态",
+        "那不勒斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.100/1968.100_web.jpg",
+      "ratio": 0.855
+    },
+    {
+      "id": "cma-152446",
+      "issue": "2026-09-06",
+      "t": "柳下",
+      "a": "月冈雪斋",
+      "aid": "tsukioka-sessai-japanese-d-1839",
+      "y": 1778,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "禅意",
+        "线条",
+        "美人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.273/1985.273_web.jpg",
+      "ratio": 2.752
+    },
+    {
+      "id": "cma-124414",
+      "issue": "2026-09-06",
+      "t": "和平的国度",
+      "a": "爱德华·希克斯",
+      "aid": "edward-hicks-american-1780-1849",
+      "y": 1816,
+      "mv": "民间艺术",
+      "tags": [
+        "寓言",
+        "19世纪",
+        "美国",
+        "民间艺术",
+        "和平",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1945.38/1945.38_web.jpg",
+      "ratio": 0.785
+    },
+    {
+      "id": "cma-170878",
+      "issue": "2026-09-06",
+      "t": "莫卧儿皇帝穆罕默德·沙猎鹰像（身后肖像）",
+      "a": "穆罕默德·里扎维·辛迪",
+      "aid": "muhammad-rizavi-hindi-indian-active-mid-1700s",
+      "y": 1764,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "印度",
+        "莫卧儿",
+        "狩猎",
+        "皇室"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.347.a/2013.347.a_web.jpg",
+      "ratio": 1.37
+    },
+    {
+      "id": "cma-142559",
+      "issue": "2026-09-06",
+      "t": "锡耶纳的圣凯瑟琳与乞丐",
+      "a": "乔瓦尼·迪·保罗",
+      "aid": "giovanni-di-paolo-italian-c-1403-1482",
+      "y": 1460,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "哥特式",
+        "叙事",
+        "圣徒"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.3/1966.3_web.jpg",
+      "ratio": 0.992
+    },
+    {
+      "id": "cma-152822",
+      "issue": "2026-09-06",
+      "t": "象马兔图",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "动物",
+        "18世纪",
+        "中国",
+        "写意",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.1/1985.71.1_web.jpg",
+      "ratio": 1.524
+    },
+    {
+      "id": "cma-113026",
+      "issue": "2026-09-06",
+      "t": "焦急等待爱人的女主人公（Utka Nayika）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1800,
+      "mv": "印度细密画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "印度",
+        "情感",
+        "细密画",
+        "夜景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.118/1932.118_web.jpg",
+      "ratio": 1.593
+    },
+    {
+      "id": "cma-145430",
+      "issue": "2026-09-06",
+      "t": "墨梅图",
+      "a": "彭旭",
+      "aid": "peng-xu-chinese-active-1488-1521",
+      "y": 1450,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "梅花",
+        "15世纪",
+        "明代",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.80/1970.80_web.jpg",
+      "ratio": 1.912
+    },
+    {
+      "id": "cma-126772",
+      "issue": "2026-09-06",
+      "t": "1782 年威尼斯圣若望及保禄大殿的教皇仪式",
+      "a": "弗朗切斯科·瓜尔迪",
+      "aid": "francesco-guardi-italian-1712-1793",
+      "y": 1783,
+      "mv": "威尼斯画派",
+      "tags": [
+        "城市",
+        "18世纪",
+        "意大利",
+        "威尼斯",
+        "宗教仪式",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.187.2/1949.187.2_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-151969",
+      "issue": "2026-09-06",
+      "t": "玛丽·沃克·沃夫",
+      "a": "威廉·霍尔曼·亨特",
+      "aid": "william-holman-hunt-british-1827-1910",
+      "y": 1868,
+      "mv": "拉斐尔前派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "拉斐尔前派",
+        "老年女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.41/1984.41_web.jpg",
+      "ratio": 1.287
+    },
+    {
+      "id": "cma-118604",
+      "issue": "2026-09-06",
+      "t": "斜倚裸女习作",
+      "a": "伊西多尔·皮尔斯",
+      "aid": "isidore-pils-french-1813-15-1875",
+      "y": 1841,
+      "mv": "学院派",
+      "tags": [
+        "人体",
+        "19世纪",
+        "法国",
+        "素描感",
+        "姿态",
+        "习作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.63/1939.63_web.jpg",
+      "ratio": 0.789
+    },
+    {
+      "id": "cma-169545",
+      "issue": "2026-09-06",
+      "t": "书籍与文人雅趣",
+      "a": "李泽均",
+      "aid": "yi-taek-gyun-korean-1808-after-1883",
+      "y": 1800,
+      "mv": "朝鲜王朝绘画",
+      "tags": [
+        "静物",
+        "19世纪",
+        "韩国",
+        "文人趣味",
+        "书籍",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.37/2011.37_web.jpg",
+      "ratio": 0.563
     }
   ]
 }
