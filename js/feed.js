@@ -201,6 +201,15 @@ function ensureImages(center) {
     if (centerImg.complete && centerImg.naturalWidth > 0) {
       centerImg.classList.add("loaded");
     }
+    // 兜底：强缓存重载场景下 load 事件可能在 src 赋值和上面的 complete 检查
+    // 之间的微任务队列里就已触发并被消费（{ once: true } 监听器先执行完），
+    // 导致上面两次检查都判定为"未完成"。下一帧再兜底查一次，
+    // 图片早已解码完成也能补上 .loaded（t_0ba73c87）。
+    requestAnimationFrame(() => {
+      if (centerImg.isConnected && centerImg.complete && centerImg.naturalWidth > 0) {
+        centerImg.classList.add("loaded");
+      }
+    });
   }
 
   // 相邻幅只是预取，用户还没滑到 —— 等当前这幅下载完再开始。
@@ -222,7 +231,16 @@ function ensureImages(center) {
       continue;
     }
     afterImageSettled(centerImg, () => {
-      if (img.isConnected && !img.src) img.src = src;
+      if (img.isConnected && !img.src) {
+        img.src = src;
+        // 兜底：同 centerImg，src 赋值与 complete 检查之间的微任务里
+        // load 可能已触发并被 { once: true } 消费掉（t_0ba73c87）
+        requestAnimationFrame(() => {
+          if (img.isConnected && img.complete && img.naturalWidth > 0) {
+            img.classList.add("loaded");
+          }
+        });
+      }
     });
   }
 }
