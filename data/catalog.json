@@ -15498,6 +15498,532 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2011.37/2011.37_web.jpg",
       "ratio": 0.563
+    },
+    {
+      "id": "cma-148758",
+      "issue": "2026-09-07",
+      "t": "圣安德烈的受难",
+      "a": "卡拉瓦乔",
+      "aid": "caravaggio-italian-1571-1610",
+      "y": 1606,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "光影",
+        "殉道"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.2/1976.2_web.jpg",
+      "ratio": 1.327
+    },
+    {
+      "id": "cma-125249",
+      "issue": "2026-09-07",
+      "t": "大梧桐树（圣雷米的修路工）",
+      "a": "文森特·梵高",
+      "aid": "vincent-van-gogh-dutch-1853-1890",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "后印象派",
+        "19世纪",
+        "荷兰",
+        "笔触",
+        "圣雷米"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.209/1947.209_web.jpg",
+      "ratio": 0.798
+    },
+    {
+      "id": "cma-160885",
+      "issue": "2026-09-07",
+      "t": "蒂勒曼·鲁斯特曼肖像",
+      "a": "弗兰斯·哈尔斯",
+      "aid": "frans-hals-dutch-c-1581-1666",
+      "y": 1634,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "巴洛克",
+        "17世纪",
+        "荷兰",
+        "神态",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_web.jpg",
+      "ratio": 1.345
+    },
+    {
+      "id": "cma-144966",
+      "issue": "2026-09-07",
+      "t": "圣母与圣子及幼年施洗者圣约翰",
+      "a": "桑德罗·波提切利",
+      "aid": "sandro-botticelli-italian-1444-45-1510",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "15世纪",
+        "意大利",
+        "圆形画",
+        "圣母像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.160/1970.160_web.jpg",
+      "ratio": 0.999
+    },
+    {
+      "id": "cma-138359",
+      "issue": "2026-09-07",
+      "t": "酒杯与果盘",
+      "a": "威廉·卡尔夫",
+      "aid": "willem-kalf-dutch-1619-1693",
+      "y": 1663,
+      "mv": "巴洛克",
+      "tags": [
+        "静物",
+        "巴洛克",
+        "17世纪",
+        "荷兰",
+        "质感",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.292/1962.292_web.jpg",
+      "ratio": 1.195
+    },
+    {
+      "id": "cma-122351",
+      "issue": "2026-09-07",
+      "t": "1834 年 10 月 16 日，上议院与下议院之焚毁",
+      "a": "约瑟夫·马洛德·威廉·透纳",
+      "aid": "joseph-mallord-william-turner-british-1775-1851",
+      "y": 1835,
+      "mv": "浪漫主义",
+      "tags": [
+        "历史事件",
+        "伦敦",
+        "泰晤士河",
+        "19世纪",
+        "火灾",
+        "英国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.647/1942.647_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-149410",
+      "issue": "2026-09-07",
+      "t": "在波浪中",
+      "a": "保罗·高更",
+      "aid": "paul-gauguin-french-1848-1903",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "人物",
+        "海景",
+        "19世纪",
+        "法国",
+        "装饰性",
+        "裸体"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.63/1978.63_web.jpg",
+      "ratio": 1.286
+    },
+    {
+      "id": "cma-112856",
+      "issue": "2026-09-07",
+      "t": "十字架上的基督与加尔都西会修士",
+      "a": "罗希尔·范德魏登",
+      "aid": "rogier-van-der-weyden-flemish-c-1399-1464",
+      "y": 1460,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "佛兰德斯",
+        "受难像",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1931.449/1931.449_web.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "cma-128363",
+      "issue": "2026-09-07",
+      "t": "从拉蒂耶看维尔维尔",
+      "a": "夏尔-弗朗索瓦·多比尼",
+      "aid": "charles-francois-daubigny-french-1817-1878",
+      "y": 1855,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "海景",
+        "19世纪",
+        "法国",
+        "巴比松画派",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.323/1951.323_web.jpg",
+      "ratio": 0.466
+    },
+    {
+      "id": "cma-157501",
+      "issue": "2026-09-07",
+      "t": "饮酒的男孩",
+      "a": "安尼巴莱·卡拉奇",
+      "aid": "annibale-carracci-italian-c-1560-1609",
+      "y": 1582,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "16世纪",
+        "意大利",
+        "饮酒",
+        "写实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.4/1994.4_web.jpg",
+      "ratio": 1.283
+    },
+    {
+      "id": "cma-147017",
+      "issue": "2026-09-07",
+      "t": "汉普斯特德布兰奇山池塘",
+      "a": "约翰·康斯太勃尔",
+      "aid": "john-constable-british-1776-1837",
+      "y": 1828,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "英国",
+        "云层",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.48/1972.48_web.jpg",
+      "ratio": 0.773
+    },
+    {
+      "id": "cma-135661",
+      "issue": "2026-09-07",
+      "t": "戴安娜与宁芙女神出猎",
+      "a": "彼得·保罗·鲁本斯",
+      "aid": "peter-paul-rubens-flemish-1577-1640",
+      "y": 1615,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "狩猎",
+        "17世纪",
+        "佛兰德斯",
+        "动态",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.190/1959.190_web.jpg",
+      "ratio": 1.198
+    },
+    {
+      "id": "cma-144961",
+      "issue": "2026-09-07",
+      "t": "绿度母",
+      "a": "阿尼科",
+      "aid": "aniko-nepalese-active-in-tibet-mid-to-late-1200s",
+      "y": 1640,
+      "mv": "尼泊尔画派",
+      "tags": [
+        "宗教",
+        "唐卡",
+        "13世纪",
+        "尼泊尔",
+        "佛教艺术",
+        "绿度母"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.156/1970.156_web.jpg",
+      "ratio": 1.181
+    },
+    {
+      "id": "cma-124089",
+      "issue": "2026-09-07",
+      "t": "女子肖像",
+      "a": "伦勃朗·凡·莱因",
+      "aid": "rembrandt-van-rijn-dutch-1606-1669",
+      "y": 1635,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "巴洛克",
+        "17世纪",
+        "荷兰",
+        "明暗对照法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.90/1944.90_web.jpg",
+      "ratio": 1.22
+    },
+    {
+      "id": "cma-134072",
+      "issue": "2026-09-07",
+      "t": "晴朗的秋日",
+      "a": "乔治·因尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1892,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "色调主义",
+        "19世纪",
+        "美国",
+        "朦胧",
+        "秋日"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1956.578/1956.578_web.jpg",
+      "ratio": 0.757
+    },
+    {
+      "id": "cma-138464",
+      "issue": "2026-09-07",
+      "t": "丘比特与普赛克",
+      "a": "雅克-路易·大卫",
+      "aid": "jacques-louis-david-french-1748-1825",
+      "y": 1817,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "新古典主义",
+        "19世纪",
+        "法国",
+        "雕塑感",
+        "爱情"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.37/1962.37_web.jpg",
+      "ratio": 0.757
+    },
+    {
+      "id": "cma-126769",
+      "issue": "2026-09-07",
+      "t": "老虎与水牛之战",
+      "a": "亨利·卢梭",
+      "aid": "henri-rousseau-french-1844-1910",
+      "y": 1908,
+      "mv": "原始主义",
+      "tags": [
+        "动物",
+        "丛林",
+        "原始主义",
+        "20世纪",
+        "法国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.186/1949.186_web.jpg",
+      "ratio": 0.896
+    },
+    {
+      "id": "cma-128391",
+      "issue": "2026-09-07",
+      "t": "演奏音乐的家庭",
+      "a": "彼得·德·霍赫",
+      "aid": "pieter-de-hooch-dutch-1629-1684",
+      "y": 1663,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "室内场景",
+        "17世纪",
+        "荷兰",
+        "音乐",
+        "透视"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.355/1951.355_web.jpg",
+      "ratio": 0.843
+    },
+    {
+      "id": "cma-152006",
+      "issue": "2026-09-07",
+      "t": "岩石、林木景观与溪谷及堰坝",
+      "a": "托马斯·庚斯博罗",
+      "aid": "thomas-gainsborough-british-1727-1788",
+      "y": 1782,
+      "mv": "洛可可",
+      "tags": [
+        "风景",
+        "18世纪",
+        "英国",
+        "田园",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.59/1984.59_web.jpg",
+      "ratio": 0.766
+    },
+    {
+      "id": "cma-117032",
+      "issue": "2026-09-07",
+      "t": "以撒的献祭",
+      "a": "安德烈亚·德尔·萨尔托",
+      "aid": "andrea-del-sarto-italian-1486-1530",
+      "y": 1527,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "16世纪",
+        "意大利",
+        "戏剧性",
+        "圣经故事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1937.577/1937.577_web.jpg",
+      "ratio": 1.291
+    },
+    {
+      "id": "cma-140408",
+      "issue": "2026-09-07",
+      "t": "游隼（鸭鹰）",
+      "a": "约翰·詹姆斯·奥杜邦",
+      "aid": "john-james-audubon-american-born-haiti-1785-1851",
+      "y": 1827,
+      "mv": "写实主义",
+      "tags": [
+        "动物",
+        "写实",
+        "19世纪",
+        "美国",
+        "自然史",
+        "猛禽"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.351/1964.351_web.jpg",
+      "ratio": 0.706
+    },
+    {
+      "id": "cma-135214",
+      "issue": "2026-09-07",
+      "t": "吟游诗人",
+      "a": "奥诺雷·杜米埃",
+      "aid": "honore-daumier-french-1808-1879",
+      "y": 1868,
+      "mv": "现实主义",
+      "tags": [
+        "人物",
+        "现实主义",
+        "19世纪",
+        "法国",
+        "讽刺",
+        "音乐"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.23/1958.23_web.jpg",
+      "ratio": 1.501
+    },
+    {
+      "id": "cma-155783",
+      "issue": "2026-09-07",
+      "t": "音乐的力量",
+      "a": "威廉·西德尼·芒特",
+      "aid": "william-sidney-mount-american-1807-1868",
+      "y": 1847,
+      "mv": "写实主义",
+      "tags": [
+        "风俗画",
+        "音乐",
+        "19世纪",
+        "美国",
+        "种族议题",
+        "谷仓"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.110/1991.110_web.jpg",
+      "ratio": 0.807
+    },
+    {
+      "id": "cma-143602",
+      "issue": "2026-09-07",
+      "t": "林地低瀑与枯死山毛榉",
+      "a": "雅各布·凡·雷斯达尔",
+      "aid": "jacob-van-ruisdael-dutch-1628-29-1682",
+      "y": 1660,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "黄金时代",
+        "17世纪",
+        "荷兰",
+        "宏大",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.63/1967.63_web.jpg",
+      "ratio": 0.754
+    },
+    {
+      "id": "cma-131819",
+      "issue": "2026-09-07",
+      "t": "热那亚贵妇与她的孩子",
+      "a": "安东尼·凡·戴克",
+      "aid": "anthony-van-dyck-flemish-1599-1641",
+      "y": 1623,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "巴洛克",
+        "17世纪",
+        "佛兰德斯",
+        "贵族",
+        "母子"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.392/1954.392_web.jpg",
+      "ratio": 1.501
+    },
+    {
+      "id": "cma-95259",
+      "issue": "2026-09-07",
+      "t": "希腊骑兵在林中休息",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix-french-1798-1863",
+      "y": 1858,
+      "mv": "浪漫主义",
+      "tags": [
+        "历史",
+        "浪漫主义",
+        "19世纪",
+        "法国",
+        "异域",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1032/1916.1032_web.jpg",
+      "ratio": 0.823
+    },
+    {
+      "id": "cma-136911",
+      "issue": "2026-09-07",
+      "t": "佛罗伦萨景色",
+      "a": "托马斯·科尔",
+      "aid": "thomas-cole-american-born-england-1801-1848",
+      "y": 1837,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "城市景观",
+        "哈德逊河画派",
+        "19世纪",
+        "美国",
+        "远景",
+        "意大利"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.39/1961.39_web.jpg",
+      "ratio": 0.616
+    },
+    {
+      "id": "cma-145452",
+      "issue": "2026-09-07",
+      "t": "丘比特",
+      "a": "约翰·利斯",
+      "aid": "johann-liss-german-c-1597-1631",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "巴洛克",
+        "17世纪",
+        "德国",
+        "丘比特",
+        "天使"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.100/1971.100_web.jpg",
+      "ratio": 1.335
     }
   ]
 }

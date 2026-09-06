@@ -3857,6 +3857,146 @@
       "years": "1808–1883 年后",
       "nationality_zh": "韩国",
       "bio_zh": "朝鲜王朝晚期宫廷画家，以绘制博古架题材的“册架图”著称，笔法工整细腻，深受当时文人阶层喜爱。"
+    },
+    "caravaggio-italian-1571-1610": {
+      "name_zh": "卡拉瓦乔",
+      "name_en": "Caravaggio (Italian, 1571–1610)",
+      "years": "1571–1610",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利巴洛克绘画先驱，以激进的写实主义和戏剧性光影（明暗对照法）彻底改变了 17 世纪欧洲艺术面貌。"
+    },
+    "vincent-van-gogh-dutch-1853-1890": {
+      "name_zh": "文森特·梵高",
+      "name_en": "Vincent van Gogh (Dutch, 1853–1890)",
+      "years": "1853–1890",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰后印象派画家，以强烈色彩与旋动笔触表达内心情感，生前寂寂无名，死后成为现代艺术奠基人之一。"
+    },
+    "frans-hals-dutch-c-1581-1666": {
+      "name_zh": "弗兰斯·哈尔斯",
+      "name_en": "Frans Hals (Dutch, c. 1581–1666)",
+      "years": "约 1581–1666",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代肖像画大师，以生动捕捉人物瞬间神态和潇洒奔放的笔触著称。"
+    },
+    "sandro-botticelli-italian-1444-45-1510": {
+      "name_zh": "桑德罗·波提切利",
+      "name_en": "Sandro Botticelli (Italian, 1444/45–1510)",
+      "years": "1444/45–1510",
+      "nationality_zh": "意大利",
+      "bio_zh": "桑德罗·波提切利，意大利文艺复兴早期画家，以线条优美和神话主题闻名。"
+    },
+    "willem-kalf-dutch-1619-1693": {
+      "name_zh": "威廉·卡尔夫",
+      "name_en": "Willem Kalf (Dutch, 1619–1693)",
+      "years": "1619–1693",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代静物画大师，以描绘奢华器皿与精湛的光影质感著称，将静物画推向巴洛克高峰。"
+    },
+    "joseph-mallord-william-turner-british-1775-1851": {
+      "name_zh": "约瑟夫·马洛德·威廉·透纳",
+      "name_en": "Joseph Mallord William Turner (British, 1775–1851)",
+      "years": "1775–1851",
+      "nationality_zh": "英国",
+      "bio_zh": "英国浪漫主义风景画大师，以对光、大气及自然力量的激进表现著称，被誉为「光之画家」。"
+    },
+    "rogier-van-der-weyden-flemish-c-1399-1464": {
+      "name_zh": "罗希尔·范德魏登",
+      "name_en": "Rogier van der Weyden (Flemish, c. 1399–1464)",
+      "years": "约 1399–1464",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "早期尼德兰画派大师，以极具戏剧张力的情感表达和细腻线条著称，对后世影响深远。"
+    },
+    "charles-francois-daubigny-french-1817-1878": {
+      "name_zh": "夏尔-弗朗索瓦·多比尼",
+      "name_en": "Charles François Daubigny (French, 1817–1878)",
+      "years": "1817–1878",
+      "nationality_zh": "法国",
+      "bio_zh": "法国巴比松画派代表人物，以户外写生和描绘河流风景著称，对印象派产生深远影响。"
+    },
+    "annibale-carracci-italian-c-1560-1609": {
+      "name_zh": "安尼巴莱·卡拉奇",
+      "name_en": "Annibale Carracci (Italian, c. 1560–1609)",
+      "years": "c. 1560–1609",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利巴洛克绘画奠基人，反对矫饰主义，主张回归自然与古典，对后世影响深远。"
+    },
+    "aniko-nepalese-active-in-tibet-mid-to-late-1200s": {
+      "name_zh": "阿尼科",
+      "name_en": "Aniko (Nepalese, active in Tibet mid- to late 1200s)",
+      "years": "活跃于 13 世纪中后期",
+      "nationality_zh": "尼泊尔",
+      "bio_zh": "阿尼科，13 世纪尼泊尔画家，活跃于西藏，以精细的宗教绘画闻名。"
+    },
+    "jacques-louis-david-french-1748-1825": {
+      "name_zh": "雅克-路易·大卫",
+      "name_en": "Jacques-Louis David (French, 1748–1825)",
+      "years": "1748–1825",
+      "nationality_zh": "法国",
+      "bio_zh": "法国新古典主义画派奠基人，以严谨的素描和宏大的历史画著称，晚年流亡布鲁塞尔。"
+    },
+    "henri-rousseau-french-1844-1910": {
+      "name_zh": "亨利·卢梭",
+      "name_en": "Henri Rousseau (French, 1844–1910)",
+      "years": "1844–1910",
+      "nationality_zh": "法国",
+      "bio_zh": "法国自学成才的原始主义画家，以梦幻般的丛林场景闻名。"
+    },
+    "pieter-de-hooch-dutch-1629-1684": {
+      "name_zh": "彼得·德·霍赫",
+      "name_en": "Pieter de Hooch (Dutch, 1629–1684)",
+      "years": "1629–1684",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代风俗画家，以描绘中产阶级室内场景和精湛的透视技法闻名，常与维米尔相提并论。"
+    },
+    "andrea-del-sarto-italian-1486-1530": {
+      "name_zh": "安德烈亚·德尔·萨尔托",
+      "name_en": "Andrea del Sarto (Italian, 1486–1530)",
+      "years": "1486–1530",
+      "nationality_zh": "意大利",
+      "bio_zh": "佛罗伦萨画家，盛期文艺复兴代表人物，以完美的构图与色彩和谐著称，被瓦萨里称为“无错画家”。"
+    },
+    "john-james-audubon-american-born-haiti-1785-1851": {
+      "name_zh": "约翰·詹姆斯·奥杜邦",
+      "name_en": "John James Audubon (American, born Haiti, 1785–1851)",
+      "years": "1785–1851",
+      "nationality_zh": "美国",
+      "bio_zh": "约翰·詹姆斯·奥杜邦，美国自然学家、画家，以《美洲鸟类》闻名，被誉为‘美国鸟类学之父’。"
+    },
+    "william-sidney-mount-american-1807-1868": {
+      "name_zh": "威廉·西德尼·芒特",
+      "name_en": "William Sidney Mount (American, 1807–1868)",
+      "years": "1807–1868",
+      "nationality_zh": "美国",
+      "bio_zh": "19 世纪美国风俗画先驱，擅长以幽默温情笔触描绘长岛乡村生活与音乐场景。"
+    },
+    "jacob-van-ruisdael-dutch-1628-29-1682": {
+      "name_zh": "雅各布·凡·雷斯达尔",
+      "name_en": "Jacob van Ruisdael (Dutch, 1628/29–1682)",
+      "years": "1628/29–1682",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代最杰出的风景画家，以宏大构图与戏剧性光影重塑自然，影响后世浪漫主义。"
+    },
+    "anthony-van-dyck-flemish-1599-1641": {
+      "name_zh": "安东尼·凡·戴克",
+      "name_en": "Anthony van Dyck (Flemish, 1599–1641)",
+      "years": "1599–1641",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "佛兰德斯巴洛克画家，鲁本斯最杰出的学生，以优雅的贵族肖像画闻名，深刻影响了英国肖像画传统。"
+    },
+    "thomas-cole-american-born-england-1801-1848": {
+      "name_zh": "托马斯·科尔",
+      "name_en": "Thomas Cole (American, born England,1801–1848)",
+      "years": "1801–1848",
+      "nationality_zh": "美国",
+      "bio_zh": "哈德逊河画派创始人，以描绘美国自然风光与寓言式风景画闻名，作品充满浪漫主义与道德寓意。"
+    },
+    "johann-liss-german-c-1597-1631": {
+      "name_zh": "约翰·利斯",
+      "name_en": "Johann Liss (German, c. 1597–1631)",
+      "years": "约 1597–1631",
+      "nationality_zh": "德国",
+      "bio_zh": "德国巴洛克画家，活跃于威尼斯，以融合南北欧风格与戏剧性光影著称。"
     }
   }
 }
