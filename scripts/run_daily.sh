@@ -26,8 +26,8 @@ if ! mkdir "$LOCKDIR" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
 
-export HTTPS_PROXY=http://127.0.0.1:7897
-export HTTP_PROXY=http://127.0.0.1:7897
+# 博物馆 API 直连（走代理会 SSL 失败）；LLM 网关如需代理由 .env 或 llm.py 内部处理
+unset HTTPS_PROXY HTTP_PROXY
 export PIPELINE_THREADS=3
 
 cd "$REPO" || exit 1
