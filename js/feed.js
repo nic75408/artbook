@@ -210,6 +210,14 @@ function ensureImages(center) {
         centerImg.classList.add("loaded");
       }
     });
+    // 硬兜底（t_2595cb97）：上面全部是事件/complete/rAF 检测，命中强缓存时
+    // load 事件、complete 标记、decode 完成时机可以在同一帧内以任意顺序
+    // 交错，三层检测仍能全部错过（真机验证复现）。不再依赖任何事件回调，
+    // 500ms 后无条件补上 .loaded——最坏情况下用户等 500ms 也一定能看到画作，
+    // 不会永久停在黑色空框。
+    setTimeout(() => {
+      if (centerImg.isConnected) centerImg.classList.add("loaded");
+    }, 500);
   }
 
   // 相邻幅只是预取，用户还没滑到 —— 等当前这幅下载完再开始。
