@@ -60,17 +60,28 @@ def http_get_json(url, params=None, timeout=None):
 
 
 def http_head_ok(url, retries=3):
-    """图片 URL 存活校验（SPE §6.3-6）。"""
+    """图片 URL 存活校验（SPE §6.3-6）。
+
+    2026-09-08：CMA CDN 对 Python requests 库 SSL 握手失败，改用 subprocess 调用 curl 绕过。
+    """
+    import subprocess
+
     for attempt in range(retries):
         try:
-            r = requests.head(url, timeout=15, allow_redirects=True,
-                              headers={"User-Agent": _UA})
-            if r.status_code == 200:
-                return True
-            if r.status_code == 429 or r.status_code >= 500:
-                time.sleep(1 + attempt)
-                continue
-            return False
+            # 用 curl 发送 HEAD 请求（绕过 Python SSL 问题）
+            result = subprocess.run(
+                ['curl', '-m', '15', '-sS', '-I', '-A', _UA, url],
+                capture_output=True,
+                text=True,
+                timeout=20
+            )
+            if result.returncode == 0:
+                # 检查响应头中是否有 200 OK
+                first_line = result.stdout.split('\n')[0] if result.stdout else ''
+                if '200' in first_line or 'OK' in first_line:
+                    return True
+            # 失败重试
+            time.sleep(1 + attempt)
         except Exception:
             time.sleep(1 + attempt)
     return False
