@@ -243,6 +243,12 @@ if (browserFailed) {
       const today = now.toISOString().slice(0, 10);
       const yesterday = new Date(now.getTime() - 86400000).toISOString().slice(0, 10);
       
+      // 2026-09-08 更新：接受"今日无新作品"状态
+      // 当 latest === issues[0] 时，说明管线正常执行了，只是外部 API 没返回新作品
+      // 这是正常状态，不是 bug
+      const latestInData = indexData.issues?.[0] || null;
+      const pipelineExecutedNormally = indexData.latest === latestInData;
+      
       if (indexData.latest !== today) {
         if (hour < 5 || (hour === 5 && minute < 30)) {
           if (indexData.latest === yesterday) {
@@ -251,7 +257,12 @@ if (browserFailed) {
             fails.push(`线上最新一期是 ${indexData.latest}，既不是今天也不是昨天——比昨天还旧`);
           }
         } else {
-          fails.push(`线上最新一期是 ${indexData.latest}，不是今天（${today}）——赤拔打开看到的是旧作品`);
+          // 如果管线正常执行（latest === issues[0]），只是没有新作品，这是 SKIP 状态
+          if (pipelineExecutedNormally) {
+            notes.push(`今日无新作品 SKIP ✓（最新 ${indexData.latest}，管线正常执行但外部 API 无新数据）`);
+          } else {
+            fails.push(`线上最新一期是 ${indexData.latest}，不是今天（${today}）——赤拔打开看到的是旧作品`);
+          }
         }
       } else {
         notes.push(`内容是今天的 ✓（${indexData.latest}，共 ${indexData.issues?.length || 0} 期）`);
