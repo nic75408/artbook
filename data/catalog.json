@@ -16545,6 +16545,573 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1958.472/1958.472_web.jpg",
       "ratio": 0.816
+    },
+    {
+      "id": "cma-111470",
+      "issue": "2026-09-09",
+      "t": "巴黎郊区",
+      "a": "亨利·卢梭",
+      "aid": "henri-rousseau-french-1844-1910",
+      "y": 1901,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "梦境",
+        "巴黎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.951/1929.951_web.jpg",
+      "ratio": 0.823
+    },
+    {
+      "id": "cma-142285",
+      "issue": "2026-09-09",
+      "t": "沉睡的牧羊人",
+      "a": "阿德里安·范·德·维尔德",
+      "aid": "adriaen-van-de-velde-dutch-1636-1672",
+      "y": 1663,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "荷兰",
+        "田园",
+        "光影",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.12/1966.12_web.jpg",
+      "ratio": 0.823
+    },
+    {
+      "id": "cma-147906",
+      "issue": "2026-09-09",
+      "t": "月下梅花图",
+      "a": "王冕",
+      "aid": "wang-mian-chinese-1287-1359",
+      "y": 1300,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "14世纪",
+        "中国",
+        "水墨",
+        "梅花",
+        "元代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.26/1974.26_web.jpg",
+      "ratio": 1.717
+    },
+    {
+      "id": "cma-95274",
+      "issue": "2026-09-09",
+      "t": "客栈里的农民",
+      "a": "大卫·特尼尔斯",
+      "aid": "david-teniers-flemish-1610-1690",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "室内",
+        "叙事",
+        "吸烟"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1046/1916.1046_web.jpg",
+      "ratio": 1.374
+    },
+    {
+      "id": "cma-137911",
+      "issue": "2026-09-09",
+      "t": "占星家预言王子十三岁将遭劫难（《鹦鹉故事》第八夜）",
+      "a": "巴纳瓦里",
+      "aid": "banavari-1-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "16世纪",
+        "印度",
+        "叙事",
+        "宫廷",
+        "占星"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.52.b/1962.279.52.b_web.jpg",
+      "ratio": 1.599
+    },
+    {
+      "id": "cma-132833",
+      "issue": "2026-09-09",
+      "t": "设色山水册",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "四季",
+        "构图",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302/1955.302_web.jpg",
+      "ratio": 1.404
+    },
+    {
+      "id": "cma-153763",
+      "issue": "2026-09-09",
+      "t": "《新古今和歌集》诗笺：滨松图",
+      "a": "本阿弥光悦",
+      "aid": "hon-ami-koetsu-japanese-1558-1637",
+      "y": 1606,
+      "mv": "琳派",
+      "tags": [
+        "书法",
+        "17世纪",
+        "日本",
+        "装饰",
+        "松树",
+        "金银泥绘"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.60/1987.60_web.jpg",
+      "ratio": 1.139
+    },
+    {
+      "id": "cma-162322",
+      "issue": "2026-09-09",
+      "t": "悲伤圣母",
+      "a": "乔治 - 丹尼尔·德·蒙弗里德",
+      "aid": "georges-daniel-de-monfreid-french-1856-1929",
+      "y": 1897,
+      "mv": "象征主义",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "法国",
+        "象征主义",
+        "雕塑感绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2002.54/2002.54_web.jpg",
+      "ratio": 1.283
+    },
+    {
+      "id": "cma-170890",
+      "issue": "2026-09-09",
+      "t": "林边河畔戏水的女子",
+      "a": "胡纳尔二世",
+      "aid": "hunhar-ii-indian-active-mid-1700s",
+      "y": 1765,
+      "mv": "印度细密画",
+      "tags": [
+        "风俗画",
+        "18世纪",
+        "印度",
+        "自然",
+        "女性",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.351/2013.351_web.jpg",
+      "ratio": 1.324
+    },
+    {
+      "id": "cma-137332",
+      "issue": "2026-09-09",
+      "t": "天使尖顶饰（一对）",
+      "a": "尼科洛·迪·塞尼亚",
+      "aid": "niccolo-di-segna-italian",
+      "y": 1340,
+      "mv": "哥特式",
+      "tags": [
+        "宗教画",
+        "14世纪",
+        "意大利",
+        "锡耶纳画派",
+        "天使",
+        "金箔背景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.257/1962.257_web.jpg",
+      "ratio": 0.671
+    },
+    {
+      "id": "cma-148343",
+      "issue": "2026-09-09",
+      "t": "山水册：第二开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "笔触",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.2/1975.64.2_web.jpg",
+      "ratio": 0.91
+    },
+    {
+      "id": "cma-150021",
+      "issue": "2026-09-09",
+      "t": "柳树",
+      "a": "皮埃尔·让·博凯",
+      "aid": "pierre-jean-boquet-french-1751-1817",
+      "y": 1804,
+      "mv": "新古典主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "树木",
+        "田园",
+        "质感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.237/1980.237_web.jpg",
+      "ratio": 1.119
+    },
+    {
+      "id": "cma-152424",
+      "issue": "2026-09-09",
+      "t": "春之舞者（万岁）",
+      "a": "宫川长春",
+      "aid": "miyagawa-choshun-japanese-1683-1753",
+      "y": 1700,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "舞蹈",
+        "动态",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.252/1985.252_web.jpg",
+      "ratio": 2.616
+    },
+    {
+      "id": "cma-138531",
+      "issue": "2026-09-09",
+      "t": "山居图咏",
+      "a": "项圣谟",
+      "aid": "xiang-shengmo-chinese-1597-1658",
+      "y": 1648,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "手卷",
+        "明末清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.42/1962.42_web.jpg",
+      "ratio": 0.113
+    },
+    {
+      "id": "cma-314501",
+      "issue": "2026-09-09",
+      "t": "马哈拉贾·斯里·阿南德·辛格及其配偶",
+      "a": "乌斯塔德·穆拉德",
+      "aid": "ustad-murad-indian-active-1700s",
+      "y": 1729,
+      "mv": "拉杰普特细密画",
+      "tags": [
+        "肖像",
+        "皇室",
+        "18世纪",
+        "印度",
+        "细密画",
+        "宫廷生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.195/2018.195_web.jpg",
+      "ratio": 1.345
+    },
+    {
+      "id": "cma-145426",
+      "issue": "2026-09-09",
+      "t": "风雨归舟图",
+      "a": "吕文英",
+      "aid": "lu-wenying-chinese",
+      "y": 1493,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "雨景",
+        "明代",
+        "中国",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.76/1970.76_web.jpg",
+      "ratio": 1.63
+    },
+    {
+      "id": "cma-125941",
+      "issue": "2026-09-09",
+      "t": "装饰板画：园丁、园艺、葡萄园、跷跷板、秋千",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1723,
+      "mv": "洛可可",
+      "tags": [
+        "装饰画",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "田园生活",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.176/1948.176_web.jpg",
+      "ratio": 0.441
+    },
+    {
+      "id": "cma-156865",
+      "issue": "2026-09-09",
+      "t": "源中邦访小野小町",
+      "a": "清原雪信",
+      "aid": "kiyohara-yukinobu-japanese-1643-1682",
+      "y": 1600,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "故事",
+        "服饰",
+        "屏风画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.77.1/1992.77.1_web.jpg",
+      "ratio": 2.278
+    },
+    {
+      "id": "cma-148967",
+      "issue": "2026-09-09",
+      "t": "持曼陀林的年轻女子，路易松·科勒肖像",
+      "a": "弗朗索瓦·邦万",
+      "aid": "francois-bonvin-french-1817-1887",
+      "y": 1873,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "音乐",
+        "写实",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.124/1977.124_web.jpg",
+      "ratio": 1.192
+    },
+    {
+      "id": "cma-79573",
+      "issue": "2026-09-09",
+      "t": "芦雁图",
+      "a": "一山一宁",
+      "aid": "yishan-yining-issan-ichinei-chinese-1247-1317",
+      "y": 1314,
+      "mv": "禅画",
+      "tags": [
+        "花鸟",
+        "14世纪",
+        "中国",
+        "禅意",
+        "留白",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.464/2015.464_web.jpg",
+      "ratio": 2.419
+    },
+    {
+      "id": "cma-161706",
+      "issue": "2026-09-09",
+      "t": "花卉图",
+      "a": "吴让之",
+      "aid": "wu-rangzhi-chinese-1799-1870",
+      "y": 1862,
+      "mv": "海派",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "中国",
+        "植物",
+        "没骨",
+        "扬州"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2000.7/2000.7_web.jpg",
+      "ratio": 3.261
+    },
+    {
+      "id": "cma-132929",
+      "issue": "2026-09-09",
+      "t": "诸家山水册：桥上高士",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "人物点缀",
+        "桥梁",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.7/1955.37.7_web.jpg",
+      "ratio": 0.799
+    },
+    {
+      "id": "cma-170774",
+      "issue": "2026-09-09",
+      "t": "鲁斯塔姆捕捉拉赫什的大理石纹画",
+      "a": "沙菲",
+      "aid": "shafi-indian-active-about-1650",
+      "y": 1650,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事画",
+        "17世纪",
+        "印度",
+        "神话",
+        "大理石纹",
+        "波斯史诗"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.286/2013.286_web.jpg",
+      "ratio": 1.695
+    },
+    {
+      "id": "cma-535124",
+      "issue": "2026-09-09",
+      "t": "十二使徒与圣保罗双联画",
+      "a": "沃尔德·马里亚姆画派",
+      "aid": "workshop-or-circle-of-walda-maryam-ethiopia-active-mid-to-late-1600s-early-1700s",
+      "y": 1700,
+      "mv": "埃塞俄比亚基督教艺术",
+      "tags": [
+        "宗教画",
+        "17世纪",
+        "埃塞俄比亚",
+        "双联画",
+        "圣像画",
+        "贡德尔风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg",
+      "ratio": 0.92
+    },
+    {
+      "id": "cma-142278",
+      "issue": "2026-09-09",
+      "t": "寒林群雀图",
+      "a": "高焘",
+      "aid": "gao-tao-chinese-1100s",
+      "y": 1100,
+      "mv": "宋代院体画",
+      "tags": [
+        "花鸟",
+        "12世纪",
+        "中国",
+        "冬景",
+        "寒林",
+        "雪景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.115/1966.115_web.jpg",
+      "ratio": 2.719
+    },
+    {
+      "id": "cma-148346",
+      "issue": "2026-09-09",
+      "t": "山水册：第五开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "清初画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "远山",
+        "瀑布"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.5/1975.64.5_web.jpg",
+      "ratio": 0.923
+    },
+    {
+      "id": "cma-160146",
+      "issue": "2026-09-09",
+      "t": "马哈拉纳·贾加特·辛格二世狩猎图",
+      "a": "朱加尔西",
+      "aid": "jugarsi-son-of-jiva-indian-active-mid-1700s",
+      "y": 1747,
+      "mv": "拉杰普特细密画",
+      "tags": [
+        "狩猎",
+        "18世纪",
+        "印度",
+        "动态",
+        "宫廷",
+        "拉杰普特"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.102/1998.102_web.jpg",
+      "ratio": 0.897
+    },
+    {
+      "id": "cma-147926",
+      "issue": "2026-09-09",
+      "t": "水仙图",
+      "a": "陆天如",
+      "aid": "lu-tianru-chinese-first-half-of-1400s",
+      "y": 1506,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "中国",
+        "水仙",
+        "岩石",
+        "明代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.28/1974.28_web.jpg",
+      "ratio": 1.54
+    },
+    {
+      "id": "cma-173730",
+      "issue": "2026-09-09",
+      "t": "牧牛图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1319,
+      "mv": "院体画",
+      "tags": [
+        "风景",
+        "14世纪",
+        "中国",
+        "田园",
+        "古朴",
+        "青绿山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.706/1915.706_web.jpg",
+      "ratio": 1.007
+    },
+    {
+      "id": "cma-161016",
+      "issue": "2026-09-09",
+      "t": "书画册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "芦雁",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.c/1999.260.c_web.jpg",
+      "ratio": 0.753
     }
   ]
 }
