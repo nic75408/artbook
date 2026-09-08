@@ -90,15 +90,24 @@ try {
   const bodyText = await page.evaluate(() => document.body.innerText.length);
   
   // 检查 2：图标不是占位圆圈
-  // 占位圆圈的特征：有 .icon 类但没有 background-image 或 background 是渐变色
+  // artbook 的图标系统（js/icons/Icon.js）输出内联 SVG 元素，不用 CSS
+  // background-image——无论正常图标还是占位圆圈，backgroundImage 恒为
+  // "none"，靠它判断必然对所有图标一律误报。
+  // 真正的占位符特征（Icon.js 第 147 行 fallback）：SVG 内部只有且仅有
+  // 一个 <circle cx="12" cy="12" r="10" fill="none"> 子元素，且没有
+  // stroke-dasharray（区别于 state-loading-outline.svg 这类合法的单圆环
+  // 加载态图标，它也是唯一子元素为 <circle> 但 r=9 且带 stroke-dasharray）。
   const placeholderIcons = await page.evaluate(() => {
-    const icons = document.querySelectorAll(".icon");
+    const icons = document.querySelectorAll("svg.icon");
     let count = 0;
     icons.forEach(icon => {
-      const style = window.getComputedStyle(icon);
-      const bg = style.backgroundImage;
-      // 占位符通常是 radial-gradient 或 none
-      if (bg === "none" || bg.includes("radial-gradient")) {
+      const children = icon.children;
+      if (
+        children.length === 1 &&
+        children[0].tagName.toLowerCase() === "circle" &&
+        children[0].getAttribute("r") === "10" &&
+        !children[0].hasAttribute("stroke-dasharray")
+      ) {
         count++;
       }
     });
