@@ -17112,6 +17112,573 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.260.c/1999.260.c_web.jpg",
       "ratio": 0.753
+    },
+    {
+      "id": "cma-159504",
+      "issue": "2026-09-10",
+      "t": "阳光",
+      "a": "图雷·塞德斯特伦",
+      "aid": "ture-nikolaus-cederstrom-swedish-1843-1924",
+      "y": 1890,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "光影",
+        "19世纪",
+        "瑞典",
+        "室内",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.274/1996.274_web.jpg",
+      "ratio": 1.417
+    },
+    {
+      "id": "cma-101493",
+      "issue": "2026-09-10",
+      "t": "隅田川夜景",
+      "a": "歌川广重",
+      "aid": "utagawa-hiroshige-japanese-1797-1858",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "夜景",
+        "河流",
+        "日本",
+        "19世纪",
+        "浮世绘",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.274/1920.274_web.jpg",
+      "ratio": 2.493
+    },
+    {
+      "id": "cma-124091",
+      "issue": "2026-09-10",
+      "t": "女子肖像",
+      "a": "安德烈亚·德尔·萨尔托",
+      "aid": "andrea-del-sarto-italian-1486-1530",
+      "y": 1518,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "文艺复兴",
+        "意大利",
+        "16世纪",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.92/1944.92_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-146752",
+      "issue": "2026-09-10",
+      "t": "从田野归来",
+      "a": "让-弗朗索瓦·米勒",
+      "aid": "jean-francois-millet-french-1814-1875",
+      "y": 1846,
+      "mv": "现实主义",
+      "tags": [
+        "农民",
+        "风景",
+        "19世纪",
+        "法国",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.19/1972.19_web.jpg",
+      "ratio": 1.22
+    },
+    {
+      "id": "cma-137825",
+      "issue": "2026-09-10",
+      "t": "受伤的猴子咬王子的手",
+      "a": "达萨万塔",
+      "aid": "dasavanta-indian-d-1584",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "动物",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.32.b/1962.279.32.b_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-152265",
+      "issue": "2026-09-10",
+      "t": "阿姆斯特丹的建筑工地",
+      "a": "乔治·亨德里克·布赖特纳",
+      "aid": "george-hendrik-breitner-dutch-1857-1923",
+      "y": 1902,
+      "mv": "印象派",
+      "tags": [
+        "城市",
+        "荷兰",
+        "20世纪",
+        "建筑",
+        "雪景",
+        "劳工"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.145/1985.145_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-143138",
+      "issue": "2026-09-10",
+      "t": "逃往埃及途中的休息",
+      "a": "圭尔奇诺",
+      "aid": "guercino-italian-1591-1666",
+      "y": 1624,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "意大利",
+        "17世纪",
+        "圆形构图",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.123/1967.123_web.jpg",
+      "ratio": 1.008
+    },
+    {
+      "id": "cma-149613",
+      "issue": "2026-09-10",
+      "t": "仿古人画册：秋景道人与鹤",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "道教",
+        "17世纪",
+        "中国",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.7/1979.27.1.7_web.jpg",
+      "ratio": 1.12
+    },
+    {
+      "id": "cma-134933",
+      "issue": "2026-09-10",
+      "t": "儿童舞蹈",
+      "a": "勒南兄弟",
+      "aid": "le-nain-french",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "法国",
+        "17世纪",
+        "儿童",
+        "舞蹈",
+        "户外"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1957.489/1957.489_web.jpg",
+      "ratio": 0.759
+    },
+    {
+      "id": "cma-170874",
+      "issue": "2026-09-10",
+      "t": "建筑全景前的沐浴女子",
+      "a": "法伊祖拉",
+      "aid": "fayzullah-indian-active-c-1730-1765",
+      "y": 1765,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "风俗",
+        "印度",
+        "18世纪",
+        "女性",
+        "建筑",
+        "宫廷生活"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.344/2013.344_web.jpg",
+      "ratio": 1.376
+    },
+    {
+      "id": "cma-137135",
+      "issue": "2026-09-10",
+      "t": "文森佐·瓜里尼奥尼肖像",
+      "a": "乔瓦尼·巴蒂斯塔·莫罗尼",
+      "aid": "giovanni-battista-moroni-italian-1525-1578",
+      "y": 1572,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "文艺复兴",
+        "意大利",
+        "16世纪",
+        "男性",
+        "贝加莫画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.1/1962.1_web.jpg",
+      "ratio": 1.227
+    },
+    {
+      "id": "cma-145421",
+      "issue": "2026-09-10",
+      "t": "菊丛犬雀图",
+      "a": "长泽芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1792,
+      "mv": "圆山四条派",
+      "tags": [
+        "花鸟",
+        "日本",
+        "18世纪",
+        "动物",
+        "植物",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.71.1/1970.71.1_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-147521",
+      "issue": "2026-09-10",
+      "t": "小挤奶女工",
+      "a": "泰奥杜尔·里博",
+      "aid": "theodule-ribot-french-1823-1891",
+      "y": 1865,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "法国",
+        "19世纪",
+        "现实主义",
+        "人物",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.31/1973.31_web.jpg",
+      "ratio": 1.235
+    },
+    {
+      "id": "cma-149623",
+      "issue": "2026-09-10",
+      "t": "临古山水册：水亭读书图",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "中国",
+        "17世纪",
+        "隐逸",
+        "瀑布",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.18/1979.27.2.18_web.jpg",
+      "ratio": 1.132
+    },
+    {
+      "id": "cma-137943",
+      "issue": "2026-09-10",
+      "t": "不忠之妻涂黑鸨母脸并将其逐出（出自《鹦鹉故事》第八夜）",
+      "a": "施拉瓦纳",
+      "aid": "shravana-indian-active-1550s-c-1600",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "戏剧",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.67.b/1962.279.67.b_web.jpg",
+      "ratio": 1.595
+    },
+    {
+      "id": "cma-148362",
+      "issue": "2026-09-10",
+      "t": "梦游天台图",
+      "a": "钱杜",
+      "aid": "qian-du-chinese-1763-1844",
+      "y": 1814,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "梦境",
+        "19世纪",
+        "中国",
+        "长卷",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_web.jpg",
+      "ratio": 0.228
+    },
+    {
+      "id": "cma-143784",
+      "issue": "2026-09-10",
+      "t": "牧羊人的崇拜",
+      "a": "卡洛·多尔奇",
+      "aid": "carlo-dolci-italian-1616-1687",
+      "y": 1670,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "意大利",
+        "17世纪",
+        "神圣家庭",
+        "佛罗伦萨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.22/1968.22_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-156864",
+      "issue": "2026-09-10",
+      "t": "源中纳言访小野小町",
+      "a": "清原雪信",
+      "aid": "kiyohara-yukinobu-japanese-1643-1682",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "叙事",
+        "日本",
+        "17世纪",
+        "历史",
+        "贵族",
+        "月夜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.77/1992.77_web.jpg",
+      "ratio": 0.738
+    },
+    {
+      "id": "cma-150022",
+      "issue": "2026-09-10",
+      "t": "阿里翁骑海马与酒神女祭司骑豹（对作）",
+      "a": "威廉·阿道夫·布格罗",
+      "aid": "william-adolphe-bouguereau-french-1825-1905",
+      "y": 1855,
+      "mv": "学院派",
+      "tags": [
+        "神话",
+        "法国",
+        "19世纪",
+        "学院派",
+        "人体",
+        "对作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.238/1980.238_web.jpg",
+      "ratio": 1.273
+    },
+    {
+      "id": "cma-86106",
+      "issue": "2026-09-10",
+      "t": "鹭鸶芦苇图",
+      "a": "杨基薰",
+      "aid": "yang-ki-hun-seuk-eun-korean-1843-1919",
+      "y": 1800,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "韩国",
+        "19世纪",
+        "水墨",
+        "芦苇",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.509/2015.509_web.jpg",
+      "ratio": 2.601
+    },
+    {
+      "id": "cma-137998",
+      "issue": "2026-09-10",
+      "t": "海王化人见罗阇",
+      "a": "古拉姆·阿里",
+      "aid": "ghulam-ali-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "神话",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "宫廷",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.92.a/1962.279.92.a_web.jpg",
+      "ratio": 1.51
+    },
+    {
+      "id": "cma-97149",
+      "issue": "2026-09-10",
+      "t": "圣母与圣子",
+      "a": "弗朗切斯科·博蒂奇尼",
+      "aid": "francesco-botticini-italian-c-1446-1497",
+      "y": 1475,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "意大利",
+        "15世纪",
+        "圣母",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.788/1916.788_web.jpg",
+      "ratio": 1.452
+    },
+    {
+      "id": "cma-152448",
+      "issue": "2026-09-10",
+      "t": "美人接客图",
+      "a": "田村水尾",
+      "aid": "tamura-suio-japanese-active-late-1600s-early-1700s",
+      "y": 1650,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "日本",
+        "17世纪",
+        "美人画",
+        "室内",
+        "游里"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.275/1985.275_web.jpg",
+      "ratio": 0.61
+    },
+    {
+      "id": "cma-143221",
+      "issue": "2026-09-10",
+      "t": "魔鬼与汤姆·沃克",
+      "a": "约翰·奎多尔",
+      "aid": "john-quidor-american-1801-1881",
+      "y": 1856,
+      "mv": "浪漫主义",
+      "tags": [
+        "文学题材",
+        "美国",
+        "19世纪",
+        "讽刺",
+        "叙事",
+        "民间传说"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_web.jpg",
+      "ratio": 0.765
+    },
+    {
+      "id": "cma-170875",
+      "issue": "2026-09-10",
+      "t": "恋人与挚爱：波斯、乌尔都语与梵文文学场景合集",
+      "a": "奇特曼二世",
+      "aid": "chitarman-ii-indian-c-1680-1750",
+      "y": 1735,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "复合场景",
+        "印度",
+        "18世纪",
+        "爱情",
+        "文学",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.345/2013.345_web.jpg",
+      "ratio": 1.378
+    },
+    {
+      "id": "cma-97141",
+      "issue": "2026-09-10",
+      "t": "天顶画草图",
+      "a": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "aid": "giovanni-battista-tiepolo-italian-1696-1770",
+      "y": 1750,
+      "mv": "巴洛克",
+      "tags": [
+        "草图",
+        "巴洛克",
+        "意大利",
+        "18世纪",
+        "天顶画",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.780/1916.780_web.jpg",
+      "ratio": 1.241
+    },
+    {
+      "id": "cma-137588",
+      "issue": "2026-09-10",
+      "t": "披着虎皮的驴因嘶鸣暴露身份",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "寓言",
+        "动物",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.207.a/1962.279.207.a_web.jpg",
+      "ratio": 1.537
+    },
+    {
+      "id": "cma-101852",
+      "issue": "2026-09-10",
+      "t": "乔治·科利尔夫人肖像",
+      "a": "约书亚·雷诺兹",
+      "aid": "joshua-reynolds-british-1723-1792",
+      "y": null,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "贵族",
+        "女性",
+        "侧面像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.514/1920.514_web.jpg",
+      "ratio": 1.22
+    },
+    {
+      "id": "cma-148990",
+      "issue": "2026-09-10",
+      "t": "圣母与圣子及天使",
+      "a": "斯皮内洛·阿雷蒂诺",
+      "aid": "spinello-aretino-italian-1350-52-1410",
+      "y": 1405,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "哥特",
+        "意大利",
+        "15世纪",
+        "天使",
+        "祭坛画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.145/1977.145_web.jpg",
+      "ratio": 1.967
+    },
+    {
+      "id": "cma-153778",
+      "issue": "2026-09-10",
+      "t": "风俗人物图",
+      "a": "武部素长",
+      "aid": "takebe-socho-japanese-1760-1814",
+      "y": 1816,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "日本",
+        "19世纪",
+        "人物",
+        "市井",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.72.2/1987.72.2_web.jpg",
+      "ratio": 2.439
     }
   ]
 }

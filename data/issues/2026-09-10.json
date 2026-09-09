@@ -1,0 +1,1447 @@
+{
+  "v": 1,
+  "date": "2026-09-10",
+  "works": [
+    {
+      "id": "cma-159504",
+      "source": "cma",
+      "sourceId": "159504",
+      "sourceUrl": "https://clevelandart.org/art/1996.274",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Sunlight",
+      "title_zh": "阳光",
+      "artist_en": "Ture Nikolaus Cederström (Swedish, 1843–1924)",
+      "artist_zh": "图雷·塞德斯特伦",
+      "artist_id": "ture-nikolaus-cederstrom-swedish-1843-1924",
+      "artist_nationality_zh": "瑞典",
+      "artist_years": "1843–1924",
+      "date_display": "1890s",
+      "year": 1890,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 47 x 33.5 cm (18 1/2 x 13 3/16 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "肖像",
+        "光影",
+        "19世纪",
+        "瑞典",
+        "室内",
+        "宗教"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1996.274/1996.274_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1996.274/1996.274_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1996.274/1996.274_web.jpg",
+        "ratio": 1.417
+      },
+      "palette": [
+        "#5f411d",
+        "#99804e"
+      ],
+      "essay": [
+        "图雷·塞德斯特伦是 19 世纪瑞典学院派绘画的中坚力量，以严谨的构图和细腻的光影处理著称。这幅作于 1890 年代的作品，延续了他对室内光线与人物神态的探索，将宗教题材从神圣叙事拉回到静谧的日常瞬间。",
+        "画面最精彩处在于光线的物理质感：阳光穿过窗棂，在粗糙的石灰墙面上投下清晰的几何切面。塞德斯特伦用厚涂法堆叠出墙皮剥落的肌理，与修士洁白长袍上柔和的漫反射形成鲜明对比，精准捕捉了光线在不同材质上的折射差异。",
+        "尽管技法无可挑剔，但这幅画在情感表达上略显克制。修士侧身望向窗外的姿态虽然优雅，却缺乏更深层的心理刻画，仿佛只是为了展示光影效果而摆出的模特姿势。这种‘为光而光’的处理，是当时学院派画家常见的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.65,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-101493",
+      "source": "cma",
+      "sourceId": "101493",
+      "sourceUrl": "https://clevelandart.org/art/1920.274",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Night Scene on the Sumida River",
+      "title_zh": "隅田川夜景",
+      "artist_en": "Utagawa Hiroshige (Japanese, 1797–1858)",
+      "artist_zh": "歌川广重",
+      "artist_id": "utagawa-hiroshige-japanese-1797-1858",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1797–1858",
+      "date_display": "1800s",
+      "year": 1800,
+      "medium_zh": "绢本设色",
+      "dimensions": "Painting only: 93.4 x 33.7 cm (36 3/4 x 13 1/4 in.); Including mounting: 158.5 x 45.7 cm (62 3/8 x 18 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "夜景",
+        "河流",
+        "日本",
+        "19世纪",
+        "浮世绘",
+        "风景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.274/1920.274_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.274/1920.274_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.274/1920.274_web.jpg",
+        "ratio": 2.493
+      },
+      "palette": [
+        "#ae9f7d",
+        "#95886d"
+      ],
+      "essay": [
+        "歌川广重是江户时代晚期浮世绘风景画的巨匠，以《东海道五十三次》确立了其“旅情诗人”的地位。这幅《隅田川夜景》虽非其最为人熟知的版画系列，却展示了他在绢本绘画上对光影与氛围的细腻掌控，体现了其晚年对静谧诗意的极致追求。",
+        "画面右侧前景的木桩结构是视觉的锚点，画家以精准的墨线勾勒出其几何形态，与远处柔和的月色形成刚柔对比。水面波纹的处理极为克制，仅用淡墨晕染出微澜，既表现了夜色的深沉，又未破坏整体构图的空灵感。",
+        "广重擅长将日常景物转化为抒情诗，但此作在构图上略显保守：巨大的留白虽营造了寂寥感，却也使得画面重心过于偏向右下，左侧长桥的透视处理稍显平淡，缺乏其版画中常见的戏剧性张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.78,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-124091",
+      "source": "cma",
+      "sourceId": "124091",
+      "sourceUrl": "https://clevelandart.org/art/1944.92",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of a Woman",
+      "title_zh": "女子肖像",
+      "artist_en": "Andrea del Sarto (Italian, 1486–1530)",
+      "artist_zh": "安德烈亚·德尔·萨尔托",
+      "artist_id": "andrea-del-sarto-italian-1486-1530",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1486–1530",
+      "date_display": "c. 1518",
+      "year": 1518,
+      "medium_zh": "木板油画",
+      "dimensions": "Framed: 108 x 86.5 x 8 cm (42 1/2 x 34 1/16 x 3 1/8 in.); Unframed: 82.5 x 62.2 cm (32 1/2 x 24 1/2 in.)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "肖像",
+        "文艺复兴",
+        "意大利",
+        "16世纪",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1944.92/1944.92_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1944.92/1944.92_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1944.92/1944.92_web.jpg",
+        "ratio": 1.335
+      },
+      "palette": [
+        "#26251f",
+        "#615d55"
+      ],
+      "essay": [
+        "安德烈亚·德尔·萨尔托是佛罗伦萨画派承前启后的关键人物，被瓦萨里誉为“无过失的画家”。这幅作于 1518 年左右的肖像，处于他风格最成熟的时期，展示了他在达·芬奇的晕涂法与米开朗基罗的雕塑感之间找到的独特平衡。",
+        "画面最精彩之处在于衣袖的处理：白色外袖如云雾般蓬松堆叠，与内层红色紧身袖形成强烈的质感对比。画家利用高光在褶皱间的跳跃，精准捕捉了丝绸的顺滑与厚重织物的体积感，这种对衣纹的戏剧化处理直接影响了后来的样式主义。",
+        "尽管技法无懈可击，人物神情却略显疏离。那双低垂的眼睛和紧闭的嘴唇，透出一股难以接近的冷峻，仿佛模特只是画家展示造型能力的道具，而非有血有肉的个体。这种“完美的冷漠”，正是德尔·萨尔托常被后世诟病缺乏情感深度的原因。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.72,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-146752",
+      "source": "cma",
+      "sourceId": "146752",
+      "sourceUrl": "https://clevelandart.org/art/1972.19",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Return from the Fields",
+      "title_zh": "从田野归来",
+      "artist_en": "Jean-François Millet (French, 1814–1875)",
+      "artist_zh": "让-弗朗索瓦·米勒",
+      "artist_id": "jean-francois-millet-french-1814-1875",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1814–1875",
+      "date_display": "c. 1846–47",
+      "year": 1846,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 68 x 60 x 10 cm (26 3/4 x 23 5/8 x 3 15/16 in.); Unframed: 46.2 x 37.8 cm (18 3/16 x 14 7/8 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "农民",
+        "风景",
+        "19世纪",
+        "法国",
+        "田园"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1972.19/1972.19_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1972.19/1972.19_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1972.19/1972.19_web.jpg",
+        "ratio": 1.22
+      },
+      "palette": [
+        "#272210",
+        "#3d341d"
+      ],
+      "essay": [
+        "这是米勒早期巴比松时期的作品，创作于他定居枫丹白露森林不久后。此时的他尚未完全确立那种纪念碑式的农民形象，笔触中还残留着洛可可式的轻盈与浪漫主义的幻想色彩，与后期《拾穗者》中那种沉郁厚重的风格形成鲜明对比。",
+        "画面最精彩处在于前景男子的背部与腿部。深褐色的粗布裤与裸露的小腿肌肉在暗调背景中显得格外结实，米勒用厚涂法堆叠出织物经年的磨损痕迹，以及皮肤在劳作后的紧绷质感。这种对衣物与肌理的细腻刻画，显示出他对底层劳动者身体的深刻观察。",
+        "然而，画中女性的形象却显得过于理想化：她肌肤莹润、姿态慵懒，更像是神话中的宁芙而非农妇。这种将农家生活牧歌化的处理，暴露了米勒早期尚未完全摆脱沙龙审美趣味的局限，也反映了当时城市观众对乡村生活的浪漫想象。",
+        "尽管如此，这幅画仍标志着米勒从传统历史画向现实题材的转型。他对农民日常劳作的关注，为后来现实主义运动奠定了重要基础，也预示了他将成为19世纪法国乡村生活最忠实的记录者之一。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-137825",
+      "source": "cma",
+      "sourceId": "137825",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.32.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The wounded monkey bites the hand of the prince, his chessmate, in the presence of guests, from a Tuti-nama (Tales of a Parrot): Fifth Night",
+      "title_zh": "受伤的猴子咬王子的手",
+      "artist_en": "Dasavanta (Indian, d. 1584)",
+      "artist_zh": "达萨万塔",
+      "artist_id": "dasavanta-indian-d-1584",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详–1584",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20 x 14.2 cm (7 7/8 x 5 9/16 in.); Painting only: 10.2 x 10.6 cm (4 x 4 3/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "动物",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.32.b/1962.279.32.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.32.b/1962.279.32.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.32.b/1962.279.32.b_web.jpg",
+        "ratio": 1.541
+      },
+      "palette": [
+        "#cbaf8e",
+        "#836a61"
+      ],
+      "essay": [
+        "达萨万塔是莫卧儿宫廷早期细密画的核心人物，他将波斯细密画的装饰性与印度本土的叙事活力相结合。此作出自《鹦鹉故事》（Tuti-nama）手稿，描绘了第五夜的故事场景。作为阿克巴大帝时期的宫廷画师，他的作品标志着印度细密画从波斯风格向更具本土写实特征的过渡。",
+        "画面左下角的冲突瞬间极具张力：猴子前肢紧绷，利爪紧扣棋盘边缘，正凶狠地啃噬王子的手腕。画家对动物肌肉线条的勾勒十分精准，猴身灰褐色的皮毛通过细密的排线表现出粗糙质感，与王子光滑的肌肤形成鲜明对比。这种动态捕捉打破了传统宫廷画的静止感。",
+        "尽管故事充满戏剧性，但周围宾客的反应却显得过于程式化。除了右下角惊慌失措的侍从，亭中其他人物大多神情淡漠，仿佛只是在观看一场排练好的戏剧，而非真实的危机。这种情感上的疏离是早期莫卧儿绘画的通病，叙事重心往往偏向装饰性而非心理深度的挖掘。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.68,
+        "r": 0.12,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-152265",
+      "source": "cma",
+      "sourceId": "152265",
+      "sourceUrl": "https://clevelandart.org/art/1985.145",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Construction Site in Amsterdam",
+      "title_zh": "阿姆斯特丹的建筑工地",
+      "artist_en": "George Hendrik Breitner (Dutch, 1857–1923)",
+      "artist_zh": "乔治·亨德里克·布赖特纳",
+      "artist_id": "george-hendrik-breitner-dutch-1857-1923",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1857–1923",
+      "date_display": "c. 1902",
+      "year": 1902,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 80 x 100 x 8.6 cm (31 1/2 x 39 3/8 x 3 3/8 in.); Unframed: 60.5 x 80.7 cm (23 13/16 x 31 3/4 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "城市",
+        "荷兰",
+        "20世纪",
+        "建筑",
+        "雪景",
+        "劳工"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1985.145/1985.145_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1985.145/1985.145_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1985.145/1985.145_web.jpg",
+        "ratio": 0.746
+      },
+      "palette": [
+        "#595246",
+        "#a39c90"
+      ],
+      "essay": [
+        "布赖特纳是海牙画派向现代主义过渡的关键人物，以描绘阿姆斯特丹街头生活著称。这幅作于 1902 年的雪景图，记录了他晚年对城市变迁的敏锐观察。不同于早期对动态人群的迷恋，此作将视线投向沉默的基建现场，展现了工业化进程中粗粝的一面。",
+        "画面前景的积雪处理极具质感，画家并未追求平滑的白色，而是用厚涂法堆叠出灰褐与冷白交织的泥泞感。推车的工人身影被简化为深色剪影，在苍茫的雪地上形成有力的节奏。这种对地面肌理的强调，让观者仿佛能感受到冬日的湿冷与沉重。",
+        "尽管笔触奔放，但背景中的房屋描绘得相对克制，保留了荷兰传统建筑的轮廓特征。这种虚实处理虽突出了前景的劳作氛围，却也使得画面纵深略显扁平。布赖特纳似乎更在意捕捉瞬间的光色印象，而非构建严谨的空间透视。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.75,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-143138",
+      "source": "cma",
+      "sourceId": "143138",
+      "sourceUrl": "https://clevelandart.org/art/1967.123",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Rest on the Flight into Egypt",
+      "title_zh": "逃往埃及途中的休息",
+      "artist_en": "Guercino (Italian, 1591–1666)",
+      "artist_zh": "圭尔奇诺",
+      "artist_id": "guercino-italian-1591-1666",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1591–1666",
+      "date_display": "1624",
+      "year": 1624,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 95.9 x 96.6 x 10.8 cm (37 3/4 x 38 1/16 x 4 1/4 in.); Diameter: 68.5 cm (26 15/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "意大利",
+        "17世纪",
+        "圆形构图",
+        "光影"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1967.123/1967.123_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1967.123/1967.123_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1967.123/1967.123_web.jpg",
+        "ratio": 1.008
+      },
+      "palette": [
+        "#37302b",
+        "#6b655e"
+      ],
+      "essay": [
+        "圭尔奇诺是 17 世纪意大利巴洛克绘画的关键人物，以强烈的明暗对比（chiaroscuro）和戏剧性光影著称。这幅 1624 年的圆形画作处于他风格成熟期，展现了他在处理宗教题材时，将神圣叙事融入自然主义风景的高超能力。",
+        "画面右侧天使的衣袍是视觉焦点之一。赭石色与深褐色的面料在光线下呈现出丰富的褶皱层次，笔触流畅而肯定。圭尔奇诺利用厚涂法堆叠出织物的体积感，与天使裸露的肩背肌肤形成质感上的鲜明对比，既展示了画家的技法自信，也引导视线向中心人物流动。",
+        "尽管光影处理极具戏剧张力，但人物姿态略显舞台化。圣母与圣约瑟的互动虽然温情，却缺乏卡拉瓦乔式的那种粗粝现实感；天使演奏小提琴的场景虽美，却更像是一场精心编排的室内乐演出，而非荒野途中的真实休憩。这种理想化的倾向，是博洛尼亚画派与罗马自然主义之间的典型折衷。"
+      ],
+      "detailCrop": {
+        "cx": 0.72,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-149613",
+      "source": "cma",
+      "sourceId": "149613",
+      "sourceUrl": "https://clevelandart.org/art/1979.27.1.7",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Paintings after Ancient Masters: Daoist and Crane in Autumn Landscape",
+      "title_zh": "仿古人画册：秋景道人与鹤",
+      "artist_en": "Chen Hongshou (Chinese, 1598/99–1652)",
+      "artist_zh": "陈洪绶",
+      "artist_id": "chen-hongshou-chinese-1598-99-1652",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1598/99–1652",
+      "date_display": "1598–1652",
+      "year": 1625,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 30.2 x 26.7 cm (11 7/8 x 10 1/2 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "道教",
+        "17世纪",
+        "中国",
+        "册页"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.27.1.7/1979.27.1.7_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.27.1.7/1979.27.1.7_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.27.1.7/1979.27.1.7_web.jpg",
+        "ratio": 1.12
+      },
+      "palette": [
+        "#d8c09b",
+        "#9c896c"
+      ],
+      "essay": [
+        "陈洪绶是明末清初人物画巨匠，以高古奇骇的造型风格著称。此作虽题为“仿古”，却非单纯临摹，而是借宋元笔意重构心中的高士世界。在明清易代的动荡背景下，这类描绘隐逸题材的作品，往往寄托了画家对乱世的疏离与对精神净土的向往。",
+        "画面右下角的道人形象极具陈氏个人符号：身形修长，衣纹线条方折刚劲，如铁丝般富有弹性，与其标志性的“高古游丝描”一脉相承。他伫立于枯树之下，姿态静穆，与身旁昂首的仙鹤形成动静呼应。这种夸张变形的人物比例，刻意拉开了与现实肉身的距离，营造出一种不食人间烟火的疏离感。",
+        "作为“仿古人”之作，此画在构图上略显程式化，山石堆叠与树木姿态带有明显的拼贴痕迹，缺乏宋人山水那种浑然天成的空间纵深。然而，正是这种略带生涩的“拙味”，构成了陈洪绶独特的审美壁垒——他不在乎物理世界的真实，只在乎笔墨间那份孤傲的古意。"
+      ],
+      "detailCrop": {
+        "cx": 0.76,
+        "cy": 0.66,
+        "r": 0.12,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-134933",
+      "source": "cma",
+      "sourceId": "134933",
+      "sourceUrl": "https://clevelandart.org/art/1957.489",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Children Dancing",
+      "title_zh": "儿童舞蹈",
+      "artist_en": "Le Nain (French)",
+      "artist_zh": "勒南兄弟",
+      "artist_id": "le-nain-french",
+      "artist_nationality_zh": "法国",
+      "artist_years": "不详",
+      "date_display": "c. 1650",
+      "year": 1650,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 115 x 146 x 9.5 cm (45 1/4 x 57 1/2 x 3 3/4 in.); Unframed: 92 x 120.2 cm (36 1/4 x 47 5/16 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风俗画",
+        "法国",
+        "17世纪",
+        "儿童",
+        "舞蹈",
+        "户外"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1957.489/1957.489_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1957.489/1957.489_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1957.489/1957.489_web.jpg",
+        "ratio": 0.759
+      },
+      "palette": [
+        "#2f2a21",
+        "#6a6c68"
+      ],
+      "essay": [
+        "勒南兄弟是17世纪法国画坛的异数，他们不画神话也不画宫廷，而是将目光投向沉默的农民与乡野儿童。这幅《儿童舞蹈》虽被归为风俗画，却剥离了当时常见的滑稽或道德说教意味，呈现出一种近乎庄严的静穆感。",
+        "画面中央白衣少女的衣着处理极具看点：白色亚麻长裙在冷光下呈现出细腻的灰调层次，红色围裙与腰封的厚涂笔触堆叠出织物的重量感。这种对衣料质感的冷静刻画，与周围孩子粗糙的深色外套形成鲜明对比，暗示了某种微妙的社会阶层差异。",
+        "尽管画家试图捕捉乡村游戏的瞬间，但人物姿态略显僵硬，缺乏真正的动态张力——孩子们像是在摆拍而非狂欢。这种‘摆拍感’或许是勒南兄弟工作室模式的局限，但也意外地赋予了画面一种超越时间的仪式感。"
+      ],
+      "detailCrop": {
+        "cx": 0.56,
+        "cy": 0.48,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-170874",
+      "source": "cma",
+      "sourceId": "170874",
+      "sourceUrl": "https://clevelandart.org/art/2013.344",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Women bathing before an architectural panorama",
+      "title_zh": "建筑全景前的沐浴女子",
+      "artist_en": "Fayzullah (Indian, active c. 1730–1765)",
+      "artist_zh": "法伊祖拉",
+      "artist_id": "fayzullah-indian-active-c-1730-1765",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于约 1730–1765",
+      "date_display": "c. 1765",
+      "year": 1765,
+      "medium_zh": "纸本树胶蛋彩与金箔",
+      "dimensions": "",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "风俗",
+        "印度",
+        "18世纪",
+        "女性",
+        "建筑",
+        "宫廷生活"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2013.344/2013.344_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2013.344/2013.344_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2013.344/2013.344_web.jpg",
+        "ratio": 1.376
+      },
+      "palette": [
+        "#7a6954",
+        "#b5a893"
+      ],
+      "essay": [
+        "法伊祖拉是 18 世纪中叶莫卧儿帝国晚期的重要细密画家，活跃于德里与勒克瑙的宫廷圈层。这幅作于 1765 年前后的作品，处于其艺术生涯的成熟阶段，展现了当时宫廷绘画在融合波斯传统构图与本土叙事题材上的极高造诣，是晚期莫卧儿风格向装饰性极致发展的典型样本。",
+        "画面采用宏大的全景式构图，将前景的私密沐浴场景与背景中精密的建筑群并置。这种“画中画”式的空间处理，利用建筑线条的透视引导视线，创造出一种既深邃又装饰性极强的视觉奇观。前景水池中的人物姿态舒展，与后方严整对称的宫殿庭院形成动静对比，金箔点缀的穹顶与水面波光相互呼应，强化了画面的奢华质感。",
+        "尽管画面极尽奢华，金箔与矿物颜料的运用令人目眩，但人物面部表情的程式化削弱了叙事的真实感。所有女子的面容几乎如出一辙，缺乏个体特征的区分，这种对装饰秩序的过度追求，往往以牺牲人物个性为代价。这是晚期莫卧儿绘画在技法登峰造极时，不得不面对的风格化困境。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.75,
+        "r": 0.18,
+        "region": "whole_work"
+      }
+    },
+    {
+      "id": "cma-137135",
+      "source": "cma",
+      "sourceId": "137135",
+      "sourceUrl": "https://clevelandart.org/art/1962.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Vincenzo Guarignoni",
+      "title_zh": "文森佐·瓜里尼奥尼肖像",
+      "artist_en": "Giovanni Battista Moroni (Italian, 1525–1578)",
+      "artist_zh": "乔瓦尼·巴蒂斯塔·莫罗尼",
+      "artist_id": "giovanni-battista-moroni-italian-1525-1578",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1525–1578",
+      "date_display": "c. 1572",
+      "year": 1572,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 91 x 80 x 8 cm (35 13/16 x 31 1/2 x 3 1/8 in.); Unframed: 63 x 50.8 cm (24 13/16 x 20 in.)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "肖像",
+        "文艺复兴",
+        "意大利",
+        "16世纪",
+        "男性",
+        "贝加莫画派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.1/1962.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.1/1962.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.1/1962.1_web.jpg",
+        "ratio": 1.227
+      },
+      "palette": [
+        "#181513",
+        "#524940"
+      ],
+      "essay": [
+        "莫罗尼是 16 世纪意大利贝加莫画派的代表人物，以冷静客观的写实风格著称。不同于提香的华丽或米开朗基罗的宏大，他专注于描绘普通人的真实面貌。此作绘于 1572 年，即画家去世前六年，展现了其晚年炉火纯青的肖像技法。",
+        "画面最精彩之处在于面部的微妙处理。前额的高光与眼窝的阴影过渡自然，刻画出人物略显疲惫的神态。胡须的笔触细密而有序，每一根须发都清晰可辨，却又不失整体的蓬松感。眼神直视前方，透露出一种知识分子的审慎与内敛。",
+        "这种极致的写实有时显得过于冷峻。人物身着当时流行的黑色服饰，大面积的暗部虽然突出了面部，但也让整体氛围略显沉闷。不过，领口那圈洁白的拉夫领（Ruff）成为了视觉的透气点，其硬挺的质感与柔软的肌肤形成了有趣的材质对比。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.35,
+        "r": 0.18,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-145421",
+      "source": "cma",
+      "sourceId": "145421",
+      "sourceUrl": "https://clevelandart.org/art/1970.71.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Puppies, Sparrows, and Chrysanthemums",
+      "title_zh": "菊丛犬雀图",
+      "artist_en": "Nagasawa Rosetsu (Japanese, 1754–1799)",
+      "artist_zh": "长泽芦雪",
+      "artist_id": "nagasawa-rosetsu-japanese-1754-1799",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1754–1799",
+      "date_display": "c. 1792–94",
+      "year": 1792,
+      "medium_zh": "纸本水墨淡彩（原为袄绘，后改装为挂轴）",
+      "dimensions": "Overall: 211.4 x 94 cm (83 1/4 x 37 in.); Painted surface: 167.6 x 91.5 cm (66 x 36 in.)",
+      "movement_zh": "圆山四条派",
+      "tags": [
+        "花鸟",
+        "日本",
+        "18世纪",
+        "动物",
+        "植物",
+        "水墨"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1970.71.1/1970.71.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1970.71.1/1970.71.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1970.71.1/1970.71.1_web.jpg",
+        "ratio": 1.826
+      },
+      "palette": [
+        "#ccbba1",
+        "#bca88d"
+      ],
+      "essay": [
+        "长泽芦雪是圆山应举的高徒，也是四条派的重要奠基人。他虽承袭了圆山派写生求真的传统，却以更为自由奔放的笔触打破了当时画坛的拘谨。此作约绘于 1790 年代中期，正值其艺术成熟期，展现了他在屏风与袄绘创作中驾驭宏大空间与生动物象的卓越能力。",
+        "画面右下角的墨色处理极具看点。芦雪并未采用工笔细描，而是以没骨法结合淡墨晕染，寥寥数笔便勾勒出小狗蓬松的皮毛质感。特别是那只回首张望的小狗，眼神灵动，鼻头湿润，墨色浓淡变化间，动物皮毛的柔软与身体的体积感跃然纸上，尽显水墨的写意精神。",
+        "构图上，大面积的留白是典型的东方美学处理，但也暴露了此类装饰画的局限：为了适应建筑空间，物象被刻意压缩至角落，导致画面重心极度下移。这种布局虽突出了主体的生动，却也让上方空间显得过于空旷，若非作为建筑构件观赏，单看挂轴形式会略显失衡。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.78,
+        "r": 0.18,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-147521",
+      "source": "cma",
+      "sourceId": "147521",
+      "sourceUrl": "https://clevelandart.org/art/1973.31",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Little Milkmaid",
+      "title_zh": "小挤奶女工",
+      "artist_en": "Théodule Ribot (French, 1823–1891)",
+      "artist_zh": "泰奥杜尔·里博",
+      "artist_id": "theodule-ribot-french-1823-1891",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1823–1891",
+      "date_display": "c. 1865",
+      "year": 1865,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 46.3 x 38.3 cm (18 1/4 x 15 1/16 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "肖像",
+        "法国",
+        "19世纪",
+        "现实主义",
+        "人物",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1973.31/1973.31_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1973.31/1973.31_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1973.31/1973.31_web.jpg",
+        "ratio": 1.235
+      },
+      "palette": [
+        "#151411",
+        "#373324"
+      ],
+      "essay": [
+        "泰奥杜尔·里博是法国现实主义画派中一位性格鲜明的“硬汉”。他早年做过镀金工，这种工匠背景让他对光影和质感有着近乎本能的敏锐。这幅作于 1865 年前后的《小挤奶女工》，典型地体现了他受卡拉瓦乔主义影响的“暗色调主义”风格——在深沉的背景中，用强烈的光线塑造出如雕塑般坚实的人物。",
+        "画面最精彩之处在于女孩的面部刻画。里博没有像学院派那样美化农家女孩，而是用厚实的笔触堆叠出她略显粗糙的肤色和泛红的脸颊。那双睁大的眼睛直视观众，眼神中透着一种与其年龄不符的警觉与倔强，甚至带有一丝被强光照射下的惊愕，这种不加修饰的真实感极具冲击力。",
+        "然而，这种极端的明暗对比法也带来了一些局限。为了突出主体，背景被处理得近乎全黑，虽然强化了戏剧性，却牺牲了环境叙事的空间感，让女孩和身边的狗像是悬浮在虚空中。此外，女孩手中的金属桶质感虽好，但与她身上那件略显僵硬的白色围裙相比，笔触的灵动性稍逊一筹。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.24,
+        "r": 0.12,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-149623",
+      "source": "cma",
+      "sourceId": "149623",
+      "sourceUrl": "https://clevelandart.org/art/1979.27.2.18",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Paintings after Ancient Masters: Scholar Reading in a Thatched Hut by a Waterfall",
+      "title_zh": "临古山水册：水亭读书图",
+      "artist_en": "Chen Hongshou (Chinese, 1598/99–1652)",
+      "artist_zh": "陈洪绶",
+      "artist_id": "chen-hongshou-chinese-1598-99-1652",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1598/99–1652",
+      "date_display": "1598–1652",
+      "year": 1625,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 30.2 x 26.7 cm (11 7/8 x 10 1/2 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "中国",
+        "17世纪",
+        "隐逸",
+        "瀑布",
+        "册页"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.27.2.18/1979.27.2.18_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.27.2.18/1979.27.2.18_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.27.2.18/1979.27.2.18_web.jpg",
+        "ratio": 1.132
+      },
+      "palette": [
+        "#e1d6b7",
+        "#a79c7f"
+      ],
+      "essay": [
+        "陈洪绶是晚明变形主义画风的代表，以高古奇骇的人物造型著称。但这套《临古山水册》展示了他师法宋元传统的另一面。此作虽题为临古，实则借宋人丘壑之形，运明人装饰之笔，将文人隐逸的理想图景进行了风格化的重构。",
+        "画面最精彩处在于松针与山石的质感对比。陈洪绶用极细的笔触层层排布松针，形成如绿云般的装饰性团块，极具秩序感；而山石则用粗犷的斧劈皴与浓墨渲染，强调坚硬的体积。这种「细」与「粗」、「柔」与「刚」的并置，构成了独特的视觉张力。",
+        "画中茅亭内的读书人虽点出了「隐逸」主题，但人物比例极小，几近符号，远不如其人物画中那般夸张传神。这种处理让山水本身成为绝对主角，但也暴露了陈洪绶在纯山水题材上，有时过于依赖形式构成，而略逊于营造深邃空间氛围的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-137943",
+      "source": "cma",
+      "sourceId": "137943",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.67.b",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The deceitful wife ejects the procuress after blackening her face, from a Tuti-nama (Tales of a Parrot): Eighth Night",
+      "title_zh": "不忠之妻涂黑鸨母脸并将其逐出（出自《鹦鹉故事》第八夜）",
+      "artist_en": "Shravana (Indian, active 1550s–c.1600)",
+      "artist_zh": "施拉瓦纳",
+      "artist_id": "shravana-indian-active-1550s-c-1600",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550s–c.1600",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶蛋彩、墨水与金箔",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 10.5 x 10 cm (4 1/8 x 3 15/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "戏剧",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.67.b/1962.279.67.b_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.67.b/1962.279.67.b_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.67.b/1962.279.67.b_web.jpg",
+        "ratio": 1.595
+      },
+      "palette": [
+        "#bf9f7b",
+        "#8d6c61"
+      ],
+      "essay": [
+        "施拉瓦纳是 16 世纪莫卧儿宫廷画师，活跃于阿克巴大帝统治初期。这幅作品出自《鹦鹉故事》手抄本，展示了早期莫卧儿细密画如何融合波斯线条的优雅与印度本土叙事的世俗活力。",
+        "画面焦点在于激烈的肢体纠缠：绿衣女子身体前倾，手臂肌肉紧绷，正用力压制对手。橙色裙摆的褶皱如波浪般堆叠，交代了动作的剧烈，织物的动态纹理强化了冲突的张力。",
+        "尽管题材充满市井火药味，人物面容却依旧保持着宫廷审美的理想化平静，缺乏真实的愤怒表情。这种‘优雅的暴力’是细密画的通病，但也正是这种反差，让画面在戏剧性与装饰性之间达成了奇妙的平衡。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.55,
+        "r": 0.18,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-148362",
+      "source": "cma",
+      "sourceId": "148362",
+      "sourceUrl": "https://clevelandart.org/art/1975.75",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Dream Journey to Mt. Tiantai",
+      "title_zh": "梦游天台图",
+      "artist_en": "Qian Du (Chinese, 1763–1844)",
+      "artist_zh": "钱杜",
+      "artist_id": "qian-du-chinese-1763-1844",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1763–1844",
+      "date_display": "1814",
+      "year": 1814,
+      "medium_zh": "纸本水墨手卷",
+      "dimensions": "Overall: 29.8 x 72 cm (11 3/4 x 28 3/8 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "梦境",
+        "19世纪",
+        "中国",
+        "长卷",
+        "文人画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_web.jpg",
+        "ratio": 0.228
+      },
+      "palette": [
+        "#d0c4b4",
+        "#a59a8e"
+      ],
+      "essay": [
+        "钱杜是清代中期文人画的代表人物，以精细雅致的笔触和深厚的文学修养著称。此作《梦游天台图》创作于 1814 年，正值其艺术成熟期，展现了他对传统山水画技法的精湛掌握与个人风格的独特融合。",
+        "画面中，山石嶙峋，树木葱郁，瀑布飞泻而下，营造出一种幽静而神秘的氛围。细节处，山石的纹理通过细腻的皴法表现得层次分明，树木的枝叶则以淡墨勾勒，结构清晰。右侧的茅屋隐现于山林之间，增添了几分人间烟火的气息。",
+        "尽管画面整体布局和谐，但部分山石的描绘略显程式化，缺乏自然的灵动之感。此外，梦境主题的表达虽有意境，但在情感深度上稍显不足，未能完全传达出梦游天台的奇幻与超脱。",
+        "总体而言，《梦游天台图》是一幅技艺精湛的文人画佳作，既体现了钱杜对传统山水画的深刻理解，也展示了他在艺术表达上的独特追求。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.45,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-143784",
+      "source": "cma",
+      "sourceId": "143784",
+      "sourceUrl": "https://clevelandart.org/art/1968.22",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Adoration of the Shepherds",
+      "title_zh": "牧羊人的崇拜",
+      "artist_en": "Carlo Dolci (Italian, 1616–1687)",
+      "artist_zh": "卡洛·多尔奇",
+      "artist_id": "carlo-dolci-italian-1616-1687",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1616–1687",
+      "date_display": "c. 1670",
+      "year": 1670,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 108 x 90.2 x 7.7 cm (42 1/2 x 35 1/2 x 3 1/16 in.); Unframed: 88.6 x 70.5 cm (34 7/8 x 27 3/4 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "意大利",
+        "17世纪",
+        "神圣家庭",
+        "佛罗伦萨"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1968.22/1968.22_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1968.22/1968.22_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1968.22/1968.22_web.jpg",
+        "ratio": 1.252
+      },
+      "palette": [
+        "#1c100b",
+        "#5a452f"
+      ],
+      "essay": [
+        "卡洛·多尔奇是 17 世纪佛罗伦萨画派的代表，以极度虔诚和细腻的风格著称。这幅作于 1670 年前后的《牧羊人的崇拜》，处于他艺术生涯的成熟期。不同于巴洛克盛期那种充满戏剧性动感的宏大叙事，多尔奇选择了一种更为私密、静谧的表达，将神圣场景处理得如同家庭肖像般亲切。",
+        "画面最动人的细节在于圣母与圣婴的互动。多尔奇用极薄的釉染层处理肤色，使婴儿耶稣的肌肤呈现出一种近乎半透明的温润质感，仿佛内部有光透出。圣母低垂的眼帘和轻抚白布的手指，没有夸张的悲喜，只有极度克制的温柔。这种对微小动作的精准捕捉，是多尔奇区别于同代画家的标志。",
+        "然而，这种极致的甜美也构成了多尔奇的局限。为了追求神圣的完美，人物面容往往过于理想化，缺乏粗砺的现实感——即便是贫穷的牧羊人，也被描绘得面容洁净、衣着体面。这种将神圣人物‘瓷娃娃’化的倾向，虽然迎合了当时佛罗伦萨赞助人的审美，却也削弱了宗教题材原本应有的苦难重量。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.68,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-156864",
+      "source": "cma",
+      "sourceId": "156864",
+      "sourceUrl": "https://clevelandart.org/art/1992.77",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Minamoto no Nakakuni Visits Lady Kogō",
+      "title_zh": "源中纳言访小野小町",
+      "artist_en": "Kiyohara Yukinobu (Japanese, 1643–1682)",
+      "artist_zh": "清原雪信",
+      "artist_id": "kiyohara-yukinobu-japanese-1643-1682",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1643–1682",
+      "date_display": "late 1600s",
+      "year": 1600,
+      "medium_zh": "绢本设色三联挂轴",
+      "dimensions": "Overall: 180 x 59.4 cm (70 7/8 x 23 3/8 in.)",
+      "movement_zh": "狩野派",
+      "tags": [
+        "叙事",
+        "日本",
+        "17世纪",
+        "历史",
+        "贵族",
+        "月夜"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1992.77/1992.77_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1992.77/1992.77_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1992.77/1992.77_web.jpg",
+        "ratio": 0.738
+      },
+      "palette": [
+        "#9f8259",
+        "#b19369"
+      ],
+      "essay": [
+        "清原雪信是江户时代狩野派中罕见的女性画家，师从狩野安信。这幅三联画取材于《伊势物语》中的经典桥段，描绘了源中纳言在月夜造访隐居的小野小町。作为当时极少数能承接大型障壁画与挂轴委托的女性，她的笔触在遵循狩野派严谨法度的同时，流露出一种独特的细腻与温婉。",
+        "画面中央的茅屋是视觉焦点，也是叙事的终点。画家以极细的墨线勾勒屋顶的茅草纹理，疏密有致，展现出材料的粗糙质感。屋内小町身着层叠的十二单，色彩虽已随岁月褪去，但衣纹的流畅线条仍清晰可见，暗示着人物高贵的身份与此刻静谧的等待。",
+        "这种将宏大叙事压缩于幽静山水的处理，虽营造了“物哀”的氛围，却也不免让画面显得过于克制。前景骑马的源中纳言与背景的小町之间，缺乏更强烈的情感张力或眼神交流，仿佛只是两个被安置在风景中的符号。这种距离感或许是画家的刻意留白，但也让故事的戏剧性稍显平淡。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-150022",
+      "source": "cma",
+      "sourceId": "150022",
+      "sourceUrl": "https://clevelandart.org/art/1980.238",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Arion on a Sea Horse and Bacchante on a Panther (pair)",
+      "title_zh": "阿里翁骑海马与酒神女祭司骑豹（对作）",
+      "artist_en": "William Adolphe Bouguereau (French, 1825–1905)",
+      "artist_zh": "威廉·阿道夫·布格罗",
+      "artist_id": "william-adolphe-bouguereau-french-1825-1905",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1825–1905",
+      "date_display": "1855",
+      "year": 1855,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 87.3 x 127 x 5.4 cm (34 3/8 x 50 x 2 1/8 in.); Unframed: 71.3 x 111.8 cm (28 1/16 x 44 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "神话",
+        "法国",
+        "19世纪",
+        "学院派",
+        "人体",
+        "对作"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1980.238/1980.238_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1980.238/1980.238_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1980.238/1980.238_web.jpg",
+        "ratio": 1.273
+      },
+      "palette": [
+        "#625b4f",
+        "#9f804d"
+      ],
+      "essay": [
+        "作为新古典主义晚期与学院派的代表人物，布格罗在1855年创作这组对作时年仅30岁，正值其技法成熟期。这两幅椭圆形画作展示了他在处理神话题材与人体解剖上的卓越功底，确立了其作为官方沙龙宠儿的地位。",
+        "画面看点在于下方酒神女祭司的衣褶处理。布格罗用极细腻的笔触描绘了粉红色绸缎的流动感，面料在身体起伏间形成的复杂褶皱与光泽变化，展现了其对织物纹理的精准掌控。这种对物质质感的迷恋，是学院派技法的典型特征。",
+        "然而，这种完美主义也带来了某种疏离感。人物肌肤的光滑度近乎瓷器，缺乏真实人体的温度与瑕疵；金色背景上的装饰图案虽华丽，却使神话场景显得像舞台布景而非自然空间。这种理想化与现实感的矛盾，正是布格罗作品常被后世诟病之处。",
+        "尽管如此，这两幅作品仍代表了19世纪法国学院派绘画的巅峰技艺，其对古典美学的坚持与对细节的执着，使其在艺术史上占据独特位置。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.78,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-86106",
+      "source": "cma",
+      "sourceId": "86106",
+      "sourceUrl": "https://clevelandart.org/art/2015.509",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Egret and Reeds",
+      "title_zh": "鹭鸶芦苇图",
+      "artist_en": "Yang Ki-hun (Seuk-Eun) (Korean, 1843–1919?)",
+      "artist_zh": "杨基薰",
+      "artist_id": "yang-ki-hun-seuk-eun-korean-1843-1919",
+      "artist_nationality_zh": "韩国",
+      "artist_years": "1843–1919?",
+      "date_display": "late 1800s",
+      "year": 1800,
+      "medium_zh": "纸本水墨立轴",
+      "dimensions": "Overall: 196 x 61 cm (77 3/16 x 24 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "花鸟",
+        "韩国",
+        "19世纪",
+        "水墨",
+        "芦苇",
+        "立轴"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2015.509/2015.509_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2015.509/2015.509_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2015.509/2015.509_web.jpg",
+        "ratio": 2.601
+      },
+      "palette": [
+        "#e4d7c3",
+        "#c5b7a1"
+      ],
+      "essay": [
+        "杨基薰是朝鲜王朝末期文人画的代表人物，其画风深受中国明清写意花鸟影响，却保留了韩国本土的疏淡气质。此作作于 19 世纪末，正值传统东亚水墨画面临现代转型的前夜，画家以极简的笔墨捕捉自然生机，展现了文人画‘逸笔草草’的审美追求。",
+        "画面最精彩处在于鹭鸶背部的墨色处理：画家以饱含水分的大笔侧锋横扫，利用水墨在宣纸上的自然晕染，呈现出羽毛蓬松且湿润的质感。浓墨点染的肩羽与淡墨渲染的腹部形成鲜明对比，几笔枯涩的飞白勾勒出翅膀边缘，既表现了体积感，又暗示了鹭鸶伫立水边、羽毛微湿的状态。",
+        "构图上，上方垂下的芦苇与下方独立的鹭鸶形成‘S’形呼应，留白处题写的行草书法平衡了画面重心。然而，这种‘诗书画印’一体的程式化布局，虽显雅致，却也暴露了晚期文人画题材重复、缺乏现场写生力度的通病——鹭鸶的姿态略显概念化，少了几分野外生灵的警觉与野性。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.65,
+        "r": 0.18,
+        "region": "whole_work"
+      }
+    },
+    {
+      "id": "cma-137998",
+      "source": "cma",
+      "sourceId": "137998",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.92.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The king of the Ocean, having assumed human form, arrives at the court of the Raja, from a Tuti-nama (Tales of a Parrot): Eleventh Night",
+      "title_zh": "海王化人见罗阇",
+      "artist_en": "Ghulam 'Ali (Indian, active 1550s-1590s)",
+      "artist_zh": "古拉姆·阿里",
+      "artist_id": "ghulam-ali-indian-active-1550s-1590s",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1550s–1590s",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20 x 14.7 cm (7 7/8 x 5 13/16 in.); Painting only: 11.5 x 10.3 cm (4 1/2 x 4 1/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "神话",
+        "印度",
+        "16世纪",
+        "莫卧儿",
+        "宫廷",
+        "叙事"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.92.a/1962.279.92.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.92.a/1962.279.92.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.92.a/1962.279.92.a_web.jpg",
+        "ratio": 1.51
+      },
+      "palette": [
+        "#c4ae97",
+        "#ad7d72"
+      ],
+      "essay": [
+        "古拉姆·阿里是 16 世纪莫卧儿宫廷画师，活跃于阿克巴大帝统治初期。这幅作品出自《鹦鹉故事七十则》手抄本，是早期莫卧儿细密画的代表作。此时波斯风格正与印度本土审美剧烈碰撞，画师在严谨的叙事结构中，尝试融入更写实的空间感。",
+        "画面右侧的华盖与宝座是视觉重心。深红底色上，金线勾勒的繁复花卉纹样铺满织物，边缘垂下的流苏与挂饰以矿物颜料厚涂，呈现出明显的浮雕感。这种对物质奢华的极致描绘，旨在通过视觉上的富丽堂皇，确立罗阇作为世俗权力中心的威严地位。",
+        "尽管人物姿态生动，但面部刻画仍显程式化，缺乏后期莫卧儿肖像画中那种深刻的心理洞察。左侧人物的侧脸与正身扭转角度略显生硬，显示出波斯传统平面构图向印度立体叙事过渡时的技法局限。这种“未完成感”反而记录了风格演变的真实轨迹。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.58,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-97149",
+      "source": "cma",
+      "sourceId": "97149",
+      "sourceUrl": "https://clevelandart.org/art/1916.788",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Madonna and Child",
+      "title_zh": "圣母与圣子",
+      "artist_en": "Francesco Botticini (Italian, c. 1446–1497)",
+      "artist_zh": "弗朗切斯科·博蒂奇尼",
+      "artist_id": "francesco-botticini-italian-c-1446-1497",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "约 1446–1497",
+      "date_display": "c. 1475–80",
+      "year": 1475,
+      "medium_zh": "杨木蛋彩画",
+      "dimensions": "Painted surface: 64.6 x 45 cm (25 7/16 x 17 11/16 in.); Panel: 67.2 x 46 cm (26 7/16 x 18 1/8 in.)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "意大利",
+        "15世纪",
+        "圣母",
+        "肖像"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.788/1916.788_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.788/1916.788_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.788/1916.788_web.jpg",
+        "ratio": 1.452
+      },
+      "palette": [
+        "#827767",
+        "#4b4336"
+      ],
+      "essay": [
+        "博蒂奇尼是佛罗伦萨画派承前启后的关键人物，活跃于波提切利与吉兰达约之间。这幅作于 1475 至 1480 年间的《圣母与圣子》，典型地展示了 15 世纪意大利绘画从哥特式装饰向自然主义过渡的特征。他虽不如波提切利那般声名显赫，但在处理空间透视与人物造型的严谨度上，展现了极高的学院素养。",
+        "画面最耐看的是圣母颈部的处理。博蒂奇尼用极细的笔触勾勒出颈部肌肉的微妙起伏，皮肤在冷光下呈现出一种近乎大理石的质感。这种苍白并非病态，而是当时对神圣纯洁的视觉隐喻。衣领处的褶皱顺着颈部线条垂落，既交代了布料的重量，又巧妙地引导视线聚焦于那张低垂的、充满内省神情的面容。",
+        "然而，这种过度的精致也暴露了时代的局限。圣母的面容过于理想化，缺乏真实母亲的血肉感，更像是一尊被精心打磨的瓷器。相比之下，圣子那略显笨拙的体态和吸吮手指的动作反而更具生命力。这种神性与人性的割裂，正是早期文艺复兴宗教画在追求完美形式时难以避免的矛盾。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.28,
+        "r": 0.18,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-152448",
+      "source": "cma",
+      "sourceId": "152448",
+      "sourceUrl": "https://clevelandart.org/art/1985.275",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Beauty Receiving a Visitor",
+      "title_zh": "美人接客图",
+      "artist_en": "Tamura Suio (Japanese, active late 1600s–early 1700s)",
+      "artist_zh": "田村水尾",
+      "artist_id": "tamura-suio-japanese-active-late-1600s-early-1700s",
+      "artist_nationality_zh": "日本",
+      "artist_years": "活跃于 17 世纪末至 18 世纪初",
+      "date_display": "late 1600s–early 1700s",
+      "year": 1650,
+      "medium_zh": "绢本设色挂轴",
+      "dimensions": "Painting: 50.4 x 82.2 cm (19 13/16 x 32 3/8 in.); Mounted: 155.2 x 97.7 cm (61 1/8 x 38 7/16 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "风俗",
+        "日本",
+        "17世纪",
+        "美人画",
+        "室内",
+        "游里"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1985.275/1985.275_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1985.275/1985.275_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1985.275/1985.275_web.jpg",
+        "ratio": 0.61
+      },
+      "palette": [
+        "#826845",
+        "#957954"
+      ],
+      "essay": [
+        "田村水尾活跃于元禄时期，是早期浮世绘美人画的重要画师。此作属于典型的「游里绘」，描绘了吉原游廓中的社交场景。与后来铃木春信那种梦幻的「见立绘」不同，田村笔下的女性保留了江户初期绘画的厚重感与装饰性，是研究浮世绘从屏风画向版画过渡的重要样本。",
+        "画面右侧的竹帘处理极具看点。画家并未将其画成死板的直线，而是用流畅的弧线表现竹条受重力自然下垂的形态，青绿色的渲染既区分了内外空间，又暗示了夏日的清凉感。透过帘隙，可见室内女子姿态各异，这种「窥视」视角的处理，增加了画面的叙事张力与私密感。",
+        "必须指出的是，画中人物面部呈现高度的「类型化」特征：所有女性都拥有相似的细长眼与小巧嘴，缺乏鲜明的个性辨识。这是早期浮世绘尚未完全脱离大和绘程式的局限。然而，画家在服饰纹样上极尽繁复，花卉与几何纹样的精细描绘，成功转移了观者对表情的审视，营造出一种华丽的装饰秩序。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-143221",
+      "source": "cma",
+      "sourceId": "143221",
+      "sourceUrl": "https://clevelandart.org/art/1967.18",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Devil and Tom Walker",
+      "title_zh": "魔鬼与汤姆·沃克",
+      "artist_en": "John Quidor (American, 1801–1881)",
+      "artist_zh": "约翰·奎多尔",
+      "artist_id": "john-quidor-american-1801-1881",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1801–1881",
+      "date_display": "1856",
+      "year": 1856,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 84 x 104 x 8.5 cm (33 1/16 x 40 15/16 x 3 3/8 in.); Unframed: 68.8 x 86.6 cm (27 1/16 x 34 1/8 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "文学题材",
+        "美国",
+        "19世纪",
+        "讽刺",
+        "叙事",
+        "民间传说"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_web.jpg",
+        "ratio": 0.765
+      },
+      "palette": [
+        "#352a1c",
+        "#513c20"
+      ],
+      "essay": [
+        "约翰·奎多尔是 19 世纪美国少有的专注于文学叙事题材的画家，这幅作品取材于华盛顿·欧文的同名短篇小说。在哈德逊河画派盛行风景写生的年代，奎多尔独树一帜，用夸张怪诞的笔触描绘民间传说与讽刺故事，确立了其在美国艺术史中独特的叙事者地位。",
+        "画面右侧的魔鬼形象极具看点：他并非传统宗教画中威严的堕落天使，而是一个粗野的森林伐木工。奎多尔用厚重的土红与赭石色堆砌出他粗糙的皮肤质感，肌肉线条在昏暗的林间光线下显得既强壮又滑稽。这种将超自然生物‘世俗化’的处理，消解了恐惧感，增添了黑色幽默。",
+        "奎多尔的技法带有明显的民间艺术特征，人物比例略显失调，动态夸张如木偶戏。这种‘不完美’恰恰契合了故事的讽刺基调——贪婪的人类与粗鄙的魔鬼在道德上并无二致。虽然缺乏学院派的严谨造型，但这种生猛的表现力正是其作品魅力所在。"
+      ],
+      "detailCrop": {
+        "cx": 0.82,
+        "cy": 0.38,
+        "r": 0.18,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-170875",
+      "source": "cma",
+      "sourceId": "170875",
+      "sourceUrl": "https://clevelandart.org/art/2013.345",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Lovers and beloveds: A composite of scenes from Persian, Urdu, and Sanskrit literature",
+      "title_zh": "恋人与挚爱：波斯、乌尔都语与梵文文学场景合集",
+      "artist_en": "Chitarman II (Indian, c. 1680–с. 1750)",
+      "artist_zh": "奇特曼二世",
+      "artist_id": "chitarman-ii-indian-c-1680-1750",
+      "artist_nationality_zh": "印度",
+      "artist_years": "约 1680–约 1750",
+      "date_display": "c. 1735",
+      "year": 1735,
+      "medium_zh": "纸本树胶蛋彩与金箔",
+      "dimensions": "Painting: 41.2 x 29.6 cm (16 1/4 x 11 5/8 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "复合场景",
+        "印度",
+        "18世纪",
+        "爱情",
+        "文学",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2013.345/2013.345_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2013.345/2013.345_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2013.345/2013.345_web.jpg",
+        "ratio": 1.378
+      },
+      "palette": [
+        "#99794e",
+        "#b6a381"
+      ],
+      "essay": [
+        "奇特曼二世是 18 世纪莫卧儿晚期细密画的代表人物。这幅作于 1735 年前后的巨制，将波斯、乌尔都语及梵文经典中的爱情母题并置。这种“文学选集”式的构图，反映了当时莫卧儿贵族对多元文化传统的兼容并蓄，也是画家在帝国衰落期试图通过复古来重塑文化秩序的尝试。",
+        "画面采用多层建筑剖面结构，将不同时空的恋人故事压缩在同一垂直空间内。上层露台中，君王与妃的聚会秩序井然；视线向下，花园中的求爱场景则更为私密。画家利用建筑横梁与栏杆作为天然画框，既分割了场景，又通过人物视线的交错维持了整体的连贯性。",
+        "尽管题材宏大，但人物面部的高度程式化削弱了情感张力。无论是上层端庄的宫廷贵妇，还是下层花园中互动的男女，五官描绘几乎如出一辙——细长的眉眼、小巧的鼻梁，缺乏个体特征的区分。这种“千人一面”的处理，虽符合细密画的装饰传统，却也让“爱情”这一核心主题显得过于冷静与疏离。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "whole_work"
+      }
+    },
+    {
+      "id": "cma-97141",
+      "source": "cma",
+      "sourceId": "97141",
+      "sourceUrl": "https://clevelandart.org/art/1916.780",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sketch for a Ceiling",
+      "title_zh": "天顶画草图",
+      "artist_en": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+      "artist_zh": "乔瓦尼·巴蒂斯塔·提埃波罗",
+      "artist_id": "giovanni-battista-tiepolo-italian-1696-1770",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1696–1770",
+      "date_display": "1750s",
+      "year": 1750,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 51.5 x 43 x 6.5 cm (20 1/4 x 16 15/16 x 2 9/16 in.); Unframed: 41 x 34 cm (16 1/8 x 13 3/8 in.)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "草图",
+        "巴洛克",
+        "意大利",
+        "18世纪",
+        "天顶画",
+        "神话"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.780/1916.780_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.780/1916.780_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.780/1916.780_web.jpg",
+        "ratio": 1.241
+      },
+      "palette": [
+        "#9c9f98",
+        "#685242"
+      ],
+      "essay": [
+        "提埃波罗是 18 世纪威尼斯画派的巅峰，也是欧洲最后一位伟大的湿壁画大师。这幅作品并非最终成品，而是为宏大天顶画所作的油彩草图（modello）。在巴洛克艺术走向尾声时，他依然用这种轻盈的速写，向赞助人预演那些即将在天花板上腾空的辉煌幻象。",
+        "作为草图，其笔触的流动性远胜于完成度。画面下方的云层与人物衣褶，完全由快速堆叠的厚涂色块构成——白色与赭石色在画布上相互渗透，并未刻意抹平。这种看似潦草的处理，实则是为了在仰视视角下，通过光影的剧烈跳动来模拟云端升腾的动感。",
+        "必须承认，脱离了建筑空间的束缚，这类草图在平面上显得略显破碎。上方吹号天使的解剖结构在极速运笔中变得模糊，甚至带有一丝漫画式的夸张。但这正是提埃波罗的高明之处：他牺牲了局部的精准，换取了整体构图的空气感与上升力。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.72,
+        "r": 0.22,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-137588",
+      "source": "cma",
+      "sourceId": "137588",
+      "sourceUrl": "https://clevelandart.org/art/1962.279.207.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The donkey, in a tiger’s skin, reveals his identity by braying aloud, from a Tuti-nama (Tales of a Parrot): Thirty-first Night",
+      "title_zh": "披着虎皮的驴因嘶鸣暴露身份",
+      "artist_en": "Basavana (Indian, active c. 1560–1600)",
+      "artist_zh": "巴萨瓦纳",
+      "artist_id": "basavana-indian-active-c-1560-1600",
+      "artist_nationality_zh": "印度",
+      "artist_years": "活跃于 1560–1600",
+      "date_display": "c. 1560",
+      "year": 1560,
+      "medium_zh": "纸本树胶水彩、墨与金",
+      "dimensions": "Overall: 20.3 x 14 cm (8 x 5 1/2 in.); Painting only: 13.8 x 10 cm (5 7/16 x 3 15/16 in.)",
+      "movement_zh": "莫卧儿细密画",
+      "tags": [
+        "寓言",
+        "动物",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "叙事"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.279.207.a/1962.279.207.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.279.207.a/1962.279.207.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.279.207.a/1962.279.207.a_web.jpg",
+        "ratio": 1.537
+      },
+      "palette": [
+        "#545953",
+        "#9f9074"
+      ],
+      "essay": [
+        "巴萨瓦纳是阿克巴大帝宫廷画坊的奠基人之一，他将波斯细密画的装饰性与印度本土的写实观察相结合。这幅出自《鹦鹉七十夜谈》的插图，展示了他在处理复杂叙事场景时的成熟技法，是莫卧儿绘画早期风格的典范。",
+        "画面下方的驴是视觉焦点，它身披粗糙的虎皮，四肢因奔跑而腾空，动态极具张力。最精彩的是其面部刻画：嘴巴大张呈嘶鸣状，眼球圆睁且眼白外露，生动传达了动物因愚蠢而惊慌失措的瞬间，这种对神态的精准捕捉超越了当时程式化的动物描绘。",
+        "虽然树木的处理仍带有波斯风格的图案化倾向，叶片如云朵般堆叠，但画家在前景草地与动物肌肉结构上展现了惊人的写实功力。这种‘上半身装饰、下半身写实’的割裂感，恰恰记录了印度绘画从平面装饰向空间纵深过渡的探索痕迹。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.72,
+        "r": 0.18,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-101852",
+      "source": "cma",
+      "sourceId": "101852",
+      "sourceUrl": "https://clevelandart.org/art/1920.514",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Mrs. George Collier",
+      "title_zh": "乔治·科利尔夫人肖像",
+      "artist_en": "Joshua Reynolds (British, 1723–1792)",
+      "artist_zh": "约书亚·雷诺兹",
+      "artist_id": "joshua-reynolds-british-1723-1792",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1723–1792",
+      "date_display": "18th century",
+      "year": null,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 112 x 101 x 12 cm (44 1/8 x 39 3/4 x 4 3/4 in.); Unframed: 80 x 67.3 cm (31 1/2 x 26 1/2 in.)",
+      "movement_zh": "学院派",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "贵族",
+        "女性",
+        "侧面像"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1920.514/1920.514_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1920.514/1920.514_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1920.514/1920.514_web.jpg",
+        "ratio": 1.22
+      },
+      "palette": [
+        "#2f2210",
+        "#785426"
+      ],
+      "essay": [
+        "作为英国皇家艺术学院首任院长，雷诺兹致力于将肖像画提升至历史画的高度。此作创作于其风格成熟期，展现了他在处理贵族女性形象时，如何平衡古典理想与个人特征。",
+        "画面最精彩处在于颈部与肩部的衔接。雷诺兹用极薄的釉染层（glazing）处理皮肤，使颈项呈现出如瓷器般温润的半透明质感。这种对解剖结构的微妙概括，配合侧脸剪影，赋予了人物一种雕塑般的静穆感。",
+        "然而，这种理想化也带来了代价。为了追求古典美，模特的面部特征被过度平滑处理，缺乏雷诺兹晚期作品中那种对性格深度的挖掘。胸前的玫瑰刺绣虽精致，却略显刻意，像是为了填补构图空白而添加的装饰符号。",
+        "尽管如此，这种侧面像的处理方式在当时极具现代感，它摒弃了繁复的巴洛克姿态，转而追求一种内敛的优雅，预示了新古典主义审美的到来。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.35,
+        "r": 0.18,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-148990",
+      "source": "cma",
+      "sourceId": "148990",
+      "sourceUrl": "https://clevelandart.org/art/1977.145",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Virgin and Child with Angels",
+      "title_zh": "圣母与圣子及天使",
+      "artist_en": "Spinello Aretino (Italian, 1350/52–1410)",
+      "artist_zh": "斯皮内洛·阿雷蒂诺",
+      "artist_id": "spinello-aretino-italian-1350-52-1410",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1350/52–1410",
+      "date_display": "1405",
+      "year": 1405,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "Framed: 156.5 x 70.5 x 12.5 cm (61 5/8 x 27 3/4 x 4 15/16 in.); Unframed: 156.5 x 70.7 cm (61 5/8 x 27 13/16 in.)",
+      "movement_zh": "国际哥特式",
+      "tags": [
+        "宗教",
+        "哥特",
+        "意大利",
+        "15世纪",
+        "天使",
+        "祭坛画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1977.145/1977.145_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1977.145/1977.145_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1977.145/1977.145_web.jpg",
+        "ratio": 1.967
+      },
+      "palette": [
+        "#58514d",
+        "#927e65"
+      ],
+      "essay": [
+        "斯皮内洛·阿雷蒂诺是 14 世纪末意大利锡耶纳画派的重要人物。这幅作于 1405 年的祭坛画，处于他从晚期哥特式向早期文艺复兴过渡的阶段。画面保留了中世纪金底圣像的庄严感，但人物造型已显露出对体积与空间的初步探索，是研究这一转型期的典型样本。",
+        "视线聚焦于圣母的面部：斯皮内洛用极细的笔触勾勒出她低垂的眼睑与微抿的嘴角，神情并非高高在上的神性冷漠，而是一种近乎凡人的忧郁与温顺。肤色在蛋彩的层层罩染下呈现出半透明的质感，与头顶厚重的金箔光环形成微妙对比。",
+        "尽管画家试图赋予人物温情，但构图上的局限依然明显。圣母与圣子的比例略显失调，圣子的手臂姿态僵硬，仿佛被固定在母亲怀中，缺乏婴儿应有的动态。两侧天使的跪姿虽对称工整，却略显呆板，像是为了填补画面空间而设的装饰元素。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.42,
+        "r": 0.12,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-153778",
+      "source": "cma",
+      "sourceId": "153778",
+      "sourceUrl": "https://clevelandart.org/art/1987.72.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Genre Figures",
+      "title_zh": "风俗人物图",
+      "artist_en": "Takebe Sōchō (Japanese, 1760–1814)",
+      "artist_zh": "武部素长",
+      "artist_id": "takebe-socho-japanese-1760-1814",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1760–1814",
+      "date_display": "c. 1816",
+      "year": 1816,
+      "medium_zh": "纸本设色立轴",
+      "dimensions": "Overall: 125.5 x 49.8 cm (49 7/16 x 19 5/8 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "风俗",
+        "日本",
+        "19世纪",
+        "人物",
+        "市井",
+        "江户时代"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1987.72.2/1987.72.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1987.72.2/1987.72.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1987.72.2/1987.72.2_web.jpg",
+        "ratio": 2.439
+      },
+      "palette": [
+        "#dacaaf",
+        "#bda58b"
+      ],
+      "essay": [
+        "武部素长是江户时代后期的浮世绘画家，师从胜川春章，以描绘市井风俗与人物见长。此作虽标注为 1816 年（画家已故两年），可能是其晚年遗作或门人代笔，展现了江户市民生活的生动一瞬。",
+        "画面焦点在于孩童仰头的神情：双眼圆睁，目光紧盯着妇人头顶的白猫，嘴巴微张，流露出既惊奇又渴望的神态。这种夸张而纯真的表情捕捉，是浮世绘人物画的典型手法，极具戏剧张力。",
+        "妇人将猫顶在头上的动作略显刻意，像是为了逗弄孩童而摆出的姿态，而非自然的生活场景。这种舞台化的构图虽增强了趣味性，却牺牲了部分真实感——但这正是浮世绘「戏作」精神的体现。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.52,
+        "r": 0.12,
+        "region": "face"
+      }
+    }
+  ]
+}
