@@ -17679,6 +17679,327 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1987.72.2/1987.72.2_web.jpg",
       "ratio": 2.439
+    },
+    {
+      "id": "cma-128842",
+      "issue": "2026-09-11",
+      "t": "忏悔的圣彼得",
+      "a": "乔治·德·拉图尔",
+      "aid": "georges-de-la-tour-french-1593-1652",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "法国",
+        "光影",
+        "夜景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.454/1951.454_web.jpg",
+      "ratio": 1.228
+    },
+    {
+      "id": "cma-146148",
+      "issue": "2026-09-11",
+      "t": "一篮李子",
+      "a": "安妮·瓦拉耶 - 科斯特",
+      "aid": "anne-vallayer-coster-french-1744-1818",
+      "y": 1769,
+      "mv": "洛可可",
+      "tags": [
+        "静物",
+        "18世纪",
+        "法国",
+        "质感",
+        "洛可可",
+        "水果"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.47/1971.47_web.jpg",
+      "ratio": 0.829
+    },
+    {
+      "id": "cma-145450",
+      "issue": "2026-09-11",
+      "t": "教堂内部",
+      "a": "埃曼努埃尔·德·维特",
+      "aid": "emanuel-de-witte-dutch-c-1617-1692",
+      "y": 1680,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "建筑",
+        "17世纪",
+        "荷兰",
+        "透视",
+        "室内",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.1/1971.1_web.jpg",
+      "ratio": 1.157
+    },
+    {
+      "id": "cma-149768",
+      "issue": "2026-09-11",
+      "t": "风景中的施洗者圣约翰",
+      "a": "佩特鲁斯·克里斯图斯",
+      "aid": "petrus-christus-netherlandish-c-1410-1475-76",
+      "y": 1445,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "早期文艺复兴",
+        "肖像",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.80/1979.80_web.jpg",
+      "ratio": 3.111
+    },
+    {
+      "id": "cma-160289",
+      "issue": "2026-09-11",
+      "t": "丽莎·科尔特·柯蒂斯肖像",
+      "a": "约翰·辛格·萨金特",
+      "aid": "john-singer-sargent-american-born-italy-1856-1925",
+      "y": 1898,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "优雅",
+        "上流社会",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.168/1998.168_web.jpg",
+      "ratio": 2.118
+    },
+    {
+      "id": "cma-147938",
+      "issue": "2026-09-11",
+      "t": "罗马万神殿内部",
+      "a": "乔瓦尼·保罗·帕尼尼",
+      "aid": "giovanni-paolo-panini-italian-1691-1765",
+      "y": 1747,
+      "mv": "巴洛克",
+      "tags": [
+        "建筑",
+        "18世纪",
+        "意大利",
+        "全景",
+        "古迹",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.39/1974.39_web.jpg",
+      "ratio": 1.299
+    },
+    {
+      "id": "cma-113095",
+      "issue": "2026-09-11",
+      "t": "悉达多王与特里沙拉王后独坐论梦",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "叙事",
+        "15世纪",
+        "印度",
+        "耆那教",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.24.a/1932.119.24.a_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-128392",
+      "issue": "2026-09-11",
+      "t": "蓬图瓦兹埃尔米塔日附近的树林边缘",
+      "a": "卡米耶·毕沙罗",
+      "aid": "camille-pissarro-french-1830-1903",
+      "y": 1879,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "乡村",
+        "蓬图瓦兹"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.356/1951.356_web.jpg",
+      "ratio": 0.767
+    },
+    {
+      "id": "cma-98268",
+      "issue": "2026-09-11",
+      "t": "乔治·华盛顿在普林斯顿",
+      "a": "查尔斯·威尔逊·皮尔",
+      "aid": "charles-willson-peale-american-born-the-thirteen-colonies-1741-1827",
+      "y": 1779,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "历史",
+        "军事",
+        "庄重"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.946/1917.946_web.jpg",
+      "ratio": 1.085
+    },
+    {
+      "id": "cma-142792",
+      "issue": "2026-09-11",
+      "t": "马戏团里的摔跤手",
+      "a": "恩斯特·路德维希·基希纳",
+      "aid": "ernst-ludwig-kirchner-german-1880-1938",
+      "y": 1909,
+      "mv": "表现主义",
+      "tags": [
+        "人物",
+        "20世纪",
+        "德国",
+        "表现主义",
+        "马戏团",
+        "桥社"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.49/1966.49_web.jpg",
+      "ratio": 0.853
+    },
+    {
+      "id": "cma-171296",
+      "issue": "2026-09-11",
+      "t": "克什米尔山谷",
+      "a": "罗伯特·S·邓肯森",
+      "aid": "robert-s-duncanson-american-1821-1872",
+      "y": 1867,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "浪漫主义",
+        "异域",
+        "哈德逊河画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2014.12/2014.12_web.jpg",
+      "ratio": 0.547
+    },
+    {
+      "id": "cma-153603",
+      "issue": "2026-09-11",
+      "t": "玛赫特尔特·苏伊斯肖像",
+      "a": "马尔滕·范·海姆斯凯克",
+      "aid": "maerten-van-heemskerck-dutch-1498-1574",
+      "y": 1540,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "荷兰",
+        "文艺复兴",
+        "服饰",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.136/1987.136_web.jpg",
+      "ratio": 1.155
+    },
+    {
+      "id": "cma-149665",
+      "issue": "2026-09-11",
+      "t": "海边的废墟",
+      "a": "阿诺德·勃克林",
+      "aid": "arnold-bocklin-swiss-1827-1901",
+      "y": 1881,
+      "mv": "象征主义",
+      "tags": [
+        "风景",
+        "废墟",
+        "海景",
+        "19世纪",
+        "瑞士",
+        "象征主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.57/1979.57_web.jpg",
+      "ratio": 1.361
+    },
+    {
+      "id": "cma-103366",
+      "issue": "2026-09-11",
+      "t": "伊丽莎白·贝尔茨胡佛·梅森",
+      "a": "吉尔伯特·斯图尔特",
+      "aid": "gilbert-stuart-american-born-the-thirteen-colonies-1755-1828",
+      "y": 1803,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "新古典",
+        "细腻",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1921.428/1921.428_web.jpg",
+      "ratio": 1.211
+    },
+    {
+      "id": "cma-122338",
+      "issue": "2026-09-11",
+      "t": "天使报喜",
+      "a": "阿尔伯特·鲍茨",
+      "aid": "albert-bouts-netherlandish-1451-55-1549",
+      "y": 1480,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "尼德兰",
+        "祭坛画",
+        "神圣",
+        "室内场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.635/1942.635_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-155860",
+      "issue": "2026-09-11",
+      "t": "年轻的东方女子",
+      "a": "弗里德里希·阿默林",
+      "aid": "friedrich-amerling-austrian-1803-1887",
+      "y": 1838,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "奥地利",
+        "东方主义",
+        "细腻"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.163/1991.163_web.jpg",
+      "ratio": 1.242
+    },
+    {
+      "id": "cma-97155",
+      "issue": "2026-09-11",
+      "t": "夫妇肖像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1580,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "双人像",
+        "佛兰德斯",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.793/1916.793_web.jpg",
+      "ratio": 0.71
     }
   ]
 }
