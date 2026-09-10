@@ -912,32 +912,37 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
    没有反转，.ph 撑到原图导出宽度（如三马图 4496px）、img 也跟着溢出视口。
    正确关系：原图 宽/高 = 1/--r；旋转 90° 后可见框的 宽/高 = 原图 高/宽 = --r。
    所以 .ph 的 aspect-ratio 必须直接取 var(--r)，不取倒数。
-   img 本身仍是"卧倒"的原始画面（宽 = 容器高、高 = 容器宽 × --r，与原图比例
-   1/--r 一致），旋转前用 65dvh 这个已知常量算好尺寸，再用 rotate(90deg) 转正，
-   避免 width:100%/height:100% 在旋转后因宽高不等而让内容溢出容器边界。 */
+   t_3e7bb989 修正：旧版以 65dvh（高度）为基准反推宽度，导致旋转后可见宽度
+   永远 < 视口宽（旋转后宽 = 高基准 × --r，--r 越小留白越明显，实测钱杜
+   《梦游天台图》--r=0.228 时两侧留白肉眼可见）。出血要求宽度 100% 撑满，
+   所以基准必须换成视口宽度（100vw），高度随 --r 反推——手卷会变得很高，
+   需要纵向滚动，这是让宽度出血的必然代价，SPEC 只要求宽度撑满、不裁切。
+   img 本身仍是"卧倒"的原始画面：旋转前 宽 = 容器高(= 100vw/--r)、
+   高 = 容器宽(= 100vw)，与原图比例 1/--r 一致；旋转 90° 后视觉宽高互换，
+   正好等于 .ph 的 100% 宽 × (100vw/--r) 高，两侧不再留白。 */
 .detail-hero.detail-hero-ultra-wide {
   aspect-ratio: auto;
-  height: 65dvh; /* 头图占视口 65% 高度，留出信息卡空间 */
+  height: auto;
   position: relative;
   overflow: hidden;
 }
 .detail-hero.detail-hero-ultra-wide .ph {
   aspect-ratio: var(--r); /* 旋转后可见框 宽/高 = 原图 高/宽 = --r */
-  width: auto;
-  height: 100%;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0;
   position: relative;
   overflow: hidden;
 }
 .detail-hero.detail-hero-ultra-wide img {
-  /* 旋转前按原图比例（1/--r = 宽/高）铺满，宽取 .ph 的高（65dvh），
-     高 = 65dvh × --r；旋转 90° 后视觉上宽高互换，正好填满 .ph 的
-     var(--r) 宽高比容器，两侧不再溢出 */
+  /* 旋转前按原图比例（1/--r = 宽/高）铺满，宽取「旋转后可见高」= 100vw/--r，
+     高取「旋转后可见宽」= 100vw；旋转 90° 后视觉宽高互换，正好填满 .ph 的
+     100% 宽（= 100vw）× (100vw/--r) 高，两侧零留白 */
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 65dvh;
-  height: calc(65dvh * var(--r));
+  width: calc(100vw / var(--r));
+  height: 100vw;
   transform: translate(-50%, -50%) rotate(90deg);
   transform-origin: center;
   object-fit: contain;
