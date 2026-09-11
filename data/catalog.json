@@ -18000,6 +18000,363 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1916.793/1916.793_web.jpg",
       "ratio": 0.71
+    },
+    {
+      "id": "cma-124256",
+      "issue": "2026-09-12",
+      "t": "守望的狮子",
+      "a": "让-莱昂·热罗姆",
+      "aid": "jean-leon-gerome-french-1824-1904",
+      "y": 1885,
+      "mv": "学院派",
+      "tags": [
+        "动物画",
+        "19世纪",
+        "法国",
+        "学院派",
+        "东方主义",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1945.25/1945.25_web.jpg",
+      "ratio": 0.717
+    },
+    {
+      "id": "cma-149769",
+      "issue": "2026-09-12",
+      "t": "苏珊娜·安德森·罗斯",
+      "a": "弗雷德里克·桑迪斯",
+      "aid": "frederick-sandys-british-1829-1904",
+      "y": 1862,
+      "mv": "拉斐尔前派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "英国",
+        "拉斐尔前派",
+        "老年女性",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.81/1979.81_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-164634",
+      "issue": "2026-09-12",
+      "t": "雪中梅雉图屏风",
+      "a": "狩野安信",
+      "aid": "kano-naonobu-japanese-1607-1650",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟画",
+        "17世纪",
+        "日本",
+        "冬季",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2006.142/2006.142_web.jpg",
+      "ratio": 0.909
+    },
+    {
+      "id": "cma-75763",
+      "issue": "2026-09-12",
+      "t": "佩罗斯-吉雷克的游行或赦免",
+      "a": "莫里斯·德尼",
+      "aid": "maurice-denis-french-1870-1943",
+      "y": 1891,
+      "mv": "纳比派",
+      "tags": [
+        "风俗画",
+        "19世纪",
+        "法国",
+        "纳比派",
+        "构图",
+        "宗教仪式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.108/2020.108_web.jpg",
+      "ratio": 1.216
+    },
+    {
+      "id": "cma-130497",
+      "issue": "2026-09-12",
+      "t": "鱼石图",
+      "a": "八大山人",
+      "aid": "bada-shanren-chinese-1626-1705",
+      "y": 1600,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "水墨",
+        "17世纪",
+        "中国",
+        "留白",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.247/1953.247_web.jpg",
+      "ratio": 0.131
+    },
+    {
+      "id": "cma-156810",
+      "issue": "2026-09-12",
+      "t": "四季山水图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1668,
+      "mv": "狩野派",
+      "tags": [
+        "山水画",
+        "17世纪",
+        "日本",
+        "屏风画",
+        "四季",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.394.2/1992.394.2_web.jpg",
+      "ratio": 0.473
+    },
+    {
+      "id": "cma-294155",
+      "issue": "2026-09-12",
+      "t": "圣马太",
+      "a": "威廉·布莱克",
+      "aid": "william-blake-british-1757-1827",
+      "y": 1799,
+      "mv": "浪漫主义",
+      "tags": [
+        "宗教画",
+        "18世纪",
+        "英国",
+        "神秘主义",
+        "天使"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2017.4/2017.4_web.jpg",
+      "ratio": 1.445
+    },
+    {
+      "id": "cma-160732",
+      "issue": "2026-09-12",
+      "t": "碧浪湖",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水画",
+        "16世纪",
+        "中国",
+        "明代",
+        "湖景",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.17/1998.78.17_web.jpg",
+      "ratio": 0.913
+    },
+    {
+      "id": "cma-170742",
+      "issue": "2026-09-12",
+      "t": "《来我怀中安息，我受创的爱人》习作",
+      "a": "奥古斯都·利奥波德·艾格",
+      "aid": "augustus-leopold-egg-british-1816-c-1863",
+      "y": 1800,
+      "mv": "维多利亚时代叙事画",
+      "tags": [
+        "叙事画",
+        "19世纪",
+        "英国",
+        "维多利亚时代",
+        "情感",
+        "室内场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.262/2013.262_web.jpg",
+      "ratio": 1.318
+    },
+    {
+      "id": "cma-139727",
+      "issue": "2026-09-12",
+      "t": "谦卑圣母",
+      "a": "卡特里诺·韦内齐亚诺",
+      "aid": "caterino-veneziano-italian-active-1362-82",
+      "y": 1370,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教画",
+        "14世纪",
+        "意大利",
+        "哥特式",
+        "圣母",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.500/1963.500_web.jpg",
+      "ratio": 1.294
+    },
+    {
+      "id": "cma-443541",
+      "issue": "2026-09-12",
+      "t": "露西",
+      "a": "马克斯·博姆",
+      "aid": "max-bohm-american-1868-1923",
+      "y": 1909,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "雪景",
+        "20世纪",
+        "美国",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.148/2021.148_web.jpg",
+      "ratio": 0.997
+    },
+    {
+      "id": "cma-160762",
+      "issue": "2026-09-12",
+      "t": "山水图",
+      "a": "邵高",
+      "aid": "shao-gao-chinese-c-1595-c-1643",
+      "y": 1626,
+      "mv": "吴门画派",
+      "tags": [
+        "山水画",
+        "17世纪",
+        "中国",
+        "明代",
+        "高远",
+        "金笺"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.95/1998.95_web.jpg",
+      "ratio": 0.485
+    },
+    {
+      "id": "cma-170740",
+      "issue": "2026-09-12",
+      "t": "红衣法官",
+      "a": "阿道夫·夏尔·爱德华·斯坦海尔",
+      "aid": "adolphe-charles-edouard-steinheil-french-1850-1908",
+      "y": 1890,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "东方主义",
+        "红色",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.260/2013.260_web.jpg",
+      "ratio": 1.433
+    },
+    {
+      "id": "cma-157242",
+      "issue": "2026-09-12",
+      "t": "玛丽·沃德·贝茨",
+      "a": "亨利·英曼",
+      "aid": "henry-inman-american-1801-1846",
+      "y": 1830,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "早期美国艺术",
+        "柔和"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.116.2/1994.116.2_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-448460",
+      "issue": "2026-09-12",
+      "t": "《花果册页》",
+      "a": "椿椿山",
+      "aid": "tsubaki-chinzan-japanese-1801-1854",
+      "y": 1841,
+      "mv": "南画",
+      "tags": [
+        "花鸟画",
+        "19世纪",
+        "日本",
+        "南画",
+        "写生",
+        "植物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.56.e/1976.56.e_web.jpg",
+      "ratio": 0.764
+    },
+    {
+      "id": "cma-143247",
+      "issue": "2026-09-12",
+      "t": "花鸟册：麻雀",
+      "a": "张若",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代院体画",
+      "tags": [
+        "花鸟画",
+        "18世纪",
+        "中国",
+        "清代",
+        "麻雀",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.i/1967.193.i_web.jpg",
+      "ratio": 0.717
+    },
+    {
+      "id": "cma-137874",
+      "issue": "2026-09-12",
+      "t": "《鹦鹉故事》书页",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "叙事",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.36.a/1962.279.36.a_web.jpg",
+      "ratio": 1.51
+    },
+    {
+      "id": "cma-94672",
+      "issue": "2026-09-12",
+      "t": "曼荼罗",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "唐卡",
+      "tags": [
+        "唐卡",
+        "18世纪",
+        "西藏",
+        "曼荼罗",
+        "佛教艺术",
+        "几何"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.316/1915.316_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-160886",
+      "issue": "2026-09-12",
+      "t": "论乐篆书六屏之一",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代金石派",
+      "tags": [
+        "书法",
+        "篆书",
+        "19世纪",
+        "中国",
+        "金石气",
+        "对联"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174/1999.174_web.jpg",
+      "ratio": 3.896
     }
   ]
 }
