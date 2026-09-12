@@ -18357,6 +18357,571 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.174/1999.174_web.jpg",
       "ratio": 3.896
+    },
+    {
+      "id": "cma-140338",
+      "issue": "2026-09-13",
+      "t": "瓦兹河上的日落",
+      "a": "夏尔-弗朗索瓦·多比尼",
+      "aid": "charles-francois-daubigny-french-1817-1878",
+      "y": 1866,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "巴比松画派",
+        "19世纪",
+        "法国",
+        "光影",
+        "河流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.289/1964.289_web.jpg",
+      "ratio": 0.563
+    },
+    {
+      "id": "cma-125093",
+      "issue": "2026-09-13",
+      "t": "意大利风景",
+      "a": "克洛德·洛兰",
+      "aid": "claude-lorrain-french-1604-1682",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "巴洛克",
+        "17世纪",
+        "法国",
+        "理想化",
+        "古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.73/1946.73_web.jpg",
+      "ratio": 0.724
+    },
+    {
+      "id": "cma-151005",
+      "issue": "2026-09-13",
+      "t": "柳鸦图",
+      "a": "牧溪",
+      "aid": "fachang-muqi-chinese-1220-1280",
+      "y": 1200,
+      "mv": "禅画",
+      "tags": [
+        "花鸟",
+        "南宋",
+        "中国",
+        "禅意",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.53/1982.53_web.jpg",
+      "ratio": 1.963
+    },
+    {
+      "id": "cma-118116",
+      "issue": "2026-09-13",
+      "t": "收获时节",
+      "a": "乔治·英尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1864,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "田园",
+        "色调主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.234/1939.234_web.jpg",
+      "ratio": 0.731
+    },
+    {
+      "id": "cma-137427",
+      "issue": "2026-09-13",
+      "t": "第十八夜：鹦鹉对胡佳斯塔说话（出自《鹦鹉故事》）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "莫卧儿",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.130.b/1962.279.130.b_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-97153",
+      "issue": "2026-09-13",
+      "t": "圣母与圣子及天使",
+      "a": "霍尔顿圆画大师",
+      "aid": "master-of-the-holden-tondo-italian",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "16世纪",
+        "意大利",
+        "圣母",
+        "圆形画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.791/1916.791_web.jpg",
+      "ratio": 1.022
+    },
+    {
+      "id": "cma-160688",
+      "issue": "2026-09-13",
+      "t": "蜗牛",
+      "a": "长泽芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1788,
+      "mv": "圆山四条派",
+      "tags": [
+        "静物",
+        "江户时代",
+        "日本",
+        "写生",
+        "趣味"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.5/1998.5_web.jpg",
+      "ratio": 2.857
+    },
+    {
+      "id": "cma-149393",
+      "issue": "2026-09-13",
+      "t": "月下梅花图",
+      "a": "颜辉",
+      "aid": "yan-hui-chinese-active-1270-1310",
+      "y": 1300,
+      "mv": "院体画",
+      "tags": [
+        "花鸟",
+        "元代",
+        "中国",
+        "月景",
+        "墨梅",
+        "团扇"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.49/1978.49_web.jpg",
+      "ratio": 0.944
+    },
+    {
+      "id": "cma-169767",
+      "issue": "2026-09-13",
+      "t": "秋日运河（吉索尔）",
+      "a": "亨利·勒·西达纳",
+      "aid": "henri-le-sidaner-french-1862-1939",
+      "y": 1913,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "运河",
+        "秋日",
+        "吉索尔",
+        "20世纪初",
+        "法国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.73/2011.73_web.jpg",
+      "ratio": 0.829
+    },
+    {
+      "id": "cma-109250",
+      "issue": "2026-09-13",
+      "t": "哥萨克人",
+      "a": "约翰·辛格·萨金特",
+      "aid": "john-singer-sargent-american-born-italy-1856-1925",
+      "y": null,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "写实",
+        "人物",
+        "异域风情"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.397/1927.397_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-86118",
+      "issue": "2026-09-13",
+      "t": "夏冬山水图屏风",
+      "a": "狩野安信",
+      "aid": "kano-naonobu-japanese-1607-1650",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "风景",
+        "江户时代",
+        "日本",
+        "屏风",
+        "四季",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.481.1/2015.481.1_web.jpg",
+      "ratio": 0.491
+    },
+    {
+      "id": "cma-137333",
+      "issue": "2026-09-13",
+      "t": "尖顶饰板：天使",
+      "a": "尼科洛·迪·塞尼亚",
+      "aid": "niccolo-di-segna-italian",
+      "y": 1340,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "哥特式",
+        "14世纪",
+        "意大利",
+        "天使",
+        "祭坛画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.257.1/1962.257.1_web.jpg",
+      "ratio": 1.329
+    },
+    {
+      "id": "cma-95276",
+      "issue": "2026-09-13",
+      "t": "梅里-苏尔-瓦兹的山坡，奥维尔对面",
+      "a": "夏尔-弗朗索瓦·多比尼",
+      "aid": "charles-francois-daubigny-french-1817-1878",
+      "y": 1873,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "巴比松画派",
+        "19世纪",
+        "法国",
+        "户外",
+        "河流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1048/1916.1048_web.jpg",
+      "ratio": 0.599
+    },
+    {
+      "id": "cma-156792",
+      "issue": "2026-09-13",
+      "t": "枫桥夜泊图",
+      "a": "池大雅",
+      "aid": "ike-taiga-japanese-1723-1776",
+      "y": 1700,
+      "mv": "南画",
+      "tags": [
+        "风景",
+        "江户时代",
+        "日本",
+        "文人画",
+        "夜泊",
+        "汉诗意境"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.386/1992.386_web.jpg",
+      "ratio": 3.396
+    },
+    {
+      "id": "cma-170429",
+      "issue": "2026-09-13",
+      "t": "善导圣母",
+      "a": "巴托洛梅·佩雷斯",
+      "aid": "bartolome-perez-spanish-1634-1693",
+      "y": 1680,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "西班牙",
+        "圣母",
+        "铜板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2012.5/2012.5_web.jpg",
+      "ratio": 1.409
+    },
+    {
+      "id": "cma-143166",
+      "issue": "2026-09-13",
+      "t": "竹涧鸳鸯图",
+      "a": "马远",
+      "aid": "ma-yuan-chinese-c-1150-after-1255",
+      "y": 1203,
+      "mv": "南宋院体",
+      "tags": [
+        "花鸟",
+        "南宋",
+        "中国",
+        "马远",
+        "构图",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.145/1967.145_web.jpg",
+      "ratio": 1.357
+    },
+    {
+      "id": "cma-127739",
+      "issue": "2026-09-13",
+      "t": "六月（正面）",
+      "a": "威廉·索默",
+      "aid": "william-sommer-american-1867-1949",
+      "y": 1926,
+      "mv": "现代主义",
+      "tags": [
+        "肖像",
+        "儿童",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.397.a/1950.397.a_web.jpg",
+      "ratio": 1.329
+    },
+    {
+      "id": "cma-314227",
+      "issue": "2026-09-13",
+      "t": "山顶上的女神",
+      "a": "曼迪宫廷画师",
+      "aid": "master-of-the-court-of-mandi-indian",
+      "y": 1720,
+      "mv": "帕哈里绘画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "帕哈里",
+        "女神",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.98/2018.98_web.jpg",
+      "ratio": 1.498
+    },
+    {
+      "id": "cma-139814",
+      "issue": "2026-09-13",
+      "t": "马恩河畔，夏朗东",
+      "a": "阿尔芒·吉约曼",
+      "aid": "armand-guillaumin-french-1841-1927",
+      "y": 1895,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "印象派",
+        "19世纪",
+        "法国",
+        "河流",
+        "马恩河"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.573/1963.573_web.jpg",
+      "ratio": 0.804
+    },
+    {
+      "id": "cma-100559",
+      "issue": "2026-09-13",
+      "t": "携琴访友图",
+      "a": "罗稚川",
+      "aid": "luo-zhichuan-chinese-active-1280s-1320s",
+      "y": 1319,
+      "mv": "元代文人画",
+      "tags": [
+        "高士",
+        "元代",
+        "中国",
+        "叙事",
+        "山水",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.974/1919.974_web.jpg",
+      "ratio": 2.362
+    },
+    {
+      "id": "cma-156866",
+      "issue": "2026-09-13",
+      "t": "源仲国访小野小町",
+      "a": "清原雪信",
+      "aid": "kiyohara-yukinobu-japanese-1643-1682",
+      "y": 1600,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "江户时代",
+        "日本",
+        "浮世绘",
+        "故事",
+        "月夜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.77.2/1992.77.2_web.jpg",
+      "ratio": 2.273
+    },
+    {
+      "id": "cma-132927",
+      "issue": "2026-09-13",
+      "t": "诸家山水册：仿黄公望长白山图",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "清初",
+        "仿古",
+        "文人画",
+        "安徽"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.5/1955.37.5_web.jpg",
+      "ratio": 0.807
+    },
+    {
+      "id": "cma-161323",
+      "issue": "2026-09-13",
+      "t": "平井恭正像",
+      "a": "月川雪定",
+      "aid": "tsukioka-settei-japanese-1710-1786",
+      "y": 1776,
+      "mv": "浮世绘",
+      "tags": [
+        "肖像",
+        "江户时代",
+        "日本",
+        "武士",
+        "服饰",
+        "18世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.89.1/1999.89.1_web.jpg",
+      "ratio": 2.446
+    },
+    {
+      "id": "cma-145372",
+      "issue": "2026-09-13",
+      "t": "花鸟春景图",
+      "a": "狩野元信",
+      "aid": "kano-motonobu-japanese-c-1476-1559",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "室町时代",
+        "日本",
+        "屏风画",
+        "水墨设色",
+        "春天"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.6/1970.6_web.jpg",
+      "ratio": 0.326
+    },
+    {
+      "id": "cma-151028",
+      "issue": "2026-09-13",
+      "t": "古诗山水册：牧童骑牛",
+      "a": "华嵒",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "清代",
+        "中国",
+        "童趣",
+        "水牛",
+        "山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.12/1982.68.12_web.jpg",
+      "ratio": 0.832
+    },
+    {
+      "id": "cma-170816",
+      "issue": "2026-09-13",
+      "t": "伊斯凡迪亚尔斩杀图兰王阿尔贾斯普",
+      "a": "海达尔·克什米尔",
+      "aid": "haidar-kashmiri-indian-active-late-1500s-early-1600s",
+      "y": 1602,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "莫卧儿",
+        "17世纪",
+        "印度",
+        "战争",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.314/2013.314_web.jpg",
+      "ratio": 1.782
+    },
+    {
+      "id": "cma-159270",
+      "issue": "2026-09-13",
+      "t": "哥本哈根克里斯蒂安堡宫教堂",
+      "a": "海因里希·汉森",
+      "aid": "heinrich-hansen-danish-1821-1890",
+      "y": 1850,
+      "mv": "学院派",
+      "tags": [
+        "建筑",
+        "19世纪",
+        "丹麦",
+        "写实",
+        "教堂",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1995.66/1995.66_web.jpg",
+      "ratio": 1.112
+    },
+    {
+      "id": "cma-133069",
+      "issue": "2026-09-13",
+      "t": "善财童子与鹦鹉（《华严经·入法界品》第 20 叶）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1050,
+      "mv": "帕拉风格",
+      "tags": [
+        "宗教",
+        "11世纪",
+        "尼泊尔",
+        "贝叶经",
+        "佛教艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.49.1/1955.49.1_web.jpg",
+      "ratio": 0.221
+    },
+    {
+      "id": "cma-156155",
+      "issue": "2026-09-13",
+      "t": "鬼念佛",
+      "a": "铃木松年",
+      "aid": "suzuki-shonen-japanese-1849-1918",
+      "y": 1850,
+      "mv": "日本画",
+      "tags": [
+        "宗教",
+        "明治时代",
+        "日本",
+        "佛教",
+        "怪诞",
+        "妖怪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.77/1991.77_web.jpg",
+      "ratio": 2.473
+    },
+    {
+      "id": "cma-108010",
+      "issue": "2026-09-13",
+      "t": "象牙圣母",
+      "a": "亨利·凯勒",
+      "aid": "henry-keller-american-born-germany-1869-1949",
+      "y": null,
+      "mv": "现代主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "美国",
+        "现代",
+        "质感",
+        "宗教题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.632/1925.632_web.jpg",
+      "ratio": 1.2
     }
   ]
 }
