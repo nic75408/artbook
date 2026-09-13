@@ -18922,6 +18922,416 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1925.632/1925.632_web.jpg",
       "ratio": 1.2
+    },
+    {
+      "id": "cma-145420",
+      "issue": "2026-09-14",
+      "t": "菊与犬雀图",
+      "a": "长泽芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1792,
+      "mv": "圆山四条派",
+      "tags": [
+        "动物",
+        "花鸟",
+        "日本",
+        "18世纪",
+        "生动质感",
+        "屏风画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.71/1970.71_web.jpg",
+      "ratio": 0.454
+    },
+    {
+      "id": "cma-154286",
+      "issue": "2026-09-14",
+      "t": "老妇人",
+      "a": "柴姆·苏丁",
+      "aid": "chaim-soutine-russian-1893-1943",
+      "y": 1923,
+      "mv": "表现主义",
+      "tags": [
+        "肖像",
+        "表现主义",
+        "法国",
+        "20世纪",
+        "笔触",
+        "巴黎画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.94/1988.94_web.jpg",
+      "ratio": 1.205
+    },
+    {
+      "id": "cma-140442",
+      "issue": "2026-09-14",
+      "t": "虎丘十二景·后门虎阜春深",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "苏州",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.10/1964.371.10_web.jpg",
+      "ratio": 0.76
+    },
+    {
+      "id": "cma-150054",
+      "issue": "2026-09-14",
+      "t": "圣安德烈风景，近马赛",
+      "a": "保罗·吉古",
+      "aid": "paul-guigou-french-1834-1871",
+      "y": 1865,
+      "mv": "外光派",
+      "tags": [
+        "风景",
+        "法国",
+        "19世纪",
+        "光影",
+        "普罗旺斯",
+        "外光派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.265/1980.265_web.jpg",
+      "ratio": 0.656
+    },
+    {
+      "id": "cma-160680",
+      "issue": "2026-09-14",
+      "t": "岩上双猿图",
+      "a": "曾我萧白",
+      "aid": "mori-sosen-japanese-1747-1821",
+      "y": 1810,
+      "mv": "南画",
+      "tags": [
+        "动物",
+        "日本",
+        "19世纪",
+        "水墨",
+        "猿猴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.425.2/1998.425.2_web.jpg",
+      "ratio": 2.034
+    },
+    {
+      "id": "cma-132926",
+      "issue": "2026-09-14",
+      "t": "诸家山水册：武陵溪",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "清代",
+        "文人画",
+        "安徽",
+        "17世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.4/1955.37.4_web.jpg",
+      "ratio": 0.788
+    },
+    {
+      "id": "cma-149661",
+      "issue": "2026-09-14",
+      "t": "兰亭图",
+      "a": "曾我萧白",
+      "aid": "soga-shohaku-japanese-1730-1781",
+      "y": 1777,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "人物",
+        "日本",
+        "18世纪",
+        "叙事",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.53/1979.53_web.jpg",
+      "ratio": 2.2
+    },
+    {
+      "id": "cma-146184",
+      "issue": "2026-09-14",
+      "t": "莫卧儿皇帝胡马雍在收复印度前击败阿富汗人",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1590,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "历史",
+        "战争",
+        "印度",
+        "16世纪",
+        "细密画",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.77/1971.77_web.jpg",
+      "ratio": 1.514
+    },
+    {
+      "id": "cma-150016",
+      "issue": "2026-09-14",
+      "t": "让·莱格利兹肖像",
+      "a": "莱昂·博纳",
+      "aid": "leon-bonnat-french-1833-1922",
+      "y": 1868,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "法国",
+        "19世纪",
+        "写实",
+        "社会地位",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.232/1980.232_web.jpg",
+      "ratio": 1.26
+    },
+    {
+      "id": "cma-79569",
+      "issue": "2026-09-14",
+      "t": "风雨山水图",
+      "a": "广渡雪山",
+      "aid": "hirowatari-setsuzan-japanese-1674",
+      "y": 1600,
+      "mv": "日本水墨画",
+      "tags": [
+        "山水",
+        "日本",
+        "17世纪",
+        "风暴",
+        "戏剧性",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.459/2015.459_web.jpg",
+      "ratio": 2.609
+    },
+    {
+      "id": "cma-137418",
+      "issue": "2026-09-14",
+      "t": "老鸨向曼苏尔之妻传达年轻人的爱意",
+      "a": "斯瓦纳",
+      "aid": "sravana-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "印度",
+        "16世纪",
+        "细密画",
+        "宫廷",
+        "波斯文学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.127.a/1962.279.127.a_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-97770",
+      "issue": "2026-09-14",
+      "t": "蓝色羽毛",
+      "a": "威廉·J·埃德蒙森",
+      "aid": "william-j-edmondson-american-1868-1966",
+      "y": 1917,
+      "mv": "美国印象派",
+      "tags": [
+        "肖像",
+        "室内",
+        "20世纪",
+        "美国",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.400/1917.400_web.jpg",
+      "ratio": 0.932
+    },
+    {
+      "id": "cma-161705",
+      "issue": "2026-09-14",
+      "t": "春日溪边洗药图",
+      "a": "禹之鼎",
+      "aid": "yu-zhiding-chinese-1647-c-1716",
+      "y": 1703,
+      "mv": "清代文人画",
+      "tags": [
+        "人物",
+        "中国",
+        "清代",
+        "生活场景",
+        "线条",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2000.69/2000.69_web.jpg",
+      "ratio": 0.266
+    },
+    {
+      "id": "cma-145966",
+      "issue": "2026-09-14",
+      "t": "《薄伽梵往世书》插图：克里希纳与牧牛女在朱木拿河嬉戏",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1525,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "神话",
+        "16世纪",
+        "印度",
+        "细密画",
+        "克里希纳"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.171/1971.171_web.jpg",
+      "ratio": 0.771
+    },
+    {
+      "id": "cma-151064",
+      "issue": "2026-09-14",
+      "t": "大津绘题材集",
+      "a": "柴田是真",
+      "aid": "shibata-zeshin-japanese-1807-1891",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "日本",
+        "19世纪",
+        "大津绘",
+        "幽默",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.9/1982.9_web.jpg",
+      "ratio": 0.292
+    },
+    {
+      "id": "cma-153354",
+      "issue": "2026-09-14",
+      "t": "万竿烟雨图",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清代",
+        "竹子",
+        "烟雨",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.6/1986.49.6_web.jpg",
+      "ratio": 1.296
+    },
+    {
+      "id": "cma-137202",
+      "issue": "2026-09-14",
+      "t": "仿各家山水册",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "中国",
+        "清代",
+        "册页",
+        "技法",
+        "安徽"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157/1962.157_web.jpg",
+      "ratio": 0.676
+    },
+    {
+      "id": "cma-160491",
+      "issue": "2026-09-14",
+      "t": "笑一无图",
+      "a": "英一蝶",
+      "aid": "hanabusa-itcho-japanese-1652-1724",
+      "y": 1741,
+      "mv": "南画",
+      "tags": [
+        "人物",
+        "日本",
+        "18世纪",
+        "道教",
+        "减笔",
+        "幽默"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.293/1998.293_web.jpg",
+      "ratio": 0.751
+    },
+    {
+      "id": "cma-106958",
+      "issue": "2026-09-14",
+      "t": "十月的一天",
+      "a": "弗兰克·K·M·雷恩",
+      "aid": "frank-k-m-rehn-american-1848-1914",
+      "y": 1915,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "美国",
+        "19世纪",
+        "秋景",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.963/1924.963_web.jpg",
+      "ratio": 0.592
+    },
+    {
+      "id": "cma-153733",
+      "issue": "2026-09-14",
+      "t": "《仁王经曼荼罗》图样草图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1100,
+      "mv": "平安时代",
+      "tags": [
+        "佛教艺术",
+        "曼荼罗",
+        "12世纪",
+        "日本",
+        "草图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.39/1987.39_web.jpg",
+      "ratio": 1.175
+    },
+    {
+      "id": "cma-152444",
+      "issue": "2026-09-14",
+      "t": "美人图",
+      "a": "祇园静德",
+      "aid": "gion-seitoku-japanese-active-late-1700s-early-1800s",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "肖像",
+        "日本",
+        "19世纪",
+        "美人画",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.271/1985.271_web.jpg",
+      "ratio": 1.277
+    },
+    {
+      "id": "cma-160838",
+      "issue": "2026-09-14",
+      "t": "秋景山水图",
+      "a": "杨伯润",
+      "aid": "yang-borun-chinese-1837-1911",
+      "y": 1855,
+      "mv": "海派",
+      "tags": [
+        "山水",
+        "秋景",
+        "19世纪",
+        "中国",
+        "海派",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.14/1999.14_web.jpg",
+      "ratio": 2.459
     }
   ]
 }
