@@ -19332,6 +19332,550 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.14/1999.14_web.jpg",
       "ratio": 2.459
+    },
+    {
+      "id": "cma-172784",
+      "issue": "2026-09-15",
+      "t": "白花",
+      "a": "乔治亚·欧姬芙",
+      "aid": "georgia-o-keeffe-american-1887-1986",
+      "y": 1929,
+      "mv": "现代主义",
+      "tags": [
+        "花卉",
+        "特写",
+        "20世纪",
+        "美国",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1930.2162/1930.2162_web.jpg",
+      "ratio": 0.833
+    },
+    {
+      "id": "cma-155626",
+      "issue": "2026-09-15",
+      "t": "蓬图瓦兹的水闸",
+      "a": "卡米耶·毕沙罗",
+      "aid": "camille-pissarro-french-1830-1903",
+      "y": 1872,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "印象派",
+        "19世纪",
+        "法国",
+        "光影",
+        "水景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1990.7/1990.7_web.jpg",
+      "ratio": 0.636
+    },
+    {
+      "id": "cma-146036",
+      "issue": "2026-09-15",
+      "t": "风虎图",
+      "a": "圆山应举",
+      "aid": "maruyama-okyo-japanese-1733-1795",
+      "y": 1800,
+      "mv": "圆山派",
+      "tags": [
+        "动物",
+        "水墨",
+        "18世纪",
+        "日本",
+        "动态",
+        "虎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.232/1971.232_web.jpg",
+      "ratio": 2.308
+    },
+    {
+      "id": "cma-150076",
+      "issue": "2026-09-15",
+      "t": "死鸟与牡蛎篮静物",
+      "a": "热尔曼·里博",
+      "aid": "germain-ribot-french-1845-1893",
+      "y": 1860,
+      "mv": "写实主义",
+      "tags": [
+        "静物",
+        "写实",
+        "19世纪",
+        "法国",
+        "质感",
+        "狩猎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.281/1980.281_web.jpg",
+      "ratio": 0.829
+    },
+    {
+      "id": "cma-136949",
+      "issue": "2026-09-15",
+      "t": "坐看云起时",
+      "a": "马麟",
+      "aid": "ma-lin-chinese-c-1185-after-1260",
+      "y": 1256,
+      "mv": "南宋院体",
+      "tags": [
+        "山水",
+        "人物",
+        "13世纪",
+        "中国",
+        "宋代",
+        "留白"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.421/1961.421_web.jpg",
+      "ratio": 0.413
+    },
+    {
+      "id": "cma-162623",
+      "issue": "2026-09-15",
+      "t": "法国国王路易十三肖像",
+      "a": "弗朗斯·普尔布斯",
+      "aid": "frans-pourbus-flemish-1569-1622",
+      "y": 1611,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "宫廷",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "君主"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_web.jpg",
+      "ratio": 1.688
+    },
+    {
+      "id": "cma-148861",
+      "issue": "2026-09-15",
+      "t": "教皇选举期间罗马圣彼得大教堂的柱廊",
+      "a": "于贝尔·罗伯特",
+      "aid": "hubert-robert-french-1733-1808",
+      "y": 1769,
+      "mv": "新古典主义",
+      "tags": [
+        "建筑",
+        "风景",
+        "18世纪",
+        "法国",
+        "透视",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.97.1/1976.97.1_web.jpg",
+      "ratio": 1.23
+    },
+    {
+      "id": "cma-137975",
+      "issue": "2026-09-15",
+      "t": "《鹦鹉故事》第十夜：大臣之子获赠魔法木鹦鹉",
+      "a": "拉鲁",
+      "aid": "lalu-indian-active-mid-1500s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "细密画",
+        "16世纪",
+        "印度",
+        "宫廷生活",
+        "文学插图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.81.b/1962.279.81.b_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-83373",
+      "issue": "2026-09-15",
+      "t": "熨衣女子",
+      "a": "爱德华·维亚尔",
+      "aid": "edouard-vuillard-french-1868-1940",
+      "y": 1892,
+      "mv": "纳比派",
+      "tags": [
+        "风俗",
+        "室内",
+        "19世纪",
+        "法国",
+        "纳比派",
+        "劳动"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.119/2020.119_web.jpg",
+      "ratio": 0.831
+    },
+    {
+      "id": "cma-126768",
+      "issue": "2026-09-15",
+      "t": "圣家族与牧羊人",
+      "a": "巴蒂斯塔·多西",
+      "aid": "battista-dossi-italian-c-1490-1548",
+      "y": 1520,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "文艺复兴",
+        "16世纪",
+        "意大利",
+        "费拉拉画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.185/1949.185_web.jpg",
+      "ratio": 1.192
+    },
+    {
+      "id": "cma-143242",
+      "issue": "2026-09-15",
+      "t": "花卉册页：石竹",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代院体",
+      "tags": [
+        "花鸟",
+        "工笔",
+        "18世纪",
+        "中国",
+        "清代",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.d/1967.193.d_web.jpg",
+      "ratio": 0.718
+    },
+    {
+      "id": "cma-167456",
+      "issue": "2026-09-15",
+      "t": "海中的岩石",
+      "a": "雷蒙德·琼森",
+      "aid": "raymond-jonson-american-1891-1982",
+      "y": 1921,
+      "mv": "抽象主义",
+      "tags": [
+        "抽象",
+        "海洋",
+        "20世纪",
+        "美国",
+        "几何",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2009.269/2009.269_web.jpg",
+      "ratio": 0.856
+    },
+    {
+      "id": "cma-95286",
+      "issue": "2026-09-15",
+      "t": "女子肖像",
+      "a": "扬·安东尼松·范·拉弗斯坦",
+      "aid": "jan-anthonisz-van-ravesteyn-dutch-c-1570-1657",
+      "y": 1620,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "贵族",
+        "蕾丝"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1055/1916.1055_web.jpg",
+      "ratio": 1.186
+    },
+    {
+      "id": "cma-146727",
+      "issue": "2026-09-15",
+      "t": "埃及家庭（《金字塔之战》草图）",
+      "a": "安托万 - 让·格罗",
+      "aid": "antoine-jean-gros-french-1771-1835",
+      "y": 1835,
+      "mv": "浪漫主义",
+      "tags": [
+        "历史画",
+        "人物群像",
+        "19世纪",
+        "法国",
+        "拿破仑时代",
+        "东方主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.17.2/1972.17.2_web.jpg",
+      "ratio": 2.739
+    },
+    {
+      "id": "cma-132924",
+      "issue": "2026-09-15",
+      "t": "诸家山水册：春耕",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "农耕",
+        "17世纪",
+        "中国",
+        "清代",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.2/1955.37.2_web.jpg",
+      "ratio": 0.782
+    },
+    {
+      "id": "cma-163041",
+      "issue": "2026-09-15",
+      "t": "抒情诗缪斯厄拉托",
+      "a": "夏尔·梅尼耶",
+      "aid": "charles-meynier-french-1768-1832",
+      "y": 1800,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "人物",
+        "19世纪",
+        "法国",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.6.2/2003.6.2_web.jpg",
+      "ratio": 1.593
+    },
+    {
+      "id": "cma-156776",
+      "issue": "2026-09-15",
+      "t": "骑马武士图",
+      "a": "久隅守景",
+      "aid": "kusumi-morikage-japanese-active-c-1620-1690",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "人物",
+        "骑马",
+        "17世纪",
+        "日本",
+        "武士",
+        "水墨画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.371/1992.371_web.jpg",
+      "ratio": 2.278
+    },
+    {
+      "id": "cma-170835",
+      "issue": "2026-09-15",
+      "t": "努尔·贾汗手持贾汉吉尔皇帝肖像",
+      "a": "比尚达斯",
+      "aid": "bishandas-indian",
+      "y": 1627,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "宫廷",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "皇室"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.325/2013.325_web.jpg",
+      "ratio": 1.701
+    },
+    {
+      "id": "cma-93239",
+      "issue": "2026-09-15",
+      "t": "静物",
+      "a": "普雷斯顿·迪金森",
+      "aid": "preston-dickinson-american-1891-1930",
+      "y": 1924,
+      "mv": "立体主义",
+      "tags": [
+        "静物",
+        "立体主义",
+        "20世纪",
+        "美国",
+        "几何",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.1664/1926.1664_web.jpg",
+      "ratio": 0.797
+    },
+    {
+      "id": "cma-136507",
+      "issue": "2026-09-15",
+      "t": "三位一体",
+      "a": "洛朗·吉拉尔丹",
+      "aid": "laurent-girardin-french-1478",
+      "y": 1460,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "三联画",
+        "15世纪",
+        "法国",
+        "哥特式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.79/1960.79_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-148086",
+      "issue": "2026-09-15",
+      "t": "刘海戏金",
+      "a": "曾衍东",
+      "aid": "zeng-yandong-chinese-c-1751-1827",
+      "y": 1822,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "神话",
+        "19世纪",
+        "中国",
+        "清代",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.11.j/1975.11.j_web.jpg",
+      "ratio": 0.816
+    },
+    {
+      "id": "cma-150693",
+      "issue": "2026-09-15",
+      "t": "松树",
+      "a": "乔瓦尼·塞冈蒂尼",
+      "aid": "giovanni-segantini-italian-1858-1899",
+      "y": 1897,
+      "mv": "点彩派",
+      "tags": [
+        "风景",
+        "树木",
+        "19世纪",
+        "意大利",
+        "点彩",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.124/1982.124_web.jpg",
+      "ratio": 1.958
+    },
+    {
+      "id": "cma-132837",
+      "issue": "2026-09-15",
+      "t": "四季山水图册·春水共寻",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "四季",
+        "17世纪",
+        "中国",
+        "明代",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.4/1955.302.4_web.jpg",
+      "ratio": 1.325
+    },
+    {
+      "id": "cma-169763",
+      "issue": "2026-09-15",
+      "t": "尼古拉·路易·法雷特与法雷特夫人",
+      "a": "马丁·德洛林",
+      "aid": "martin-drolling-french-1752-1817",
+      "y": 1812,
+      "mv": "新古典主义",
+      "tags": [
+        "双人肖像",
+        "19世纪",
+        "法国",
+        "帝国风格",
+        "拿破仑时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.71/2011.71_web.jpg",
+      "ratio": 0.668
+    },
+    {
+      "id": "cma-139454",
+      "issue": "2026-09-15",
+      "t": "山水图",
+      "a": "相阿弥",
+      "aid": "soami-japanese-d-1525",
+      "y": 1500,
+      "mv": "室町时代水墨",
+      "tags": [
+        "山水",
+        "水墨",
+        "16世纪",
+        "日本",
+        "室町时代",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.262/1963.262_web.jpg",
+      "ratio": 1.169
+    },
+    {
+      "id": "cma-515375",
+      "issue": "2026-09-15",
+      "t": "三联画：哀悼基督（中）、圣芭芭拉（左）、亚历山大的圣凯瑟琳（右）",
+      "a": "克拉因堡祭坛画大师",
+      "aid": "master-of-the-krainburg-altar-austrian-active-c-1485-1510",
+      "y": 1500,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "祭坛画",
+        "16世纪",
+        "奥地利",
+        "哥特式",
+        "哀悼基督"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2022.86/2022.86_web.jpg",
+      "ratio": 0.66
+    },
+    {
+      "id": "cma-160137",
+      "issue": "2026-09-15",
+      "t": "仙山楼观图",
+      "a": "陈汝言",
+      "aid": "chen-ruyan-chinese-c-1331-1371",
+      "y": 1335,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "仙境",
+        "14世纪",
+        "中国",
+        "元代",
+        "青绿山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.95/1997.95_web.jpg",
+      "ratio": 0.274
+    },
+    {
+      "id": "cma-161595",
+      "issue": "2026-09-15",
+      "t": "勒内 - 夏尔·达西与让 - 巴蒂斯特 - 克洛德 - 阿梅代·达西兄弟",
+      "a": "伊波利特·让·弗朗德兰",
+      "aid": "hippolyte-jean-flandrin-french-1809-1864",
+      "y": 1850,
+      "mv": "学院派",
+      "tags": [
+        "双人肖像",
+        "19世纪",
+        "法国",
+        "学院派",
+        "兄弟"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2000.17/2000.17_web.jpg",
+      "ratio": 1.447
+    },
+    {
+      "id": "cma-146037",
+      "issue": "2026-09-15",
+      "t": "平家物语·赏月",
+      "a": "与谢芜村",
+      "aid": "yosa-buson-japanese-1716-1783",
+      "y": 1700,
+      "mv": "南画",
+      "tags": [
+        "夜景",
+        "叙事",
+        "18世纪",
+        "日本",
+        "南画",
+        "文学题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.233/1971.233_web.jpg",
+      "ratio": 4.167
     }
   ]
 }
