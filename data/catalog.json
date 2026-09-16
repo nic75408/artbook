@@ -20366,6 +20366,530 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1942.2.14/1942.2.14_web.jpg",
       "ratio": 0.338
+    },
+    {
+      "id": "cma-147464",
+      "issue": "2026-09-17",
+      "t": "河畔城堡",
+      "a": "所罗门·凡·鲁伊斯达尔",
+      "aid": "salomon-van-ruysdael-dutch-1602-1670",
+      "y": 1644,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "巴洛克",
+        "河流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.2/1973.2_web.jpg",
+      "ratio": 0.652
+    },
+    {
+      "id": "cma-539189",
+      "issue": "2026-09-17",
+      "t": "烛光下的科学家",
+      "a": "安娜·多萝西娅·特布斯",
+      "aid": "anna-dorothea-therbusch-german-1721-22-1782",
+      "y": 1755,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "德国",
+        "烛光",
+        "室内",
+        "洛可可"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.1/2023.1_web.jpg",
+      "ratio": 1.236
+    },
+    {
+      "id": "cma-140445",
+      "issue": "2026-09-17",
+      "t": "苏州虎丘十二景·愚泉",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "苏州",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.2/1964.371.2_web.jpg",
+      "ratio": 0.782
+    },
+    {
+      "id": "cma-137968",
+      "issue": "2026-09-17",
+      "t": "《鹦鹉故事：第九夜》",
+      "a": "苏拉朱",
+      "aid": "suraju-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.79.a/1962.279.79.a_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-148959",
+      "issue": "2026-09-17",
+      "t": "女子肖像",
+      "a": "戈瓦特·弗林克",
+      "aid": "govaert-flinck-dutch-1615-1660",
+      "y": 1646,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "黄金时代",
+        "女性",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.117/1977.117_web.jpg",
+      "ratio": 1.199
+    },
+    {
+      "id": "cma-127238",
+      "issue": "2026-09-17",
+      "t": "佐野渡",
+      "a": "俵屋宗达",
+      "aid": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "y": 1620,
+      "mv": "琳派",
+      "tags": [
+        "人物",
+        "17世纪",
+        "日本",
+        "琳派",
+        "金箔背景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.554/1949.554_web.jpg",
+      "ratio": 1.038
+    },
+    {
+      "id": "cma-97156",
+      "issue": "2026-09-17",
+      "t": "老人肖像",
+      "a": "朱利奥·坎皮",
+      "aid": "giulio-campi-italian-c-1500-1572",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "老人",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.794/1916.794_web.jpg",
+      "ratio": 1.466
+    },
+    {
+      "id": "cma-130981",
+      "issue": "2026-09-17",
+      "t": "圣母领报",
+      "a": "豪梅·费雷尔",
+      "aid": "jaume-ferrer-the-younger-spanish-catalonia-died-c-1460-70",
+      "y": 1457,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "西班牙",
+        "哥特式",
+        "天使",
+        "祭坛画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.660.1/1953.660.1_web.jpg",
+      "ratio": 1.384
+    },
+    {
+      "id": "cma-166506",
+      "issue": "2026-09-17",
+      "t": "冬季风景",
+      "a": "扬·格里菲勒",
+      "aid": "jan-griffier-dutch-1648-1718",
+      "y": 1699,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "冬季",
+        "雪景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.287/2008.287_web.jpg",
+      "ratio": 0.677
+    },
+    {
+      "id": "cma-148382",
+      "issue": "2026-09-17",
+      "t": "梅竹兰图",
+      "a": "山本梅逸",
+      "aid": "yamamoto-baiitsu-japanese-1783-1856",
+      "y": 1834,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "南画",
+        "植物",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.93/1975.93_web.jpg",
+      "ratio": 2.067
+    },
+    {
+      "id": "cma-314497",
+      "issue": "2026-09-17",
+      "t": "比卡内尔大君阿努普·辛格接见朝臣",
+      "a": "鲁克努丁",
+      "aid": "ruknuddin-indian-active-c-1666-97",
+      "y": 1690,
+      "mv": "拉杰普特绘画",
+      "tags": [
+        "宫廷",
+        "17世纪",
+        "印度",
+        "拉杰普特",
+        "人物",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.191/2018.191_web.jpg",
+      "ratio": 1.341
+    },
+    {
+      "id": "cma-143751",
+      "issue": "2026-09-17",
+      "t": "花草图屏风",
+      "a": "北川宗雪",
+      "aid": "kitagawa-sosetsu-japanese-active-1639-50",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "江户",
+        "屏风",
+        "狩野派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.193/1968.193_web.jpg",
+      "ratio": 1.002
+    },
+    {
+      "id": "cma-148961",
+      "issue": "2026-09-17",
+      "t": "奥尔良的玛丽公主在工作室",
+      "a": "阿里·谢弗",
+      "aid": "ary-scheffer-dutch-1795-1858",
+      "y": 1838,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "工作室",
+        "女性艺术家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.119/1977.119_web.jpg",
+      "ratio": 1.572
+    },
+    {
+      "id": "cma-137044",
+      "issue": "2026-09-17",
+      "t": "春谷渔钓图",
+      "a": "池大雅",
+      "aid": "ike-taiga-japanese-1723-1776",
+      "y": 1700,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "南画",
+        "渔猎",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.47/1961.47_web.jpg",
+      "ratio": 2.153
+    },
+    {
+      "id": "cma-95207",
+      "issue": "2026-09-17",
+      "t": "山水图",
+      "a": "任预",
+      "aid": "ren-yu-chinese-1853-1901",
+      "y": 1892,
+      "mv": "海派",
+      "tags": [
+        "山水",
+        "19世纪",
+        "中国",
+        "清代",
+        "海派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.97.2/1915.97.2_web.jpg",
+      "ratio": 3.571
+    },
+    {
+      "id": "cma-137334",
+      "issue": "2026-09-17",
+      "t": "尖顶饰：天使",
+      "a": "尼科洛·迪·塞尼亚",
+      "aid": "niccolo-di-segna-italian",
+      "y": 1340,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "意大利",
+        "锡耶纳画派",
+        "天使",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.257.2/1962.257.2_web.jpg",
+      "ratio": 1.331
+    },
+    {
+      "id": "cma-166508",
+      "issue": "2026-09-17",
+      "t": "风景中持信沉睡的女子",
+      "a": "贝尔纳·盖洛特",
+      "aid": "bernard-gaillot-french-1780-1847",
+      "y": 1800,
+      "mv": "新古典主义",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "法国",
+        "睡眠",
+        "田园",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.289/2008.289_web.jpg",
+      "ratio": 0.794
+    },
+    {
+      "id": "cma-132930",
+      "issue": "2026-09-17",
+      "t": "《诸家山水册：仿米芾山水》",
+      "a": "查士标",
+      "aid": "zha-shibiao-chinese-1615-1698",
+      "y": 1684,
+      "mv": "新安画派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "仿古",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.37.8/1955.37.8_web.jpg",
+      "ratio": 0.771
+    },
+    {
+      "id": "cma-144302",
+      "issue": "2026-09-17",
+      "t": "《以色列四先知草图》（罗马耶稣教堂天顶画习作）",
+      "a": "乔瓦尼·巴蒂斯塔·高利",
+      "aid": "giovanni-battista-gaulli-italian-1639-1709",
+      "y": 1676,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "草图",
+        "17世纪",
+        "意大利",
+        "巴洛克"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.131/1969.131_web.jpg",
+      "ratio": 1.225
+    },
+    {
+      "id": "cma-79587",
+      "issue": "2026-09-17",
+      "t": "苏轼骑驴图",
+      "a": "灵逸",
+      "aid": "reietsu-japanese-active-late-1500s-to-early-1600s",
+      "y": 1550,
+      "mv": "日本水墨画",
+      "tags": [
+        "人物",
+        "16世纪",
+        "日本",
+        "禅画",
+        "苏轼",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.479/2015.479_web.jpg",
+      "ratio": 1.875
+    },
+    {
+      "id": "cma-150088",
+      "issue": "2026-09-17",
+      "t": "夜课",
+      "a": "让 - 乔治·维贝尔",
+      "aid": "jehan-georges-vibert-french-1840-1902",
+      "y": 1881,
+      "mv": "学院派",
+      "tags": [
+        "风俗画",
+        "19世纪",
+        "法国",
+        "夜景",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.292/1980.292_web.jpg",
+      "ratio": 1.345
+    },
+    {
+      "id": "cma-161015",
+      "issue": "2026-09-17",
+      "t": "书画合册",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "书法",
+        "册页",
+        "18世纪",
+        "中国",
+        "清代",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.b/1999.260.b_web.jpg",
+      "ratio": 0.746
+    },
+    {
+      "id": "cma-539855",
+      "issue": "2026-09-17",
+      "t": "《卡尔帕经》插图：狮穴与斯图拉巴德拉及其姐妹",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1450,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "耆那教",
+        "手抄本",
+        "金箔"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.60.b/1932.119.60.b_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-170821",
+      "issue": "2026-09-17",
+      "t": "贾米《五宝书》手稿页",
+      "a": "穆什菲克",
+      "aid": "mushfiq-indian-active-early-1600s",
+      "y": 1551,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "手稿",
+        "17世纪",
+        "印度",
+        "波斯书法",
+        "装饰艺术",
+        "莫卧儿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.315.2/2013.315.2_web.jpg",
+      "ratio": 1.811
+    },
+    {
+      "id": "cma-137519",
+      "issue": "2026-09-17",
+      "t": "《鹦鹉故事》第二十五夜：迈穆纳遇险自救",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "手稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.174.b/1962.279.174.b_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-162453",
+      "issue": "2026-09-17",
+      "t": "《毗湿奴的十种化身》（选自迦梨伽特画册）",
+      "a": "斯里·戈宾达·钱德拉·罗伊",
+      "aid": "shri-gobinda-chandra-roy-indian-active-late-1800s",
+      "y": 1890,
+      "mv": "迦梨伽特画派",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "印度",
+        "迦梨伽特",
+        "民俗",
+        "版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.114.b/2003.114.b_web.jpg",
+      "ratio": 0.723
+    },
+    {
+      "id": "cma-146067",
+      "issue": "2026-09-17",
+      "t": "蹴鞠图",
+      "a": "马远",
+      "aid": "ma-yuan-chinese-c-1150-after-1255",
+      "y": 1150,
+      "mv": "南宋院体",
+      "tags": [
+        "风俗",
+        "12世纪",
+        "中国",
+        "宋代",
+        "运动",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.26/1971.26_web.jpg",
+      "ratio": 2.116
+    },
+    {
+      "id": "cma-137947",
+      "issue": "2026-09-17",
+      "t": "《鹦鹉故事：第八夜·王子第六次被送回刑场》",
+      "a": "苏拉朱",
+      "aid": "suraju-indian",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "16世纪",
+        "印度",
+        "手抄本插图",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.69.b/1962.279.69.b_web.jpg",
+      "ratio": 1.567
     }
   ]
 }
