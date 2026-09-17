@@ -20890,6 +20890,509 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1962.279.69.b/1962.279.69.b_web.jpg",
       "ratio": 1.567
+    },
+    {
+      "id": "cma-135310",
+      "issue": "2026-09-18",
+      "t": "圣雷米附近阿尔皮勒的两棵白杨树",
+      "a": "文森特·梵高",
+      "aid": "vincent-van-gogh-dutch-1853-1890",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "后印象派",
+        "19世纪",
+        "荷兰",
+        "笔触",
+        "圣雷米"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_web.jpg",
+      "ratio": 1.337
+    },
+    {
+      "id": "cma-145463",
+      "issue": "2026-09-18",
+      "t": "达娜厄",
+      "a": "奥拉齐奥·真蒂莱斯基",
+      "aid": "orazio-gentileschi-italian-1563-1639",
+      "y": 1623,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "光影",
+        "裸体"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.101/1971.101_web.jpg",
+      "ratio": 0.717
+    },
+    {
+      "id": "cma-135420",
+      "issue": "2026-09-18",
+      "t": "黑色牵牛花",
+      "a": "乔治亚·欧姬芙",
+      "aid": "georgia-o-keeffe-american-1887-1986",
+      "y": 1926,
+      "mv": "现代主义",
+      "tags": [
+        "静物",
+        "现代主义",
+        "20世纪",
+        "美国",
+        "抽象"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.42/1958.42_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-106088",
+      "issue": "2026-09-18",
+      "t": "风暴过后的清晨海景",
+      "a": "温斯洛·霍默",
+      "aid": "winslow-homer-american-1836-1910",
+      "y": 1901,
+      "mv": "现实主义",
+      "tags": [
+        "海景",
+        "现实主义",
+        "19世纪",
+        "美国",
+        "油画",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.195/1924.195_web.jpg",
+      "ratio": 0.603
+    },
+    {
+      "id": "cma-144743",
+      "issue": "2026-09-18",
+      "t": "《野兔与羊腿》",
+      "a": "让 - 巴蒂斯特·乌德里",
+      "aid": "jean-baptiste-oudry-french-1686-1755",
+      "y": 1742,
+      "mv": "洛可可",
+      "tags": [
+        "静物",
+        "狩猎题材",
+        "18世纪",
+        "法国",
+        "质感表现",
+        "动物画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.53/1969.53_web.jpg",
+      "ratio": 1.329
+    },
+    {
+      "id": "cma-136207",
+      "issue": "2026-09-18",
+      "t": "玻璃瓶中的花卉",
+      "a": "安布罗修斯·博斯查特",
+      "aid": "ambrosius-bosschaert-dutch-1573-1621",
+      "y": 1606,
+      "mv": "巴洛克",
+      "tags": [
+        "静物",
+        "花卉",
+        "17世纪",
+        "荷兰",
+        "铜板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.108/1960.108_web.jpg",
+      "ratio": 1.195
+    },
+    {
+      "id": "cma-115405",
+      "issue": "2026-09-18",
+      "t": "贝尔维尤的鸽舍",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne-french-1839-1906",
+      "y": 1890,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "建筑",
+        "19世纪",
+        "法国",
+        "结构",
+        "普罗旺斯"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1936.19/1936.19_web.jpg",
+      "ratio": 0.803
+    },
+    {
+      "id": "cma-121188",
+      "issue": "2026-09-18",
+      "t": "罗曼·拉科",
+      "a": "皮埃尔 - 奥古斯特·雷诺阿",
+      "aid": "pierre-auguste-renoir-french-1841-1919",
+      "y": 1864,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "早期风格",
+        "少女"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.1065/1942.1065_web.jpg",
+      "ratio": 1.257
+    },
+    {
+      "id": "cma-149107",
+      "issue": "2026-09-18",
+      "t": "巫术场景：黄昏",
+      "a": "萨尔瓦多·罗萨",
+      "aid": "salvator-rosa-italian-1615-1673",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "巫术",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "骷髅",
+        "圆形构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.37.3/1977.37.3_web.jpg",
+      "ratio": 0.996
+    },
+    {
+      "id": "cma-172815",
+      "issue": "2026-09-18",
+      "t": "斯塔王山，优胜美地",
+      "a": "阿尔伯特·比尔施塔特",
+      "aid": "albert-bierstadt-american-born-prussia-now-germany-1830-1902",
+      "y": 1866,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "浪漫主义",
+        "19世纪",
+        "美国",
+        "哈德逊河画派",
+        "优胜美地"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1922.684/1922.684_web.jpg",
+      "ratio": 0.677
+    },
+    {
+      "id": "cma-145424",
+      "issue": "2026-09-18",
+      "t": "麻雀图",
+      "a": "长沢芦雪",
+      "aid": "nagasawa-rosetsu-japanese-1754-1799",
+      "y": 1792,
+      "mv": "圆山四条派",
+      "tags": [
+        "花鸟",
+        "江户时代",
+        "18世纪",
+        "日本",
+        "留白",
+        "动态"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.71.4/1970.71.4_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-114684",
+      "issue": "2026-09-18",
+      "t": "圣母与圣子",
+      "a": "汉斯·梅姆林",
+      "aid": "hans-memling-netherlandish-1494",
+      "y": 1470,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "宗教",
+        "圣母像",
+        "15世纪",
+        "尼德兰",
+        "金底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1934.29/1934.29_web.jpg",
+      "ratio": 1.429
+    },
+    {
+      "id": "cma-136217",
+      "issue": "2026-09-18",
+      "t": "拿撒勒家中的基督与圣母",
+      "a": "弗朗西斯科·德·苏巴朗",
+      "aid": "francisco-de-zurbaran-spanish-1598-1664",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "西班牙",
+        "17世纪",
+        "巴洛克",
+        "静物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.117/1960.117_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-142298",
+      "issue": "2026-09-18",
+      "t": "安条克与斯特拉托尼斯",
+      "a": "让 - 奥古斯特 - 多米尼克·安格尔",
+      "aid": "jean-auguste-dominique-ingres-french-1780-1867",
+      "y": 1838,
+      "mv": "新古典主义",
+      "tags": [
+        "历史画",
+        "19世纪",
+        "法国",
+        "线条",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.13/1966.13_web.jpg",
+      "ratio": 0.749
+    },
+    {
+      "id": "cma-123168",
+      "issue": "2026-09-18",
+      "t": "《呼唤》",
+      "a": "保罗·高更",
+      "aid": "paul-gauguin-french-1848-1903",
+      "y": 1902,
+      "mv": "后印象派",
+      "tags": [
+        "人物",
+        "象征主义",
+        "20世纪",
+        "法国",
+        "原始主义",
+        "塔希提"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.392/1943.392_web.jpg",
+      "ratio": 1.485
+    },
+    {
+      "id": "cma-153798",
+      "issue": "2026-09-18",
+      "t": "芦雁图",
+      "a": "狩野山乐",
+      "aid": "kano-sanraku-japanese-1559-1635",
+      "y": 1550,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "桃山时代",
+        "16世纪",
+        "日本",
+        "屏风",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.9.2/1987.9.2_web.jpg",
+      "ratio": 0.453
+    },
+    {
+      "id": "cma-148364",
+      "issue": "2026-09-18",
+      "t": "森林中的阿波罗与达芙妮",
+      "a": "让 - 维克多·贝尔坦",
+      "aid": "jean-victor-bertin-french-1767-1842",
+      "y": 1810,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "新古典主义",
+        "19世纪",
+        "法国",
+        "风景",
+        "历史风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.77/1975.77_web.jpg",
+      "ratio": 0.824
+    },
+    {
+      "id": "cma-150082",
+      "issue": "2026-09-18",
+      "t": "天堂与地狱",
+      "a": "奥克塔夫·塔萨尔特",
+      "aid": "octave-tassaert-french-1800-1874",
+      "y": 1850,
+      "mv": "浪漫主义",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "法国",
+        "人体",
+        "善恶对立"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.287/1980.287_web.jpg",
+      "ratio": 1.443
+    },
+    {
+      "id": "cma-97501",
+      "issue": "2026-09-18",
+      "t": "穆拉德·巴赫什王子肖像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1655,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "莫卧儿",
+        "17世纪",
+        "印度",
+        "宫廷艺术",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.1066/1917.1066_web.jpg",
+      "ratio": 1.654
+    },
+    {
+      "id": "cma-141935",
+      "issue": "2026-09-18",
+      "t": "塞缪尔·威廉姆斯",
+      "a": "华盛顿·奥尔斯顿",
+      "aid": "washington-allston-american-1779-1843",
+      "y": 1817,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "浪漫主义",
+        "19世纪",
+        "美国",
+        "心理"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.474/1965.474_web.jpg",
+      "ratio": 1.272
+    },
+    {
+      "id": "cma-145473",
+      "issue": "2026-09-18",
+      "t": "和平与正义之吻",
+      "a": "洛朗·德·拉·伊尔",
+      "aid": "laurent-de-la-hyre-french-1606-1656",
+      "y": 1654,
+      "mv": "古典主义",
+      "tags": [
+        "寓言",
+        "17世纪",
+        "法国",
+        "风景",
+        "神话",
+        "双人像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.102/1971.102_web.jpg",
+      "ratio": 0.709
+    },
+    {
+      "id": "cma-168322",
+      "issue": "2026-09-18",
+      "t": "圣母与圣子像（慈悲圣母）",
+      "a": "安杰洛斯·阿科坦托斯",
+      "aid": "angelos-akotantos-cretan-died-1450",
+      "y": 1425,
+      "mv": "拜占庭艺术",
+      "tags": [
+        "宗教",
+        "圣像画",
+        "15世纪",
+        "克里特画派",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.154/2010.154_web.jpg",
+      "ratio": 1.366
+    },
+    {
+      "id": "cma-137209",
+      "issue": "2026-09-18",
+      "t": "《仿各家山水册页》",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "17世纪",
+        "中国",
+        "仿古",
+        "纸本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.6/1962.157.6_web.jpg",
+      "ratio": 0.659
+    },
+    {
+      "id": "cma-153637",
+      "issue": "2026-09-18",
+      "t": "织与纺",
+      "a": "凯哈尔·辛格",
+      "aid": "kehar-singh-indian",
+      "y": 1860,
+      "mv": "公司画派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "印度",
+        "生活场景",
+        "手工业",
+        "文档绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.162/1987.162_web.jpg",
+      "ratio": 1.091
+    },
+    {
+      "id": "cma-143306",
+      "issue": "2026-09-18",
+      "t": "湿婆与女神崇拜",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "神像",
+        "细密画",
+        "帕哈里风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.240/1967.240_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-143770",
+      "issue": "2026-09-18",
+      "t": "费迪南四世与玛丽亚·卡罗琳娜神化图习作",
+      "a": "皮耶特罗·巴尔德利诺",
+      "aid": "pietro-bardellino-italian-1728-1810",
+      "y": 1781,
+      "mv": "巴洛克",
+      "tags": [
+        "神话题材",
+        "18世纪",
+        "意大利",
+        "习作",
+        "皇室"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.208/1968.208_web.jpg",
+      "ratio": 1.411
+    },
+    {
+      "id": "cma-149622",
+      "issue": "2026-09-18",
+      "t": "仿宋元人画册 菊花",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "晚明画派",
+      "tags": [
+        "菊花",
+        "绢本设色",
+        "晚明",
+        "花鸟",
+        "册页",
+        "陈洪绶"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.17/1979.27.2.17_web.jpg",
+      "ratio": 0.976
     }
   ]
 }
