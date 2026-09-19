@@ -21870,6 +21870,548 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2015.460/2015.460_web.jpg",
       "ratio": 4.186
+    },
+    {
+      "id": "cma-84371",
+      "issue": "2026-09-20",
+      "t": "粉云",
+      "a": "亨利 - 埃德蒙·克罗斯",
+      "aid": "henri-edmond-cross-french-1856-1910",
+      "y": 1896,
+      "mv": "新印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "地中海",
+        "色彩实验",
+        "新印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.106/2020.106_web.jpg",
+      "ratio": 0.889
+    },
+    {
+      "id": "cma-97139",
+      "issue": "2026-09-20",
+      "t": "圣母与圣子",
+      "a": "列奥纳多·达·芬奇",
+      "aid": "leonardo-da-vinci-italian-1452-1519",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "肖像",
+        "文艺复兴",
+        "意大利",
+        "光影",
+        "圣母"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.779/1916.779_web.jpg",
+      "ratio": 1.38
+    },
+    {
+      "id": "cma-101358",
+      "issue": "2026-09-20",
+      "t": "沙贾汗肖像",
+      "a": "哈希姆",
+      "aid": "hashim-indian-active-1598-c-1650",
+      "y": 1630,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "莫卧儿",
+        "17世纪",
+        "印度",
+        "皇室"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1969/1920.1969_web.jpg",
+      "ratio": 1.337
+    },
+    {
+      "id": "cma-98000",
+      "issue": "2026-09-20",
+      "t": "海滩场景",
+      "a": "欧仁·布丹",
+      "aid": "eugene-boudin-french-1824-1898",
+      "y": 1866,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "印象派",
+        "19世纪",
+        "法国",
+        "资产阶级",
+        "户外写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.63/1917.63_web.jpg",
+      "ratio": 0.601
+    },
+    {
+      "id": "cma-144588",
+      "issue": "2026-09-20",
+      "t": "圣安布罗斯",
+      "a": "弗朗西斯科·戈雅",
+      "aid": "francisco-de-goya-spanish-1746-1828",
+      "y": 1796,
+      "mv": "浪漫主义",
+      "tags": [
+        "宗教",
+        "肖像",
+        "18世纪",
+        "西班牙",
+        "主教",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.23/1969.23_web.jpg",
+      "ratio": 1.694
+    },
+    {
+      "id": "cma-136759",
+      "issue": "2026-09-20",
+      "t": "百子图",
+      "a": "苏汉臣",
+      "aid": "su-hanchen-chinese-active-c-1101-1125",
+      "y": 1150,
+      "mv": "宋代院体",
+      "tags": [
+        "风俗",
+        "儿童",
+        "宋代",
+        "中国",
+        "叙事",
+        "工笔"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.261/1961.261_web.jpg",
+      "ratio": 0.834
+    },
+    {
+      "id": "cma-125949",
+      "issue": "2026-09-20",
+      "t": "音乐与舞蹈",
+      "a": "弗朗索瓦·布歇",
+      "aid": "francois-boucher-french-1703-1770",
+      "y": 1740,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "洛可可",
+        "18世纪",
+        "法国",
+        "天使",
+        "装饰画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.181.1/1948.181.1_web.jpg",
+      "ratio": 0.557
+    },
+    {
+      "id": "cma-153664",
+      "issue": "2026-09-20",
+      "t": "雪景人物图",
+      "a": "金禔",
+      "aid": "kim-si-korean-1524-1593",
+      "y": 1584,
+      "mv": "朝鲜王朝绘画",
+      "tags": [
+        "雪景",
+        "山水",
+        "16世纪",
+        "韩国",
+        "绢本",
+        "留白"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.187/1987.187_web.jpg",
+      "ratio": 0.797
+    },
+    {
+      "id": "cma-132049",
+      "issue": "2026-09-20",
+      "t": "鸢尾图屏风",
+      "a": "渡边始兴",
+      "aid": "watanabe-shiko-japanese-1683-1755",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "花卉",
+        "屏风",
+        "18世纪",
+        "日本",
+        "琳派",
+        "金底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.603.1/1954.603.1_web.jpg",
+      "ratio": 0.46
+    },
+    {
+      "id": "cma-141328",
+      "issue": "2026-09-20",
+      "t": "尚塔尔伯爵肖像",
+      "a": "安托万 - 让·格罗",
+      "aid": "antoine-jean-gros-french-1771-1835",
+      "y": 1824,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "学者",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.54/1964.54_web.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "cma-143653",
+      "issue": "2026-09-20",
+      "t": "《昌达那·马拉亚吉里故事》第 18 页：罗波那与神鸟之战",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1744,
+      "mv": "印度细密画",
+      "tags": [
+        "神话",
+        "战争",
+        "18世纪",
+        "印度",
+        "手稿",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.108/1968.108_web.jpg",
+      "ratio": 0.719
+    },
+    {
+      "id": "cma-157334",
+      "issue": "2026-09-20",
+      "t": "透过窗户眺望那不勒斯",
+      "a": "弗朗茨·路德维希·卡特尔",
+      "aid": "franz-ludwig-catel-german-1778-1856",
+      "y": 1824,
+      "mv": "浪漫主义",
+      "tags": [
+        "城市景观",
+        "浪漫主义",
+        "19世纪",
+        "德国",
+        "透视",
+        "室内景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.198/1994.198_web.jpg",
+      "ratio": 1.409
+    },
+    {
+      "id": "cma-124804",
+      "issue": "2026-09-20",
+      "t": "沉思者",
+      "a": "欧仁·卡里埃",
+      "aid": "eugene-carriere-french-1849-1906",
+      "y": 1901,
+      "mv": "象征主义",
+      "tags": [
+        "肖像",
+        "象征主义",
+        "19世纪",
+        "法国",
+        "朦胧"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.283/1946.283_web.jpg",
+      "ratio": 0.815
+    },
+    {
+      "id": "cma-149413",
+      "issue": "2026-09-20",
+      "t": "江村渔乐",
+      "a": "赵孟頫",
+      "aid": "zhao-mengfu-chinese-1254-1322",
+      "y": 1302,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "渔夫",
+        "元代",
+        "中国",
+        "绢本",
+        "青绿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.66/1978.66_web.jpg",
+      "ratio": 0.957
+    },
+    {
+      "id": "cma-145135",
+      "issue": "2026-09-20",
+      "t": "里奇堡 - 勒图雷尔伯爵肖像",
+      "a": "尼古拉·德·拉吉利耶",
+      "aid": "nicolas-de-largilliere-french-1656-1746",
+      "y": 1734,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "贵族",
+        "18世纪",
+        "法国",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.31/1970.31_web.jpg",
+      "ratio": 1.256
+    },
+    {
+      "id": "cma-107362",
+      "issue": "2026-09-20",
+      "t": "卡尔帕经：特里沙拉王后斜倚",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1450,
+      "mv": "西印度画派",
+      "tags": [
+        "宗教",
+        "手稿",
+        "15世纪",
+        "印度",
+        "金色",
+        "平面装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.1340/1925.1340_web.jpg",
+      "ratio": 1.275
+    },
+    {
+      "id": "cma-125091",
+      "issue": "2026-09-20",
+      "t": "多维尔海滩",
+      "a": "欧仁·布丹",
+      "aid": "eugene-boudin-french-1824-1898",
+      "y": 1864,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "户外写生",
+        "19世纪",
+        "法国",
+        "天空",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.71/1946.71_web.jpg",
+      "ratio": 1.324
+    },
+    {
+      "id": "cma-132908",
+      "issue": "2026-09-20",
+      "t": "仿郭忠恕山水图",
+      "a": "八大山人",
+      "aid": "bada-shanren-chinese-1626-1705",
+      "y": 1692,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "水墨",
+        "写意",
+        "立轴",
+        "八大山人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.36/1955.36_web.jpg",
+      "ratio": 2.313
+    },
+    {
+      "id": "cma-151377",
+      "issue": "2026-09-20",
+      "t": "西蒙·马古斯的坠落",
+      "a": "蓬佩奥·巴托尼",
+      "aid": "pompeo-batoni-italian-1708-1787",
+      "y": 1745,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "18世纪",
+        "意大利",
+        "巴洛克",
+        "圣经题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.217/1983.217_web.jpg",
+      "ratio": 1.642
+    },
+    {
+      "id": "cma-160133",
+      "issue": "2026-09-20",
+      "t": "秋景鹑雀图",
+      "a": "王渊",
+      "aid": "wang-yuan-chinese-c-1299-after-1366",
+      "y": 1347,
+      "mv": "元代花鸟",
+      "tags": [
+        "花鸟",
+        "水墨",
+        "元代",
+        "岩石",
+        "雀鸟",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.91/1997.91_web.jpg",
+      "ratio": 1.829
+    },
+    {
+      "id": "cma-143768",
+      "issue": "2026-09-20",
+      "t": "宝座上的圣母与圣子",
+      "a": "圣卢切塞大师",
+      "aid": "master-of-san-lucchese-italian-c-1335-1380",
+      "y": 1350,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "圣母",
+        "14世纪",
+        "意大利",
+        "蛋彩画",
+        "哥特式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.206/1968.206_web.jpg",
+      "ratio": 1.892
+    },
+    {
+      "id": "cma-130656",
+      "issue": "2026-09-20",
+      "t": "《派车》",
+      "a": "卡尔·加特纳",
+      "aid": "carl-gaertner-american-1898-1952",
+      "y": 1926,
+      "mv": "现实主义",
+      "tags": [
+        "风俗",
+        "工业",
+        "20世纪",
+        "美国",
+        "现实主义",
+        "雪景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.371/1953.371_web.jpg",
+      "ratio": 0.696
+    },
+    {
+      "id": "cma-154283",
+      "issue": "2026-09-20",
+      "t": "象征性头像",
+      "a": "奥迪隆·雷东",
+      "aid": "odilon-redon-french-1840-1916",
+      "y": 1890,
+      "mv": "象征主义",
+      "tags": [
+        "象征主义",
+        "肖像",
+        "19世纪",
+        "法国",
+        "神秘主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.91/1988.91_web.jpg",
+      "ratio": 1.409
+    },
+    {
+      "id": "cma-161781",
+      "issue": "2026-09-20",
+      "t": "层岩叠壑图",
+      "a": "华",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1705,
+      "mv": "扬州画派",
+      "tags": [
+        "清代",
+        "文人画",
+        "自画像",
+        "山水",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2001.120/2001.120_web.jpg",
+      "ratio": 2.35
+    },
+    {
+      "id": "cma-144255",
+      "issue": "2026-09-20",
+      "t": "亚伯拉罕仆人的誓言",
+      "a": "乔瓦尼·贝内代托·卡斯蒂廖内",
+      "aid": "giovanni-benedetto-castiglione-italian-1609-1664",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "巴洛克",
+        "17世纪",
+        "意大利",
+        "明暗",
+        "动物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.1/1969.1_web.jpg",
+      "ratio": 0.707
+    },
+    {
+      "id": "cma-124990",
+      "issue": "2026-09-20",
+      "t": "胡安·玛丽亚·奥索里奥肖像",
+      "a": "阿古斯丁·埃斯特维",
+      "aid": "agustin-esteve-y-marques-spanish-1753-c-1820",
+      "y": 1786,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "儿童",
+        "18世纪",
+        "西班牙",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.431/1946.431_web.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "cma-160138",
+      "issue": "2026-09-20",
+      "t": "溪山图",
+      "a": "徐贲",
+      "aid": "xu-ben-chinese-1335-1380",
+      "y": 1372,
+      "mv": "元代",
+      "tags": [
+        "山水",
+        "元代",
+        "中国",
+        "纸本水墨",
+        "文人画",
+        "14世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.96/1997.96_web.jpg",
+      "ratio": 1.707
+    },
+    {
+      "id": "cma-149611",
+      "issue": "2026-09-20",
+      "t": "仿古人画册：陶渊明像",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "明代人物画",
+      "tags": [
+        "人物",
+        "明代",
+        "绢本",
+        "隐逸",
+        "陈洪绶"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.5/1979.27.1.5_web.jpg",
+      "ratio": 1.116
+    },
+    {
+      "id": "cma-137204",
+      "issue": "2026-09-20",
+      "t": "仿各家山水册",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "黄山派",
+      "tags": [
+        "山水",
+        "清初",
+        "纸本设色",
+        "黄山",
+        "仿古",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.10/1962.157.10_web.jpg",
+      "ratio": 0.657
     }
   ]
 }

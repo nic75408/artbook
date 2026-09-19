@@ -5166,6 +5166,97 @@
       "years": "活跃于 1478–1506",
       "nationality_zh": "日本",
       "bio_zh": "日本室町时代禅僧画家，擅长水墨山水与汉诗，受中国宋元画影响，五山文学代表。"
+    },
+    "henri-edmond-cross-french-1856-1910": {
+      "name_zh": "亨利 - 埃德蒙·克罗斯",
+      "name_en": "Henri-Edmond Cross (French, 1856–1910)",
+      "years": "1856–1910",
+      "nationality_zh": "法国",
+      "bio_zh": "亨利 - 埃德蒙·克罗斯，法国新印象派代表，擅长以分色主义技法营造装饰性风景。"
+    },
+    "leonardo-da-vinci-italian-1452-1519": {
+      "name_zh": "列奥纳多·达·芬奇",
+      "name_en": "Leonardo da Vinci (Italian, 1452–1519)",
+      "years": "1452–1519",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴巨匠，精通绘画与科学，代表作《蒙娜丽莎》《最后的晚餐》，开创晕涂法。"
+    },
+    "su-hanchen-chinese-active-c-1101-1125": {
+      "name_zh": "苏汉臣",
+      "name_en": "Su Hanchen (Chinese, active c. 1101–1125)",
+      "years": "活跃于 12 世纪",
+      "nationality_zh": "中国",
+      "bio_zh": "北宋宣和画院待诏，南渡后复职。擅画婴戏，笔触工细，色彩鲜丽，为宋代风俗画代表。"
+    },
+    "kim-si-korean-1524-1593": {
+      "name_zh": "金禔",
+      "name_en": "Kim Si (Korean, 1524–1593)",
+      "years": "1524–1593",
+      "nationality_zh": "韩国",
+      "bio_zh": "朝鲜王朝中期文臣画家，号高庵。擅长山水花鸟，笔法受南宋院体影响，传世作品稀少。"
+    },
+    "franz-ludwig-catel-german-1778-1856": {
+      "name_zh": "弗朗茨·路德维希·卡特尔",
+      "name_en": "Franz Ludwig Catel (German, 1778–1856)",
+      "years": "1778–1856",
+      "nationality_zh": "德国",
+      "bio_zh": "德国浪漫主义画家，长期旅居意大利，以精确的意大利风景画闻名。"
+    },
+    "tao-cheng-chinese-active-c-1471-after-1502": {
+      "name_zh": "陶成",
+      "name_en": "Tao Cheng (Chinese, active c. 1471–after 1502)",
+      "years": "不详",
+      "nationality_zh": "中国",
+      "bio_zh": "明代画家，字云逵，号陶庵。擅花鸟山水，技法全面，兼工带写，风格清丽。"
+    },
+    "nicolas-de-largilliere-french-1656-1746": {
+      "name_zh": "尼古拉·德·拉吉利耶",
+      "name_en": "Nicolas de Largillière (French, 1656–1746)",
+      "years": "1656–1746",
+      "nationality_zh": "法国",
+      "bio_zh": "法国巴洛克晚期肖像画家，以色彩浓郁、质感华丽著称，深受路易十四至十五世贵族青睐。"
+    },
+    "pompeo-batoni-italian-1708-1787": {
+      "name_zh": "蓬佩奥·巴托尼",
+      "name_en": "Pompeo Batoni (Italian, 1708–1787)",
+      "years": "1708–1787",
+      "nationality_zh": "意大利",
+      "bio_zh": "18 世纪罗马画坛代表人物，以肖像画闻名，风格融合巴洛克戏剧性与新古典主义秩序。"
+    },
+    "wang-yuan-chinese-c-1299-after-1366": {
+      "name_zh": "王渊",
+      "name_en": "Wang Yuan (Chinese, c. 1299–after 1366)",
+      "years": "约 1299–1366 年后",
+      "nationality_zh": "中国",
+      "bio_zh": "元代画家，擅山水花鸟，师法黄筌而变格，以水墨代色彩，开一代新风。"
+    },
+    "master-of-san-lucchese-italian-c-1335-1380": {
+      "name_zh": "圣卢切塞大师",
+      "name_en": "Master of San Lucchese (Italian, c. 1335–1380)",
+      "years": "约 1335–1380",
+      "nationality_zh": "意大利",
+      "bio_zh": "14 世纪意大利画家，因圣卢切塞教堂作品得名，风格融合拜占庭与哥特式。"
+    },
+    "giovanni-benedetto-castiglione-italian-1609-1664": {
+      "name_zh": "乔瓦尼·贝内代托·卡斯蒂廖内",
+      "name_en": "Giovanni Benedetto Castiglione (Italian, 1609–1664)",
+      "years": "1609–1664",
+      "nationality_zh": "意大利",
+      "bio_zh": "巴洛克时期意大利画家，擅长宗教题材与动物画，以强烈明暗对比和丰富织物表现著称。"
+    },
+    "agustin-esteve-y-marques-spanish-1753-c-1820": {
+      "name_zh": "阿古斯丁·埃斯特维",
+      "name_en": "Agustín Esteve y Marques (Spanish, 1753–c. 1820)",
+      "years": "1753–c. 1820",
+      "nationality_zh": "西班牙",
+      "bio_zh": "西班牙画家，戈雅同时代人，擅长肖像画，风格受新古典主义影响。"
+    },
+    "xu-ben-chinese-1335-1380": {
+      "name_zh": "徐贲",
+      "name_en": "Xu Ben (Chinese, 1335–1380)",
+      "years": "1335–1380",
+      "nationality_zh": "中国",
+      "bio_zh": "元末明初画家，吴门画派前驱，擅山水，师法黄公望，为广陵十友之一。"
     }
   }
 }
