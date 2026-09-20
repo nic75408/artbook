@@ -22412,6 +22412,512 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1962.157.10/1962.157.10_web.jpg",
       "ratio": 0.657
+    },
+    {
+      "id": "cma-150028",
+      "issue": "2026-09-21",
+      "t": "静物与蔬菜、鹧及水罐",
+      "a": "阿道夫·卡尔",
+      "aid": "adolphe-felix-cals-french-1810-1880",
+      "y": 1858,
+      "mv": "现实主义",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "光影",
+        "质感",
+        "现实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.242/1980.242_web.jpg",
+      "ratio": 0.812
+    },
+    {
+      "id": "cma-152829",
+      "issue": "2026-09-21",
+      "t": "猫与蝶",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "扬州画派",
+      "tags": [
+        "猫",
+        "蝴蝶",
+        "18世纪",
+        "中国",
+        "清代",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.5/1985.71.5_web.jpg",
+      "ratio": 1.561
+    },
+    {
+      "id": "cma-709408",
+      "issue": "2026-09-21",
+      "t": "《克勒奥法斯的玛丽与家族；撒罗米的玛丽与家族》",
+      "a": "汉斯·苏斯·冯·库尔姆巴赫",
+      "aid": "hans-suss-von-kulmbach-german-c-1480-1522",
+      "y": 1513,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "双联画",
+        "圣家族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.27/2026.27_web.jpg",
+      "ratio": 0.837
+    },
+    {
+      "id": "cma-164635",
+      "issue": "2026-09-21",
+      "t": "雪景梅树雉鸡图（左屏）",
+      "a": "狩野尚信",
+      "aid": "kano-naonobu-japanese-1607-1650",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "雪景",
+        "狩野派",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2006.142.1/2006.142.1_web.jpg",
+      "ratio": 0.443
+    },
+    {
+      "id": "cma-137872",
+      "issue": "2026-09-21",
+      "t": "《鹦鹉故事：第五夜》",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "狩猎"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.35.a/1962.279.35.a_web.jpg",
+      "ratio": 1.511
+    },
+    {
+      "id": "cma-152429",
+      "issue": "2026-09-21",
+      "t": "持伞美人图",
+      "a": "恋川春町",
+      "aid": "koikawa-harumasa-japanese",
+      "y": 1800,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "挂轴",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.257/1985.257_web.jpg",
+      "ratio": 3.475
+    },
+    {
+      "id": "cma-94599",
+      "issue": "2026-09-21",
+      "t": "山水图",
+      "a": "王翚",
+      "aid": "wang-hui-chinese-1632-1717",
+      "y": 1674,
+      "mv": "正统派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清初",
+        "绢本",
+        "摹古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.105/1915.105_web.jpg",
+      "ratio": 1.965
+    },
+    {
+      "id": "cma-394756",
+      "issue": "2026-09-21",
+      "t": "金牛座（出自《曼迪占星系列》）",
+      "a": "桑朱",
+      "aid": "sanju-indian-active-late-1700s-early-1800s",
+      "y": 1810,
+      "mv": "印度细密画",
+      "tags": [
+        "印度细密画",
+        "占星题材",
+        "19世纪",
+        "曼迪画派",
+        "动物题材",
+        "金粉装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.432/2020.432_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-121878",
+      "issue": "2026-09-21",
+      "t": "装饰面板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "面板"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.5/1942.2.5_web.jpg",
+      "ratio": 5.521
+    },
+    {
+      "id": "cma-173574",
+      "issue": "2026-09-21",
+      "t": "雪景山水图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "宋代院体画",
+      "tags": [
+        "山水",
+        "宋代",
+        "雪景",
+        "团扇",
+        "水墨",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.699/1915.699_web.jpg",
+      "ratio": 0.995
+    },
+    {
+      "id": "cma-94602",
+      "issue": "2026-09-21",
+      "t": "山水人物图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1777,
+      "mv": "清代山水",
+      "tags": [
+        "山水",
+        "清代",
+        "文人画",
+        "摹古",
+        "纸本设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.108/1915.108_web.jpg",
+      "ratio": 2.055
+    },
+    {
+      "id": "cma-143244",
+      "issue": "2026-09-21",
+      "t": "花鸟册页（玫瑰）",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "院体画",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "花卉",
+        "册页",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.f/1967.193.f_web.jpg",
+      "ratio": 0.723
+    },
+    {
+      "id": "cma-79585",
+      "issue": "2026-09-21",
+      "t": "山水人物图",
+      "a": "周月洞轩",
+      "aid": "shugetsu-tokan-japanese-1440-1529",
+      "y": 1500,
+      "mv": "室町水墨",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "室町时代",
+        "水墨画",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.477/2015.477_web.jpg",
+      "ratio": 1.796
+    },
+    {
+      "id": "cma-153353",
+      "issue": "2026-09-21",
+      "t": "江乡清夏图",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "清代山水",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "夏日",
+        "村落",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.5/1986.49.5_web.jpg",
+      "ratio": 1.296
+    },
+    {
+      "id": "cma-137925",
+      "issue": "2026-09-21",
+      "t": "鹦鹉故事：王子获赦回宫",
+      "a": "古吉拉特画派",
+      "aid": "gujarati-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "印度细密画",
+      "tags": [
+        "印度细密画",
+        "16世纪",
+        "宫廷叙事",
+        "手抄本插图",
+        "古吉拉特"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.59.b/1962.279.59.b_web.jpg",
+      "ratio": 1.445
+    },
+    {
+      "id": "cma-448459",
+      "issue": "2026-09-21",
+      "t": "花草图页",
+      "a": "椿椿山",
+      "aid": "tsubaki-chinzan-japanese-1801-1854",
+      "y": 1841,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "绢本",
+        "南画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.56.d/1976.56.d_web.jpg",
+      "ratio": 0.751
+    },
+    {
+      "id": "cma-156872",
+      "issue": "2026-09-21",
+      "t": "雪枝禽鸟图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1661,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "雪景",
+        "狩野派",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.80.3/1992.80.3_web.jpg",
+      "ratio": 2.564
+    },
+    {
+      "id": "cma-94600",
+      "issue": "2026-09-21",
+      "t": "宫苑图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1319,
+      "mv": "院体画",
+      "tags": [
+        "宫廷",
+        "仕女",
+        "元代",
+        "界画",
+        "绢本",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.106/1915.106_web.jpg",
+      "ratio": 2.045
+    },
+    {
+      "id": "cma-172605",
+      "issue": "2026-09-21",
+      "t": "《松桃鹿图》",
+      "a": "户田忠盈",
+      "aid": "toda-tadanaka-japanese-1761-1823",
+      "y": 1801,
+      "mv": "日本画",
+      "tags": [
+        "祥瑞",
+        "花鸟",
+        "江户时代",
+        "日本",
+        "挂轴",
+        "鹿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.86.1/2015.86.1_web.jpg",
+      "ratio": 2.452
+    },
+    {
+      "id": "cma-140435",
+      "issue": "2026-09-21",
+      "t": "俗禁图",
+      "a": "浦上玉堂",
+      "aid": "uragami-gyokudo-japanese-1745-1820",
+      "y": 1850,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18-19世纪",
+        "日本",
+        "南画",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.367/1964.367_web.jpg",
+      "ratio": 2.535
+    },
+    {
+      "id": "cma-143239",
+      "issue": "2026-09-21",
+      "t": "花鸟册页（蝙蝠、岩石与书法）",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代院体画",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "蝙蝠",
+        "书法",
+        "清代宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.a/1967.193.a_web.jpg",
+      "ratio": 0.731
+    },
+    {
+      "id": "cma-148082",
+      "issue": "2026-09-21",
+      "t": "三古图",
+      "a": "曾衍东",
+      "aid": "zeng-yandong-chinese-c-1751-1827",
+      "y": 1822,
+      "mv": "清代文人画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "中国",
+        "册页",
+        "写意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.11.f/1975.11.f_web.jpg",
+      "ratio": 0.8
+    },
+    {
+      "id": "cma-79571",
+      "issue": "2026-09-21",
+      "t": "山水图",
+      "a": "周文派画家",
+      "aid": "judo-japanese-active-16th-century",
+      "y": 1500,
+      "mv": "周文派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "水墨",
+        "立轴",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.461/2015.461_web.jpg",
+      "ratio": 2.466
+    },
+    {
+      "id": "cma-152824",
+      "issue": "2026-09-21",
+      "t": "芭蕉图",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "芭蕉",
+        "水墨",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.11/1985.71.11_web.jpg",
+      "ratio": 1.556
+    },
+    {
+      "id": "cma-448485",
+      "issue": "2026-09-21",
+      "t": "海山画册第九图",
+      "a": "海山由継",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "19-20世纪",
+        "日本",
+        "册页",
+        "南画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.j/1997.247.j_web.jpg",
+      "ratio": 0.702
+    },
+    {
+      "id": "cma-123956",
+      "issue": "2026-09-21",
+      "t": "双扇门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "单色画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.466.2.a/1944.466.2.a_web.jpg",
+      "ratio": 1.621
+    },
+    {
+      "id": "cma-448483",
+      "issue": "2026-09-21",
+      "t": "海山画册序",
+      "a": "尾崎芳次",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "明治绘画",
+      "tags": [
+        "书法",
+        "册页",
+        "19世纪",
+        "日本",
+        "水墨",
+        "明治"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.a/1997.247.a_web.jpg",
+      "ratio": 0.699
     }
   ]
 }
