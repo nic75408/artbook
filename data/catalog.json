@@ -22918,6 +22918,554 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1997.247.a/1997.247.a_web.jpg",
       "ratio": 0.699
+    },
+    {
+      "id": "cma-142546",
+      "issue": "2026-09-22",
+      "t": "克里希纳击败鹤魔巴卡苏拉",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "印度细密画",
+      "tags": [
+        "神话",
+        "18世纪",
+        "印度",
+        "宗教",
+        "细密画",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.29/1966.29_web.jpg",
+      "ratio": 1.42
+    },
+    {
+      "id": "cma-97636",
+      "issue": "2026-09-22",
+      "t": "戈斯夫人（皮草女子）",
+      "a": "卡罗琳·L·兰塞姆",
+      "aid": "caroline-l-ransom-american-1838-1910",
+      "y": 1850,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "皮毛质感",
+        "女性",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.279/1917.279_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-141186",
+      "issue": "2026-09-22",
+      "t": "古松图",
+      "a": "文徵明",
+      "aid": "wen-zhengming-chinese-1470-1559",
+      "y": 1530,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "水墨",
+        "松树",
+        "手卷",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.43/1964.43_web.jpg",
+      "ratio": 0.208
+    },
+    {
+      "id": "cma-162088",
+      "issue": "2026-09-22",
+      "t": "海浪中",
+      "a": "爱德华·H·波特哈斯特",
+      "aid": "edward-h-potthast-american-1857-1927",
+      "y": 1910,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "沙滩",
+        "印象派",
+        "休闲"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2001.41/2001.41_web.jpg",
+      "ratio": 1.593
+    },
+    {
+      "id": "cma-159231",
+      "issue": "2026-09-22",
+      "t": "皮尔逊夫人（或为莎拉·汤普森·皮尔逊）",
+      "a": "皮特·克里斯托费尔·旺德尔",
+      "aid": "pieter-christoffel-wonder-dutch-1780-1852",
+      "y": 1837,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "荷兰",
+        "女性",
+        "木板油画",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1995.47/1995.47_web.jpg",
+      "ratio": 1.298
+    },
+    {
+      "id": "cma-156183",
+      "issue": "2026-09-22",
+      "t": "《夏山图》（仿董源）",
+      "a": "黄公望",
+      "aid": "huang-gongwang-chinese-1269-1354",
+      "y": 1322,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "元代",
+        "中国",
+        "绢本",
+        "黄公望",
+        "14世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.1/1992.1_web.jpg",
+      "ratio": 2.302
+    },
+    {
+      "id": "cma-137940",
+      "issue": "2026-09-22",
+      "t": "《鹦鹉故事》第八夜：王子受难续篇",
+      "a": "古拉姆·阿里",
+      "aid": "ghulam-ali-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "莫卧儿",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.66.a/1962.279.66.a_web.jpg",
+      "ratio": 1.483
+    },
+    {
+      "id": "cma-148238",
+      "issue": "2026-09-22",
+      "t": "杂画册 第三开",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "清代",
+        "金陵八家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.3/1975.22.3_web.jpg",
+      "ratio": 0.524
+    },
+    {
+      "id": "cma-709468",
+      "issue": "2026-09-22",
+      "t": "玛丽·克莱奥法斯及其家族",
+      "a": "汉斯·苏斯·冯·库尔姆巴赫",
+      "aid": "hans-suss-von-kulmbach-german-c-1480-1522",
+      "y": 1513,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "宗教画",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "家族肖像",
+        "纽伦堡画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.27.1/2026.27.1_web.jpg",
+      "ratio": 1.657
+    },
+    {
+      "id": "cma-160946",
+      "issue": "2026-09-22",
+      "t": "《牧牛图》对屏",
+      "a": "郭敏",
+      "aid": "guo-min-chinese-mid-late-1200s",
+      "y": 1200,
+      "mv": "宋代院体",
+      "tags": [
+        "牧牛",
+        "宋代",
+        "水墨",
+        "绢本",
+        "动物",
+        "对屏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.216/1999.216_web.jpg",
+      "ratio": 0.79
+    },
+    {
+      "id": "cma-117466",
+      "issue": "2026-09-22",
+      "t": "霍利奥克山眺望牛湖",
+      "a": "维克多·德·格雷利",
+      "aid": "victor-de-grailly-french-1804-1889",
+      "y": 1840,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "哈德逊河派",
+        "写生",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.130/1938.130_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-151030",
+      "issue": "2026-09-22",
+      "t": "古诗山水册：杖策赏菊",
+      "a": "华",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "扬州画派",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "清代",
+        "菊花",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.3/1982.68.3_web.jpg",
+      "ratio": 0.818
+    },
+    {
+      "id": "cma-159232",
+      "issue": "2026-09-22",
+      "t": "查尔斯·汤普森肖像",
+      "a": "皮特·克里斯托费尔·旺德尔",
+      "aid": "pieter-christoffel-wonder-dutch-1780-1852",
+      "y": 1818,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "荷兰",
+        "男性",
+        "写实",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1995.48/1995.48_web.jpg",
+      "ratio": 1.149
+    },
+    {
+      "id": "cma-447805",
+      "issue": "2026-09-22",
+      "t": "夏山雨霁图",
+      "a": "三代清峰洋平",
+      "aid": "seifu-yohei-iii-japanese-1851-1914",
+      "y": 1903,
+      "mv": "日本画",
+      "tags": [
+        "山水",
+        "明治",
+        "日本画",
+        "水墨",
+        "雨景",
+        "19世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2022.151/2022.151_web.jpg",
+      "ratio": 3.586
+    },
+    {
+      "id": "cma-148239",
+      "issue": "2026-09-22",
+      "t": "杂画册 第四开",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "清代",
+        "金陵八家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.4/1975.22.4_web.jpg",
+      "ratio": 0.524
+    },
+    {
+      "id": "cma-170770",
+      "issue": "2026-09-22",
+      "t": "《纳乌拉斯书》诗稿页",
+      "a": "哈利卢拉·布特希坎",
+      "aid": "khalilullah-butshikan-persian-active-in-india-1596-c-1620",
+      "y": 1618,
+      "mv": "伊斯兰书法",
+      "tags": [
+        "书法",
+        "17世纪",
+        "印度",
+        "波斯",
+        "手稿",
+        "金色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.284/2013.284_web.jpg",
+      "ratio": 1.8
+    },
+    {
+      "id": "cma-160733",
+      "issue": "2026-09-22",
+      "t": "小梅图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代绘画",
+      "tags": [
+        "山水",
+        "明代",
+        "中国",
+        "绢本",
+        "宋旭",
+        "16世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.18/1998.78.18_web.jpg",
+      "ratio": 0.923
+    },
+    {
+      "id": "cma-132016",
+      "issue": "2026-09-22",
+      "t": "仿倪瓒山水",
+      "a": "王原祁",
+      "aid": "wang-yuanqi-chinese-1642-1715",
+      "y": 1707,
+      "mv": "正统派",
+      "tags": [
+        "山水",
+        "清代",
+        "仿古",
+        "纸本",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.583/1954.583_web.jpg",
+      "ratio": 1.786
+    },
+    {
+      "id": "cma-121860",
+      "issue": "2026-09-22",
+      "t": "装饰镶板画（双扇门与门楣）",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰画",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "室内装饰",
+        "建筑构件"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2/1942.2_web.jpg",
+      "ratio": 3.114
+    },
+    {
+      "id": "cma-160947",
+      "issue": "2026-09-22",
+      "t": "牧牛图",
+      "a": "郭敏",
+      "aid": "guo-min-chinese-mid-late-1200s",
+      "y": 1200,
+      "mv": "南宋院体",
+      "tags": [
+        "畜兽",
+        "南宋",
+        "中国",
+        "水墨",
+        "牧牛",
+        "13世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.216.1/1999.216.1_web.jpg",
+      "ratio": 1.621
+    },
+    {
+      "id": "cma-151033",
+      "issue": "2026-09-22",
+      "t": "庭院女红图",
+      "a": "华喦",
+      "aid": "hua-yan-chinese-1682-c-1765",
+      "y": 1745,
+      "mv": "扬州画派",
+      "tags": [
+        "仕女",
+        "清代",
+        "扬州画派",
+        "纸本设色",
+        "庭院",
+        "1745"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.68.6/1982.68.6_web.jpg",
+      "ratio": 0.811
+    },
+    {
+      "id": "cma-149073",
+      "issue": "2026-09-22",
+      "t": "听琴图",
+      "a": "唐寅",
+      "aid": "tang-yin-chinese-1470-1523",
+      "y": 1450,
+      "mv": "吴门画派",
+      "tags": [
+        "人物",
+        "明代",
+        "文人画",
+        "听琴",
+        "山水",
+        "唐寅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.199/1977.199_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-150165",
+      "issue": "2026-09-22",
+      "t": "山水图",
+      "a": "祇园南海",
+      "aid": "gion-nankai-japanese-1677-1751",
+      "y": 1725,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "江户",
+        "南画",
+        "纸本设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.81/1980.81_web.jpg",
+      "ratio": 2.302
+    },
+    {
+      "id": "cma-160735",
+      "issue": "2026-09-22",
+      "t": "乌瞻山",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "浙派",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "浙派",
+        "16世纪",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.3/1998.78.3_web.jpg",
+      "ratio": 0.921
+    },
+    {
+      "id": "cma-121863",
+      "issue": "2026-09-22",
+      "t": "双扇门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "建筑构件",
+        "木门"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.11/1942.2.11_web.jpg",
+      "ratio": 1.718
+    },
+    {
+      "id": "cma-79586",
+      "issue": "2026-09-22",
+      "t": "猿猴捉月图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "动物",
+        "17世纪",
+        "日本",
+        "江户",
+        "猿猴",
+        "狩野派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.478/2015.478_web.jpg",
+      "ratio": 4.945
+    },
+    {
+      "id": "cma-154086",
+      "issue": "2026-09-22",
+      "t": "樵夫归家图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1200,
+      "mv": "宋代山水",
+      "tags": [
+        "山水",
+        "宋代",
+        "绢本",
+        "佚名",
+        "13世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.20/1988.20_web.jpg",
+      "ratio": 2.093
+    },
+    {
+      "id": "cma-163039",
+      "issue": "2026-09-22",
+      "t": "阿波罗与缪斯女神",
+      "a": "夏尔·梅尼耶",
+      "aid": "charles-meynier-french-1768-1832",
+      "y": 1800,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "19世纪",
+        "法国",
+        "新古典",
+        "缪斯",
+        "寓言"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.6/2003.6_web.jpg",
+      "ratio": 0.298
+    },
+    {
+      "id": "cma-97189",
+      "issue": "2026-09-22",
+      "t": "有旅人的风景",
+      "a": "赫尔曼·范·斯瓦内维尔特",
+      "aid": "herman-van-swanevelt-dutch-c-1600-1655",
+      "y": 1630,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "意大利化风景",
+        "古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.823/1916.823_web.jpg",
+      "ratio": 0.785
     }
   ]
 }
