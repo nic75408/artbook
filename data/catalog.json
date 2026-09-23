@@ -23986,6 +23986,488 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1927.1323/1927.1323_web.jpg",
       "ratio": 1.081
+    },
+    {
+      "id": "cma-156125",
+      "issue": "2026-09-24",
+      "t": "针鱼",
+      "a": "中岛来章",
+      "aid": "nakajima-raisho-japanese-1796-1871",
+      "y": 1870,
+      "mv": "日本画",
+      "tags": [
+        "鱼类",
+        "19世纪",
+        "日本",
+        "纸本设色",
+        "写实",
+        "花鸟画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.56/1991.56_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-140340",
+      "issue": "2026-09-24",
+      "t": "沼泽地",
+      "a": "泰奥多尔·卢梭",
+      "aid": "theodore-rousseau-french-1812-1867",
+      "y": null,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松画派",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.290/1964.290_web.jpg",
+      "ratio": 0.646
+    },
+    {
+      "id": "cma-137981",
+      "issue": "2026-09-24",
+      "t": "《鹦鹉故事：第十夜》",
+      "a": "拉卢",
+      "aid": "lalu-indian-active-mid-1500s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷艺术",
+        "手抄本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.84.b/1962.279.84.b_web.jpg",
+      "ratio": 1.488
+    },
+    {
+      "id": "cma-173633",
+      "issue": "2026-09-24",
+      "t": "六月之日",
+      "a": "威廉·特罗斯特·理查兹",
+      "aid": "william-trost-richards-american-1833-1905",
+      "y": 1870,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "光影",
+        "自然",
+        "河流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.691/1915.691_web.jpg",
+      "ratio": 1.206
+    },
+    {
+      "id": "cma-151006",
+      "issue": "2026-09-24",
+      "t": "竹石图",
+      "a": "郑燮",
+      "aid": "zheng-xie-chinese-1693-1765",
+      "y": 1765,
+      "mv": "文人画",
+      "tags": [
+        "竹石",
+        "18世纪",
+        "中国",
+        "水墨",
+        "文人画",
+        "扬州八怪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.54/1982.54_web.jpg",
+      "ratio": 1.804
+    },
+    {
+      "id": "cma-121861",
+      "issue": "2026-09-24",
+      "t": "装饰嵌板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "嵌板"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.1/1942.2.1_web.jpg",
+      "ratio": 3.114
+    },
+    {
+      "id": "cma-152407",
+      "issue": "2026-09-24",
+      "t": "鹰",
+      "a": "藤原正義",
+      "aid": "fujiwara-masayoshi-japanese",
+      "y": 1500,
+      "mv": "日本水墨画",
+      "tags": [
+        "动物",
+        "16世纪",
+        "日本",
+        "鹰",
+        "水墨",
+        "花鸟画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.245/1985.245_web.jpg",
+      "ratio": 2.666
+    },
+    {
+      "id": "cma-147505",
+      "issue": "2026-09-24",
+      "t": "富兰克林·H·德拉诺肖像",
+      "a": "伊斯特曼·约翰逊",
+      "aid": "eastman-johnson-american-1824-1906",
+      "y": 1881,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "写实",
+        "人物",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.236/1973.236_web.jpg",
+      "ratio": 1.38
+    },
+    {
+      "id": "cma-143992",
+      "issue": "2026-09-24",
+      "t": "渡江图",
+      "a": "尚睿",
+      "aid": "shang-rui-chinese-1634",
+      "y": 1710,
+      "mv": "清代山水",
+      "tags": [
+        "山水",
+        "清代",
+        "纸本",
+        "江河",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.365/1968.365_web.jpg",
+      "ratio": 2.35
+    },
+    {
+      "id": "cma-98215",
+      "issue": "2026-09-24",
+      "t": "传统",
+      "a": "肯扬·考克斯",
+      "aid": "kenyon-cox-american-1856-1919",
+      "y": 1916,
+      "mv": "学院派",
+      "tags": [
+        "寓言",
+        "20世纪",
+        "美国",
+        "学院派",
+        "人物",
+        "古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.9/1917.9_web.jpg",
+      "ratio": 0.63
+    },
+    {
+      "id": "cma-173035",
+      "issue": "2026-09-24",
+      "t": "阿纳姆幻想景",
+      "a": "乔治·安德里斯·罗斯",
+      "aid": "george-andries-roth-dutch-1809-1887",
+      "y": 1830,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "城市景观",
+        "浪漫主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.2958/1938.2958_web.jpg",
+      "ratio": 1.309
+    },
+    {
+      "id": "cma-121875",
+      "issue": "2026-09-24",
+      "t": "装饰嵌板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "嵌板"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.2/1942.2.2_web.jpg",
+      "ratio": 3.226
+    },
+    {
+      "id": "cma-101158",
+      "issue": "2026-09-24",
+      "t": "基督",
+      "a": "肯扬·考克斯",
+      "aid": "kenyon-cox-american-1856-1919",
+      "y": 1905,
+      "mv": "学院派",
+      "tags": [
+        "宗教",
+        "20世纪",
+        "美国",
+        "基督",
+        "肖像",
+        "学院派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.150/1920.150_web.jpg",
+      "ratio": 1.335
+    },
+    {
+      "id": "cma-153351",
+      "issue": "2026-09-24",
+      "t": "山水图",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "传统山水",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "绢本",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.3/1986.49.3_web.jpg",
+      "ratio": 1.306
+    },
+    {
+      "id": "cma-125090",
+      "issue": "2026-09-24",
+      "t": "C 先生肖像",
+      "a": "马克斯·博姆",
+      "aid": "max-bohm-american-1868-1923",
+      "y": 1890,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "男性",
+        "侧面像",
+        "日常"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.70/1946.70_web.jpg",
+      "ratio": 1.3
+    },
+    {
+      "id": "cma-448482",
+      "issue": "2026-09-24",
+      "t": "柳塘渔舸",
+      "a": "海山义继",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "日本南画",
+      "tags": [
+        "山水",
+        "渔隐",
+        "柳塘",
+        "19世纪",
+        "日本",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.e/1997.247.e_web.jpg",
+      "ratio": 0.699
+    },
+    {
+      "id": "cma-136275",
+      "issue": "2026-09-24",
+      "t": "通往大海的路",
+      "a": "亨利·凯勒",
+      "aid": "henry-keller-american-born-germany-1869-1949",
+      "y": 1923,
+      "mv": "美国印象派",
+      "tags": [
+        "风景",
+        "海边",
+        "20世纪",
+        "美国",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.165/1960.165_web.jpg",
+      "ratio": 0.783
+    },
+    {
+      "id": "cma-97455",
+      "issue": "2026-09-24",
+      "t": "沉睡的诗人",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1700,
+      "mv": "日本画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "睡眠",
+        "绢本",
+        "佚名"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.103/1917.103_web.jpg",
+      "ratio": 1.618
+    },
+    {
+      "id": "cma-109354",
+      "issue": "2026-09-24",
+      "t": "夏日午后",
+      "a": "R. 韦·史密斯",
+      "aid": "r-way-smith-american-1840-1900",
+      "y": 1882,
+      "mv": "美国风景画",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "森林",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.5/1927.5_web.jpg",
+      "ratio": 1.532
+    },
+    {
+      "id": "cma-155800",
+      "issue": "2026-09-24",
+      "t": "梅花图",
+      "a": "狩野永纳",
+      "aid": "kano-eino-japanese-1631-1697",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "日本",
+        "梅花",
+        "狩野派",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.123/1991.123_web.jpg",
+      "ratio": 2.045
+    },
+    {
+      "id": "cma-148202",
+      "issue": "2026-09-24",
+      "t": "基尔白雾",
+      "a": "格蕾丝·V·凯利",
+      "aid": "grace-v-kelly-american-1877-1950",
+      "y": 1929,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "雾气",
+        "爱尔兰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.1975/1929.1975_web.jpg",
+      "ratio": 0.799
+    },
+    {
+      "id": "cma-97502",
+      "issue": "2026-09-24",
+      "t": "宫廷侍臣米尔扎·穆伊兹肖像",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1690,
+      "mv": "波斯细密画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "波斯",
+        "宫廷",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.1067/1917.1067_web.jpg",
+      "ratio": 1.648
+    },
+    {
+      "id": "cma-448488",
+      "issue": "2026-09-24",
+      "t": "海山画册第十图",
+      "a": "海山义次",
+      "aid": "yoshitsugu-haizan-japanese-1846-1915",
+      "y": 1850,
+      "mv": "日本南画",
+      "tags": [
+        "山水",
+        "水墨",
+        "19世纪",
+        "日本",
+        "册页",
+        "近代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.247.k/1997.247.k_web.jpg",
+      "ratio": 0.7
+    },
+    {
+      "id": "cma-136610",
+      "issue": "2026-09-24",
+      "t": "威廉·利特·斯通上校",
+      "a": "威廉·佩奇",
+      "aid": "william-page-american-1811-1885",
+      "y": 1839,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "男性",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.171/1961.171_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "cma-86117",
+      "issue": "2026-09-24",
+      "t": "人物风景图（双幅之一）",
+      "a": "秋月等宽",
+      "aid": "shugetsu-tokan-japanese-1440-1529",
+      "y": 1500,
+      "mv": "室町水墨",
+      "tags": [
+        "风景",
+        "16世纪",
+        "日本",
+        "水墨",
+        "室町时代",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.477.2/2015.477.2_web.jpg",
+      "ratio": 3.571
+    },
+    {
+      "id": "cma-96334",
+      "issue": "2026-09-24",
+      "t": "汤姆普金斯·马特森肖像",
+      "a": "查尔斯·洛林·埃利奥特",
+      "aid": "charles-loring-elliott-american-1812-1868",
+      "y": 1840,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "男性",
+        "早期"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.2062/1916.2062_web.jpg",
+      "ratio": 1.21
     }
   ]
 }
