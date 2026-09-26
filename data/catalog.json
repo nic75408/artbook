@@ -25477,6 +25477,469 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1980.4/1980.4_web.jpg",
       "ratio": 0.925
+    },
+    {
+      "id": "cma-150023",
+      "issue": "2026-09-27",
+      "t": "阿里翁在海马上",
+      "a": "威廉·阿道夫·布格罗",
+      "aid": "william-adolphe-bouguereau-french-1825-1905",
+      "y": 1855,
+      "mv": "学院派",
+      "tags": [
+        "神话",
+        "19世纪",
+        "法国",
+        "学院派",
+        "海洋"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.238.1/1980.238.1_web.jpg",
+      "ratio": 0.642
+    },
+    {
+      "id": "cma-145148",
+      "issue": "2026-09-27",
+      "t": "基督被出卖",
+      "a": "雅各布·约尔丹斯",
+      "aid": "jacob-jordaens-flemish-1593-1678",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "戏剧性",
+        "夜间场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.32/1970.32_web.jpg",
+      "ratio": 0.904
+    },
+    {
+      "id": "cma-121261",
+      "issue": "2026-09-27",
+      "t": "《小提琴手》",
+      "a": "詹姆斯·麦克尼尔·惠斯勒",
+      "aid": "james-mcneill-whistler-american-1834-1903",
+      "y": 1890,
+      "mv": "唯美主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "音乐",
+        "光影",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.1133/1942.1133_web.jpg",
+      "ratio": 1.516
+    },
+    {
+      "id": "cma-150507",
+      "issue": "2026-09-27",
+      "t": "安德烈·贝纳克",
+      "a": "爱德华·维亚尔",
+      "aid": "edouard-vuillard-french-1868-1940",
+      "y": 1936,
+      "mv": "纳比派",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "法国",
+        "室内",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.63/1981.63_web.jpg",
+      "ratio": 1.283
+    },
+    {
+      "id": "cma-170839",
+      "issue": "2026-09-27",
+      "t": "穆拉德·巴赫什肖像",
+      "a": "巴尔昌德",
+      "aid": "balchand-indian-active-1595-c-1650",
+      "y": 1667,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.327/2013.327_web.jpg",
+      "ratio": 1.071
+    },
+    {
+      "id": "cma-141166",
+      "issue": "2026-09-27",
+      "t": "阿姆斯特丹绅士运河",
+      "a": "扬·韦南茨",
+      "aid": "jan-wijnants-dutch-1635-1684",
+      "y": 1661,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "运河",
+        "黄金时代",
+        "城市景观"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.419/1964.419_web.jpg",
+      "ratio": 0.817
+    },
+    {
+      "id": "cma-148810",
+      "issue": "2026-09-27",
+      "t": "破墨山水图",
+      "a": "周月东堪",
+      "aid": "shugetsu-tokan-japanese-1440-1529",
+      "y": 1510,
+      "mv": "室町时代",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "水墨",
+        "禅意",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.59/1976.59_web.jpg",
+      "ratio": 1.868
+    },
+    {
+      "id": "cma-128877",
+      "issue": "2026-09-27",
+      "t": "春",
+      "a": "让 - 巴蒂斯特·帕泰",
+      "aid": "jean-baptiste-pater-french-1695-1736",
+      "y": 1720,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "春日",
+        "园林"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.486/1951.486_web.jpg",
+      "ratio": 1.337
+    },
+    {
+      "id": "cma-160948",
+      "issue": "2026-09-27",
+      "t": "牧童与水牛",
+      "a": "郭敏",
+      "aid": "guo-min-chinese-mid-late-1200s",
+      "y": 1200,
+      "mv": "院体画",
+      "tags": [
+        "动物",
+        "13世纪",
+        "中国",
+        "宋朝",
+        "牧童",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.216.2/1999.216.2_web.jpg",
+      "ratio": 1.585
+    },
+    {
+      "id": "cma-150694",
+      "issue": "2026-09-27",
+      "t": "西尔维亚·高斯",
+      "a": "哈罗德·吉尔曼",
+      "aid": "harold-gilman-british-1876-1919",
+      "y": 1913,
+      "mv": "后印象派",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "英国",
+        "后印象派",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.125/1982.125_web.jpg",
+      "ratio": 1.18
+    },
+    {
+      "id": "cma-142659",
+      "issue": "2026-09-27",
+      "t": "圣让迪多的贝加弗里悬崖",
+      "a": "马克西姆·莫夫拉",
+      "aid": "maxime-maufra-french-1861-1918",
+      "y": 1895,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "海岸",
+        "后印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.382/1966.382_web.jpg",
+      "ratio": 0.813
+    },
+    {
+      "id": "cma-128841",
+      "issue": "2026-09-27",
+      "t": "基督受难祭坛画",
+      "a": "施莱格尔祭坛画大师",
+      "aid": "master-of-the-schlagl-altarpiece-german",
+      "y": 1440,
+      "mv": "晚期哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "祭坛画",
+        "受难图",
+        "金底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.453.c/1951.453.c_web.jpg",
+      "ratio": 1.047
+    },
+    {
+      "id": "cma-160678",
+      "issue": "2026-09-27",
+      "t": "樱树猿猴图",
+      "a": "森祖仙",
+      "aid": "mori-sosen-japanese-1747-1821",
+      "y": 1810,
+      "mv": "日本南画",
+      "tags": [
+        "动物",
+        "19世纪",
+        "日本",
+        "猴子",
+        "自然",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.425/1998.425_web.jpg",
+      "ratio": 0.997
+    },
+    {
+      "id": "cma-150038",
+      "issue": "2026-09-27",
+      "t": "叙尔河畔谢托维厄",
+      "a": "安托万 - 克劳德·庞图斯 - 西尼耶",
+      "aid": "antoine-claude-ponthus-cinier-french-1812-1885",
+      "y": 1848,
+      "mv": "写实主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "废墟",
+        "乡村"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.251/1980.251_web.jpg",
+      "ratio": 0.716
+    },
+    {
+      "id": "cma-117672",
+      "issue": "2026-09-27",
+      "t": "《八千颂般若波罗蜜多经》手稿第一叶（正面）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "帕拉王朝艺术",
+      "tags": [
+        "佛教",
+        "手稿",
+        "12世纪",
+        "印度",
+        "宗教",
+        "贝叶经"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.301.1.a/1938.301.1.a_web.jpg",
+      "ratio": 0.149
+    },
+    {
+      "id": "cma-121866",
+      "issue": "2026-09-27",
+      "t": "双叶门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "路易十六风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.12/1942.2.12_web.jpg",
+      "ratio": 1.775
+    },
+    {
+      "id": "cma-117715",
+      "issue": "2026-09-27",
+      "t": "通往大海的旧路",
+      "a": "威廉·梅里特·切斯",
+      "aid": "william-merritt-chase-american-1849-1916",
+      "y": 1893,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "海边",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.333/1938.333_web.jpg",
+      "ratio": 0.799
+    },
+    {
+      "id": "cma-149803",
+      "issue": "2026-09-27",
+      "t": "金翅雀圣母",
+      "a": "内里奥·迪·巴托洛梅奥·德·兰迪",
+      "aid": "neroccio-de-landi-italian-1447-1500",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "锡耶纳画派",
+        "圣母",
+        "金底"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.101/1980.101_web.jpg",
+      "ratio": 1.276
+    },
+    {
+      "id": "cma-160739",
+      "issue": "2026-09-27",
+      "t": "黄龙洞图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代山水",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "册页",
+        "浙江"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.7/1998.78.7_web.jpg",
+      "ratio": 0.922
+    },
+    {
+      "id": "cma-152430",
+      "issue": "2026-09-27",
+      "t": "女子手戏图",
+      "a": "长谷川保正",
+      "aid": "hasegawa-yasumasa-japanese",
+      "y": 1760,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "江户时代",
+        "风俗",
+        "京都",
+        "游戏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.258/1985.258_web.jpg",
+      "ratio": 0.716
+    },
+    {
+      "id": "cma-137206",
+      "issue": "2026-09-27",
+      "t": "仿各家山水册",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "新安派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清朝",
+        "册页",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.3/1962.157.3_web.jpg",
+      "ratio": 0.661
+    },
+    {
+      "id": "cma-457341",
+      "issue": "2026-09-27",
+      "t": "巴黎女公民的奉献",
+      "a": "约瑟夫 - 伯努瓦·苏韦",
+      "aid": "joseph-benoit-suvee-french-1743-1807",
+      "y": 1794,
+      "mv": "新古典主义",
+      "tags": [
+        "历史画",
+        "法国大革命",
+        "18世纪",
+        "寓言",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2022.40/2022.40_web.jpg",
+      "ratio": 0.858
+    },
+    {
+      "id": "cma-133087",
+      "issue": "2026-09-27",
+      "t": "《华严经·入法界品》棕榈叶写本第 348 页",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1050,
+      "mv": "帕拉风格",
+      "tags": [
+        "佛教艺术",
+        "11世纪",
+        "印度",
+        "手稿",
+        "棕榈叶"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.49.7/1955.49.7_web.jpg",
+      "ratio": 0.213
+    },
+    {
+      "id": "cma-172782",
+      "issue": "2026-09-27",
+      "t": "稽山真境",
+      "a": "赵宜和",
+      "aid": "unknown",
+      "y": 1750,
+      "mv": "文人画",
+      "tags": [
+        "风景",
+        "清代",
+        "中国",
+        "溪流",
+        "山脉",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.216/1915.216_web.jpg",
+      "ratio": 1.424
+    },
+    {
+      "id": "cma-161024",
+      "issue": "2026-09-27",
+      "t": "书画册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "文人画",
+      "tags": [
+        "书法",
+        "行书",
+        "清代",
+        "中国",
+        "文人画",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.k/1999.260.k_web.jpg",
+      "ratio": 0.689
     }
   ]
 }
