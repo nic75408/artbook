@@ -25940,6 +25940,530 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.260.k/1999.260.k_web.jpg",
       "ratio": 0.689
+    },
+    {
+      "id": "cma-168501",
+      "issue": "2026-09-28",
+      "t": "玛丽·萨马里肖像",
+      "a": "朱尔·巴斯蒂安 - 勒帕热",
+      "aid": "jules-bastien-lepage-french-1848-1884",
+      "y": 1881,
+      "mv": "自然主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "自然主义",
+        "女演员"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2010.25/2010.25_web.jpg",
+      "ratio": 1.164
+    },
+    {
+      "id": "cma-152435",
+      "issue": "2026-09-28",
+      "t": "列子观鸟图",
+      "a": "葛饰北斋",
+      "aid": "katsushika-hokusai-japanese-1760-1849",
+      "y": 1774,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "扇面",
+        "道家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.263/1985.263_web.jpg",
+      "ratio": 0.507
+    },
+    {
+      "id": "cma-128368",
+      "issue": "2026-09-28",
+      "t": "秋",
+      "a": "阿道夫·蒙蒂切利",
+      "aid": "adolphe-monticelli-french-1824-1886",
+      "y": 1868,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "厚涂",
+        "木板油画",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.328/1951.328_web.jpg",
+      "ratio": 0.66
+    },
+    {
+      "id": "cma-150498",
+      "issue": "2026-09-28",
+      "t": "龙眠山庄图",
+      "a": "李公麟",
+      "aid": "li-gonglin-chinese-c-1049-1106",
+      "y": 1150,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "绢本设色",
+        "文人画",
+        "李公麟"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.57.1/1981.57.1_web.jpg",
+      "ratio": 0.66
+    },
+    {
+      "id": "cma-124169",
+      "issue": "2026-09-28",
+      "t": "比克拉马吉特王公肖像",
+      "a": "拉尔·钱德",
+      "aid": "lal-chand-indian",
+      "y": 1620,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷艺术",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1945.170/1945.170_web.jpg",
+      "ratio": 1.575
+    },
+    {
+      "id": "cma-140428",
+      "issue": "2026-09-28",
+      "t": "灰与银：夜曲",
+      "a": "沃尔特·格里夫斯",
+      "aid": "walter-greaves-british-1841-1930",
+      "y": 1890,
+      "mv": "色调主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "英国",
+        "夜景",
+        "色调主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.361/1964.361_web.jpg",
+      "ratio": 0.829
+    },
+    {
+      "id": "cma-150075",
+      "issue": "2026-09-28",
+      "t": "坐着的非洲女子",
+      "a": "亨利·雷尼奥",
+      "aid": "henri-regnault-french-1843-1871",
+      "y": 1860,
+      "mv": "东方主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "东方主义",
+        "人体",
+        "色彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.280/1980.280_web.jpg",
+      "ratio": 1.212
+    },
+    {
+      "id": "cma-166780",
+      "issue": "2026-09-28",
+      "t": "《安条克与斯特拉托尼斯草图》",
+      "a": "庞佩奥·巴托尼",
+      "aid": "pompeo-batoni-italian-1708-1787",
+      "y": 1746,
+      "mv": "洛可可",
+      "tags": [
+        "历史画",
+        "18世纪",
+        "意大利",
+        "草图",
+        "洛可可",
+        "宫廷题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.69/2008.69_web.jpg",
+      "ratio": 0.785
+    },
+    {
+      "id": "cma-152431",
+      "issue": "2026-09-28",
+      "t": "诹访湖",
+      "a": "歌川广重",
+      "aid": "utagawa-hiroshige-japanese-1797-1858",
+      "y": 1832,
+      "mv": "浮世绘",
+      "tags": [
+        "风景",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.259/1985.259_web.jpg",
+      "ratio": 2.711
+    },
+    {
+      "id": "cma-173657",
+      "issue": "2026-09-28",
+      "t": "新英格兰的早晨",
+      "a": "詹姆斯·麦克杜格尔·哈特",
+      "aid": "james-mcdougal-hart-american-born-scotland-1828-1901",
+      "y": 1873,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "油画",
+        "田园"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.694/1915.694_web.jpg",
+      "ratio": 0.585
+    },
+    {
+      "id": "cma-314113",
+      "issue": "2026-09-28",
+      "t": "穆楚昆达王入甘达马丹山得道图",
+      "a": "法图",
+      "aid": "fattu-indian",
+      "y": 1760,
+      "mv": "巴斯奥利画派",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "细密画",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.83/2018.83_web.jpg",
+      "ratio": 0.753
+    },
+    {
+      "id": "cma-125943",
+      "issue": "2026-09-28",
+      "t": "园艺",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1725,
+      "mv": "洛可可",
+      "tags": [
+        "寓言",
+        "装饰画",
+        "18世纪",
+        "法国",
+        "田园",
+        "洛可可"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.176.2/1948.176.2_web.jpg",
+      "ratio": 4.356
+    },
+    {
+      "id": "cma-155799",
+      "issue": "2026-09-28",
+      "t": "舞乐舞者",
+      "a": "神坂雪佳",
+      "aid": "kamisaka-sekka-japanese-1866-1942",
+      "y": 1916,
+      "mv": "琳派",
+      "tags": [
+        "人物",
+        "20世纪",
+        "日本",
+        "琳派",
+        "装饰",
+        "舞乐"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.122/1991.122_web.jpg",
+      "ratio": 3.02
+    },
+    {
+      "id": "cma-161018",
+      "issue": "2026-09-28",
+      "t": "行书庐山诗册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州八怪",
+      "tags": [
+        "书法",
+        "册页",
+        "18世纪",
+        "中国",
+        "清代",
+        "行书"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.e/1999.260.e_web.jpg",
+      "ratio": 0.678
+    },
+    {
+      "id": "cma-148344",
+      "issue": "2026-09-28",
+      "t": "山水册页：第三开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "清代山水",
+      "tags": [
+        "山水",
+        "清代",
+        "纸本设色",
+        "17世纪",
+        "中国",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.3/1975.64.3_web.jpg",
+      "ratio": 0.922
+    },
+    {
+      "id": "cma-97326",
+      "issue": "2026-09-28",
+      "t": "普瓦捷战役",
+      "a": "夏尔·德·施特本",
+      "aid": "baron-charles-de-steuben-french",
+      "y": 1830,
+      "mv": "浪漫主义",
+      "tags": [
+        "历史画",
+        "战争",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "草稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.957/1916.957_web.jpg",
+      "ratio": 0.733
+    },
+    {
+      "id": "cma-101359",
+      "issue": "2026-09-28",
+      "t": "贾汉吉尔皇帝骑象肖像",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1725,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "印度",
+        "莫卧儿",
+        "动物",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.1970/1920.1970_web.jpg",
+      "ratio": 1.312
+    },
+    {
+      "id": "cma-97138",
+      "issue": "2026-09-28",
+      "t": "圣母与圣子",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1400,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "欧洲",
+        "中世纪",
+        "蛋彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.778/1916.778_web.jpg",
+      "ratio": 1.307
+    },
+    {
+      "id": "cma-159551",
+      "issue": "2026-09-28",
+      "t": "《东方之梦》草图",
+      "a": "让·勒孔特·迪·努伊",
+      "aid": "jean-lecomte-du-nouy-french-1842-1923",
+      "y": 1904,
+      "mv": "东方主义",
+      "tags": [
+        "草图",
+        "夜景",
+        "19世纪",
+        "法国",
+        "东方主义",
+        "神话"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.300/1996.300_web.jpg",
+      "ratio": 0.651
+    },
+    {
+      "id": "cma-156867",
+      "issue": "2026-09-28",
+      "t": "《源仲国访小野小町》",
+      "a": "清原雪信",
+      "aid": "kiyohara-yukinobu-japanese-1643-1682",
+      "y": 1600,
+      "mv": "大和绘",
+      "tags": [
+        "叙事",
+        "17世纪",
+        "日本",
+        "江户",
+        "大和绘",
+        "山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.77.3/1992.77.3_web.jpg",
+      "ratio": 2.261
+    },
+    {
+      "id": "cma-170876",
+      "issue": "2026-09-28",
+      "t": "圣殿中的耶稣",
+      "a": "米尔·卡兰·汗",
+      "aid": "mir-kalan-khan-indian-c-1730-1775",
+      "y": 1760,
+      "mv": "莫卧儿画派",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "基督教题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.346/2013.346_web.jpg",
+      "ratio": 1.61
+    },
+    {
+      "id": "cma-153345",
+      "issue": "2026-09-28",
+      "t": "山水册",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "清代绘画",
+      "tags": [
+        "山水",
+        "册页",
+        "18世纪",
+        "中国",
+        "清代",
+        "织锦"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49/1986.49_web.jpg",
+      "ratio": 1.331
+    },
+    {
+      "id": "cma-145375",
+      "issue": "2026-09-28",
+      "t": "春景花鸟图",
+      "a": "狩野元信",
+      "aid": "kano-motonobu-japanese-c-1476-1559",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "狩野派",
+        "水墨设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.6.3/1970.6.3_web.jpg",
+      "ratio": 1.302
+    },
+    {
+      "id": "cma-120877",
+      "issue": "2026-09-28",
+      "t": "参议员托马斯·哈特·本顿",
+      "a": "马修·哈里斯·茹埃特",
+      "aid": "matthew-harris-jouett-american-1787-88-1827",
+      "y": 1820,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "政治人物",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1941.597/1941.597_web.jpg",
+      "ratio": 1.232
+    },
+    {
+      "id": "cma-147828",
+      "issue": "2026-09-28",
+      "t": "报春花",
+      "a": "玛丽·苏珊·柯林斯",
+      "aid": "mary-susan-collins-american-1880-1967",
+      "y": 1929,
+      "mv": "现代主义",
+      "tags": [
+        "静物",
+        "花卉",
+        "20世纪",
+        "美国",
+        "现代主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.1974/1929.1974_web.jpg",
+      "ratio": 1.119
+    },
+    {
+      "id": "cma-152821",
+      "issue": "2026-09-28",
+      "t": "闽中斋画册",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "清代",
+        "文人画",
+        "册页",
+        "书法",
+        "18世纪",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71/1985.71_web.jpg",
+      "ratio": 1.576
+    },
+    {
+      "id": "cma-145720",
+      "issue": "2026-09-28",
+      "t": "《卡尔帕经与卡拉卡查里亚故事》残页",
+      "a": "德瓦钱德拉",
+      "aid": "devachandra-indian",
+      "y": 1279,
+      "mv": "耆那教艺术",
+      "tags": [
+        "手稿",
+        "13世纪",
+        "印度",
+        "耆那教",
+        "棕榈叶",
+        "宗教文本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.122.a/1971.122.a_web.jpg",
+      "ratio": 0.189
+    },
+    {
+      "id": "cma-96335",
+      "issue": "2026-09-28",
+      "t": "约翰·W·弗朗西斯博士",
+      "a": "丹尼尔·亨廷顿",
+      "aid": "daniel-huntington-american-1816-1906",
+      "y": 1857,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "学院派",
+        "男性肖像",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.2063/1916.2063_web.jpg",
+      "ratio": 1.202
     }
   ]
 }
