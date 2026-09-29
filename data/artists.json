@@ -5824,6 +5824,104 @@
       "years": "1867–1944",
       "nationality_zh": "法国",
       "bio_zh": "法国纳比派代表画家，擅长田园牧歌题材，与维亚尔、博纳尔同为朱利安学院校友。"
+    },
+    "thomas-moran-american-born-england-1837-1926": {
+      "name_zh": "托马斯·莫兰",
+      "name_en": "Thomas Moran (American, born England, 1837–1926)",
+      "years": "1837–1926",
+      "nationality_zh": "美国",
+      "bio_zh": "美籍英裔画家，哈德逊河画派代表，以描绘美国西部景观著称，推动国家公园建立。"
+    },
+    "joseph-paelinck-belgian-1781-1839": {
+      "name_zh": "约瑟夫·帕兰克",
+      "name_en": "Joseph Paelinck (Belgian, 1781–1839)",
+      "years": "1781–1839",
+      "nationality_zh": "比利时",
+      "bio_zh": "比利时新古典主义画家，大卫学生。擅长历史画与肖像，风格严谨平滑，十九世纪活跃。"
+    },
+    "giovanni-battista-pittoni-italian-1687-1767": {
+      "name_zh": "乔瓦尼·巴蒂斯塔·皮托尼",
+      "name_en": "Giovanni Battista Pittoni (Italian, 1687–1767)",
+      "years": "1687–1767",
+      "nationality_zh": "意大利",
+      "bio_zh": "18 世纪威尼斯画派代表，擅长宗教历史画，色彩柔和，构图动态，影响后世浪漫主义。"
+    },
+    "juran-chinese-active-960-985": {
+      "name_zh": "巨然",
+      "name_en": "Juran (Chinese, active 960–985)",
+      "years": "活跃于 960–985",
+      "nationality_zh": "中国",
+      "bio_zh": "五代宋初画僧，师法董源，南宗山水代表。擅披麻皴写江南土山，风格淡墨轻岚，影响深远"
+    },
+    "gwen-john-british-1876-1939": {
+      "name_zh": "格温·约翰",
+      "name_en": "Gwen John (British, 1876–1939)",
+      "years": "1876–1939",
+      "nationality_zh": "英国",
+      "bio_zh": "英国女画家，惠斯勒学生，以静谧室内画与肖像闻名，风格内省克制。"
+    },
+    "johann-konig-german-1586-1642": {
+      "name_zh": "约翰·柯尼希",
+      "name_en": "Johann König (German, 1586–1642)",
+      "years": "1586–1642",
+      "nationality_zh": "德国",
+      "bio_zh": "德国巴洛克画家，擅长宗教题材，作品色彩鲜艳，细节精致，活跃于纽伦堡地区。"
+    },
+    "alexandre-pau-de-st-martin-french": {
+      "name_zh": "亚历山大·保·德·圣马丁",
+      "name_en": "Alexandre Pau de St. Martin (French)",
+      "years": "不详",
+      "nationality_zh": "法国",
+      "bio_zh": "法国画家，活跃于 19 世纪初，擅长描绘巴黎郊外风景，作品多见于博物馆收藏。"
+    },
+    "puming-xuechuang-chinese-active-before-1274-after-1329": {
+      "name_zh": "普明",
+      "name_en": "Puming (Xuechuang) (Chinese, active before 1274–after 1329)",
+      "years": "活动于 1274–1329 年间",
+      "nationality_zh": "中国",
+      "bio_zh": "元代画僧，擅墨竹，笔法简劲，传世作品稀少，藏于各大博物馆。"
+    },
+    "rudolf-lehmann-german-1819-1905": {
+      "name_zh": "鲁道夫·莱曼",
+      "name_en": "Rudolf Lehmann (German, 1819–1905)",
+      "years": "1819–1905",
+      "nationality_zh": "德国",
+      "bio_zh": "德国画家，擅长肖像与历史题材，活跃于 19 世纪中后期，作品以严谨的写实技法著称。"
+    },
+    "choryusai-japanese": {
+      "name_zh": "长隆斋",
+      "name_en": "Choryusai (Japanese)",
+      "years": "15 世纪末–16 世纪初",
+      "nationality_zh": "日本",
+      "bio_zh": "日本室町时代画家，擅水墨设色人物，题材多涉中国典故，风格融合汉画与本土审美。"
+    },
+    "chae-yongshin-korean-1850-1941": {
+      "name_zh": "蔡龙信",
+      "name_en": "Chae Yongshin (Korean, 1850–1941)",
+      "years": "1850–1941",
+      "nationality_zh": "韩国",
+      "bio_zh": "朝鲜王朝末期宫廷画家，擅长人物肖像与风俗画，作品反映近代韩国绘画转型风格。"
+    },
+    "unpo-shuku-japanese-active-1400s": {
+      "name_zh": "云坡秀空",
+      "name_en": "Unpo Shūkū (Japanese, active 1400s)",
+      "years": "15 世纪",
+      "nationality_zh": "日本",
+      "bio_zh": "日本室町时代禅僧画家，师承画僧周文，擅长水墨人物与山水，笔法简练洒脱。"
+    },
+    "gaetano-gandolfi-italian-1734-1802": {
+      "name_zh": "加埃塔诺·甘多尔菲",
+      "name_en": "Gaetano Gandolfi (Italian, 1734–1802)",
+      "years": "1734–1802",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利画家，18 世纪博洛尼亚画派代表。擅长宗教题材，以柔和的粉彩式油画技法著称。"
+    },
+    "chen-juzhong-chinese-active-c-1201-1207": {
+      "name_zh": "陈居中",
+      "name_en": "Chen Juzhong (Chinese, active c. 1201–1207)",
+      "years": "活跃于 1201–1207 年",
+      "nationality_zh": "中国",
+      "bio_zh": "陈居中，南宋画院画家，擅画人马与边境题材，笔法细腻，叙事性强。"
     }
   }
 }
