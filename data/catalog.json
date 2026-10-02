@@ -28565,6 +28565,448 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1915.686/1915.686_web.jpg",
       "ratio": 1.42
+    },
+    {
+      "id": "cma-129218",
+      "issue": "2026-10-03",
+      "t": "圣母与圣子",
+      "a": "利波·梅米",
+      "aid": "lippo-memmi-italian",
+      "y": 1350,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教画",
+        "14世纪",
+        "意大利",
+        "哥特式",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.110/1952.110_web.jpg",
+      "ratio": 1.586
+    },
+    {
+      "id": "cma-96262",
+      "issue": "2026-10-03",
+      "t": "让·特福德·大卫与玛丽·西卡德·大卫肖像",
+      "a": "托马斯·萨利",
+      "aid": "thomas-sully-american-born-england-1783-1872",
+      "y": 1813,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "双人像",
+        "军装",
+        "裙装"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1979/1916.1979_web.jpg",
+      "ratio": 0.632
+    },
+    {
+      "id": "cma-136298",
+      "issue": "2026-10-03",
+      "t": "《普拉杜姆纳与萨姆瓦拉棍棒之战》（出自《大巴索赫利薄伽梵往世书》）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1760,
+      "mv": "巴索赫利画派",
+      "tags": [
+        "印度细密画",
+        "18世纪",
+        "神话",
+        "战斗场景",
+        "喜马拉雅山麓"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.184/1960.184_web.jpg",
+      "ratio": 0.737
+    },
+    {
+      "id": "cma-146117",
+      "issue": "2026-10-03",
+      "t": "克里希纳与牧牛人返回布拉杰（出自《薄伽梵往世书》）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1830,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "印度",
+        "神话",
+        "叙事画",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.301/1971.301_web.jpg",
+      "ratio": 0.691
+    },
+    {
+      "id": "cma-137224",
+      "issue": "2026-10-03",
+      "t": "圣马可广场，威尼斯",
+      "a": "贝尔纳多·贝洛托",
+      "aid": "bernardo-bellotto-italian-1721-1780",
+      "y": 1740,
+      "mv": "威尼斯画派",
+      "tags": [
+        "景观画",
+        "威尼斯",
+        "18世纪",
+        "建筑",
+        "布面油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.169/1962.169_web.jpg",
+      "ratio": 0.571
+    },
+    {
+      "id": "cma-144756",
+      "issue": "2026-10-03",
+      "t": "勒罗尔夫人",
+      "a": "亨利·方丹 - 拉图尔",
+      "aid": "henri-fantin-latour-french-1836-1904",
+      "y": 1882,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "女性",
+        "室内",
+        "写实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.54/1969.54_web.jpg",
+      "ratio": 1.353
+    },
+    {
+      "id": "cma-143462",
+      "issue": "2026-10-03",
+      "t": "水墨花卉图",
+      "a": "赵中",
+      "aid": "zhao-zhong-chinese-second-half-of-the-1300s",
+      "y": 1361,
+      "mv": "元代文人画",
+      "tags": [
+        "花卉",
+        "水墨",
+        "元代",
+        "手卷",
+        "植物",
+        "写意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.36/1967.36_web.jpg",
+      "ratio": 0.212
+    },
+    {
+      "id": "cma-141693",
+      "issue": "2026-10-03",
+      "t": "天都峰旭日图",
+      "a": "丁云鹏",
+      "aid": "ding-yunpeng-chinese-1547-c-1628",
+      "y": 1614,
+      "mv": "明代皖派",
+      "tags": [
+        "山水",
+        "明代",
+        "安徽",
+        "立轴",
+        "青绿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.28/1965.28_web.jpg",
+      "ratio": 3.435
+    },
+    {
+      "id": "cma-149943",
+      "issue": "2026-10-03",
+      "t": "大空武左衛門肖像",
+      "a": "渡辺華山",
+      "aid": "watanabe-kazan-japanese-1793-1841",
+      "y": 1827,
+      "mv": "南画",
+      "tags": [
+        "肖像",
+        "武士",
+        "19世纪",
+        "日本",
+        "江户",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.177/1980.177_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-166510",
+      "issue": "2026-10-03",
+      "t": "静物：小龙虾、牡蛎与水果",
+      "a": "科尼利斯·德·海姆",
+      "aid": "cornelis-de-heem-flemish-1631-1695",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "静物",
+        "佛兰德斯",
+        "17世纪",
+        "海鲜",
+        "虚空派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2008.290/2008.290_web.jpg",
+      "ratio": 0.777
+    },
+    {
+      "id": "cma-122158",
+      "issue": "2026-10-03",
+      "t": "女子肖像",
+      "a": "科内耶·德·里昂",
+      "aid": "corneille-de-lyon-netherlandish-1500-10-1574",
+      "y": 1540,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "尼德兰",
+        "木板油画",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.48/1942.48_web.jpg",
+      "ratio": 1.173
+    },
+    {
+      "id": "cma-118159",
+      "issue": "2026-10-03",
+      "t": "玩螃蟹的浴女",
+      "a": "皮埃尔 - 奥古斯特·雷诺阿",
+      "aid": "pierre-auguste-renoir-french-1841-1919",
+      "y": 1897,
+      "mv": "印象派",
+      "tags": [
+        "浴女",
+        "海景",
+        "19世纪",
+        "法国",
+        "人体"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.269/1939.269_web.jpg",
+      "ratio": 0.831
+    },
+    {
+      "id": "cma-126773",
+      "issue": "2026-10-03",
+      "t": "沉思的女子",
+      "a": "让 - 巴蒂斯特·卡米耶·柯罗",
+      "aid": "jean-baptiste-camille-corot-french-1796-1875",
+      "y": 1868,
+      "mv": "巴比松画派",
+      "tags": [
+        "肖像",
+        "女性",
+        "19世纪",
+        "法国",
+        "现实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1949.189/1949.189_web.jpg",
+      "ratio": 1.382
+    },
+    {
+      "id": "cma-137125",
+      "issue": "2026-10-03",
+      "t": "徐洗移家图",
+      "a": "崔子忠",
+      "aid": "cui-zizhong-chinese-1574-1644",
+      "y": 1644,
+      "mv": "明代人物画",
+      "tags": [
+        "人物",
+        "山水",
+        "17世纪",
+        "中国",
+        "明代",
+        "迁徙"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.90/1961.90_web.jpg",
+      "ratio": 2.571
+    },
+    {
+      "id": "cma-138688",
+      "issue": "2026-10-03",
+      "t": "赵孟頫写心经换茶图",
+      "a": "仇英",
+      "aid": "qiu-ying-chinese-1494-1552",
+      "y": 1542,
+      "mv": "吴门画派",
+      "tags": [
+        "人物",
+        "山水",
+        "明代",
+        "文人雅集",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.102/1963.102_web.jpg",
+      "ratio": 0.166
+    },
+    {
+      "id": "cma-139824",
+      "issue": "2026-10-03",
+      "t": "货郎图",
+      "a": "李嵩",
+      "aid": "li-song-chinese-active-c-1190-c-1230",
+      "y": 1212,
+      "mv": "南宋院体画",
+      "tags": [
+        "风俗画",
+        "宋代",
+        "儿童",
+        "市井",
+        "团扇"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.582/1963.582_web.jpg",
+      "ratio": 0.944
+    },
+    {
+      "id": "cma-97136",
+      "issue": "2026-10-03",
+      "t": "十字架受难图",
+      "a": "安德烈亚·达·菲伦泽",
+      "aid": "andrea-da-firenze-italian-1379",
+      "y": 1360,
+      "mv": "哥特式",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "意大利",
+        "蛋彩画",
+        "金箔"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.776/1916.776_web.jpg",
+      "ratio": 2.588
+    },
+    {
+      "id": "cma-153382",
+      "issue": "2026-10-03",
+      "t": "露台之上",
+      "a": "欧内斯特·梅索尼耶",
+      "aid": "ernest-meissonier-french-1815-1891",
+      "y": 1867,
+      "mv": "学院派",
+      "tags": [
+        "历史风俗",
+        "19世纪",
+        "法国",
+        "光影",
+        "男性肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.68/1986.68_web.jpg",
+      "ratio": 1.532
+    },
+    {
+      "id": "cma-106094",
+      "issue": "2026-10-03",
+      "t": "圣母与圣子受圣徒朝拜",
+      "a": "萨诺·迪·彼得罗",
+      "aid": "sano-di-pietro-italian-1406-1481",
+      "y": 1400,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "意大利",
+        "金箔",
+        "锡耶纳画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.199/1924.199_web.jpg",
+      "ratio": 1.95
+    },
+    {
+      "id": "cma-320778",
+      "issue": "2026-10-03",
+      "t": "黎明时的瓦兹河岸",
+      "a": "路易·哈耶",
+      "aid": "louis-hayet-french-1864-1940",
+      "y": 1888,
+      "mv": "新印象派",
+      "tags": [
+        "风景",
+        "河流",
+        "19世纪",
+        "法国",
+        "新印象派",
+        "瓦兹河"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.18/2019.18_web.jpg",
+      "ratio": 0.714
+    },
+    {
+      "id": "cma-122350",
+      "issue": "2026-10-03",
+      "t": "老塔克文进入罗马",
+      "a": "雅各布·德尔·塞拉约",
+      "aid": "jacopo-del-sellaio-italian-c-1441-1493",
+      "y": 1470,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "历史画",
+        "15世纪",
+        "意大利",
+        "叙事性",
+        "骑兵",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.646/1942.646_web.jpg",
+      "ratio": 0.255
+    },
+    {
+      "id": "cma-132840",
+      "issue": "2026-10-03",
+      "t": "四季山水图册·页 G",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "新安派",
+      "tags": [
+        "山水",
+        "明末清初",
+        "安徽",
+        "册页",
+        "松树",
+        "隐逸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.7/1955.302.7_web.jpg",
+      "ratio": 1.317
+    },
+    {
+      "id": "cma-132841",
+      "issue": "2026-10-03",
+      "t": "四季山水图册之冬景",
+      "a": "萧云从",
+      "aid": "xiao-yuncong-chinese-1596-1673",
+      "y": 1668,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "册页",
+        "明末清初",
+        "姑熟画派",
+        "冬景",
+        "纸本设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.302.8/1955.302.8_web.jpg",
+      "ratio": 1.319
+    },
+    {
+      "id": "cma-144689",
+      "issue": "2026-10-03",
+      "t": "乾隆皇帝朝服像",
+      "a": "郎世宁",
+      "aid": "giuseppe-castiglione-italian-1688-1766",
+      "y": 1736,
+      "mv": "清代宫廷画",
+      "tags": [
+        "肖像",
+        "清代",
+        "宫廷",
+        "中西合璧",
+        "帝王像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1969.31/1969.31_web.jpg",
+      "ratio": 0.676
     }
   ]
 }
