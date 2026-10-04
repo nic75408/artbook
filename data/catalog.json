@@ -29549,6 +29549,493 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1975.64.7/1975.64.7_web.jpg",
       "ratio": 0.915
+    },
+    {
+      "id": "cma-136510",
+      "issue": "2026-10-05",
+      "t": "睡莲",
+      "a": "克劳德·莫奈",
+      "aid": "claude-monet-french-1840-1926",
+      "y": 1915,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "印象派",
+        "20世纪",
+        "法国",
+        "花卉",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.81/1960.81_web.jpg",
+      "ratio": 0.466
+    },
+    {
+      "id": "cma-135185",
+      "issue": "2026-10-05",
+      "t": "圣维克多山",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne-french-1839-1906",
+      "y": 1904,
+      "mv": "后印象派",
+      "tags": [
+        "风景",
+        "后印象派",
+        "20世纪",
+        "法国",
+        "山景",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_web.jpg",
+      "ratio": 0.793
+    },
+    {
+      "id": "cma-122349",
+      "issue": "2026-10-05",
+      "t": "阿玛贝尔与玛丽·杰米玛·约克肖像",
+      "a": "约书亚·雷诺兹",
+      "aid": "joshua-reynolds-british-1723-1792",
+      "y": 1761,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "洛可可",
+        "油画",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.645/1942.645_web.jpg",
+      "ratio": 1.149
+    },
+    {
+      "id": "cma-122340",
+      "issue": "2026-10-05",
+      "t": "丘陵乡村的旅人",
+      "a": "阿尔伯特·库普",
+      "aid": "aelbert-cuyp-dutch-1620-1691",
+      "y": 1650,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "黄金时代",
+        "油画",
+        "光线"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.637/1942.637_web.jpg",
+      "ratio": 0.646
+    },
+    {
+      "id": "cma-128459",
+      "issue": "2026-10-05",
+      "t": "伊势物语 住吉海滩图",
+      "a": "俵屋宗达",
+      "aid": "tawaraya-sotatsu-japanese-c-1570-c-1640",
+      "y": 1634,
+      "mv": "琳派",
+      "tags": [
+        "日本画",
+        "17世纪",
+        "叙事",
+        "金地",
+        "伊势物语"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.398/1951.398_web.jpg",
+      "ratio": 1.172
+    },
+    {
+      "id": "cma-140078",
+      "issue": "2026-10-05",
+      "t": "罗马坎帕尼亚的拉切瓦拉",
+      "a": "让 - 巴蒂斯特 - 卡米耶·柯罗",
+      "aid": "jean-baptiste-camille-corot-french-1796-1875",
+      "y": 1830,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "意大利"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.91/1963.91_web.jpg",
+      "ratio": 0.717
+    },
+    {
+      "id": "cma-95287",
+      "issue": "2026-10-05",
+      "t": "夏",
+      "a": "皮埃尔·皮维·德·夏凡纳",
+      "aid": "pierre-puvis-de-chavannes-french-1824-1898",
+      "y": 1891,
+      "mv": "象征主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "象征主义",
+        "壁画",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1056/1916.1056_web.jpg",
+      "ratio": 0.641
+    },
+    {
+      "id": "cma-113202",
+      "issue": "2026-10-05",
+      "t": "圣家族与施洗者圣约翰及圣玛格丽特",
+      "a": "菲利皮诺·利皮",
+      "aid": "filippino-lippi-italian-c-1457-1504",
+      "y": 1488,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "早期文艺复兴",
+        "蛋彩",
+        "圆形画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.227/1932.227_web.jpg",
+      "ratio": 1.0
+    },
+    {
+      "id": "cma-163456",
+      "issue": "2026-10-05",
+      "t": "波士顿港，远景城市",
+      "a": "菲茨·亨利·莱恩",
+      "aid": "fitz-henry-lane-american-1804-1865",
+      "y": 1846,
+      "mv": "光色主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "光色主义",
+        "油画",
+        "港口"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2004.35/2004.35_web.jpg",
+      "ratio": 0.617
+    },
+    {
+      "id": "cma-92844",
+      "issue": "2026-10-05",
+      "t": "贝隆河上的游艇祝福仪式",
+      "a": "莫里斯·丹尼斯",
+      "aid": "maurice-denis-french-1870-1943",
+      "y": 1899,
+      "mv": "纳比派",
+      "tags": [
+        "风景",
+        "宗教仪式",
+        "1899",
+        "法国",
+        "纳比派",
+        "布面油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.110/2020.110_web.jpg",
+      "ratio": 0.936
+    },
+    {
+      "id": "cma-97166",
+      "issue": "2026-10-05",
+      "t": "圣母与圣子及天使",
+      "a": "菲利波·利皮",
+      "aid": "fra-filippo-lippi-italian-c-1406-1469",
+      "y": 1460,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "圣母像",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.802/1916.802_web.jpg",
+      "ratio": 1.711
+    },
+    {
+      "id": "cma-169614",
+      "issue": "2026-10-05",
+      "t": "哈维斯特劳湾",
+      "a": "桑福德·罗宾逊·吉福德",
+      "aid": "sanford-robinson-gifford-american-1823-1880",
+      "y": 1868,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "海景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2011.43/2011.43_web.jpg",
+      "ratio": 0.471
+    },
+    {
+      "id": "cma-136922",
+      "issue": "2026-10-05",
+      "t": "圣母与圣子及圣徒",
+      "a": "乌戈利诺·迪·内里奥",
+      "aid": "ugolino-di-nerio-italian",
+      "y": 1320,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "14世纪",
+        "意大利",
+        "祭坛画",
+        "金箔",
+        "哥特式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.40/1961.40_web.jpg",
+      "ratio": 0.641
+    },
+    {
+      "id": "cma-84370",
+      "issue": "2026-10-05",
+      "t": "小酒馆",
+      "a": "费利克斯·瓦洛东",
+      "aid": "felix-vallotton-swiss-french-1865-1925",
+      "y": 1895,
+      "mv": "纳比派",
+      "tags": [
+        "室内",
+        "19世纪",
+        "瑞士",
+        "现代主义",
+        "油画",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.114/2020.114_web.jpg",
+      "ratio": 0.813
+    },
+    {
+      "id": "cma-157217",
+      "issue": "2026-10-05",
+      "t": "慈善",
+      "a": "亚伯拉罕·布洛马特",
+      "aid": "abraham-bloemaert-dutch-1566-1651",
+      "y": 1590,
+      "mv": "风格主义",
+      "tags": [
+        "宗教寓言",
+        "16世纪",
+        "荷兰",
+        "肖像",
+        "母子"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1994.10/1994.10_web.jpg",
+      "ratio": 1.242
+    },
+    {
+      "id": "cma-151223",
+      "issue": "2026-10-05",
+      "t": "山峡秋色",
+      "a": "藤本铁石",
+      "aid": "fujimoto-tesseki-japanese-1816-1863",
+      "y": 1862,
+      "mv": "南画",
+      "tags": [
+        "风景",
+        "19世纪",
+        "日本",
+        "南画",
+        "水墨",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.112/1983.112_web.jpg",
+      "ratio": 2.138
+    },
+    {
+      "id": "cma-149421",
+      "issue": "2026-10-05",
+      "t": "林间入口处的农场",
+      "a": "罗莎·博纳尔",
+      "aid": "rosa-bonheur-french-1822-1899",
+      "y": 1860,
+      "mv": "现实主义",
+      "tags": [
+        "风景",
+        "建筑",
+        "19世纪",
+        "法国",
+        "现实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.73/1978.73_web.jpg",
+      "ratio": 0.691
+    },
+    {
+      "id": "cma-143776",
+      "issue": "2026-10-05",
+      "t": "巫峡云涛",
+      "a": "谢时臣",
+      "aid": "xie-shichen-chinese-1487-after-1567",
+      "y": 1547,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "水墨",
+        "长江",
+        "立轴",
+        "吴门画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.213/1968.213_web.jpg",
+      "ratio": 2.65
+    },
+    {
+      "id": "cma-129300",
+      "issue": "2026-10-05",
+      "t": "乔治三世",
+      "a": "本杰明·韦斯特",
+      "aid": "benjamin-west-american-born-the-thirteen-colonies-1738-1820",
+      "y": 1783,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国皇室",
+        "全身像",
+        "历史画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.17/1952.17_web.jpg",
+      "ratio": 1.25
+    },
+    {
+      "id": "cma-141476",
+      "issue": "2026-10-05",
+      "t": "维也纳条约签署时的让 - 加布里埃尔·杜·泰尔肖像",
+      "a": "雅克·安德烈·约瑟夫·阿韦德",
+      "aid": "jacques-andre-joseph-aved-french-1702-1766",
+      "y": 1738,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "外交",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.89/1964.89_web.jpg",
+      "ratio": 1.362
+    },
+    {
+      "id": "cma-142473",
+      "issue": "2026-10-05",
+      "t": "圣母与圣子及圣徒",
+      "a": "贝林吉耶罗",
+      "aid": "berlinghiero-italian-before-1242",
+      "y": 1230,
+      "mv": "中世纪艺术",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "意大利",
+        "中世纪",
+        "蛋彩",
+        "圣像画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.237.a/1966.237.a_web.jpg",
+      "ratio": 1.576
+    },
+    {
+      "id": "cma-148960",
+      "issue": "2026-10-05",
+      "t": "山坡上的树木与溪流",
+      "a": "贾斯珀·弗朗西斯·克罗普西",
+      "aid": "jasper-f-cropsey-american-1823-1900",
+      "y": 1853,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "油画",
+        "自然研究"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.118/1977.118_web.jpg",
+      "ratio": 1.417
+    },
+    {
+      "id": "cma-149106",
+      "issue": "2026-10-05",
+      "t": "女巫场景：白昼",
+      "a": "萨尔瓦多·罗萨",
+      "aid": "salvator-rosa-italian-1615-1673",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "巫术",
+        "奇幻",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "圆形画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.37.2/1977.37.2_web.jpg",
+      "ratio": 0.994
+    },
+    {
+      "id": "cma-149684",
+      "issue": "2026-10-05",
+      "t": "兴安九日雅集图",
+      "a": "方士庶",
+      "aid": "fang-shishu-chinese-1693-1751",
+      "y": 1743,
+      "mv": "清代文人画",
+      "tags": [
+        "雅集",
+        "清代",
+        "山水人物",
+        "绢本",
+        "18世纪",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.72/1979.72_web.jpg",
+      "ratio": 0.162
+    },
+    {
+      "id": "cma-79580",
+      "issue": "2026-10-05",
+      "t": "山水楼阁图屏",
+      "a": "云谷等益",
+      "aid": "unkoku-toeki-japanese-1591-1644",
+      "y": 1600,
+      "mv": "汉画",
+      "tags": [
+        "风景",
+        "17世纪",
+        "日本",
+        "汉画",
+        "水墨",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.471/2015.471_web.jpg",
+      "ratio": 0.466
+    },
+    {
+      "id": "cma-79568",
+      "issue": "2026-10-05",
+      "t": "竹雀图",
+      "a": "志堅禅道",
+      "aid": "shiken-saido-japanese-1486-1581",
+      "y": 1500,
+      "mv": "禅画",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "水墨",
+        "禅画",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.457/2015.457_web.jpg",
+      "ratio": 0.749
     }
   ]
 }
