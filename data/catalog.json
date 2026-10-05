@@ -30036,6 +30036,564 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2015.457/2015.457_web.jpg",
       "ratio": 0.749
+    },
+    {
+      "id": "cma-135336",
+      "issue": "2026-10-06",
+      "t": "贝尔特·莫里索与手筒",
+      "a": "爱德华·马奈",
+      "aid": "edouard-manet-french-1832-1883",
+      "y": 1871,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg",
+      "ratio": 1.24
+    },
+    {
+      "id": "cma-147020",
+      "issue": "2026-10-06",
+      "t": "参孙",
+      "a": "瓦伦丁·德·布洛涅",
+      "aid": "valentin-de-boulogne-french-1591-1632",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教题材",
+        "17世纪",
+        "法国",
+        "巴洛克",
+        "卡拉瓦乔主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.50/1972.50_web.jpg",
+      "ratio": 1.318
+    },
+    {
+      "id": "cma-143278",
+      "issue": "2026-10-06",
+      "t": "红黄蓝构成",
+      "a": "皮特·蒙德里安",
+      "aid": "piet-mondrian-dutch-1872-1944",
+      "y": 1927,
+      "mv": "风格派",
+      "tags": [
+        "抽象",
+        "20世纪",
+        "荷兰",
+        "几何",
+        "色彩构成",
+        "风格派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.215/1967.215_web.jpg",
+      "ratio": 1.015
+    },
+    {
+      "id": "cma-136509",
+      "issue": "2026-10-06",
+      "t": "银酒壶、火腿与水果",
+      "a": "亚伯拉罕·范·贝耶伦",
+      "aid": "abraham-van-beyeren-dutch-1620-21-1690",
+      "y": 1660,
+      "mv": "巴洛克",
+      "tags": [
+        "静物",
+        "17世纪",
+        "荷兰",
+        "质感",
+        "金色调",
+        "巴洛克"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.80/1960.80_web.jpg",
+      "ratio": 1.202
+    },
+    {
+      "id": "cma-95272",
+      "issue": "2026-10-06",
+      "t": "昂蒂布的园丁之家",
+      "a": "克劳德·莫奈",
+      "aid": "claude-monet-french-1840-1926",
+      "y": 1888,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "户外光",
+        "地中海"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1044/1916.1044_web.jpg",
+      "ratio": 0.711
+    },
+    {
+      "id": "cma-163581",
+      "issue": "2026-10-06",
+      "t": "穆罕默德沙面前庭院中两头大象搏斗",
+      "a": "奈恩苏克",
+      "aid": "nainsukh-indian-1710-1778",
+      "y": 1730,
+      "mv": "印度细密画",
+      "tags": [
+        "动物",
+        "18世纪",
+        "印度",
+        "宫廷",
+        "动态",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2005.1.a/2005.1.a_web.jpg",
+      "ratio": 1.471
+    },
+    {
+      "id": "cma-141168",
+      "issue": "2026-10-06",
+      "t": "阿尔卑斯全景，丹杜米迪山",
+      "a": "居斯塔夫·库尔贝",
+      "aid": "gustave-courbet-french-1819-1877",
+      "y": 1877,
+      "mv": "现实主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "阿尔卑斯",
+        "晚年作品"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.420/1964.420_web.jpg",
+      "ratio": 0.718
+    },
+    {
+      "id": "cma-153531",
+      "issue": "2026-10-06",
+      "t": "比卡内尔王公拉伊·辛格肖像",
+      "a": "努尔·穆罕默德",
+      "aid": "nur-muhammad-indian-active-c-1580-1630",
+      "y": 1590,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "细密画",
+        "手稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.1100/1987.1100_web.jpg",
+      "ratio": 1.378
+    },
+    {
+      "id": "cma-122345",
+      "issue": "2026-10-06",
+      "t": "林中小屋",
+      "a": "梅因德尔特·霍贝玛",
+      "aid": "meindert-hobbema-dutch-1638-1709",
+      "y": 1662,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "森林",
+        "纵深",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.641/1942.641_web.jpg",
+      "ratio": 0.757
+    },
+    {
+      "id": "cma-137195",
+      "issue": "2026-10-06",
+      "t": "埃及逃亡途中的休息",
+      "a": "克劳德·洛兰",
+      "aid": "claude-lorrain-french-1604-1682",
+      "y": 1640,
+      "mv": "古典主义",
+      "tags": [
+        "风景",
+        "17世纪",
+        "法国",
+        "古典主义",
+        "宗教题材",
+        "理想化景观"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.151/1962.151_web.jpg",
+      "ratio": 1.339
+    },
+    {
+      "id": "cma-159742",
+      "issue": "2026-10-06",
+      "t": "春山游骑图",
+      "a": "池大雅",
+      "aid": "ike-taiga-japanese-1723-1776",
+      "y": 1700,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "文人画",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.114/1997.114_web.jpg",
+      "ratio": 2.332
+    },
+    {
+      "id": "cma-147479",
+      "issue": "2026-10-06",
+      "t": "潘与叙任克斯",
+      "a": "让 - 弗朗索瓦·德·特洛伊",
+      "aid": "jean-francois-de-troy-french-1679-1752",
+      "y": 1720,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.212/1973.212_web.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "cma-160470",
+      "issue": "2026-10-06",
+      "t": "《夏夕納涼圖》",
+      "a": "上垣方龍",
+      "aid": "kamigaki-horyu-japanese-dates-unknown",
+      "y": 1741,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "日本",
+        "江户时代",
+        "风俗画",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.290/1998.290_web.jpg",
+      "ratio": 2.406
+    },
+    {
+      "id": "cma-145999",
+      "issue": "2026-10-06",
+      "t": "乔治·皮特一世男爵肖像",
+      "a": "托马斯·庚斯博罗",
+      "aid": "thomas-gainsborough-british-1727-1788",
+      "y": 1769,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "贵族",
+        "全身像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.2/1971.2_web.jpg",
+      "ratio": 1.523
+    },
+    {
+      "id": "cma-170804",
+      "issue": "2026-10-06",
+      "t": "《战书》火祭诞生图",
+      "a": "比拉尔·哈布希",
+      "aid": "bilal-habshi-probably-ethiopian-active-late-1500s",
+      "y": 1598,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "宗教叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿宫廷",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.305/2013.305_web.jpg",
+      "ratio": 1.927
+    },
+    {
+      "id": "cma-153406",
+      "issue": "2026-10-06",
+      "t": "青年圣塞巴斯蒂安肖像",
+      "a": "马尔科·多焦诺",
+      "aid": "marco-d-oggiono-italian-1460-1524",
+      "y": 1480,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "圣人"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.9/1986.9_web.jpg",
+      "ratio": 1.261
+    },
+    {
+      "id": "cma-136471",
+      "issue": "2026-10-06",
+      "t": "树下湿婆",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1780,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "神祇",
+        "自然",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.48/1960.48_web.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "cma-140148",
+      "issue": "2026-10-06",
+      "t": "三联画双联板：大天使米迦勒与圣安东尼",
+      "a": "菲利波·利皮",
+      "aid": "fra-filippo-lippi-italian-c-1406-1469",
+      "y": 1458,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "三联画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.150/1964.150_web.jpg",
+      "ratio": 1.068
+    },
+    {
+      "id": "cma-152443",
+      "issue": "2026-10-06",
+      "t": "春日舞乐图",
+      "a": "菱川师宣",
+      "aid": "hishikawa-moronobu-japanese-c-1618-1694",
+      "y": 1600,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "日本",
+        "浮世绘",
+        "舞蹈",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.270/1985.270_web.jpg",
+      "ratio": 0.593
+    },
+    {
+      "id": "cma-79579",
+      "issue": "2026-10-06",
+      "t": "山水图",
+      "a": "狩野成秀",
+      "aid": "narihide-japanese-active-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "水墨",
+        "挂轴",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.470/2015.470_web.jpg",
+      "ratio": 2.804
+    },
+    {
+      "id": "cma-128394",
+      "issue": "2026-10-06",
+      "t": "女子肖像",
+      "a": "阿梅代奥·莫迪利亚尼",
+      "aid": "amedeo-modigliani-italian-1884-1920",
+      "y": 1917,
+      "mv": "巴黎画派",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "意大利",
+        "现代主义",
+        "线条"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.358/1951.358_web.jpg",
+      "ratio": 1.347
+    },
+    {
+      "id": "cma-153776",
+      "issue": "2026-10-06",
+      "t": "风俗人物三联图",
+      "a": "武部湘朝",
+      "aid": "takebe-socho-japanese-1760-1814",
+      "y": 1816,
+      "mv": "江户绘画",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "日本",
+        "人物",
+        "三联幅",
+        "动物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.72/1987.72_web.jpg",
+      "ratio": 0.812
+    },
+    {
+      "id": "cma-130163",
+      "issue": "2026-10-06",
+      "t": "戴头巾的年轻女子",
+      "a": "雅克 - 路易·大卫",
+      "aid": "jacques-louis-david-french-1748-1825",
+      "y": 1780,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "头巾",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.542/1952.542_web.jpg",
+      "ratio": 1.195
+    },
+    {
+      "id": "cma-79588",
+      "issue": "2026-10-06",
+      "t": "文人访山寺图",
+      "a": "狩野秀赖",
+      "aid": "kano-hidemasa-japanese-active-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "纸本淡彩",
+        "安土桃山时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.480/2015.480_web.jpg",
+      "ratio": 1.357
+    },
+    {
+      "id": "cma-160887",
+      "issue": "2026-10-06",
+      "t": "篆书《乐志论》",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代书法",
+      "tags": [
+        "书法",
+        "篆书",
+        "19世纪",
+        "中国",
+        "文人艺术",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.1/1999.174.1_web.jpg",
+      "ratio": 3.896
+    },
+    {
+      "id": "cma-153777",
+      "issue": "2026-10-06",
+      "t": "风俗人物图",
+      "a": "武部梭長",
+      "aid": "takebe-socho-japanese-1760-1814",
+      "y": 1816,
+      "mv": "日本文人画",
+      "tags": [
+        "人物",
+        "江户时代",
+        "日本",
+        "风俗",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.72.1/1987.72.1_web.jpg",
+      "ratio": 2.542
+    },
+    {
+      "id": "cma-160888",
+      "issue": "2026-10-06",
+      "t": "篆书论幸福",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代碑学",
+      "tags": [
+        "书法",
+        "篆书",
+        "19世纪",
+        "中国",
+        "纸本",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.2/1999.174.2_web.jpg",
+      "ratio": 3.947
+    },
+    {
+      "id": "cma-86125",
+      "issue": "2026-10-06",
+      "t": "寒山",
+      "a": "式部照忠",
+      "aid": "shikibu-terutada-japanese-active-mid-1500s",
+      "y": 1500,
+      "mv": "室町水墨",
+      "tags": [
+        "人物",
+        "16世纪",
+        "日本",
+        "禅宗",
+        "水墨",
+        "扇面"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.591/2015.591_web.jpg",
+      "ratio": 0.537
+    },
+    {
+      "id": "cma-141285",
+      "issue": "2026-10-06",
+      "t": "乌梅德·辛格狩猎狮子",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1787,
+      "mv": "拉杰普特绘画",
+      "tags": [
+        "狩猎",
+        "18世纪",
+        "印度",
+        "宫廷",
+        "狮子",
+        "线描"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.51/1964.51_web.jpg",
+      "ratio": 0.747
+    },
+    {
+      "id": "cma-543981",
+      "issue": "2026-10-06",
+      "t": "达顿家族在格洛斯特郡舍伯恩公园客厅",
+      "a": "约翰·佐法尼",
+      "aid": "johann-zoffany-german-1733-1810",
+      "y": 1772,
+      "mv": "洛可可",
+      "tags": [
+        "群像",
+        "18世纪",
+        "英国",
+        "室内",
+        "家族",
+        "洛可可"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.122/2023.122_web.jpg",
+      "ratio": 0.797
     }
   ]
 }
