@@ -30594,6 +30594,451 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2023.122/2023.122_web.jpg",
       "ratio": 0.797
+    },
+    {
+      "id": "cma-149029",
+      "issue": "2026-10-07",
+      "t": "罗马自画像",
+      "a": "奥拉斯·韦尔内",
+      "aid": "horace-vernet-french-1789-1863",
+      "y": 1832,
+      "mv": "浪漫主义",
+      "tags": [
+        "自画像",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "罗马"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.171/1977.171_web.jpg",
+      "ratio": 1.192
+    },
+    {
+      "id": "cma-170784",
+      "issue": "2026-10-07",
+      "t": "山水猎鹰图",
+      "a": "阿卜杜勒·萨马德",
+      "aid": "abd-al-samad-persian-c-1510-1600",
+      "y": 1629,
+      "mv": "波斯细密画",
+      "tags": [
+        "狩猎",
+        "16世纪",
+        "波斯",
+        "细密画",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.292.a/2013.292.a_web.jpg",
+      "ratio": 1.565
+    },
+    {
+      "id": "cma-140149",
+      "issue": "2026-10-07",
+      "t": "三联画侧翼：大天使米迦勒",
+      "a": "菲利波·利皮",
+      "aid": "fra-filippo-lippi-italian-c-1406-1469",
+      "y": 1458,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "天使",
+        "三联画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.150.1/1964.150.1_web.jpg",
+      "ratio": 1.856
+    },
+    {
+      "id": "cma-128072",
+      "issue": "2026-10-07",
+      "t": "阅读",
+      "a": "贝尔特·莫里索",
+      "aid": "berthe-morisot-french-1841-1895",
+      "y": 1873,
+      "mv": "印象派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "法国",
+        "印象派",
+        "女性",
+        "户外"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg",
+      "ratio": 0.639
+    },
+    {
+      "id": "cma-143477",
+      "issue": "2026-10-07",
+      "t": "白山的十月一日",
+      "a": "约翰·弗雷德里克·肯塞特",
+      "aid": "john-frederick-kensett-american-1816-1872",
+      "y": 1854,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "光色主义",
+        "秋季"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.5/1967.5_web.jpg",
+      "ratio": 0.648
+    },
+    {
+      "id": "cma-137372",
+      "issue": "2026-10-07",
+      "t": "伊斯法罕国王之子闻乐而动（《鹦鹉故事》第十三夜）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷",
+        "音乐"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.105.a/1962.279.105.a_web.jpg",
+      "ratio": 1.538
+    },
+    {
+      "id": "cma-124090",
+      "issue": "2026-10-07",
+      "t": "施洗者约翰被送往撒迦利亚处",
+      "a": "弗朗切斯科·格拉纳奇",
+      "aid": "francesco-granacci-italian-1469-1543",
+      "y": 1510,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "佛罗伦萨",
+        "木板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.91/1944.91_web.jpg",
+      "ratio": 2.338
+    },
+    {
+      "id": "cma-156420",
+      "issue": "2026-10-07",
+      "t": "赫尔墨斯命令卡吕普索释放奥德修斯",
+      "a": "杰拉德·德·莱雷西",
+      "aid": "gerard-de-lairesse-flemish-1641-1711",
+      "y": 1670,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "叙事画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.2/1992.2_web.jpg",
+      "ratio": 0.816
+    },
+    {
+      "id": "cma-130391",
+      "issue": "2026-10-07",
+      "t": "春天的花",
+      "a": "克劳德·莫奈",
+      "aid": "claude-monet-french-1840-1926",
+      "y": 1864,
+      "mv": "印象派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "印象派",
+        "早期作品"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1953.155/1953.155_web.jpg",
+      "ratio": 1.314
+    },
+    {
+      "id": "cma-143237",
+      "issue": "2026-10-07",
+      "t": "牡丹图",
+      "a": "恽寿平",
+      "aid": "yun-shouping-chinese-1633-1690",
+      "y": 1685,
+      "mv": "清初画派",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "中国",
+        "没骨画",
+        "清代",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.192/1967.192_web.jpg",
+      "ratio": 1.63
+    },
+    {
+      "id": "cma-125236",
+      "issue": "2026-10-07",
+      "t": "明尼苏达佩平湖景",
+      "a": "罗伯特·邓肯森",
+      "aid": "robert-s-duncanson-american-1821-1872",
+      "y": 1862,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "湖泊",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.198/1947.198_web.jpg",
+      "ratio": 0.547
+    },
+    {
+      "id": "cma-149652",
+      "issue": "2026-10-07",
+      "t": "四艺图",
+      "a": "狩野松栄",
+      "aid": "kano-shoei-japanese-1519-1592",
+      "y": 1550,
+      "mv": "狩野派",
+      "tags": [
+        "文人雅集",
+        "屏风画",
+        "16世纪",
+        "日本",
+        "水墨画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.46/1979.46_web.jpg",
+      "ratio": 0.928
+    },
+    {
+      "id": "cma-159488",
+      "issue": "2026-10-07",
+      "t": "三位一体",
+      "a": "亨德里克·范·巴伦",
+      "aid": "hendrik-van-balen-flemish-1575-1632",
+      "y": 1620,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "三位一体",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.26/1996.26_web.jpg",
+      "ratio": 1.251
+    },
+    {
+      "id": "cma-149653",
+      "issue": "2026-10-07",
+      "t": "四艺图",
+      "a": "狩野松荣",
+      "aid": "kano-shoei-japanese-1519-1592",
+      "y": 1550,
+      "mv": "狩野派",
+      "tags": [
+        "人物",
+        "16世纪",
+        "日本",
+        "狩野派",
+        "屏风",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.46.1/1979.46.1_web.jpg",
+      "ratio": 0.46
+    },
+    {
+      "id": "cma-137460",
+      "issue": "2026-10-07",
+      "t": "鹦鹉故事：求婚者的争吵",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "手抄本插画",
+        "16世纪",
+        "印度",
+        "莫卧儿",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.147.a/1962.279.147.a_web.jpg",
+      "ratio": 1.417
+    },
+    {
+      "id": "cma-151340",
+      "issue": "2026-10-07",
+      "t": "《诗仙堂诗稿集图》",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1700,
+      "mv": "四条派",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "南画",
+        "文人画",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.188/1983.188_web.jpg",
+      "ratio": 3.75
+    },
+    {
+      "id": "cma-108809",
+      "issue": "2026-10-07",
+      "t": "林间",
+      "a": "埃米尔·卡尔森",
+      "aid": "emil-carlsen-american-born-denmark-1848-1932",
+      "y": 1910,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "森林",
+        "20世纪",
+        "美国",
+        "色调主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.488/1926.488_web.jpg",
+      "ratio": 1.146
+    },
+    {
+      "id": "cma-151540",
+      "issue": "2026-10-07",
+      "t": "听琴图",
+      "a": "刘松年",
+      "aid": "liu-songnian-chinese-c-1150-after-1225",
+      "y": 1187,
+      "mv": "南宋院体",
+      "tags": [
+        "人物",
+        "山水",
+        "宋代",
+        "音乐",
+        "绢本",
+        "团扇"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.85/1983.85_web.jpg",
+      "ratio": 0.96
+    },
+    {
+      "id": "cma-162295",
+      "issue": "2026-10-07",
+      "t": "俄狄浦斯在科罗诺斯",
+      "a": "富尔克兰·让·哈里特",
+      "aid": "fulchran-jean-harriet-french-1778-1805",
+      "y": 1798,
+      "mv": "新古典主义",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "悲剧",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2002.3/2002.3_web.jpg",
+      "ratio": 1.167
+    },
+    {
+      "id": "cma-148850",
+      "issue": "2026-10-07",
+      "t": "女子肖像，或为圣塞孔多修道院初学修女",
+      "a": "雅科梅托·韦内齐亚诺",
+      "aid": "jacometto-veneziano-italian-1497",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "宗教服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.9/1976.9_web.jpg",
+      "ratio": 1.42
+    },
+    {
+      "id": "cma-137590",
+      "issue": "2026-10-07",
+      "t": "鹦鹉故事：鹦鹉向胡贾斯塔讲话",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1560,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "细密画",
+        "手抄本插图",
+        "16世纪",
+        "印度",
+        "伊斯兰艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.208.a/1962.279.208.a_web.jpg",
+      "ratio": 1.51
+    },
+    {
+      "id": "cma-121946",
+      "issue": "2026-10-07",
+      "t": "勒内夫夫人肖像",
+      "a": "彼得·莱利",
+      "aid": "peter-lely-british-1618-1680",
+      "y": 1657,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "英国",
+        "巴洛克",
+        "女性",
+        "丝绸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.247/1942.247_web.jpg",
+      "ratio": 1.254
+    },
+    {
+      "id": "cma-139532",
+      "issue": "2026-10-07",
+      "t": "《基督献殿》草图（维也纳圣乌尔里希教堂）",
+      "a": "弗朗茨·安东·毛尔伯特施",
+      "aid": "franz-anton-maulbertsch-austrian-1724-1796",
+      "y": 1750,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "草图",
+        "18世纪",
+        "奥地利",
+        "巴洛克"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.326/1963.326_web.jpg",
+      "ratio": 1.329
+    },
+    {
+      "id": "cma-143274",
+      "issue": "2026-10-07",
+      "t": "五祖再来图",
+      "a": "因陀罗",
+      "aid": "yintuoluo-chinese-c-1285-c-1355",
+      "y": 1300,
+      "mv": "禅画",
+      "tags": [
+        "宗教",
+        "元代",
+        "中国",
+        "禅宗",
+        "人物",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.211/1967.211_web.jpg",
+      "ratio": 1.864
     }
   ]
 }
