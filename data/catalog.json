@@ -31039,6 +31039,374 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1967.211/1967.211_web.jpg",
       "ratio": 1.864
+    },
+    {
+      "id": "cma-94609",
+      "issue": "2026-10-09",
+      "t": "秋山晓发",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1777,
+      "mv": "清初正统派",
+      "tags": [
+        "山水",
+        "清代",
+        "水墨",
+        "立轴",
+        "文人画",
+        "摹古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.114/1915.114_web.jpg",
+      "ratio": 2.413
+    },
+    {
+      "id": "cma-113084",
+      "issue": "2026-10-09",
+      "t": "《劫经》第 16 页（正面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "西印度画派",
+      "tags": [
+        "宗教手稿",
+        "15世纪",
+        "印度",
+        "耆那教",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.16.a/1932.119.16.a_web.jpg",
+      "ratio": 0.457
+    },
+    {
+      "id": "cma-149764",
+      "issue": "2026-10-09",
+      "t": "竹林七贤与商山四皓图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "人物",
+        "水墨",
+        "江户时代",
+        "屏风",
+        "中国典故"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.78/1979.78_web.jpg",
+      "ratio": 1.026
+    },
+    {
+      "id": "cma-149625",
+      "issue": "2026-10-09",
+      "t": "临古画册：古树",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "晚明绘画",
+      "tags": [
+        "古树",
+        "晚明",
+        "绢本",
+        "文人画",
+        "陈洪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.20/1979.27.2.20_web.jpg",
+      "ratio": 1.128
+    },
+    {
+      "id": "cma-149959",
+      "issue": "2026-10-09",
+      "t": "潇湘八景之江天暮雪",
+      "a": "谷文",
+      "aid": "tani-buncho-japanese-1763-1841",
+      "y": 1788,
+      "mv": "南画",
+      "tags": [
+        "山水画",
+        "雪景",
+        "18世纪",
+        "日本",
+        "潇湘八景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.188.2/1980.188.2_web.jpg",
+      "ratio": 0.627
+    },
+    {
+      "id": "cma-152252",
+      "issue": "2026-10-09",
+      "t": "龙虎图屏风",
+      "a": "曾我二直庵",
+      "aid": "soga-nichokuan-japanese",
+      "y": 1600,
+      "mv": "日本水墨画",
+      "tags": [
+        "水墨画",
+        "屏风",
+        "龙虎",
+        "日本",
+        "17世纪",
+        "曾我派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.134/1985.134_web.jpg",
+      "ratio": 0.927
+    },
+    {
+      "id": "cma-152253",
+      "issue": "2026-10-09",
+      "t": "云龙图",
+      "a": "曾我二直庵",
+      "aid": "soga-nichokuan-japanese",
+      "y": 1600,
+      "mv": "曾我派",
+      "tags": [
+        "龙",
+        "屏风",
+        "17世纪",
+        "日本",
+        "水墨",
+        "神兽"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.134.1/1985.134.1_web.jpg",
+      "ratio": 0.462
+    },
+    {
+      "id": "cma-154003",
+      "issue": "2026-10-09",
+      "t": "四季山水图：夏",
+      "a": "狩野秀赖",
+      "aid": "kano-hideyori-japanese-active-mid-to-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "日本画",
+        "16世纪",
+        "水墨",
+        "四季图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.13.1/1988.13.1_web.jpg",
+      "ratio": 2.817
+    },
+    {
+      "id": "cma-159040",
+      "issue": "2026-10-09",
+      "t": "庞灵照图",
+      "a": "春屋宗园",
+      "aid": "shunoku-soen-japanese-1529-1611",
+      "y": 1500,
+      "mv": "日本禅宗画",
+      "tags": [
+        "禅宗人物",
+        "女性肖像",
+        "16世纪",
+        "日本",
+        "水墨画",
+        "庞灵照"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1995.245/1995.245_web.jpg",
+      "ratio": 2.571
+    },
+    {
+      "id": "cma-159733",
+      "issue": "2026-10-09",
+      "t": "柳枝白鹭图",
+      "a": "圆山应举",
+      "aid": "maruyama-okyo-japanese-1733-1795",
+      "y": 1700,
+      "mv": "圆山派",
+      "tags": [
+        "花鸟",
+        "屏风",
+        "18世纪",
+        "日本",
+        "金底",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.108/1997.108_web.jpg",
+      "ratio": 0.378
+    },
+    {
+      "id": "cma-98293",
+      "issue": "2026-10-09",
+      "t": "《游女图》",
+      "a": "怀月堂度信",
+      "aid": "kaigetsudo-doshin-japanese-active-1711-1736",
+      "y": 1700,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "江户时代",
+        "日本",
+        "服饰",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.97/1917.97_web.jpg",
+      "ratio": 2.446
+    },
+    {
+      "id": "cma-149609",
+      "issue": "2026-10-09",
+      "t": "仿古人画册：水仙与枯树",
+      "a": "陈洪",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "水仙",
+        "枯树",
+        "晚明",
+        "绢本",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.3/1979.27.1.3_web.jpg",
+      "ratio": 1.14
+    },
+    {
+      "id": "cma-97150",
+      "issue": "2026-10-09",
+      "t": "《圣母与圣子及托比亚斯与天使拉斐尔》",
+      "a": "弗朗切斯科·波蒂奇尼",
+      "aid": "francesco-botticini-italian-c-1446-1497",
+      "y": 1470,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教画",
+        "15世纪",
+        "佛罗伦萨",
+        "蛋彩画",
+        "意大利"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.789/1916.789_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "cma-137210",
+      "issue": "2026-10-09",
+      "t": "《仿各家山水册》",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清代",
+        "安徽",
+        "纸本设色",
+        "仿作",
+        "黄山派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.7/1962.157.7_web.jpg",
+      "ratio": 0.666
+    },
+    {
+      "id": "cma-136297",
+      "issue": "2026-10-09",
+      "t": "三十六歌仙图",
+      "a": "馆林景英",
+      "aid": "tatebayashi-kagei-japanese-active-mid-1700s",
+      "y": 1700,
+      "mv": "大和绘",
+      "tags": [
+        "肖像",
+        "屏风",
+        "18世纪",
+        "日本",
+        "金色背景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.183/1960.183_web.jpg",
+      "ratio": 0.925
+    },
+    {
+      "id": "cma-143771",
+      "issue": "2026-10-09",
+      "t": "新罕布什尔州华盛顿山",
+      "a": "贾斯珀·F·克罗普西",
+      "aid": "jasper-f-cropsey-american-1823-1900",
+      "y": 1870,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "风景",
+        "秋色",
+        "19世纪",
+        "美国",
+        "浪漫主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.209/1968.209_web.jpg",
+      "ratio": 0.599
+    },
+    {
+      "id": "cma-156308",
+      "issue": "2026-10-09",
+      "t": "飞鸭图",
+      "a": "式部照忠",
+      "aid": "shikibu-terutada-japanese-active-mid-1500s",
+      "y": 1500,
+      "mv": "桃山时代",
+      "tags": [
+        "花鸟",
+        "扇面",
+        "16世纪",
+        "日本",
+        "金泥",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1992.140/1992.140_web.jpg",
+      "ratio": 0.54
+    },
+    {
+      "id": "cma-159728",
+      "issue": "2026-10-09",
+      "t": "濯足图",
+      "a": "文伯仁",
+      "aid": "wen-boren-chinese-1502-1575",
+      "y": 1570,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "明代",
+        "文人画",
+        "吴门画派",
+        "隐逸",
+        "纸本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.103/1997.103_web.jpg",
+      "ratio": 2.131
+    },
+    {
+      "id": "cma-90080",
+      "issue": "2026-10-09",
+      "t": "《系舟人物图》",
+      "a": "堪南",
+      "aid": "kannan-japanese-active-mid-1500s",
+      "y": 1500,
+      "mv": "日本水墨画",
+      "tags": [
+        "山水",
+        "水墨",
+        "日本",
+        "16世纪",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.474/2015.474_web.jpg",
+      "ratio": 1.166
+    },
+    {
+      "id": "cma-147696",
+      "issue": "2026-10-09",
+      "t": "圣家族与圣安妮、约阿希姆及施洗者约翰草图",
+      "a": "弗朗切斯科·特雷维萨尼",
+      "aid": "francesco-trevisani-italian-1656-1746",
+      "y": 1729,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "草图",
+        "18世纪",
+        "罗马画派",
+        "意大利"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.108/1974.108_web.jpg",
+      "ratio": 1.478
     }
   ]
 }
