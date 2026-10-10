@@ -31407,6 +31407,492 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1974.108/1974.108_web.jpg",
       "ratio": 1.478
+    },
+    {
+      "id": "cma-150083",
+      "issue": "2026-10-11",
+      "t": "海边（七月：肖像样本）",
+      "a": "詹姆斯·蒂索",
+      "aid": "james-tissot-french-1836-1902",
+      "y": 1878,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "时尚",
+        "海景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.288/1980.288_web.jpg",
+      "ratio": 1.433
+    },
+    {
+      "id": "cma-122347",
+      "issue": "2026-10-11",
+      "t": "扮作狄安娜的女子肖像",
+      "a": "让 - 马克·纳蒂埃",
+      "aid": "jean-marc-nattier-french-1685-1766",
+      "y": 1752,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "神话",
+        "贵族"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.643/1942.643_web.jpg",
+      "ratio": 1.242
+    },
+    {
+      "id": "cma-149683",
+      "issue": "2026-10-11",
+      "t": "罗汉图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1235,
+      "mv": "宋代绘画",
+      "tags": [
+        "佛教",
+        "南宋",
+        "人物",
+        "绢本",
+        "宗教",
+        "罗汉"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.71/1979.71_web.jpg",
+      "ratio": 2.273
+    },
+    {
+      "id": "cma-144967",
+      "issue": "2026-10-11",
+      "t": "罗德岛点朱迪思",
+      "a": "马丁·约翰逊·海德",
+      "aid": "martin-johnson-heade-american-1819-1904",
+      "y": 1867,
+      "mv": "光感主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "夜景",
+        "氛围"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.161/1970.161_web.jpg",
+      "ratio": 0.556
+    },
+    {
+      "id": "cma-170834",
+      "issue": "2026-10-11",
+      "t": "努尔普尔王贾加特·辛格肖像",
+      "a": "比奇特",
+      "aid": "bichitr-indian-active-c-1615-50",
+      "y": 1619,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷",
+        "猎鹰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.324/2013.324_web.jpg",
+      "ratio": 1.463
+    },
+    {
+      "id": "cma-135238",
+      "issue": "2026-10-11",
+      "t": "保罗·拉丰与阿尔方斯·谢尔菲尔斯审视画作",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas-french-1834-1917",
+      "y": 1878,
+      "mv": "印象派",
+      "tags": [
+        "室内",
+        "19世纪",
+        "法国",
+        "印象派",
+        "双人肖像",
+        "艺术评论"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.25/1958.25_web.jpg",
+      "ratio": 0.778
+    },
+    {
+      "id": "cma-146713",
+      "issue": "2026-10-11",
+      "t": "白衣观音",
+      "a": "张月湖",
+      "aid": "zhang-yuehu-chinese-active-1200s",
+      "y": 1200,
+      "mv": "宋代佛教绘画",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "中国",
+        "佛教",
+        "白描",
+        "观音"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.160/1972.160_web.jpg",
+      "ratio": 2.479
+    },
+    {
+      "id": "cma-115783",
+      "issue": "2026-10-11",
+      "t": "圣母之死",
+      "a": "海利根克罗伊茨大师",
+      "aid": "master-of-heiligenkreuz-austrian",
+      "y": 1400,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "奥地利",
+        "祭坛画",
+        "国际哥特式",
+        "金底画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1936.496/1936.496_web.jpg",
+      "ratio": 1.239
+    },
+    {
+      "id": "cma-96263",
+      "issue": "2026-10-11",
+      "t": "让·特福德·大卫肖像",
+      "a": "托马斯·萨利",
+      "aid": "thomas-sully-american-born-england-1783-1872",
+      "y": 1813,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "军装",
+        "青年"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1979.1/1916.1979.1_web.jpg",
+      "ratio": 1.279
+    },
+    {
+      "id": "cma-150719",
+      "issue": "2026-10-11",
+      "t": "萨宾妇女的掠夺",
+      "a": "约翰·海因里希·舍恩菲尔德",
+      "aid": "johann-heinrich-schonfeld-german-1609-1684",
+      "y": 1640,
+      "mv": "巴洛克",
+      "tags": [
+        "历史画",
+        "17世纪",
+        "德国",
+        "巴洛克",
+        "戏剧性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.143/1982.143_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-146183",
+      "issue": "2026-10-11",
+      "t": "阿克巴之子割礼仪式",
+      "a": "达兰·达斯",
+      "aid": "dharam-das-indian-active-c-1580-1605",
+      "y": 1602,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "宫廷",
+        "17世纪",
+        "印度",
+        "叙事",
+        "细密画",
+        "宗教仪式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.76/1971.76_web.jpg",
+      "ratio": 1.515
+    },
+    {
+      "id": "cma-148963",
+      "issue": "2026-10-11",
+      "t": "玛德琳·勒罗尔与她的女儿伊冯娜",
+      "a": "阿尔贝·贝纳尔",
+      "aid": "albert-besnard-french-1849-1934",
+      "y": 1879,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "母女",
+        "光影",
+        "工作室"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.120/1977.120_web.jpg",
+      "ratio": 1.433
+    },
+    {
+      "id": "cma-146145",
+      "issue": "2026-10-11",
+      "t": "徒然草屏风",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1750,
+      "mv": "四条派",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "日本",
+        "叙事",
+        "文学插图",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.43.2/1971.43.2_web.jpg",
+      "ratio": 0.47
+    },
+    {
+      "id": "cma-144968",
+      "issue": "2026-10-11",
+      "t": "荒野之家",
+      "a": "桑福德·罗宾逊·吉福德",
+      "aid": "sanford-robinson-gifford-american-1823-1880",
+      "y": 1866,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "哈德逊河派",
+        "光色主义",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.162/1970.162_web.jpg",
+      "ratio": 0.562
+    },
+    {
+      "id": "cma-161025",
+      "issue": "2026-10-11",
+      "t": "芦雁图册页",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州八怪",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "水墨",
+        "扬州八怪",
+        "芦雁"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.l/1999.260.l_web.jpg",
+      "ratio": 0.752
+    },
+    {
+      "id": "cma-143206",
+      "issue": "2026-10-11",
+      "t": "杜布瓦枢机主教肖像",
+      "a": "亚森特·里戈",
+      "aid": "hyacinthe-rigaud-french-1659-1743",
+      "y": 1723,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "权贵",
+        "巴洛克",
+        "宗教人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.17/1967.17_web.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "cma-148855",
+      "issue": "2026-10-11",
+      "t": "四季山水图",
+      "a": "李敎翼",
+      "aid": "yi-sumun-korean-b-c-1404",
+      "y": 1400,
+      "mv": "朝鲜画院",
+      "tags": [
+        "山水",
+        "屏风",
+        "15世纪",
+        "韩国",
+        "水墨",
+        "浙派风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.92.2/1976.92.2_web.jpg",
+      "ratio": 0.291
+    },
+    {
+      "id": "cma-134237",
+      "issue": "2026-10-11",
+      "t": "圣母与圣子及圣杰罗姆和亚历山大圣凯瑟琳",
+      "a": "萨诺·迪·彼得罗",
+      "aid": "carolino-da-viterbo-italian",
+      "y": 1450,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "锡耶纳画派",
+        "圣像",
+        "木板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1956.719/1956.719_web.jpg",
+      "ratio": 1.438
+    },
+    {
+      "id": "cma-142573",
+      "issue": "2026-10-11",
+      "t": "秦淮忆旧图",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "册页",
+        "南京"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.2/1966.31.2_web.jpg",
+      "ratio": 1.265
+    },
+    {
+      "id": "cma-149648",
+      "issue": "2026-10-11",
+      "t": "索菲·吉耶梅特，巴登大公夫人",
+      "a": "弗朗茨·克萨韦尔·温特哈尔特",
+      "aid": "franz-xaver-winterhalter-german-1805-1873",
+      "y": 1831,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "德国",
+        "皇室",
+        "优雅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.43/1979.43_web.jpg",
+      "ratio": 1.38
+    },
+    {
+      "id": "cma-98043",
+      "issue": "2026-10-11",
+      "t": "风景",
+      "a": "贾斯珀·克罗普西",
+      "aid": "jasper-f-cropsey-american-1823-1900",
+      "y": 1918,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "自然",
+        "秋色",
+        "哈德逊河派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1917.67/1917.67_web.jpg",
+      "ratio": 0.537
+    },
+    {
+      "id": "cma-160132",
+      "issue": "2026-10-11",
+      "t": "《烟江归帆图》",
+      "a": "夏森",
+      "aid": "xia-sheng-chinese-active-1200s",
+      "y": 1200,
+      "mv": "南宋院体",
+      "tags": [
+        "宋代",
+        "山水",
+        "团扇",
+        "水墨",
+        "江南",
+        "收藏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.90/1997.90_web.jpg",
+      "ratio": 1.587
+    },
+    {
+      "id": "cma-99443",
+      "issue": "2026-10-11",
+      "t": "杰里米·贝尔克纳普",
+      "a": "约瑟夫·巴杰",
+      "aid": "joseph-badger-american-born-the-thirteen-colonies-1708-1765",
+      "y": 1758,
+      "mv": "殖民地时期",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "殖民时期",
+        "儿童",
+        "宠物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1016/1919.1016_web.jpg",
+      "ratio": 1.267
+    },
+    {
+      "id": "cma-162433",
+      "issue": "2026-10-11",
+      "t": "克里希纳与珍宝称重图（背面）",
+      "a": "斯里·戈宾达·钱德拉·罗伊",
+      "aid": "shri-gobinda-chandra-roy-indian-active-late-1800s",
+      "y": 1890,
+      "mv": "迦梨迦特画派",
+      "tags": [
+        "宗教",
+        "19世纪",
+        "印度",
+        "民间艺术",
+        "木刻版画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2003.107.b/2003.107.b_web.jpg",
+      "ratio": 0.722
+    },
+    {
+      "id": "cma-139729",
+      "issue": "2026-10-11",
+      "t": "睡眠",
+      "a": "让 - 贝尔纳·雷斯图",
+      "aid": "jean-bernard-restout-french-1732-1797",
+      "y": 1771,
+      "mv": "学院派",
+      "tags": [
+        "神话",
+        "男性裸体",
+        "18世纪",
+        "法国",
+        "寓言"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.502/1963.502_web.jpg",
+      "ratio": 0.75
+    },
+    {
+      "id": "cma-444535",
+      "issue": "2026-10-11",
+      "t": "雷诺阿肖像",
+      "a": "弗雷德里克·巴齐耶",
+      "aid": "frederic-bazille-french-1841-1870",
+      "y": 1867,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "友谊"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
+      "ratio": 1.245
     }
   ]
 }
