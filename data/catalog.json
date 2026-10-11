@@ -31893,6 +31893,432 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
       "ratio": 1.245
+    },
+    {
+      "id": "cma-123490",
+      "issue": "2026-10-12",
+      "t": "胡安·安东尼奥·库埃沃肖像",
+      "a": "弗朗西斯科·戈雅",
+      "aid": "francisco-de-goya-spanish-1746-1828",
+      "y": 1819,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "西班牙",
+        "浪漫主义",
+        "戈雅",
+        "写实"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1943.90/1943.90_web.jpg",
+      "ratio": 1.365
+    },
+    {
+      "id": "cma-154766",
+      "issue": "2026-10-12",
+      "t": "马拉拉格尼：克里希纳为歌琵吹笛",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1760,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "细密画",
+        "神话",
+        "音乐"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.343/1989.343_web.jpg",
+      "ratio": 1.337
+    },
+    {
+      "id": "cma-159501",
+      "issue": "2026-10-12",
+      "t": "风景与跳舞的农民",
+      "a": "大卫·特尼尔斯",
+      "aid": "david-teniers-flemish-1610-1690",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "乡村生活",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1996.271/1996.271_web.jpg",
+      "ratio": 0.627
+    },
+    {
+      "id": "cma-152855",
+      "issue": "2026-10-12",
+      "t": "溪山幽谷图",
+      "a": "铃木芙蓉",
+      "aid": "suzuki-fuyo-japanese-1749-1816",
+      "y": 1805,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "19世纪",
+        "日本",
+        "南画",
+        "绢本",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.91/1985.91_web.jpg",
+      "ratio": 0.679
+    },
+    {
+      "id": "cma-105224",
+      "issue": "2026-10-12",
+      "t": "鬼故事",
+      "a": "沃尔特·麦克尤恩",
+      "aid": "walter-macewen-american-1860-1943",
+      "y": 1887,
+      "mv": "现实主义",
+      "tags": [
+        "室内场景",
+        "群像",
+        "光影",
+        "19世纪",
+        "美国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1923.416/1923.416_web.jpg",
+      "ratio": 0.635
+    },
+    {
+      "id": "cma-412327",
+      "issue": "2026-10-12",
+      "t": "持尖晶石与德干剑的朝臣，或为汗·阿拉姆",
+      "a": "戈瓦尔丹",
+      "aid": "govardhan-indian-active-c-1596-1645",
+      "y": 1607,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "宫廷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.323.a/2013.323.a_web.jpg",
+      "ratio": 1.587
+    },
+    {
+      "id": "cma-160725",
+      "issue": "2026-10-12",
+      "t": "沈长山图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代画派",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "留白",
+        "松江"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.10/1998.78.10_web.jpg",
+      "ratio": 0.925
+    },
+    {
+      "id": "cma-119701",
+      "issue": "2026-10-12",
+      "t": "男子肖像",
+      "a": "巴托洛梅奥·韦内托",
+      "aid": "bartolomeo-veneto-italian-1531",
+      "y": 1510,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1940.539/1940.539_web.jpg",
+      "ratio": 1.368
+    },
+    {
+      "id": "cma-156111",
+      "issue": "2026-10-12",
+      "t": "《砂持祭图》",
+      "a": "酒井梅斋",
+      "aid": "sakai-basai-japanese-dates-unknown",
+      "y": 1856,
+      "mv": "江户绘画",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "日本",
+        "人群",
+        "节日",
+        "江户"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.44/1991.44_web.jpg",
+      "ratio": 2.238
+    },
+    {
+      "id": "cma-159229",
+      "issue": "2026-10-12",
+      "t": "亨利·弗朗西斯·普雷特肖像",
+      "a": "皮特·克里斯托费尔·旺德",
+      "aid": "pieter-christoffel-wonder-dutch-1780-1852",
+      "y": 1837,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "荷兰",
+        "绅士",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1995.45/1995.45_web.jpg",
+      "ratio": 1.249
+    },
+    {
+      "id": "cma-160730",
+      "issue": "2026-10-12",
+      "t": "庐山会图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代山水画",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "文人画",
+        "江南"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.15/1998.78.15_web.jpg",
+      "ratio": 0.921
+    },
+    {
+      "id": "cma-170772",
+      "issue": "2026-10-12",
+      "t": "《纳乌拉斯之书》第 40 与 36 首多赫拉（背面）",
+      "a": "哈利卢拉·布特希坎",
+      "aid": "khalilullah-butshikan-persian-active-in-india-1596-c-1620",
+      "y": 1618,
+      "mv": "德干苏丹国风格",
+      "tags": [
+        "书法",
+        "17世纪",
+        "波斯",
+        "手抄本",
+        "金色背景",
+        "印度"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.284.b/2013.284.b_web.jpg",
+      "ratio": 2.055
+    },
+    {
+      "id": "cma-86124",
+      "issue": "2026-10-12",
+      "t": "寒山拾得图",
+      "a": "式部照忠",
+      "aid": "shikibu-terutada-japanese-active-mid-1500s",
+      "y": 1500,
+      "mv": "禅画",
+      "tags": [
+        "人物",
+        "16世纪",
+        "日本",
+        "禅画",
+        "扇面"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.592/2015.592_web.jpg",
+      "ratio": 0.551
+    },
+    {
+      "id": "cma-142665",
+      "issue": "2026-10-12",
+      "t": "玛丽·荷兰·巴赫尔",
+      "a": "奥托·H·巴赫尔",
+      "aid": "otto-h-bacher-american-1856-1909",
+      "y": 1891,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "印象派",
+        "户外",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.388/1966.388_web.jpg",
+      "ratio": 1.579
+    },
+    {
+      "id": "cma-109973",
+      "issue": "2026-10-12",
+      "t": "智慧与命运",
+      "a": "亨利·凯勒",
+      "aid": "henry-keller-american-born-germany-1869-1949",
+      "y": 1912,
+      "mv": "象征主义",
+      "tags": [
+        "象征主义",
+        "寓言",
+        "1910年代",
+        "美国",
+        "裸体",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1928.580/1928.580_web.jpg",
+      "ratio": 0.74
+    },
+    {
+      "id": "cma-153344",
+      "issue": "2026-10-12",
+      "t": "神农图",
+      "a": "祥龙",
+      "aid": "shoryo-japanese",
+      "y": 1450,
+      "mv": "日本水墨画",
+      "tags": [
+        "人物",
+        "15世纪",
+        "日本",
+        "宗教",
+        "水墨",
+        "神农"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.48/1986.48_web.jpg",
+      "ratio": 1.172
+    },
+    {
+      "id": "cma-170832",
+      "issue": "2026-10-12",
+      "t": "战争书插图：战车与乐师",
+      "a": "尤素福·阿里",
+      "aid": "yusuf-ali-indian-active-early-1600s",
+      "y": 1616,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "手抄本",
+        "战争场景",
+        "17世纪",
+        "印度"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.322/2013.322_web.jpg",
+      "ratio": 1.498
+    },
+    {
+      "id": "cma-79576",
+      "issue": "2026-10-12",
+      "t": "秋景文人图",
+      "a": "如水宗恩",
+      "aid": "josui-soen-japanese-active-c-1489-1500",
+      "y": 1400,
+      "mv": "室町水墨",
+      "tags": [
+        "山水",
+        "15世纪",
+        "日本",
+        "水墨",
+        "文人",
+        "行旅"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.467/2015.467_web.jpg",
+      "ratio": 0.673
+    },
+    {
+      "id": "cma-153779",
+      "issue": "2026-10-12",
+      "t": "风俗人物图",
+      "a": "武部梭长",
+      "aid": "takebe-socho-japanese-1760-1814",
+      "y": 1816,
+      "mv": "南画",
+      "tags": [
+        "人物",
+        "19世纪",
+        "日本",
+        "线条",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.72.3/1987.72.3_web.jpg",
+      "ratio": 2.439
+    },
+    {
+      "id": "cma-90092",
+      "issue": "2026-10-12",
+      "t": "《法演禅师语》",
+      "a": "一休宗纯",
+      "aid": "ikkyu-sojun-japanese-1394-1481",
+      "y": 1400,
+      "mv": "禅宗书法",
+      "tags": [
+        "书法",
+        "15世纪",
+        "日本",
+        "禅",
+        "草书",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.511/2015.511_web.jpg",
+      "ratio": 3.475
+    },
+    {
+      "id": "cma-86114",
+      "issue": "2026-10-12",
+      "t": "《夏日水牛耕牧图》",
+      "a": "狩野秀赖",
+      "aid": "kano-hideyori-japanese-active-mid-to-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "动物",
+        "水墨画",
+        "狩野派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.594/2015.594_web.jpg",
+      "ratio": 1.488
+    },
+    {
+      "id": "cma-146119",
+      "issue": "2026-10-12",
+      "t": "欧式元素宴饮图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1590,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "风俗",
+        "16世纪",
+        "印度",
+        "细密画",
+        "文化交流"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.303/1971.303_web.jpg",
+      "ratio": 1.474
+    },
+    {
+      "id": "cma-154062",
+      "issue": "2026-10-12",
+      "t": "道教女仙图",
+      "a": "古墨",
+      "aid": "koboku-japanese",
+      "y": 1500,
+      "mv": "日本水墨画",
+      "tags": [
+        "道教人物",
+        "山水",
+        "16世纪",
+        "日本",
+        "水墨",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.18/1988.18_web.jpg",
+      "ratio": 1.579
     }
   ]
 }
