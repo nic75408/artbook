@@ -32824,6 +32824,457 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1999.260.h/1999.260.h_web.jpg",
       "ratio": 0.752
+    },
+    {
+      "id": "cma-170812",
+      "issue": "2026-10-14",
+      "t": "王子岩地猎狮图",
+      "a": "凯姆·卡兰",
+      "aid": "khem-karan-indian",
+      "y": 1600,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "狩猎",
+        "17世纪",
+        "印度",
+        "动物",
+        "动作",
+        "莫卧儿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.310/2013.310_web.jpg",
+      "ratio": 1.404
+    },
+    {
+      "id": "cma-97170",
+      "issue": "2026-10-14",
+      "t": "死去的基督与天使",
+      "a": "莱安德罗·巴萨诺",
+      "aid": "leandro-bassano-italian-1557-1623",
+      "y": 1580,
+      "mv": "威尼斯画派",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "光影",
+        "人物",
+        "死亡"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.806/1916.806_web.jpg",
+      "ratio": 1.279
+    },
+    {
+      "id": "cma-113044",
+      "issue": "2026-10-14",
+      "t": "《劫经》第 60 页（正面）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1450,
+      "mv": "印度手抄本绘画",
+      "tags": [
+        "宗教文本",
+        "15世纪",
+        "印度",
+        "手稿",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.60.a/1932.119.60.a_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-148970",
+      "issue": "2026-10-14",
+      "t": "歌唱者",
+      "a": "泰奥杜尔·里博",
+      "aid": "theodule-ribot-french-1823-1891",
+      "y": 1865,
+      "mv": "现实主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "暗调",
+        "音乐"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.127/1977.127_web.jpg",
+      "ratio": 1.233
+    },
+    {
+      "id": "cma-135594",
+      "issue": "2026-10-14",
+      "t": "龙虎图",
+      "a": "雪村周继",
+      "aid": "sesson-shukei-japanese-c-1492-c-1577",
+      "y": 1546,
+      "mv": "禅画",
+      "tags": [
+        "水墨",
+        "16世纪",
+        "日本",
+        "龙虎",
+        "屏风",
+        "禅画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.136.2/1959.136.2_web.jpg",
+      "ratio": 0.5
+    },
+    {
+      "id": "cma-170848",
+      "issue": "2026-10-14",
+      "t": "奥朗则布肖像太阳纹饰页",
+      "a": "比奇特尔",
+      "aid": "bichitr-indian-active-c-1615-50",
+      "y": 1649,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "装饰",
+        "手稿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.331/2013.331_web.jpg",
+      "ratio": 1.424
+    },
+    {
+      "id": "cma-307326",
+      "issue": "2026-10-14",
+      "t": "弗朗切斯卡·戈米·马拉蒂肖像",
+      "a": "卡罗·马拉蒂",
+      "aid": "carlo-maratti-italian-1625-1713",
+      "y": 1701,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "意大利",
+        "巴洛克",
+        "女性",
+        "艺术家常像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.1/2018.1_web.jpg",
+      "ratio": 1.322
+    },
+    {
+      "id": "cma-115394",
+      "issue": "2026-10-14",
+      "t": "三王来朝",
+      "a": "康拉德·莱布",
+      "aid": "konrad-laib-german",
+      "y": 1440,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "祭坛画",
+        "金色背景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1936.18/1936.18_web.jpg",
+      "ratio": 1.612
+    },
+    {
+      "id": "cma-86399",
+      "issue": "2026-10-14",
+      "t": "兰石图",
+      "a": "李昰应",
+      "aid": "yi-ha-eung-korean-1820-1898",
+      "y": 1897,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "韩国",
+        "朝鲜王朝",
+        "兰花",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.138/2015.138_web.jpg",
+      "ratio": 0.447
+    },
+    {
+      "id": "cma-148240",
+      "issue": "2026-10-14",
+      "t": "杂画册 第五开",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵八家",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "清代",
+        "金陵八家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.5/1975.22.5_web.jpg",
+      "ratio": 0.524
+    },
+    {
+      "id": "cma-141728",
+      "issue": "2026-10-14",
+      "t": "《开罗起义》草图",
+      "a": "安妮 - 路易·吉罗代",
+      "aid": "anne-louis-girodet-de-roucy-trioson-french-1767-1824",
+      "y": 1809,
+      "mv": "新古典主义",
+      "tags": [
+        "历史画",
+        "草图",
+        "19世纪",
+        "法国",
+        "战争"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1965.310/1965.310_web.jpg",
+      "ratio": 0.654
+    },
+    {
+      "id": "cma-147930",
+      "issue": "2026-10-14",
+      "t": "春柳群鸟图",
+      "a": "殷宏",
+      "aid": "yin-hong-chinese-c-1430-c-1500",
+      "y": 1450,
+      "mv": "明代院体画",
+      "tags": [
+        "花鸟",
+        "明代",
+        "宫廷绘画",
+        "15世纪",
+        "中国",
+        "工笔"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.31/1974.31_web.jpg",
+      "ratio": 1.268
+    },
+    {
+      "id": "cma-151139",
+      "issue": "2026-10-14",
+      "t": "供奉中的里沙巴祖师坐像（出自耆那教《劫波经》手稿）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1500,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "耆那教",
+        "手稿",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.1047/1983.1047_web.jpg",
+      "ratio": 0.447
+    },
+    {
+      "id": "cma-137203",
+      "issue": "2026-10-14",
+      "t": "仿各家山水册页",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "清初山水",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "笔法",
+        "宣城派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.1/1962.157.1_web.jpg",
+      "ratio": 0.661
+    },
+    {
+      "id": "cma-97157",
+      "issue": "2026-10-14",
+      "t": "谦卑圣母与夏娃的诱惑",
+      "a": "奥利武乔·迪·奇卡雷洛",
+      "aid": "olivuccio-di-ciccarello-italian-marche-1360-65-1439",
+      "y": 1400,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "祭坛画",
+        "圣母",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.795/1916.795_web.jpg",
+      "ratio": 1.826
+    },
+    {
+      "id": "cma-150533",
+      "issue": "2026-10-14",
+      "t": "春日偶作",
+      "a": "村瀬太逸",
+      "aid": "murase-taiitsu-japanese-1803-1881",
+      "y": 1825,
+      "mv": "文人画",
+      "tags": [
+        "文人画",
+        "山水",
+        "19世纪",
+        "日本",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.86/1981.86_web.jpg",
+      "ratio": 4.128
+    },
+    {
+      "id": "cma-160731",
+      "issue": "2026-10-14",
+      "t": "长超山图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代山水",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "册页",
+        "浙江",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.16/1998.78.16_web.jpg",
+      "ratio": 0.918
+    },
+    {
+      "id": "cma-149612",
+      "issue": "2026-10-14",
+      "t": "仿古人画册：荷花岩石",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "荷花",
+        "明代",
+        "中国",
+        "绢本",
+        "晚明"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.6/1979.27.1.6_web.jpg",
+      "ratio": 1.136
+    },
+    {
+      "id": "cma-137207",
+      "issue": "2026-10-14",
+      "t": "《仿前人山水册页》",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "清代",
+        "笔法",
+        "黄山派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.4/1962.157.4_web.jpg",
+      "ratio": 0.657
+    },
+    {
+      "id": "cma-160889",
+      "issue": "2026-10-14",
+      "t": "《论幸福》篆书",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代书法",
+      "tags": [
+        "书法",
+        "篆书",
+        "清代",
+        "19世纪",
+        "中国",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.3/1999.174.3_web.jpg",
+      "ratio": 3.965
+    },
+    {
+      "id": "cma-160734",
+      "issue": "2026-10-14",
+      "t": "凤凰山图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代画派",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "册页",
+        "青绿",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.2/1998.78.2_web.jpg",
+      "ratio": 0.913
+    },
+    {
+      "id": "cma-148241",
+      "issue": "2026-10-14",
+      "t": "杂画册·柳蝉",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "花鸟",
+        "册页",
+        "17世纪",
+        "中国",
+        "清代",
+        "金陵八家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.6/1975.22.6_web.jpg",
+      "ratio": 0.524
+    },
+    {
+      "id": "cma-160890",
+      "issue": "2026-10-14",
+      "t": "《篆书幸福论》",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代书法",
+      "tags": [
+        "书法",
+        "19世纪",
+        "中国",
+        "清代",
+        "篆书"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.4/1999.174.4_web.jpg",
+      "ratio": 4.036
+    },
+    {
+      "id": "cma-140155",
+      "issue": "2026-10-14",
+      "t": "《罗浮樵叟图》",
+      "a": "陈汝言",
+      "aid": "chen-ruyan-chinese-c-1331-1371",
+      "y": 1366,
+      "mv": "元代山水",
+      "tags": [
+        "山水",
+        "元代",
+        "水墨",
+        "绢本",
+        "隐逸",
+        "14世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.156/1964.156_web.jpg",
+      "ratio": 1.424
     }
   ]
 }
