@@ -34340,6 +34340,504 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1997.87/1997.87_web.jpg",
       "ratio": 0.83
+    },
+    {
+      "id": "cma-150056",
+      "issue": "2026-10-17",
+      "t": "女子肖像",
+      "a": "让 - 雅克·亨纳",
+      "aid": "jean-jacques-henner-french-1829-1905",
+      "y": 1875,
+      "mv": "学院派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "光影",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.267/1980.267_web.jpg",
+      "ratio": 1.204
+    },
+    {
+      "id": "cma-142576",
+      "issue": "2026-10-17",
+      "t": "秦淮忆旧",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "清初四僧",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "设色",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.5/1966.31.5_web.jpg",
+      "ratio": 1.256
+    },
+    {
+      "id": "cma-133298",
+      "issue": "2026-10-17",
+      "t": "新泽西州蒙特克莱尔",
+      "a": "乔治·因尼斯",
+      "aid": "george-inness-american-1825-1894",
+      "y": 1878,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "色调主义",
+        "自然"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.670/1955.670_web.jpg",
+      "ratio": 0.685
+    },
+    {
+      "id": "cma-314445",
+      "issue": "2026-10-17",
+      "t": "阿玛尔·辛格王子驾象图",
+      "a": "梅瓦尔点彩大师",
+      "aid": "mewar-stipple-master-indian",
+      "y": 1695,
+      "mv": "梅瓦尔画派",
+      "tags": [
+        "宫廷绘画",
+        "17世纪",
+        "印度",
+        "大象",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.140/2018.140_web.jpg",
+      "ratio": 0.672
+    },
+    {
+      "id": "cma-155052",
+      "issue": "2026-10-17",
+      "t": "雪中美人",
+      "a": "司马江汉",
+      "aid": "shiba-kokan-japanese-1747-1818",
+      "y": 1796,
+      "mv": "江户绘画",
+      "tags": [
+        "美人画",
+        "雪景",
+        "18世纪",
+        "日本",
+        "绢本",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1989.68/1989.68_web.jpg",
+      "ratio": 2.493
+    },
+    {
+      "id": "cma-150508",
+      "issue": "2026-10-17",
+      "t": "《河流》",
+      "a": "马克西姆·莫夫拉",
+      "aid": "maxime-maufra-french-1861-1918",
+      "y": 1902,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "法国",
+        "印象派",
+        "河流",
+        "户外写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.64/1981.64_web.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "cma-149656",
+      "issue": "2026-10-17",
+      "t": "寒山拾得图",
+      "a": "池大雅",
+      "aid": "ike-taiga-japanese-1723-1776",
+      "y": 1745,
+      "mv": "南画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "日本",
+        "禅意",
+        "南画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.49/1979.49_web.jpg",
+      "ratio": 2.98
+    },
+    {
+      "id": "cma-127665",
+      "issue": "2026-10-17",
+      "t": "本杰明·劳斯",
+      "a": "约翰·韦斯利·贾维斯",
+      "aid": "john-wesley-jarvis-american-born-england-1781-1840",
+      "y": 1819,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "男性",
+        "联邦风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.346/1950.346_web.jpg",
+      "ratio": 1.285
+    },
+    {
+      "id": "cma-148349",
+      "issue": "2026-10-17",
+      "t": "山水册页：第八开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "清代文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "江景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.8/1975.64.8_web.jpg",
+      "ratio": 0.913
+    },
+    {
+      "id": "cma-150087",
+      "issue": "2026-10-17",
+      "t": "希腊人与土耳其人的战斗",
+      "a": "霍勒斯·韦尔内",
+      "aid": "horace-vernet-french-1789-1863",
+      "y": 1835,
+      "mv": "浪漫主义",
+      "tags": [
+        "历史",
+        "19世纪",
+        "法国",
+        "动态",
+        "东方主义",
+        "战争"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.291/1980.291_web.jpg",
+      "ratio": 1.355
+    },
+    {
+      "id": "cma-444765",
+      "issue": "2026-10-17",
+      "t": "四季花木图（右屏）",
+      "a": "渡边始兴",
+      "aid": "watanabe-shiko-japanese-1683-1755",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "日本",
+        "屏风",
+        "金箔",
+        "琳派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.132.1/2021.132.1_web.jpg",
+      "ratio": 0.463
+    },
+    {
+      "id": "cma-108999",
+      "issue": "2026-10-17",
+      "t": "筑坝",
+      "a": "朱利安·奥尔登·威尔",
+      "aid": "julian-alden-weir-american-1852-1919",
+      "y": 1908,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "工业",
+        "20世纪",
+        "美国",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.171/1927.171_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-149566",
+      "issue": "2026-10-17",
+      "t": "圣母子",
+      "a": "菲奥伦佐·迪·洛伦佐",
+      "aid": "fiorenzo-di-lorenzo-italian",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "蛋彩画",
+        "圣母子"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.140/1979.140_web.jpg",
+      "ratio": 1.361
+    },
+    {
+      "id": "cma-99428",
+      "issue": "2026-10-17",
+      "t": "汉娜·温特沃斯·阿特金森",
+      "a": "约瑟夫·布莱克本",
+      "aid": "joseph-blackburn-british-c-1730-1787",
+      "y": 1760,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "殖民时代",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1005/1919.1005_web.jpg",
+      "ratio": 1.251
+    },
+    {
+      "id": "cma-147450",
+      "issue": "2026-10-17",
+      "t": "莲池游鱼图",
+      "a": "大原敦宗",
+      "aid": "ohara-donshu-japanese-d-1857",
+      "y": 1800,
+      "mv": "日本画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "屏风",
+        "绢本",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.188/1973.188_web.jpg",
+      "ratio": 0.546
+    },
+    {
+      "id": "cma-121868",
+      "issue": "2026-10-17",
+      "t": "双扇门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "门板",
+        "新古典主义",
+        "室内装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.12.b/1942.2.12.b_web.jpg",
+      "ratio": 1.775
+    },
+    {
+      "id": "cma-121869",
+      "issue": "2026-10-17",
+      "t": "双叶门板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.13/1942.2.13_web.jpg",
+      "ratio": 1.721
+    },
+    {
+      "id": "cma-314504",
+      "issue": "2026-10-17",
+      "t": "法尔哈德误闻席琳死讯后自杀",
+      "a": "阿玛尔·达斯·巴蒂",
+      "aid": "amar-das-bhatti-indian-active-1800s",
+      "y": 1810,
+      "mv": "印度细密画",
+      "tags": [
+        "叙事",
+        "19世纪",
+        "印度",
+        "爱情悲剧",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2018.198/2018.198_web.jpg",
+      "ratio": 1.503
+    },
+    {
+      "id": "cma-147009",
+      "issue": "2026-10-17",
+      "t": "白云红树图",
+      "a": "李建",
+      "aid": "li-jian-chinese-active-second-half-of-the-1700s",
+      "y": 1788,
+      "mv": "青绿山水",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "青绿山水",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.42/1972.42_web.jpg",
+      "ratio": 2.427
+    },
+    {
+      "id": "cma-101496",
+      "issue": "2026-10-17",
+      "t": "戈延的洗衣妇",
+      "a": "阿贝尔·乔治·沃沙斯基",
+      "aid": "abel-george-warshawsky-american-1883-1962",
+      "y": 1917,
+      "mv": "印象派",
+      "tags": [
+        "风俗",
+        "20世纪",
+        "美国",
+        "劳动",
+        "风景",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1920.277/1920.277_web.jpg",
+      "ratio": 0.802
+    },
+    {
+      "id": "cma-707620",
+      "issue": "2026-10-17",
+      "t": "美人读信图",
+      "a": "栋斋宽诗",
+      "aid": "toensai-kanshi-japanese-active-c-1751-72",
+      "y": 1751,
+      "mv": "浮世绘",
+      "tags": [
+        "美人图",
+        "18世纪",
+        "日本",
+        "阅读",
+        "江户时代",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.45/2026.45_web.jpg",
+      "ratio": 5.202
+    },
+    {
+      "id": "cma-152830",
+      "issue": "2026-10-17",
+      "t": "苏东坡",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "扬州画派",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "文人",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.6/1985.71.6_web.jpg",
+      "ratio": 1.561
+    },
+    {
+      "id": "cma-125246",
+      "issue": "2026-10-17",
+      "t": "男子肖像",
+      "a": "塞缪尔·洛维特·沃尔多",
+      "aid": "samuel-lovett-waldo-american-1783-1861",
+      "y": 1832,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "绅士",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1947.206/1947.206_web.jpg",
+      "ratio": 1.313
+    },
+    {
+      "id": "cma-170888",
+      "issue": "2026-10-17",
+      "t": "湿婆祭祀夜景",
+      "a": "穆罕默德·里扎维·辛迪",
+      "aid": "muhammad-rizavi-hindi-indian-active-mid-1700s",
+      "y": 1760,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "夜景",
+        "湿婆"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.350.a/2013.350.a_web.jpg",
+      "ratio": 1.268
+    },
+    {
+      "id": "cma-94611",
+      "issue": "2026-10-17",
+      "t": "花石图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1506,
+      "mv": "明代院体画",
+      "tags": [
+        "花鸟",
+        "明代",
+        "绢本",
+        "青绿",
+        "宫廷艺术",
+        "佚名"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.116/1915.116_web.jpg",
+      "ratio": 3.203
+    },
+    {
+      "id": "cma-99444",
+      "issue": "2026-10-17",
+      "t": "塞缪尔·巴伯·克拉克",
+      "a": "詹姆斯·弗罗辛汉姆",
+      "aid": "james-frothingham-american-1786-1864",
+      "y": 1810,
+      "mv": "不详",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "儿童",
+        "正式",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.1017/1919.1017_web.jpg",
+      "ratio": 1.227
+    },
+    {
+      "id": "cma-148242",
+      "issue": "2026-10-17",
+      "t": "杂画册 第七开",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "草虫",
+        "17世纪",
+        "中国",
+        "绢本",
+        "金陵八家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.7/1975.22.7_web.jpg",
+      "ratio": 0.524
     }
   ]
 }
