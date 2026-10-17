@@ -34838,6 +34838,527 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1975.22.7/1975.22.7_web.jpg",
       "ratio": 0.524
+    },
+    {
+      "id": "cma-87891",
+      "issue": "2026-10-18",
+      "t": "窗畔女子",
+      "a": "维尔海姆·哈默肖伊",
+      "aid": "vilhelm-hammersh-i-danish-1864-1916",
+      "y": 1906,
+      "mv": "象征主义",
+      "tags": [
+        "室内",
+        "光影",
+        "20世纪初",
+        "丹麦",
+        "静谧",
+        "女子"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.38/2023.38_web.jpg",
+      "ratio": 0.886
+    },
+    {
+      "id": "cma-94983",
+      "issue": "2026-10-18",
+      "t": "《溪桥行旅图》",
+      "a": "罗稚川",
+      "aid": "luo-zhichuan-chinese-active-1280s-1320s",
+      "y": 1330,
+      "mv": "元代山水",
+      "tags": [
+        "山水",
+        "元代",
+        "中国",
+        "水墨",
+        "绢本",
+        "宋风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.536/1915.536_web.jpg",
+      "ratio": 0.992
+    },
+    {
+      "id": "cma-151807",
+      "issue": "2026-10-18",
+      "t": "帕里斯的审判",
+      "a": "约阿希姆·乌特瓦埃尔",
+      "aid": "joachim-anthoniz-wtewael-dutch-1566-1638",
+      "y": 1602,
+      "mv": "矫饰主义",
+      "tags": [
+        "神话",
+        "17世纪",
+        "荷兰",
+        "矫饰主义",
+        "铜板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.14/1984.14_web.jpg",
+      "ratio": 0.755
+    },
+    {
+      "id": "cma-159726",
+      "issue": "2026-10-18",
+      "t": "海棠图",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1500,
+      "mv": "文人画",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "中国",
+        "文人画",
+        "写意",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.101/1997.101_web.jpg",
+      "ratio": 2.967
+    },
+    {
+      "id": "cma-74228",
+      "issue": "2026-10-18",
+      "t": "鱼市",
+      "a": "卡米耶·毕沙罗",
+      "aid": "camille-pissarro-french-1830-1903",
+      "y": 1902,
+      "mv": "印象派",
+      "tags": [
+        "市井",
+        "20世纪初",
+        "法国",
+        "印象派",
+        "生活",
+        "港口"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.113/2020.113_web.jpg",
+      "ratio": 0.801
+    },
+    {
+      "id": "cma-143314",
+      "issue": "2026-10-18",
+      "t": "沿河岸行走的耆那教苦行僧",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1600,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "宗教人物",
+        "16世纪",
+        "印度",
+        "细密画",
+        "莫卧儿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.244/1967.244_web.jpg",
+      "ratio": 1.37
+    },
+    {
+      "id": "cma-117843",
+      "issue": "2026-10-18",
+      "t": "穿蓝外套的男孩",
+      "a": "乔治·贝洛斯",
+      "aid": "george-bellows-american-1882-1925",
+      "y": 1915,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "儿童",
+        "20世纪初",
+        "美国",
+        "现实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1938.45/1938.45_web.jpg",
+      "ratio": 1.327
+    },
+    {
+      "id": "cma-160736",
+      "issue": "2026-10-18",
+      "t": "碧岩山",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代画派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "中国",
+        "青绿",
+        "明代",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.4/1998.78.4_web.jpg",
+      "ratio": 0.923
+    },
+    {
+      "id": "cma-129802",
+      "issue": "2026-10-18",
+      "t": "以撒的献祭",
+      "a": "弗朗切斯科·瓜尔迪",
+      "aid": "francesco-guardi-italian-1712-1793",
+      "y": 1750,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "巴洛克",
+        "圣经题材",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.235.1/1952.235.1_web.jpg",
+      "ratio": 0.738
+    },
+    {
+      "id": "cma-444766",
+      "issue": "2026-10-18",
+      "t": "四季花木图屏风（左屏）",
+      "a": "渡边始兴",
+      "aid": "watanabe-shiko-japanese-1683-1755",
+      "y": 1700,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "日本",
+        "屏风",
+        "装饰",
+        "琳派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2021.132.2/2021.132.2_web.jpg",
+      "ratio": 0.469
+    },
+    {
+      "id": "cma-151882",
+      "issue": "2026-10-18",
+      "t": "蒂沃利的瀑布",
+      "a": "克洛德 - 约瑟夫·韦尔内",
+      "aid": "claude-joseph-vernet-french-1714-1789",
+      "y": 1737,
+      "mv": "洛可可",
+      "tags": [
+        "风景",
+        "18世纪",
+        "法国",
+        "瀑布",
+        "浪漫",
+        "理想化"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1984.175/1984.175_web.jpg",
+      "ratio": 0.712
+    },
+    {
+      "id": "cma-145924",
+      "issue": "2026-10-18",
+      "t": "女子葬礼肖像",
+      "a": "不详",
+      "aid": "unknown",
+      "y": null,
+      "mv": "罗马艺术",
+      "tags": [
+        "肖像",
+        "2世纪",
+        "埃及",
+        "罗马时期",
+        "蜡画",
+        "葬礼"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.136/1971.136_web.jpg",
+      "ratio": 1.268
+    },
+    {
+      "id": "cma-127953",
+      "issue": "2026-10-18",
+      "t": "卢梭家族的花园",
+      "a": "詹姆斯·恩索尔",
+      "aid": "james-ensor-belgian-1860-1949",
+      "y": 1885,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "庭院",
+        "19世纪",
+        "比利时",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.582/1950.582_web.jpg",
+      "ratio": 1.241
+    },
+    {
+      "id": "cma-152823",
+      "issue": "2026-10-18",
+      "t": "苏武牧羊图",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "扬州画派",
+      "tags": [
+        "人物",
+        "历史故事",
+        "清代",
+        "水墨",
+        "写意"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.10/1985.71.10_web.jpg",
+      "ratio": 1.553
+    },
+    {
+      "id": "cma-359246",
+      "issue": "2026-10-18",
+      "t": "费格瀑布，吕斯特峡湾",
+      "a": "约翰·克里斯蒂安·达尔",
+      "aid": "johan-christian-clausen-dahl-norwegian-1788-1857",
+      "y": 1848,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "挪威",
+        "浪漫主义",
+        "自然",
+        "瀑布"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.76/2019.76_web.jpg",
+      "ratio": 0.724
+    },
+    {
+      "id": "cma-79600",
+      "issue": "2026-10-18",
+      "t": "菅原道真肖像",
+      "a": "月舟",
+      "aid": "yogetsu-japanese-active-late-1400s-to-early-1500s",
+      "y": 1450,
+      "mv": "禅宗画",
+      "tags": [
+        "肖像",
+        "15世纪",
+        "日本",
+        "水墨",
+        "禅宗",
+        "公卿"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.491/2015.491_web.jpg",
+      "ratio": 1.863
+    },
+    {
+      "id": "cma-123957",
+      "issue": "2026-10-18",
+      "t": "双扇木门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "单色画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.466.2.b/1944.466.2.b_web.jpg",
+      "ratio": 1.621
+    },
+    {
+      "id": "cma-160891",
+      "issue": "2026-10-18",
+      "t": "《论幸福》篆书轴",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代碑学",
+      "tags": [
+        "书法",
+        "篆书",
+        "19世纪",
+        "中国",
+        "立轴",
+        "文人艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.5/1999.174.5_web.jpg",
+      "ratio": 3.947
+    },
+    {
+      "id": "cma-138360",
+      "issue": "2026-10-18",
+      "t": "维纳斯与阿多尼斯风景",
+      "a": "吉利斯·凡·科宁克斯洛",
+      "aid": "gillis-van-coninxloo-netherlandish-1544-1607",
+      "y": 1580,
+      "mv": "尼德兰文艺复兴",
+      "tags": [
+        "风景",
+        "16世纪",
+        "尼德兰",
+        "神话",
+        "铜板画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.293/1962.293_web.jpg",
+      "ratio": 0.693
+    },
+    {
+      "id": "cma-106093",
+      "issue": "2026-10-18",
+      "t": "残茬地",
+      "a": "亨利·戈尔登·迪尔",
+      "aid": "henry-golden-dearth-american-1864-1918",
+      "y": 1909,
+      "mv": "色调主义",
+      "tags": [
+        "风景",
+        "20世纪初",
+        "美国",
+        "色调主义",
+        "田野",
+        "黄昏"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.198/1924.198_web.jpg",
+      "ratio": 0.702
+    },
+    {
+      "id": "cma-170741",
+      "issue": "2026-10-18",
+      "t": "考狄利娅告别姐妹",
+      "a": "福特·马多克斯·布朗",
+      "aid": "ford-madox-brown-british-1821-1893",
+      "y": 1854,
+      "mv": "前拉斐尔派",
+      "tags": [
+        "叙事",
+        "19世纪",
+        "英国",
+        "前拉斐尔派",
+        "文学",
+        "莎士比亚"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.261/2013.261_web.jpg",
+      "ratio": 0.727
+    },
+    {
+      "id": "cma-105480",
+      "issue": "2026-10-18",
+      "t": "午夜",
+      "a": "让 - 夏尔·卡赞",
+      "aid": "jean-charles-cazin-french-1841-1901",
+      "y": 1891,
+      "mv": "象征主义",
+      "tags": [
+        "夜景",
+        "19世纪",
+        "法国",
+        "象征主义",
+        "月光",
+        "水乡"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1923.602/1923.602_web.jpg",
+      "ratio": 0.991
+    },
+    {
+      "id": "cma-160737",
+      "issue": "2026-10-18",
+      "t": "洞山图",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代绘画",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "16世纪",
+        "人物点缀"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.5/1998.78.5_web.jpg",
+      "ratio": 0.921
+    },
+    {
+      "id": "cma-137973",
+      "issue": "2026-10-18",
+      "t": "鹦鹉故事：第十夜鹦鹉对胡贾斯塔说话",
+      "a": "伊克巴尔",
+      "aid": "iqbal-indian-active-1550s-1590s",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "叙事",
+        "16世纪",
+        "印度",
+        "细密画",
+        "宫廷艺术",
+        "手抄本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.80.b/1962.279.80.b_web.jpg",
+      "ratio": 1.541
+    },
+    {
+      "id": "cma-145964",
+      "issue": "2026-10-18",
+      "t": "安岐肖像",
+      "a": "王翚",
+      "aid": "wang-hui-chinese-1632-1717",
+      "y": 1715,
+      "mv": "清代正统派",
+      "tags": [
+        "肖像",
+        "清代",
+        "文人",
+        "山水",
+        "收藏家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.17/1971.17_web.jpg",
+      "ratio": 1.967
+    },
+    {
+      "id": "cma-108806",
+      "issue": "2026-10-18",
+      "t": "摘苹果的人",
+      "a": "卡尔·安德森",
+      "aid": "karl-anderson-american-1874-1956",
+      "y": 1912,
+      "mv": "印象派",
+      "tags": [
+        "田园",
+        "20世纪初",
+        "美国",
+        "印象派",
+        "劳作"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1926.485/1926.485_web.jpg",
+      "ratio": 1.046
+    },
+    {
+      "id": "cma-147947",
+      "issue": "2026-10-18",
+      "t": "许由洗耳图",
+      "a": "戴进",
+      "aid": "dai-jin-chinese-1388-1462",
+      "y": 1400,
+      "mv": "浙派",
+      "tags": [
+        "明代",
+        "浙派",
+        "山水",
+        "隐逸",
+        "绢本设色",
+        "15世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.45/1974.45_web.jpg",
+      "ratio": 1.83
+    },
+    {
+      "id": "cma-91231",
+      "issue": "2026-10-18",
+      "t": "特鲁维尔的别墅",
+      "a": "古斯塔夫·卡耶博特",
+      "aid": "gustave-caillebotte-french-1848-1894",
+      "y": 1884,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "建筑",
+        "19世纪",
+        "法国",
+        "印象派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.105/2020.105_web.jpg",
+      "ratio": 0.81
     }
   ]
 }
