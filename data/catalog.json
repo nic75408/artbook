@@ -35359,6 +35359,439 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2020.105/2020.105_web.jpg",
       "ratio": 0.81
+    },
+    {
+      "id": "cma-136311",
+      "issue": "2026-10-19",
+      "t": "《南蛮人渡来图》",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1600,
+      "mv": "桃山画派",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "日本",
+        "历史",
+        "叙事",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.193/1960.193_web.jpg",
+      "ratio": 0.911
+    },
+    {
+      "id": "cma-140333",
+      "issue": "2026-10-19",
+      "t": "玛格丽特 - 朱丽叶·皮埃雷",
+      "a": "欧仁·德拉克洛瓦",
+      "aid": "eugene-delacroix-french-1798-1863",
+      "y": 1827,
+      "mv": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "儿童"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.284/1964.284_web.jpg",
+      "ratio": 1.247
+    },
+    {
+      "id": "cma-142394",
+      "issue": "2026-10-19",
+      "t": "特鲁维尔海岸",
+      "a": "欧仁·布丹",
+      "aid": "eugene-boudin-french-1824-1898",
+      "y": 1882,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "户外",
+        "天空"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_web.jpg",
+      "ratio": 0.75
+    },
+    {
+      "id": "cma-149562",
+      "issue": "2026-10-19",
+      "t": "花瓶中的玫瑰",
+      "a": "亨利·方丹 - 拉图尔",
+      "aid": "henri-fantin-latour-french-1836-1904",
+      "y": 1878,
+      "mv": "现实主义",
+      "tags": [
+        "静物",
+        "花卉",
+        "19世纪",
+        "法国",
+        "玫瑰",
+        "现实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.137/1979.137_web.jpg",
+      "ratio": 1.041
+    },
+    {
+      "id": "cma-143813",
+      "issue": "2026-10-19",
+      "t": "采灯心草者",
+      "a": "尼古拉斯·贝尔赫姆",
+      "aid": "nicolaes-berchem-dutch-1620-1683",
+      "y": 1657,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "田园",
+        "畜牧"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1968.239/1968.239_web.jpg",
+      "ratio": 0.736
+    },
+    {
+      "id": "cma-142574",
+      "issue": "2026-10-19",
+      "t": "秦淮忆旧",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "册页",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.3/1966.31.3_web.jpg",
+      "ratio": 1.254
+    },
+    {
+      "id": "cma-106641",
+      "issue": "2026-10-19",
+      "t": "意大利之夜，卡普里",
+      "a": "威廉·约瑟夫·伊斯特曼",
+      "aid": "william-joseph-eastman-american-1888-1950",
+      "y": 1924,
+      "mv": "印象派",
+      "tags": [
+        "夜景",
+        "建筑",
+        "1920年代",
+        "美国",
+        "地中海",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.682/1924.682_web.jpg",
+      "ratio": 1.204
+    },
+    {
+      "id": "cma-149394",
+      "issue": "2026-10-19",
+      "t": "布袋图",
+      "a": "吉山明兆",
+      "aid": "kichizan-mincho-japanese-1352-1431",
+      "y": 1350,
+      "mv": "禅画",
+      "tags": [
+        "人物",
+        "14世纪",
+        "日本",
+        "宗教",
+        "禅画",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.5/1978.5_web.jpg",
+      "ratio": 2.419
+    },
+    {
+      "id": "cma-148342",
+      "issue": "2026-10-19",
+      "t": "山水册页：第一开",
+      "a": "王概",
+      "aid": "wang-gai-chinese-active-c-1677-1705",
+      "y": 1677,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "枯树",
+        "小桥"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.64.1/1975.64.1_web.jpg",
+      "ratio": 0.909
+    },
+    {
+      "id": "cma-152833",
+      "issue": "2026-10-19",
+      "t": "桃实图",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "扬州画派",
+      "tags": [
+        "静物",
+        "18世纪",
+        "中国",
+        "果蔬",
+        "写意",
+        "扬州画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.9/1985.71.9_web.jpg",
+      "ratio": 1.567
+    },
+    {
+      "id": "cma-125945",
+      "issue": "2026-10-19",
+      "t": "跷跷板",
+      "a": "尼古拉·朗克雷",
+      "aid": "nicolas-lancret-french-1690-1743",
+      "y": 1723,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "娱乐",
+        "装饰画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.176.4/1948.176.4_web.jpg",
+      "ratio": 1.721
+    },
+    {
+      "id": "cma-150743",
+      "issue": "2026-10-19",
+      "t": "圣马洛",
+      "a": "莫里斯·普伦德加斯特",
+      "aid": "maurice-prendergast-american-born-newfoundland-now-canada-1858-1924",
+      "y": 1907,
+      "mv": "后印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "后印象派",
+        "木板油画",
+        "装饰风格"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_web.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "cma-140341",
+      "issue": "2026-10-19",
+      "t": "沼泽地",
+      "a": "朱尔·杜普雷",
+      "aid": "jules-dupre-french-1811-1889",
+      "y": 1865,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "天空",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.291/1964.291_web.jpg",
+      "ratio": 0.615
+    },
+    {
+      "id": "cma-134863",
+      "issue": "2026-10-19",
+      "t": "海湾灰日",
+      "a": "威廉·梅里特·蔡斯",
+      "aid": "william-merritt-chase-american-1849-1916",
+      "y": 1886,
+      "mv": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "灰色调",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_web.jpg",
+      "ratio": 0.681
+    },
+    {
+      "id": "cma-149766",
+      "issue": "2026-10-19",
+      "t": "商山四皓图",
+      "a": "狩野探幽",
+      "aid": "kano-tan-yu-japanese-1602-1674",
+      "y": 1600,
+      "mv": "狩野派",
+      "tags": [
+        "高士",
+        "屏风",
+        "17世纪",
+        "日本",
+        "水墨",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.78.2/1979.78.2_web.jpg",
+      "ratio": 0.516
+    },
+    {
+      "id": "cma-150338",
+      "issue": "2026-10-19",
+      "t": "伊萨尔河畔的猎人与贵族，远眺慕尼黑",
+      "a": "威廉·冯·科贝尔",
+      "aid": "wilhelm-von-kobell-german-1766-1853",
+      "y": 1823,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "德国",
+        "狩猎",
+        "贵族生活",
+        "慕尼黑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_web.jpg",
+      "ratio": 1.225
+    },
+    {
+      "id": "cma-142575",
+      "issue": "2026-10-19",
+      "t": "秦淮忆旧图",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "意境",
+        "清初四僧"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.4/1966.31.4_web.jpg",
+      "ratio": 1.254
+    },
+    {
+      "id": "cma-143272",
+      "issue": "2026-10-19",
+      "t": "海景",
+      "a": "亨利·沃德·兰杰",
+      "aid": "henry-ward-ranger-american-1858-1916",
+      "y": 1892,
+      "mv": "色调主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "色调主义",
+        "朦胧",
+        "风景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.21/1967.21_web.jpg",
+      "ratio": 0.723
+    },
+    {
+      "id": "cma-152828",
+      "issue": "2026-10-19",
+      "t": "仿米芾山水",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "仿古",
+        "笔墨",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.4/1985.71.4_web.jpg",
+      "ratio": 1.558
+    },
+    {
+      "id": "cma-135394",
+      "issue": "2026-10-19",
+      "t": "双孔雀烤肉店厨房",
+      "a": "阿道夫·蒙蒂切利",
+      "aid": "adolphe-monticelli-french-1824-1886",
+      "y": 1878,
+      "mv": "浪漫主义",
+      "tags": [
+        "室内场景",
+        "19世纪",
+        "法国",
+        "厚涂技法",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.40/1958.40_web.jpg",
+      "ratio": 0.726
+    },
+    {
+      "id": "cma-173542",
+      "issue": "2026-10-19",
+      "t": "罗马坎帕尼亚的收获",
+      "a": "约翰·加兹比·查普曼",
+      "aid": "john-gadsby-chapman-american-1808-1889",
+      "y": 1868,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "田园",
+        "收获",
+        "全景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.688/1915.688_web.jpg",
+      "ratio": 0.386
+    },
+    {
+      "id": "cma-137208",
+      "issue": "2026-10-19",
+      "t": "仿各家山水册",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "仿古",
+        "文人画",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.5/1962.157.5_web.jpg",
+      "ratio": 0.661
+    },
+    {
+      "id": "cma-137212",
+      "issue": "2026-10-19",
+      "t": "仿各家山水册页",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "仿古",
+        "技法",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.9/1962.157.9_web.jpg",
+      "ratio": 0.652
     }
   ]
 }

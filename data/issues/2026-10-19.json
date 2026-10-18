@@ -1,0 +1,1110 @@
+{
+  "v": 1,
+  "date": "2026-10-19",
+  "works": [
+    {
+      "id": "cma-136311",
+      "source": "cma",
+      "sourceId": "136311",
+      "sourceUrl": "https://clevelandart.org/art/1960.193",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Arrival of the \"Southern Barbarians\"",
+      "title_zh": "《南蛮人渡来图》",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "日本",
+      "artist_years": "不详",
+      "date_display": "c. 1600",
+      "year": 1600,
+      "medium_zh": "纸本金地设色屏风",
+      "dimensions": "Overall: 146.7 x 337.2 cm (57 3/4 x 132 3/4 in.)",
+      "movement_zh": "桃山画派",
+      "tags": [
+        "风俗",
+        "17世纪",
+        "日本",
+        "历史",
+        "叙事",
+        "屏风"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1960.193/1960.193_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1960.193/1960.193_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1960.193/1960.193_web.jpg",
+        "ratio": 0.911
+      },
+      "palette": [
+        "#60513b",
+        "#a08858"
+      ],
+      "essay": [
+        "桃山时代屏风画的代表作，记录了葡萄牙商船抵达九州的历史瞬间。这类南蛮屏风并非单一画家手笔，而是狩野派或土佐派画师作坊的集体创作，服务于当时渴望展示国际贸易财富的大名阶层。金碧辉煌的基调彰显了权力与富足。",
+        "画面下方，深青色的海浪以细密线条勾勒，波峰处留白表现飞溅的泡沫。金箔云霞将海面与陆地分割，既装饰了空间，又暗示了异域的遥远。黑船桅杆高耸，船身细节虽显生涩，却充满好奇的审视。浪花的动态与静止的金色云层形成张力。",
+        "画家从未踏足欧洲，对西洋人的描绘多基于传闻与想象。人物比例略显失调，服饰细节混杂了印度与葡萄牙风格。这种「异域风情」更多是为了满足日本本土对奇珍异宝的猎奇，而非严谨的人类学记录。但这恰恰保留了当时日本视角的独特真实。"
+      ],
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-140333",
+      "source": "cma",
+      "sourceId": "140333",
+      "sourceUrl": "https://clevelandart.org/art/1964.284",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Marguerite-Juliette Pierret",
+      "title_zh": "玛格丽特 - 朱丽叶·皮埃雷",
+      "artist_en": "Eugène Delacroix (French, 1798–1863)",
+      "artist_zh": "欧仁·德拉克洛瓦",
+      "artist_id": "eugene-delacroix-french-1798-1863",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1798–1863",
+      "date_display": "c. 1827",
+      "year": 1827,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 39 x 32 cm (15 3/8 x 12 5/8 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "儿童"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1964.284/1964.284_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1964.284/1964.284_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1964.284/1964.284_web.jpg",
+        "ratio": 1.247
+      },
+      "palette": [
+        "#1b1c18",
+        "#3c382c"
+      ],
+      "essay": [
+        "德拉克洛瓦以宏大历史画闻名，但这幅 1827 年的肖像展示了他私密的一面。作为浪漫主义旗手，他通常追求激烈动态，此处却收敛笔触，描绘友人皮埃雷的孩子。这类小幅习作在他生涯中不多见，却揭示了画家观察日常的敏锐度。",
+        "画面最动人处是孩童那双灰蓝色的眼睛，瞳孔高光未干时点入，显得湿润通透。脸颊两团红晕并非平涂，而是用半透明色层罩染，透出皮下血色。金发处理得极松，几笔枯柴色干扫出发丝质感，与细腻五官形成对比。",
+        "不过，身体部分的处理明显弱于头部。蓝色衣衫几乎只用大色块概括，缺乏结构支撑，仿佛未完成。这种“头精身粗”的做法在当时肖像习作中常见，但也让画面略显失衡。尽管如此，孩童特有的警觉与天真被捕捉得恰到好处。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.25,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-142394",
+      "source": "cma",
+      "sourceId": "142394",
+      "sourceUrl": "https://clevelandart.org/art/1966.208",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Coast at Trouville",
+      "title_zh": "特鲁维尔海岸",
+      "artist_en": "Eugène Boudin (French, 1824–1898)",
+      "artist_zh": "欧仁·布丹",
+      "artist_id": "eugene-boudin-french-1824-1898",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1824–1898",
+      "date_display": "c. 1865–1900",
+      "year": 1882,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 46.2 x 61.1 cm (18 3/16 x 24 1/16 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "法国",
+        "印象派",
+        "户外",
+        "天空"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_web.jpg",
+        "ratio": 0.75
+      },
+      "palette": [
+        "#a4a284",
+        "#867d63"
+      ],
+      "essay": [
+        "欧仁·布丹是连接巴比松画派与印象派的关键人物，莫奈曾尊称他为启蒙老师。这幅《特鲁维尔海岸》创作于其成熟期，典型地展现了他对诺曼底光线的痴迷。在摄影术刚兴起的年代，他坚持户外写生，将瞬间的大气变化固定在画布上，确立了天空作为独立审美对象的地位。",
+        "画面三分之二的空间留给了变幻莫测的天空。厚涂的灰云层层堆叠，边缘处透出些许青蓝与淡粉，暗示着天气的转折。笔触快速而松散，没有精细的轮廓线，仅靠色块的冷暖对比就塑造出云层的体积感与流动感，海面的波纹也随之呼应，呈现出一种未完成的生动性。",
+        "这种对瞬间光影的捕捉有时牺牲了构图的严谨性。远处的帆船仅是几点色块，缺乏具体的结构支撑，若单独观看略显单薄。但这正是布丹的取舍——他不在乎船只的解剖结构，只在乎光线穿过云层那一刻的真实氛围，这种“速写感”后来成为了印象派的核心语言。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-149562",
+      "source": "cma",
+      "sourceId": "149562",
+      "sourceUrl": "https://clevelandart.org/art/1979.137",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Roses in a Vase",
+      "title_zh": "花瓶中的玫瑰",
+      "artist_en": "Henri Fantin-Latour (French, 1836–1904)",
+      "artist_zh": "亨利·方丹 - 拉图尔",
+      "artist_id": "henri-fantin-latour-french-1836-1904",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1836–1904",
+      "date_display": "1878",
+      "year": 1878,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 66 x 64 x 11 cm (26 x 25 3/16 x 4 5/16 in.); Unframed: 45.4 x 43.3 cm (17 7/8 x 17 1/16 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "静物",
+        "花卉",
+        "19世纪",
+        "法国",
+        "玫瑰",
+        "现实主义"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.137/1979.137_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.137/1979.137_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.137/1979.137_web.jpg",
+        "ratio": 1.041
+      },
+      "palette": [
+        "#685127",
+        "#382711"
+      ],
+      "essay": [
+        "方丹 - 拉图尔是 19 世纪法国画坛的特殊存在，当马奈与莫奈忙于户外写生时，他坚守画室，以静物确立名声。这幅 1878 年的玫瑰处于其创作成熟期，展现了他对物象质感近乎执拗的忠实记录，是连接现实主义与印象派圈子的静物典范。",
+        "画面中心的花束呈金字塔式稳定构图，透明玻璃花瓶的轮廓仅通过几笔高光暗示。花瓣厚涂堆叠出丰富的肌理，白色玫瑰略带枯黄的边缘被如实刻画，桌面上散落的两朵残花打破了瓶插的完整，增添了时间流逝的静默感。",
+        "这种极度写实的风格有时显得过于谨慎，背景大面积的深褐色平涂虽突出了主体，却也削弱了空间呼吸感。它更像是一份植物标本式的视觉档案，少了些印象派追求的光色颤动，但胜在沉稳与永恒。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.25,
+        "region": "whole_work"
+      }
+    },
+    {
+      "id": "cma-143813",
+      "source": "cma",
+      "sourceId": "143813",
+      "sourceUrl": "https://clevelandart.org/art/1968.239",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Rush Gatherers",
+      "title_zh": "采灯心草者",
+      "artist_en": "Nicolaes Berchem (Dutch, 1620–1683)",
+      "artist_zh": "尼古拉斯·贝尔赫姆",
+      "artist_id": "nicolaes-berchem-dutch-1620-1683",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1620–1683",
+      "date_display": "1657",
+      "year": 1657,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 101.6 x 137.2 cm (40 x 54 in.)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "田园",
+        "畜牧"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1968.239/1968.239_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1968.239/1968.239_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1968.239/1968.239_web.jpg",
+        "ratio": 0.736
+      },
+      "palette": [
+        "#302b21",
+        "#867f65"
+      ],
+      "essay": [
+        "贝尔赫姆是荷兰黄金时代多产画家，以意大利式风景画闻名。此作处于其成熟期，展现了典型的理想化田园构图。他将北方细腻的光影观察与南方古典景致结合，满足了当时荷兰藏家对异域风情的想象。",
+        "画面左侧树林的处理值得细看。阳光穿透树冠，在深褐色枝叶间投下斑驳亮色。画家使用厚涂法堆叠出叶簇的体积感，边缘虚化处理营造出空气流动的视觉效果，远景山脉则用冷灰色推至深处。",
+        "尽管风景宏大，前景人物却略显程式化。这些农人姿态优美却缺乏劳作的真实张力，更像是为了平衡构图而放置的道具。这种“舞台剧式”的田园牧歌，是当时市场偏好的结果，而非对乡村生活的真实记录。",
+        "但这不妨碍它成为一幅悦目的佳作。光线在画面中流动的路径清晰而自然，证明了画家驾驭复杂场景的能力。对于现代观众而言，这种虚构的真实感恰恰构成了十七世纪风景画的独特魅力。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-142574",
+      "source": "cma",
+      "sourceId": "142574",
+      "sourceUrl": "https://clevelandart.org/art/1966.31.3",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Reminiscences of Qinhuai River",
+      "title_zh": "秦淮忆旧",
+      "artist_en": "Shitao (Chinese, 1642–1707)",
+      "artist_zh": "石涛",
+      "artist_id": "shitao-chinese-1642-1707",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1642–1707",
+      "date_display": "1642–1707",
+      "year": 1674,
+      "medium_zh": "纸本设色 册页",
+      "dimensions": "Image: 25.5 x 20.2 cm (10 1/16 x 7 15/16 in.); Overall: 33 x 24.3 cm (13 x 9 9/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "册页",
+        "清初"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1966.31.3/1966.31.3_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1966.31.3/1966.31.3_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1966.31.3/1966.31.3_web.jpg",
+        "ratio": 1.254
+      },
+      "palette": [
+        "#dbcdb6",
+        "#8f8775"
+      ],
+      "essay": [
+        "石涛位列清初四僧，主张“笔墨当随时代”。此作出自《秦淮忆旧》册，是他定居扬州后的回忆之作。明亡后他隐居绘画，将身世之感融入山水，打破了当时摹古的风气，确立了个性鲜明的画风。",
+        "画面重点在于墨色的层次。山体用湿笔淡墨渲染，趁湿叠加浓墨苔点，表现出江南雨后山林的润泽感。云雾留白自然，将远景山峰与近景树丛隔开，营造出朦胧的空间深度，墨韵流动间可见水分控制的精妙。",
+        "不过，册页小品难免有应酬之嫌。人物勾勒过于简略，几乎沦为符号，缺乏早期作品中的张力。这种重复出现的草亭高士形象，在他晚年作品中屡见不鲜，略显程式化，少了些即兴的生动。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-106641",
+      "source": "cma",
+      "sourceId": "106641",
+      "sourceUrl": "https://clevelandart.org/art/1924.682",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Italian Night, Capri",
+      "title_zh": "意大利之夜，卡普里",
+      "artist_en": "William Joseph Eastman (American, 1888–1950)",
+      "artist_zh": "威廉·约瑟夫·伊斯特曼",
+      "artist_id": "william-joseph-eastman-american-1888-1950",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1888–1950",
+      "date_display": "1924",
+      "year": 1924,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 77.5 x 67.4 x 7 cm (30 1/2 x 26 9/16 x 2 3/4 in.); Unframed: 61 x 50.8 cm (24 x 20 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "夜景",
+        "建筑",
+        "1920年代",
+        "美国",
+        "地中海",
+        "光影"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1924.682/1924.682_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1924.682/1924.682_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1924.682/1924.682_web.jpg",
+        "ratio": 1.204
+      },
+      "palette": [
+        "#46545d",
+        "#849397"
+      ],
+      "essay": [
+        "伊斯特曼是二十世纪早期美国画家，创作足迹遍布加州与欧洲。这幅一九二四年的作品记录了他游历意大利卡普里岛时的见闻。在当时美国画家纷纷涌向欧洲寻找光影灵感的大潮中，这类夜景习作既是旅行纪念，也是对月光下色彩关系的实验。",
+        "左侧浓密的深色植被与右侧受月光照射的白色建筑形成强烈明暗对比。画家没有使用纯黑表现阴影，而是混入深蓝与冷灰，让暗部保持透明感。蜿蜒的小径引导视线通向拱门，厚涂的白色颜料堆叠出墙面的粗糙质感，月光仿佛真的洒落在石阶上。",
+        "尽管光影处理出色，但构图略显保守。左侧树木的形态有些模糊，与右侧坚实的几何建筑相比，笔触显得略微杂乱。这种不平衡感或许源于写生时光线变化过快，画家被迫匆忙收尾，导致前景植被缺乏足够的结构支撑。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.55,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-149394",
+      "source": "cma",
+      "sourceId": "149394",
+      "sourceUrl": "https://clevelandart.org/art/1978.5",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Hotei",
+      "title_zh": "布袋图",
+      "artist_en": "Kichizan Minchō (Japanese, 1352–1431)",
+      "artist_zh": "吉山明兆",
+      "artist_id": "kichizan-mincho-japanese-1352-1431",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1352–1431",
+      "date_display": "late 1300s–early 1400s",
+      "year": 1350,
+      "medium_zh": "纸本水墨淡彩挂轴",
+      "dimensions": "Image: 77.5 x 31 cm (30 1/2 x 12 3/16 in.); Overall: 160 x 43.8 cm (63 x 17 1/4 in.)",
+      "movement_zh": "禅画",
+      "tags": [
+        "人物",
+        "14世纪",
+        "日本",
+        "宗教",
+        "禅画",
+        "水墨"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1978.5/1978.5_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1978.5/1978.5_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1978.5/1978.5_web.jpg",
+        "ratio": 2.419
+      },
+      "palette": [
+        "#968069",
+        "#7e6955"
+      ],
+      "essay": [
+        "明兆是日本室町时代禅画的代表人物，活跃于东福寺。这幅《布袋图》属于典型的顶相画传统，但脱离了严肃的肖像规范，转向更具民俗趣味的表达。水墨淡彩的技法继承了南宋梁楷的减笔风格，确立了日本禅宗绘画的审美基调。",
+        "面部刻画极具戏剧性。眉头高挑，眼角皱纹深陷，嘴角上扬的弧度被浓墨勾勒得十分肯定。皮肤并非平滑渲染，而是用淡赭色配合干笔擦出粗糙质感。眼神并未直视观者，而是望向侧下方，流露出一种世俗的狡黠与豁达。",
+        "布袋和尚通常象征富足与快乐，但明兆笔下的形象略显佝偻。裸露的腹部虽大，躯干却显得消瘦，这种比例上的失调并非技法不足，而是刻意强调苦行与享乐的二重性。上方松枝的枯涩线条与人物圆润轮廓形成视觉张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.65,
+        "r": 0.12,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-148342",
+      "source": "cma",
+      "sourceId": "148342",
+      "sourceUrl": "https://clevelandart.org/art/1975.64.1",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Album of Landscapes: Leaf 1",
+      "title_zh": "山水册页：第一开",
+      "artist_en": "Wang Gai (Chinese, active c. 1677–1705)",
+      "artist_zh": "王概",
+      "artist_id": "wang-gai-chinese-active-c-1677-1705",
+      "artist_nationality_zh": "中国",
+      "artist_years": "活跃于 1677–1705",
+      "date_display": "1677",
+      "year": 1677,
+      "medium_zh": "纸本设色册页",
+      "dimensions": "Each leaf: 20 x 22.3 cm (7 7/8 x 8 3/4 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "册页",
+        "枯树",
+        "小桥"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1975.64.1/1975.64.1_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1975.64.1/1975.64.1_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1975.64.1/1975.64.1_web.jpg",
+        "ratio": 0.909
+      },
+      "palette": [
+        "#7f7261",
+        "#c4b69d"
+      ],
+      "essay": [
+        "王概虽以主编《芥子园画传》闻名，本人亦是清初金陵画坛健将。这套山水册页作于 1677 年，正值其风格成熟之际。作为龚贤学生，他继承金陵画派积墨法的厚重，构图却追求宋人严谨。此作并非简单画稿，而是独立创作，展现了他在摹古与写实间的平衡能力。",
+        "画面中央拱桥横跨溪流，墨色浓淡区分出桥面的弧度与木质纹理。两岸枯树丛生，枝干如蟹爪般向下垂落，淡墨渲染的雾霭填充了树隙，营造出深秋萧瑟的空气感。水流通过留白处理，与浓密的树林形成虚实对比。桥下的支撑结构刻画细致，显示出工匠般的精确度，让观者仿佛能听到流水穿过桥洞的声音。",
+        "王概的画有时过于讲究程式化，这是《芥子园画传》编者的通病。此作虽意境清冷，但树木的排列略显刻意，少了些自然生长的随机性，像是在演示画法而非记录实景。这种倾向让画面显得工整有余而生气不足，尤其是远山的处理过于平滑，缺乏岩石应有的坚硬质感，暴露了文人画末流容易陷入的习气。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-152833",
+      "source": "cma",
+      "sourceId": "152833",
+      "sourceUrl": "https://clevelandart.org/art/1985.71.9",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Peaches",
+      "title_zh": "桃实图",
+      "artist_en": "Min Zhen (Chinese, 1730–after 1788)",
+      "artist_zh": "闵贞",
+      "artist_id": "min-zhen-chinese-1730-after-1788",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1730–1788 后",
+      "date_display": "1788",
+      "year": 1788,
+      "medium_zh": "纸本水墨册页",
+      "dimensions": "Sheet: 29 x 18.4 cm (11 7/16 x 7 1/4 in.)",
+      "movement_zh": "扬州画派",
+      "tags": [
+        "静物",
+        "18世纪",
+        "中国",
+        "果蔬",
+        "写意",
+        "扬州画派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1985.71.9/1985.71.9_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1985.71.9/1985.71.9_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1985.71.9/1985.71.9_web.jpg",
+        "ratio": 1.567
+      },
+      "palette": [
+        "#eee2cf",
+        "#a79c91"
+      ],
+      "essay": [
+        "闵贞是清代中期扬州画派的代表人物，以大写意人物与花鸟著称。此作绘于 1788 年，属于其晚年成熟风格。他将民间题材文人化，用笔粗犷却不失法度，在当时的画坛独树一帜，展现了扬州八怪余绪的创新精神。",
+        "浓墨枝干横扫而出，墨色干湿浓淡的变化丰富了视觉层次。留白与飞白展现出书法的用笔趣味，为画面提供了稳重的视觉锚点。这种抽象的墨块处理，既支撑了构图，又避免了背景的单调空洞，体现出写意画的金石趣味。",
+        "虽说是写意，但部分叶片的勾勒略显程式化，缺乏自然生长的随机性。桃身的淡墨晕染有时过于均匀，少了些许体积感的微妙过渡，这是大写意难以避免的取舍，但也削弱了果实的饱满质感。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.5,
+        "r": 0.2,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-125945",
+      "source": "cma",
+      "sourceId": "125945",
+      "sourceUrl": "https://clevelandart.org/art/1948.176.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The See-Saw",
+      "title_zh": "跷跷板",
+      "artist_en": "Nicolas Lancret (French, 1690–1743)",
+      "artist_zh": "尼古拉·朗克雷",
+      "artist_id": "nicolas-lancret-french-1690-1743",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1690–1743",
+      "date_display": "c. 1723–27",
+      "year": 1723,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 157 x 96 x 5.5 cm (61 13/16 x 37 13/16 x 2 3/16 in.); Unframed: 150.7 x 89.4 cm (59 5/16 x 35 3/16 in.)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "娱乐",
+        "装饰画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1948.176.4/1948.176.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1948.176.4/1948.176.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1948.176.4/1948.176.4_web.jpg",
+        "ratio": 1.721
+      },
+      "palette": [
+        "#dbd4b9",
+        "#847a4f"
+      ],
+      "essay": [
+        "朗克雷是华托之后法国洛可可风俗画的重要继承者。这幅《跷跷板》原是室内护墙板装饰画的一部分，典型的“雅宴画”变体。他将贵族闲暇娱乐置于精心构筑的自然舞台中，确立了 18 世纪法国宫廷绘画的轻快基调。",
+        "画面左侧女子的蓝色长裙是视觉焦点。画家运用流畅的笔触勾勒丝绸垂坠的质感，裙摆褶皱随动作舒展，呈现出明亮的冷色调。这种对衣纹动态的捕捉，有效地传达了游戏瞬间的轻盈感，面料的光泽与周围绿植形成微妙对比。",
+        "然而，这种田园牧歌完全是人造的。四周绘制的伪装饰边框将自然框定为室内陈设，人物衣着过于整洁，不像是在玩耍，更像是在表演玩耍。洛可可的甜美背后，是对真实劳动与泥土的刻意回避。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.62,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-150743",
+      "source": "cma",
+      "sourceId": "150743",
+      "sourceUrl": "https://clevelandart.org/art/1982.162",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "St. Malo",
+      "title_zh": "圣马洛",
+      "artist_en": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+      "artist_zh": "莫里斯·普伦德加斯特",
+      "artist_id": "maurice-prendergast-american-born-newfoundland-now-canada-1858-1924",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1858–1924",
+      "date_display": "c. 1907",
+      "year": 1907,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 26.7 x 35 cm (10 1/2 x 13 3/4 in.)",
+      "movement_zh": "后印象派",
+      "tags": [
+        "海景",
+        "20世纪",
+        "美国",
+        "后印象派",
+        "木板油画",
+        "装饰风格"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_web.jpg",
+        "ratio": 0.761
+      },
+      "palette": [
+        "#707261",
+        "#89957f"
+      ],
+      "essay": [
+        "莫里斯·普伦德加斯特是将后印象派装饰性引入美国的关键人物。这幅《圣马洛》创作于他游历法国后的成熟期，木板上的油彩并未追求透视深度，而是转向平面化的图案构成。他在波士顿画派中独树一帜，不关心工业化的喧嚣，只捕捉休闲时刻的色彩节奏。",
+        "天空的处理最能体现他的马赛克式笔触。云层被拆解为独立的色块，青绿、乳白与淡黄并置，没有柔和的过渡，只有边缘清晰的色片堆叠。这种画法削弱了大气的流动感，却强化了画面的音乐性，海面与天空仿佛两块拼接的花纹织物。",
+        "这种强烈的装饰趣味也是一把双刃剑。前景的人物被简化为戴帽子的色团，五官与身份完全模糊，沦为构图的点缀。当形式美感压倒了对人的观察，画面便显得精致却疏离，像是一出无声的默剧，好看，但缺乏温度。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.25,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-140341",
+      "source": "cma",
+      "sourceId": "140341",
+      "sourceUrl": "https://clevelandart.org/art/1964.291",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Marshland",
+      "title_zh": "沼泽地",
+      "artist_en": "Jules Dupré (French, 1811–1889)",
+      "artist_zh": "朱尔·杜普雷",
+      "artist_id": "jules-dupre-french-1811-1889",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1811–1889",
+      "date_display": "1860s-1870s",
+      "year": 1865,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 60.4 x 88.9 x 7.7 cm (23 3/4 x 35 x 3 1/16 in.); Unframed: 46.4 x 74.2 cm (18 1/4 x 29 3/16 in.)",
+      "movement_zh": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "天空",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1964.291/1964.291_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1964.291/1964.291_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1964.291/1964.291_web.jpg",
+        "ratio": 0.615
+      },
+      "palette": [
+        "#bd9f72",
+        "#765934"
+      ],
+      "essay": [
+        "朱尔·杜普雷是巴比松画派的核心人物，比米勒更早专注于风景本身的情绪。这幅《沼泽地》创作于其成熟期，脱离了早期浪漫主义的戏剧性夸张，转向对自然光线与空气感的直接捕捉。他在当时法国沙龙体系中保持独立，直接影响了后来的印象派画家。",
+        "画面三分之二被天空占据，云层堆叠出厚重的体积感。杜普雷使用调色刀与画笔结合，在灰蓝与暖褐之间快速扫出云层的流动趋势。光线从云隙间穿透，照亮下方平坦的湿地，这种对瞬间天象的捕捉，比莫奈的干草堆早了十几年。",
+        "不过，地面的处理略显保守。前景的沼泽与牛群淹没在深褐色调中，细节被刻意模糊，导致视觉重心完全上浮。这种“天大地小”的构图虽强化了氛围，却也牺牲了地景的层次感，显示出他仍未完全摆脱古典风景画的构图习惯。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-134863",
+      "source": "cma",
+      "sourceId": "134863",
+      "sourceUrl": "https://clevelandart.org/art/1957.423",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Gray Day on the Bay",
+      "title_zh": "海湾灰日",
+      "artist_en": "William Merritt Chase (American, 1849–1916)",
+      "artist_zh": "威廉·梅里特·蔡斯",
+      "artist_id": "william-merritt-chase-american-1849-1916",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1849–1916",
+      "date_display": "c. 1886",
+      "year": 1886,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 23.7 x 34.2 cm (9 5/16 x 13 7/16 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "灰色调",
+        "木板油画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_web.jpg",
+        "ratio": 0.681
+      },
+      "palette": [
+        "#a6a18b",
+        "#8f8771"
+      ],
+      "essay": [
+        "蔡斯是 19 世纪美国画坛的关键人物，将欧洲印象派技法带回纽约。这幅木板油画属于他的小幅速写式创作，不同于大幅工作室作品，这类海景更直接地记录了他对光线与氛围的即时捕捉，展现了其作为教育者之外的画家本色。",
+        "画面被大面积的灰色水面占据，笔触横向铺陈，模拟出平静海湾的微波。右侧小船的倒影并未刻意勾勒轮廓，而是用几笔深褐与灰绿交错，暗示船体重量。远处港口的桅杆林立，被雾气虚化处理，空间层次仅靠色彩冷暖推移来维持。",
+        "这种近乎单色的灰调处理虽营造了静谧气氛，却也牺牲了景物的立体感。远处船只与岸线几乎融为一体，若非标题提示，观者难以分辨具体结构。但这正是蔡斯想要的——不是记录港口繁忙，而是传递一个阴郁午后的视觉温度。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-149766",
+      "source": "cma",
+      "sourceId": "149766",
+      "sourceUrl": "https://clevelandart.org/art/1979.78.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Four Elders of Mt. Shang",
+      "title_zh": "商山四皓图",
+      "artist_en": "Kano Tan’yū (Japanese, 1602–1674)",
+      "artist_zh": "狩野探幽",
+      "artist_id": "kano-tan-yu-japanese-1602-1674",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1602–1674",
+      "date_display": "1600s",
+      "year": 1600,
+      "medium_zh": "纸本水墨",
+      "dimensions": "Overall: 161 x 339 cm (63 3/8 x 133 7/16 in.)",
+      "movement_zh": "狩野派",
+      "tags": [
+        "高士",
+        "屏风",
+        "17世纪",
+        "日本",
+        "水墨",
+        "人物"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1979.78.2/1979.78.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1979.78.2/1979.78.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1979.78.2/1979.78.2_web.jpg",
+        "ratio": 0.516
+      },
+      "palette": [
+        "#dac9ab",
+        "#b4a489"
+      ],
+      "essay": [
+        "狩野探幽是江户初期狩野派核心人物，长期服务于德川幕府。这幅《商山四皓图》展现了他对汉画题材的成熟驾驭。作为御用画师，他将中国高士题材日本化，确立了当时武家社会的审美标准。此作属于六曲一双屏风之一，规模宏大，体现了狩野派在障壁画领域的统治力，是理解江户初期官方艺术风格的关键样本。",
+        "画面中央老者的衣袍用笔极简，淡墨扫出褶皱走向，浓墨勾勒衣领边缘。这种“减笔体”画法舍弃了繁琐纹理，仅靠几根流畅线条便撑起宽大衣袖的体积感。墨色干湿变化自然，布料垂坠的重量感透过纸本渗透出来，可见画家对线条控制力的自信。衣纹转折处不留修饰，直接暴露笔锋轨迹，这种坦率是狩野派水墨画的典型特征。",
+        "不过，四位老者的面容略显雷同，缺乏个体性格的深入刻画。这是狩野派粉本传承的局限，程式化的造型虽保证了格调统一，却牺牲了人物神态的独特性。相比南宋梁楷的放逸生动，此处的人物更像是一种符号化的存在，少了几分鲜活气息。但作为屏风装饰，这种稳定性恰恰满足了建筑空间的需求。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.65,
+        "r": 0.12,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-150338",
+      "source": "cma",
+      "sourceId": "150338",
+      "sourceUrl": "https://clevelandart.org/art/1981.11",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Hunter and Lord at the River Isar with View of Munich",
+      "title_zh": "伊萨尔河畔的猎人与贵族，远眺慕尼黑",
+      "artist_en": "Wilhelm von Kobell (German, 1766–1853)",
+      "artist_zh": "威廉·冯·科贝尔",
+      "artist_id": "wilhelm-von-kobell-german-1766-1853",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1766–1853",
+      "date_display": "1823",
+      "year": 1823,
+      "medium_zh": "木板油画",
+      "dimensions": "Framed: 38 x 33.5 x 6 cm (14 15/16 x 13 3/16 x 2 3/8 in.); Unframed: 25 x 20.6 cm (9 13/16 x 8 1/8 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "德国",
+        "狩猎",
+        "贵族生活",
+        "慕尼黑"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_web.jpg",
+        "ratio": 1.225
+      },
+      "palette": [
+        "#d4dae7",
+        "#a58755"
+      ],
+      "essay": [
+        "科贝尔是 19 世纪初德国浪漫主义风景画代表，曾任慕尼黑艺术学院教授。此作绘于其晚年，延续将人物叙事融入地景的传统。画面记录伊萨尔河畔风光，亦是当时贵族休闲生活的视觉档案。",
+        "左侧骑手的墨绿色猎装剪裁合体，布料在自然光下呈现出厚实的羊毛质感。肩部缝线工整，搭配高筒礼帽与皮质马靴，彰显中产阶级体面。猎枪斜挎身后，金属枪管与皮革背带细节刻画严谨，暗示这是一次休闲而非生计的狩猎。",
+        "画题虽区分猎人与贵族，但两人着装差异微乎其微，皆是一身整洁绿装。这种模糊阶级特征的画法，更像是为了迎合买家对田园生活的想象。远处慕尼黑天际线处理得过于清晰，透视关系略显生硬，牺牲空气感以换取地标辨识度。",
+        "画面中人与马的静态平衡感把握得当，沙土路面的车辙痕迹增添了生活气息。作为一幅记录巴伐利亚风光的作品，它完成了委托人的纪念需求，留下了 19 世纪德国郊游的真实切片。观者能从中读到那份从容的闲适感。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.42,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-142575",
+      "source": "cma",
+      "sourceId": "142575",
+      "sourceUrl": "https://clevelandart.org/art/1966.31.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Reminiscences of Qinhuai River",
+      "title_zh": "秦淮忆旧图",
+      "artist_en": "Shitao (Chinese, 1642–1707)",
+      "artist_zh": "石涛",
+      "artist_id": "shitao-chinese-1642-1707",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1642–1707",
+      "date_display": "1642–1707",
+      "year": 1674,
+      "medium_zh": "纸本设色册页",
+      "dimensions": "Image: 25.5 x 20.2 cm (10 1/16 x 7 15/16 in.); Overall: 33 x 24.3 cm (13 x 9 9/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "文人画",
+        "意境",
+        "清初四僧"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1966.31.4/1966.31.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1966.31.4/1966.31.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1966.31.4/1966.31.4_web.jpg",
+        "ratio": 1.254
+      },
+      "palette": [
+        "#a79178",
+        "#dacab5"
+      ],
+      "essay": [
+        "石涛是清初「四僧」中最具革新精神的画家，主张「搜尽奇峰打草稿」。这幅册页出自他晚年定居扬州时期，脱离了早期仿古的拘谨，转向对内心记忆的重构。秦淮河在他笔下并非写实风景，而是经过情感过滤的心理图景。",
+        "画面左侧山石采用赭石染底，披麻皴与解索皴交织，墨点层层叠加。这种「乱柴」般的笔触并非杂乱，而是为了表现江南土石湿润蓬松的质感。近景枯树以焦墨勾勒，与后方浑厚的山体形成虚实对比，笔力沉雄。",
+        "不过，石涛有时过于沉迷于笔墨的游戏性，导致画面左侧略显拥挤，压迫了右侧水面的呼吸空间。远处的帆船虽有点睛之效，但造型过于简略，与近景的繁复稍显脱节，这是文人画重意轻形的通病。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.55,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-143272",
+      "source": "cma",
+      "sourceId": "143272",
+      "sourceUrl": "https://clevelandart.org/art/1967.21",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Seascape",
+      "title_zh": "海景",
+      "artist_en": "Henry Ward Ranger (American, 1858–1916)",
+      "artist_zh": "亨利·沃德·兰杰",
+      "artist_id": "henry-ward-ranger-american-1858-1916",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1858–1916",
+      "date_display": "1892",
+      "year": 1892,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 46.3 x 64.7 cm (18 1/4 x 25 1/2 in.)",
+      "movement_zh": "色调主义",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "色调主义",
+        "朦胧",
+        "风景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1967.21/1967.21_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1967.21/1967.21_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1967.21/1967.21_web.jpg",
+        "ratio": 0.723
+      },
+      "palette": [
+        "#cfcaa6",
+        "#919272"
+      ],
+      "essay": [
+        "亨利·沃德·兰杰是美国色调主义的核心人物，此作绘于 1892 年，正值他风格转型期。他摒弃了哈德逊河画派的戏剧性，转而学习海牙画派的沉静。画面不再追求宏大叙事，而是试图捕捉工业化海岸线上罕见的静谧空气。",
+        "天空占据了绝大部分画面，云层没有清晰轮廓，由灰绿与淡黄交织的色块柔和过渡。远处地平线上的蒸汽船仅以深色剪影呈现，几乎消融在雾气中。水面笔触细碎，厚涂法点出的波光与上方柔和的天空形成肌理对比。",
+        "色调主义的危险在于容易陷入单调的灰暗。这幅画氛围虽统一，但远景的风车与船只细节过于模糊，几乎失去了叙事功能。这种极致的朦胧感有时会让观众感到视觉疲劳，缺乏一个明确的焦点来锚定视线。",
+        "尽管如此，这种对空气感的执着探索，为后来的美国印象派铺平了道路。兰杰证明了有限的色阶也能构建出丰富的空间层次，这种克制在喧嚣的时代显得尤为珍贵。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-152828",
+      "source": "cma",
+      "sourceId": "152828",
+      "sourceUrl": "https://clevelandart.org/art/1985.71.4",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscape after Mi Fu",
+      "title_zh": "仿米芾山水",
+      "artist_en": "Min Zhen (Chinese, 1730–after 1788)",
+      "artist_zh": "闵贞",
+      "artist_id": "min-zhen-chinese-1730-after-1788",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1730–1788 年后",
+      "date_display": "1788",
+      "year": 1788,
+      "medium_zh": "纸本水墨 册页",
+      "dimensions": "Sheet: 29 x 18.4 cm (11 7/16 x 7 1/4 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "仿古",
+        "笔墨",
+        "清代"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1985.71.4/1985.71.4_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1985.71.4/1985.71.4_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1985.71.4/1985.71.4_web.jpg",
+        "ratio": 1.558
+      },
+      "palette": [
+        "#f0e3d0",
+        "#a79b8d"
+      ],
+      "essay": [
+        "闵贞虽以人物画闻名扬州画派，但这页 1788 年山水册页展示了他对文人画传统的熟稔。题曰“仿米芾”，是清代画家常见的笔墨游戏，意在向宋代大师的云山墨戏致敬，而非单纯复制图式。",
+        "画面中央的山石运用了浓淡相间的湿墨堆叠，墨点圆润厚重，试图还原米氏云山的朦胧质感。留白处理得当，云雾在山腰处自然断开，使前景的浓墨树林与远景的淡峦形成清晰的空间纵深。",
+        "然而，清代仿古往往难脱程式化。相比米芾真迹那种烟云灭没的混沌，此作轮廓过于清晰，笔触略显刻意。那座悬于山间的屋舍线条工整，与周围奔放的墨韵稍显格格不入，暴露了时代审美的差异。",
+        "尽管如此，墨色层次依然丰富，干湿浓淡的变化证明了画家对水墨控制力的自信。这并非对自然景色的写生，而是一份关于笔墨传统的笔记，记录了清代文人如何理解宋人的云山意境。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.55,
+        "r": 0.2,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-135394",
+      "source": "cma",
+      "sourceId": "135394",
+      "sourceUrl": "https://clevelandart.org/art/1958.40",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Kitchen of the Rôtisserie des Deux Paons",
+      "title_zh": "双孔雀烤肉店厨房",
+      "artist_en": "Adolphe Monticelli (French, 1824–1886)",
+      "artist_zh": "阿道夫·蒙蒂切利",
+      "artist_id": "adolphe-monticelli-french-1824-1886",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1824–1886",
+      "date_display": "c. 1875–1881",
+      "year": 1878,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 44.3 x 61.2 cm (17 7/16 x 24 1/8 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "室内场景",
+        "19世纪",
+        "法国",
+        "厚涂技法",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1958.40/1958.40_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1958.40/1958.40_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1958.40/1958.40_web.jpg",
+        "ratio": 0.726
+      },
+      "palette": [
+        "#4e3c2f",
+        "#817157"
+      ],
+      "essay": [
+        "蒙蒂切利是连接浪漫主义与印象派的关键人物，梵高在阿尔勒时期曾深受其厚涂技法启发。这幅晚年作品典型地展现了他对物质感的迷恋，将马赛勒的市井厨房转化为光影交织的剧场，而非单纯的记录。",
+        "画面右侧厨师的白色制服是整幅画的肌理高潮。画家用调色刀堆叠出厚重的白色颜料，模拟棉布围裙在火光下的褶皱与反光。笔触粗砺却有序，衣料的质感几乎触手可及，而非平滑的描绘，颜料本身成为了主角。",
+        "这种对颜料本身的沉迷有时牺牲了空间的清晰度。背景中的铜器与人物几乎融化在棕褐色的基调里，观者需退后几步才能分辨灶台与墙壁的界限。这是一种冒险，用模糊换取了氛围的浓郁，但也让叙事变得晦涩。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.55,
+        "r": 0.12,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-173542",
+      "source": "cma",
+      "sourceId": "173542",
+      "sourceUrl": "https://clevelandart.org/art/1915.688",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Harvest on the Roman Campagna",
+      "title_zh": "罗马坎帕尼亚的收获",
+      "artist_en": "John Gadsby Chapman (American, 1808–1889)",
+      "artist_zh": "约翰·加兹比·查普曼",
+      "artist_id": "john-gadsby-chapman-american-1808-1889",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1808–1889",
+      "date_display": "1868",
+      "year": 1868,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 35.5 x 91.4 cm (14 x 36 in.)",
+      "movement_zh": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "田园",
+        "收获",
+        "全景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1915.688/1915.688_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1915.688/1915.688_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1915.688/1915.688_web.jpg",
+        "ratio": 0.386
+      },
+      "palette": [
+        "#c0b7ae",
+        "#8c7558"
+      ],
+      "essay": [
+        "查普曼是美国哈德逊河派一代的代表，长期旅居意大利。这幅全景式作品创作于他晚年，融合了美国风景画的细致观察与欧洲古典主义的宏大构图。19 世纪美国画家迷恋罗马郊野，视其为艺术圣地，此作正是这种文化朝圣的视觉记录。",
+        "画面左侧的草垛与临时帐篷构成了收获季的营地。干草堆叠的纹理被细腻刻画，金黄色的秸秆在夕阳下呈现出丰富的暖色调层次。白色帆布帐篷的褶皱与粗糙草料形成质感对比，暗示了田间露宿的真实状态。",
+        "尽管细节繁复，人物却显得过于安逸，缺乏劳作的艰辛感。这种田园牧歌式的处理是当时收藏家的偏好，却削弱了现实力度。全景构图虽开阔，但远景山峦与中景人物的空间压缩略显生硬，深度感有所牺牲。"
+      ],
+      "detailCrop": {
+        "cx": 0.15,
+        "cy": 0.55,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-137208",
+      "source": "cma",
+      "sourceId": "137208",
+      "sourceUrl": "https://clevelandart.org/art/1962.157.5",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscapes in Various Styles after Old Masters",
+      "title_zh": "仿各家山水册",
+      "artist_en": "Mei Qing (Chinese, 1623–1697)",
+      "artist_zh": "梅清",
+      "artist_id": "mei-qing-chinese-1623-1697",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1623–1697",
+      "date_display": "1690",
+      "year": 1690,
+      "medium_zh": "纸本设色",
+      "dimensions": "Overall: 28.6 x 44 cm (11 1/4 x 17 5/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "仿古",
+        "文人画",
+        "清初"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.157.5/1962.157.5_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.157.5/1962.157.5_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.157.5/1962.157.5_web.jpg",
+        "ratio": 0.661
+      },
+      "palette": [
+        "#e7d2b3",
+        "#cfb998"
+      ],
+      "essay": [
+        "梅清是清初画坛的关键人物，与石涛交谊深厚，同为黄山派代表。这套册页展示了他对前代大师笔意的理解，并非单纯摹古，而是借古人笔墨抒发己意。此页题识“仿倪高士笔意”，直指元代倪瓒的疏淡风格。",
+        "画面近景松树姿态虬曲，针叶以浓墨细笔攒聚，枝干转折处可见书法用笔的顿挫。亭阁隐于树下，线条简练，与后方淡墨渲染的远山形成虚实对比。干笔皴擦出的坡石质感松秀，保留了纸本的呼吸感。",
+        "虽题仿倪瓒，但梅清笔下的山石结构比倪氏更为繁复饱满。倪瓒的“逸气”在此被转化为一种更具装饰性的秩序感，少了几分冷寂，多了些清初画家的经营痕迹。这是梅清眼中的倪瓒，而非真正的倪瓒。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.6,
+        "r": 0.2,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-137212",
+      "source": "cma",
+      "sourceId": "137212",
+      "sourceUrl": "https://clevelandart.org/art/1962.157.9",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscapes after Various Styles of Old Masters",
+      "title_zh": "仿各家山水册页",
+      "artist_en": "Mei Qing (Chinese, 1623–1697)",
+      "artist_zh": "梅清",
+      "artist_id": "mei-qing-chinese-1623-1697",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1623–1697",
+      "date_display": "1690",
+      "year": 1690,
+      "medium_zh": "纸本设色册页",
+      "dimensions": "Overall: 28.6 x 44 cm (11 1/4 x 17 5/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "仿古",
+        "技法",
+        "清初"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1962.157.9/1962.157.9_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1962.157.9/1962.157.9_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1962.157.9/1962.157.9_web.jpg",
+        "ratio": 0.652
+      },
+      "palette": [
+        "#d9caab",
+        "#9b8f75"
+      ],
+      "essay": [
+        "梅清是清初画坛代表人物，与石涛交好，以黄山题材闻名。此作作于 1690 年，属其晚年成熟期。虽题“仿荆关笔意”，实则借古人名头展示自家笔墨，是清初文人画“仿古”风气的典型样本。",
+        "画面右上方的瀑布处理颇见功力。留白形成的水流与淡墨渲染的雾气交融，未勾一笔水纹，却显出轰鸣之势。周围丛树用浓墨点染，与山石轮廓的干笔皴擦形成对比，空间层次由此拉开。",
+        "题跋声称追摹五代荆浩、关仝的雄浑，但实际笔触松秀灵动，少了北派山水的峻硬。这种“名不副实”并非技不如人，而是南宗文人画对“古意”的重新诠释——借古人酒杯，浇自家块垒。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    }
+  ]
+}
