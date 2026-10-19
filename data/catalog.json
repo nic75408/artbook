@@ -35792,6 +35792,491 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1962.157.9/1962.157.9_web.jpg",
       "ratio": 0.652
+    },
+    {
+      "id": "cma-715339",
+      "issue": "2026-10-20",
+      "t": "静物",
+      "a": "玛丽亚·布兰查德",
+      "aid": "maria-blanchard-spanish-1881-1932",
+      "y": 1916,
+      "mv": "立体主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "西班牙",
+        "立体主义",
+        "色彩构成",
+        "混合媒介"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.37/2026.37_web.jpg",
+      "ratio": 1.308
+    },
+    {
+      "id": "cma-142577",
+      "issue": "2026-10-20",
+      "t": "秦淮忆旧",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "金陵",
+        "册页",
+        "水墨设色"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.6/1966.31.6_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-150015",
+      "issue": "2026-10-20",
+      "t": "雪中的野猪",
+      "a": "罗莎·博纳尔",
+      "aid": "rosa-bonheur-french-1822-1899",
+      "y": 1872,
+      "mv": "现实主义",
+      "tags": [
+        "动物",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "雪景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.231/1980.231_web.jpg",
+      "ratio": 0.689
+    },
+    {
+      "id": "cma-153622",
+      "issue": "2026-10-20",
+      "t": "美人图",
+      "a": "葛饰北斋",
+      "aid": "katsushika-hokusai-japanese-1760-1849",
+      "y": 1812,
+      "mv": "浮世绘",
+      "tags": [
+        "美人图",
+        "江户时代",
+        "日本",
+        "浮世绘",
+        "挂轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.150/1987.150_web.jpg",
+      "ratio": 3.435
+    },
+    {
+      "id": "cma-95258",
+      "issue": "2026-10-20",
+      "t": "煎饼",
+      "a": "约瑟夫·伊斯拉尔斯",
+      "aid": "jozef-israels-dutch-1824-1911",
+      "y": 1875,
+      "mv": "海牙画派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "荷兰",
+        "光影",
+        "生活场景",
+        "海牙画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1031/1916.1031_web.jpg",
+      "ratio": 1.183
+    },
+    {
+      "id": "cma-143318",
+      "issue": "2026-10-20",
+      "t": "梅枝宿鸟图",
+      "a": "边文进",
+      "aid": "bian-wenjin-chinese-about-1354-1428",
+      "y": 1400,
+      "mv": "明代院体画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "中国",
+        "工笔",
+        "册页",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.249/1967.249_web.jpg",
+      "ratio": 1.133
+    },
+    {
+      "id": "cma-132365",
+      "issue": "2026-10-20",
+      "t": "林间盛会",
+      "a": "阿道夫·蒙蒂切利",
+      "aid": "adolphe-monticelli-french-1824-1886",
+      "y": 1857,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "聚会",
+        "厚涂法",
+        "夜景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.832/1954.832_web.jpg",
+      "ratio": 0.504
+    },
+    {
+      "id": "cma-98440",
+      "issue": "2026-10-20",
+      "t": "托马斯·阿布索普·库珀",
+      "a": "约翰·韦斯利·贾维斯",
+      "aid": "john-wesley-jarvis-american-born-england-1781-1840",
+      "y": 1810,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "戏剧",
+        "人物",
+        "木板油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1918.173/1918.173_web.jpg",
+      "ratio": 1.313
+    },
+    {
+      "id": "cma-150497",
+      "issue": "2026-10-20",
+      "t": "龙眠山庄图",
+      "a": "李公麟",
+      "aid": "li-gonglin-chinese-c-1049-1106",
+      "y": 1150,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "文人画",
+        "隐居",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.57/1981.57_web.jpg",
+      "ratio": 0.661
+    },
+    {
+      "id": "cma-140337",
+      "issue": "2026-10-20",
+      "t": "阅读的女人",
+      "a": "尼古拉 - 贝尔纳·勒皮西耶",
+      "aid": "nicolas-bernard-lepicie-french-1735-1784",
+      "y": 1769,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "室内",
+        "18世纪",
+        "法国",
+        "阅读"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.288/1964.288_web.jpg",
+      "ratio": 1.239
+    },
+    {
+      "id": "cma-136757",
+      "issue": "2026-10-20",
+      "t": "水边菊图",
+      "a": "酒井抱一",
+      "aid": "sakai-hoitsu-japanese-1761-1828",
+      "y": 1794,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "琳派",
+        "菊花",
+        "扇面"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.259/1961.259_web.jpg",
+      "ratio": 0.547
+    },
+    {
+      "id": "cma-99662",
+      "issue": "2026-10-20",
+      "t": "科德角沙丘之上",
+      "a": "查尔斯·沙克尔顿",
+      "aid": "charles-shackleton-american-1856-1920",
+      "y": 1919,
+      "mv": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "海岸",
+        "沙丘"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1919.240/1919.240_web.jpg",
+      "ratio": 0.929
+    },
+    {
+      "id": "cma-150888",
+      "issue": "2026-10-20",
+      "t": "舞影图",
+      "a": "山本梅逸",
+      "aid": "yamamoto-baiitsu-japanese-1783-1856",
+      "y": 1800,
+      "mv": "南画",
+      "tags": [
+        "日本",
+        "19世纪",
+        "手卷",
+        "建筑",
+        "光影",
+        "江户时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.28/1982.28_web.jpg",
+      "ratio": 0.151
+    },
+    {
+      "id": "cma-149292",
+      "issue": "2026-10-20",
+      "t": "主教礼赞",
+      "a": "弗朗索瓦·马里乌斯·格拉内",
+      "aid": "francois-marius-granet-french-1775-1849",
+      "y": 1839,
+      "mv": "浪漫主义",
+      "tags": [
+        "室内",
+        "19世纪",
+        "法国",
+        "宗教",
+        "建筑",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.127/1978.127_web.jpg",
+      "ratio": 1.404
+    },
+    {
+      "id": "cma-142661",
+      "issue": "2026-10-20",
+      "t": "牧人与羊群风景",
+      "a": "亚历山大·约瑟夫·戴韦勒",
+      "aid": "alexander-joseph-daiwaille-dutch-1818-1888",
+      "y": 1850,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "田园",
+        "浪漫主义",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.384/1966.384_web.jpg",
+      "ratio": 0.695
+    },
+    {
+      "id": "cma-121864",
+      "issue": "2026-10-20",
+      "t": "双叶门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "门板",
+        "单色画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.11.a/1942.2.11.a_web.jpg",
+      "ratio": 1.717
+    },
+    {
+      "id": "cma-92964",
+      "issue": "2026-10-20",
+      "t": "安东尼娅",
+      "a": "路易丝·B·马洛尼",
+      "aid": "louise-b-maloney-american-1887-1973",
+      "y": 1923,
+      "mv": "现代主义",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "现代",
+        "女性",
+        "油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1924.1240/1924.1240_web.jpg",
+      "ratio": 1.151
+    },
+    {
+      "id": "cma-145374",
+      "issue": "2026-10-20",
+      "t": "春景花鸟图",
+      "a": "狩野元信",
+      "aid": "kano-motonobu-japanese-c-1476-1559",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "狩野派",
+        "水墨",
+        "障子画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.6.2/1970.6.2_web.jpg",
+      "ratio": 1.294
+    },
+    {
+      "id": "cma-133024",
+      "issue": "2026-10-20",
+      "t": "孤寺高崖图",
+      "a": "景徐周麟",
+      "aid": "kenko-shokei-japanese-active-1478-1506",
+      "y": 1480,
+      "mv": "室町时代水墨",
+      "tags": [
+        "山水",
+        "建筑",
+        "15世纪",
+        "日本",
+        "禅宗",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1955.45/1955.45_web.jpg",
+      "ratio": 2.639
+    },
+    {
+      "id": "cma-95257",
+      "issue": "2026-10-20",
+      "t": "街头歌手与孩子",
+      "a": "约翰·奥皮",
+      "aid": "john-opie-british-1761-1807",
+      "y": 1700,
+      "mv": "英国画派",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "母子",
+        "风俗画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.1030/1916.1030_web.jpg",
+      "ratio": 1.207
+    },
+    {
+      "id": "cma-148698",
+      "issue": "2026-10-20",
+      "t": "秋山夕照",
+      "a": "帆足杏雨",
+      "aid": "hoashi-kyou-japanese-1810-1884",
+      "y": 1869,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "19世纪",
+        "日本",
+        "秋景",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.151/1976.151_web.jpg",
+      "ratio": 2.239
+    },
+    {
+      "id": "cma-151337",
+      "issue": "2026-10-20",
+      "t": "鱼与岩；鱼与水草",
+      "a": "林居",
+      "aid": "rinkyo-japanese",
+      "y": 1594,
+      "mv": "日本水墨画",
+      "tags": [
+        "水墨",
+        "鱼藻",
+        "17世纪",
+        "日本",
+        "挂轴",
+        "留白"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.186/1983.186_web.jpg",
+      "ratio": 1.125
+    },
+    {
+      "id": "cma-95195",
+      "issue": "2026-10-20",
+      "t": "老船长肖像",
+      "a": "塞缪尔·伊沙姆",
+      "aid": "samuel-isham-american-1855-1914",
+      "y": null,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "老人",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_web.jpg",
+      "ratio": 1.232
+    },
+    {
+      "id": "cma-173634",
+      "issue": "2026-10-20",
+      "t": "宋人画犬图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "宋代院体画",
+      "tags": [
+        "动物",
+        "宋代",
+        "绢本",
+        "佚名",
+        "走狗",
+        "册页"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.700/1915.700_web.jpg",
+      "ratio": 1.002
+    },
+    {
+      "id": "cma-136666",
+      "issue": "2026-10-20",
+      "t": "四季花鸟图屏风",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1550,
+      "mv": "室町水墨",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "水墨",
+        "屏风",
+        "雪舟派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.204/1961.204_web.jpg",
+      "ratio": 0.468
+    },
+    {
+      "id": "cma-153357",
+      "issue": "2026-10-20",
+      "t": "山水页",
+      "a": "翟大坤",
+      "aid": "zhai-dakun-chinese-d-1804",
+      "y": 1775,
+      "mv": "清代文人画",
+      "tags": [
+        "山水",
+        "清代",
+        "绢本",
+        "18世纪",
+        "翟大坤"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.49.9/1986.49.9_web.jpg",
+      "ratio": 1.296
     }
   ]
 }

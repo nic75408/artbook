@@ -1,0 +1,1250 @@
+{
+  "v": 1,
+  "date": "2026-10-20",
+  "works": [
+    {
+      "id": "cma-715339",
+      "source": "cma",
+      "sourceId": "715339",
+      "sourceUrl": "https://clevelandart.org/art/2026.37",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Still Life",
+      "title_zh": "静物",
+      "artist_en": "María Blanchard (Spanish, 1881–1932)",
+      "artist_zh": "玛丽亚·布兰查德",
+      "artist_id": "maria-blanchard-spanish-1881-1932",
+      "artist_nationality_zh": "西班牙",
+      "artist_years": "1881–1932",
+      "date_display": "c. 1916",
+      "year": 1916,
+      "medium_zh": "布面油画、沙及混合媒介拼贴",
+      "dimensions": "65.8 x 52.4 cm (25 7/8 x 20 5/8 in.)",
+      "movement_zh": "立体主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "西班牙",
+        "立体主义",
+        "色彩构成",
+        "混合媒介"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2026.37/2026.37_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2026.37/2026.37_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2026.37/2026.37_web.jpg",
+        "ratio": 1.308
+      },
+      "palette": [
+        "#271e20",
+        "#686051"
+      ],
+      "essay": [
+        "布兰查德是巴黎立体主义圈中少有的女性声音，与格里斯、毕加索交往密切。这幅 1916 年的静物，处于她综合立体主义时期的巅峰。她试图在几何破碎中找回色彩的抒情性，以此确立独特的视觉语言。",
+        "画面不再是单一视点的再现，而是多视角的拼贴。局部中砂粒与油彩混合，粗糙肌理与平滑色块并置，增加了触觉维度。圆点图案暗示了墙纸或桌布，将日常物件拆解为纯粹的形与色，空间因此变得扁平而紧凑。",
+        "这种对形式的极致追求，有时让物件失去了可辨识的温度。瓶罐与杯碟在几何切割下显得冷硬，仿佛为了构成而构成，略显刻意。但那份在混乱中建立秩序的努力，以及色彩间的微妙共振，依然让画面保有内在的张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.55,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-142577",
+      "source": "cma",
+      "sourceId": "142577",
+      "sourceUrl": "https://clevelandart.org/art/1966.31.6",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Reminiscences of Qinhuai River",
+      "title_zh": "秦淮忆旧",
+      "artist_en": "Shitao (Chinese, 1642–1707)",
+      "artist_zh": "石涛",
+      "artist_id": "shitao-chinese-1642-1707",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1642–1707",
+      "date_display": "1642–1707",
+      "year": 1674,
+      "medium_zh": "纸本设色",
+      "dimensions": "Image: 25.5 x 20.2 cm (10 1/16 x 7 15/16 in.); Overall: 33 x 24.3 cm (13 x 9 9/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "金陵",
+        "册页",
+        "水墨设色"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1966.31.6/1966.31.6_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1966.31.6/1966.31.6_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1966.31.6/1966.31.6_web.jpg",
+        "ratio": 1.258
+      },
+      "palette": [
+        "#cdbca6",
+        "#887e6d"
+      ],
+      "essay": [
+        "石涛是清初四僧中最具革新精神的画家，主张「借古以开今」。这套秦淮山水册页作于他居金陵时期，摆脱了当时正统派摹古的僵化套路，用笔墨记录亲身游历的真实感受，是其早期风格转型的关键见证。",
+        "画面中段亭阁隐现于烟岚之中，屋顶浓墨横扫，墙体赭石轻染。背景山峦采用湿笔淡墨晕染，与留白处的云雾浑然一体，营造出江南湿润朦胧的空气感，建筑仿佛悬浮于虚实之间，空间层次推移自然。",
+        "虽题为忆旧，画面却无丝毫怀旧常见的萧瑟衰败。石涛笔下的秦淮河畔，树木葱郁，屋舍俨然，更像是一种理想化的心理重构。这种对现实景致的美化，或许是他身处异代对前朝繁华的一种潜意识挽留，温情多于沧桑。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.42,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-150015",
+      "source": "cma",
+      "sourceId": "150015",
+      "sourceUrl": "https://clevelandart.org/art/1980.231",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Wild Boars in the Snow",
+      "title_zh": "雪中的野猪",
+      "artist_en": "Rosa Bonheur (French, 1822–1899)",
+      "artist_zh": "罗莎·博纳尔",
+      "artist_id": "rosa-bonheur-french-1822-1899",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1822–1899",
+      "date_display": "c. 1872–77",
+      "year": 1872,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 21 x 30.8 cm (8 1/4 x 12 1/8 in.)",
+      "movement_zh": "现实主义",
+      "tags": [
+        "动物",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "雪景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1980.231/1980.231_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1980.231/1980.231_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1980.231/1980.231_web.jpg",
+        "ratio": 0.689
+      },
+      "palette": [
+        "#3e2f1f",
+        "#735e3b"
+      ],
+      "essay": [
+        "罗莎·博纳尔是 19 世纪法国现实主义动物画的代表人物，以解剖学般的精准著称。这幅晚年作品延续了她对野生动物习性的深入研究，木板油画的小尺幅让笔触更为紧凑。",
+        "前景野猪的肩颈部位是视觉重心。画家用短促的干笔触堆叠出刚硬的鬃毛质感，深褐与灰黑交织，边缘处扫出的松散毛刺与雪地形成清晰界限。这种对皮毛触感的还原，是她赢得当时科学界认可的关键。",
+        "尽管追求自然主义，画面却带有明显的舞台感。树林的排列过于整齐，光线从侧后方打入，营造出戏剧性的轮廓光，这更像是画室里的精心布景，而非野外偶遇的真实瞬间。这种“摆拍”痕迹削弱了荒野的粗粝感，却迎合了当时沙龙审美对秩序的要求。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.75,
+        "r": 0.12,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-153622",
+      "source": "cma",
+      "sourceId": "153622",
+      "sourceUrl": "https://clevelandart.org/art/1987.150",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Beauty (Bijin)",
+      "title_zh": "美人图",
+      "artist_en": "Katsushika Hokusai (Japanese, 1760–1849)",
+      "artist_zh": "葛饰北斋",
+      "artist_id": "katsushika-hokusai-japanese-1760-1849",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1760–1849",
+      "date_display": "c. 1775–1849",
+      "year": 1812,
+      "medium_zh": "纸本设色立轴",
+      "dimensions": "Image: 97.2 x 27.6 cm (38 1/4 x 10 7/8 in.); Overall: 185.4 x 46.4 cm (73 x 18 1/4 in.)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "美人图",
+        "江户时代",
+        "日本",
+        "浮世绘",
+        "挂轴"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1987.150/1987.150_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1987.150/1987.150_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1987.150/1987.150_web.jpg",
+        "ratio": 3.435
+      },
+      "palette": [
+        "#cfb28d",
+        "#b39778"
+      ],
+      "essay": [
+        "葛饰北斋以《富岳三十六景》闻名，但早年实则深耕美人画领域。这幅立轴展现了他风格成熟期的尝试，属于江户时代浮世绘师对女性题材的常规处理。此时他尚未完全转向风景，笔触中仍保留着人物画的细腻。",
+        "视线落在和服主体，深色外褂上绘有规整的家徽纹样，与内衬的红色几何图案形成层次。衣褶线条流畅，墨色浓淡变化暗示了布料的垂坠感。这种对织物纹理的耐心描绘，是当时画师展示技法的重要窗口。",
+        "尽管技法娴熟，人物姿态却略显程式化。低头敛目的神情虽符合当时对女性温婉的审美期待，却少了几分鲜活个性。这类作品更多是满足市场对“理想女性”的想象，而非真实个体的写照。",
+        "作为北斋早期人物画遗存，它记录了大师风格转型前的轨迹。画面上方的题诗与落款平衡了构图，增添了文人气息。这类作品虽不如风景画普及，却是理解其艺术全貌不可或缺的拼图。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-95258",
+      "source": "cma",
+      "sourceId": "95258",
+      "sourceUrl": "https://clevelandart.org/art/1916.1031",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Pancakes",
+      "title_zh": "煎饼",
+      "artist_en": "Jozef Israëls (Dutch, 1824–1911)",
+      "artist_zh": "约瑟夫·伊斯拉尔斯",
+      "artist_id": "jozef-israels-dutch-1824-1911",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1824–1911",
+      "date_display": "c. 1875",
+      "year": 1875,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 65 x 55.4 cm (25 9/16 x 21 13/16 in.)",
+      "movement_zh": "海牙画派",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "荷兰",
+        "光影",
+        "生活场景",
+        "海牙画派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.1031/1916.1031_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.1031/1916.1031_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.1031/1916.1031_web.jpg",
+        "ratio": 1.183
+      },
+      "palette": [
+        "#1b1a17",
+        "#3c3327"
+      ],
+      "essay": [
+        "约瑟夫·伊斯拉尔斯是海牙画派的核心人物，常被称作“荷兰的米勒”。这幅《煎饼》处于他成熟期，典型地呈现了对渔民与农民生活的深沉关注。他放弃了早期历史画的戏剧性，转而捕捉室内微光下的日常瞬间。",
+        "光线从左侧窗棂斜入，落在妇女的袖管与围裙上。厚涂的笔触堆叠出粗布面料的厚重感，褶皱处用色深沉，受光面则呈暖灰调。衣纹的走向暗示了翻炒的动作，布料随肢体扭转产生的张力清晰可见。",
+        "尽管标榜现实主义，画面中的贫苦被一种温情过滤了。屋内虽简陋却异常整洁，妇女衣着虽朴素但无明显污渍。这种“洁净的贫困”是海牙画派常见的修辞，为了审美和谐而牺牲了部分生活的粗粝真相。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.45,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-143318",
+      "source": "cma",
+      "sourceId": "143318",
+      "sourceUrl": "https://clevelandart.org/art/1967.249",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sleeping Bird on a Prunus Branch",
+      "title_zh": "梅枝宿鸟图",
+      "artist_en": "Bian Wenjin (Chinese, about 1354–1428)",
+      "artist_zh": "边文进",
+      "artist_id": "bian-wenjin-chinese-about-1354-1428",
+      "artist_nationality_zh": "中国",
+      "artist_years": "约 1354–1428",
+      "date_display": "1400s",
+      "year": 1400,
+      "medium_zh": "绢本水墨",
+      "dimensions": "Overall: 24.3 x 21 cm (9 9/16 x 8 1/4 in.)",
+      "movement_zh": "明代院体画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "中国",
+        "工笔",
+        "册页",
+        "宫廷艺术"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1967.249/1967.249_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1967.249/1967.249_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1967.249/1967.249_web.jpg",
+        "ratio": 1.133
+      },
+      "palette": [
+        "#534637",
+        "#7e7060"
+      ],
+      "essay": [
+        "边文进是明代宫廷花鸟画的代表人物，承袭了北宋院体画的写实传统。这幅册页虽小，却展现了他在墨色控制上的深厚功底。作为永乐年间的画院待诏，他将宋代格物精神带入明代，确立了宫廷花鸟的典雅基调，影响波及后世吕纪等人。",
+        "鸟喙尖锐有力，墨色浓重，与头部淡墨渲染形成对比。眼睛虽小，却以漆点睛，目光警觉地望向画外左上角。头顶羽毛的丝毛技法细腻，每一笔都顺应生长结构，没有丝毫凌乱，显示出画家对解剖结构的精准把握。",
+        "绢本历经六百年氧化，底色已呈深褐，原本清透的水墨层次难免受损。枯枝的画法略显程式化，不如鸟雀生动。这种“活鸟死枝”的搭配是当时院画常见套路，虽稳妥却少了几分自然野趣，略显刻意。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-132365",
+      "source": "cma",
+      "sourceId": "132365",
+      "sourceUrl": "https://clevelandart.org/art/1954.832",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "A Woodland Fête",
+      "title_zh": "林间盛会",
+      "artist_en": "Adolphe Monticelli (French, 1824–1886)",
+      "artist_zh": "阿道夫·蒙蒂切利",
+      "artist_id": "adolphe-monticelli-french-1824-1886",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1824–1886",
+      "date_display": "c. 1853–1857 or c. 1862",
+      "year": 1857,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 74 x 123.5 x 8 cm (29 1/8 x 48 5/8 x 3 1/8 in.); Unframed: 52 x 101.6 cm (20 1/2 x 40 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "聚会",
+        "厚涂法",
+        "夜景"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1954.832/1954.832_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1954.832/1954.832_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1954.832/1954.832_web.jpg",
+        "ratio": 0.504
+      },
+      "palette": [
+        "#2b190d",
+        "#432812"
+      ],
+      "essay": [
+        "蒙蒂切利是 19 世纪法国画坛的异数，其厚重的堆砌技法直接启发了梵高。这幅《林间盛会》创作于其风格成熟期，展现了他在浪漫主义叙事与印象派光影之间的探索。他并未追求学院派的精准轮廓，而是用颜料本身构建空间。",
+        "画面右侧女子的裙摆是整幅作品的肌理核心。厚涂法堆叠出的颜料形成了真实的物理起伏，模拟出丝绸在昏暗光线下的褶皱与光泽。暖褐色与金色的笔触交错，无需勾勒边缘，织物的垂坠感便已跃然布面。",
+        "这种极度依赖厚涂的技法也是一把双刃剑。人物面部特征被模糊处理，导致叙事性减弱，观众难以分辨具体身份。画面整体色调过于统一在棕褐调中，虽营造了梦幻氛围，却也牺牲了空间的通透感。"
+      ],
+      "detailCrop": {
+        "cx": 0.68,
+        "cy": 0.58,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-98440",
+      "source": "cma",
+      "sourceId": "98440",
+      "sourceUrl": "https://clevelandart.org/art/1918.173",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Thomas Abthorpe Cooper",
+      "title_zh": "托马斯·阿布索普·库珀",
+      "artist_en": "John Wesley Jarvis (American, born England, 1781–1840)",
+      "artist_zh": "约翰·韦斯利·贾维斯",
+      "artist_id": "john-wesley-jarvis-american-born-england-1781-1840",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1781–1840",
+      "date_display": "c. 1810",
+      "year": 1810,
+      "medium_zh": "木板油画",
+      "dimensions": "Unframed: 86.2 x 66.5 cm (33 15/16 x 26 3/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "戏剧",
+        "人物",
+        "木板油画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1918.173/1918.173_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1918.173/1918.173_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1918.173/1918.173_web.jpg",
+        "ratio": 1.313
+      },
+      "palette": [
+        "#211f1d",
+        "#483b32"
+      ],
+      "essay": [
+        "约翰·韦斯利·贾维斯是 19 世纪初美国最重要的肖像画家之一，尤其擅长捕捉公众人物的神采。这幅作品描绘了当时著名的悲剧演员托马斯·库珀，属于画家成熟期的代表作。此类肖像既是个人记录，也是新兴美国文化自信的体现。",
+        "面部处理展现了贾维斯的技巧。眼神清澈而专注，瞳孔的高光点赋予人物生动的在场感。卷曲的发丝用细碎笔触勾勒，与光滑的前额形成质感对比。肤色红润健康，避免了当时肖像画常见的苍白死板。",
+        "尽管力求真实，画面仍带有明显的舞台化痕迹。库珀的手势略显刻意，仿佛在背诵台词而非自然放松。黑色外套的大面积平涂与领口繁复的白色褶皱形成强烈反差，这种戏剧性的光影处理，暴露了画家对剧场效果的偏爱。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.32,
+        "r": 0.16,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-150497",
+      "source": "cma",
+      "sourceId": "150497",
+      "sourceUrl": "https://clevelandart.org/art/1981.57",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Dwelling in the Longmian (\"Sleeping Dragon\") Mountains",
+      "title_zh": "龙眠山庄图",
+      "artist_en": "Li Gonglin (Chinese, c. 1049–1106)",
+      "artist_zh": "李公麟",
+      "artist_id": "li-gonglin-chinese-c-1049-1106",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1049–1106",
+      "date_display": "1100s-1200s",
+      "year": 1150,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 26.5 x 42 cm (10 7/16 x 16 9/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "宋代",
+        "中国",
+        "文人画",
+        "隐居",
+        "绢本"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1981.57/1981.57_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1981.57/1981.57_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1981.57/1981.57_web.jpg",
+        "ratio": 0.661
+      },
+      "palette": [
+        "#a58455",
+        "#91744c"
+      ],
+      "essay": [
+        "李公麟是北宋文人画关键人物，将白描提升为独立艺术语言。此作虽现存版本多被断为南宋摹本，仍忠实反映了宋人山水格局。作为隐居题材，它是士大夫精神家园的视觉化，连接了王维诗意与后世文人趣味。",
+        "画面山石勾勒简淡，少皴擦，多留白。细节处可见树木枝干如蟹爪般伸展，线条圆润流畅。墨色层次微妙，淡赭与花青薄染，不掩笔骨。这种处理让山石显得通透，避免了厚重感，符合文人追求的清雅格调。",
+        "不过，相较于范宽等北派山水的雄强，此图气势稍弱。人物点缀其间，虽有点题之效，但比例略显随意，缺乏严谨的解剖结构。这种“重意轻形”的处理，既是文人画的自由，也是技法上的妥协，后世模仿者往往只学到疏淡，丢了骨力。",
+        "尽管如此，它仍提供了宋代士人理想生活的样本。在喧嚣之外，构建了一个可游可居的纸上园林，让观者在展卷间获得片刻宁静。这种平淡天真的趣味，影响了后世数百年的审美取向。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.45,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-140337",
+      "source": "cma",
+      "sourceId": "140337",
+      "sourceUrl": "https://clevelandart.org/art/1964.288",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Woman Reading",
+      "title_zh": "阅读的女人",
+      "artist_en": "Nicolas-Bernard Lépicié (French, 1735–1784)",
+      "artist_zh": "尼古拉 - 贝尔纳·勒皮西耶",
+      "artist_id": "nicolas-bernard-lepicie-french-1735-1784",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1735–1784",
+      "date_display": "1769",
+      "year": 1769,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 64 x 55 x 5 cm (25 3/16 x 21 5/8 x 1 15/16 in.); Unframed: 46.3 x 37.8 cm (18 1/4 x 14 7/8 in.)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "肖像",
+        "室内",
+        "18世纪",
+        "法国",
+        "阅读"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1964.288/1964.288_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1964.288/1964.288_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1964.288/1964.288_web.jpg",
+        "ratio": 1.239
+      },
+      "palette": [
+        "#41352a",
+        "#86735b"
+      ],
+      "essay": [
+        "勒皮西耶是法国洛可可向新古典主义过渡期的代表，擅长风俗画。这幅《阅读的女人》作于 1769 年，处于他生涯成熟阶段。当时法国画坛流行描绘女性私密空间，既满足道德教化，又暗藏感官愉悦，体现了启蒙时代对女性角色的复杂想象。",
+        "光线从左上方滑落，精准勾勒出鼻梁至下巴的轮廓线。眼睑低垂，睫毛在脸颊投下极淡的阴影，瞳孔隐没在暗处，营造出专注的静谧感。肤色处理细腻，颧骨处微弱的红润暗示了呼吸的起伏，柔焦般的笔触模糊了皮肤纹理。",
+        "画面存在明显的矛盾：题材标榜知性阅读，但滑落的衣衫与裸露的肩胸显然超出了日常阅读的着装规范。这种“衣冠不整的贤淑女子”是当时流行的视觉套路，道德说教不过是情色隐喻的遮羞布，迎合了赞助人的私密趣味。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-136757",
+      "source": "cma",
+      "sourceId": "136757",
+      "sourceUrl": "https://clevelandart.org/art/1961.259",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Chrysanthemums by the Water",
+      "title_zh": "水边菊图",
+      "artist_en": "Sakai Hōitsu (Japanese, 1761–1828)",
+      "artist_zh": "酒井抱一",
+      "artist_id": "sakai-hoitsu-japanese-1761-1828",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1761–1828",
+      "date_display": "1761–1828",
+      "year": 1794,
+      "medium_zh": "纸本设色金扇面",
+      "dimensions": "Painting: 25.3 x 55.3 cm (9 15/16 x 21 3/4 in.); Overall: 37.1 x 68.5 cm (14 5/8 x 26 15/16 in.)",
+      "movement_zh": "琳派",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "琳派",
+        "菊花",
+        "扇面"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1961.259/1961.259_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1961.259/1961.259_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1961.259/1961.259_web.jpg",
+        "ratio": 0.547
+      },
+      "palette": [
+        "#c0ac8a",
+        "#8f8973"
+      ],
+      "essay": [
+        "酒井抱一是江户时代琳派复兴的关键人物。他出身武士家庭，却醉心于尾形光琳的装饰美学。这幅扇面画属于其成熟期的花鸟作品，体现了琳派典型的“たらしこみ”技法与金银箔背景的运用，将自然景物转化为平面化的装饰图案。",
+        "画面右侧的深蓝色块象征水面，色彩浓郁且平涂均匀，与留白的河岸形成强烈反差。背景中隐约可见的云雾处理，利用纸本底色营造出空气感。这种非写实的空间分割，强化了画面的装饰意味，让观者注意力集中在色彩本身的节奏上。",
+        "琳派风格虽美，却常牺牲植物的自然生长逻辑。菊花的花瓣排列过于规整，如同剪纸拼贴般浮于背景之上，缺乏真实的重力感。这种极致的装饰性既是其标志，也限制了画面在空间深度上的探索，显得略微单薄。"
+      ],
+      "detailCrop": {
+        "cx": 0.7,
+        "cy": 0.45,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-99662",
+      "source": "cma",
+      "sourceId": "99662",
+      "sourceUrl": "https://clevelandart.org/art/1919.240",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Over the Dunes, Cape Cod, Massachusetts",
+      "title_zh": "科德角沙丘之上",
+      "artist_en": "Charles Shackleton (American, 1856–1920)",
+      "artist_zh": "查尔斯·沙克尔顿",
+      "artist_id": "charles-shackleton-american-1856-1920",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1856–1920",
+      "date_display": "c. 1919",
+      "year": 1919,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 72.4 x 77.5 cm (28 1/2 x 30 1/2 in.)",
+      "movement_zh": "印象派",
+      "tags": [
+        "风景",
+        "20世纪",
+        "美国",
+        "印象派",
+        "海岸",
+        "沙丘"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1919.240/1919.240_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1919.240/1919.240_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1919.240/1919.240_web.jpg",
+        "ratio": 0.929
+      },
+      "palette": [
+        "#cdcbc6",
+        "#a9a5a1"
+      ],
+      "essay": [
+        "沙克尔顿并非美国印象派的核心明星，但这幅晚年作品揭示了他对科德角光线的独特理解。不同于蔡斯或哈萨姆的明亮笔触，他在此处转向了更柔和的色调和谐，介于印象派与色调主义之间，展现了画家成熟期的沉静风格。",
+        "画面大部分被沙丘占据，沙粒并非单调的白色，而是混杂着淡紫、粉褐与冷灰的细微色块。前景左下角的草丛用干笔扫出，枯黄与灰绿交织，与平滑的沙面形成质感对比。这种笔触在放大后清晰可见，展现了风蚀的痕迹。",
+        "这种极度的宁静有时显得缺乏戏剧性，远处的海洋只是一条深蓝色带，略显单薄，缺乏海浪的动态细节。但这种克制恰恰捕捉了海边午后那种时间凝固的错觉，牺牲了视觉冲击，换来了持久的安宁感，避免了俗套的风景抒情。"
+      ],
+      "detailCrop": {
+        "cx": 0.2,
+        "cy": 0.8,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-150888",
+      "source": "cma",
+      "sourceId": "150888",
+      "sourceUrl": "https://clevelandart.org/art/1982.28",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "The Shadow Dancers",
+      "title_zh": "舞影图",
+      "artist_en": "Yamamoto Baiitsu (Japanese, 1783–1856)",
+      "artist_zh": "山本梅逸",
+      "artist_id": "yamamoto-baiitsu-japanese-1783-1856",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1783–1856",
+      "date_display": "1800s",
+      "year": 1800,
+      "medium_zh": "绢本设色手卷",
+      "dimensions": "Image: 20.8 x 142.3 cm (8 3/16 x 56 in.); Overall: 21.7 x 227.8 cm (8 9/16 x 89 11/16 in.); with knobs: 23.2 x 227.8 cm (9 1/8 x 89 11/16 in.)",
+      "movement_zh": "南画",
+      "tags": [
+        "日本",
+        "19世纪",
+        "手卷",
+        "建筑",
+        "光影",
+        "江户时代"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1982.28/1982.28_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1982.28/1982.28_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1982.28/1982.28_web.jpg",
+        "ratio": 0.151
+      },
+      "palette": [
+        "#bfb29c",
+        "#a29884"
+      ],
+      "essay": [
+        "山本梅逸是江户后期南画代表，通常以山水闻名。这幅手卷在其生涯中显得另类，展示了罕见的叙事性场景。他将西洋透视法与日本传统障子门结合，记录了当时贵族宅邸中的娱乐瞬间，属于其晚年技法成熟期的实验之作。",
+        "视线落在半透明的障子纸上，墨色浓淡变化模拟出光线穿透的效果。建筑线条采用界画技法，笔直而冷静，与纸上模糊的形态形成虚实对比。纸面的留白处理巧妙，暗示了室内光源的位置，让静态的建筑构件拥有了呼吸感。",
+        "这种“隔帘观舞”的构思虽巧，却略显刻意。前景庭院的写实描绘与后方剪影的抽象处理之间存在断裂，仿佛画家更沉迷于光影游戏而非人物本身。但这种对瞬时动态的捕捉，在当时日本画坛确属大胆尝试，突破了南画固有的静态审美。"
+      ],
+      "detailCrop": {
+        "cx": 0.28,
+        "cy": 0.35,
+        "r": 0.12,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-149292",
+      "source": "cma",
+      "sourceId": "149292",
+      "sourceUrl": "https://clevelandart.org/art/1978.127",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Homage to a Bishop",
+      "title_zh": "主教礼赞",
+      "artist_en": "François Marius Granet (French, 1775–1849)",
+      "artist_zh": "弗朗索瓦·马里乌斯·格拉内",
+      "artist_id": "francois-marius-granet-french-1775-1849",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1775–1849",
+      "date_display": "1839",
+      "year": 1839,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 172.5 x 123.3 cm (67 15/16 x 48 9/16 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "室内",
+        "19世纪",
+        "法国",
+        "宗教",
+        "建筑",
+        "光影"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1978.127/1978.127_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1978.127/1978.127_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1978.127/1978.127_web.jpg",
+        "ratio": 1.404
+      },
+      "palette": [
+        "#3a342e",
+        "#5d5141"
+      ],
+      "essay": [
+        "格拉内是 19 世纪法国擅长描绘教堂内部的大师，晚年定居艾克斯，专注捕捉宗教空间的静谧。此作处于其成熟期，不再追求戏剧性冲突，转而探索光线在幽深建筑中的漫射与沉淀，呼应了浪漫主义对氛围的迷恋。",
+        "画面中央悬挂的织锦是视觉锚点，两侧拱顶呈柔和的双曲线收束，引导视线向深处延伸。远处窗口的冷光与室内暖暗形成层次，墙面上的画框在阴影中若隐若现，营造出纵深的呼吸感，强化了空间的肃穆秩序。",
+        "下方人群虽身着礼服，但面目模糊，更像营造氛围的道具而非独立个体。红色护墙板色彩略显单一，削弱了石材的质感，这是格拉内为突出光影而做出的妥协，牺牲了部分建筑结构的真实性。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-142661",
+      "source": "cma",
+      "sourceId": "142661",
+      "sourceUrl": "https://clevelandart.org/art/1966.384",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscape with a Peasant and His Flock",
+      "title_zh": "牧人与羊群风景",
+      "artist_en": "Alexander Joseph Daiwaille (Dutch, 1818–1888)",
+      "artist_zh": "亚历山大·约瑟夫·戴韦勒",
+      "artist_id": "alexander-joseph-daiwaille-dutch-1818-1888",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1818–1888",
+      "date_display": "c. 1850–59",
+      "year": 1850,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 55.2 x 78.7 cm (21 3/4 x 31 in.)",
+      "movement_zh": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "荷兰",
+        "田园",
+        "浪漫主义",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1966.384/1966.384_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1966.384/1966.384_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1966.384/1966.384_web.jpg",
+        "ratio": 0.695
+      },
+      "palette": [
+        "#312c19",
+        "#6b6d51"
+      ],
+      "essay": [
+        "戴韦勒是 19 世纪荷兰风景画的中坚力量，承袭了黄金时代的大构图传统，却融入了浪漫主义的光影趣味。这幅作品处于他创作成熟期，既保留了地形画的精确性，又未陷入刻板的记录，展现了当时中产阶级对田园牧歌的想象。",
+        "右侧巨树作为前景框架，树皮用厚涂法堆叠出粗糙质感，阳光穿透树冠在岩石坡面上投下斑驳光点。天空云层体积感强，并非均匀平涂，而是通过灰蓝与暖白的交织，暗示了午后光线的变化与空气的流动。这种对自然光影的捕捉，体现了画家对户外写生的重视。",
+        "画面虽美，却显露出画室创作的痕迹。牧人与牲畜的比例略显刻意，像是为了平衡构图而摆放的道具，缺乏野外劳作的真实动态。这种理想化的宁静，是当时城市买家渴望的逃避之所，而非农民真实的生存现场。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.45,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-121864",
+      "source": "cma",
+      "sourceId": "121864",
+      "sourceUrl": "https://clevelandart.org/art/1942.2.11.a",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Double-Leaf Doors",
+      "title_zh": "双叶门",
+      "artist_en": "Pierre Rousseau (French, 1751–1829)",
+      "artist_zh": "皮埃尔·卢梭",
+      "artist_id": "pierre-rousseau-french-1751-1829",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1751–1829",
+      "date_display": "1790s",
+      "year": 1790,
+      "medium_zh": "木面油画",
+      "dimensions": "Framed: 407.7 x 166.4 x 12.7 cm (160 1/2 x 65 1/2 x 5 in.); Unframed: 274 x 63 cm (107 7/8 x 24 13/16 in.)",
+      "movement_zh": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "门板",
+        "单色画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1942.2.11.a/1942.2.11.a_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1942.2.11.a/1942.2.11.a_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1942.2.11.a/1942.2.11.a_web.jpg",
+        "ratio": 1.717
+      },
+      "palette": [
+        "#8d7e61",
+        "#c3beab"
+      ],
+      "essay": [
+        "皮埃尔·卢梭是法国大革命时期的装饰画家，此类建筑构件原属室内整体设计的一部分。这幅双叶门板创作于 1790 年代，风格处于洛可可向新古典主义过渡的尾声。它并非独立画作，而是贵族宅邸中功能与审美结合的产物，代表当时装饰艺术的最高水准。",
+        "放大左侧门板中部，可见灰褐色调的单色画（grisaille）装饰。画面描绘了古典瓮、垂花饰与卷草纹，笔触细腻地模仿了浮雕的立体感。这种仿雕塑手法旨在欺骗视觉，让平面木板呈现出石质建筑的厚重与层次。",
+        "然而，作为频繁开合的门扇，这些精细绘画极易磨损。如今边缘的漆面剥落揭示了其作为实用器的命运。这种脆弱性恰恰提醒我们，曾经辉煌的室内装饰往往比架上绘画更难保存，现存完整者寥寥。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.52,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-92964",
+      "source": "cma",
+      "sourceId": "92964",
+      "sourceUrl": "https://clevelandart.org/art/1924.1240",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Antonia",
+      "title_zh": "安东尼娅",
+      "artist_en": "Louise B. Maloney (American, 1887–1973)",
+      "artist_zh": "路易丝·B·马洛尼",
+      "artist_id": "louise-b-maloney-american-1887-1973",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1887–1973",
+      "date_display": "1923",
+      "year": 1923,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 35.3 x 30.5 cm (13 7/8 x 12 in.)",
+      "movement_zh": "现代主义",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "现代",
+        "女性",
+        "油画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1924.1240/1924.1240_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1924.1240/1924.1240_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1924.1240/1924.1240_web.jpg",
+        "ratio": 1.151
+      },
+      "palette": [
+        "#b4a590",
+        "#987f68"
+      ],
+      "essay": [
+        "马洛尼并非艺术史教科书上的常客，但这幅 1923 年的肖像揭示了当时美国女性画家的探索路径。她试图在学院派的造型基础与现代主义的简化趋势之间寻找平衡，不追求照片般的精确，而重神韵。",
+        "面部处理手法独特。瞳孔没有高光，眼神显得有些疏离。肤色不是平滑的，而是用土黄与赭石色块堆叠，鼻梁处的亮色厚涂突出了骨骼结构。眉毛画得极细，像两道弧形的线，赋予人物一种近乎宗教画像的肃穆感。",
+        "虽然题为《安东尼娅》，但人物身份被刻意模糊了。头巾包裹得严严实实，像农妇又像圣徒，这种身份的不确定性是画家的有意为之。笔触有些生涩，尤其是颈部与衣领交接处，处理得略显犹豫，少了些大师的果断。",
+        "这种未完成般的粗糙感，反而让画面透出一股诚实的生涩气息，比那些打磨光滑的沙龙肖像更耐看。它提醒观者，绘画是颜料与画布之间的物理博弈，这份坦诚在百年后依然动人，胜过许多过度修饰的同行之作。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.45,
+        "r": 0.25,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-145374",
+      "source": "cma",
+      "sourceId": "145374",
+      "sourceUrl": "https://clevelandart.org/art/1970.6.2",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Flowers and Birds in a Spring Landscape",
+      "title_zh": "春景花鸟图",
+      "artist_en": "Kano Motonobu (Japanese, c. 1476–1559)",
+      "artist_zh": "狩野元信",
+      "artist_id": "kano-motonobu-japanese-c-1476-1559",
+      "artist_nationality_zh": "日本",
+      "artist_years": "c. 1476–1559",
+      "date_display": "1500s",
+      "year": 1500,
+      "medium_zh": "纸本水墨设色",
+      "dimensions": "Painting only: 177.1 x 137.1 cm (69 3/4 x 54 in.); Including mounting: 259.1 x 151.1 cm (102 x 59 1/2 in.)",
+      "movement_zh": "狩野派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "狩野派",
+        "水墨",
+        "障子画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1970.6.2/1970.6.2_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1970.6.2/1970.6.2_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1970.6.2/1970.6.2_web.jpg",
+        "ratio": 1.294
+      },
+      "palette": [
+        "#dec7a7",
+        "#c7b191"
+      ],
+      "essay": [
+        "狩野元信是日本室町时代狩野派的中兴之祖，确立了汉画与大和绘融合的风格体系。这套作品原为障子画，后被改装为挂轴，体现了当时武家宅邸对宏大装饰画面的需求。他在画坛的地位，类似于同时期欧洲的行会领袖，主导了审美标准。",
+        "画面右下隅的坡岸处理颇见功力。淡墨扫出的水纹极简，却暗示了流动的质感。丛草以尖锋细笔写出，劲挺有力，与右侧探出的枯枝形成呼应。留白占据了大部分画面，营造出春日清晨的薄雾感，空间呼吸感极佳。",
+        "狩野派风格虽集大成，却难免带有某种程式化的工整。水禽的形态精准得近乎标本，少了些许野趣的生动。这种装饰性优先于写实性的处理，正是服务于室内空间的整体和谐，而非单纯的自然再现。作为装饰画，它已圆满完成了空间叙事的使命。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-133024",
+      "source": "cma",
+      "sourceId": "133024",
+      "sourceUrl": "https://clevelandart.org/art/1955.45",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Lonely Temple and Towering Cliff",
+      "title_zh": "孤寺高崖图",
+      "artist_en": "Kenkō Shōkei (Japanese, active 1478–1506)",
+      "artist_zh": "景徐周麟",
+      "artist_id": "kenko-shokei-japanese-active-1478-1506",
+      "artist_nationality_zh": "日本",
+      "artist_years": "活跃于 1478–1506",
+      "date_display": "c. 1480",
+      "year": 1480,
+      "medium_zh": "纸本水墨设色立轴",
+      "dimensions": "Painting only: 85.1 x 31.2 cm (33 1/2 x 12 5/16 in.); Including mounting: 172.2 x 44.1 cm (67 13/16 x 17 3/8 in.)",
+      "movement_zh": "室町时代水墨",
+      "tags": [
+        "山水",
+        "建筑",
+        "15世纪",
+        "日本",
+        "禅宗",
+        "立轴"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1955.45/1955.45_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1955.45/1955.45_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1955.45/1955.45_web.jpg",
+        "ratio": 2.639
+      },
+      "palette": [
+        "#ae987a",
+        "#84735d"
+      ],
+      "essay": [
+        "景徐周麟是室町时代禅僧画家的代表，承袭了南宋院体画风格。这幅作品典型地体现了当时日本水墨画对宋代马远、夏圭样式的吸收与转化，将汉诗意境融入视觉空间，是禅宗墨迹的重要实例。",
+        "画面右下侧的崖壁与松树是笔墨最密集处。斧劈法利落，墨色浓淡区分出岩石的体积感。松针以细劲线条勾勒，与淡墨渲染的远山形成虚实对比，营造出空寂深邃的氛围，引导视线向深处延伸。",
+        "虽有意模仿宋画的苍劲，但线条略显程式化，少了几分自然生长的野趣。题诗占据画面上方大片留白，书法与绘画的比重博弈，反映了禅宗画重意趣轻写实的倾向，视觉重心稍显上轻下重。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.68,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-95257",
+      "source": "cma",
+      "sourceId": "95257",
+      "sourceUrl": "https://clevelandart.org/art/1916.1030",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Street Singer and Child",
+      "title_zh": "街头歌手与孩子",
+      "artist_en": "John Opie (British, 1761–1807)",
+      "artist_zh": "约翰·奥皮",
+      "artist_id": "john-opie-british-1761-1807",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1761–1807",
+      "date_display": "1700s",
+      "year": 1700,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 100 x 87.5 x 11 cm (39 3/8 x 34 7/16 x 4 5/16 in.); Unframed: 76.5 x 64.3 cm (30 1/8 x 25 5/16 in.)",
+      "movement_zh": "英国画派",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "母子",
+        "风俗画"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1916.1030/1916.1030_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1916.1030/1916.1030_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1916.1030/1916.1030_web.jpg",
+        "ratio": 1.207
+      },
+      "palette": [
+        "#291713",
+        "#684a3e"
+      ],
+      "essay": [
+        "约翰·奥皮是 18 世纪英国肖像画界的“康沃尔奇迹”，以描绘底层人物著称。这幅《街头歌手与孩子》属于当时流行的“幻想画”，将流浪者赋予古典主义的尊严，深色背景凸显人物主体，符合皇家艺术学院审美。",
+        "女子面部处于帽檐投下的阴影中，肤色却异常白皙莹润。嘴唇微张，目光并未看向怀中的孩子，而是投向画外虚空处。这种处理弱化了街头谋生的艰辛，五官刻画细腻，带有学院派的理想化痕迹。",
+        "题目虽为街头歌手，但人物衣着整洁，面色红润，毫无风吹日晒之苦。这是当时赞助人乐于见到的“贫穷”——一种被审美过滤后的苦难。奥皮在此妥协于市场，未能彻底贯彻现实主义的粗粝感。",
+        "尽管如此，孩子安睡的姿态与母亲略显疲惫的神情形成对照，那份瞬间的宁静依然动人。画面传递出的母性光辉超越了身份标签，使观者在百年后仍能感受到这份温存。"
+      ],
+      "detailCrop": {
+        "cx": 0.42,
+        "cy": 0.25,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-148698",
+      "source": "cma",
+      "sourceId": "148698",
+      "sourceUrl": "https://clevelandart.org/art/1976.151",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Sunset over Autumn Mountains",
+      "title_zh": "秋山夕照",
+      "artist_en": "Hoashi Kyōu (Japanese, 1810–1884)",
+      "artist_zh": "帆足杏雨",
+      "artist_id": "hoashi-kyou-japanese-1810-1884",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1810–1884",
+      "date_display": "1869",
+      "year": 1869,
+      "medium_zh": "绢本设色立轴",
+      "dimensions": "Mounted: 214.9 x 68.8 cm (84 5/8 x 27 1/16 in.); Painting: 126.9 x 55.2 cm (49 15/16 x 21 3/4 in.)",
+      "movement_zh": "南画",
+      "tags": [
+        "山水",
+        "19世纪",
+        "日本",
+        "秋景",
+        "绢本"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1976.151/1976.151_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1976.151/1976.151_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1976.151/1976.151_web.jpg",
+        "ratio": 2.239
+      },
+      "palette": [
+        "#b89975",
+        "#92785d"
+      ],
+      "essay": [
+        "帆足杏雨身处江户南画鼎盛期，师承田能村竹田，将中国文人画技法本土化。此作绘于明治初年，笔法已臻成熟，展现了当时日本文人阶层对隐逸山水的向往。画卷纵向构图，意在营造深远的空间感。",
+        "画面中段山石皴法柔和，淡墨层层渲染出岩石的体积感。枯树枝干以焦墨勾勒，与湿润的山体形成干湿对比。瀑布留白处理干脆，暗示水流急。色彩仅施淡赭石，烘托秋意而不夺墨韵。",
+        "虽题为夕照，但画面光线处理较为含蓄，未见明显的夕阳暖色渲染，更多是依靠传统图式而非写生观察。这种对程式的依赖，是当时南画派普遍面临的局限，少了些许自然界的真实生机。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.55,
+        "r": 0.18,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-151337",
+      "source": "cma",
+      "sourceId": "151337",
+      "sourceUrl": "https://clevelandart.org/art/1983.186",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Fish and Rock; Fish and Seaweed",
+      "title_zh": "鱼与岩；鱼与水草",
+      "artist_en": "Rinkyo (Japanese)",
+      "artist_zh": "林居",
+      "artist_id": "rinkyo-japanese",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1573–1615",
+      "date_display": "1573–1615",
+      "year": 1594,
+      "medium_zh": "纸本水墨",
+      "dimensions": "Overall: 139.7 x 42.6 cm (55 x 16 3/4 in.)",
+      "movement_zh": "日本水墨画",
+      "tags": [
+        "水墨",
+        "鱼藻",
+        "17世纪",
+        "日本",
+        "挂轴",
+        "留白"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1983.186/1983.186_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1983.186/1983.186_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1983.186/1983.186_web.jpg",
+        "ratio": 1.125
+      },
+      "palette": [
+        "#b4a07f",
+        "#9a866a"
+      ],
+      "essay": [
+        "林居活跃于日本桃山时代，彼时水墨画正从室町时代的严谨向更自由的表达过渡。这对挂轴虽非出自雪舟或等伯等巨匠之手，却典型地反映了当时禅宗美学对“余白”的推崇。画家在纸本上的墨色控制，显示了其对南宋院体画风的继承与本土化改造。",
+        "细节聚焦于左侧卷轴底部的岩块与水草。浓墨泼洒出的岩石轮廓边缘模糊，利用水分自然晕染出湿润的质感。几笔枯墨扫出的水草线条锐利，与浑厚的岩块形成对比。这种“破墨”技法让静止的画面产生了水流涌动的错觉。",
+        "不过，两条挂轴上的鱼姿态略显雷同，缺乏动态上的戏剧性冲突。画家过于依赖留白来营造空间感，导致画面下半部分略显沉重，上半部分则过于空旷。这种失衡可能是有意为之，但也削弱了视觉重心的稳定性。",
+        "尽管如此，这种极简的处理迫使观者将注意力集中在墨色的微妙变化上。在金色的屏风背景盛行之际，这种纯粹的水墨双幅显得尤为冷静与克制。"
+      ],
+      "detailCrop": {
+        "cx": 0.25,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-95195",
+      "source": "cma",
+      "sourceId": "95195",
+      "sourceUrl": "https://clevelandart.org/art/1915.87",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of an \"Old Sea Captain\"",
+      "title_zh": "老船长肖像",
+      "artist_en": "Samuel Isham (American, 1855–1914)",
+      "artist_zh": "塞缪尔·伊沙姆",
+      "artist_id": "samuel-isham-american-1855-1914",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1855–1914",
+      "date_display": "19th century",
+      "year": null,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 73.3 x 59.4 cm (28 7/8 x 23 3/8 in.)",
+      "movement_zh": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "老人",
+        "男性"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_web.jpg",
+        "ratio": 1.232
+      },
+      "palette": [
+        "#312e2a",
+        "#706852"
+      ],
+      "essay": [
+        "塞缪尔·伊沙姆是 19 世纪末美国肖像画的重要代表，活跃于纽约艺术圈。这幅作品延续了他一贯的写实风格，旨在捕捉人物的社会地位与性格特征。此类老年男性肖像在当时常用于纪念家族长辈或社区领袖，带有明显的时代印记。",
+        "画面焦点集中在老者面部。帽檐投下的阴影加深了眼窝的深邃感，松弛的眼袋与深刻的法令纹记录了岁月的痕迹。眼神并未直视观众，而是望向远方，嘴唇紧闭，透露出一种历经风霜后的沉静与固执。",
+        "虽题为“老船长”，但人物衣着体面，双手洁净，缺乏海上劳作应有的粗糙感。这种理想化处理削弱了职业特征，更像是一位退休的绅士。不过，椅背上的狮子雕刻暗示了某种权威，勉强呼应了船长的身份。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-173634",
+      "source": "cma",
+      "sourceId": "173634",
+      "sourceUrl": "https://clevelandart.org/art/1915.700",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Dog Watching",
+      "title_zh": "宋人画犬图",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详",
+      "date_display": "960–1279",
+      "year": 1119,
+      "medium_zh": "绢本设色",
+      "dimensions": "Diameter: 22.6 cm (8 7/8 in.)",
+      "movement_zh": "宋代院体画",
+      "tags": [
+        "动物",
+        "宋代",
+        "绢本",
+        "佚名",
+        "走狗",
+        "册页"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1915.700/1915.700_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1915.700/1915.700_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1915.700/1915.700_web.jpg",
+        "ratio": 1.002
+      },
+      "palette": [
+        "#6a5c46",
+        "#ada18c"
+      ],
+      "essay": [
+        "宋代院体画追求格物致知，此作虽佚名，却具典型宫廷趣味。画家常以珍禽异兽入画，既是记录，也是对自然秩序的审视。这只细犬并非野外流浪之物，而是贵族狩猎的伙伴，身份尊贵。",
+        "猎犬双耳微垂，眼神聚焦于画外某处，鼻梁线条挺直。口鼻部渲染细腻，白色毛发通过留白与淡墨烘托，不见笔触痕迹。这种警觉而安静的姿态，捕捉了动物瞬间的本能反应，动态自然。",
+        "画面背景繁密，前景猎犬却异常洁净，几乎不见泥土痕迹。这种刻意提纯的处理，暴露了画家的服务对象——他们需要的是一只符合审美理想的宠物，而非真实荒野中的生灵。绢本变色后，整体色调趋于古旧，反而增添了时间感。"
+      ],
+      "detailCrop": {
+        "cx": 0.62,
+        "cy": 0.55,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-136666",
+      "source": "cma",
+      "sourceId": "136666",
+      "sourceUrl": "https://clevelandart.org/art/1961.204",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Birds and Flowers in a Landscape of the Four Seasons",
+      "title_zh": "四季花鸟图屏风",
+      "artist_en": "Sesshū Tōyō (Japanese, 1420–1506)",
+      "artist_zh": "雪舟等杨",
+      "artist_id": "sesshu-toyo-japanese-1420-1506",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1420–1506",
+      "date_display": "1550–99",
+      "year": 1550,
+      "medium_zh": "纸本水墨设色六曲屏风",
+      "dimensions": "Image: 158.5 x 359.4 cm (62 3/8 x 141 1/2 in.); Panel: 62.8 cm (24 3/4 in.); Including mounting: 174.6 x 281 cm (68 3/4 x 110 5/8 in.)",
+      "movement_zh": "室町水墨",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "水墨",
+        "屏风",
+        "雪舟派"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1961.204/1961.204_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1961.204/1961.204_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1961.204/1961.204_web.jpg",
+        "ratio": 0.468
+      },
+      "palette": [
+        "#b49a7d",
+        "#816d56"
+      ],
+      "essay": [
+        "雪舟是日本水墨画集大成者，将宋代院体画与日本审美融合。此作年代晚于其卒年，应出自雪舟派后继者之手，反映了室町后期画坛对大师风格的追随与固化，是典型的派系传承之作。",
+        "远山以淡墨横扫，营造出朦胧的空气感，墨色层次微妙。山脊线条刚劲，斧劈皴法清晰可见，显示出笔锋的侧扫力度。水面留白处理干净，与浓墨坡石形成质感对比，空间层次分明。",
+        "程式化构图虽稳妥，却少了几分雪舟真迹中的狂放与个性。花鸟造型略显刻板，色彩敷染趋于装饰性，失去了水墨写意原本的生动气韵，更像是为满足屏风装饰需求而制作的精品，而非纯粹的艺术探索。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.25,
+        "r": 0.12,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-153357",
+      "source": "cma",
+      "sourceId": "153357",
+      "sourceUrl": "https://clevelandart.org/art/1986.49.9",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Landscape",
+      "title_zh": "山水页",
+      "artist_en": "Zhai Dakun (Chinese, d. 1804)",
+      "artist_zh": "翟大坤",
+      "artist_id": "zhai-dakun-chinese-d-1804",
+      "artist_nationality_zh": "中国",
+      "artist_years": "不详–1804",
+      "date_display": "1775",
+      "year": 1775,
+      "medium_zh": "绢本设色",
+      "dimensions": "Overall: 41.2 x 31.5 cm (16 1/4 x 12 3/8 in.)",
+      "movement_zh": "清代文人画",
+      "tags": [
+        "山水",
+        "清代",
+        "绢本",
+        "18世纪",
+        "翟大坤"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1986.49.9/1986.49.9_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1986.49.9/1986.49.9_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1986.49.9/1986.49.9_web.jpg",
+        "ratio": 1.296
+      },
+      "palette": [
+        "#a4845b",
+        "#8b6f4d"
+      ],
+      "essay": [
+        "翟大坤是清代乾隆年间活跃的职业画家，以摹古见长，笔致秀润。此作绘于 1775 年，正值其创作盛期，属于典型的清代文人山水册页。这类作品通常用于文人间的酬酢或案头清玩，不追求宏大叙事，而重笔墨情趣与意境的营造。",
+        "画面左下角的枯树与茅屋是视觉重心。画家利用绢本特性，以干笔淡墨皴擦树干，呈现出粗糙的树皮质感。茅屋隐于林间，线条简练，与远处淡墨渲染的迷蒙山峦形成虚实对比，营造出江南水乡特有的湿润空气感。",
+        "不过，这种构图在清代画坛颇为常见，略显程式化。远山的处理过于柔和，缺乏宋元山水的峻峭骨力，显示出当时画家对古人笔意的依赖多于对真山水的观察。虽少了几分野性，却多了几分书卷气的温吞与雅致。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "background"
+      }
+    }
+  ]
+}
