@@ -36277,6 +36277,471 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1986.49.9/1986.49.9_web.jpg",
       "ratio": 1.296
+    },
+    {
+      "id": "cma-149183",
+      "issue": "2026-10-21",
+      "t": "《攀猿图》",
+      "a": "夏圭",
+      "aid": "xia-gui-chinese-active-c-1209-c-1243",
+      "y": 1150,
+      "mv": "南宋院体",
+      "tags": [
+        "动物",
+        "水墨",
+        "南宋",
+        "册页",
+        "夏圭",
+        "猿猴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.1/1978.1_web.jpg",
+      "ratio": 0.83
+    },
+    {
+      "id": "cma-81391",
+      "issue": "2026-10-21",
+      "t": "晾亚麻布，或修道院月升",
+      "a": "莫里斯·德尼",
+      "aid": "maurice-denis-french-1870-1943",
+      "y": 1894,
+      "mv": "纳比派",
+      "tags": [
+        "风景",
+        "夜景",
+        "19世纪",
+        "法国",
+        "纳比派",
+        "装饰主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.109/2020.109_web.jpg",
+      "ratio": 1.139
+    },
+    {
+      "id": "cma-143234",
+      "issue": "2026-10-21",
+      "t": "有风车的风景",
+      "a": "雅各布·范·雷斯达尔",
+      "aid": "jacob-van-ruisdael-dutch-1628-29-1682",
+      "y": 1646,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风景",
+        "17世纪",
+        "荷兰",
+        "天空",
+        "风车"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.19/1967.19_web.jpg",
+      "ratio": 0.721
+    },
+    {
+      "id": "cma-167142",
+      "issue": "2026-10-21",
+      "t": "男子肖像",
+      "a": "古斯塔夫·卡耶博特",
+      "aid": "gustave-caillebotte-french-1848-1894",
+      "y": 1880,
+      "mv": "印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "印象派",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2009.157/2009.157_web.jpg",
+      "ratio": 1.245
+    },
+    {
+      "id": "cma-136216",
+      "issue": "2026-10-21",
+      "t": "凯达拉拉吉尼",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1660,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "音乐",
+        "17世纪",
+        "印度",
+        "夜景",
+        "细密画",
+        "宗教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.116/1960.116_web.jpg",
+      "ratio": 1.376
+    },
+    {
+      "id": "cma-150841",
+      "issue": "2026-10-21",
+      "t": "画家",
+      "a": "欧内斯特·梅索尼埃",
+      "aid": "ernest-meissonier-french-1815-1891",
+      "y": 1855,
+      "mv": "学院派",
+      "tags": [
+        "自画像",
+        "画室",
+        "19世纪",
+        "法国",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.247/1982.247_web.jpg",
+      "ratio": 1.272
+    },
+    {
+      "id": "cma-153389",
+      "issue": "2026-10-21",
+      "t": "大卫：「噢，但愿我有翅膀像鸽子！」",
+      "a": "弗雷德里克·莱顿",
+      "aid": "frederic-leighton-british-1830-1896",
+      "y": 1865,
+      "mv": "学院派",
+      "tags": [
+        "宗教题材",
+        "19世纪",
+        "英国",
+        "学院派",
+        "圣经故事",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.74/1986.74_web.jpg",
+      "ratio": 0.781
+    },
+    {
+      "id": "cma-86108",
+      "issue": "2026-10-21",
+      "t": "雨中行役图",
+      "a": "岳翁宗求",
+      "aid": "gakuo-zokyu-japanese-active-about-1482-1514",
+      "y": 1500,
+      "mv": "室町时代水墨画",
+      "tags": [
+        "水墨",
+        "风景",
+        "16世纪",
+        "日本",
+        "室町",
+        "雨景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.512/2015.512_web.jpg",
+      "ratio": 1.314
+    },
+    {
+      "id": "cma-154244",
+      "issue": "2026-10-21",
+      "t": "塞切尼伯爵夫人肖像",
+      "a": "费迪南德·格奥尔格·瓦尔德米勒",
+      "aid": "ferdinand-georg-waldmuller-austrian-1793-1865",
+      "y": 1828,
+      "mv": "比德迈尔",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "奥地利",
+        "贵族",
+        "比德迈尔",
+        "写实主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.57/1988.57_web.jpg",
+      "ratio": 1.252
+    },
+    {
+      "id": "cma-151021",
+      "issue": "2026-10-21",
+      "t": "克里希纳接受花环",
+      "a": "西塔拉姆",
+      "aid": "sitaram-indian",
+      "y": 1750,
+      "mv": "拉杰普特绘画",
+      "tags": [
+        "宗教题材",
+        "18世纪",
+        "印度",
+        "拉杰普特",
+        "细密画",
+        "建筑"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.65/1982.65_web.jpg",
+      "ratio": 1.316
+    },
+    {
+      "id": "cma-173167",
+      "issue": "2026-10-21",
+      "t": "绕纱线（南塔克特厨房内部）",
+      "a": "伊斯特曼·约翰逊",
+      "aid": "eastman-johnson-american-1824-1906",
+      "y": 1872,
+      "mv": "现实主义",
+      "tags": [
+        "风俗画",
+        "室内场景",
+        "19世纪",
+        "美国",
+        "现实主义",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.682/1915.682_web.jpg",
+      "ratio": 0.68
+    },
+    {
+      "id": "cma-121870",
+      "issue": "2026-10-21",
+      "t": "双扇门",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "新古典主义",
+        "木门",
+        "单色画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.13.a/1942.2.13.a_web.jpg",
+      "ratio": 3.689
+    },
+    {
+      "id": "cma-111435",
+      "issue": "2026-10-21",
+      "t": "圣母加冕",
+      "a": "弗勒登贝格祭坛画大师",
+      "aid": "master-of-the-frondenberg-altarpiece-german",
+      "y": 1410,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "德国",
+        "祭坛画",
+        "哥特式"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1929.920/1929.920_web.jpg",
+      "ratio": 1.355
+    },
+    {
+      "id": "cma-150074",
+      "issue": "2026-10-21",
+      "t": "《芙蓉七十二峰图屏风》",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1785,
+      "mv": "四条派",
+      "tags": [
+        "山水",
+        "屏风",
+        "18世纪",
+        "日本",
+        "金箔水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.28/1980.28_web.jpg",
+      "ratio": 0.261
+    },
+    {
+      "id": "cma-155822",
+      "issue": "2026-10-21",
+      "t": "纳撒尼尔·奥兹",
+      "a": "杰普塔·霍默·韦德",
+      "aid": "jeptha-homer-wade-american-1811-1890",
+      "y": 1837,
+      "mv": "美国民间艺术",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "民间艺术",
+        "眼镜"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1991.134.2/1991.134.2_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-150078",
+      "issue": "2026-10-21",
+      "t": "意大利场景",
+      "a": "莱奥波德·罗伯特",
+      "aid": "leopold-robert-swiss-1794-1835",
+      "y": null,
+      "mv": "浪漫主义",
+      "tags": [
+        "风俗画",
+        "母子",
+        "19世纪",
+        "意大利",
+        "瑞士画家"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.283/1980.283_web.jpg",
+      "ratio": 1.215
+    },
+    {
+      "id": "cma-137956",
+      "issue": "2026-10-21",
+      "t": "《鹦鹉故事：王子加冕与恶仆处决》",
+      "a": "苏拉朱",
+      "aid": "suraju-indian",
+      "y": 1560,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "细密画",
+        "手抄本插图",
+        "16世纪",
+        "印度",
+        "宫廷叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.73.a/1962.279.73.a_web.jpg",
+      "ratio": 1.378
+    },
+    {
+      "id": "cma-163110",
+      "issue": "2026-10-21",
+      "t": "道教神祇图 册页（第十三开）",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1200,
+      "mv": "宋代绘画",
+      "tags": [
+        "宗教",
+        "白描",
+        "13世纪",
+        "中国",
+        "宋代",
+        "道教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2004.1.13/2004.1.13_web.jpg",
+      "ratio": 0.894
+    },
+    {
+      "id": "cma-152557",
+      "issue": "2026-10-21",
+      "t": "双马图",
+      "a": "余元",
+      "aid": "yu-yuan-chinese-active-1700s",
+      "y": 1777,
+      "mv": "清代宫廷",
+      "tags": [
+        "动物",
+        "清代",
+        "绢本",
+        "马",
+        "中国画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.372/1985.372_web.jpg",
+      "ratio": 1.24
+    },
+    {
+      "id": "cma-151543",
+      "issue": "2026-10-21",
+      "t": "书画会图",
+      "a": "河锅晓斋",
+      "aid": "kawanabe-kyosai-japanese-1831-1889",
+      "y": 1880,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗画",
+        "明治时代",
+        "日本",
+        "书画",
+        "聚会",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.88/1983.88_web.jpg",
+      "ratio": 1.976
+    },
+    {
+      "id": "cma-122344",
+      "issue": "2026-10-21",
+      "t": "玛丽·安·乔利夫肖像",
+      "a": "盖恩斯伯勒·杜邦",
+      "aid": "gainsborough-dupont-british-1754-1797",
+      "y": 1788,
+      "mv": "乔治亚风格",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "英国",
+        "女性",
+        "乔治亚时代",
+        "布面油画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.640/1942.640_web.jpg",
+      "ratio": 1.107
+    },
+    {
+      "id": "cma-161023",
+      "issue": "2026-10-21",
+      "t": "芦雁图",
+      "a": "边寿民",
+      "aid": "bian-shoumin-chinese-1684-1752",
+      "y": 1700,
+      "mv": "扬州画派",
+      "tags": [
+        "花鸟",
+        "水墨",
+        "清代",
+        "扬州画派",
+        "册页",
+        "芦雁"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.260.j/1999.260.j_web.jpg",
+      "ratio": 0.752
+    },
+    {
+      "id": "cma-170082",
+      "issue": "2026-10-21",
+      "t": "自画像与五位缪斯",
+      "a": "亨利·丘奇",
+      "aid": "henry-church-american-1836-1908",
+      "y": 1880,
+      "mv": "民间艺术",
+      "tags": [
+        "肖像",
+        "寓言",
+        "19世纪",
+        "美国",
+        "民间艺术",
+        "胡须"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2012.30/2012.30_web.jpg",
+      "ratio": 1.258
+    },
+    {
+      "id": "cma-94846",
+      "issue": "2026-10-21",
+      "t": "哀悼基督",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1500,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教题材",
+        "16世纪",
+        "欧洲",
+        "文艺复兴",
+        "祭坛画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.407/1915.407_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "cma-90269",
+      "issue": "2026-10-21",
+      "t": "疏野堂图",
+      "a": "文清",
+      "aid": "bunsei-muncheong-japanese-or-korean-active-mid-15th-century",
+      "y": 1700,
+      "mv": "文人画",
+      "tags": [
+        "水墨山水",
+        "18世纪",
+        "东亚",
+        "挂轴",
+        "文人画",
+        "隐居"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.515/2015.515_web.jpg",
+      "ratio": 2.267
     }
   ]
 }
