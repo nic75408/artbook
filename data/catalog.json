@@ -37141,6 +37141,438 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2012.72.2/2012.72.2_web.jpg",
       "ratio": 0.455
+    },
+    {
+      "id": "cma-135512",
+      "issue": "2026-10-24",
+      "t": "《阿尼埃尔的浴者》习作",
+      "a": "乔治·修拉",
+      "aid": "georges-seurat-french-1859-1891",
+      "y": 1883,
+      "mv": "新印象派",
+      "tags": [
+        "习作",
+        "19世纪",
+        "法国",
+        "新印象派",
+        "河畔",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.51/1958.51_web.jpg",
+      "ratio": 0.63
+    },
+    {
+      "id": "cma-150839",
+      "issue": "2026-10-24",
+      "t": "海神尼普顿与安菲特里忒的凯旋",
+      "a": "弗兰斯·弗兰肯二世",
+      "aid": "frans-francken-flemish-1581-1642",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "17世纪",
+        "佛兰德斯",
+        "铜板油画",
+        "巴洛克",
+        "海景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.245/1982.245_web.jpg",
+      "ratio": 0.772
+    },
+    {
+      "id": "cma-707624",
+      "issue": "2026-10-24",
+      "t": "御殿山花见图",
+      "a": "歌川丰国",
+      "aid": "utagawa-toyokuni-japanese-1769-1825",
+      "y": 1750,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "樱花",
+        "江户"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2026.46/2026.46_web.jpg",
+      "ratio": 0.642
+    },
+    {
+      "id": "cma-128375",
+      "issue": "2026-10-24",
+      "t": "圣杰罗姆的幻象",
+      "a": "乔瓦尼·巴蒂斯塔·兰盖蒂",
+      "aid": "giovanni-battista-langetti-italian-1635-1676",
+      "y": 1660,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "明暗对照",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1951.334/1951.334_web.jpg",
+      "ratio": 1.345
+    },
+    {
+      "id": "cma-153339",
+      "issue": "2026-10-24",
+      "t": "冬景山水图",
+      "a": "叶雪",
+      "aid": "yeoseol-korean",
+      "y": 1500,
+      "mv": "朝鲜王朝绘画",
+      "tags": [
+        "山水",
+        "16世纪",
+        "朝鲜",
+        "水墨",
+        "冬季",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.45/1986.45_web.jpg",
+      "ratio": 1.741
+    },
+    {
+      "id": "cma-129805",
+      "issue": "2026-10-24",
+      "t": "亚伯拉罕接待三位天使",
+      "a": "弗朗切斯科·瓜尔迪",
+      "aid": "francesco-guardi-italian-1712-1793",
+      "y": 1750,
+      "mv": "洛可可",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "威尼斯画派",
+        "圣经题材"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.235.4/1952.235.4_web.jpg",
+      "ratio": 0.74
+    },
+    {
+      "id": "cma-394757",
+      "issue": "2026-10-24",
+      "t": "水星（布达），出自曼迪占星系列",
+      "a": "桑朱",
+      "aid": "sanju-indian-active-late-1700s-early-1800s",
+      "y": 1810,
+      "mv": "细密画",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "印度",
+        "占星",
+        "宗教",
+        "细密画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.433/2020.433_web.jpg",
+      "ratio": 1.206
+    },
+    {
+      "id": "cma-121877",
+      "issue": "2026-10-24",
+      "t": "装饰面板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰",
+        "18世纪",
+        "法国",
+        "油画",
+        "新古典主义",
+        "室内装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.4/1942.2.4_web.jpg",
+      "ratio": 4.762
+    },
+    {
+      "id": "cma-107283",
+      "issue": "2026-10-24",
+      "t": "阿尔万·克拉克",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1870,
+      "mv": "写实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "美国",
+        "男性",
+        "佚名作品"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1925.126/1925.126_web.jpg",
+      "ratio": 1.222
+    },
+    {
+      "id": "cma-143140",
+      "issue": "2026-10-24",
+      "t": "新罕布什尔州北康威习作",
+      "a": "大卫·约翰逊",
+      "aid": "david-johnson-american-1827-1908",
+      "y": 1851,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "油画",
+        "哈德逊河派",
+        "写生"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.125/1967.125_web.jpg",
+      "ratio": 0.803
+    },
+    {
+      "id": "cma-152832",
+      "issue": "2026-10-24",
+      "t": "河景图",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "水墨",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.8/1985.71.8_web.jpg",
+      "ratio": 1.558
+    },
+    {
+      "id": "cma-539869",
+      "issue": "2026-10-24",
+      "t": "《Kalpa-sutra》经文第 36 页（背面）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "经文",
+        "15世纪",
+        "印度",
+        "手稿",
+        "那教",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.36.b/1932.119.36.b_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-125885",
+      "issue": "2026-10-24",
+      "t": "花鸟图",
+      "a": "狩野松栄",
+      "aid": "kano-shoei-japanese-1519-1592",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "金地",
+        "屏风",
+        "狩野派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.128.1/1948.128.1_web.jpg",
+      "ratio": 0.479
+    },
+    {
+      "id": "cma-147927",
+      "issue": "2026-10-24",
+      "t": "大智律师肖像",
+      "a": "刘陶",
+      "aid": "liu-tao-chinese-late-1000s-early-1100s",
+      "y": 1100,
+      "mv": "宋代",
+      "tags": [
+        "肖像",
+        "佛教",
+        "12世纪",
+        "中国",
+        "宋代",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1974.29/1974.29_web.jpg",
+      "ratio": 2.344
+    },
+    {
+      "id": "cma-129803",
+      "issue": "2026-10-24",
+      "t": "托比亚斯与天使",
+      "a": "弗朗切斯科·瓜尔迪",
+      "aid": "francesco-guardi-italian-1712-1793",
+      "y": 1750,
+      "mv": "洛可可",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "意大利",
+        "布面油画",
+        "洛可可",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.235.2/1952.235.2_web.jpg",
+      "ratio": 0.742
+    },
+    {
+      "id": "cma-146143",
+      "issue": "2026-10-24",
+      "t": "《徒然草图屏风》",
+      "a": "松村吴春",
+      "aid": "matsumura-goshun-japanese-1752-1811",
+      "y": 1750,
+      "mv": "四条派",
+      "tags": [
+        "日本画",
+        "屏风",
+        "文学题材",
+        "18世纪",
+        "四条派",
+        "人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.43/1971.43_web.jpg",
+      "ratio": 0.924
+    },
+    {
+      "id": "cma-121879",
+      "issue": "2026-10-24",
+      "t": "装饰面板",
+      "a": "皮埃尔·卢梭",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "18世纪",
+        "法国",
+        "神话题材",
+        "垂直构图",
+        "室内装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.6/1942.2.6_web.jpg",
+      "ratio": 4.891
+    },
+    {
+      "id": "cma-539839",
+      "issue": "2026-10-24",
+      "t": "卡尔帕经 第 45 页背面",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1500,
+      "mv": "印度细密画",
+      "tags": [
+        "耆那教",
+        "手稿",
+        "15世纪",
+        "印度",
+        "经文",
+        "宗教艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.45.b/1932.119.45.b_web.jpg",
+      "ratio": 0.446
+    },
+    {
+      "id": "cma-152826",
+      "issue": "2026-10-24",
+      "t": "卢仝与侍者",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "文人画",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "水墨",
+        "清代",
+        "茶事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.2/1985.71.2_web.jpg",
+      "ratio": 1.532
+    },
+    {
+      "id": "cma-448461",
+      "issue": "2026-10-24",
+      "t": "花草图",
+      "a": "椿椿山",
+      "aid": "tsubaki-chinzan-japanese-1801-1854",
+      "y": 1841,
+      "mv": "南画",
+      "tags": [
+        "花鸟",
+        "19世纪",
+        "日本",
+        "绢本",
+        "南画",
+        "水仙"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.56.f/1976.56.f_web.jpg",
+      "ratio": 0.767
+    },
+    {
+      "id": "cma-143243",
+      "issue": "2026-10-24",
+      "t": "册页：花鸟图册（牡丹）",
+      "a": "张若",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代宫廷绘画",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "设色",
+        "清代",
+        "牡丹"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193.e/1967.193.e_web.jpg",
+      "ratio": 0.721
+    },
+    {
+      "id": "cma-125886",
+      "issue": "2026-10-24",
+      "t": "花鸟图",
+      "a": "狩野光信",
+      "aid": "kano-mitsunobu-japanese-1565-1608",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "金地",
+        "屏风"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1948.128.2/1948.128.2_web.jpg",
+      "ratio": 0.478
+    },
+    {
+      "id": "cma-137211",
+      "issue": "2026-10-24",
+      "t": "秋江帆影（仿范宽）",
+      "a": "梅清",
+      "aid": "mei-qing-chinese-1623-1697",
+      "y": 1690,
+      "mv": "黄山派",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "水墨",
+        "清代",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.157.8/1962.157.8_web.jpg",
+      "ratio": 0.663
     }
   ]
 }
