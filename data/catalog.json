@@ -37573,6 +37573,406 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1962.157.8/1962.157.8_web.jpg",
       "ratio": 0.663
+    },
+    {
+      "id": "cma-113164",
+      "issue": "2026-10-26",
+      "t": "新婚夫妇",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1470,
+      "mv": "早期尼德兰画派",
+      "tags": [
+        "肖像",
+        "婚姻",
+        "15世纪",
+        "尼德兰",
+        "服饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.179/1932.179_web.jpg",
+      "ratio": 1.698
+    },
+    {
+      "id": "cma-132017",
+      "issue": "2026-10-26",
+      "t": "万壑松风图",
+      "a": "吴历",
+      "aid": "wu-li-chinese-1632-1718",
+      "y": 1659,
+      "mv": "清初正统派",
+      "tags": [
+        "山水",
+        "清代",
+        "文人画",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.584/1954.584_web.jpg",
+      "ratio": 3.705
+    },
+    {
+      "id": "cma-148369",
+      "issue": "2026-10-26",
+      "t": "伊丽莎白·斯皮格尔肖像",
+      "a": "迪尔克·迪尔克松·桑特福特",
+      "aid": "dirck-dircksz-santvoort-dutch-1610-11-1680",
+      "y": 1639,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "音乐",
+        "儿童"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.81/1975.81_web.jpg",
+      "ratio": 1.263
+    },
+    {
+      "id": "cma-136933",
+      "issue": "2026-10-26",
+      "t": "二代目三条勘太郎饰演浦岛太郎",
+      "a": "怀月堂安度",
+      "aid": "kaigetsudo-ando-japanese-c-1671-1743",
+      "y": 1700,
+      "mv": "浮世绘",
+      "tags": [
+        "歌舞伎",
+        "江户时代",
+        "肉笔绘",
+        "服饰",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1961.41/1961.41_web.jpg",
+      "ratio": 1.989
+    },
+    {
+      "id": "cma-140476",
+      "issue": "2026-10-26",
+      "t": "梧桐菊花图",
+      "a": "酒井抱一",
+      "aid": "sakai-hoitsu-japanese-1761-1828",
+      "y": 1800,
+      "mv": "琳派",
+      "tags": [
+        "花鸟",
+        "屏风",
+        "江户时代",
+        "日本",
+        "金底",
+        "琳派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.386/1964.386_web.jpg",
+      "ratio": 0.96
+    },
+    {
+      "id": "cma-135181",
+      "issue": "2026-10-26",
+      "t": "溪边菊花图",
+      "a": "尾形光琳",
+      "aid": "ogata-korin-japanese-1658-1716",
+      "y": 1715,
+      "mv": "琳派",
+      "tags": [
+        "花鸟画",
+        "江户时代",
+        "屏风",
+        "装饰主义",
+        "日本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.206.1/1958.206.1_web.jpg",
+      "ratio": 0.451
+    },
+    {
+      "id": "cma-135182",
+      "issue": "2026-10-26",
+      "t": "溪边菊花图",
+      "a": "尾形光琳",
+      "aid": "ogata-korin-japanese-1658-1716",
+      "y": 1715,
+      "mv": "琳派",
+      "tags": [
+        "屏风",
+        "花卉",
+        "江户时代",
+        "日本画",
+        "装饰艺术",
+        "金地"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.206.2/1958.206.2_web.jpg",
+      "ratio": 0.472
+    },
+    {
+      "id": "cma-135517",
+      "issue": "2026-10-26",
+      "t": "马戏团",
+      "a": "苏珊娜·瓦拉东",
+      "aid": "suzanne-valadon-french-1865-1938",
+      "y": 1889,
+      "mv": "后印象派",
+      "tags": [
+        "马戏团",
+        "19世纪",
+        "法国",
+        "风俗画",
+        "表演场景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.56/1958.56_web.jpg",
+      "ratio": 0.81
+    },
+    {
+      "id": "cma-148671",
+      "issue": "2026-10-26",
+      "t": "钟离权渡海图",
+      "a": "赵琦",
+      "aid": "zhao-qi-chinese-active-early-1500s",
+      "y": 1506,
+      "mv": "明代人物画",
+      "tags": [
+        "宗教人物",
+        "八仙",
+        "明代",
+        "绢本",
+        "海浪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.13/1976.13_web.jpg",
+      "ratio": 2.332
+    },
+    {
+      "id": "cma-149098",
+      "issue": "2026-10-26",
+      "t": "枯木鹰图",
+      "a": "黄慎",
+      "aid": "huang-shen-chinese-1687-after-1768",
+      "y": 1755,
+      "mv": "扬州八怪",
+      "tags": [
+        "清代",
+        "花鸟",
+        "写意",
+        "扬州八怪",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.31/1977.31_web.jpg",
+      "ratio": 2.918
+    },
+    {
+      "id": "cma-145907",
+      "issue": "2026-10-26",
+      "t": "萱蝶图",
+      "a": "刘善守",
+      "aid": "liu-shanshou-chinese-active-1300s",
+      "y": 1300,
+      "mv": "元代绘画",
+      "tags": [
+        "花鸟",
+        "水墨",
+        "14世纪",
+        "中国",
+        "绢本",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1971.132/1971.132_web.jpg",
+      "ratio": 2.586
+    },
+    {
+      "id": "cma-149654",
+      "issue": "2026-10-26",
+      "t": "四艺图",
+      "a": "狩野松荣",
+      "aid": "kano-shoei-japanese-1519-1592",
+      "y": 1550,
+      "mv": "狩野派",
+      "tags": [
+        "屏风",
+        "水墨画",
+        "16世纪",
+        "日本",
+        "人物山水"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.46.2/1979.46.2_web.jpg",
+      "ratio": 0.458
+    },
+    {
+      "id": "cma-148312",
+      "issue": "2026-10-26",
+      "t": "卡普里岛",
+      "a": "威廉·斯坦利·哈斯尔廷",
+      "aid": "william-stanley-haseltine-american-1835-1900",
+      "y": 1869,
+      "mv": "哈德逊河画派",
+      "tags": [
+        "海景",
+        "19世纪",
+        "美国",
+        "自然主义",
+        "岩石地貌"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.4/1975.4_web.jpg",
+      "ratio": 0.625
+    },
+    {
+      "id": "cma-153229",
+      "issue": "2026-10-26",
+      "t": "孔雀凤凰图屏风",
+      "a": "土佐光吉",
+      "aid": "tosa-mitsuyoshi-japanese-1539-1613",
+      "y": 1500,
+      "mv": "土佐派",
+      "tags": [
+        "屏风",
+        "花鸟",
+        "16世纪",
+        "日本",
+        "金地",
+        "桃山时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.2/1986.2_web.jpg",
+      "ratio": 0.939
+    },
+    {
+      "id": "cma-135659",
+      "issue": "2026-10-26",
+      "t": "无染原罪",
+      "a": "巴托洛梅·埃斯特万·牟利罗",
+      "aid": "bartolome-esteban-murillo-spanish-1617-1682",
+      "y": 1680,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "圣母",
+        "17世纪",
+        "西班牙",
+        "巴洛克",
+        "天使"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.189/1959.189_web.jpg",
+      "ratio": 1.744
+    },
+    {
+      "id": "cma-129859",
+      "issue": "2026-10-26",
+      "t": "桃花源图",
+      "a": "石锐",
+      "aid": "shi-rui-chinese-c-1400-c-1470",
+      "y": 1400,
+      "mv": "明代院体",
+      "tags": [
+        "山水",
+        "明代",
+        "绢本",
+        "桃花源",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.283/1952.283_web.jpg",
+      "ratio": 1.052
+    },
+    {
+      "id": "cma-149590",
+      "issue": "2026-10-26",
+      "t": "边塞牧马图",
+      "a": "焦秉贞",
+      "aid": "jiao-bingzhen-chinese-active-c-1670-1726",
+      "y": 1717,
+      "mv": "清代宫廷绘画",
+      "tags": [
+        "清代",
+        "宫廷绘画",
+        "人马",
+        "中西合璧",
+        "扇面"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.18/1979.18_web.jpg",
+      "ratio": 0.695
+    },
+    {
+      "id": "cma-132014",
+      "issue": "2026-10-26",
+      "t": "浔阳送别图",
+      "a": "文伯仁",
+      "aid": "wen-boren-chinese-1502-1575",
+      "y": 1500,
+      "mv": "吴门画派",
+      "tags": [
+        "明代",
+        "山水",
+        "手卷",
+        "文学题材",
+        "吴门画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.581/1954.581_web.jpg",
+      "ratio": 0.102
+    },
+    {
+      "id": "cma-84732",
+      "issue": "2026-10-26",
+      "t": "侧面女子",
+      "a": "亨利·马丁",
+      "aid": "henri-jean-guillaume-martin-french-1860-1943",
+      "y": 1889,
+      "mv": "新印象派",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "点彩"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2022.433/2022.433_web.jpg",
+      "ratio": 1.899
+    },
+    {
+      "id": "cma-699644",
+      "issue": "2026-10-26",
+      "t": "山涧",
+      "a": "朱莉·H·比尔",
+      "aid": "julie-h-beers-american-1835-1913",
+      "y": 1870,
+      "mv": "哈德逊河派",
+      "tags": [
+        "风景",
+        "溪流",
+        "19世纪",
+        "美国",
+        "自然主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2025.199/2025.199_web.jpg",
+      "ratio": 0.591
+    },
+    {
+      "id": "cma-170789",
+      "issue": "2026-10-26",
+      "t": "乞丐向圣人鞠躬（萨利姆王子相册）",
+      "a": "巴萨瓦纳",
+      "aid": "basavana-indian-active-c-1560-1600",
+      "y": 1742,
+      "mv": "莫卧儿绘画",
+      "tags": [
+        "宗教题材",
+        "16世纪",
+        "印度",
+        "细密画",
+        "肖像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.296/2013.296_web.jpg",
+      "ratio": 1.333
+    },
+    {
+      "id": "cma-137824",
+      "issue": "2026-10-26",
+      "t": "《鹦鹉母亲告诫幼鸟勿与狐狸玩耍》（出自《鹦鹉故事》第五夜）",
+      "a": "达萨万特",
+      "aid": "dasavanta-indian-d-1584",
+      "y": 1560,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "细密画",
+        "动物题材",
+        "16世纪",
+        "印度",
+        "莫卧儿艺术",
+        "手抄本插图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.279.32.a/1962.279.32.a_web.jpg",
+      "ratio": 1.533
     }
   ]
 }
