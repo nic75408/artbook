@@ -13,6 +13,8 @@ scripts/strict_check.py（体检）复用，也便于单元测试独立加载。
 """
 import re
 
+from pipeline.config import MAX_IMAGE_RATIO, MIN_IMAGE_RATIO
+
 # --- 必填字符串字段：前端无兜底直接渲染（feed/详情/画册），空值即"空数据上线" ---
 REQUIRED_STR_FIELDS = (
     "id", "source", "sourceId", "sourceUrl", "credit",
@@ -92,7 +94,8 @@ def validate_work(w):
             v = img.get(k)
             if not isinstance(v, str) or not v.strip():
                 errs.append(f"image.{k} 缺失")
-        if not (isinstance(img.get("ratio"), (int, float)) and 0.1 < img["ratio"] < 10):
+        if not (isinstance(img.get("ratio"), (int, float))
+                and MIN_IMAGE_RATIO < img["ratio"] < MAX_IMAGE_RATIO):
             errs.append("ratio 非法")
     palette = w.get("palette")
     if not (isinstance(palette, list) and palette

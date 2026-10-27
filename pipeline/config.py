@@ -39,6 +39,10 @@ PAINTING_RATIO = 0.70         # 绘画类占比 >= 70%
 MAX_PER_ARTIST_POOL = 4       # 候选池内同画家上限
 MAX_PER_ARTIST_ISSUE = 2      # 期内同画家上限
 
+# --- 图片比例闸门（t_d6f39a82：中国立轴/手卷 h/w 常超 10，旧上限 10 误拦） ---
+MIN_IMAGE_RATIO = 0.1         # 原逻辑保留：极端横幅下限
+MAX_IMAGE_RATIO = 30          # 覆盖最极端的中国立轴画（原 10 → 30）
+
 # --- 分类白名单（各源措辞不同，适配器内做包含匹配） ---
 CLASSIFICATION_WHITELIST = ("painting", "drawing", "watercolor", "print", "pastel", "tempera", "oil")
 PAINTING_CLASSES = ("painting", "oil", "tempera")

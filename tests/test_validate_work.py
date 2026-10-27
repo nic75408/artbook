@@ -119,6 +119,8 @@ class TestValidateWork(unittest.TestCase):
                             for e in validate_work(make_work(image={**make_work()["image"], "ratio": 0.01}))))
         self.assertTrue(any("ratio 非法" in e
                             for e in validate_work(make_work(image={**make_work()["image"], "ratio": 99}))))
+        # t_d6f39a82：中国立轴画 h/w 常超旧上限 10，ratio=15 不应被拦截
+        self.assertEqual(validate_work(make_work(image={**make_work()["image"], "ratio": 15})), [])
 
     def test_palette_required(self):
         for bad in (None, [], ["red"], ["#342c24", "zzz"]):
