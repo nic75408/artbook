@@ -448,9 +448,14 @@ svg.icon.icon-lg { width: 32px; height: 32px; stroke-width: 2; }
      container-type: inline-size，100cqw 就是 .frame-wrapper 自身的真实渲染
      宽度，天然等于浏览器实际分配给画框的空间，任何比例、任何屏宽下都不会
      超出容器——不是数值上的凑近似，是结构性的"永远等于容器宽度"。
-     需要预先扣掉画框自身的 padding+border（6px×2 + 1px×2 = 14px） */
-  width: min(calc(100cqw - 14px), calc((100dvh - var(--pad-t) - var(--pad-b) - 220px) / var(--r, 1.2)));
-  aspect-ratio: calc(1 / var(--r, 1.2));
+     需要预先扣掉画框自身的 padding+border（6px×2 + 1px×2 = 14px）
+     t_03383a4f：MIN_IMAGE_RATIO 放宽到 0.02 后，极端横幅（中国手卷）的
+     aspect-ratio: calc(1/--r) 在 --r 很小时把图片压成一条细缝（高=宽×0.02）。
+     用 max(var(--r,1.2), 0.1) 把显示层面的等效比例下限钳在 0.1，
+     保证瀑布流里手卷的显示高度 ≥ 列宽的 10%——这只影响呈现，不影响
+     pipeline 落盘的真实 image.ratio 数值。 */
+  width: min(calc(100cqw - 14px), calc((100dvh - var(--pad-t) - var(--pad-b) - 220px) / max(var(--r, 1.2), 0.1)));
+  aspect-ratio: calc(1 / max(var(--r, 1.2), 0.1));
   background: var(--bg-card);
   margin: 0 auto;  /* 窄画在 320px 容器内居中 */
 }
