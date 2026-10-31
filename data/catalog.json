@@ -38381,6 +38381,477 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1978.67/1978.67_web.jpg",
       "ratio": 0.023
+    },
+    {
+      "id": "cma-86111",
+      "issue": "2026-11-01",
+      "t": "潇湘八景之远浦归帆",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1505,
+      "mv": "室町水墨",
+      "tags": [
+        "潇湘八景",
+        "水墨山水",
+        "15世纪",
+        "日本",
+        "禅宗",
+        "立轴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.589/2015.589_web.jpg",
+      "ratio": 1.94
+    },
+    {
+      "id": "cma-140150",
+      "issue": "2026-11-01",
+      "t": "三联画局部：圣安东尼修道院院长",
+      "a": "弗拉·菲利波·利皮",
+      "aid": "fra-filippo-lippi-italian-c-1406-1469",
+      "y": 1458,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "肖像",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "三联画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.150.2/1964.150.2_web.jpg",
+      "ratio": 1.856
+    },
+    {
+      "id": "cma-173644",
+      "issue": "2026-11-01",
+      "t": "山台楼阁图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1119,
+      "mv": "宋代",
+      "tags": [
+        "山水",
+        "楼阁",
+        "宋代",
+        "绢本",
+        "佚名",
+        "小品"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.701/1915.701_web.jpg",
+      "ratio": 0.92
+    },
+    {
+      "id": "cma-370119",
+      "issue": "2026-11-01",
+      "t": "圣家族与圣凯瑟琳的神秘婚姻",
+      "a": "马索·达·圣弗里亚诺",
+      "aid": "tommaso-d-antonio-manzuoli-called-maso-da-san-friano-italian-1531-1571",
+      "y": 1560,
+      "mv": "风格主义",
+      "tags": [
+        "宗教",
+        "圣家族",
+        "16世纪",
+        "意大利",
+        "色彩",
+        "佛罗伦萨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2019.168/2019.168_web.jpg",
+      "ratio": 1.31
+    },
+    {
+      "id": "cma-149119",
+      "issue": "2026-11-01",
+      "t": "蚕织图",
+      "a": "梁楷",
+      "aid": "liang-kai-chinese-mid-1100s-early-1200s",
+      "y": 1200,
+      "mv": "南宋院体画",
+      "tags": [
+        "风俗",
+        "纺织",
+        "13世纪",
+        "中国",
+        "南宋",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.5/1977.5_web.jpg",
+      "ratio": 0.088
+    },
+    {
+      "id": "cma-159731",
+      "issue": "2026-11-01",
+      "t": "高松堂图",
+      "a": "王翚",
+      "aid": "wang-hui-chinese-1632-1717",
+      "y": 1703,
+      "mv": "清初正统派",
+      "tags": [
+        "山水",
+        "松树",
+        "清代",
+        "纸本设色",
+        "手卷",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.106/1997.106_web.jpg",
+      "ratio": 0.066
+    },
+    {
+      "id": "cma-121871",
+      "issue": "2026-11-01",
+      "t": "双叶门扇",
+      "a": "皮埃尔·鲁索",
+      "aid": "pierre-rousseau-french-1751-1829",
+      "y": 1790,
+      "mv": "新古典主义",
+      "tags": [
+        "装饰艺术",
+        "门扇",
+        "18世纪",
+        "法国",
+        "建筑构件",
+        "灰度画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1942.2.13.b/1942.2.13.b_web.jpg",
+      "ratio": 3.704
+    },
+    {
+      "id": "cma-160723",
+      "issue": "2026-11-01",
+      "t": "湖州十八景",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "册页",
+        "明代",
+        "中国",
+        "丝绸装裱",
+        "湖州"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78/1998.78_web.jpg",
+      "ratio": 0.905
+    },
+    {
+      "id": "cma-97164",
+      "issue": "2026-11-01",
+      "t": "《圣母与圣子及圣安东尼等众圣徒》",
+      "a": "洛伦佐·达·圣塞韦里诺",
+      "aid": "lorenzo-da-sanseverino-italian-1468-1500",
+      "y": 1490,
+      "mv": "意大利文艺复兴",
+      "tags": [
+        "宗教",
+        "圣母",
+        "15世纪",
+        "意大利",
+        "祭坛画",
+        "威尼斯画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.800/1916.800_web.jpg",
+      "ratio": 1.724
+    },
+    {
+      "id": "cma-145123",
+      "issue": "2026-11-01",
+      "t": "仿黄公望山水图",
+      "a": "顾天志",
+      "aid": "gu-tianzhi-chinese-active-mid-1600s",
+      "y": 1649,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "仿黄公望",
+        "17世纪",
+        "中国",
+        "清代",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.3/1970.3_web.jpg",
+      "ratio": 0.058
+    },
+    {
+      "id": "cma-86104",
+      "issue": "2026-11-01",
+      "t": "海岸风景",
+      "a": "岩佐又兵卫",
+      "aid": "iwasa-matabei-japanese-1578-1650",
+      "y": 1594,
+      "mv": "狩野派",
+      "tags": [
+        "海岸",
+        "风景",
+        "17世纪",
+        "日本",
+        "水墨画",
+        "狩野派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2015.507/2015.507_web.jpg",
+      "ratio": 0.687
+    },
+    {
+      "id": "cma-149116",
+      "issue": "2026-11-01",
+      "t": "兰亭修禊图",
+      "a": "樊圻",
+      "aid": "fan-yi-chinese-c-1615-before-1688",
+      "y": 1671,
+      "mv": "金陵画派",
+      "tags": [
+        "雅集",
+        "手卷",
+        "清代",
+        "金陵八家",
+        "山水人物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.47/1977.47_web.jpg",
+      "ratio": 0.046
+    },
+    {
+      "id": "cma-173676",
+      "issue": "2026-11-01",
+      "t": "宫苑图",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1319,
+      "mv": "界画",
+      "tags": [
+        "界画",
+        "建筑",
+        "元代",
+        "团扇",
+        "宫廷",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1915.704/1915.704_web.jpg",
+      "ratio": 0.925
+    },
+    {
+      "id": "cma-160141",
+      "issue": "2026-11-01",
+      "t": "香山九老图",
+      "a": "谢环",
+      "aid": "xie-huan-chinese-c-1370-c-1450",
+      "y": 1426,
+      "mv": "明代院体画",
+      "tags": [
+        "人物",
+        "九老图",
+        "15世纪",
+        "中国",
+        "明代",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.99/1997.99_web.jpg",
+      "ratio": 0.057
+    },
+    {
+      "id": "cma-144920",
+      "issue": "2026-11-01",
+      "t": "《支许清谈图》",
+      "a": "蓝瑛",
+      "aid": "lan-ying-chinese-1585-after-1664",
+      "y": 1643,
+      "mv": "浙派",
+      "tags": [
+        "人物",
+        "山水",
+        "17世纪",
+        "中国",
+        "浙派",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1970.128/1970.128_web.jpg",
+      "ratio": 2.302
+    },
+    {
+      "id": "cma-152852",
+      "issue": "2026-11-01",
+      "t": "《山居僧听松图》",
+      "a": "一休宗纯",
+      "aid": "ikkyu-sojun-japanese-1394-1481",
+      "y": 1400,
+      "mv": "禅画",
+      "tags": [
+        "禅画",
+        "书法",
+        "15世纪",
+        "日本",
+        "水墨",
+        "隐逸"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.89/1985.89_web.jpg",
+      "ratio": 2.381
+    },
+    {
+      "id": "cma-147574",
+      "issue": "2026-11-01",
+      "t": "仙山楼观图",
+      "a": "石锐",
+      "aid": "shi-rui-chinese-c-1400-c-1470",
+      "y": 1400,
+      "mv": "明代院体",
+      "tags": [
+        "青绿山水",
+        "手卷",
+        "明代",
+        "宫廷绘画",
+        "仙境"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1973.72/1973.72_web.jpg",
+      "ratio": 0.073
+    },
+    {
+      "id": "cma-160738",
+      "issue": "2026-11-01",
+      "t": "玉台峰",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代山水",
+      "tags": [
+        "山水",
+        "玉台峰",
+        "16世纪",
+        "中国",
+        "明代",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.6/1998.78.6_web.jpg",
+      "ratio": 0.909
+    },
+    {
+      "id": "cma-149109",
+      "issue": "2026-11-01",
+      "t": "四季花卉图卷",
+      "a": "王谷祥",
+      "aid": "wang-guxiang-chinese-1501-1568",
+      "y": 1531,
+      "mv": "吴门画派",
+      "tags": [
+        "花卉",
+        "四季",
+        "明代",
+        "吴门画派",
+        "手卷",
+        "绢本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1977.4/1977.4_web.jpg",
+      "ratio": 0.041
+    },
+    {
+      "id": "cma-160134",
+      "issue": "2026-11-01",
+      "t": "佛陀度五比丘图",
+      "a": "李升",
+      "aid": "li-sheng-chinese-active-c-1324-after-1375",
+      "y": 1300,
+      "mv": "元代绘画",
+      "tags": [
+        "宗教",
+        "山水",
+        "14世纪",
+        "中国",
+        "元代",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1997.92/1997.92_web.jpg",
+      "ratio": 0.071
+    },
+    {
+      "id": "cma-148243",
+      "issue": "2026-11-01",
+      "t": "杂画册 第八开",
+      "a": "樊圻",
+      "aid": "fan-qi-chinese-1616-after-1694",
+      "y": 1650,
+      "mv": "金陵画派",
+      "tags": [
+        "山水",
+        "册页",
+        "17世纪",
+        "中国",
+        "清初"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1975.22.8/1975.22.8_web.jpg",
+      "ratio": 0.524
+    },
+    {
+      "id": "cma-150496",
+      "issue": "2026-11-01",
+      "t": "印谱图卷",
+      "a": "细川林谷",
+      "aid": "hosokawa-rinkoku-japanese-1779-1843",
+      "y": 1842,
+      "mv": "南画",
+      "tags": [
+        "篆刻",
+        "高士",
+        "江户时代",
+        "日本",
+        "手卷",
+        "金石学"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.56/1981.56_web.jpg",
+      "ratio": 0.076
+    },
+    {
+      "id": "cma-543427",
+      "issue": "2026-11-01",
+      "t": "《汲古弃今图》",
+      "a": "钱慧安",
+      "aid": "qian-hui-an-chinese-1833-1911",
+      "y": 1850,
+      "mv": "海派",
+      "tags": [
+        "人物",
+        "叙事",
+        "19世纪",
+        "中国",
+        "晚清",
+        "海派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2023.163/2023.163_web.jpg",
+      "ratio": 0.633
+    },
+    {
+      "id": "cma-160892",
+      "issue": "2026-11-01",
+      "t": "篆书幸福论",
+      "a": "杨沂孙",
+      "aid": "yang-yisun-chinese-1813-1881",
+      "y": 1871,
+      "mv": "清代篆书",
+      "tags": [
+        "书法",
+        "篆书",
+        "19世纪",
+        "中国",
+        "清代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1999.174.6/1999.174.6_web.jpg",
+      "ratio": 3.896
+    },
+    {
+      "id": "cma-170785",
+      "issue": "2026-11-01",
+      "t": "《察合台语赞酒诗书法（背页）》",
+      "a": "米尔扎·穆罕默德",
+      "aid": "mirza-muhammad-probably-persian-active-c-1520s",
+      "y": 1510,
+      "mv": "波斯细密画",
+      "tags": [
+        "书法",
+        "手稿",
+        "16世纪",
+        "波斯",
+        "伊斯兰艺术",
+        "金箔"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.292.b/2013.292.b_web.jpg",
+      "ratio": 1.596
     }
   ]
 }
