@@ -38852,6 +38852,404 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2013.292.b/2013.292.b_web.jpg",
       "ratio": 1.596
+    },
+    {
+      "id": "cma-150968",
+      "issue": "2026-11-03",
+      "t": "冷杉与暴云",
+      "a": "阿尔伯特·比尔施塔特",
+      "aid": "albert-bierstadt-american-born-prussia-now-germany-1830-1902",
+      "y": 1870,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "美国",
+        "光影",
+        "浪漫主义",
+        "哈德逊河派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1982.37/1982.37_web.jpg",
+      "ratio": 0.733
+    },
+    {
+      "id": "cma-113068",
+      "issue": "2026-11-03",
+      "t": "卡尔帕经第 41 页（正面）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "手稿",
+        "耆那教"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.41.a/1932.119.41.a_web.jpg",
+      "ratio": 0.457
+    },
+    {
+      "id": "cma-140153",
+      "issue": "2026-11-03",
+      "t": "竹虫图",
+      "a": "吴炳",
+      "aid": "wu-bing-chinese-active-1190-1194",
+      "y": 1100,
+      "mv": "宋代院体画",
+      "tags": [
+        "花鸟",
+        "南宋",
+        "写生",
+        "团扇",
+        "工笔",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.154/1964.154_web.jpg",
+      "ratio": 0.887
+    },
+    {
+      "id": "cma-150062",
+      "issue": "2026-11-03",
+      "t": "马丁先生肖像",
+      "a": "让 - 弗朗索瓦·米勒",
+      "aid": "jean-francois-millet-french-1814-1875",
+      "y": 1840,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "早期作品",
+        "男性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.270/1980.270_web.jpg",
+      "ratio": 1.208
+    },
+    {
+      "id": "cma-149412",
+      "issue": "2026-11-03",
+      "t": "《竹石乔柯图》",
+      "a": "倪瓒",
+      "aid": "ni-zan-chinese-1301-1374",
+      "y": 1300,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "14世纪",
+        "中国",
+        "元代",
+        "倪瓒",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1978.65/1978.65_web.jpg",
+      "ratio": 1.642
+    },
+    {
+      "id": "cma-97178",
+      "issue": "2026-11-03",
+      "t": "壁龛中的圣母与圣子",
+      "a": "安东尼奥·德尔·切拉约洛",
+      "aid": "antonio-del-ceraiolo-italian",
+      "y": 1520,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "圣母",
+        "佛罗伦萨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.813/1916.813_web.jpg",
+      "ratio": 1.365
+    },
+    {
+      "id": "cma-113067",
+      "issue": "2026-11-03",
+      "t": "卡尔帕经第 42 页（正面）",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1487,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "手稿",
+        "书法",
+        "金饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1932.119.42.a/1932.119.42.a_web.jpg",
+      "ratio": 0.457
+    },
+    {
+      "id": "cma-151447",
+      "issue": "2026-11-03",
+      "t": "虎图屏风",
+      "a": "岸驹",
+      "aid": "kishi-ganku-japanese-1749-56-1838",
+      "y": 1800,
+      "mv": "圆山四条派",
+      "tags": [
+        "动物",
+        "19世纪",
+        "日本",
+        "虎",
+        "屏风",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1983.3.1/1983.3.1_web.jpg",
+      "ratio": 0.479
+    },
+    {
+      "id": "cma-142578",
+      "issue": "2026-11-03",
+      "t": "秦淮忆旧图",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1674,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "册页",
+        "石涛",
+        "设色",
+        "南京"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1966.31.7/1966.31.7_web.jpg",
+      "ratio": 1.254
+    },
+    {
+      "id": "cma-150031",
+      "issue": "2026-11-03",
+      "t": "《穆尔桑特的泥灰岩坑：黄昏》",
+      "a": "安托万·尚特雷伊",
+      "aid": "antoine-chintreuil-french-1814-1873",
+      "y": 1857,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松",
+        "黄昏",
+        "外光派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.245/1980.245_web.jpg",
+      "ratio": 0.477
+    },
+    {
+      "id": "cma-135655",
+      "issue": "2026-11-03",
+      "t": "钟馗倚鬼图",
+      "a": "罗聘",
+      "aid": "luo-ping-chinese-1733-1799",
+      "y": 1700,
+      "mv": "扬州八怪",
+      "tags": [
+        "人物",
+        "18世纪",
+        "中国",
+        "清代",
+        "鬼怪",
+        "文人画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1959.185/1959.185_web.jpg",
+      "ratio": 1.952
+    },
+    {
+      "id": "cma-160741",
+      "issue": "2026-11-03",
+      "t": "合溪市",
+      "a": "宋旭",
+      "aid": "song-xu-chinese-1525-c-1606",
+      "y": 1588,
+      "mv": "明代绘画",
+      "tags": [
+        "山水",
+        "明代",
+        "中国",
+        "江南",
+        "绢本",
+        "16世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1998.78.9/1998.78.9_web.jpg",
+      "ratio": 0.906
+    },
+    {
+      "id": "cma-149957",
+      "issue": "2026-11-03",
+      "t": "潇湘八景图四景",
+      "a": "谷文晁",
+      "aid": "tani-buncho-japanese-1763-1841",
+      "y": 1788,
+      "mv": "南画",
+      "tags": [
+        "山水",
+        "18世纪",
+        "日本",
+        "南画",
+        "江户时代",
+        "潇湘八景"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.188/1980.188_web.jpg",
+      "ratio": 0.458
+    },
+    {
+      "id": "cma-140443",
+      "issue": "2026-11-03",
+      "t": "虎丘十二景图册之竹亭",
+      "a": "沈周",
+      "aid": "shen-zhou-chinese-1427-1509",
+      "y": 1490,
+      "mv": "吴门画派",
+      "tags": [
+        "山水",
+        "15世纪",
+        "中国",
+        "吴门画派",
+        "沈周",
+        "虎丘"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.371.11/1964.371.11_web.jpg",
+      "ratio": 0.763
+    },
+    {
+      "id": "cma-154040",
+      "issue": "2026-11-03",
+      "t": "昆虫祭",
+      "a": "物林承刀",
+      "aid": "motsurin-joto-japanese-d-1492",
+      "y": 1741,
+      "mv": "日本水墨画",
+      "tags": [
+        "昆虫",
+        "拟人",
+        "水墨",
+        "江户时代",
+        "幽默",
+        "书法"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.16/1988.16_web.jpg",
+      "ratio": 0.692
+    },
+    {
+      "id": "cma-149762",
+      "issue": "2026-11-03",
+      "t": "《雪色界天白》",
+      "a": "法若真",
+      "aid": "fa-ruozhen-chinese-1613-1696",
+      "y": 1690,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "雪景",
+        "清代",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.76/1979.76_web.jpg",
+      "ratio": 0.047
+    },
+    {
+      "id": "cma-412329",
+      "issue": "2026-11-03",
+      "t": "《圣洁之镜》书页",
+      "a": "阿卜杜勒·拉希姆",
+      "aid": "abd-al-rahim-the-anbarin-qalam-indian-active-c-1590-1630",
+      "y": 1605,
+      "mv": "莫卧儿细密画",
+      "tags": [
+        "书法",
+        "宗教",
+        "17世纪",
+        "印度",
+        "莫卧儿",
+        "手抄本"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.323.b/2013.323.b_web.jpg",
+      "ratio": 1.368
+    },
+    {
+      "id": "cma-143238",
+      "issue": "2026-11-03",
+      "t": "《绚彩写诚 册》",
+      "a": "张若霭",
+      "aid": "zhang-ruoai-chinese-1713-1746",
+      "y": 1700,
+      "mv": "清代绘画",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "清代",
+        "册页",
+        "宫廷绘画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1967.193/1967.193_web.jpg",
+      "ratio": 1.215
+    },
+    {
+      "id": "cma-132308",
+      "issue": "2026-11-03",
+      "t": "《有余闲图》",
+      "a": "姚廷美",
+      "aid": "yao-tingmei-chinese-active-mid-1300s",
+      "y": 1360,
+      "mv": "元代文人画",
+      "tags": [
+        "人物",
+        "14世纪",
+        "中国",
+        "元代",
+        "高士",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1954.791/1954.791_web.jpg",
+      "ratio": 0.032
+    },
+    {
+      "id": "cma-149891",
+      "issue": "2026-11-03",
+      "t": "梅花牡丹图",
+      "a": "高凤翰",
+      "aid": "gao-fenghan-chinese-1683-1749",
+      "y": 1741,
+      "mv": "扬州八怪",
+      "tags": [
+        "花鸟",
+        "18世纪",
+        "中国",
+        "清代",
+        "金石",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1980.13/1980.13_web.jpg",
+      "ratio": 0.053
+    },
+    {
+      "id": "cma-152827",
+      "issue": "2026-11-03",
+      "t": "仿马远山水",
+      "a": "闵贞",
+      "aid": "min-zhen-chinese-1730-after-1788",
+      "y": 1788,
+      "mv": "扬州画派",
+      "tags": [
+        "山水",
+        "18世纪",
+        "中国",
+        "清代",
+        "仿古",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1985.71.3/1985.71.3_web.jpg",
+      "ratio": 1.561
     }
   ]
 }
