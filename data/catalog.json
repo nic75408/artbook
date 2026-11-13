@@ -39250,6 +39250,480 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/1985.71.3/1985.71.3_web.jpg",
       "ratio": 1.561
+    },
+    {
+      "id": "cma-125104",
+      "issue": "2026-11-14",
+      "t": "舞者饰带",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas-french-1834-1917",
+      "y": 1895,
+      "mv": "印象派",
+      "tags": [
+        "舞蹈",
+        "19世纪",
+        "法国",
+        "印象派",
+        "室内",
+        "光影"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1946.83/1946.83_web.jpg",
+      "ratio": 0.349
+    },
+    {
+      "id": "cma-150389",
+      "issue": "2026-11-14",
+      "t": "台阶上的圣家族",
+      "a": "尼古拉·普桑",
+      "aid": "nicolas-poussin-french-1594-1665",
+      "y": 1648,
+      "mv": "古典主义",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "法国",
+        "古典主义",
+        "家庭",
+        "构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.18/1981.18_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-148395",
+      "issue": "2026-11-14",
+      "t": "宫中图",
+      "a": "周文矩",
+      "aid": "zhou-wenju-chinese-active-942-961",
+      "y": 1140,
+      "mv": "五代",
+      "tags": [
+        "人物",
+        "宫廷",
+        "五代",
+        "中国",
+        "工笔",
+        "手卷"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1976.1/1976.1_web.jpg",
+      "ratio": 0.097
+    },
+    {
+      "id": "cma-137259",
+      "issue": "2026-11-14",
+      "t": "《博罗夫人像》",
+      "a": "古斯塔夫·库尔贝",
+      "aid": "gustave-courbet-french-1819-1877",
+      "y": 1863,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "女性",
+        "质感"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1962.2/1962.2_web.jpg",
+      "ratio": 1.306
+    },
+    {
+      "id": "cma-140157",
+      "issue": "2026-11-14",
+      "t": "花鸟图",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1450,
+      "mv": "水墨画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "日本",
+        "水墨",
+        "禅画",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.157.1/1964.157.1_web.jpg",
+      "ratio": 0.774
+    },
+    {
+      "id": "cma-97169",
+      "issue": "2026-11-14",
+      "t": "谷神与酒神",
+      "a": "巴托洛梅乌斯·斯普朗格",
+      "aid": "bartholomaeus-spranger-flemish-1546-1611",
+      "y": 1600,
+      "mv": "风格主义",
+      "tags": [
+        "神话",
+        "17世纪",
+        "佛兰德斯",
+        "裸体",
+        "宫廷艺术"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.805/1916.805_web.jpg",
+      "ratio": 1.645
+    },
+    {
+      "id": "cma-139448",
+      "issue": "2026-11-14",
+      "t": "竹亭诗意图",
+      "a": "吴镇",
+      "aid": "wu-zhen-chinese-1280-1354",
+      "y": 1347,
+      "mv": "元代文人画",
+      "tags": [
+        "山水",
+        "元代",
+        "隐逸",
+        "纸本水墨",
+        "吴镇",
+        "江南"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.259/1963.259_web.jpg",
+      "ratio": 0.062
+    },
+    {
+      "id": "cma-153750",
+      "issue": "2026-11-14",
+      "t": "约翰·亨宁·凯蒂尔·亚尔达马尔博士肖像",
+      "a": "克里斯滕·克布克",
+      "aid": "christen-k-bke-danish-1810-1848",
+      "y": 1833,
+      "mv": "丹麦黄金时代",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "丹麦",
+        "黄金时代",
+        "男性",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.51/1987.51_web.jpg",
+      "ratio": 1.331
+    },
+    {
+      "id": "cma-115985",
+      "issue": "2026-11-14",
+      "t": "拉达与克里希纳的和解",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1795,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "18世纪",
+        "印度",
+        "爱情",
+        "细密画",
+        "帕哈里画派"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1936.682/1936.682_web.jpg",
+      "ratio": 1.349
+    },
+    {
+      "id": "cma-135428",
+      "issue": "2026-11-14",
+      "t": "哈滕费尔斯城堡附近的狩猎",
+      "a": "卢卡斯·克拉纳赫（老）",
+      "aid": "lucas-cranach-the-elder-german-1472-1553",
+      "y": 1540,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "狩猎",
+        "16世纪",
+        "德国",
+        "文艺复兴",
+        "风景",
+        "叙事"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1958.425/1958.425_web.jpg",
+      "ratio": 0.686
+    },
+    {
+      "id": "cma-149610",
+      "issue": "2026-11-14",
+      "t": "《仿古人山水册：秋景》",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "17世纪",
+        "中国",
+        "明代",
+        "仿古",
+        "奇崛"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.1.4/1979.27.1.4_web.jpg",
+      "ratio": 1.13
+    },
+    {
+      "id": "cma-127571",
+      "issue": "2026-11-14",
+      "t": "男子肖像，可能是吉罗拉莫·罗萨蒂",
+      "a": "洛伦佐·洛托",
+      "aid": "lorenzo-lotto-italian-1480-1556",
+      "y": 1533,
+      "mv": "文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "心理",
+        "细节"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1950.250/1950.250_web.jpg",
+      "ratio": 1.084
+    },
+    {
+      "id": "cma-154002",
+      "issue": "2026-11-14",
+      "t": "四季山水图",
+      "a": "狩野永庆",
+      "aid": "kano-hideyori-japanese-active-mid-to-late-1500s",
+      "y": 1500,
+      "mv": "狩野派",
+      "tags": [
+        "山水",
+        "16世纪",
+        "日本",
+        "狩野派",
+        "三联画",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1988.13/1988.13_web.jpg",
+      "ratio": 0.923
+    },
+    {
+      "id": "cma-109245",
+      "issue": "2026-11-14",
+      "t": "伊丽莎白·舒维尔·韦斯特与儿子拉斐尔",
+      "a": "本杰明·韦斯特",
+      "aid": "benjamin-west-american-born-the-thirteen-colonies-1738-1820",
+      "y": 1770,
+      "mv": "新古典主义",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "美国",
+        "母子",
+        "家庭",
+        "新古典主义"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1927.393/1927.393_web.jpg",
+      "ratio": 1.003
+    },
+    {
+      "id": "cma-141484",
+      "issue": "2026-11-14",
+      "t": "流民图",
+      "a": "周臣",
+      "aid": "zhou-chen-chinese-c-1450-c-1536",
+      "y": 1516,
+      "mv": "浙派",
+      "tags": [
+        "人物",
+        "16世纪",
+        "中国",
+        "明代",
+        "风俗",
+        "社会"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.94/1964.94_web.jpg",
+      "ratio": 0.076
+    },
+    {
+      "id": "cma-118792",
+      "issue": "2026-11-14",
+      "t": "信",
+      "a": "卡尔·霍费尔",
+      "aid": "karl-hofer-german-1878-1955",
+      "y": 1934,
+      "mv": "表现主义",
+      "tags": [
+        "肖像",
+        "阅读",
+        "1930年代",
+        "德国",
+        "现代主义",
+        "女性"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1939.750/1939.750_web.jpg",
+      "ratio": 1.294
+    },
+    {
+      "id": "cma-153231",
+      "issue": "2026-11-14",
+      "t": "孔雀竹图",
+      "a": "土佐光吉",
+      "aid": "tosa-mitsuyoshi-japanese-1539-1613",
+      "y": 1500,
+      "mv": "土佐派",
+      "tags": [
+        "花鸟",
+        "16世纪",
+        "日本",
+        "屏风",
+        "金箔",
+        "装饰"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1986.2.2/1986.2.2_web.jpg",
+      "ratio": 0.463
+    },
+    {
+      "id": "cma-146704",
+      "issue": "2026-11-14",
+      "t": "晴峦叠翠：仿黄公望",
+      "a": "王原祁",
+      "aid": "wang-yuanqi-chinese-1642-1715",
+      "y": 1703,
+      "mv": "正统派",
+      "tags": [
+        "山水",
+        "清代",
+        "正统派",
+        "手卷",
+        "文人画",
+        "18世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1972.153/1972.153_web.jpg",
+      "ratio": 0.089
+    },
+    {
+      "id": "cma-97142",
+      "issue": "2026-11-14",
+      "t": "牧羊人的朝拜",
+      "a": "不详",
+      "aid": "unknown",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "基督教",
+        "木板油画",
+        "文艺复兴"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1916.781/1916.781_web.jpg",
+      "ratio": 1.034
+    },
+    {
+      "id": "cma-149619",
+      "issue": "2026-11-14",
+      "t": "桃花小鸟",
+      "a": "陈洪绶",
+      "aid": "chen-hongshou-chinese-1598-99-1652",
+      "y": 1625,
+      "mv": "工笔花鸟",
+      "tags": [
+        "花鸟",
+        "17世纪",
+        "中国",
+        "明代",
+        "折枝",
+        "高古"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1979.27.2.14/1979.27.2.14_web.jpg",
+      "ratio": 1.134
+    },
+    {
+      "id": "cma-124050",
+      "issue": "2026-11-14",
+      "t": "圣母与圣子",
+      "a": "伊奇利奥·费德里科·乔尼",
+      "aid": "icilio-federico-joni-italian-1866-1946",
+      "y": 1400,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "圣母像",
+        "19世纪",
+        "意大利",
+        "摹古",
+        "蛋彩画"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1944.56/1944.56_web.jpg",
+      "ratio": 1.327
+    },
+    {
+      "id": "cma-150470",
+      "issue": "2026-11-14",
+      "t": "节日场景",
+      "a": "铃木南岭",
+      "aid": "suzuki-nanrei-japanese-1775-1844",
+      "y": 1819,
+      "mv": "四条派",
+      "tags": [
+        "风俗画",
+        "江户时代",
+        "日本",
+        "手卷",
+        "节庆",
+        "群像"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1981.35/1981.35_web.jpg",
+      "ratio": 0.048
+    },
+    {
+      "id": "cma-140158",
+      "issue": "2026-11-14",
+      "t": "花鸟图",
+      "a": "雪舟等杨",
+      "aid": "sesshu-toyo-japanese-1420-1506",
+      "y": 1450,
+      "mv": "日本水墨画",
+      "tags": [
+        "花鸟",
+        "15世纪",
+        "日本",
+        "水墨",
+        "禅画",
+        "室町时代"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1964.157.2/1964.157.2_web.jpg",
+      "ratio": 0.765
+    },
+    {
+      "id": "cma-139746",
+      "issue": "2026-11-14",
+      "t": "《竹石幽兰图》",
+      "a": "赵孟頫",
+      "aid": "zhao-mengfu-chinese-1254-1322",
+      "y": 1319,
+      "mv": "文人画",
+      "tags": [
+        "文人画",
+        "元代",
+        "书法入画",
+        "竹石",
+        "手卷",
+        "中国"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1963.515/1963.515_web.jpg",
+      "ratio": 0.067
+    },
+    {
+      "id": "cma-394516",
+      "issue": "2026-11-14",
+      "t": "潇湘八景诗画",
+      "a": "云谷等颜",
+      "aid": "unkoku-togan-japanese-1547-1618",
+      "y": 1605,
+      "mv": "汉画派",
+      "tags": [
+        "山水",
+        "手卷",
+        "17世纪",
+        "日本",
+        "诗画合一",
+        "水墨"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2020.258/2020.258_web.jpg",
+      "ratio": 0.062
     }
   ]
 }
