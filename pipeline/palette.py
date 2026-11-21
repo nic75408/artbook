@@ -13,14 +13,20 @@ from io import BytesIO
 
 from PIL import Image
 
+from .net import _UA
+
 FALLBACK_PALETTE = ["#888888", "#cccccc"]
 
 
 def extract_palette(url, timeout=10):
     try:
-        # 用 curl 下载图片（绕过 Python SSL 问题）
+        # 用 curl 下载图片（绕过 Python SSL 问题）。
+        # 2026-11-21（t_6795558f）：UA 必须用完整浏览器 UA（net._UA），
+        # 短 UA 'Mozilla/5.0' 在 images.metmuseum.org 的 Imperva WAF 下会被当假图片
+        # 挑战页拦下（status 200 但 body 是 HTML），Image.open 抛异常退到兜底色——
+        # 之前一直"能跑"是因为有 FALLBACK_PALETTE 兜底掩盖了这个问题。
         result = subprocess.run(
-            ['curl', '-m', str(timeout), '-sS', '-A', 'Mozilla/5.0', url],
+            ['curl', '-m', str(timeout), '-sS', '-A', _UA, url],
             capture_output=True,
             timeout=timeout + 5
         )
