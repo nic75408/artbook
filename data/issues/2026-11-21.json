@@ -1,0 +1,1394 @@
+{
+  "v": 1,
+  "date": "2026-11-21",
+  "works": [
+    {
+      "id": "met-37788",
+      "source": "met",
+      "sourceId": "37788",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/37788",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Devananda's Fourteen Auspicious Dreams Foretelling the Birth of Mahavira: Folio from a Kalpasutra Manuscript",
+      "title_zh": "《卡尔帕苏特拉手稿：大雄诞生的十四吉梦》",
+      "artist_en": "Master of the Jaunpur Kalpasutra",
+      "artist_zh": "贾温普尔手稿大师",
+      "artist_id": "master-of-the-jaunpur-kalpasutra",
+      "artist_nationality_zh": "印度",
+      "artist_years": "不详",
+      "date_display": "ca. 1465",
+      "year": 1465,
+      "medium_zh": "纸上不透明水彩",
+      "dimensions": "Overall: 4 5/8 x 11 1/2 in. (11.8 x 29.2 cm)",
+      "movement_zh": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "手稿",
+        "细密画",
+        "耆那教"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DT6940.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DT6940.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DT6940.jpg",
+        "ratio": 0.401
+      },
+      "palette": [
+        "#a96952",
+        "#b29682"
+      ],
+      "essay": [
+        "这幅作品出自 15 世纪印度西部风格的耆那教手稿《卡尔帕苏特拉》。画家常被归为「贾温普尔手稿大师」，其作坊以鲜艳的矿物颜料和严谨的经文抄写闻名。此页描绘了大雄之母特里沙拉王后梦见的十四吉兆，是耆那教艺术中的经典题材。",
+        "镜头聚焦于王后的侧脸。典型的印度细密画风格赋予她夸张的渔形眼，眼角延伸至耳际，瞳孔漆黑。面部轮廓扁平，几乎没有鼻梁起伏，神情处于冥想般的静止状态。这种程式化的五官并非写实，而是为了传达神圣的宁静。",
+        "画面完全摒弃了纵深空间，人物与上方的梦境符号悬浮于红色背景之上。这种平面化处理虽牺牲了立体感，却强化了装饰性与叙事清晰度。色彩历经数百年依旧浓烈，但人物姿态略显僵硬，缺乏动态生机。"
+      ],
+      "detailCrop": {
+        "cx": 0.7,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-437188",
+      "source": "met",
+      "sourceId": "437188",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437188",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Interior of a Gothic Church at Night",
+      "title_zh": "哥特式教堂内部夜景",
+      "artist_en": "Pieter Neeffs the Elder",
+      "artist_zh": "老皮特·内夫斯",
+      "artist_id": "pieter-neeffs-the-elder",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "约 1578–1656",
+      "date_display": "probably ca. 1635–40",
+      "year": 1635,
+      "medium_zh": "铜板油画",
+      "dimensions": "5 1/8 x 6 1/2 in. (13 x 16.5 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "建筑",
+        "17世纪",
+        "佛兰德斯",
+        "光影",
+        "夜景",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/ep30.58.21.bw.R.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/ep30.58.21.bw.R.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep30.58.21.bw.R.jpg",
+        "ratio": 0.806
+      },
+      "palette": [
+        "#4c4c4c",
+        "#8f8f8f"
+      ],
+      "essay": [
+        "老皮特·内夫斯是佛兰德斯巴洛克时期教堂内景画的代表人物。这幅铜板油画创作于 1635 至 1640 年间，属于他成熟期的典型制式。在尺幅仅 13 厘米高的面上构建宏大空间，是当时安特卫普画派迎合收藏家珍奇室陈列的流行趣味。",
+        "画面核心在于对哥特式拱顶与纵深透视的精确掌控。幽暗的中殿深处，人造光源被处理成高亮的焦点，与冷峻的石柱形成明暗反差。地面方砖的透视线条汇聚于远方祭坛，营造出深邃且静谧的宗教空间感。",
+        "虽题为夜景，光线逻辑却服务于戏剧性而非真实。人物不过是比例尺般的点缀，衣着模糊难辨。这种将建筑作为主角、人类作为配角的处理，虽削弱了叙事性，却强化了空间本身的庄严与永恒。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "cma-153606",
+      "source": "cma",
+      "sourceId": "153606",
+      "sourceUrl": "https://clevelandart.org/art/1987.139",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "White Pansy",
+      "title_zh": "白色三色堇",
+      "artist_en": "Georgia O'Keeffe (American, 1887–1986)",
+      "artist_zh": "乔治亚·欧姬芙",
+      "artist_id": "georgia-o-keeffe-american-1887-1986",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1887–1986",
+      "date_display": "1927",
+      "year": 1927,
+      "medium_zh": "布面油画",
+      "dimensions": "Framed: 94.5 x 79.2 x 5.1 cm (37 3/16 x 31 3/16 x 2 in.); Unframed: 91.7 x 76.3 cm (36 1/8 x 30 1/16 in.)",
+      "movement_zh": "现代主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "花卉",
+        "构图"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1987.139/1987.139_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1987.139/1987.139_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1987.139/1987.139_web.jpg",
+        "ratio": 1.215
+      },
+      "palette": [
+        "#d8d7cd",
+        "#b9bbb8"
+      ],
+      "essay": [
+        "欧姬芙是美国现代主义的核心人物，终生以放大花卉闻名于世。这幅 1927 年的《白色三色堇》处于她纽约时期的创作巅峰，成功将微观植物转化为宏观纪念碑。她生前拒绝弗洛伊德式的性解读，坚持这仅仅是对花朵本身的纯粹凝视。",
+        "画面被巨大的白色花瓣填满，边缘几乎触及画布四边，迫使观众直面其形态。中心嫩黄的花蕊与周围散落的淡蓝小花形成微妙冷暖对比，柔和的渐变消除了硬朗轮廓线，营造出一种呼吸般的膨胀感与静谧张力。",
+        "这种极致的特写视角虽具视觉冲击力，却也彻底剥离了植物的自然生长语境。白色的纯度经过高度提纯处理，显得近乎人工制造，少了些许自然野趣。但这种“不真实”正是她构建抽象秩序的代价与独特成就。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.55,
+        "r": 0.2,
+        "region": "whole_work"
+      }
+    },
+    {
+      "id": "met-437525",
+      "source": "met",
+      "sourceId": "437525",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437525",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Feast of Acheloüs",
+      "title_zh": "阿刻罗俄斯的宴会",
+      "artist_en": "Peter Paul Rubens",
+      "artist_zh": "彼得·保罗·鲁本斯",
+      "artist_id": "peter-paul-rubens",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "1577–1640",
+      "date_display": "ca. 1615",
+      "year": 1615,
+      "medium_zh": "木板油画",
+      "dimensions": "42 1/2 x 64 1/2 in. (108 x 163.8 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "神话",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "宴会",
+        "人体"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1581.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT1581.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1581.jpg",
+        "ratio": 0.663
+      },
+      "palette": [
+        "#2c1e0b",
+        "#756345"
+      ],
+      "essay": [
+        "鲁本斯是佛兰德斯巴洛克绘画的旗手，此作处于他安特卫普时期的巅峰阶段。画面取材于奥维德《变形记》，展现了河神阿刻罗俄斯招待众神的场景。这类神话盛宴题材，让他得以合法地展示对人体与动态的痴迷。",
+        "注意中央人物转身的动态，脊柱扭转带动肩背肌肉群起伏，光线顺着胸廓滑落。这种充满张力的躯体语言，是鲁本斯区别于意大利前辈的标志——他不要静态的完美，而要血液在皮肤下流动的温热感。",
+        "尽管人物动态精彩，但画面略显拥挤，众神姿态过于相似，仿佛同一模特的不同变体。背景繁复的静物与前景人物争夺视线，显示出繁复构图带来的视觉负荷问题。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "cma-130220",
+      "source": "cma",
+      "sourceId": "130220",
+      "sourceUrl": "https://clevelandart.org/art/1952.589",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Rocks, Orchid, and Bamboo",
+      "title_zh": "岩石兰竹图",
+      "artist_en": "Shitao (Chinese, 1642–1707)",
+      "artist_zh": "石涛",
+      "artist_id": "shitao-chinese-1642-1707",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1642–1707",
+      "date_display": "1662",
+      "year": 1662,
+      "medium_zh": "纸本水墨",
+      "dimensions": "Overall: 31.8 x 266.7 cm (12 1/2 x 105 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "兰竹",
+        "17世纪",
+        "中国",
+        "水墨",
+        "手卷",
+        "清初四僧"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_web.jpg",
+        "ratio": 0.061
+      },
+      "palette": [
+        "#d4c2a7",
+        "#ae9f8b"
+      ],
+      "essay": [
+        "石涛是清初四僧中最具革新精神的画家。此作落款 1662 年，彼时他年仅二十，尚属早期面貌。虽未完全展开晚年“一画论”的狂放，但笔墨间已显露出不拘成法的天赋，是研究其风格演变的重要标本。",
+        "镜头聚焦于岩块与兰草的交界处。浓墨勾勒岩石轮廓，淡墨皴擦出质感，兰叶则以劲挺的线条穿插其间。墨色干湿浓淡变化微妙，尤其是岩石背阴处的渲染，营造出湿润的空气感，笔触利落而不失厚重。",
+        "不过，相较于晚年作品的恣肆纵横，这幅早期手卷显得略微拘谨。岩石结构仍可见前人程式的影子，兰竹布局也偏向传统文人画的优雅秩序，少了几分后来那种“搜尽奇峰打草稿”的野性与叛逆。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-436668",
+      "source": "met",
+      "sourceId": "436668",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436668",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Portrait of a Man (Sir Ralph Sadler?)",
+      "title_zh": "男子肖像（拉尔夫·萨德勒爵士？）",
+      "artist_en": "Hans Holbein the Younger",
+      "artist_zh": "汉斯·荷尔拜因",
+      "artist_id": "hans-holbein-the-younger",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1497–1543",
+      "date_display": "1535",
+      "year": 1535,
+      "medium_zh": "橡木板油画与金箔",
+      "dimensions": "Diameter 12 in. (30.5 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "细节",
+        "质感",
+        "荷尔拜因"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278970.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP278970.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278970.jpg",
+        "ratio": 0.978
+      },
+      "palette": [
+        "#38382d",
+        "#15110f"
+      ],
+      "essay": [
+        "作为北方文艺复兴的巅峰肖像画家，荷尔拜因在 1535 年旅居英国期间创作了这幅圆形肖像。作品以金箔题记标注年代与人物年龄，这种将时间铭刻于画面的手法，体现了人文主义对个体存在的珍视。",
+        "画面中深绿背景前，人物衣领的白色亚麻褶皱被纤毫毕现地刻画，与黑色外袍形成强烈明暗对比。金箔书写的拉丁文题记在暗色背景上泛着微光，与人物手中若隐若现的金色戒指形成材质呼应。",
+        "尽管荷尔拜因以精确写实著称，但人物面部光影处理稍显平面化，缺乏同时代意大利画家的空气透视感。这种克制或许源于北方画家对线条的执着，却让肖像在庄重中透出些许疏离。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.48,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-437088",
+      "source": "met",
+      "sourceId": "437088",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437088",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Serenade",
+      "title_zh": "小夜曲",
+      "artist_en": "Frans van Mieris the Elder",
+      "artist_zh": "弗兰斯·范·米里斯（老）",
+      "artist_id": "frans-van-mieris-the-elder",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1635–1681",
+      "date_display": "ca. 1678–80",
+      "year": 1678,
+      "medium_zh": "木板油画",
+      "dimensions": "Arched top, 5 3/4 x 4 3/8 in. (14.6 x 11.1 cm)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "夜景",
+        "烛光",
+        "17世纪",
+        "荷兰",
+        "精细画派"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143182.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP143182.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143182.jpg",
+        "ratio": 1.236
+      },
+      "palette": [
+        "#0a0807",
+        "#1c130c"
+      ],
+      "essay": [
+        "米里斯是莱顿精细画派的核心人物，这幅《小夜曲》作于他生命最后阶段。不同于伦勃朗的宏大叙事，他擅长在巴掌大的木板上构建私密场景，将风俗画提升至珠宝般的精致程度，服务于富裕的市民阶层。",
+        "画面中央的红色长袍是视觉锚点。丝绸在火炬光照下呈现出丰富的明暗过渡，褶皱处理得既柔软又有垂坠感。颜料堆叠出的高光并非平涂，而是模拟了织物经纬交织的反光特性，饱和度高且边缘清晰。",
+        "这种对物质感的沉迷有时削弱了叙事张力。人物表情在暗部中略显模糊，观众更易被衣饰的华丽吸引而非剧情本身。但这正是当时收藏家所追捧的“画工”证明，技法炫耀压倒了情感表达。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.62,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-337057",
+      "source": "met",
+      "sourceId": "337057",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/337057",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Bacchanal with a Wine Vat",
+      "title_zh": "酒神与酒槽",
+      "artist_en": "Andrea Mantegna",
+      "artist_zh": "安德烈亚·曼特尼亚",
+      "artist_id": "andrea-mantegna",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1431–1506",
+      "date_display": "Before 1475",
+      "year": 1475,
+      "medium_zh": "铜版雕刻与干针法",
+      "dimensions": "Sheet: 11 3/4 x 17 3/16in. (29.9 x 43.7cm)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "神话",
+        "15世纪",
+        "意大利",
+        "版画",
+        "裸体",
+        "古典主义"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-22149-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP-22149-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-22149-001.jpg",
+        "ratio": 0.707
+      },
+      "palette": [
+        "#796553",
+        "#c2b099"
+      ],
+      "essay": [
+        "曼特尼亚是意大利文艺复兴早期巨匠，帕多瓦画派的核心人物。这套酒神版画是他极少数的铜版作品，确立了北方版画对古典题材的处理范式，影响深远。他在绘画中追求的古典复兴，在此转化为线条的秩序。",
+        "注意中央人物躯干的线条处理。艺术家利用密集的排线塑造出如大理石般坚硬的肌肉块面，锁骨与胸肌的转折如同雕刻刀凿刻而成，肩颈连接处的动态显示出身体的重量感。肢体交错间，解剖结构被刻意强调，呈现出一种近乎建筑般的稳固。",
+        "这种雕塑感虽显功力，却也让狂欢场景失了些许肉欲的柔软。人物仿佛被冻结在石质舞台上，醉态更像是一种庄严的仪式表演，少了些混乱的生命力。但这正是曼特尼亚的意图：用理性秩序驯服野性的神话。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "torso_neck"
+      }
+    },
+    {
+      "id": "met-436326",
+      "source": "met",
+      "sourceId": "436326",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436326",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Two Sisters",
+      "title_zh": "姐妹俩",
+      "artist_en": "Jean Honoré Fragonard",
+      "artist_zh": "让 - 奥诺雷·弗拉戈纳尔",
+      "artist_id": "jean-honore-fragonard",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1732–1806",
+      "date_display": "ca. 1769–70",
+      "year": 1769,
+      "medium_zh": "布面油画",
+      "dimensions": "28 1/4 x 22 in. (71.8 x 55.9 cm)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "姐妹",
+        "儿童"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1012-01.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-1012-01.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1012-01.jpg",
+        "ratio": 1.289
+      },
+      "palette": [
+        "#3e3124",
+        "#80694f"
+      ],
+      "essay": [
+        "弗拉戈纳尔是洛可可艺术最后的辉煌代表，擅长以轻盈笔触捕捉享乐瞬间。这幅《姐妹俩》创作于 1769 年前后，属于他肖像画中较为内敛的作品，少了些风月场的轻浮，多了份家庭内部的私密感，展现了画家驾驭严肃题材的能力。",
+        "画面右侧女孩的面庞呈现出典型的瓷娃娃质感，肤色白皙近乎透明，脸颊两团红晕显得刻意而甜美。她的眼神并未直视观众，而是略带羞涩地游移，嘴角微扬，这种模糊化处理弱化了个体特征，强化了理想化的少女形象，笔触柔和得仿佛怕惊扰了梦乡。",
+        "不过，这种完美略显失真。姐妹俩的五官如同同一个模子刻出，缺乏真实孩童的顽劣与瑕疵。左下角露出的玩偶头部暗示了这或许是一场精心布置的摆拍，人物本身也被当作了精致的物件来展示，亲情中掺杂了物化的意味，这是洛可可贵族审美的局限。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.44,
+        "r": 0.13,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-438465",
+      "source": "met",
+      "sourceId": "438465",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/438465",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Landscape with Travelers on a Woodland Path",
+      "title_zh": "林间小径上的旅人风景",
+      "artist_en": "Jan Brueghel the Elder",
+      "artist_zh": "老扬·勃鲁盖尔",
+      "artist_id": "jan-brueghel-the-elder",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "1568–1625",
+      "date_display": "ca. 1607",
+      "year": 1607,
+      "medium_zh": "铜板油画",
+      "dimensions": "3 3/4 x 6 in. (9.5 x 15.2 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "铜板画",
+        "自然"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24113-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-24113-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24113-001.jpg",
+        "ratio": 0.638
+      },
+      "palette": [
+        "#1e170d",
+        "#3c3725"
+      ],
+      "essay": [
+        "老扬·勃鲁盖尔是佛兰德斯巴洛克早期代表，承袭父亲老彼得·勃鲁盖尔的题材，却转向精致优雅。这幅铜板油画创作于其风格成熟期，小巧尺寸便于贵族随身携带把玩。铜基底的平滑表面，让颜料呈现出珠宝般的光泽与透明度。",
+        "视线落在中景左侧的树丛，铜板的反光特性被巧妙利用。树叶并非平涂，而是用细碎笔触堆叠出层次，暖褐色的前景植被与冷蓝色的远景天空形成空气透视。光线穿过林隙洒在土路上，营造出静谧的纵深感。",
+        "画面虽美，人物却沦为装饰性符号。旅人与马匹比例微小，面目模糊，缺乏父亲作品中那种粗砺的生命力。这是一种被驯化的自然，服务于收藏室的陈设需求，而非对真实乡村生活的深刻记录。"
+      ],
+      "detailCrop": {
+        "cx": 0.32,
+        "cy": 0.45,
+        "r": 0.14,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-435731",
+      "source": "met",
+      "sourceId": "435731",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435731",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Coronation of the Virgin",
+      "title_zh": "圣母加冕",
+      "artist_en": "Botticelli",
+      "artist_zh": "桑德罗·波提切利",
+      "artist_id": "botticelli",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1445–1510",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "布面蛋彩画（原木板）",
+      "dimensions": "39 1/2 x 60 1/4 in. (100.3 x 153 cm)",
+      "movement_zh": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "佛罗伦萨画派",
+        "圣母"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT350031.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT350031.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT350031.jpg",
+        "ratio": 0.667
+      },
+      "palette": [
+        "#563524",
+        "#8c683c"
+      ],
+      "essay": [
+        "波提切利是佛罗伦萨画派的核心人物，早年以神话寓言闻名，晚年回归宗教题材。这幅《圣母加冕》出自其生涯后期，正值萨伏那罗拉布道引发宗教狂热之时。画面褪去了《春》的世俗享乐，转向肃穆的信仰表达，显示了他风格的重要转折。",
+        "圣母低眉顺目，神情谦逊而克制。波提切利标志性的线条勾勒出眼睑与鼻梁的轮廓，肤色苍白如瓷，缺乏血色却显得圣洁。她并未凝视加冕者，目光下垂，这种疏离感强化了仪式的神圣性，而非人间的亲昵。",
+        "然而，人物姿态略显僵硬，跪姿的透视关系被刻意压缩，以适应平面装饰效果。圣徒们的表情如出一辙的虔诚，缺乏个体性格的差异。这种对线条韵律的过度追求，牺牲了部分解剖结构的真实性，是风格化带来的代价。",
+        "尽管存在程式化倾向，但金箔光环与深蓝袍色的对比依旧辉煌。这提醒我们，文艺复兴不单是写实主义的胜利，线条与装饰美学同样在此达到巅峰，值得后世凝视。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.3,
+        "r": 0.1,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-437777",
+      "source": "met",
+      "sourceId": "437777",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437777",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Guardroom with the Deliverance of Saint Peter",
+      "title_zh": "守卫室与圣彼得的解救",
+      "artist_en": "David Teniers the Younger",
+      "artist_zh": "大卫·特尼尔斯二世",
+      "artist_id": "david-teniers-the-younger",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "1610–1690",
+      "date_display": "ca. 1645–47",
+      "year": 1645,
+      "medium_zh": "木板油画",
+      "dimensions": "21 3/4 x 29 7/8 in. (55.2 x 75.9 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "宗教题材",
+        "室内场景"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25891-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-25891-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25891-001.jpg",
+        "ratio": 0.761
+      },
+      "palette": [
+        "#29231d",
+        "#514536"
+      ],
+      "essay": [
+        "大卫·特尼尔斯二世是佛兰德斯巴洛克风俗画高手，擅长描绘守卫室与炼金术士。此作属于其成熟的“守卫室”系列，将宗教题材嵌入世俗场景。他在安特卫普享有盛誉，曾为奥地利大公管理画藏，这种多重空间的调度能力正是其收藏家经验的体现。",
+        "透过右侧拱门，远处囚室透出超自然的冷光，天使正为圣彼得解开锁链。背景处理得极薄，空气透视感强，与前景厚重的盔甲形成虚实对比。这束亮光延伸了景深，构成画面唯一的叙事核心，引导视线穿越昏暗的兵营。",
+        "前景士兵沉溺赌博与整备，对身后的神迹视若无睹。这种刻意安排虽强化了世俗与神圣的反差，却也令宗教主题沦为装饰性点缀。特尼尔斯精于物象质感，但在此画中，华丽的盔甲似乎比救赎的故事更吸引他的笔触。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.42,
+        "r": 0.12,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-436580",
+      "source": "met",
+      "sourceId": "436580",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436580",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Aegina Visited by Jupiter",
+      "title_zh": "朱庇特拜访埃癸娜",
+      "artist_en": "Jean-Baptiste Greuze",
+      "artist_zh": "让 - 巴蒂斯特·格勒兹",
+      "artist_id": "jean-baptiste-greuze",
+      "artist_nationality_zh": "法国",
+      "artist_years": "1725–1805",
+      "date_display": "ca. 1767–69",
+      "year": 1767,
+      "medium_zh": "布面油画",
+      "dimensions": "57 7/8 x 77 1/8 in. (147 x 195.9 cm)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "裸体"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12954-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-12954-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12954-001.jpg",
+        "ratio": 0.751
+      },
+      "palette": [
+        "#392d23",
+        "#7c6d55"
+      ],
+      "essay": [
+        "格勒兹以道德风俗画闻名，这幅神话题材是他少数尝试历史画的作品之一。1769 年送入皇家学院想获历史画家头衔，却因造型力度不足遭拒，成为他生涯的转折点，此后他再未挑战此类题材，回归擅长的小幅家庭场景。",
+        "女子仰面迎向云端，眼神迷离而期待，嘴唇微张似有无声的叹息。格勒兹擅长的柔和晕涂法运用于此，脸颊泛着健康的红润，眉宇间没有古典英雄的庄严，倒是多了几分世俗的娇羞与柔弱，光影过渡极为细腻，肌肤质感近乎瓷釉。",
+        "画面缺乏神话应有的崇高感，裸体女子更像被宠坏的资产阶级少女，而非古希腊英雄。这种“市民气”正是格勒兹的局限，也是他最真实的个人印记，让神话落了地，却失了格。评委当时的批评并非全无道理，他确实难担宏大叙事。"
+      ],
+      "detailCrop": {
+        "cx": 0.38,
+        "cy": 0.46,
+        "r": 0.12,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-56032",
+      "source": "met",
+      "sourceId": "56032",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/56032",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Cutting the Toenails; the Toilet after the Bath",
+      "title_zh": "剪趾甲；浴后梳妆",
+      "artist_en": "Torii Kiyonaga",
+      "artist_zh": "鸟居清长",
+      "artist_id": "torii-kiyonaga",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1752–1815",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "木刻版画；纸本设色",
+      "dimensions": "H. 14 7/8 in. (37.8 cm); w. 9 7/8 in. (25.1 cm)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "美人画",
+        "江户时代"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP124171.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP124171.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP124171.jpg",
+        "ratio": 1.492
+      },
+      "palette": [
+        "#ceb89c",
+        "#ae997e"
+      ],
+      "essay": [
+        "鸟居清长是江户浮世绘鼎盛期的代表，确立了“八头身”美人画标准。此作出自其著名的浴后系列，展现了私密空间中的女性日常。不同于早期作品的夸张动态，清长笔下的线条更为理性克制。",
+        "蹲坐女子的和服衣纹处理极具功力。布料顺着屈膝的动作堆积，褶皱线条流畅而富有弹性，表现出棉质浴衣的柔软质感。格纹与素面交织，色彩淡雅，衣襟松散地垂落，既暗示了浴后的放松状态，又保留了构图的平衡。",
+        "题材虽为剪趾甲这般私密甚至略显粗俗的动作，人物却依旧保持着偶像般的端庄。这种将日常琐事高度审美化的处理，是浮世绘美人画的通病，也是其魅力所在——现实中的浴后狼狈被彻底过滤，只留下洁净的视觉享受。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-436104",
+      "source": "met",
+      "sourceId": "436104",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436104",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Adoration of the Magi",
+      "title_zh": "东方三博士的崇拜",
+      "artist_en": "Gerard David",
+      "artist_zh": "赫拉德·大卫",
+      "artist_id": "gerard-david",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "1460–1523",
+      "date_display": "ca. 1520",
+      "year": 1520,
+      "medium_zh": "板上油画",
+      "dimensions": "Overall 27 3/4 x 28 7/8 in. (70.5 x 73.3 cm); painted surface 27 1/2 x 28 3/8 in. (69.2 x 72.1 cm)",
+      "movement_zh": "尼德兰文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "文艺复兴",
+        "色彩",
+        "服饰"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20588-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-20588-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20588-001.jpg",
+        "ratio": 0.963
+      },
+      "palette": [
+        "#281c13",
+        "#544834"
+      ],
+      "essay": [
+        "赫拉德·大卫是布鲁日画派最后的代表人物，此作完成于他去世前不久。他继承了凡·艾克兄弟对细节的痴迷，但光线处理更为柔和，预示了尼德兰文艺复兴向古典主义过渡的倾向。在大卫晚年，这种静谧感愈发明显，区别于早期弗拉芒画派的锐利，呈现出一种沉稳的收尾。",
+        "翠绿色天鹅绒长袍上，金线刺绣的纹样在暗处依然闪烁。画家利用釉染层叠出布料的厚重感，褶皱处的深阴影与受光面的高光形成强烈对比，织物垂坠的物理重量感被精准捕捉。袖口翻折处的绒毛质感，更是肉眼难辨的细微之处，尽显工艺之精。",
+        "人物排列略显拥挤，仿佛舞台剧的定格瞬间。圣家族与博士们之间缺乏真正的互动，圣母的神情过于疏离，削弱了场景应有的神圣温情，显得更像是一场精心布置的仪式展示。这种冷峻的秩序感，是北方画派特有的克制，却也牺牲了部分叙事张力。"
+      ],
+      "detailCrop": {
+        "cx": 0.75,
+        "cy": 0.65,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-437298",
+      "source": "met",
+      "sourceId": "437298",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437298",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Presentation in the Temple",
+      "title_zh": "耶稣献殿",
+      "artist_en": "Alvaro Pirez",
+      "artist_zh": "阿尔瓦罗·皮雷兹",
+      "artist_id": "alvaro-pirez",
+      "artist_nationality_zh": "葡萄牙",
+      "artist_years": "不详–1450",
+      "date_display": "ca. 1405–15",
+      "year": 1405,
+      "medium_zh": "木板蛋彩与金箔",
+      "dimensions": "13 3/8 x 15 7/8 in. (34 x 40.3 cm)",
+      "movement_zh": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "葡萄牙",
+        "祭坛画",
+        "蛋彩画"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8826.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT8826.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8826.jpg",
+        "ratio": 0.826
+      },
+      "palette": [
+        "#b29875",
+        "#544028"
+      ],
+      "essay": [
+        "阿尔瓦罗·皮雷兹是 15 世纪初活跃于托斯卡纳的葡萄牙画家。这幅《耶稣献殿》处于国际哥特式向早期文艺复兴过渡的节点。蛋彩画与金箔的结合，是当时祭坛画的标准配置，服务于宗教虔诚而非视觉真实。",
+        "视线落在圣母的深蓝披风上。蛋彩颜料层层罩染，营造出布料的厚重感。褶皱处提亮用的金线并非随意涂抹，而是顺着衣纹走向勾勒，这种装饰性线条强化了画面的平面感，却也让色彩历经六百年依旧饱和。",
+        "人物排列如剪纸般贴在粉色围墙前，空间透视几乎被忽略。圣徒们的面容千篇一律，缺乏个体特征，这是中世纪图式化的遗留。画家更在意符号的尊贵，而非肉身的真实重量。这种对程式的坚守，让画面显得庄重却略显呆板。",
+        "然而，金箔光环在光线下的细微闪烁，仍能唤起观者对神圣的想象。它不追求欺骗眼睛，只追求抚慰心灵。在现代视角下，这种坦诚的平面性反而比虚假的立体更具装饰趣味。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.55,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-136296",
+      "source": "cma",
+      "sourceId": "136296",
+      "sourceUrl": "https://clevelandart.org/art/1960.182",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Dream Journey among Rivers and Mountains, no. 90",
+      "title_zh": "《江山卧游图》卷",
+      "artist_en": "Cheng Zhengkui (Chinese, 1604–1676)",
+      "artist_zh": "程正揆",
+      "artist_id": "cheng-zhengkui-chinese-1604-1676",
+      "artist_nationality_zh": "中国",
+      "artist_years": "1604–1676",
+      "date_display": "1658",
+      "year": 1658,
+      "medium_zh": "纸本设色手卷",
+      "dimensions": "Painting section: 24 x 341.5 cm (9 7/16 x 134 7/16 in.)",
+      "movement_zh": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "中国",
+        "手卷",
+        "干笔皴擦",
+        "17世纪"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/1960.182/1960.182_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1960.182/1960.182_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/1960.182/1960.182_web.jpg",
+        "ratio": 0.051
+      },
+      "palette": [
+        "#a59176",
+        "#cfc0a7"
+      ],
+      "essay": [
+        "程正揆是清初画坛关键人物，与石溪并称“二溪”。《江山卧游图》是他宏大的创作计划，原计划五百卷，现存寥寥。此作编号九十，作于 1658 年，正值他笔墨成熟期，呈现了清初文人山水对元人意境的追摹与重构。",
+        "画面山石多用干笔皴擦，墨色层次分明。近景坡石以淡墨勾勒，随后层层积墨，营造出粗糙的质感。远山则用湿墨晕染，与前景的干枯形成对比。树木形态古拙，枝叶穿插疏密有致，空间推移自然。",
+        "然而，过分追求笔墨程式的纯净，有时削弱了自然山水的野性。相比同时代石涛的恣肆，程正揆的画显得过于理性与克制。这种“书卷气”虽雅致，却少了几分鲜活的生命力，是文人画走向程式化的一种缩影。"
+      ],
+      "detailCrop": {
+        "cx": 0.65,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-436045",
+      "source": "met",
+      "sourceId": "436045",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436045",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Johann I (1468–1532), the Constant, Elector of Saxony",
+      "title_zh": "萨克森选帝侯约翰一世肖像",
+      "artist_en": "Lucas Cranach the Elder and Workshop",
+      "artist_zh": "老卢卡斯·克拉纳赫",
+      "artist_id": "lucas-cranach-the-elder-and-workshop",
+      "artist_nationality_zh": "德国",
+      "artist_years": "1472–1553",
+      "date_display": "1532–33",
+      "year": 1532,
+      "medium_zh": "榉木板油画",
+      "dimensions": "8 x 5 5/8 in. (20.3 x 14.3 cm)",
+      "movement_zh": "德国文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "宗教改革",
+        "贵族",
+        "综合材料"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278975.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP278975.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278975.jpg",
+        "ratio": 1.431
+      },
+      "palette": [
+        "#3d2f25",
+        "#665f4e"
+      ],
+      "essay": [
+        "作为路德的挚友，克拉纳赫将肖像画变成了宗教改革的宣传工具。此作绘于约翰一世去世后，由工作室按标准图样制作，旨在巩固选帝侯的政治遗产。这类肖像在当时萨克森地区大量流通，兼具纪念与公关功能。",
+        "面部处理保留了画家标志性的风格：眼皮略显厚重，眼神直视前方，带着不容置疑的威严。卷曲的胡须用细笔勾勒，根根分明，与红润的肤色形成对比。这种略带程式化的五官，是克拉纳赫晚期肖像的典型特征。",
+        "画面下半部分直接粘贴活字印刷的颂词，这种绘画与印刷品的拼贴在当时极为罕见。它揭示了图像复制技术兴起时的媒介实验，但也暴露了工作室量产的妥协——面部表情略显僵硬，少了早期手笔的生动灵气。"
+      ],
+      "detailCrop": {
+        "cx": 0.52,
+        "cy": 0.35,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-437528",
+      "source": "met",
+      "sourceId": "437528",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437528",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Holy Family with Saints Francis and Anne and the Infant Saint John the Baptist",
+      "title_zh": "圣家族与圣方济各、圣安妮及婴儿施洗者圣约翰",
+      "artist_en": "Peter Paul Rubens",
+      "artist_zh": "彼得·保罗·鲁本斯",
+      "artist_id": "peter-paul-rubens",
+      "artist_nationality_zh": "佛兰德斯",
+      "artist_years": "1577–1640",
+      "date_display": "early or mid-1630s",
+      "year": 1630,
+      "medium_zh": "布面油画",
+      "dimensions": "69 1/2 x 82 1/2 in. (176.5 x 209.6 cm)",
+      "movement_zh": "巴洛克",
+      "tags": [
+        "宗教画",
+        "17世纪",
+        "佛兰德斯",
+        "群像",
+        "圣母像"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17640-001.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP-17640-001.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17640-001.jpg",
+        "ratio": 0.852
+      },
+      "palette": [
+        "#1c110b",
+        "#453523"
+      ],
+      "essay": [
+        "鲁本斯晚年宗教画的成熟之作，巴洛克艺术在佛兰德斯的巅峰体现。此时他已卸下外交重任，回归安特卫普画室，笔触愈发自由松弛。这幅群像虽遵循传统圣家族题材，却注入了世俗家庭的温情，显示出画家对宏大叙事与私密情感平衡的掌控力。",
+        "圣母的面部处理体现了鲁本斯的审美偏好。光线柔和地扫过额头与鼻梁，肤色呈现出特有的珍珠般光泽。眼神低垂，嘴角微扬，没有神圣的疏离感，反倒像一位普通的母亲凝视怀中的孩子。这种温润的肉感描绘，是画家的个人标志。",
+        "不过，这种过于完美的健康美感也削弱了宗教苦修的本质。圣方济各的苦行僧袍被画得如同丝绸般顺滑，圣徒们个个面色红润，毫无禁欲痕迹。这是巴洛克宫廷趣味的胜利，却也让神圣故事染上了几分富贵人家的戏剧表演色彩。"
+      ],
+      "detailCrop": {
+        "cx": 0.58,
+        "cy": 0.35,
+        "r": 0.13,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-435714",
+      "source": "met",
+      "sourceId": "435714",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435714",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Curiosity",
+      "title_zh": "好奇",
+      "artist_en": "Gerard ter Borch the Younger",
+      "artist_zh": "杰拉德·特博尔",
+      "artist_id": "gerard-ter-borch-the-younger",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1617–1681",
+      "date_display": "ca. 1660–62",
+      "year": 1660,
+      "medium_zh": "布面油画",
+      "dimensions": "30 x 24 1/2 in. (76.2 x 62.2 cm)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "荷兰",
+        "丝绸",
+        "室内场景",
+        "女性"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145405.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP145405.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145405.jpg",
+        "ratio": 1.231
+      },
+      "palette": [
+        "#221f1d",
+        "#4e453a"
+      ],
+      "essay": [
+        "特博尔是荷兰黄金时代风俗画的关键人物，尤其以描绘丝绸质感闻名于世。这幅创作于 1660 年代初的作品，处于他职业生涯的成熟期。当时荷兰中产阶级兴起，室内场景成为记录社会礼仪与私密瞬间的载体，他笔下的女性形象往往兼具优雅与含蓄。",
+        "画面左侧站立女子的裙摆是整幅画的技术核心。银白色缎面在室内漫射光下呈现出丰富的冷暖变化，褶皱处用深灰与淡紫层层罩染，高光部分则留白或厚涂，准确捕捉了织物随身体动态产生的垂坠感与光泽。",
+        "题为《好奇》，但画中人物并未直视观者，甚至彼此间也无明显交流，这种叙事上的模糊性是荷兰风俗画的常态。虽然物质细节被刻画得无可挑剔，但人物表情略显模式化，仿佛是为了展示技法而存在的精致玩偶。"
+      ],
+      "detailCrop": {
+        "cx": 0.35,
+        "cy": 0.75,
+        "r": 0.12,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-436789",
+      "source": "met",
+      "sourceId": "436789",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436789",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Portrait of a Woman",
+      "title_zh": "女子肖像",
+      "artist_en": "Cornelis Jonson van Ceulen the Elder",
+      "artist_zh": "科尼利斯·约恩松·范·瑟伦",
+      "artist_id": "cornelis-jonson-van-ceulen-the-elder",
+      "artist_nationality_zh": "荷兰",
+      "artist_years": "1593–1661",
+      "date_display": "1648",
+      "year": 1648,
+      "medium_zh": "布面油画",
+      "dimensions": "Overall 40 3/4 x 31 1/2 in. (103.5 x 80 cm); painted surface 40 3/4 x 30 7/8 in. (103.5 x 78.4 cm)",
+      "movement_zh": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "深色背景",
+        "贵族女性",
+        "蕾丝"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147901.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP147901.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147901.jpg",
+        "ratio": 1.289
+      },
+      "palette": [
+        "#17120c",
+        "#3d2f1c"
+      ],
+      "essay": [
+        "约恩松是十七世纪英荷肖像画的关键人物，客户多为贵族与富商。此作绘于 1648 年，正值他返回荷兰前夕，技法成熟。画面保留了典型的正式肖像构图，强调身份地位而非个性表达。",
+        "黑色丝绒长裙占据画面主体，吸光材质衬托出袖口蕾丝的透亮。画家以细碎笔触勾勒花边网眼，羽毛扇的蓬松质感与硬挺胸衣形成对比。这种对衣料物理属性的精确还原，是当时画家的必备技艺。",
+        "尽管服饰刻画入微，人物姿态却略显僵硬。双手交叠的姿势是当时流行的样板，缺乏动态生机。面孔虽美，却带着面具般的平静，这是秩序感对真实情感的压制。为了符合贵族体面，画家牺牲了瞬间的生动性。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.75,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-56691",
+      "source": "met",
+      "sourceId": "56691",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/56691",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Dance of the Scarves",
+      "title_zh": "巾舞图",
+      "artist_en": "Ishikawa Toyonobu",
+      "artist_zh": "石川豊信",
+      "artist_id": "ishikawa-toyonobu",
+      "artist_nationality_zh": "日本",
+      "artist_years": "1711–1785",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "木刻版画",
+      "dimensions": "11 x 5 1/4 in. (27.9 x 13.3 cm)",
+      "movement_zh": "浮世绘",
+      "tags": [
+        "美人画",
+        "舞蹈",
+        "18世纪",
+        "日本",
+        "江户时代",
+        "浮世绘"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/as/web-large/DP135511.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP135511.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/as/web-large/DP135511.jpg",
+        "ratio": 2.056
+      },
+      "palette": [
+        "#e8d2b1",
+        "#bfae91"
+      ],
+      "essay": [
+        "石川豊信是江户中期鸟居派的重要代表，其役者绘与美人画确立了当时剧画的标准样式。这幅《巾舞图》典型地展现了他对动态线条的掌控力，将舞蹈瞬间凝固于木板之上。作为浮世绘早期代表作，它保留了手绘浮世绘的笔意，又具备版画的复制张力。",
+        "画面焦点落在和服与长巾的交织处。青绿色底上散布的白色花卉纹样，通过木刻刀法呈现出清晰的边缘。长巾的曲线粗犷有力，与衣褶的细密线条形成对比，墨色浓淡变化暗示了织物的垂坠感与舞动时的飘曳状态。",
+        "尽管动态十足，人物面部却显得过于程式化。这种「舞巾」题材往往强调姿态胜于表情，导致观者难以捕捉舞者的具体情绪。丰信擅长捕捉剧场瞬间，但在此处，装饰性的线条美感略微压倒了人物本身的生动性。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.55,
+        "r": 0.2,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-437262",
+      "source": "met",
+      "sourceId": "437262",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437262",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Henry Frederick (1594–1612), Prince of Wales, with Sir John Harington (1592–1614), in the Hunting Field",
+      "title_zh": "威尔士亲王亨利·弗雷德里克与哈林顿爵士狩猎像",
+      "artist_en": "Robert Peake the Elder",
+      "artist_zh": "罗伯特·皮克（老）",
+      "artist_id": "robert-peake-the-elder",
+      "artist_nationality_zh": "英国",
+      "artist_years": "1551–1619",
+      "date_display": "1603",
+      "year": 1603,
+      "medium_zh": "布面油画",
+      "dimensions": "79 1/2 x 58 in. (201.9 x 147.3 cm)",
+      "movement_zh": "英国文艺复兴",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "英国",
+        "狩猎",
+        "宫廷"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169396.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP169396.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169396.jpg",
+        "ratio": 1.381
+      },
+      "palette": [
+        "#323023",
+        "#655f47"
+      ],
+      "essay": [
+        "皮克是伊丽莎白晚期至詹姆斯一世时期的关键肖像画家。此作绘制于亨利·弗雷德里克受封威尔士亲王同年，旨在确立其继承人的威严形象。画面属于典型的英国宫廷狩猎肖像，将人物置于自然环境中，却保留了室内肖像的庄重感。",
+        "亲王身着翠绿色丝绒猎装，金线刺绣沿衣襟与裤口蔓延。织物褶皱处理得略显生硬，但光泽感强烈，暗示面料的昂贵。袖口与领口的白色蕾丝挺括，与深绿底色形成鲜明对比，凸显身份尊贵。",
+        "尽管题材是狩猎，人物却毫无运动后的狼狈。皮肤白皙如初，衣摆未见泥土，连猎犬都姿态优雅。这种“洁净的狩猎”暴露了宫廷画的本质：并非记录真实活动，而是通过道具展示权力与闲暇。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.5,
+        "r": 0.15,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "cma-171154",
+      "source": "cma",
+      "sourceId": "171154",
+      "sourceUrl": "https://clevelandart.org/art/2013.67",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Portrait of Ezra Davenport",
+      "title_zh": "埃兹拉·达文波特肖像",
+      "artist_en": "Clarence Holbrook Carter (American, 1904–2000)",
+      "artist_zh": "克拉伦斯·霍尔布鲁克·卡特",
+      "artist_id": "clarence-holbrook-carter-american-1904-2000",
+      "artist_nationality_zh": "美国",
+      "artist_years": "1904–2000",
+      "date_display": "1929",
+      "year": 1929,
+      "medium_zh": "布面油画",
+      "dimensions": "Unframed: 113 x 90.2 cm (44 1/2 x 35 1/2 in.)",
+      "movement_zh": "美国现实主义",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "写实",
+        "老年",
+        "室内"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2013.67/2013.67_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2013.67/2013.67_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2013.67/2013.67_web.jpg",
+        "ratio": 1.244
+      },
+      "palette": [
+        "#5a311f",
+        "#a6793b"
+      ],
+      "essay": [
+        "卡特是美国魔幻现实主义的代表，但这幅 1929 年的早期肖像更接近写实主义传统。处于职业生涯起步阶段，他试图在精确的轮廓与心理深度之间寻找平衡，画面透露出一种冷静的观察力，预示了他后来对静谧氛围的持续关注。",
+        "老人面部受光均匀，额头的皱纹被细致刻画，每一道沟壑都藏着岁月的痕迹。灰白的胡须修剪整齐，眼神并未直视观者，而是投向画面左侧，瞳孔中反射的光点微弱，流露出一种疏离而疲惫的神情，皮肤质感在油彩堆叠下显得干燥而真实。",
+        "前景的桌布蕾丝纹样过于工整，与人物面部的自然衰老形成反差。瓷鸡摆件与油灯的安排略显刻意，仿佛为了填充构图而存在，削弱了肖像本该有的私密感。这种舞台式的布景，让真实的人物显得有些像陈列品。",
+        "尽管如此，画面整体的暖色调统一了空间，红色桌布与椅背呼应，营造出一种旧时光的沉静。这是一份关于尊严与衰老的真实记录，克制而庄重。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.25,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "met-436509",
+      "source": "met",
+      "sourceId": "436509",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436509",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "The Adoration of the Magi",
+      "title_zh": "博士来朝",
+      "artist_en": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+      "artist_zh": "乔瓦尼·迪·保罗",
+      "artist_id": "giovanni-di-paolo-giovanni-di-paolo-di-grazia",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1398–1482",
+      "date_display": "ca. 1460",
+      "year": 1460,
+      "medium_zh": "木板蛋彩画与金箔",
+      "dimensions": "10 5/8 x 9 1/8 in. (27 x 23.2 cm)",
+      "movement_zh": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "锡耶纳",
+        "蛋彩画",
+        "黄金装饰"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DT2580.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+        "ratio": 1.134
+      },
+      "palette": [
+        "#594b31",
+        "#a09773"
+      ],
+      "essay": [
+        "乔瓦尼·迪·保罗是 15 世纪锡耶纳画派的最后大师之一。当佛罗伦萨同行们痴迷于透视法时，他仍坚守哥特式传统的装饰美感。这幅小尺寸木板画并非祭坛主画，而是用于私人祷祝，金箔与蛋彩的结合彰显了赞助人的虔诚与财力。",
+        "跪拜博士的红色长袍占据了画面下方的视觉重心。金箔勾勒出的石榴纹样在深红底色上熠熠生辉，衣褶并非遵循重力自然垂落，而是呈管状堆叠，展现出金属般的硬度与光泽。这种处理弱化了人体结构，强化了神圣仪式的庄重感。",
+        "画面空间逻辑并不遵循科学透视，远景的山石与近景人物比例略显失调，仿佛拼贴在不同平面。但这种“不合理”恰恰是锡耶纳画派的特质：他们不追求视网膜的真实，而用金色光环与华丽织物构建一个超越世俗的灵性空间。"
+      ],
+      "detailCrop": {
+        "cx": 0.55,
+        "cy": 0.75,
+        "r": 0.18,
+        "region": "clothing"
+      }
+    },
+    {
+      "id": "met-337346",
+      "source": "met",
+      "sourceId": "337346",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/337346",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Country Houses, couple and cornfield in the foreground, from the series The Small Landscapes (Praediorum Villarum)",
+      "title_zh": "《乡村房屋、前景中的情侣与玉米田，选自〈小风景〉系列》",
+      "artist_en": "The Master of the Small Landscapes",
+      "artist_zh": "小风景大师",
+      "artist_id": "the-master-of-the-small-landscapes",
+      "artist_nationality_zh": "尼德兰",
+      "artist_years": "不详",
+      "date_display": "1559–61",
+      "year": 1559,
+      "medium_zh": "铜版蚀刻",
+      "dimensions": "6 7/8 x 9 13/16 in.  (17.5 x 25 cm)",
+      "movement_zh": "北方文艺复兴",
+      "tags": [
+        "风景",
+        "16世纪",
+        "尼德兰",
+        "版画",
+        "乡村",
+        "北方文艺复兴"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/dp/web-large/DP818231.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/dp/original/DP818231.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/dp/web-large/DP818231.jpg",
+        "ratio": 0.7
+      },
+      "palette": [
+        "#e4d3c0",
+        "#c2b2a0"
+      ],
+      "essay": [
+        "“小风景大师”是 16 世纪尼德兰版画界的匿名巨匠。这套《小风景》系列摆脱了当时流行的理想化全景模式，转而记录安特卫普郊外真实的农庄与村落。这类写实主义倾向比荷兰黄金时代的风景画早了近半个世纪，具有文献般的历史价值。",
+        "画面中景的农舍与树丛处理得尤为耐看。蚀刻针在铜板上留下的细密线条，精准模拟了茅草屋顶的蓬松质感与树叶的层次。田垄的弧线引导视线深入，地面纹理的疏密变化暗示了土路的起伏，空间推移自然。",
+        "不过，匿名身份让这套作品的具体归属成了艺术史悬案，有人推测是科克或布林克，但均无确证。部分版次因铜版磨损导致后期线条模糊，失去了初版那种锐利的清晰度，收藏时需仔细甄别状态。"
+      ],
+      "detailCrop": {
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 0.2,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-437144",
+      "source": "met",
+      "sourceId": "437144",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437144",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Madonna Adoring the Child",
+      "title_zh": "圣母朝拜圣子",
+      "artist_en": "Bartolomeo Montagna (Bartolomeo Cincani)",
+      "artist_zh": "巴托洛梅奥·蒙塔尼亚",
+      "artist_id": "bartolomeo-montagna-bartolomeo-cincani",
+      "artist_nationality_zh": "意大利",
+      "artist_years": "1450–1523",
+      "date_display": "",
+      "year": null,
+      "medium_zh": "木板油画",
+      "dimensions": "24 3/4 x 20 1/2 in. (62.9 x 52.1 cm)",
+      "movement_zh": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "圣母",
+        "肖像",
+        "风景"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP328558.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP328558.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP328558.jpg",
+        "ratio": 1.207
+      },
+      "palette": [
+        "#86674d",
+        "#3b2c22"
+      ],
+      "essay": [
+        "蒙塔尼亚是威尼斯画派向文艺复兴盛期过渡的关键人物，长期活跃于维琴察。这幅木板油画展现了他对贝利尼风格的继承，将宗教神圣感融入日常温情之中，是 15 世纪末意大利北部宗教画的典型样本，体现了当时私人祷告像的需求。",
+        "圣母面容白皙，眼睑低垂，目光并未直视圣子，而是内敛地望向下方。面部轮廓柔和，没有强烈的明暗对比，肤色呈现出近乎瓷器的光滑质感，头巾下的几缕发丝处理得极为精细，展现出蛋彩技法遗留的细腻。",
+        "这种理想化的美感削弱了人物的真实重量。圣母双手交叉胸前的姿态虽符合传统图式，却略显僵硬，仿佛摆拍而非自然互动。背景中的城堡与桥梁虽精致，却与前景人物缺乏空间上的呼吸感，略显堆砌。"
+      ],
+      "detailCrop": {
+        "cx": 0.48,
+        "cy": 0.32,
+        "r": 0.15,
+        "region": "face"
+      }
+    },
+    {
+      "id": "cma-294203",
+      "source": "cma",
+      "sourceId": "294203",
+      "sourceUrl": "https://clevelandart.org/art/2017.6",
+      "credit": "Cleveland Museum of Art, CC0",
+      "title_en": "Munja-Chaekgeori Screen (Character-Books Screen)",
+      "title_zh": "文字册架图屏风",
+      "artist_en": "Unknown",
+      "artist_zh": "佚名",
+      "artist_id": "unknown",
+      "artist_nationality_zh": "韩国",
+      "artist_years": "不详",
+      "date_display": "early 1900s",
+      "year": 1900,
+      "medium_zh": "纸本设色八折屏风",
+      "dimensions": "Overall: 150.5 x 330.2 cm (59 1/4 x 130 in.); Painting only: 85.1 x 27.3 cm (33 1/2 x 10 3/4 in.)",
+      "movement_zh": "朝鲜王朝绘画",
+      "tags": [
+        "静物",
+        "20世纪",
+        "韩国",
+        "屏风",
+        "文字",
+        "器物"
+      ],
+      "image": {
+        "feed": "https://openaccess-cdn.clevelandart.org/2017.6/2017.6_web.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/2017.6/2017.6_print.jpg",
+        "thumb": "https://openaccess-cdn.clevelandart.org/2017.6/2017.6_web.jpg",
+        "ratio": 0.469
+      },
+      "palette": [
+        "#7d5c48",
+        "#b89880"
+      ],
+      "essay": [
+        "朝鲜王朝晚期，册架图从书房走向大众，成为屏风装饰的主流。这幅文字册架图佚名之作，典型地反映了二十世纪初韩国社会对儒学符号的世俗化挪用。八个屏条并列，每幅以一个大字为核心，周围堆叠古董文玩，既是装饰，也是吉祥寓意的视觉清单。",
+        "放大看局部道具，书册与瓷瓶的堆叠颇有巧思。画家运用矿物颜料厚涂，朱砂与石青在纸质基底上形成微弱的浮雕感。花瓶中的折枝花卉姿态各异，与硬朗的书籍线条形成软硬对比，营造出一种拥挤却有序的书架幻境。",
+        "不过，这类作品往往由画工批量绘制，难免程式化。部分汉字的书法笔力稍显软弱，不及周围器物的描绘精细。这种“重器轻字”的反差，揭示了它作为商品而非文人墨迹的本质——买家更在意热闹的彩头，而非笔墨的真功夫。"
+      ],
+      "detailCrop": {
+        "cx": 0.56,
+        "cy": 0.4,
+        "r": 0.12,
+        "region": "background"
+      }
+    },
+    {
+      "id": "met-436230",
+      "source": "met",
+      "sourceId": "436230",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436230",
+      "credit": "The Metropolitan Museum of Art, Open Access (CC0)",
+      "title_en": "Card Players in a Drawing Room",
+      "title_zh": "客厅中的牌局",
+      "artist_en": "Pierre Louis Dumesnil the Younger",
+      "artist_zh": "皮埃尔·路易·杜梅尼",
+      "artist_id": "pierre-louis-dumesnil-the-younger",
+      "artist_nationality_zh": "法国",
+      "artist_years": "不详",
+      "date_display": "ca. 1756–59",
+      "year": 1756,
+      "medium_zh": "布面油画",
+      "dimensions": "31 1/8 x 38 3/4 in. (79.1 x 98.4 cm)",
+      "movement_zh": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "室内",
+        "洛可可",
+        "贵族生活"
+      ],
+      "image": {
+        "feed": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356146.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/ep/original/DP356146.jpg",
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356146.jpg",
+        "ratio": 0.801
+      },
+      "palette": [
+        "#221512",
+        "#3e2c21"
+      ],
+      "essay": [
+        "杜梅尼是 18 世纪法国画坛的二线画家，擅长描绘贵族室内生活。这幅作品属于典型的洛可可风俗画，记录了当时上流社会的娱乐消遣。虽然名气不及布歇，但他对室内空间的理解显示了扎实的学院训练背景，尤其在透视处理上颇为用心。",
+        "画面中央站立男子的蓝色外套是视觉焦点之一。厚涂法堆叠出羊毛面料的厚重感，衣褶随着身体重心自然垂落。深蓝与身后红色绒布椅背形成强烈互补，色彩饱和度控制得当，织物光泽在烛光下显得含蓄而真实。",
+        "不过，人物神态略显呆板，缺乏夏尔丹那种捕捉瞬间生动的能力。右侧牌桌旁的几位女士面部模糊，像是为了凑齐构图而摆放的道具。整体光线偏暗，削弱了洛可可应有的轻盈与华丽感，显得略微沉闷。"
+      ],
+      "detailCrop": {
+        "cx": 0.45,
+        "cy": 0.55,
+        "r": 0.12,
+        "region": "clothing"
+      }
+    }
+  ]
+}

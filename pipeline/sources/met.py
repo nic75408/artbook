@@ -37,7 +37,7 @@ ARTIST_TERMS = ["Rembrandt", "Van Gogh", "Monet", "Renoir", "Cezanne", "Degas",
 def _search(dep, **extra):
     params = {"q": "the", "departmentId": dep, "hasImages": "true",
               "isPublicDomain": "true", **extra}
-    data = http_get_json(f"{config.MET_BASE}/search", params=params)
+    data = http_get_json(f"{config.MET_SEARCH_BASE}/search", params=params)
     return (data or {}).get("objectIDs") or []
 
 

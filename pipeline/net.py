@@ -59,6 +59,35 @@ def http_get_json(url, params=None, timeout=None):
     return None
 
 
+def http_get_bytes(url, timeout=None, retries=2):
+    """下载图片原始字节（带浏览器 UA，绕过 WAF）。
+
+    2026-11-21（t_6795558f）：发现 images.metmuseum.org 现在也挂了 Imperva，
+    对非浏览器 UA / LLM 网关自身的图片抓取请求返回 200 状态码但 body 是
+    "Pardon Our Interruption" 挑战页（不是真图片）——HEAD 请求用浏览器 UA
+    能通过，但 LLM 网关发起的 GET 用的是网关自己的 UA，拿到的仍是假图片，
+    导致 vision 调用报 'image format is illegal' 或直接挂到超时。
+    解法：pipeline 自己用验证过有效的浏览器 UA 把图片字节下下来，
+    再 base64 塞进 data URL 交给 LLM，不让网关直接去拉外部 URL。
+    """
+    import subprocess
+
+    timeout = timeout or config.HTTP_TIMEOUT
+    for attempt in range(retries + 1):
+        try:
+            result = subprocess.run(
+                ['curl', '-m', str(timeout), '-sS', '-A', _UA, url],
+                capture_output=True,
+                timeout=timeout + 5
+            )
+            if result.returncode == 0 and result.stdout:
+                return result.stdout
+            time.sleep(1 + attempt)
+        except Exception:
+            time.sleep(1 + attempt)
+    return None
+
+
 def http_head_ok(url, retries=3):
     """图片 URL 存活校验（SPE §6.3-6）。
 
