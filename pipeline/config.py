@@ -14,10 +14,17 @@ LLM_MODEL = os.environ.get("LLM_MODEL", "qwen3.5-plus")
 LLM_SUPPORTS_VISION = os.environ.get("LLM_SUPPORTS_VISION", "true").lower() in ("1", "true", "yes")
 LLM_TEMPERATURE = float(os.environ.get("LLM_TEMPERATURE", "0.6"))
 LLM_MAX_TOKENS = int(os.environ.get("LLM_MAX_TOKENS", "4000"))
-LLM_TIMEOUT = 180
+# 2026-11-21 实测：qwen3.5-plus 网关当前带图调用单次延迟可达 140-150s
+# （纯文本调用仅 4s），180s 超时常把本可成功的慢调用杀死后重试，
+# 白白耗时且不提高成功率。调到 300s 给慢调用留出完成空间。
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "300"))
 
 # --- 数据源 ---
 MET_BASE = "https://collectionapi.metmuseum.org/public/collection/v1"
+# 2026-11-21：/v1/search 已于 2026-10-01 退役（410 Gone，Solr→Elastic 迁移），
+# 官方指定替代端点 /v1.1/search；/v1/objects、/v1/objects/{id} 等其余端点不受影响，
+# 仍用 MET_BASE。见 met.py _search()。
+MET_SEARCH_BASE = "https://collectionapi.metmuseum.org/public/collection/v1.1"
 AIC_BASE = "https://api.artic.edu/api/v1"
 CMA_BASE = "https://openaccess-api.clevelandart.org/api"
 RIJKS_BASE = "https://www.rijksmuseum.nl/api/en"
