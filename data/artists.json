@@ -7679,6 +7679,153 @@
       "years": "1775–1844",
       "nationality_zh": "日本",
       "bio_zh": "江户后期京都画家，圆山应举弟子，擅长花鸟与风俗人物，笔触细腻写实。"
+    },
+    "master-of-the-jaunpur-kalpasutra": {
+      "name_zh": "贾温普尔手稿大师",
+      "name_en": "Master of the Jaunpur Kalpasutra",
+      "years": "不详",
+      "nationality_zh": "印度",
+      "bio_zh": "15 世纪印度画家，擅长耆那教手稿插图，以鲜艳色彩与程式化人物造型著称，生平不详。"
+    },
+    "pieter-neeffs-the-elder": {
+      "name_zh": "老皮特·内夫斯",
+      "name_en": "Pieter Neeffs the Elder",
+      "years": "约 1578–1656",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "佛兰德斯画家，专攻教堂内景画，以精确透视与光影著称，活跃于 17 世纪安特卫普。"
+    },
+    "peter-paul-rubens": {
+      "name_zh": "彼得·保罗·鲁本斯",
+      "name_en": "Peter Paul Rubens",
+      "years": "1577–1640",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "佛兰德斯巴洛克绘画代表人物，擅长宏大构图与动态人体，色彩丰沛。"
+    },
+    "frans-van-mieris-the-elder": {
+      "name_zh": "弗兰斯·范·米里斯（老）",
+      "name_en": "Frans van Mieris the Elder",
+      "years": "1635–1681",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代精细画派代表，以微缩尺幅上的极致细节与光泽质感著称。"
+    },
+    "andrea-mantegna": {
+      "name_zh": "安德烈亚·曼特尼亚",
+      "name_en": "Andrea Mantegna",
+      "years": "1431–1506",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴早期代表，以雕塑般的人物与透视法著称，对后世版画影响深远。"
+    },
+    "jean-honore-fragonard": {
+      "name_zh": "让 - 奥诺雷·弗拉戈纳尔",
+      "name_en": "Jean Honoré Fragonard",
+      "years": "1732–1806",
+      "nationality_zh": "法国",
+      "bio_zh": "法国洛可可画派代表人物，以笔触轻盈、色彩明媚著称，擅长描绘享乐场景与浪漫风情。"
+    },
+    "jan-brueghel-the-elder": {
+      "name_zh": "老扬·勃鲁盖尔",
+      "name_en": "Jan Brueghel the Elder",
+      "years": "1568–1625",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "佛兰德斯画家，老彼得·勃鲁盖尔之子。擅长精细风景，因笔触细腻获称天鹅绒勃鲁盖尔。"
+    },
+    "botticelli": {
+      "name_zh": "桑德罗·波提切利",
+      "name_en": "Botticelli",
+      "years": "1445–1510",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴早期佛罗伦萨画派代表画家，以线条优美和神话题材著称。"
+    },
+    "david-teniers-the-younger": {
+      "name_zh": "大卫·特尼尔斯二世",
+      "name_en": "David Teniers the Younger",
+      "years": "1610–1690",
+      "nationality_zh": "佛兰德斯",
+      "bio_zh": "佛兰德斯巴洛克画家，以风俗画和守卫室场景闻名，曾任奥地利大公画藏主管。"
+    },
+    "jean-baptiste-greuze": {
+      "name_zh": "让 - 巴蒂斯特·格勒兹",
+      "name_en": "Jean-Baptiste Greuze",
+      "years": "1725–1805",
+      "nationality_zh": "法国",
+      "bio_zh": "18 世纪法国画家，以感伤风俗画著称，试图跻身历史画家行列未果。"
+    },
+    "torii-kiyonaga": {
+      "name_zh": "鸟居清长",
+      "name_en": "Torii Kiyonaga",
+      "years": "1752–1815",
+      "nationality_zh": "日本",
+      "bio_zh": "鸟居清长，江户浮世绘画家，鸟居派第四代。创立“清长美人”样式，确立八头身比例，风格典雅。"
+    },
+    "alvaro-pirez": {
+      "name_zh": "阿尔瓦罗·皮雷兹",
+      "name_en": "Alvaro Pirez",
+      "years": "不详–1450",
+      "nationality_zh": "葡萄牙",
+      "bio_zh": "葡萄牙画家，活跃于 15 世纪早期托斯卡纳地区，融合国际哥特式与早期文艺复兴风格。"
+    },
+    "lucas-cranach-the-elder-and-workshop": {
+      "name_zh": "老卢卡斯·克拉纳赫",
+      "name_en": "Lucas Cranach the Elder and Workshop",
+      "years": "1472–1553",
+      "nationality_zh": "德国",
+      "bio_zh": "德国文艺复兴巨匠，宗教改革视觉推手，以独特肖像风格闻名。"
+    },
+    "gerard-ter-borch-the-younger": {
+      "name_zh": "杰拉德·特博尔",
+      "name_en": "Gerard ter Borch the Younger",
+      "years": "1617–1681",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代风俗画大师，以精准描绘丝绸光泽与室内静谧氛围著称，对维米尔影响深远。"
+    },
+    "cornelis-jonson-van-ceulen-the-elder": {
+      "name_zh": "科尼利斯·约恩松·范·瑟伦",
+      "name_en": "Cornelis Jonson van Ceulen the Elder",
+      "years": "1593–1661",
+      "nationality_zh": "荷兰",
+      "bio_zh": "英荷裔肖像画家，以精细的面部刻画与服饰质感闻名，活跃于十七世纪上半叶。"
+    },
+    "ishikawa-toyonobu": {
+      "name_zh": "石川豊信",
+      "name_en": "Ishikawa Toyonobu",
+      "years": "1711–1785",
+      "nationality_zh": "日本",
+      "bio_zh": "江户中期浮世绘画家，鸟居派代表人物，擅长役者绘与美人画，线条强健有力。"
+    },
+    "robert-peake-the-elder": {
+      "name_zh": "罗伯特·皮克（老）",
+      "name_en": "Robert Peake the Elder",
+      "years": "1551–1619",
+      "nationality_zh": "英国",
+      "bio_zh": "英国文艺复兴时期画家，曾任詹姆斯一世宫廷画师，擅长全身肖像与历史题材。"
+    },
+    "giovanni-di-paolo-giovanni-di-paolo-di-grazia": {
+      "name_zh": "乔瓦尼·迪·保罗",
+      "name_en": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+      "years": "1398–1482",
+      "nationality_zh": "意大利",
+      "bio_zh": "15 世纪锡耶纳画派代表人物，作品以装饰性线条与神秘色彩著称，风格独特。"
+    },
+    "the-master-of-the-small-landscapes": {
+      "name_zh": "小风景大师",
+      "name_en": "The Master of the Small Landscapes",
+      "years": "不详",
+      "nationality_zh": "尼德兰",
+      "bio_zh": "16 世纪尼德兰匿名版画艺术家，因《小风景》系列得名，生平不详，作品具早期写实主义价值。"
+    },
+    "bartolomeo-montagna-bartolomeo-cincani": {
+      "name_zh": "巴托洛梅奥·蒙塔尼亚",
+      "name_en": "Bartolomeo Montagna (Bartolomeo Cincani)",
+      "years": "1450–1523",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴画家，活跃于维琴察。师从贝利尼，风格硬朗与柔和，擅宗教画。"
+    },
+    "pierre-louis-dumesnil-the-younger": {
+      "name_zh": "皮埃尔·路易·杜梅尼",
+      "name_en": "Pierre Louis Dumesnil the Younger",
+      "years": "不详",
+      "nationality_zh": "法国",
+      "bio_zh": "法国画家，活跃于 18 世纪中叶，擅长风俗画与室内场景，风格受洛可可影响。"
     }
   }
 }

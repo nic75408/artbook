@@ -39724,6 +39724,550 @@
       ],
       "th": "https://openaccess-cdn.clevelandart.org/2020.258/2020.258_web.jpg",
       "ratio": 0.062
+    },
+    {
+      "id": "met-37788",
+      "issue": "2026-11-21",
+      "t": "《卡尔帕苏特拉手稿：大雄诞生的十四吉梦》",
+      "a": "贾温普尔手稿大师",
+      "aid": "master-of-the-jaunpur-kalpasutra",
+      "y": 1465,
+      "mv": "印度细密画",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "印度",
+        "手稿",
+        "细密画",
+        "耆那教"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DT6940.jpg",
+      "ratio": 0.401
+    },
+    {
+      "id": "met-437188",
+      "issue": "2026-11-21",
+      "t": "哥特式教堂内部夜景",
+      "a": "老皮特·内夫斯",
+      "aid": "pieter-neeffs-the-elder",
+      "y": 1635,
+      "mv": "巴洛克",
+      "tags": [
+        "建筑",
+        "17世纪",
+        "佛兰德斯",
+        "光影",
+        "夜景",
+        "室内"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/ep30.58.21.bw.R.jpg",
+      "ratio": 0.806
+    },
+    {
+      "id": "cma-153606",
+      "issue": "2026-11-21",
+      "t": "白色三色堇",
+      "a": "乔治亚·欧姬芙",
+      "aid": "georgia-o-keeffe-american-1887-1986",
+      "y": 1927,
+      "mv": "现代主义",
+      "tags": [
+        "静物",
+        "20世纪",
+        "美国",
+        "现代主义",
+        "花卉",
+        "构图"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1987.139/1987.139_web.jpg",
+      "ratio": 1.215
+    },
+    {
+      "id": "met-437525",
+      "issue": "2026-11-21",
+      "t": "阿刻罗俄斯的宴会",
+      "a": "彼得·保罗·鲁本斯",
+      "aid": "peter-paul-rubens",
+      "y": 1615,
+      "mv": "巴洛克",
+      "tags": [
+        "神话",
+        "17世纪",
+        "佛兰德斯",
+        "巴洛克",
+        "宴会",
+        "人体"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1581.jpg",
+      "ratio": 0.663
+    },
+    {
+      "id": "cma-130220",
+      "issue": "2026-11-21",
+      "t": "岩石兰竹图",
+      "a": "石涛",
+      "aid": "shitao-chinese-1642-1707",
+      "y": 1662,
+      "mv": "文人画",
+      "tags": [
+        "兰竹",
+        "17世纪",
+        "中国",
+        "水墨",
+        "手卷",
+        "清初四僧"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_web.jpg",
+      "ratio": 0.061
+    },
+    {
+      "id": "met-436668",
+      "issue": "2026-11-21",
+      "t": "男子肖像（拉尔夫·萨德勒爵士？）",
+      "a": "汉斯·荷尔拜因",
+      "aid": "hans-holbein-the-younger",
+      "y": 1535,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "细节",
+        "质感",
+        "荷尔拜因"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278970.jpg",
+      "ratio": 0.978
+    },
+    {
+      "id": "met-437088",
+      "issue": "2026-11-21",
+      "t": "小夜曲",
+      "a": "弗兰斯·范·米里斯（老）",
+      "aid": "frans-van-mieris-the-elder",
+      "y": 1678,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "夜景",
+        "烛光",
+        "17世纪",
+        "荷兰",
+        "精细画派"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143182.jpg",
+      "ratio": 1.236
+    },
+    {
+      "id": "met-337057",
+      "issue": "2026-11-21",
+      "t": "酒神与酒槽",
+      "a": "安德烈亚·曼特尼亚",
+      "aid": "andrea-mantegna",
+      "y": 1475,
+      "mv": "文艺复兴",
+      "tags": [
+        "神话",
+        "15世纪",
+        "意大利",
+        "版画",
+        "裸体",
+        "古典主义"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-22149-001.jpg",
+      "ratio": 0.707
+    },
+    {
+      "id": "met-436326",
+      "issue": "2026-11-21",
+      "t": "姐妹俩",
+      "a": "让 - 奥诺雷·弗拉戈纳尔",
+      "aid": "jean-honore-fragonard",
+      "y": 1769,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "姐妹",
+        "儿童"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1012-01.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "met-438465",
+      "issue": "2026-11-21",
+      "t": "林间小径上的旅人风景",
+      "a": "老扬·勃鲁盖尔",
+      "aid": "jan-brueghel-the-elder",
+      "y": 1607,
+      "mv": "巴洛克",
+      "tags": [
+        "风景",
+        "17世纪",
+        "佛兰德斯",
+        "铜板画",
+        "自然"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24113-001.jpg",
+      "ratio": 0.638
+    },
+    {
+      "id": "met-435731",
+      "issue": "2026-11-21",
+      "t": "圣母加冕",
+      "a": "桑德罗·波提切利",
+      "aid": "botticelli",
+      "y": null,
+      "mv": "早期文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "佛罗伦萨画派",
+        "圣母"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT350031.jpg",
+      "ratio": 0.667
+    },
+    {
+      "id": "met-437777",
+      "issue": "2026-11-21",
+      "t": "守卫室与圣彼得的解救",
+      "a": "大卫·特尼尔斯二世",
+      "aid": "david-teniers-the-younger",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "佛兰德斯",
+        "宗教题材",
+        "室内场景"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25891-001.jpg",
+      "ratio": 0.761
+    },
+    {
+      "id": "met-436580",
+      "issue": "2026-11-21",
+      "t": "朱庇特拜访埃癸娜",
+      "a": "让 - 巴蒂斯特·格勒兹",
+      "aid": "jean-baptiste-greuze",
+      "y": 1767,
+      "mv": "洛可可",
+      "tags": [
+        "神话",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "裸体"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12954-001.jpg",
+      "ratio": 0.751
+    },
+    {
+      "id": "met-56032",
+      "issue": "2026-11-21",
+      "t": "剪趾甲；浴后梳妆",
+      "a": "鸟居清长",
+      "aid": "torii-kiyonaga",
+      "y": null,
+      "mv": "浮世绘",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "美人画",
+        "江户时代"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP124171.jpg",
+      "ratio": 1.492
+    },
+    {
+      "id": "met-436104",
+      "issue": "2026-11-21",
+      "t": "东方三博士的崇拜",
+      "a": "赫拉德·大卫",
+      "aid": "gerard-david",
+      "y": 1520,
+      "mv": "尼德兰文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "尼德兰",
+        "文艺复兴",
+        "色彩",
+        "服饰"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20588-001.jpg",
+      "ratio": 0.963
+    },
+    {
+      "id": "met-437298",
+      "issue": "2026-11-21",
+      "t": "耶稣献殿",
+      "a": "阿尔瓦罗·皮雷兹",
+      "aid": "alvaro-pirez",
+      "y": 1405,
+      "mv": "国际哥特式",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "葡萄牙",
+        "祭坛画",
+        "蛋彩画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8826.jpg",
+      "ratio": 0.826
+    },
+    {
+      "id": "cma-136296",
+      "issue": "2026-11-21",
+      "t": "《江山卧游图》卷",
+      "a": "程正揆",
+      "aid": "cheng-zhengkui-chinese-1604-1676",
+      "y": 1658,
+      "mv": "文人画",
+      "tags": [
+        "山水",
+        "清初",
+        "中国",
+        "手卷",
+        "干笔皴擦",
+        "17世纪"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/1960.182/1960.182_web.jpg",
+      "ratio": 0.051
+    },
+    {
+      "id": "met-436045",
+      "issue": "2026-11-21",
+      "t": "萨克森选帝侯约翰一世肖像",
+      "a": "老卢卡斯·克拉纳赫",
+      "aid": "lucas-cranach-the-elder-and-workshop",
+      "y": 1532,
+      "mv": "德国文艺复兴",
+      "tags": [
+        "肖像",
+        "16世纪",
+        "德国",
+        "宗教改革",
+        "贵族",
+        "综合材料"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278975.jpg",
+      "ratio": 1.431
+    },
+    {
+      "id": "met-437528",
+      "issue": "2026-11-21",
+      "t": "圣家族与圣方济各、圣安妮及婴儿施洗者圣约翰",
+      "a": "彼得·保罗·鲁本斯",
+      "aid": "peter-paul-rubens",
+      "y": 1630,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教画",
+        "17世纪",
+        "佛兰德斯",
+        "群像",
+        "圣母像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17640-001.jpg",
+      "ratio": 0.852
+    },
+    {
+      "id": "met-435714",
+      "issue": "2026-11-21",
+      "t": "好奇",
+      "a": "杰拉德·特博尔",
+      "aid": "gerard-ter-borch-the-younger",
+      "y": 1660,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "风俗画",
+        "17世纪",
+        "荷兰",
+        "丝绸",
+        "室内场景",
+        "女性"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145405.jpg",
+      "ratio": 1.231
+    },
+    {
+      "id": "met-436789",
+      "issue": "2026-11-21",
+      "t": "女子肖像",
+      "a": "科尼利斯·约恩松·范·瑟伦",
+      "aid": "cornelis-jonson-van-ceulen-the-elder",
+      "y": 1648,
+      "mv": "荷兰黄金时代",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "深色背景",
+        "贵族女性",
+        "蕾丝"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147901.jpg",
+      "ratio": 1.289
+    },
+    {
+      "id": "met-56691",
+      "issue": "2026-11-21",
+      "t": "巾舞图",
+      "a": "石川豊信",
+      "aid": "ishikawa-toyonobu",
+      "y": null,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "舞蹈",
+        "18世纪",
+        "日本",
+        "江户时代",
+        "浮世绘"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP135511.jpg",
+      "ratio": 2.056
+    },
+    {
+      "id": "met-437262",
+      "issue": "2026-11-21",
+      "t": "威尔士亲王亨利·弗雷德里克与哈林顿爵士狩猎像",
+      "a": "罗伯特·皮克（老）",
+      "aid": "robert-peake-the-elder",
+      "y": 1603,
+      "mv": "英国文艺复兴",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "英国",
+        "狩猎",
+        "宫廷"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169396.jpg",
+      "ratio": 1.381
+    },
+    {
+      "id": "cma-171154",
+      "issue": "2026-11-21",
+      "t": "埃兹拉·达文波特肖像",
+      "a": "克拉伦斯·霍尔布鲁克·卡特",
+      "aid": "clarence-holbrook-carter-american-1904-2000",
+      "y": 1929,
+      "mv": "美国现实主义",
+      "tags": [
+        "肖像",
+        "20世纪",
+        "美国",
+        "写实",
+        "老年",
+        "室内"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2013.67/2013.67_web.jpg",
+      "ratio": 1.244
+    },
+    {
+      "id": "met-436509",
+      "issue": "2026-11-21",
+      "t": "博士来朝",
+      "a": "乔瓦尼·迪·保罗",
+      "aid": "giovanni-di-paolo-giovanni-di-paolo-di-grazia",
+      "y": 1460,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "锡耶纳",
+        "蛋彩画",
+        "黄金装饰"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+      "ratio": 1.134
+    },
+    {
+      "id": "met-337346",
+      "issue": "2026-11-21",
+      "t": "《乡村房屋、前景中的情侣与玉米田，选自〈小风景〉系列》",
+      "a": "小风景大师",
+      "aid": "the-master-of-the-small-landscapes",
+      "y": 1559,
+      "mv": "北方文艺复兴",
+      "tags": [
+        "风景",
+        "16世纪",
+        "尼德兰",
+        "版画",
+        "乡村",
+        "北方文艺复兴"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP818231.jpg",
+      "ratio": 0.7
+    },
+    {
+      "id": "met-437144",
+      "issue": "2026-11-21",
+      "t": "圣母朝拜圣子",
+      "a": "巴托洛梅奥·蒙塔尼亚",
+      "aid": "bartolomeo-montagna-bartolomeo-cincani",
+      "y": null,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "圣母",
+        "肖像",
+        "风景"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP328558.jpg",
+      "ratio": 1.207
+    },
+    {
+      "id": "cma-294203",
+      "issue": "2026-11-21",
+      "t": "文字册架图屏风",
+      "a": "佚名",
+      "aid": "unknown",
+      "y": 1900,
+      "mv": "朝鲜王朝绘画",
+      "tags": [
+        "静物",
+        "20世纪",
+        "韩国",
+        "屏风",
+        "文字",
+        "器物"
+      ],
+      "th": "https://openaccess-cdn.clevelandart.org/2017.6/2017.6_web.jpg",
+      "ratio": 0.469
+    },
+    {
+      "id": "met-436230",
+      "issue": "2026-11-21",
+      "t": "客厅中的牌局",
+      "a": "皮埃尔·路易·杜梅尼",
+      "aid": "pierre-louis-dumesnil-the-younger",
+      "y": 1756,
+      "mv": "洛可可",
+      "tags": [
+        "风俗",
+        "18世纪",
+        "法国",
+        "室内",
+        "洛可可",
+        "贵族生活"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356146.jpg",
+      "ratio": 0.801
     }
   ]
 }
