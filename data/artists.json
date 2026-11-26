@@ -7826,6 +7826,153 @@
       "years": "不详",
       "nationality_zh": "法国",
       "bio_zh": "法国画家，活跃于 18 世纪中叶，擅长风俗画与室内场景，风格受洛可可影响。"
+    },
+    "rembrandt-rembrandt-van-rijn": {
+      "name_zh": "伦勃朗",
+      "name_en": "Rembrandt (Rembrandt van Rijn)",
+      "years": "1606–1669",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代绘画大师，擅长光影戏剧性处理，以肖像画与自画像系列闻名于世。"
+    },
+    "edgar-degas": {
+      "name_zh": "埃德加·德加",
+      "name_en": "Edgar Degas",
+      "years": "1834–1917",
+      "nationality_zh": "法国",
+      "bio_zh": "法国画家，印象派核心成员，以描绘芭蕾舞者、赛马及沐浴女性著称，擅长捕捉动态瞬间。"
+    },
+    "katsukawa-shunsho": {
+      "name_zh": "胜川春章",
+      "name_en": "Katsukawa Shunshō　勝川春章",
+      "years": "1726–1792",
+      "nationality_zh": "日本",
+      "bio_zh": "日本江户浮世绘画家，胜川派始祖。首创似颜绘，突破程式化，强调写实性，影响深远。"
+    },
+    "duccio-di-buoninsegna": {
+      "name_zh": "杜乔·迪·博宁塞尼亚",
+      "name_en": "Duccio di Buoninsegna",
+      "years": "约 1255–1319",
+      "nationality_zh": "意大利",
+      "bio_zh": "锡耶纳画派奠基人。擅长蛋彩与金箔技法，作品优雅细腻，引领 13 世纪绘画抒情转向。"
+    },
+    "katsushika-hokusai": {
+      "name_zh": "葛饰北斋",
+      "name_en": "Katsushika Hokusai",
+      "years": "1760–1849",
+      "nationality_zh": "日本",
+      "bio_zh": "葛饰北斋，日本浮世绘巨匠，享年九十，画题遍及万物。"
+    },
+    "piero-di-cosimo-piero-di-lorenzo-di-piero-d-antonio": {
+      "name_zh": "皮耶罗·迪·科西莫",
+      "name_en": "Piero di Cosimo (Piero di Lorenzo di Piero d'Antonio)",
+      "years": "1462–1522",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴早期画家，擅画奇诡神话题材，风格融合佛罗伦萨画派与北方哥特式细节"
+    },
+    "frans-hals": {
+      "name_zh": "弗兰斯·哈尔斯",
+      "name_en": "Frans Hals",
+      "years": "1582–1666",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰画派肖像大师，笔触松散自由。擅长捕捉瞬间表情，打破僵化姿态，启发了印象派。"
+    },
+    "nicolas-poussin": {
+      "name_zh": "尼古拉·普桑",
+      "name_en": "Nicolas Poussin",
+      "years": "1594–1665",
+      "nationality_zh": "法国",
+      "bio_zh": "17 世纪法国古典主义奠基人，定居罗马，作品以理性、秩序与历史题材著称。"
+    },
+    "jean-marc-nattier": {
+      "name_zh": "让 - 马克·纳蒂埃",
+      "name_en": "Jean Marc Nattier",
+      "years": "1685–1766",
+      "nationality_zh": "法国",
+      "bio_zh": "法国肖像画家，路易十五宫廷画师。擅长神话化贵族女性，以柔美色彩确立洛可可典范。"
+    },
+    "leonardo-da-vinci": {
+      "name_zh": "列奥纳多·达·芬奇",
+      "name_en": "Leonardo da Vinci",
+      "years": "1452–1519",
+      "nationality_zh": "意大利",
+      "bio_zh": "文艺复兴全盛期代表人物，集画家、科学家于一身，以晕涂法与解剖研究著称。"
+    },
+    "pier-francesco-mola": {
+      "name_zh": "皮尔·弗朗切斯科·莫拉",
+      "name_en": "Pier Francesco Mola",
+      "years": "1612–1666",
+      "nationality_zh": "意大利",
+      "bio_zh": "17 世纪意大利巴洛克画家，活跃于罗马，融合威尼斯色彩与古典素描风格。"
+    },
+    "chobunsai-eishi": {
+      "name_zh": "鸟文斋荣之",
+      "name_en": "Chōbunsai Eishi",
+      "years": "1756–1829",
+      "nationality_zh": "日本",
+      "bio_zh": "江户时代浮世绘画家，原为旗本武士。以描绘高挑优雅的美人画著称，风格柔和淡雅。"
+    },
+    "hubert-robert": {
+      "name_zh": "于贝尔·罗伯特",
+      "name_en": "Hubert Robert",
+      "years": "1733–1808",
+      "nationality_zh": "法国",
+      "bio_zh": "18 世纪法国画家，被誉为“废墟画家”。擅长幻想建筑画，融合古罗马遗迹与风景，风格诗意。"
+    },
+    "lorenzo-di-credi-lorenzo-d-andrea-d-oderigo": {
+      "name_zh": "洛伦佐·迪·克雷迪",
+      "name_en": "Lorenzo di Credi (Lorenzo d'Andrea d'Oderigo)",
+      "years": "1459–1537",
+      "nationality_zh": "意大利",
+      "bio_zh": "洛伦佐·迪·克雷迪，韦罗基奥助手，达·芬奇同门。风格细腻，擅长宗教题材。"
+    },
+    "camille-pissarro": {
+      "name_zh": "卡米耶·毕沙罗",
+      "name_en": "Camille Pissarro",
+      "years": "1830–1903",
+      "nationality_zh": "法国",
+      "bio_zh": "法国印象派画家，唯一参展八次印象派画展。擅长风景与农民题材，晚年探索点彩技法。"
+    },
+    "rembrandt": {
+      "name_zh": "伦勃朗",
+      "name_en": "Rembrandt",
+      "years": "1606–1669",
+      "nationality_zh": "荷兰",
+      "bio_zh": "荷兰黄金时代代表画家，擅长用光影塑造人物心理，技法影响深远。"
+    },
+    "leon-augustin-lhermitte": {
+      "name_zh": "莱昂 - 奥古斯丁·莱尔米特",
+      "name_en": "Léon-Augustin Lhermitte",
+      "years": "1844–1925",
+      "nationality_zh": "法国",
+      "bio_zh": "法国自然主义画家，擅长描绘农民生活，以精准的素描功底和光影处理著称。"
+    },
+    "girolamo-dai-libri": {
+      "name_zh": "吉罗拉莫·达伊·利布里",
+      "name_en": "Girolamo dai Libri",
+      "years": "1474–1556",
+      "nationality_zh": "意大利",
+      "bio_zh": "意大利文艺复兴画家，维罗纳画派代表。擅长细密画，以明亮色彩及精细风景背景闻名。"
+    },
+    "achille-etna-michallon": {
+      "name_zh": "阿希尔 - 埃特纳·米沙隆",
+      "name_en": "Achille-Etna Michallon",
+      "years": "1796–1822",
+      "nationality_zh": "法国",
+      "bio_zh": "法国早期风景画家，罗马大奖首位获得者，柯罗的老师，倡导户外写生。"
+    },
+    "ryuryukyo-shinsai": {
+      "name_zh": "柳々居辰斋",
+      "name_en": "Ryūryūkyo Shinsai",
+      "years": "不详",
+      "nationality_zh": "日本",
+      "bio_zh": "柳々居辰斋，江户后期浮世绘画师，擅长摺物与狂歌绘，风格闲适淡雅。"
+    },
+    "toshusai-sharaku": {
+      "name_zh": "东洲斋写乐",
+      "name_en": "Tōshūsai Sharaku",
+      "years": "不详",
+      "nationality_zh": "日本",
+      "bio_zh": "日本江户时代浮世绘画师，活跃于 1794 至 1795 年，身份成谜，以夸张的役者绘闻名。"
     }
   }
 }

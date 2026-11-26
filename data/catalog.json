@@ -40268,6 +40268,564 @@
       ],
       "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356146.jpg",
       "ratio": 0.801
+    },
+    {
+      "id": "met-437397",
+      "issue": "2026-11-27",
+      "t": "自画像",
+      "a": "伦勃朗",
+      "aid": "rembrandt-rembrandt-van-rijn",
+      "y": 1660,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "巴洛克",
+        "光影",
+        "自画像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
+      "ratio": 1.214
+    },
+    {
+      "id": "met-438817",
+      "issue": "2026-11-27",
+      "t": "舞蹈课",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas",
+      "y": 1874,
+      "mv": "印象派",
+      "tags": [
+        "舞蹈",
+        "19世纪",
+        "法国",
+        "印象派",
+        "排练厅",
+        "芭蕾"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+      "ratio": 1.078
+    },
+    {
+      "id": "met-36590",
+      "issue": "2026-11-27",
+      "t": "市川八百藏三世与美马斯德次郎",
+      "a": "胜川春章",
+      "aid": "katsukawa-shunsho",
+      "y": 1785,
+      "mv": "浮世绘",
+      "tags": [
+        "役者绘",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "肖像",
+        "江户时代"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP132764.jpg",
+      "ratio": 1.496
+    },
+    {
+      "id": "met-437520",
+      "issue": "2026-11-27",
+      "t": "阿尔邦附近的日落",
+      "a": "西奥多·卢梭",
+      "aid": "theodore-rousseau",
+      "y": 1860,
+      "mv": "巴比松画派",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "巴比松画派",
+        "日落",
+        "木板油画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229696.jpg",
+      "ratio": 0.638
+    },
+    {
+      "id": "met-438754",
+      "issue": "2026-11-27",
+      "t": "圣母与圣子",
+      "a": "杜乔·迪·博宁塞尼亚",
+      "aid": "duccio-di-buoninsegna",
+      "y": 1295,
+      "mv": "锡耶纳画派",
+      "tags": [
+        "宗教",
+        "13世纪",
+        "意大利",
+        "蛋彩画",
+        "金色背景"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
+      "ratio": 1.314
+    },
+    {
+      "id": "met-435884",
+      "issue": "2026-11-27",
+      "t": "静物：罐子、杯子和苹果",
+      "a": "保罗·塞尚",
+      "aid": "paul-cezanne",
+      "y": 1877,
+      "mv": "后印象派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "后印象派",
+        "色彩",
+        "塞尚"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130322.jpg",
+      "ratio": 0.822
+    },
+    {
+      "id": "met-49937",
+      "issue": "2026-11-27",
+      "t": "城岳灵泉（琉球八景系列）",
+      "a": "葛饰北斋",
+      "aid": "katsushika-hokusai",
+      "y": 1832,
+      "mv": "浮世绘",
+      "tags": [
+        "风景",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "版画",
+        "琉球"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP141124.jpg",
+      "ratio": 0.773
+    },
+    {
+      "id": "met-437283",
+      "issue": "2026-11-27",
+      "t": "狩猎场景",
+      "a": "皮耶罗·迪·科西莫",
+      "aid": "piero-di-cosimo-piero-di-lorenzo-di-piero-d-antonio",
+      "y": 1497,
+      "mv": "文艺复兴",
+      "tags": [
+        "神话",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "叙事",
+        "全景"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19296-001.jpg",
+      "ratio": 0.45
+    },
+    {
+      "id": "met-436623",
+      "issue": "2026-11-27",
+      "t": "男子肖像",
+      "a": "弗兰斯·哈尔斯",
+      "aid": "frans-hals",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "巴洛克",
+        "男性"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44327-001.jpg",
+      "ratio": 1.351
+    },
+    {
+      "id": "met-437330",
+      "issue": "2026-11-27",
+      "t": "圣彼得与圣约翰治愈瘸腿者",
+      "a": "尼古拉·普桑",
+      "aid": "nicolas-poussin",
+      "y": 1655,
+      "mv": "古典主义",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "法国",
+        "古典主义",
+        "圣经题材",
+        "历史画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP340180.jpg",
+      "ratio": 0.756
+    },
+    {
+      "id": "met-56185",
+      "issue": "2026-11-27",
+      "t": "筏上之人",
+      "a": "葛饰北斋",
+      "aid": "katsushika-hokusai",
+      "y": null,
+      "mv": "浮世绘",
+      "tags": [
+        "人物",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "劳动",
+        "素描感"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP141080.jpg",
+      "ratio": 1.398
+    },
+    {
+      "id": "met-437181",
+      "issue": "2026-11-27",
+      "t": "马索利埃夫人和她的女儿",
+      "a": "让 - 马克·纳蒂埃",
+      "aid": "jean-marc-nattier",
+      "y": 1749,
+      "mv": "洛可可",
+      "tags": [
+        "肖像",
+        "18世纪",
+        "法国",
+        "洛可可",
+        "女性",
+        "服饰"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP247889.jpg",
+      "ratio": 1.279
+    },
+    {
+      "id": "met-337494",
+      "issue": "2026-11-27",
+      "t": "圣母朝拜圣婴构图草图",
+      "a": "列奥纳多·达·芬奇",
+      "aid": "leonardo-da-vinci",
+      "y": 1480,
+      "mv": "文艺复兴",
+      "tags": [
+        "手稿",
+        "宗教题材",
+        "15世纪",
+        "意大利",
+        "构图研究",
+        "文艺复兴"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/dp/web-large/DP832657.jpg",
+      "ratio": 1.184
+    },
+    {
+      "id": "met-436963",
+      "issue": "2026-11-27",
+      "t": "草莓",
+      "a": "爱德华·马奈",
+      "aid": "edouard-manet",
+      "y": 1882,
+      "mv": "印象派",
+      "tags": [
+        "静物",
+        "19世纪",
+        "法国",
+        "印象派",
+        "简约"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/ep56.230.1.R.jpg",
+      "ratio": 0.771
+    },
+    {
+      "id": "met-817124",
+      "issue": "2026-11-27",
+      "t": "该隐杀亚伯",
+      "a": "皮尔·弗朗切斯科·莫拉",
+      "aid": "pier-francesco-mola",
+      "y": 1650,
+      "mv": "巴洛克",
+      "tags": [
+        "宗教",
+        "17世纪",
+        "意大利",
+        "巴洛克",
+        "圣经题材"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19625-001.jpg",
+      "ratio": 1.496
+    },
+    {
+      "id": "met-438015",
+      "issue": "2026-11-27",
+      "t": "《阴天，大杰特岛》",
+      "a": "乔治·修拉",
+      "aid": "georges-seurat",
+      "y": 1886,
+      "mv": "新印象派",
+      "tags": [
+        "风景",
+        "塞纳河",
+        "19世纪",
+        "法国",
+        "点彩技法"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1945.jpg",
+      "ratio": 0.822
+    },
+    {
+      "id": "met-54844",
+      "issue": "2026-11-27",
+      "t": "角玉屋小紫花魁读信图",
+      "a": "鸟文斋荣之",
+      "aid": "chobunsai-eishi",
+      "y": 1794,
+      "mv": "浮世绘",
+      "tags": [
+        "美人画",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "江户时代"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP142117.jpg",
+      "ratio": 1.492
+    },
+    {
+      "id": "met-437472",
+      "issue": "2026-11-27",
+      "t": "废墟拱门",
+      "a": "于贝尔·罗伯特",
+      "aid": "hubert-robert",
+      "y": null,
+      "mv": "浪漫主义",
+      "tags": [
+        "废墟",
+        "建筑",
+        "风景",
+        "18世纪",
+        "法国"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP312866.jpg",
+      "ratio": 0.382
+    },
+    {
+      "id": "met-436909",
+      "issue": "2026-11-27",
+      "t": "圣母朝拜圣子与小圣约翰及天使",
+      "a": "洛伦佐·迪·克雷迪",
+      "aid": "lorenzo-di-credi-lorenzo-d-andrea-d-oderigo",
+      "y": 1490,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "15世纪",
+        "意大利",
+        "文艺复兴",
+        "圆形画",
+        "圣母像"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP358280.jpg",
+      "ratio": 1.013
+    },
+    {
+      "id": "met-436628",
+      "issue": "2026-11-27",
+      "t": "芭芭拉·克莱斯（俗称“疯巴巴”）",
+      "a": "弗兰斯·哈尔斯",
+      "aid": "frans-hals",
+      "y": null,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "黄金时代",
+        "性格"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44326-001.jpg",
+      "ratio": 1.216
+    },
+    {
+      "id": "met-437304",
+      "issue": "2026-11-27",
+      "t": "两个年轻的农妇",
+      "a": "卡米耶·毕沙罗",
+      "aid": "camille-pissarro",
+      "y": 1891,
+      "mv": "新印象派",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "新印象派",
+        "乡村",
+        "点彩"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1860.jpg",
+      "ratio": 0.773
+    },
+    {
+      "id": "met-436015",
+      "issue": "2026-11-27",
+      "t": "路易·盖马尔饰演《魔鬼罗伯特》",
+      "a": "居斯塔夫·库尔贝",
+      "aid": "gustave-courbet",
+      "y": 1857,
+      "mv": "现实主义",
+      "tags": [
+        "肖像",
+        "19世纪",
+        "法国",
+        "现实主义",
+        "歌剧",
+        "舞台装束"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1975.jpg",
+      "ratio": 1.381
+    },
+    {
+      "id": "met-438379",
+      "issue": "2026-11-27",
+      "t": "戴红项链的年轻女子",
+      "a": "伦勃朗",
+      "aid": "rembrandt",
+      "y": 1645,
+      "mv": "巴洛克",
+      "tags": [
+        "肖像",
+        "17世纪",
+        "荷兰",
+        "巴洛克",
+        "光影"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120418.jpg",
+      "ratio": 1.151
+    },
+    {
+      "id": "met-436882",
+      "issue": "2026-11-27",
+      "t": "葡萄收获",
+      "a": "莱昂 - 奥古斯丁·莱尔米特",
+      "aid": "leon-augustin-lhermitte",
+      "y": 1884,
+      "mv": "自然主义",
+      "tags": [
+        "人物",
+        "19世纪",
+        "法国",
+        "自然主义",
+        "劳动",
+        "乡村"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP318213.jpg",
+      "ratio": 1.195
+    },
+    {
+      "id": "met-436518",
+      "issue": "2026-11-27",
+      "t": "圣母子与圣徒",
+      "a": "吉罗拉莫·达伊·利布里",
+      "aid": "girolamo-dai-libri",
+      "y": 1520,
+      "mv": "文艺复兴",
+      "tags": [
+        "宗教",
+        "16世纪",
+        "意大利",
+        "文艺复兴",
+        "祭坛画",
+        "维罗纳"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2956.jpg",
+      "ratio": 1.92
+    },
+    {
+      "id": "met-437078",
+      "issue": "2026-11-27",
+      "t": "蒙多尔瀑布",
+      "a": "阿希尔 - 埃特纳·米沙隆",
+      "aid": "achille-etna-michallon",
+      "y": 1818,
+      "mv": "浪漫主义",
+      "tags": [
+        "风景",
+        "19世纪",
+        "法国",
+        "浪漫主义",
+        "自然"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23366-001.jpg",
+      "ratio": 0.743
+    },
+    {
+      "id": "met-54014",
+      "issue": "2026-11-27",
+      "t": "松与犁柄",
+      "a": "柳々居辰斋",
+      "aid": "ryuryukyo-shinsai",
+      "y": null,
+      "mv": "浮世绘",
+      "tags": [
+        "静物",
+        "19世纪",
+        "日本",
+        "浮世绘",
+        "摺物",
+        "极简"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP138870.jpg",
+      "ratio": 0.536
+    },
+    {
+      "id": "met-436321",
+      "issue": "2026-11-27",
+      "t": "罗马室内",
+      "a": "让 - 奥诺雷·弗拉戈纳尔",
+      "aid": "jean-honore-fragonard",
+      "y": 1760,
+      "mv": "洛可可",
+      "tags": [
+        "室内",
+        "18世纪",
+        "法国",
+        "光影",
+        "风俗画"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1010-001.jpg",
+      "ratio": 0.828
+    },
+    {
+      "id": "met-37380",
+      "issue": "2026-11-27",
+      "t": "二代尾川常夜之扮理发师阿六",
+      "a": "东洲斋写乐",
+      "aid": "toshusai-sharaku",
+      "y": 1794,
+      "mv": "浮世绘",
+      "tags": [
+        "役者绘",
+        "18世纪",
+        "日本",
+        "浮世绘",
+        "江户时代"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/as/web-large/DP130206.jpg",
+      "ratio": 2.09
+    },
+    {
+      "id": "met-436134",
+      "issue": "2026-11-27",
+      "t": "舞台上的舞者",
+      "a": "埃德加·德加",
+      "aid": "edgar-degas",
+      "y": 1877,
+      "mv": "印象派",
+      "tags": [
+        "舞蹈",
+        "19世纪",
+        "法国",
+        "印象派",
+        "素描",
+        "舞台"
+      ],
+      "th": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1913.jpg",
+      "ratio": 0.79
     }
   ]
 }
