@@ -34,10 +34,19 @@ ARTIST_TERMS = ["Rembrandt", "Van Gogh", "Monet", "Renoir", "Cezanne", "Degas",
                 "Church", "Cole", "Bierstadt", "Durand", "Inness", "Hassam"]
 
 
+# v1.1 是 Elastic 支持的分页接口（offset+limit），不再像 v1 那样一次性
+# 返回全量匹配 objectIDs；每次请求固定 limit=100，offset 在一个够大的区间
+# 内随机取，确保多次调用覆盖到池子的不同片段（offset 超过 total 时 Met
+# 返回 200 + objectIDs:null，已由下面的 `or []` 兜底，不是错误）。
+SEARCH_LIMIT = 100
+_OFFSET_RANGE = 2000
+
+
 def _search(dep, **extra):
     params = {"q": "the", "departmentId": dep, "hasImages": "true",
-              "isPublicDomain": "true", **extra}
-    data = http_get_json(f"{config.MET_BASE}/search", params=params)
+              "isPublicDomain": "true", "limit": SEARCH_LIMIT,
+              "offset": random.randint(0, _OFFSET_RANGE), **extra}
+    data = http_get_json(f"{config.MET_SEARCH_BASE}/search", params=params)
     return (data or {}).get("objectIDs") or []
 
 

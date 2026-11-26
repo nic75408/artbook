@@ -17,15 +17,23 @@ LLM_MAX_TOKENS = int(os.environ.get("LLM_MAX_TOKENS", "4000"))
 LLM_TIMEOUT = 180
 
 # --- 数据源 ---
+# 2026-11-27：Met 于 2026-10-01 停用 v1 搜索接口（返回 410，body 里的
+# replacement 字段指向 v1.1/search）。v1.1 是 Elastic 支持，分页用
+# offset+limit（而非 v1 的返回全量 objectIDs 数组）。单件详情接口仍是
+# v1（实测 200 正常），所以搜索与详情分成两个 BASE。
 MET_BASE = "https://collectionapi.metmuseum.org/public/collection/v1"
+MET_SEARCH_BASE = "https://collectionapi.metmuseum.org/public/collection/v1.1"
 AIC_BASE = "https://api.artic.edu/api/v1"
 CMA_BASE = "https://openaccess-api.clevelandart.org/api"
 RIJKS_BASE = "https://www.rijksmuseum.nl/api/en"
 RIJKS_API_KEY = os.environ.get("RIJKS_API_KEY", "")
 
 # --- 候选配额（默认配比；源失败由其余源补足） ---
+# 2026-11-27：AIC 被 Cloudflare 人机验证拦死（403，改 header 绕不过），
+# 把原 30 个名额转给 Met（+20）和 CMA（+10），AIC 配额归零——
+# 自动跳过逻辑（aic.py）保留，配额为 0 时 generate.fetch_candidates 直接跳过该源。
 CANDIDATE_TARGET = 100
-SOURCE_QUOTA = {"met": 50, "aic": 30, "cma": 20}
+SOURCE_QUOTA = {"met": 70, "aic": 0, "cma": 30}
 
 # --- 请求礼仪（SPE §6.2 硬性） ---
 REQUEST_INTERVAL = 0.15       # 每请求间隔 >= 150ms
